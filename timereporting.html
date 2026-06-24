@@ -128,10 +128,15 @@ const WEEKS = [
   { label: 'June – Week 2', data: [3341,337,187,244,1571,718,415,186,3135] }
 ];
 
+const TEAM_BREAKDOWN = [
+    { label:'Consumer',               icon:'📊', data:[725,132,45,82,724,98,94,39,654] },
+    { label:'Content',                icon:'📝', data:[16,8,69,81,421,171,79,46,198] },
+    { label:'Mid-Market',             icon:'🏢', data:[1789,0,0,0,0,141,71,52,1256] },
+    { label:'Architecture & Platform',icon:'🏗️', data:[811,197,73,81,426,308,171,49,1027] }
+];
+
 const TECH_DATA = {
-  jw1: [
-    { label:'Combined Overview', icon:'📊', data:[3196,317,199,239,1370,745,448,157,2501], note:'Per-team data not available in source file' }
-  ],
+  jw1: TEAM_BREAKDOWN,
   jw2: [
     { label:'Consumer',               icon:'📊', data:[725,132,45,82,724,98,94,39,654] },
     { label:'Content',                icon:'📝', data:[16,8,69,81,421,171,79,46,198] },
@@ -178,7 +183,7 @@ function buildTechCat(tc, containerId) {
   const card = document.createElement('div');
   card.className = 'techcat-card';
   card.innerHTML = `<h4>${tc.icon} ${tc.label}</h4>
-    <div class="techcat-sub">${tc.note ? `<em style="color:var(--text-light);font-style:italic">${tc.note}</em>` : '&nbsp;'}</div>
+    <div class="techcat-sub">&nbsp;</div>
     <div class="techcat-chart"><canvas id="${cid}"></canvas></div>
     <div id="tb${cid}"></div>`;
   document.getElementById(containerId).appendChild(card);
