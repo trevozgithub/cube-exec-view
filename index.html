@@ -290,7 +290,8 @@ function destroyCharts() { chartInstances.forEach(c => c.destroy()); chartInstan
 
 function render(data) {
   destroyCharts();
-  const items = data.items.filter(it => it.status !== 'Not started');
+  const REDACTED = new Set(['CPN-1114','CPN-1115','CPN-1116','CPN-1117','CPN-1118']);
+  const items = data.items.filter(it => it.status !== 'Not started' && !REDACTED.has(it.key));
   document.getElementById('itemCount').textContent = `${items.length} initiatives`;
 
   const ts = data.updated ? new Date(data.updated) : new Date();
