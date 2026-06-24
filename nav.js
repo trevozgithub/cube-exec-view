@@ -9,7 +9,7 @@ const PAGES = [
   { label: 'Corp Tech & WP Systems',  href: 'techops.html',       icon: '🖥️' },
   { label: 'Mid-Market',              href: 'midmarket.html',     icon: '📈' },
   { label: 'Data & AI',               href: 'dataai.html',        icon: '🤖' },
-  { label: 'Time Reporting',          href: 'timereporting.html', icon: '⏱️' },
+  // { label: 'Time Reporting',       href: 'timereporting.html', icon: '⏱️' },
 ];
 
 (function renderNav() {
