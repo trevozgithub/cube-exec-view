@@ -412,8 +412,8 @@ async function loadData(forceRefresh = false) {
   const btn = document.getElementById('refreshBtn');
   if (btn) btn.classList.add('spinning');
   try {
-    const url = forceRefresh ? 'data-dataai.json?t=' + Date.now() : 'data-dataai.json';
-    const res = await fetch(url);
+    const url = 'data-dataai.json?t=' + Date.now();
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error('Failed to load data-dataai.json: ' + res.status);
     const data = await res.json();
     render(data);
