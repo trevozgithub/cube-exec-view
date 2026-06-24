@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch Consumer initiatives
+      - name: Fetch Jira initiatives
         env:
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
@@ -26,6 +26,17 @@ jobs:
           token = os.environ['JIRA_API_TOKEN']
           auth  = base64.b64encode(f'{email}:{token}'.encode()).decode()
 
+          # Hard-redacted issues - never appear on the dashboard
+          REDACTED = {
+              'CPN-1114','CPN-1115','CPN-1116','CPN-1117','CPN-1118',  # Consumer
+              'CPN-1216','CPN-1217','CPN-1224','CPN-1313',              # InfoSec
+              'CPN-1218','CPN-1219','CPN-1220','CPN-1221','CPN-1222','CPN-1225',  # Infra
+              'CPN-1183','CPN-1184','CPN-1185','CPN-1186','CPN-1187','CPN-1188',  # Content
+              'CPN-1428','CPN-1429','CPN-1430',                         # TechOps
+              'CPN-1170','CPN-1172','CPN-1173','CPN-1174','CPN-1175',   # Mid-Market
+              'CPN-1176','CPN-1177','CPN-1179','CPN-1181',              # Mid-Market
+          }
+
           def fetch_jira(jql, output_file, jira_url):
               params = urllib.parse.urlencode({
                   'jql': jql, 'maxResults': 100,
@@ -36,21 +47,10 @@ jobs:
                   headers={'Authorization': f'Basic {auth}', 'Accept': 'application/json'}
               )
               with urllib.request.urlopen(req) as r:
-                 REDACTED = {
-                  'CPN-1114','CPN-1115','CPN-1116','CPN-1117','CPN-1118',
-                  'CPN-1216','CPN-1217','CPN-1224','CPN-1313',
-                  'CPN-1218','CPN-1219','CPN-1220','CPN-1221','CPN-1222','CPN-1225',
-                  'CPN-1183','CPN-1184','CPN-1185','CPN-1186','CPN-1187','CPN-1188',
-                  'CPN-1428','CPN-1429','CPN-1430',
-              }
+                  data = json.load(r)
               items = []
               for issue in data.get('issues', []):
-                  if issue.get('key','') in REDACTED:
-                      continue
-                  f = issue.get('fields', {})
-                  items.append({
-              for issue in data.get('issues', []):
-                  if issue.get('key','') in REDACTED:
+                  if issue.get('key', '') in REDACTED:
                       continue
                   f = issue.get('fields', {})
                   items.append({
