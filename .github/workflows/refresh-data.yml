@@ -35,6 +35,7 @@ jobs:
               'CPN-1428','CPN-1429','CPN-1430',                         # TechOps
               'CPN-1170','CPN-1172','CPN-1173','CPN-1174','CPN-1175',   # Mid-Market
               'CPN-1176','CPN-1177','CPN-1179','CPN-1181',              # Mid-Market
+              'CPN-1230','CPN-1231','CPN-1232','CPN-1233','CPN-1234','CPN-1235',  # Data & AI
           }
 
           def fetch_jira(jql, output_file, jira_url):
