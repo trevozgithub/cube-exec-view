@@ -290,7 +290,7 @@ function destroyCharts() { chartInstances.forEach(c => c.destroy()); chartInstan
 
 function render(data) {
   destroyCharts();
-  const REDACTED = new Set(['CPN-1218','CPN-1219','CPN-1220','CPN-1221','CPN-1225']);
+  const REDACTED = new Set(['CPN-1218','CPN-1219','CPN-1220','CPN-1221','CPN-1222','CPN-1225']);
   const items = data.items.filter(it => it.status !== 'Not started' && !REDACTED.has(it.key));
   document.getElementById('itemCount').textContent = `${items.length} initiatives`;
 
@@ -426,8 +426,8 @@ async function loadData(forceRefresh = false) {
   if (btn) { btn.classList.add('spinning'); }
 
   try {
-    const url = forceRefresh ? 'data-infra.json?t=' + Date.now() : 'data-infra.json';
-    const res = await fetch(url);
+    const url = 'data-infra.json?t=' + Date.now();
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error('Failed to load data.json: ' + res.status);
     const data = await res.json();
     render(data);
