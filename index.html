@@ -300,6 +300,8 @@ function render(data) {
 
   // Compute RAG per item
   items.forEach(it => { it.rag = calcRAG(it); it.q = calcQ(it.duedate); });
+  const ragOrder = { Red:0, Amber:1, Green:2, Grey:3 };
+  items.sort((a,b) => ragOrder[a.rag] - ragOrder[b.rag]);
 
   const ragCounts = { Green:0, Amber:0, Red:0, Grey:0 };
   items.forEach(it => ragCounts[it.rag]++);
