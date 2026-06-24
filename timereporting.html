@@ -204,7 +204,7 @@ function buildTechCat(tc, containerId) {
   const card = document.createElement('div');
   card.className = 'techcat-card';
   card.innerHTML = `<h4>${tc.icon} ${tc.label}</h4>
-    <div class="techcat-sub">${total.toLocaleString()} hrs total</div>
+    <div class="techcat-sub">&nbsp;</div>
     <div class="techcat-chart"><canvas id="${cid}"></canvas></div>
     <div id="tb${cid}"></div>`;
   document.getElementById(containerId).appendChild(card);
@@ -212,7 +212,7 @@ function buildTechCat(tc, containerId) {
     type:'doughnut',
     data:{ labels:CATEGORIES, datasets:[{ data:tc.data, backgroundColor:COLORS, borderWidth:2, borderColor:'#fff', hoverOffset:4 }] },
     options:{ responsive:true, maintainAspectRatio:false, cutout:'58%',
-      plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: ctx=>`${ctx.label}: ${ctx.raw} hrs (${pct(ctx.raw,total)}%)` } } } }
+      plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: ctx=>`${ctx.label}: ${pct(ctx.raw,total)}%` } } } }
   });
   const breakdown = document.getElementById('tb'+cid);
   const maxP = Math.max(...tc.data.map(v=>pct(v,total)));
