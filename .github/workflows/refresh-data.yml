@@ -1,0 +1,43 @@
+name: Refresh Jira Data
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch from Jira
+        env:
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request, urllib.parse, json, base64, os, datetime
+          email = os.environ['JIRA_EMAIL']
+          token = os.environ['JIRA_API_TOKEN']
+          auth = base64.b64encode(f'{email}:{token}'.encode()).decode()
+          jql = 'project = CPN AND labels in ("Consumer","consumer") AND status NOT IN (Cancelled, Closed) ORDER BY updated DESC'
+          params = urllib.parse.urlencode({'jql':jql,'maxResults':100,'fields':'summary,status,assignee,duedate,updated,labels'})
+          req = urllib.request.Request(f'https://cube001.atlassian.net/rest/api/3/search?{params}',
+              headers={'Authorization':f'Basic {auth}','Accept':'application/json'})
+          with urllib.request.urlopen(req) as r:
+              data = json.load(r)
+          items = [{'key':i['key'],'summary':i['fields'].get('summary',''),'status':(i['fields'].get('status')or{}).get('name',''),
+              'assignee':(i['fields'].get('assignee')or{}).get('displayName','Unassigned'),
+              'duedate':i['fields'].get('duedate','')or'','reviewed':(i['fields'].get('updated')or'')[:10],
+              'labels':i['fields'].get('labels',[])} for i in data.get('issues',[])]
+          with open('data.json','w') as f:
+              json.dump({'updated':datetime.datetime.utcnow().isoformat()+'Z','total':len(items),'jiraUrl':'https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183','items':items},f,indent=2)
+          print(f'Done: {len(items)} items')
+          PYEOF
+      - name: Commit
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git add data.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "data: refresh [skip ci]"
+          git push
