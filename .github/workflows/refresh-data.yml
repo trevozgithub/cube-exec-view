@@ -37,8 +37,17 @@ jobs:
               )
               with urllib.request.urlopen(req) as r:
                   data = json.load(r)
+              REDACTED = {
+                  'CPN-1114','CPN-1115','CPN-1116','CPN-1117','CPN-1118',
+                  'CPN-1216','CPN-1217','CPN-1224','CPN-1313',
+                  'CPN-1218','CPN-1219','CPN-1220','CPN-1221','CPN-1222','CPN-1225',
+                  'CPN-1183','CPN-1184','CPN-1185','CPN-1186','CPN-1187','CPN-1188',
+                  'CPN-1428','CPN-1429','CPN-1430',
+              }
               items = []
               for issue in data.get('issues', []):
+                  if issue.get('key','') in REDACTED:
+                      continue
                   f = issue.get('fields', {})
                   items.append({
                       'key':      issue.get('key', ''),
