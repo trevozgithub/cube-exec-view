@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cube Technology Initiatives – InfoSec</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --brand: #0052CC; --brand-dark: #003785; --brand-light: #E6EEFF;
+      --green: #1D7A3A; --green-bg: #E3F5E9;
+      --amber: #B45309; --amber-bg: #FEF3C7;
+      --red: #B91C1C; --red-bg: #FEE2E2;
+      --grey: #6B7280; --border: #E5E7EB;
+      --surface: #F9FAFB; --white: #FFFFFF; --text: #111827; --text-light: #6B7280;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--surface); color: var(--text); font-size: 13px; line-height: 1.5; }
+
+    /* NAV */
+    .topnav { background: var(--brand-dark); color: #fff; display: flex; align-items: center; gap: 24px; padding: 0 28px; height: 52px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+    .topnav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .topnav-logo svg { width: 28px; height: 28px; }
+    .topnav-divider { width: 1px; height: 28px; background: rgba(255,255,255,.25); }
+    .topnav-tabs { display: flex; gap: 4px; flex: 1; }
+    .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
+    .topnav-tab:hover { background: rgba(255,255,255,.12); color: #fff; }
+    .topnav-tab.active { background: rgba(255,255,255,.18); color: #fff; }
+    .topnav-right { display: flex; align-items: center; gap: 12px; }
+    .topnav-date { font-size: 12px; color: rgba(255,255,255,.6); }
+    .jira-link { display: flex; align-items: center; gap: 6px; background: rgba(255,255,255,.15); color: #fff; padding: 5px 12px; border-radius: 6px; text-decoration: none; font-size: 12px; font-weight: 500; transition: background .15s; }
+    .jira-link:hover { background: rgba(255,255,255,.25); }
+
+    /* PAGE HEADER */
+    .page-header { background: var(--white); border-bottom: 1px solid var(--border); padding: 18px 28px 14px; }
+    .page-header h1 { font-size: 20px; font-weight: 700; color: var(--brand-dark); margin-bottom: 4px; }
+    .page-header .subtitle { font-size: 13px; color: var(--text-light); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .filter-chip { display: inline-flex; align-items: center; gap: 5px; background: var(--brand-light); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .live-badge { display: inline-flex; align-items: center; gap: 5px; background: #ECFDF5; color: #065F46; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #22C55E; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+    .refresh-btn { display: inline-flex; align-items: center; gap: 5px; background: none; border: 1px solid var(--border); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; cursor: pointer; transition: background .12s; }
+    .refresh-btn:hover { background: var(--brand-light); }
+    .refresh-btn.spinning svg { animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* MAIN */
+    .main { padding: 20px 28px; max-width: 1700px; margin: 0 auto; }
+
+    /* LOADING */
+    .loading-overlay { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px; gap: 16px; }
+    .spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--brand); border-radius: 50%; animation: spin 0.8s linear infinite; }
+    .loading-text { color: var(--text-light); font-size: 14px; }
+    .error-box { background: var(--red-bg); border: 1px solid #FECACA; border-radius: 8px; padding: 16px 20px; color: var(--red); font-size: 13px; }
+
+    /* KPI */
+    .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 20px; }
+    .kpi-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .kpi-icon { width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+    .kpi-icon.total { background: var(--brand-light); }
+    .kpi-icon.green { background: var(--green-bg); }
+    .kpi-icon.amber { background: var(--amber-bg); }
+    .kpi-icon.red   { background: var(--red-bg); }
+    .kpi-body { flex: 1; }
+    .kpi-value { font-size: 28px; font-weight: 700; line-height: 1; }
+    .kpi-label { font-size: 12px; color: var(--text-light); margin-top: 2px; }
+    .kpi-pct { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; align-self: flex-start; }
+    .kpi-pct.green { background: var(--green-bg); color: var(--green); }
+    .kpi-pct.amber { background: var(--amber-bg); color: var(--amber); }
+    .kpi-pct.red   { background: var(--red-bg);   color: var(--red); }
+    .kpi-pct.blue  { background: var(--brand-light); color: var(--brand); }
+
+    /* CHARTS */
+    .charts-row { display: grid; grid-template-columns: 1fr 1fr 1.3fr; gap: 14px; margin-bottom: 20px; }
+    .chart-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .chart-card h3 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; }
+    .chart-wrap { position: relative; height: 185px; }
+    .chart-wrap-bar { position: relative; height: 210px; }
+
+    /* TABLE SECTION */
+    .timeline-section { background: var(--white); border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.05); overflow: hidden; }
+    .timeline-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px 12px; border-bottom: 1px solid var(--border); background: var(--surface); }
+    .timeline-header h2 { font-size: 15px; font-weight: 700; }
+    .tl-controls { display: flex; align-items: center; gap: 8px; }
+    .tl-btn { border: 1px solid var(--border); background: var(--white); color: var(--text); padding: 5px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 500; display: flex; align-items: center; gap: 5px; text-decoration: none; transition: background .12s; }
+    .tl-btn:hover { background: var(--surface); }
+    .tl-btn.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+    .tl-btn.primary:hover { background: var(--brand-dark); }
+    .legend { display: flex; gap: 14px; align-items: center; }
+    .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-light); }
+    .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+
+    /* TABLE */
+    .tl-table-wrap { overflow-x: auto; }
+    table.tl-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    table.tl-table thead th { background: #F3F4F6; color: var(--text-light); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .4px; padding: 9px 12px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    table.tl-table tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
+    table.tl-table tbody tr:hover { background: #F9FAFB; }
+    table.tl-table tbody td { padding: 9px 12px; vertical-align: middle; }
+    .row-num { color: var(--text-light); font-size: 11px; text-align: center; }
+    .wi-cell { display: flex; align-items: center; gap: 8px; min-width: 280px; max-width: 420px; }
+    .wi-key { font-size: 11px; color: var(--brand); font-weight: 600; white-space: nowrap; text-decoration: none; }
+    .wi-key:hover { text-decoration: underline; }
+    .wi-summary { color: var(--text); font-weight: 500; line-height: 1.35; }
+
+    /* STATUS BADGES */
+    .status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: .3px; white-space: nowrap; text-transform: uppercase; }
+    .status-badge::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+    .s-plr { background: #EDE9FE; color: #6D28D9; }
+    .s-or  { background: #D1FAE5; color: #065F46; }
+    .s-bt  { background: #DBEAFE; color: #1E40AF; }
+    .s-sc  { background: #FEF3C7; color: #92400E; }
+    .s-pl  { background: #F3F4F6; color: #374151; }
+    .s-ns  { background: #F3F4F6; color: #6B7280; }
+
+    /* RAG */
+    .rag-pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+    .rag-pill .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .rag-green { background: var(--green-bg); color: var(--green); }
+    .rag-green .dot { background: #22C55E; }
+    .rag-amber { background: var(--amber-bg); color: var(--amber); }
+    .rag-amber .dot { background: #F59E0B; }
+    .rag-red   { background: var(--red-bg);   color: var(--red); }
+    .rag-red   .dot { background: #EF4444; }
+    .rag-grey  { background: #F3F4F6; color: #6B7280; }
+    .rag-grey  .dot { background: #9CA3AF; }
+
+    /* OTHER CELLS */
+    .date-cell { white-space: nowrap; }
+    .date-overdue { color: var(--red); font-weight: 600; }
+    .q-badge { display: inline-block; background: var(--brand-light); color: var(--brand); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; }
+    .assignee-cell { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+    .avatar { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #fff; flex-shrink: 0; }
+
+    /* GANTT */
+    .gantt-col { width: 280px; min-width: 240px; }
+    .gantt-bar-wrap { height: 22px; background: #F3F4F6; border-radius: 3px; position: relative; overflow: hidden; }
+    .gantt-bar { position: absolute; top: 3px; height: 16px; border-radius: 3px; min-width: 6px; }
+    .gantt-bar.green { background: #22C55E; }
+    .gantt-bar.amber { background: #F59E0B; }
+    .gantt-bar.red   { background: #EF4444; }
+    .gantt-bar.grey  { background: #9CA3AF; }
+    .gantt-today { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--brand); opacity: .7; }
+
+    /* FOOTER */
+    .tl-footer { padding: 10px 18px; background: var(--surface); border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--text-light); }
+    .tl-footer a { color: var(--brand); text-decoration: none; font-weight: 600; }
+    .tl-footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 1100px) { .charts-row { grid-template-columns: 1fr 1fr; } .kpi-row { grid-template-columns: repeat(2,1fr); } }
+  </style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav-logo">
+    <svg viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="6" fill="white" fill-opacity="0.15"/><path d="M6 8h6v6H6V8zm10 0h6v6h-6V8zM6 18h6v4H6v-4zm10-4h6v8h-6v-8z" fill="white"/></svg>
+    Cube Technology Initiatives
+  </div>
+  <div class="topnav-divider"></div>
+  <div class="topnav-tabs" id="navTabs"></div>
+  <div class="topnav-right">
+    <span class="topnav-date" id="navDate"></span>
+    <a class="jira-link" href="https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183" target="_blank" rel="noopener">
+      <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M13 1H3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V3a2 2 0 00-2-2zm-1 11H4V4h8v8z"/></svg>
+      Open in Jira
+    </a>
+  </div>
+<script src="nav.js"></script>
+</nav>
+
+<div class="page-header">
+  <h1>📈 Mid-Market Active Projects</h1>
+  <div class="subtitle">
+    <span>Plans › Timeline</span>
+    <span class="filter-chip">Mid-Market active projects</span>
+    <span id="itemCount">Loading...</span>
+    <span class="live-badge"><span class="live-dot"></span>Live data</span>
+    <button class="refresh-btn" id="refreshBtn" onclick="loadData(true)">
+      <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor" id="refreshIcon"><path d="M13.6 2.4A7 7 0 102.4 13.6M14 1v4h-4"/></svg>
+      Refresh
+    </button>
+    <span id="lastUpdated" style="margin-left:auto; font-size:11px;"></span>
+  </div>
+</div>
+
+<div class="main">
+  <div id="content">
+    <div class="loading-overlay">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading live Jira data...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const JIRA_BASE = 'https://cube001.atlassian.net/browse/';
+const PLAN_URL  = 'https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2830';
+const GANTT_START = new Date('2025-10-01');
+const GANTT_END   = new Date('2026-09-30');
+
+// ─── RAG LOGIC ───────────────────────────────────────────────────
+function calcRAG(item) {
+  const today = new Date();
+  const due = item.duedate ? new Date(item.duedate) : null;
+  const reviewed = item.reviewed ? new Date(item.reviewed) : null;
+  const daysSinceReview = reviewed ? (today - reviewed) / 86400000 : 999;
+  const s = item.status;
+
+  if (s === 'Post Launch Review' || s === 'Operational Readiness') return 'Green';
+  if (due && due < today) return 'Red';
+  if (s === 'Not started' && !due) return 'Grey';
+  if (s === 'Build & Test') {
+    if (due && (due - today) < 14 * 86400000) return 'Amber';
+    return daysSinceReview > 30 ? 'Amber' : 'Green';
+  }
+  if (s === 'Scoping' || s === 'Planning') return 'Amber';
+  return 'Amber';
+}
+
+// ─── QUARTERLY ───────────────────────────────────────────────────
+function calcQ(duedate) {
+  if (!duedate) return '';
+  const m = parseInt(duedate.slice(5, 7));
+  if (m <= 3) return 'Q1';
+  if (m <= 6) return 'Q2';
+  if (m <= 9) return 'Q3';
+  return 'Q4';
+}
+
+// ─── GANTT ───────────────────────────────────────────────────────
+function ganttPct(d) {
+  const dt = new Date(d);
+  if (dt <= GANTT_START) return 0;
+  if (dt >= GANTT_END) return 100;
+  return ((dt - GANTT_START) / (GANTT_END - GANTT_START)) * 100;
+}
+function todayPct() { return ganttPct(new Date()); }
+
+function ganttBounds(item) {
+  const due = item.duedate || null;
+  const q = calcQ(due);
+  let startDate, endDate;
+  if (due) {
+    const d = new Date(due);
+    startDate = new Date(d.getFullYear(), d.getMonth() - 4, 1);
+    endDate = d;
+  } else {
+    startDate = new Date('2026-01-01');
+    endDate = new Date('2026-06-30');
+  }
+  return { left: ganttPct(startDate), right: ganttPct(endDate) };
+}
+
+// ─── HELPERS ─────────────────────────────────────────────────────
+function fmtDate(d) {
+  if (!d) return '';
+  return new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric' });
+}
+function isOverdue(d) { return d && new Date(d) < new Date(); }
+
+const AVATAR_COLORS = {
+  'George Brand':'#0369A1','Jaspreet Manghera':'#DC2626','Masoom Miah':'#7C3AED',
+  'Alistair McPherson':'#0284C7','Beth Denham':'#16A34A',"Helen O'Shea":'#9333EA',
+  'Vamsee Chinta':'#0D9488','Jeremy Noble':'#D97706','Malcolm Brown':'#6B7280',
+  'Unassigned':'#9CA3AF',
+};
+function avatarColor(name) {
+  return AVATAR_COLORS[name] || '#'+Math.abs(name.split('').reduce((a,c)=>a+c.charCodeAt(0),0)).toString(16).slice(0,6).padEnd(6,'3');
+}
+function initials(name) {
+  if (!name || name === 'Unassigned') return '?';
+  return name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+}
+
+function statusClass(s) {
+  if (s.includes('Post Launch'))   return 's-plr';
+  if (s.includes('Operational'))   return 's-or';
+  if (s.includes('Build'))         return 's-bt';
+  if (s.includes('Scoping'))       return 's-sc';
+  if (s.includes('Not started'))   return 's-ns';
+  return 's-pl';
+}
+function ragBarColor(r) { return r === 'Green' ? 'green' : r === 'Amber' ? 'amber' : r === 'Red' ? 'red' : 'grey'; }
+
+// ─── RENDER ──────────────────────────────────────────────────────
+let chartInstances = [];
+function destroyCharts() { chartInstances.forEach(c => c.destroy()); chartInstances = []; }
+
+function render(data) {
+  destroyCharts();
+  const items = data.items.filter(it => it.status !== 'Not started');
+  document.getElementById('itemCount').textContent = `${items.length} initiatives`;
+
+  const ts = data.updated ? new Date(data.updated) : new Date();
+  document.getElementById('lastUpdated').textContent =
+    '🔄 Refreshed: ' + ts.toLocaleString('en-GB', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+
+  // Compute RAG per item
+  items.forEach(it => { it.rag = calcRAG(it); it.q = calcQ(it.duedate); });
+  const ragOrder = { Red:0, Amber:1, Green:2, Grey:3 };
+  items.sort((a,b) => ragOrder[a.rag] - ragOrder[b.rag]);
+
+  const ragCounts = { Green:0, Amber:0, Red:0, Grey:0 };
+  items.forEach(it => ragCounts[it.rag]++);
+
+  const statusCounts = {};
+  items.forEach(it => { statusCounts[it.status] = (statusCounts[it.status]||0)+1; });
+
+  const assigneeCounts = {};
+  items.forEach(it => { if(it.assignee !== 'Unassigned') assigneeCounts[it.assignee] = (assigneeCounts[it.assignee]||0)+1; });
+
+  const today = todayPct();
+
+  // Build HTML
+  const html = `
+    <div class="kpi-row">
+      <div class="kpi-card"><div class="kpi-icon total">📋</div><div class="kpi-body"><div class="kpi-value" style="color:var(--brand)">${items.length}</div><div class="kpi-label">Total Initiatives</div></div><div class="kpi-pct blue">Active</div></div>
+      <div class="kpi-card"><div class="kpi-icon green">✅</div><div class="kpi-body"><div class="kpi-value" style="color:var(--green)">${ragCounts.Green}</div><div class="kpi-label">On Track (Green)</div></div><div class="kpi-pct green">${Math.round(ragCounts.Green/items.length*100)}%</div></div>
+      <div class="kpi-card"><div class="kpi-icon amber">⚠️</div><div class="kpi-body"><div class="kpi-value" style="color:var(--amber)">${ragCounts.Amber}</div><div class="kpi-label">At Risk (Amber)</div></div><div class="kpi-pct amber">${Math.round(ragCounts.Amber/items.length*100)}%</div></div>
+      <div class="kpi-card"><div class="kpi-icon red">🔴</div><div class="kpi-body"><div class="kpi-value" style="color:var(--red)">${ragCounts.Red}</div><div class="kpi-label">Off Track (Red)</div></div><div class="kpi-pct red">${Math.round(ragCounts.Red/items.length*100)}%</div></div>
+    </div>
+
+    <div class="charts-row">
+      <div class="chart-card"><h3>RAG Status</h3><div class="chart-wrap"><canvas id="ragChart"></canvas></div></div>
+      <div class="chart-card"><h3>Status Distribution</h3><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div>
+      <div class="chart-card"><h3>Initiative Load by Assignee</h3><div class="chart-wrap-bar"><canvas id="assigneeChart"></canvas></div></div>
+    </div>
+
+    <div class="timeline-section">
+      <div class="timeline-header">
+        <h2>📈 Mid-Market Initiative Timeline</h2>
+        <div class="tl-controls">
+          <div class="legend">
+            <div class="legend-item"><div class="legend-dot" style="background:#22C55E"></div>On Track</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>At Risk</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#EF4444"></div>Off Track</div>
+          </div>
+          <a class="tl-btn primary" href="${PLAN_URL}" target="_blank" rel="noopener">View in Jira</a>
+        </div>
+      </div>
+      <div class="tl-table-wrap">
+        <table class="tl-table">
+          <thead><tr>
+            <th style="width:36px">#</th>
+            <th style="min-width:300px">Work Item</th>
+            <th>Status</th><th>RAG</th><th>Due Date</th><th>Last Updated</th><th>Q</th><th>Assignee</th>
+            <th class="gantt-col">
+              <div style="display:flex;font-size:9px;font-weight:700;color:var(--text-light);letter-spacing:.4px;text-transform:uppercase">
+                ${['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep'].map(m=>`<div style="flex:1;text-align:center;border-left:1px solid var(--border)">${m}</div>`).join('')}
+              </div>
+            </th>
+          </tr></thead>
+          <tbody>
+            ${items.map((it, idx) => {
+              const b = ganttBounds(it);
+              const barW = Math.max(b.right - b.left, 1).toFixed(1);
+              const ov = isOverdue(it.duedate);
+              const ac = avatarColor(it.assignee);
+              const init = initials(it.assignee);
+              return `<tr>
+                <td class="row-num">${idx+1}</td>
+                <td><div class="wi-cell">
+                  <a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">${it.key}</a>
+                  <span class="wi-summary">${it.summary}</span>
+                </div></td>
+                <td><span class="status-badge ${statusClass(it.status)}">${it.status}</span></td>
+                <td><div class="rag-pill rag-${it.rag.toLowerCase()}"><div class="dot"></div>${it.rag}</div></td>
+                <td class="date-cell ${ov?'date-overdue':''}">${fmtDate(it.duedate)}${ov?' ⚠':''}</td>
+                <td class="date-cell">${fmtDate(it.reviewed)}</td>
+                <td>${it.q?`<span class="q-badge">${it.q}</span>`:'<span style="color:var(--text-light)">—</span>'}</td>
+                <td><div class="assignee-cell"><div class="avatar" style="background:${ac}">${init}</div>${it.assignee}</div></td>
+                <td class="gantt-col">
+                  <div class="gantt-bar-wrap">
+                    <div class="gantt-bar ${ragBarColor(it.rag)}" style="left:${b.left.toFixed(1)}%;width:${barW}%"></div>
+                    <div class="gantt-today" style="left:${today.toFixed(1)}%"></div>
+                  </div>
+                </td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+      <div class="tl-footer">
+        <div>Live data from <a href="${PLAN_URL}" target="_blank">Jira Plans · Cube Technology Initiatives</a> · Auto-refreshes every 30 min via GitHub Actions</div>
+        <div><a href="${PLAN_URL}" target="_blank">Open full timeline in Jira ↗</a></div>
+      </div>
+    </div>`;
+
+  document.getElementById('content').innerHTML = html;
+
+  // Charts
+  const ragLabels = ['Green','Amber','Red','Grey'];
+  const ragColors = ['#22C55E','#F59E0B','#EF4444','#9CA3AF'];
+  chartInstances.push(new Chart(document.getElementById('ragChart'), {
+    type:'doughnut',
+    data:{ labels:ragLabels, datasets:[{ data:ragLabels.map(l=>ragCounts[l]||0), backgroundColor:ragColors, borderWidth:3, borderColor:'#fff', hoverOffset:6 }] },
+    options:{ responsive:true, maintainAspectRatio:false, cutout:'68%', plugins:{ legend:{ position:'right', labels:{ font:{size:12}, boxWidth:12, padding:10 } } } }
+  }));
+
+  const statusColors = { 'Post Launch Review':'#7C3AED','Operational Readiness':'#16A34A','Build & Test':'#2563EB','Scoping':'#D97706','Planning':'#6B7280','Not started':'#9CA3AF' };
+  const sLabels = Object.keys(statusCounts);
+  chartInstances.push(new Chart(document.getElementById('statusChart'), {
+    type:'doughnut',
+    data:{ labels:sLabels, datasets:[{ data:sLabels.map(l=>statusCounts[l]), backgroundColor:sLabels.map(l=>statusColors[l]||'#9CA3AF'), borderWidth:3, borderColor:'#fff', hoverOffset:6 }] },
+    options:{ responsive:true, maintainAspectRatio:false, cutout:'68%', plugins:{ legend:{ position:'right', labels:{ font:{size:11}, boxWidth:10, padding:6, generateLabels:c=>c.data.labels.map((l,i)=>({ text:`${l} (${c.data.datasets[0].data[i]})`, fillStyle:c.data.datasets[0].backgroundColor[i], strokeStyle:'#fff', lineWidth:2, index:i })) } } } }
+  }));
+
+  const topAssignees = Object.entries(assigneeCounts).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  chartInstances.push(new Chart(document.getElementById('assigneeChart'), {
+    type:'bar',
+    data:{
+      labels: topAssignees.map(([n])=>n.split(' ').map((w,i)=>i===0?w:w[0]+'.').join(' ')),
+      datasets:[{ label:'Initiatives', data:topAssignees.map(([,v])=>v), backgroundColor:topAssignees.map(([n])=>avatarColor(n)+'BB'), borderColor:topAssignees.map(([n])=>avatarColor(n)), borderWidth:1.5, borderRadius:4 }]
+    },
+    options:{ responsive:true, maintainAspectRatio:false, indexAxis:'y', plugins:{ legend:{display:false} }, scales:{ x:{ grid:{color:'#F3F4F6'}, ticks:{stepSize:1,font:{size:11}} }, y:{ ticks:{font:{size:11}} } } }
+  }));
+}
+
+// ─── FETCH DATA ───────────────────────────────────────────────────
+async function loadData(forceRefresh = false) {
+  const btn = document.getElementById('refreshBtn');
+  const icon = document.getElementById('refreshIcon');
+  if (btn) { btn.classList.add('spinning'); }
+
+  try {
+    const url = forceRefresh ? 'data-midmarket.json?t=' + Date.now() : 'data-midmarket.json';
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('Failed to load data.json: ' + res.status);
+    const data = await res.json();
+    render(data);
+  } catch (err) {
+    document.getElementById('content').innerHTML =
+      `<div class="error-box">⚠ Could not load data: ${err.message}<br><br>
+       If running locally, open via a web server (not file://).
+       On GitHub Pages, data refreshes automatically every 30 min via GitHub Actions.</div>`;
+  } finally {
+    if (btn) btn.classList.remove('spinning');
+  }
+}
+
+// ─── INIT ──────────────────────────────────────────────────────────
+document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
+loadData();
+</script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
