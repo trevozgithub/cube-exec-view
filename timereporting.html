@@ -100,27 +100,10 @@
 
   <div class="section-title">Breakdown by Technology Category</div>
 
-  <!-- May Week 3 -->
-  <div class="week-section">
-    <div class="week-section-label">May – Week 3</div>
-    <div class="techcat-grid" id="tc-mw3"></div>
-  </div>
-
-  <!-- May Week 4 -->
-  <div class="week-section">
-    <div class="week-section-label">May – Week 4</div>
-    <div class="techcat-grid" id="tc-mw4"></div>
-  </div>
-
-  <!-- June Week 1 -->
+  <!-- June Week 1 - combined only, no per-team raw data in source file -->
   <div class="week-section">
     <div class="week-section-label">June – Week 1</div>
-    <div class="techcat-grid">
-      <div class="unavailable">
-        <strong>Per-team breakdown not available</strong>
-        The June Week 1 raw data sheet does not include a split by technology team. Only combined totals are available for this week (shown in the Weekly Overview above).
-      </div>
-    </div>
+    <div class="techcat-grid" id="tc-jw1"></div>
   </div>
 
   <!-- June Week 2 -->
@@ -146,17 +129,8 @@ const WEEKS = [
 ];
 
 const TECH_DATA = {
-  mw3: [
-    { label:'Consumer',               icon:'📊', data:[521,73,53,98,521,112,104,51,681] },
-    { label:'Content',                icon:'📝', data:[11,5,89,51,211,226,157,49,101] },
-    { label:'Mid-Market',             icon:'🏢', data:[1678,0,0,0,0,89,51,34,781] },
-    { label:'Architecture & Platform',icon:'🏗️', data:[721,112,21,16,371,309,231,31,432] }
-  ],
-  mw4: [
-    { label:'Consumer',               icon:'📊', data:[611,112,41,78,654,112,89,41,598] },
-    { label:'Content',                icon:'📝', data:[15,10,55,76,231,293,123,31,96] },
-    { label:'Mid-Market',             icon:'🏢', data:[1763,0,0,0,0,112,71,39,983] },
-    { label:'Architecture & Platform',icon:'🏗️', data:[695,143,78,21,357,321,198,48,551] }
+  jw1: [
+    { label:'Combined Overview', icon:'📊', data:[3196,317,199,239,1370,745,448,157,2501], note:'Per-team data not available in source file' }
   ],
   jw2: [
     { label:'Consumer',               icon:'📊', data:[725,132,45,82,724,98,94,39,654] },
@@ -204,7 +178,7 @@ function buildTechCat(tc, containerId) {
   const card = document.createElement('div');
   card.className = 'techcat-card';
   card.innerHTML = `<h4>${tc.icon} ${tc.label}</h4>
-    <div class="techcat-sub">&nbsp;</div>
+    <div class="techcat-sub">${tc.note ? `<em style="color:var(--text-light);font-style:italic">${tc.note}</em>` : '&nbsp;'}</div>
     <div class="techcat-chart"><canvas id="${cid}"></canvas></div>
     <div id="tb${cid}"></div>`;
   document.getElementById(containerId).appendChild(card);
@@ -230,8 +204,7 @@ function buildTechCat(tc, containerId) {
 }
 
 WEEKS.forEach((w,i) => buildWeekCard(w,i));
-TECH_DATA.mw3.forEach(tc => buildTechCat(tc,'tc-mw3'));
-TECH_DATA.mw4.forEach(tc => buildTechCat(tc,'tc-mw4'));
+TECH_DATA.jw1.forEach(tc => buildTechCat(tc,'tc-jw1'));
 TECH_DATA.jw2.forEach(tc => buildTechCat(tc,'tc-jw2'));
 
 document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'});
