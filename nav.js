@@ -5,6 +5,7 @@ const PAGES = [
   { label: 'Consumer Projects', href: 'index.html',   icon: '📊' },
   { label: 'InfoSec Projects',        href: 'infosec.html', icon: '🔒' },
   { label: 'Infrastructure Projects', href: 'infra.html',   icon: '🏗️' },
+  { label: 'Content Projects',        href: 'content.html', icon: '📝' },
 ];
 
 (function renderNav() {
