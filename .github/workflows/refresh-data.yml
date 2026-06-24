@@ -78,12 +78,30 @@ jobs:
               'data-content.json',
               'https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183'
           )
+
+          fetch_jira(
+              'project = CPN AND labels = "TechOps" AND status NOT IN (Cancelled, Closed, "Not started") ORDER BY updated DESC',
+              'data-techops.json',
+              'https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=317'
+          )
+
+          fetch_jira(
+              'project = CPN AND labels in ("intelContent","intelcpn") AND status NOT IN (Cancelled, Closed, "Not started") ORDER BY updated DESC',
+              'data-midmarket.json',
+              'https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2830'
+          )
+
+          fetch_jira(
+              'project = CPN AND labels = "D&AI" AND status NOT IN (Cancelled, Closed, "Not started") ORDER BY updated DESC',
+              'data-dataai.json',
+              'https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2554'
+          )
           PYEOF
 
       - name: Commit updated data files
         run: |
           git config user.email "github-actions@github.com"
           git config user.name  "GitHub Actions"
-          git add data.json data-infosec.json data-infra.json data-content.json
+          git add data.json data-infosec.json data-infra.json data-content.json data-techops.json data-midmarket.json data-dataai.json
           git diff --staged --quiet && echo "No changes" || git commit -m "data: refresh Jira [skip ci]"
           git push
