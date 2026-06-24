@@ -291,7 +291,7 @@ function destroyCharts() { chartInstances.forEach(c => c.destroy()); chartInstan
 
 function render(data) {
   destroyCharts();
-  const items = data.items;
+  const items = data.items.filter(it => it.status !== 'Not started');
   document.getElementById('itemCount').textContent = `${items.length} initiatives`;
 
   const ts = data.updated ? new Date(data.updated) : new Date();
