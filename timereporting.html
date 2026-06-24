@@ -18,8 +18,9 @@
     .topnav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
     .topnav-logo svg { width: 28px; height: 28px; }
     .topnav-divider { width: 1px; height: 28px; background: rgba(255,255,255,.25); }
-    .topnav-tabs { display: flex; gap: 4px; flex: 1; }
-    .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
+    .topnav-tabs { display: flex; gap: 4px; flex: 1; overflow-x: auto; scrollbar-width: none; }
+    .topnav-tabs::-webkit-scrollbar { display: none; }
+    .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 10px; border-radius: 6px; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
     .topnav-tab:hover { background: rgba(255,255,255,.12); color: #fff; }
     .topnav-tab.active { background: rgba(255,255,255,.18); color: #fff; }
     .topnav-right { display: flex; align-items: center; }
@@ -216,3 +217,4 @@ document.getElementById('navDate').textContent = new Date().toLocaleDateString('
 </script>
 </body>
 </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
