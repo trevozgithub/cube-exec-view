@@ -9,15 +9,11 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --brand: #0052CC; --brand-dark: #003785; --brand-light: #E6EEFF;
-      --green: #1D7A3A; --green-bg: #E3F5E9;
-      --amber: #B45309; --amber-bg: #FEF3C7;
-      --red: #B91C1C; --red-bg: #FEE2E2;
-      --grey: #6B7280; --border: #E5E7EB;
-      --surface: #F9FAFB; --white: #FFFFFF; --text: #111827; --text-light: #6B7280;
+      --border: #E5E7EB; --surface: #F9FAFB; --white: #FFFFFF;
+      --text: #111827; --text-light: #6B7280;
     }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--surface); color: var(--text); font-size: 13px; line-height: 1.5; }
 
-    /* NAV */
     .topnav { background: var(--brand-dark); color: #fff; display: flex; align-items: center; gap: 24px; padding: 0 28px; height: 52px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
     .topnav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
     .topnav-logo svg { width: 28px; height: 28px; }
@@ -26,48 +22,52 @@
     .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
     .topnav-tab:hover { background: rgba(255,255,255,.12); color: #fff; }
     .topnav-tab.active { background: rgba(255,255,255,.18); color: #fff; }
-    .topnav-right { display: flex; align-items: center; gap: 12px; }
+    .topnav-right { display: flex; align-items: center; }
     .topnav-date { font-size: 12px; color: rgba(255,255,255,.6); }
 
-    /* PAGE HEADER */
     .page-header { background: var(--white); border-bottom: 1px solid var(--border); padding: 18px 28px 14px; }
     .page-header h1 { font-size: 20px; font-weight: 700; color: var(--brand-dark); margin-bottom: 4px; }
     .page-header .subtitle { font-size: 13px; color: var(--text-light); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
     .filter-chip { display: inline-flex; align-items: center; gap: 5px; background: var(--brand-light); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
 
-    /* MAIN */
     .main { padding: 20px 28px; max-width: 1700px; margin: 0 auto; }
 
-    /* SECTION HEADER */
-    .section-title { font-size: 15px; font-weight: 700; color: var(--brand-dark); margin: 24px 0 12px; display: flex; align-items: center; gap: 8px; }
+    .section-title { font-size: 15px; font-weight: 700; color: var(--brand-dark); margin: 24px 0 14px; display: flex; align-items: center; gap: 8px; }
     .section-title::after { content:''; flex:1; height:1px; background: var(--border); }
 
-    /* WEEK CARDS GRID */
-    .weeks-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }
-    .week-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 16px 14px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
-    .week-card h3 { font-size: 12px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 4px; }
-    .week-card .week-total { font-size: 22px; font-weight: 700; color: var(--brand); margin-bottom: 14px; }
-    .week-card .week-total span { font-size: 12px; font-weight: 500; color: var(--text-light); margin-left: 4px; }
-    .chart-wrap { position: relative; height: 200px; }
+    /* WEEK DONUT CARDS */
+    .weeks-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 10px; }
+    .week-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .week-card h3 { font-size: 12px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 12px; }
+    .donut-and-key { display: flex; align-items: flex-start; gap: 12px; }
+    .chart-wrap { position: relative; width: 140px; flex-shrink: 0; height: 140px; }
+    .chart-key { flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+    .key-item { display: flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .key-dot { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
+    .key-pct { margin-left: auto; font-weight: 600; font-size: 10px; color: var(--text-light); flex-shrink: 0; padding-left: 4px; }
 
-    /* TREND CARD */
-    .trend-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); margin-bottom: 28px; }
-    .trend-card h3 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; }
-    .trend-wrap { position: relative; height: 280px; }
+    /* BREAKDOWN % ONLY */
+    .breakdown-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 10px; }
+    .breakdown-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .breakdown-card h4 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 10px; }
+    .brow { display: flex; align-items: center; padding: 5px 0; border-bottom: 1px solid #F3F4F6; font-size: 12px; }
+    .brow:last-child { border-bottom: none; }
+    .brow-dot { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; margin-right: 8px; }
+    .brow-label { flex: 1; color: var(--text); }
+    .brow-bar-wrap { width: 60px; height: 6px; background: #F3F4F6; border-radius: 3px; margin: 0 8px; flex-shrink: 0; }
+    .brow-bar { height: 6px; border-radius: 3px; }
+    .brow-pct { font-weight: 600; font-size: 11px; color: var(--brand); min-width: 32px; text-align: right; }
 
-    /* LEGEND TABLE */
-    .legend-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }
-    .legend-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
-    .legend-card h4 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 10px; }
-    .legend-row { display: flex; align-items: center; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #F3F4F6; font-size: 12px; }
-    .legend-row:last-child { border-bottom: none; }
-    .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; margin-right: 7px; }
-    .legend-label { display: flex; align-items: center; flex: 1; color: var(--text); }
-    .legend-value { font-weight: 600; color: var(--brand); }
-    .legend-pct { font-size: 10px; color: var(--text-light); margin-left: 6px; min-width: 32px; text-align: right; }
+    /* TECH CATEGORY SECTION */
+    .techcat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 10px; }
+    .techcat-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .techcat-card h3 { font-size: 14px; font-weight: 700; color: var(--brand-dark); margin-bottom: 4px; }
+    .techcat-card .sub { font-size: 11px; color: var(--text-light); margin-bottom: 14px; }
+    .techcat-inner { display: flex; align-items: flex-start; gap: 20px; }
+    .techcat-chart { position: relative; width: 180px; height: 180px; flex-shrink: 0; }
+    .techcat-breakdown { flex: 1; display: flex; flex-direction: column; gap: 0; }
 
-    @media (max-width: 1100px) { .weeks-grid { grid-template-columns: repeat(2,1fr); } .legend-grid { grid-template-columns: repeat(2,1fr); } }
-    @media (max-width: 650px) { .weeks-grid { grid-template-columns: 1fr; } .legend-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 1100px) { .weeks-grid { grid-template-columns: repeat(2,1fr); } .breakdown-grid { grid-template-columns: repeat(2,1fr); } .techcat-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -90,178 +90,167 @@
   <div class="subtitle">
     <span>Weekly Time Distribution by Category</span>
     <span class="filter-chip">May Week 3 → June Week 2</span>
-    <span class="filter-chip">Minutes logged</span>
+    <span class="filter-chip">Hours logged</span>
   </div>
 </div>
 
 <div class="main">
 
-  <div class="section-title">Weekly Distribution Charts</div>
-  <div class="weeks-grid">
-    <div class="week-card">
-      <h3>May – Week 3</h3>
-      <div class="week-total" id="total-mw3">— <span>min total</span></div>
-      <div class="chart-wrap"><canvas id="chart-mw3"></canvas></div>
-    </div>
-    <div class="week-card">
-      <h3>May – Week 4</h3>
-      <div class="week-total" id="total-mw4">— <span>min total</span></div>
-      <div class="chart-wrap"><canvas id="chart-mw4"></canvas></div>
-    </div>
-    <div class="week-card">
-      <h3>June – Week 1</h3>
-      <div class="week-total" id="total-jw1">— <span>min total</span></div>
-      <div class="chart-wrap"><canvas id="chart-jw1"></canvas></div>
-    </div>
-    <div class="week-card">
-      <h3>June – Week 2</h3>
-      <div class="week-total" id="total-jw2">— <span>min total</span></div>
-      <div class="chart-wrap"><canvas id="chart-jw2"></canvas></div>
-    </div>
-  </div>
+  <!-- WEEKLY DONUTS -->
+  <div class="section-title">Weekly Distribution</div>
+  <div class="weeks-grid" id="weeksGrid"></div>
 
-  <div class="section-title">Trend – Category Breakdown Across Weeks</div>
-  <div class="trend-card">
-    <h3>Minutes by Category per Week</h3>
-    <div class="trend-wrap"><canvas id="chart-trend"></canvas></div>
-  </div>
-
+  <!-- BREAKDOWN % -->
   <div class="section-title">Detailed Breakdown</div>
-  <div class="legend-grid">
-    <div class="legend-card" id="legend-mw3"></div>
-    <div class="legend-card" id="legend-mw4"></div>
-    <div class="legend-card" id="legend-jw1"></div>
-    <div class="legend-card" id="legend-jw2"></div>
-  </div>
+  <div class="breakdown-grid" id="breakdownGrid"></div>
+
+  <!-- TECH CATEGORY BREAKDOWN -->
+  <div class="section-title">Breakdown by Technology Category — June Week 2</div>
+  <div class="techcat-grid" id="techcatGrid"></div>
 
 </div>
 
 <script>
-const WEEKS = [
-  {
-    id: 'mw3', label: 'May – Week 3',
-    data: [3186, 120, 162, 222, 1372, 420, 595, 148, 1335]
-  },
-  {
-    id: 'mw4', label: 'May – Week 4',
-    data: [2931, 190, 163, 165, 1103, 543, 736, 165, 1995]
-  },
-  {
-    id: 'jw1', label: 'June – Week 1',
-    data: [3196, 317, 199, 239, 1370, 448, 745, 157, 2501]
-  },
-  {
-    id: 'jw2', label: 'June – Week 2',
-    data: [3341, 337, 187, 244, 1571, 415, 718, 186, 3135]
-  }
-];
-
 const CATEGORIES = [
-  'Strategic Initiatives',
-  'Customer Enhancements',
-  'Platform Enhancements',
-  'Urgent Support',
-  'Maintenance',
-  'Leave',
-  'Administration Tasks',
-  'Uncategorized',
-  'Time not Logged'
+  'Strategic Initiatives','Customer Enhancements','Platform Enhancements',
+  'Urgent Support','Maintenance','Administration Tasks','Leave','Uncategorized','Time not Logged'
 ];
 
 const COLORS = [
-  '#2563EB', '#7C3AED', '#0D9488', '#DC2626',
-  '#D97706', '#16A34A', '#0369A1', '#9CA3AF', '#E5E7EB'
+  '#2563EB','#7C3AED','#0D9488','#DC2626',
+  '#D97706','#0369A1','#16A34A','#9CA3AF','#E5E7EB'
 ];
 
-function fmtNum(n) { return n.toLocaleString(); }
+const WEEKS = [
+  { label: 'May – Week 3', data: [3186,120,162,222,1372,595,420,148,1335] },
+  { label: 'May – Week 4', data: [2931,190,163,165,1103,736,543,165,1995] },
+  { label: 'June – Week 1', data: [3196,317,199,239,1370,745,448,157,2501] },
+  { label: 'June – Week 2', data: [3341,337,187,244,1571,718,415,186,3135] }
+];
 
-function buildDonut(canvasId, weekData) {
-  return new Chart(document.getElementById(canvasId), {
-    type: 'doughnut',
-    data: {
-      labels: CATEGORIES,
-      datasets: [{
-        data: weekData,
-        backgroundColor: COLORS,
-        borderWidth: 2,
-        borderColor: '#fff',
-        hoverOffset: 6
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: '62%',
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: ctx => ` ${ctx.label}: ${fmtNum(ctx.raw)} min (${Math.round(ctx.raw / ctx.dataset.data.reduce((a,b)=>a+b,0)*100)}%)`
-          }
-        }
+// Tech category data (June Week 2 — from raw sheet)
+const TECH_CATS = [
+  {
+    label: 'Consumer', icon: '📊',
+    data: [725,132,45,82,724,98,94,39,654]
+  },
+  {
+    label: 'Content', icon: '📝',
+    data: [16,8,69,81,421,171,79,46,198]
+  },
+  {
+    label: 'Mid-Market', icon: '🏢',
+    data: [1789,0,0,0,0,141,71,52,1256]
+  },
+  {
+    label: 'Architecture & Platform', icon: '🏗️',
+    data: [811,197,73,81,426,308,171,49,1027]
+  }
+];
+
+function pct(v, total) { return total ? Math.round(v / total * 100) : 0; }
+function sum(arr) { return arr.reduce((a,b)=>a+b,0); }
+
+// ── Weekly donut + inline key ────────────────────────────────────────
+function buildWeekCard(week, idx) {
+  const total = sum(week.data);
+  const card = document.createElement('div');
+  card.className = 'week-card';
+  card.innerHTML = `
+    <h3>${week.label}</h3>
+    <div class="donut-and-key">
+      <div class="chart-wrap"><canvas id="wc${idx}"></canvas></div>
+      <div class="chart-key" id="wk${idx}"></div>
+    </div>`;
+  document.getElementById('weeksGrid').appendChild(card);
+
+  new Chart(document.getElementById('wc'+idx), {
+    type:'doughnut',
+    data:{ labels:CATEGORIES, datasets:[{ data:week.data, backgroundColor:COLORS, borderWidth:2, borderColor:'#fff', hoverOffset:4 }] },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:'60%',
+      plugins:{
+        legend:{display:false},
+        tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: ${pct(ctx.raw,total)}%` } }
       }
     }
   });
+
+  const key = document.getElementById('wk'+idx);
+  CATEGORIES.forEach((cat,i) => {
+    const p = pct(week.data[i], total);
+    if (p === 0) return;
+    const el = document.createElement('div');
+    el.className = 'key-item';
+    el.innerHTML = `<span class="key-dot" style="background:${COLORS[i]}"></span><span style="overflow:hidden;text-overflow:ellipsis">${cat}</span><span class="key-pct">${p}%</span>`;
+    key.appendChild(el);
+  });
 }
 
-function buildLegend(containerId, label, weekData) {
-  const total = weekData.reduce((a,b)=>a+b,0);
-  const rows = CATEGORIES.map((cat, i) => {
-    const pct = Math.round(weekData[i] / total * 100);
-    return `<div class="legend-row">
-      <span class="legend-label"><span class="legend-dot" style="background:${COLORS[i]}"></span>${cat}</span>
-      <span class="legend-value">${fmtNum(weekData[i])}</span>
-      <span class="legend-pct">${pct}%</span>
+// ── Breakdown % bars ─────────────────────────────────────────────────
+function buildBreakdown(week, idx) {
+  const total = sum(week.data);
+  const card = document.createElement('div');
+  card.className = 'breakdown-card';
+  const maxPct = Math.max(...week.data.map(v => pct(v, total)));
+  card.innerHTML = `<h4>${week.label}</h4>` + CATEGORIES.map((cat,i) => {
+    const p = pct(week.data[i], total);
+    const barW = maxPct ? Math.round(p / maxPct * 100) : 0;
+    return `<div class="brow">
+      <span class="brow-dot" style="background:${COLORS[i]}"></span>
+      <span class="brow-label">${cat}</span>
+      <div class="brow-bar-wrap"><div class="brow-bar" style="width:${barW}%;background:${COLORS[i]}88"></div></div>
+      <span class="brow-pct">${p}%</span>
     </div>`;
   }).join('');
-  document.getElementById(containerId).innerHTML =
-    `<h4>${label}</h4>${rows}`;
+  document.getElementById('breakdownGrid').appendChild(card);
 }
 
-function buildTrend() {
-  const weekLabels = WEEKS.map(w => w.label);
-  const datasets = CATEGORIES.map((cat, i) => ({
-    label: cat,
-    data: WEEKS.map(w => w.data[i]),
-    backgroundColor: COLORS[i] + 'CC',
-    borderColor: COLORS[i],
-    borderWidth: 1.5,
-    borderRadius: 4,
-  }));
+// ── Tech category donuts ─────────────────────────────────────────────
+function buildTechCat(tc, idx) {
+  const total = sum(tc.data);
+  const card = document.createElement('div');
+  card.className = 'techcat-card';
+  card.innerHTML = `
+    <h3>${tc.icon} ${tc.label}</h3>
+    <div class="sub">June Week 2 · ${total.toLocaleString()} hrs total</div>
+    <div class="techcat-inner">
+      <div class="techcat-chart"><canvas id="tc${idx}"></canvas></div>
+      <div class="techcat-breakdown" id="tb${idx}"></div>
+    </div>`;
+  document.getElementById('techcatGrid').appendChild(card);
 
-  new Chart(document.getElementById('chart-trend'), {
-    type: 'bar',
-    data: { labels: weekLabels, datasets },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          position: 'bottom',
-          labels: { font: { size: 11 }, boxWidth: 12, padding: 12 }
-        },
-        tooltip: {
-          callbacks: {
-            label: ctx => ` ${ctx.dataset.label}: ${fmtNum(ctx.raw)} min`
-          }
-        }
-      },
-      scales: {
-        x: { stacked: true, grid: { display: false }, ticks: { font: { size: 12 } } },
-        y: { stacked: true, grid: { color: '#F3F4F6' }, ticks: { font: { size: 11 }, callback: v => fmtNum(v) } }
+  new Chart(document.getElementById('tc'+idx), {
+    type:'doughnut',
+    data:{ labels:CATEGORIES, datasets:[{ data:tc.data, backgroundColor:COLORS, borderWidth:2, borderColor:'#fff', hoverOffset:4 }] },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:'58%',
+      plugins:{
+        legend:{display:false},
+        tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: ${ctx.raw} hrs (${pct(ctx.raw,total)}%)` } }
       }
     }
   });
+
+  const breakdown = document.getElementById('tb'+idx);
+  const maxPct = Math.max(...tc.data.map(v => pct(v, total)));
+  CATEGORIES.forEach((cat,i) => {
+    const p = pct(tc.data[i], total);
+    const barW = maxPct ? Math.round(p / maxPct * 100) : 0;
+    const row = document.createElement('div');
+    row.className = 'brow';
+    row.innerHTML = `
+      <span class="brow-dot" style="background:${COLORS[i]}"></span>
+      <span class="brow-label">${cat}</span>
+      <div class="brow-bar-wrap"><div class="brow-bar" style="width:${barW}%;background:${COLORS[i]}88"></div></div>
+      <span class="brow-pct">${p}%</span>`;
+    breakdown.appendChild(row);
+  });
 }
 
-// Init
-WEEKS.forEach(w => {
-  const total = w.data.reduce((a,b)=>a+b,0);
-  document.getElementById('total-' + w.id).innerHTML = `${fmtNum(total)} <span>min total</span>`;
-  buildDonut('chart-' + w.id, w.data);
-  buildLegend('legend-' + w.id, w.label, w.data);
-});
-buildTrend();
+// ── Init ─────────────────────────────────────────────────────────────
+WEEKS.forEach((w,i) => { buildWeekCard(w,i); buildBreakdown(w,i); });
+TECH_CATS.forEach((tc,i) => buildTechCat(tc,i));
 
 document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
 </script>
