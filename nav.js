@@ -7,6 +7,7 @@ const PAGES = [
   { label: 'Infrastructure Projects', href: 'infra.html',   icon: '🏗️' },
   { label: 'Content Projects',        href: 'content.html',  icon: '📝' },
   { label: 'Corp Tech & WP Systems',  href: 'techops.html',       icon: '🖥️' },
+  { label: 'Mid-Market',              href: 'midmarket.html',     icon: '📈' },
   { label: 'Time Reporting',          href: 'timereporting.html', icon: '⏱️' },
 ];
 
