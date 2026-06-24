@@ -2,10 +2,10 @@
 // Add new pages here; all pages pick up the change automatically.
 
 const PAGES = [
-  { label: 'Consumer Projects', href: 'index.html',   icon: '📊' },
+  { label: 'Consumer Engineering', href: 'index.html',   icon: '📊' },
   { label: 'InfoSec Projects',        href: 'infosec.html', icon: '🔒' },
   { label: 'Infrastructure Projects', href: 'infra.html',   icon: '🏗️' },
-  { label: 'Content Projects',        href: 'content.html',  icon: '📝' },
+  { label: 'Content Engineering',      href: 'content.html',  icon: '📝' },
   { label: 'Corp Tech & WP Systems',  href: 'techops.html',       icon: '🖥️' },
   { label: 'Mid-Market',              href: 'midmarket.html',     icon: '📈' },
   { label: 'Time Reporting',          href: 'timereporting.html', icon: '⏱️' },
