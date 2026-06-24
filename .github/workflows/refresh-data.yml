@@ -36,8 +36,7 @@ jobs:
                   headers={'Authorization': f'Basic {auth}', 'Accept': 'application/json'}
               )
               with urllib.request.urlopen(req) as r:
-                  data = json.load(r)
-              REDACTED = {
+                 REDACTED = {
                   'CPN-1114','CPN-1115','CPN-1116','CPN-1117','CPN-1118',
                   'CPN-1216','CPN-1217','CPN-1224','CPN-1313',
                   'CPN-1218','CPN-1219','CPN-1220','CPN-1221','CPN-1222','CPN-1225',
@@ -45,6 +44,11 @@ jobs:
                   'CPN-1428','CPN-1429','CPN-1430',
               }
               items = []
+              for issue in data.get('issues', []):
+                  if issue.get('key','') in REDACTED:
+                      continue
+                  f = issue.get('fields', {})
+                  items.append({
               for issue in data.get('issues', []):
                   if issue.get('key','') in REDACTED:
                       continue
