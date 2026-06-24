@@ -425,8 +425,8 @@ async function loadData(forceRefresh = false) {
   if (btn) { btn.classList.add('spinning'); }
 
   try {
-    const url = forceRefresh ? 'data-techops.json?t=' + Date.now() : 'data-techops.json';
-    const res = await fetch(url);
+    const url = 'data-techops.json?t=' + Date.now();
+    const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error('Failed to load data.json: ' + res.status);
     const data = await res.json();
     render(data);
