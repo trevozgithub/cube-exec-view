@@ -6,7 +6,8 @@ const PAGES = [
   { label: 'InfoSec Projects',        href: 'infosec.html', icon: '🔒' },
   { label: 'Infrastructure Projects', href: 'infra.html',   icon: '🏗️' },
   { label: 'Content Projects',        href: 'content.html',  icon: '📝' },
-  { label: 'Corp Tech & WP Systems',  href: 'techops.html',  icon: '🖥️' },
+  { label: 'Corp Tech & WP Systems',  href: 'techops.html',       icon: '🖥️' },
+  { label: 'Time Reporting',          href: 'timereporting.html', icon: '⏱️' },
 ];
 
 (function renderNav() {
