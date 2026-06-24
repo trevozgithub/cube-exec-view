@@ -12,14 +12,14 @@
       --border: #E5E7EB; --surface: #F9FAFB; --white: #FFFFFF;
       --text: #111827; --text-light: #6B7280;
     }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--surface); color: var(--text); font-size: 13px; line-height: 1.5; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--surface); color: var(--text); font-size: 13px; }
 
     .topnav { background: var(--brand-dark); color: #fff; display: flex; align-items: center; gap: 24px; padding: 0 28px; height: 52px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
     .topnav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
     .topnav-logo svg { width: 28px; height: 28px; }
     .topnav-divider { width: 1px; height: 28px; background: rgba(255,255,255,.25); }
     .topnav-tabs { display: flex; gap: 4px; flex: 1; }
-    .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
+    .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
     .topnav-tab:hover { background: rgba(255,255,255,.12); color: #fff; }
     .topnav-tab.active { background: rgba(255,255,255,.18); color: #fff; }
     .topnav-right { display: flex; align-items: center; }
@@ -27,47 +27,46 @@
 
     .page-header { background: var(--white); border-bottom: 1px solid var(--border); padding: 18px 28px 14px; }
     .page-header h1 { font-size: 20px; font-weight: 700; color: var(--brand-dark); margin-bottom: 4px; }
-    .page-header .subtitle { font-size: 13px; color: var(--text-light); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-    .filter-chip { display: inline-flex; align-items: center; gap: 5px; background: var(--brand-light); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .subtitle { font-size: 13px; color: var(--text-light); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .filter-chip { background: var(--brand-light); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
 
     .main { padding: 20px 28px; max-width: 1700px; margin: 0 auto; }
 
     .section-title { font-size: 15px; font-weight: 700; color: var(--brand-dark); margin: 24px 0 14px; display: flex; align-items: center; gap: 8px; }
     .section-title::after { content:''; flex:1; height:1px; background: var(--border); }
 
-    /* WEEK DONUT CARDS */
-    .weeks-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 10px; }
+    /* WEEKLY DONUTS */
+    .weeks-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 8px; }
     .week-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
     .week-card h3 { font-size: 12px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 12px; }
     .donut-and-key { display: flex; align-items: flex-start; gap: 12px; }
-    .chart-wrap { position: relative; width: 140px; flex-shrink: 0; height: 140px; }
-    .chart-key { flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-    .key-item { display: flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .chart-wrap { position: relative; width: 130px; height: 130px; flex-shrink: 0; }
+    .chart-key { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+    .key-item { display: flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--text); }
     .key-dot { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }
-    .key-pct { margin-left: auto; font-weight: 600; font-size: 10px; color: var(--text-light); flex-shrink: 0; padding-left: 4px; }
-
-    /* BREAKDOWN % ONLY */
-    .breakdown-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 10px; }
-    .breakdown-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
-    .breakdown-card h4 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 10px; }
-    .brow { display: flex; align-items: center; padding: 5px 0; border-bottom: 1px solid #F3F4F6; font-size: 12px; }
-    .brow:last-child { border-bottom: none; }
-    .brow-dot { width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; margin-right: 8px; }
-    .brow-label { flex: 1; color: var(--text); }
-    .brow-bar-wrap { width: 60px; height: 6px; background: #F3F4F6; border-radius: 3px; margin: 0 8px; flex-shrink: 0; }
-    .brow-bar { height: 6px; border-radius: 3px; }
-    .brow-pct { font-weight: 600; font-size: 11px; color: var(--brand); min-width: 32px; text-align: right; }
+    .key-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .key-pct { font-weight: 600; font-size: 10px; color: var(--text-light); flex-shrink: 0; }
 
     /* TECH CATEGORY SECTION */
-    .techcat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 10px; }
-    .techcat-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
-    .techcat-card h3 { font-size: 14px; font-weight: 700; color: var(--brand-dark); margin-bottom: 4px; }
-    .techcat-card .sub { font-size: 11px; color: var(--text-light); margin-bottom: 14px; }
-    .techcat-inner { display: flex; align-items: flex-start; gap: 20px; }
-    .techcat-chart { position: relative; width: 180px; height: 180px; flex-shrink: 0; }
-    .techcat-breakdown { flex: 1; display: flex; flex-direction: column; gap: 0; }
+    .week-section { margin-bottom: 28px; }
+    .week-section-label { font-size: 13px; font-weight: 700; color: var(--brand); background: var(--brand-light); display: inline-block; padding: 4px 14px; border-radius: 20px; margin-bottom: 12px; }
+    .techcat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .techcat-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .techcat-card h4 { font-size: 13px; font-weight: 700; color: var(--brand-dark); margin-bottom: 2px; }
+    .techcat-sub { font-size: 11px; color: var(--text-light); margin-bottom: 12px; }
+    .techcat-chart { position: relative; height: 160px; margin-bottom: 12px; }
+    .brow { display: flex; align-items: center; padding: 4px 0; border-bottom: 1px solid #F3F4F6; font-size: 11.5px; }
+    .brow:last-child { border-bottom: none; }
+    .brow-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; margin-right: 7px; }
+    .brow-label { flex: 1; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .brow-bar-wrap { width: 50px; height: 5px; background: #F3F4F6; border-radius: 3px; margin: 0 7px; flex-shrink: 0; }
+    .brow-bar { height: 5px; border-radius: 3px; }
+    .brow-pct { font-weight: 600; font-size: 10.5px; color: var(--brand); min-width: 28px; text-align: right; }
 
-    @media (max-width: 1100px) { .weeks-grid { grid-template-columns: repeat(2,1fr); } .breakdown-grid { grid-template-columns: repeat(2,1fr); } .techcat-grid { grid-template-columns: 1fr; } }
+    .unavailable { background: var(--white); border: 1px dashed var(--border); border-radius: 10px; padding: 32px 20px; text-align: center; color: var(--text-light); font-size: 12px; grid-column: 1 / -1; }
+    .unavailable strong { display: block; font-size: 14px; color: var(--text); margin-bottom: 6px; }
+
+    @media (max-width: 1200px) { .weeks-grid { grid-template-columns: repeat(2,1fr); } .techcat-grid { grid-template-columns: repeat(2,1fr); } }
   </style>
 </head>
 <body>
@@ -96,17 +95,39 @@
 
 <div class="main">
 
-  <!-- WEEKLY DONUTS -->
-  <div class="section-title">Weekly Distribution</div>
+  <div class="section-title">Weekly Overview</div>
   <div class="weeks-grid" id="weeksGrid"></div>
 
-  <!-- BREAKDOWN % -->
-  <div class="section-title">Detailed Breakdown</div>
-  <div class="breakdown-grid" id="breakdownGrid"></div>
+  <div class="section-title">Breakdown by Technology Category</div>
 
-  <!-- TECH CATEGORY BREAKDOWN -->
-  <div class="section-title">Breakdown by Technology Category — June Week 2</div>
-  <div class="techcat-grid" id="techcatGrid"></div>
+  <!-- May Week 3 -->
+  <div class="week-section">
+    <div class="week-section-label">May – Week 3</div>
+    <div class="techcat-grid" id="tc-mw3"></div>
+  </div>
+
+  <!-- May Week 4 -->
+  <div class="week-section">
+    <div class="week-section-label">May – Week 4</div>
+    <div class="techcat-grid" id="tc-mw4"></div>
+  </div>
+
+  <!-- June Week 1 -->
+  <div class="week-section">
+    <div class="week-section-label">June – Week 1</div>
+    <div class="techcat-grid">
+      <div class="unavailable">
+        <strong>Per-team breakdown not available</strong>
+        The June Week 1 raw data sheet does not include a split by technology team. Only combined totals are available for this week (shown in the Weekly Overview above).
+      </div>
+    </div>
+  </div>
+
+  <!-- June Week 2 -->
+  <div class="week-section">
+    <div class="week-section-label">June – Week 2</div>
+    <div class="techcat-grid" id="tc-jw2"></div>
+  </div>
 
 </div>
 
@@ -115,11 +136,7 @@ const CATEGORIES = [
   'Strategic Initiatives','Customer Enhancements','Platform Enhancements',
   'Urgent Support','Maintenance','Administration Tasks','Leave','Uncategorized','Time not Logged'
 ];
-
-const COLORS = [
-  '#2563EB','#7C3AED','#0D9488','#DC2626',
-  '#D97706','#0369A1','#16A34A','#9CA3AF','#E5E7EB'
-];
+const COLORS = ['#2563EB','#7C3AED','#0D9488','#DC2626','#D97706','#0369A1','#16A34A','#9CA3AF','#E5E7EB'];
 
 const WEEKS = [
   { label: 'May – Week 3', data: [3186,120,162,222,1372,595,420,148,1335] },
@@ -128,119 +145,83 @@ const WEEKS = [
   { label: 'June – Week 2', data: [3341,337,187,244,1571,718,415,186,3135] }
 ];
 
-// Tech category data (June Week 2 — from raw sheet)
-const TECH_CATS = [
-  {
-    label: 'Consumer', icon: '📊',
-    data: [725,132,45,82,724,98,94,39,654]
-  },
-  {
-    label: 'Content', icon: '📝',
-    data: [16,8,69,81,421,171,79,46,198]
-  },
-  {
-    label: 'Mid-Market', icon: '🏢',
-    data: [1789,0,0,0,0,141,71,52,1256]
-  },
-  {
-    label: 'Architecture & Platform', icon: '🏗️',
-    data: [811,197,73,81,426,308,171,49,1027]
-  }
-];
+const TECH_DATA = {
+  mw3: [
+    { label:'Consumer',               icon:'📊', data:[521,73,53,98,521,112,104,51,681] },
+    { label:'Content',                icon:'📝', data:[11,5,89,51,211,226,157,49,101] },
+    { label:'Mid-Market',             icon:'🏢', data:[1678,0,0,0,0,89,51,34,781] },
+    { label:'Architecture & Platform',icon:'🏗️', data:[721,112,21,16,371,309,231,31,432] }
+  ],
+  mw4: [
+    { label:'Consumer',               icon:'📊', data:[611,112,41,78,654,112,89,41,598] },
+    { label:'Content',                icon:'📝', data:[15,10,55,76,231,293,123,31,96] },
+    { label:'Mid-Market',             icon:'🏢', data:[1763,0,0,0,0,112,71,39,983] },
+    { label:'Architecture & Platform',icon:'🏗️', data:[695,143,78,21,357,321,198,48,551] }
+  ],
+  jw2: [
+    { label:'Consumer',               icon:'📊', data:[725,132,45,82,724,98,94,39,654] },
+    { label:'Content',                icon:'📝', data:[16,8,69,81,421,171,79,46,198] },
+    { label:'Mid-Market',             icon:'🏢', data:[1789,0,0,0,0,141,71,52,1256] },
+    { label:'Architecture & Platform',icon:'🏗️', data:[811,197,73,81,426,308,171,49,1027] }
+  ]
+};
 
-function pct(v, total) { return total ? Math.round(v / total * 100) : 0; }
-function sum(arr) { return arr.reduce((a,b)=>a+b,0); }
+const sum = arr => arr.reduce((a,b)=>a+b,0);
+const pct = (v,t) => t ? Math.round(v/t*100) : 0;
+let chartIdx = 0;
 
-// ── Weekly donut + inline key ────────────────────────────────────────
 function buildWeekCard(week, idx) {
   const total = sum(week.data);
   const card = document.createElement('div');
   card.className = 'week-card';
-  card.innerHTML = `
-    <h3>${week.label}</h3>
+  const cid = 'wc'+idx;
+  card.innerHTML = `<h3>${week.label}</h3>
     <div class="donut-and-key">
-      <div class="chart-wrap"><canvas id="wc${idx}"></canvas></div>
+      <div class="chart-wrap"><canvas id="${cid}"></canvas></div>
       <div class="chart-key" id="wk${idx}"></div>
     </div>`;
   document.getElementById('weeksGrid').appendChild(card);
-
-  new Chart(document.getElementById('wc'+idx), {
+  new Chart(document.getElementById(cid), {
     type:'doughnut',
     data:{ labels:CATEGORIES, datasets:[{ data:week.data, backgroundColor:COLORS, borderWidth:2, borderColor:'#fff', hoverOffset:4 }] },
-    options:{
-      responsive:true, maintainAspectRatio:false, cutout:'60%',
-      plugins:{
-        legend:{display:false},
-        tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: ${pct(ctx.raw,total)}%` } }
-      }
-    }
+    options:{ responsive:true, maintainAspectRatio:false, cutout:'60%',
+      plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: ctx=>`${ctx.label}: ${pct(ctx.raw,total)}%` } } } }
   });
-
   const key = document.getElementById('wk'+idx);
   CATEGORIES.forEach((cat,i) => {
     const p = pct(week.data[i], total);
-    if (p === 0) return;
+    if (!p) return;
     const el = document.createElement('div');
-    el.className = 'key-item';
-    el.innerHTML = `<span class="key-dot" style="background:${COLORS[i]}"></span><span style="overflow:hidden;text-overflow:ellipsis">${cat}</span><span class="key-pct">${p}%</span>`;
+    el.className='key-item';
+    el.innerHTML=`<span class="key-dot" style="background:${COLORS[i]}"></span><span class="key-label">${cat}</span><span class="key-pct">${p}%</span>`;
     key.appendChild(el);
   });
 }
 
-// ── Breakdown % bars ─────────────────────────────────────────────────
-function buildBreakdown(week, idx) {
-  const total = sum(week.data);
-  const card = document.createElement('div');
-  card.className = 'breakdown-card';
-  const maxPct = Math.max(...week.data.map(v => pct(v, total)));
-  card.innerHTML = `<h4>${week.label}</h4>` + CATEGORIES.map((cat,i) => {
-    const p = pct(week.data[i], total);
-    const barW = maxPct ? Math.round(p / maxPct * 100) : 0;
-    return `<div class="brow">
-      <span class="brow-dot" style="background:${COLORS[i]}"></span>
-      <span class="brow-label">${cat}</span>
-      <div class="brow-bar-wrap"><div class="brow-bar" style="width:${barW}%;background:${COLORS[i]}88"></div></div>
-      <span class="brow-pct">${p}%</span>
-    </div>`;
-  }).join('');
-  document.getElementById('breakdownGrid').appendChild(card);
-}
-
-// ── Tech category donuts ─────────────────────────────────────────────
-function buildTechCat(tc, idx) {
+function buildTechCat(tc, containerId) {
   const total = sum(tc.data);
+  const cid = 'tc'+(chartIdx++);
   const card = document.createElement('div');
   card.className = 'techcat-card';
-  card.innerHTML = `
-    <h3>${tc.icon} ${tc.label}</h3>
-    <div class="sub">June Week 2 · ${total.toLocaleString()} hrs total</div>
-    <div class="techcat-inner">
-      <div class="techcat-chart"><canvas id="tc${idx}"></canvas></div>
-      <div class="techcat-breakdown" id="tb${idx}"></div>
-    </div>`;
-  document.getElementById('techcatGrid').appendChild(card);
-
-  new Chart(document.getElementById('tc'+idx), {
+  card.innerHTML = `<h4>${tc.icon} ${tc.label}</h4>
+    <div class="techcat-sub">${total.toLocaleString()} hrs total</div>
+    <div class="techcat-chart"><canvas id="${cid}"></canvas></div>
+    <div id="tb${cid}"></div>`;
+  document.getElementById(containerId).appendChild(card);
+  new Chart(document.getElementById(cid), {
     type:'doughnut',
     data:{ labels:CATEGORIES, datasets:[{ data:tc.data, backgroundColor:COLORS, borderWidth:2, borderColor:'#fff', hoverOffset:4 }] },
-    options:{
-      responsive:true, maintainAspectRatio:false, cutout:'58%',
-      plugins:{
-        legend:{display:false},
-        tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: ${ctx.raw} hrs (${pct(ctx.raw,total)}%)` } }
-      }
-    }
+    options:{ responsive:true, maintainAspectRatio:false, cutout:'58%',
+      plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: ctx=>`${ctx.label}: ${ctx.raw} hrs (${pct(ctx.raw,total)}%)` } } } }
   });
-
-  const breakdown = document.getElementById('tb'+idx);
-  const maxPct = Math.max(...tc.data.map(v => pct(v, total)));
+  const breakdown = document.getElementById('tb'+cid);
+  const maxP = Math.max(...tc.data.map(v=>pct(v,total)));
   CATEGORIES.forEach((cat,i) => {
-    const p = pct(tc.data[i], total);
-    const barW = maxPct ? Math.round(p / maxPct * 100) : 0;
+    const p = pct(tc.data[i],total);
+    const barW = maxP ? Math.round(p/maxP*100) : 0;
     const row = document.createElement('div');
-    row.className = 'brow';
-    row.innerHTML = `
-      <span class="brow-dot" style="background:${COLORS[i]}"></span>
+    row.className='brow';
+    row.innerHTML=`<span class="brow-dot" style="background:${COLORS[i]}"></span>
       <span class="brow-label">${cat}</span>
       <div class="brow-bar-wrap"><div class="brow-bar" style="width:${barW}%;background:${COLORS[i]}88"></div></div>
       <span class="brow-pct">${p}%</span>`;
@@ -248,11 +229,12 @@ function buildTechCat(tc, idx) {
   });
 }
 
-// ── Init ─────────────────────────────────────────────────────────────
-WEEKS.forEach((w,i) => { buildWeekCard(w,i); buildBreakdown(w,i); });
-TECH_CATS.forEach((tc,i) => buildTechCat(tc,i));
+WEEKS.forEach((w,i) => buildWeekCard(w,i));
+TECH_DATA.mw3.forEach(tc => buildTechCat(tc,'tc-mw3'));
+TECH_DATA.mw4.forEach(tc => buildTechCat(tc,'tc-mw4'));
+TECH_DATA.jw2.forEach(tc => buildTechCat(tc,'tc-jw2'));
 
-document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
+document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'});
 </script>
 </body>
 </html>
