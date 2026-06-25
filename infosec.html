@@ -395,7 +395,7 @@ function render(data) {
               const ov = isOverdue(it.duedate);
               const ac = avatarColor(it.assignee);
               const init = initials(it.assignee);
-              return `<tr data-key="${it.key}"
+              return `<tr data-key="${it.key}">
                 <td class="row-num">${idx+1}</td>
                 <td><div class="wi-cell">
                   <a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">${it.key}</a>
