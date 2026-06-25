@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T09:00:00Z",
+  "updated": "2026-06-25T10:30:46.949718Z",
   "total": 23,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
@@ -14,7 +14,8 @@
         "InfoSec",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1024"
+      "url": "https://cube001.atlassian.net/browse/CPN-1024",
+      "panels": []
     },
     {
       "key": "CPN-1236",
@@ -26,7 +27,8 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1236"
+      "url": "https://cube001.atlassian.net/browse/CPN-1236",
+      "panels": []
     },
     {
       "key": "CPN-930",
@@ -38,7 +40,13 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930"
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "23/06/2026 Had a call with Cabot. Meeting summary is below. Main actions: any flexibility on deadline of end of March? Document what front end of process does - scanners, workflow, etc. I have said that we will provide this by 24th of July, if not before"
+        }
+      ]
     },
     {
       "key": "CPN-81",
@@ -53,7 +61,13 @@
         "consumer",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-81"
+      "url": "https://cube001.atlassian.net/browse/CPN-81",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 Elastic PS to right size the Elastic instances has been paid for, this will be rebated on completion of the work. Elastic are to confirm PS availability, doing this work will require a time from CUBE so could be delayed until after the migration takes place. New performance tests are being created which can be run against Azure and on prem systems. A functional comparison of Azure and on prem UAT is underway and will continue when the data between the systems has been aligned. Previous Functional testing has been run, the pass rate is on a par with functional testing in the on prem environment. Further investigation and optimisation work may be required to improve performance, depending on the output of the performance testing Production set up is blocked due to resource availability constraints from Microsoft, we do not have enough SQL MI processing in UKS to build the required SQL MI instance. RAG is Red due to being behind plan RegPlatform Update 23/06 : Repos now migrated"
+        }
+      ]
     },
     {
       "key": "CPN-703",
@@ -66,7 +80,13 @@
         "cloud",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-703"
+      "url": "https://cube001.atlassian.net/browse/CPN-703",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
+        }
+      ]
     },
     {
       "key": "CPN-676",
@@ -78,7 +98,13 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676"
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete."
+        }
+      ]
     },
     {
       "key": "CPN-610",
@@ -92,7 +118,13 @@
         "content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610"
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
+        }
+      ]
     },
     {
       "key": "CPN-925",
@@ -105,7 +137,13 @@
         "InfoSec",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925"
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 All Legal work on agreements has been completed. Kickoff call held with Ash 06/05. Weekly calls being held on Wednesdays with Ash and Axonius. A spreadsheet containing data sources has been created and needs to be reviewed for scope. Requests for credentials have been raised with the Service Desk and other Stakeholders, credentials are being created.  The Axonius Gateway VM has been created in Azure v2. Review of Axonius Exposures Risk Scoring model to tak eplace on 09/06."
+        }
+      ]
     },
     {
       "key": "CPN-168",
@@ -117,7 +155,17 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-168"
+      "url": "https://cube001.atlassian.net/browse/CPN-168",
+      "panels": [
+        {
+          "type": "info",
+          "text": "22/06/26 Waiting for an update from Faaris CRs have been raised for the following ACIN domains: ACIN.com   ACIN.ai ACIN.network ACINGPT.com ACINTERNAL.com CAB was  approved. Faaris now has the correct permissions to proceed. Transfer lock doesn\u2019t apply"
+        },
+        {
+          "type": "info",
+          "text": "Also have  PHIGRC.com  and  4CRISK.ai  to do for 4C phigrc.com  is still being used. no  landing page so we can\u2019t access it Should now have access. Waiting for Faaris' availability to complete"
+        }
+      ]
     },
     {
       "key": "CPN-1420",
@@ -130,7 +178,13 @@
         "Kodex",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420"
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Following the call with Claus, George created a Miro board outlining the proposed workflow:  Kodex AI - Miro"
+        }
+      ]
     },
     {
       "key": "CPN-697",
@@ -142,7 +196,13 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-697"
+      "url": "https://cube001.atlassian.net/browse/CPN-697",
+      "panels": [
+        {
+          "type": "info",
+          "text": "No progress on the RGP Test SQL Managed Instance configuration setup last week due to other priorities; work planned to resume this week. Database Watch now configured on AZURE to help with ongoing performance issues on UAT. But the DBAs are unable to view some of the dashboards due to permission issues. Raised this with Paul and waiting for response.  Successfully rolled out Query Store across all DRP production databases.  Configuration setup for the RGP Test SQL Managed Instance was meant to commence on Friday but was off sick. Will start looking at this this week Continue reviewing database access across DRP environments and progress remediation activities. Add missing databases to the PROD1 AlwaysOn Availability Group. Completed  Kick off DRP remediation activities, including planning for the migration of databases to the new server estate. Ongoing and next phase to start this week   ===    [DBOPS-169] Upgrade PROD2 Windows/SQL Servers to v2022   PROD2 Database migration to the new set of production servers, completed over the course of the weekend (02th of May 2026) [DBOPS-54] AG & Replication Monitoring Always On Alerting Implementation: Completed and running on all prod and UAT environments on the on-prem environment Outstanding:- Documenting setup [DBOPS-92] Query Optimisation - Production Ongoing works with the Engineering team to implement recommended changes. Most of the tasks have now been allocated to an engineer who is working closely with the DBA team [DBOPS-288] Enterprise Dev team access to Azure SQL MI UAT database Failover to Azure Assisting with troubleshooting on DEV SQL MI"
+        }
+      ]
     },
     {
       "key": "CPN-682",
@@ -155,7 +215,13 @@
         "Content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-682"
+      "url": "https://cube001.atlassian.net/browse/CPN-682",
+      "panels": [
+        {
+          "type": "info",
+          "text": "15/06/26 Regproxy rollout complete. UrbanVPN poses a security risk (   ), so an alternative solution is required. 4C have a solution, but it is similar to 2captcha proxy that we currently use. ProtonVPN has been identified as a suitable VPN solution and can be onboarded, it has openvpn configurations for most countries, as opposed to PIA which has for around 30 countries. ProtonVPN is going through onboarding, an abbreviated onboarding process can be used for this. Ticket for Proton VPN subscription -"
+        }
+      ]
     },
     {
       "key": "CPN-1089",
@@ -171,7 +237,13 @@
         "TechOps",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089"
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been packaged, and collection has been coordinated with Eduardo from TR."
+        }
+      ]
     },
     {
       "key": "CPN-105",
@@ -184,7 +256,13 @@
         "TechOps",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-105"
+      "url": "https://cube001.atlassian.net/browse/CPN-105",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Stefan to discuss with Muhim if ARC (Authenticated Received Chain) can be enabled on CUBE tenant.  Distribution lists have been recreated by Service Desk O365 migration plan:"
+        }
+      ]
     },
     {
       "key": "CPN-1214",
@@ -199,7 +277,13 @@
         "TechOps",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214"
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "panels": [
+        {
+          "type": "info",
+          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Dipak checked and confirmed PyCharm needs to be used. He will provide a side by side comparison between PyCharm and VS Code. Aga to check with Stefan the number of free PyCharm license, as we may not need to purchase them.  [ Open ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] Migration of 4CRisk Jira has been completed on migration Sandbox. A follow-up session was held today with Dipak and George to review and agree on the Jira workflow for the 4CRisk space within the CUBE instance. George has created a Miro board and will prepare the workflow design based on the outcomes and decisions from today's meeting. [ Open ] DNS migration, Faaris spoke with 4crisk team last Thursday and confirmed plan of action ready to go for migrating  4crisk.ai . There are other domains on their portfolio which their team is looking into confirming where the DNS records sit before we can proceed with those domains. Tracked under epic    and task     [ Open ] To replace the existing 4CRisk OpenAI account and Gemini API integrations, a dedicated project space needs to be created in AI Foundry. Graeme W. is coordinating this effort between Naveen and Kieran Baker. Dipak received access to AI Foundry today and needs to discuss OpenAI and Gemini API key access with Kieran on Monday.[ Open ] Dipak has updates the master spreadsheet with the external IP addresses.     [ Closed ]"
+        }
+      ]
     },
     {
       "key": "CPN-101",
@@ -212,7 +296,17 @@
         "InfoSec",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-101"
+      "url": "https://cube001.atlassian.net/browse/CPN-101",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Fully decommissioned:  68 /87 Excluded:  1  - CUBEOCTO - Plan to migrate away from both TeamCity and Octopus Deploy by moving applications such as RM, Insights pipeline, and other DM\\CDS related projects to Azure Devops. Abandoned  18  - RDS servers. Replacement RDS servers provisioned for POC have been powered down and are scheduled for decommissioning, as they are no longer required."
+        },
+        {
+          "type": "info",
+          "text": "CUBE and Customers Windows 2012 Servers.xlsx"
+        }
+      ]
     },
     {
       "key": "CPN-949",
@@ -226,7 +320,13 @@
         "Infra",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-949"
+      "url": "https://cube001.atlassian.net/browse/CPN-949",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Dipak will review and confirm the monitor models and number to be purchased for the Bangalore office. [ Open ] Dipak has provided the age details of the devices being replaced. The next step is to coordinate the collection and secure wiping of the old laptops in India and the USA. Awaiting feedback from Softcat if they can support us on the secure wiping process as ISO cert. is required. [ Open ] Dipak has provided the current M365 licensing inventory. The list needs to be reviewed with Stefan and optimised to reduce licensing costs, including switching Exchange-only users to E2 licenses. [ Open ]"
+        }
+      ]
     },
     {
       "key": "CPN-1131",
@@ -238,7 +338,13 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1131"
+      "url": "https://cube001.atlassian.net/browse/CPN-1131",
+      "panels": [
+        {
+          "type": "info",
+          "text": "11/06/2026 Spreadsheet now shows colour coding for date of action or date to be actioned Customers identified as Inform Now have been notified. A few more are due now but next batch aren\u2019t due until July"
+        }
+      ]
     },
     {
       "key": "CPN-196",
@@ -254,7 +360,13 @@
         "content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196"
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26     Azure Migrate has been set up to assess migration of Content VMs to Azure. Work to migrate Dev and Test databases to Azure SQL MI initiated, currently paused. Calls with Microsoft Factory team held. Content migration to Kubernetes is also being progressed, however there is a resourcing risk associated with achieving this."
+        }
+      ]
     },
     {
       "key": "CPN-1364",
@@ -266,7 +378,8 @@
       "labels": [
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1364"
+      "url": "https://cube001.atlassian.net/browse/CPN-1364",
+      "panels": []
     },
     {
       "key": "CPN-826",
@@ -280,7 +393,13 @@
         "sjp",
         "sjp_exit"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826"
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "19/05/2026 Additional information requested by OpenText was provided to SJP."
+        }
+      ]
     },
     {
       "key": "CPN-1369",
@@ -294,7 +413,8 @@
         "infrastructure",
         "intelcpn"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1369"
+      "url": "https://cube001.atlassian.net/browse/CPN-1369",
+      "panels": []
     },
     {
       "key": "CPN-533",
@@ -307,7 +427,13 @@
         "cloud",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-533"
+      "url": "https://cube001.atlassian.net/browse/CPN-533",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/01/26 Dev and Test databases upgraded to SQL 2022. UAT to be upgraded in January and Prod in February."
+        }
+      ]
     }
   ]
 }
