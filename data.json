@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T14:41:38Z",
+  "updated": "2026-06-25T10:30:44.131068Z",
   "total": 33,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
@@ -14,7 +14,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1523"
+      "url": "https://cube001.atlassian.net/browse/CPN-1523",
+      "panels": []
     },
     {
       "key": "CPN-1126",
@@ -27,7 +28,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1126"
+      "url": "https://cube001.atlassian.net/browse/CPN-1126",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  There will be ongoing post-MVP enhancements"
+        }
+      ]
     },
     {
       "key": "CPN-1519",
@@ -40,7 +47,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1519"
+      "url": "https://cube001.atlassian.net/browse/CPN-1519",
+      "panels": []
     },
     {
       "key": "CPN-1520",
@@ -53,7 +61,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1520"
+      "url": "https://cube001.atlassian.net/browse/CPN-1520",
+      "panels": []
     },
     {
       "key": "CPN-1521",
@@ -66,7 +75,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1521"
+      "url": "https://cube001.atlassian.net/browse/CPN-1521",
+      "panels": []
     },
     {
       "key": "CPN-1524",
@@ -79,7 +89,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1524"
+      "url": "https://cube001.atlassian.net/browse/CPN-1524",
+      "panels": []
     },
     {
       "key": "CPN-1522",
@@ -92,7 +103,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1522"
+      "url": "https://cube001.atlassian.net/browse/CPN-1522",
+      "panels": []
     },
     {
       "key": "CPN-1525",
@@ -105,7 +117,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1525"
+      "url": "https://cube001.atlassian.net/browse/CPN-1525",
+      "panels": []
     },
     {
       "key": "CPN-1526",
@@ -118,7 +131,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1526"
+      "url": "https://cube001.atlassian.net/browse/CPN-1526",
+      "panels": []
     },
     {
       "key": "CPN-1528",
@@ -131,7 +145,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1528"
+      "url": "https://cube001.atlassian.net/browse/CPN-1528",
+      "panels": []
     },
     {
       "key": "CPN-1527",
@@ -144,7 +159,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1527"
+      "url": "https://cube001.atlassian.net/browse/CPN-1527",
+      "panels": []
     },
     {
       "key": "CPN-1529",
@@ -157,7 +173,8 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1529"
+      "url": "https://cube001.atlassian.net/browse/CPN-1529",
+      "panels": []
     },
     {
       "key": "CPN-44",
@@ -169,7 +186,17 @@
       "labels": [
         "Consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-44"
+      "url": "https://cube001.atlassian.net/browse/CPN-44",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 16/03: Step 2 Processing Service:  We have a DEV environment and are working on a simple vertical slice to validate auth. Working with cloud team to spin up environments beyond DEV     Step 1 End-2-End Automated Tests:  As of this update the team have automated  113/153 (73%)  end to end tests.           RegFlow - Refactor Tickets & Tracking - Cube RegPlatform - Confluence RegFlow Overhaul Strategy Documen t"
+        },
+        {
+          "type": "note",
+          "text": "Plan for a plan under review Ben meeting to agree approach and plan to be scheduled following product spec sign off. Expanded team to re-factor regflow outside of deployment -       to agree team struture. Product specification document sign-off needed - document updated and with    for sign off. Review of e2e test coverage - automated test engineer needed - resources to be identified and priority call needed. API enhancements to decouple form updates from deployments. Timeline to run to end 2025, to be split into quarterly committments10"
+        }
+      ]
     },
     {
       "key": "CPN-81",
@@ -184,7 +211,13 @@
         "consumer",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-81"
+      "url": "https://cube001.atlassian.net/browse/CPN-81",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 Elastic PS to right size the Elastic instances has been paid for, this will be rebated on completion of the work. Elastic are to confirm PS availability, doing this work will require a time from CUBE so could be delayed until after the migration takes place. New performance tests are being created which can be run against Azure and on prem systems. A functional comparison of Azure and on prem UAT is underway and will continue when the data between the systems has been aligned. Previous Functional testing has been run, the pass rate is on a par with functional testing in the on prem environment. Further investigation and optimisation work may be required to improve performance, depending on the output of the performance testing Production set up is blocked due to resource availability constraints from Microsoft, we do not have enough SQL MI processing in UKS to build the required SQL MI instance. RAG is Red due to being behind plan RegPlatform Update 23/06 : Repos now migrated"
+        }
+      ]
     },
     {
       "key": "CPN-240",
@@ -197,7 +230,17 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-240"
+      "url": "https://cube001.atlassian.net/browse/CPN-240",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06: Hypercare has ended. This can now be closed"
+        },
+        {
+          "type": "info",
+          "text": "Decision: Point UAT for Enterprise to prod CAS service - Cube Technology - Confluence"
+        }
+      ]
     },
     {
       "key": "CPN-636",
@@ -210,7 +253,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-636"
+      "url": "https://cube001.atlassian.net/browse/CPN-636",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06: The initial approach failed. Erin has been tagged on options to move forward"
+        }
+      ]
     },
     {
       "key": "CPN-1342",
@@ -224,7 +273,13 @@
         "InfoSec",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1342"
+      "url": "https://cube001.atlassian.net/browse/CPN-1342",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  5 done, 5 to be prioritised"
+        }
+      ]
     },
     {
       "key": "CPN-1041",
@@ -237,7 +292,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1041"
+      "url": "https://cube001.atlassian.net/browse/CPN-1041",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  The linked items have been completed. We need to understand whether there are additional requirements before closing"
+        }
+      ]
     },
     {
       "key": "CPN-563",
@@ -250,7 +311,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-563"
+      "url": "https://cube001.atlassian.net/browse/CPN-563",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  This is now considered complete. However testing is data dependant and further validation needed"
+        }
+      ]
     },
     {
       "key": "CPN-1040",
@@ -263,7 +330,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1040"
+      "url": "https://cube001.atlassian.net/browse/CPN-1040",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06 : This is considered complete, however profile api work to support this is in progress and will be handled separately"
+        }
+      ]
     },
     {
       "key": "CPN-1119",
@@ -276,7 +349,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1119"
+      "url": "https://cube001.atlassian.net/browse/CPN-1119",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  12 out of 16 items completed resulting in a noticable improvement to performance.  Will carry over to Q3 for remaining 4 which are in progress..  Needs to be an initiative so that the work is not de-prioritised"
+        }
+      ]
     },
     {
       "key": "CPN-1252",
@@ -289,7 +368,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1252"
+      "url": "https://cube001.atlassian.net/browse/CPN-1252",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  This is has moved from RED to AMBER as Christopher has been able to catch up utilising AI. Confirmation near quarter end whether there will be any carry over"
+        }
+      ]
     },
     {
       "key": "CPN-674",
@@ -302,7 +387,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-674"
+      "url": "https://cube001.atlassian.net/browse/CPN-674",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06: This is in progress, but more alignment with Ian and Adam to take place"
+        }
+      ]
     },
     {
       "key": "CPN-1321",
@@ -315,7 +406,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1321"
+      "url": "https://cube001.atlassian.net/browse/CPN-1321",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  Was paused in Q2 due to competing priorities. This will be developed across Q3, but will sit lower in priority"
+        }
+      ]
     },
     {
       "key": "CPN-564",
@@ -328,7 +425,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-564"
+      "url": "https://cube001.atlassian.net/browse/CPN-564",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  Considered complete. Further enhancements will be handled separate to this initiative"
+        }
+      ]
     },
     {
       "key": "CPN-71",
@@ -340,7 +443,13 @@
       "labels": [
         "Consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-71"
+      "url": "https://cube001.atlassian.net/browse/CPN-71",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 22/06: This was a Q1 activity that is now planned for rollout in Q3. So have added this item to the Initiative view instead of creating a new initiative. It is unclear how this will be resourced. Lee to confirm with Jeremy. Initial roll out to production for DB and API complete to on-prem. Currently awaiting service bus queues/topics setup for hydrator and update functions. Need confirmation about client data on cloud though. This is RED and we do not expect to conclude in Q1. Should drop from the Q1 commitment. New scope - must release INF changes to capture AUDIT in LIVE  No further UI work for quarter  Complete audit event for RegFlow Complete audit events for RegGroup Start audit audit events for RegAdmin Complete audit events for RegBooks Complete audit events for RegInsights Deploy to limited users on UAT and Production"
+        }
+      ]
     },
     {
       "key": "CPN-238",
@@ -352,7 +461,13 @@
       "labels": [
         "Consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-238"
+      "url": "https://cube001.atlassian.net/browse/CPN-238",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06: Customer validation in progress. Further enhancements in development"
+        }
+      ]
     },
     {
       "key": "CPN-1121",
@@ -365,7 +480,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1121"
+      "url": "https://cube001.atlassian.net/browse/CPN-1121",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 22/06:  This is now considered complete. There have been further performance issues noted though, these will be handled separately"
+        }
+      ]
     },
     {
       "key": "CPN-610",
@@ -379,7 +500,13 @@
         "content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610"
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
+        }
+      ]
     },
     {
       "key": "CPN-690",
@@ -392,7 +519,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-690"
+      "url": "https://cube001.atlassian.net/browse/CPN-690",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 14/04: Tech lead TJ is being moved into a new team, with additional developer support. Handover to be discussed so we can understand whether we can deliver in Q2 Elastic upgrade and migration - Cube Technology - Confluence"
+        }
+      ]
     },
     {
       "key": "CPN-392",
@@ -407,7 +540,13 @@
         "InfoSec",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-392"
+      "url": "https://cube001.atlassian.net/browse/CPN-392",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Audit ongoing - Interviews with 12 + teams across Cube including Legal, People, Infrastructure, Cloud, Security.  Expect to receive OFIs at a minimum   Audit dates confirmed Stage 1 22  and 23 April.  State 2 June 11th to 18th April.  Ongoing remediation of vulnerabilities across container packages, endpoints, servers in progress.  Reduced from peak of 200k to100k  currently.    Vulnerability Management Forum set up.  Still lot of work to do.  Machines to be decommissioned (VDIs etc.) - nearly complete Vendor supplier reviews (Critical) completed using Vanta.   InfoSec Risk register uploaded to vanta.   Risk Treatment procedure to be reviewed.   All other risks across Cube have been added to the register.  meetings to be set up with Executive leads.     Internal audit with Ash complete - findings to be addressed.  No major non conformities identified. Minor non conformities to be addressed in infosec session.  ISMS Documentation complete and policies uploaded for employee acknowledgement - 33% have completed the task.  Secure Code training rolled out to Development teams from Vanta - 100 % Complete Security training rolled out to all employees 24/02/2026 - 80% completion rate.  Cyber Training for new starters to be followed up  Vulnerability Scanning tool for web applications, Tenable, deployed by Ash Cyber  Remaining scope  for Content Engineering:  CUBE ISO27001 certification - remaining scope - Content Platform - Confluence"
+        }
+      ]
     },
     {
       "key": "CPN-288",
@@ -422,7 +561,13 @@
         "regextract",
         "reggroup"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-288"
+      "url": "https://cube001.atlassian.net/browse/CPN-288",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 12/12 -  Customer validation in progress. They have asked for analysis to a deeper level. Awaiting customer sign-off"
+        }
+      ]
     },
     {
       "key": "CPN-566",
@@ -435,7 +580,13 @@
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-566"
+      "url": "https://cube001.atlassian.net/browse/CPN-566",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 14/04: Post Launch Hypercare through to end of April"
+        }
+      ]
     }
   ]
 }
