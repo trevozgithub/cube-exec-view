@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T10:30:46.949718Z",
+  "updated": "2026-06-25T11:02:45.849124+00:00",
   "total": 23,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
@@ -9,7 +9,7 @@
       "status": "Launch",
       "assignee": "Graham Case",
       "duedate": "2026-07-31",
-      "reviewed": "2026-06-24",
+      "reviewed": "2026-06-25",
       "labels": [
         "InfoSec",
         "infrastructure"
@@ -23,12 +23,31 @@
       "status": "Scoping",
       "assignee": "Sean Kelaart",
       "duedate": "2026-06-30",
-      "reviewed": "2026-06-23",
+      "reviewed": "2026-06-24",
       "labels": [
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1236",
       "panels": []
+    },
+    {
+      "key": "CPN-703",
+      "summary": "Enterprise in the cloud - Phase 2",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-16",
+      "reviewed": "2026-06-24",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-703",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
+        }
+      ]
     },
     {
       "key": "CPN-930",
@@ -66,25 +85,6 @@
         {
           "type": "info",
           "text": "08/06/26 Elastic PS to right size the Elastic instances has been paid for, this will be rebated on completion of the work. Elastic are to confirm PS availability, doing this work will require a time from CUBE so could be delayed until after the migration takes place. New performance tests are being created which can be run against Azure and on prem systems. A functional comparison of Azure and on prem UAT is underway and will continue when the data between the systems has been aligned. Previous Functional testing has been run, the pass rate is on a par with functional testing in the on prem environment. Further investigation and optimisation work may be required to improve performance, depending on the output of the performance testing Production set up is blocked due to resource availability constraints from Microsoft, we do not have enough SQL MI processing in UKS to build the required SQL MI instance. RAG is Red due to being behind plan RegPlatform Update 23/06 : Repos now migrated"
-        }
-      ]
-    },
-    {
-      "key": "CPN-703",
-      "summary": "Enterprise in the cloud - Phase 2",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-16",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-703",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
         }
       ]
     },
@@ -159,11 +159,11 @@
       "panels": [
         {
           "type": "info",
-          "text": "22/06/26 Waiting for an update from Faaris CRs have been raised for the following ACIN domains: ACIN.com   ACIN.ai ACIN.network ACINGPT.com ACINTERNAL.com CAB was  approved. Faaris now has the correct permissions to proceed. Transfer lock doesn\u2019t apply"
+          "text": "22/06/26 Waiting for an update from Faaris CRs have been raised for the following ACIN domains: ACIN.com   ACIN.ai ACIN.network ACINGPT.com ACINTERNAL.com CAB was  approved. Faaris now has the correct permissions to proceed. Transfer lock doesn’t apply"
         },
         {
           "type": "info",
-          "text": "Also have  PHIGRC.com  and  4CRISK.ai  to do for 4C phigrc.com  is still being used. no  landing page so we can\u2019t access it Should now have access. Waiting for Faaris' availability to complete"
+          "text": "Also have  PHIGRC.com  and  4CRISK.ai  to do for 4C phigrc.com  is still being used. no  landing page so we can’t access it Should now have access. Waiting for Faaris' availability to complete"
         }
       ]
     },
@@ -241,7 +241,7 @@
       "panels": [
         {
           "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been packaged, and collection has been coordinated with Eduardo from TR."
+          "text": "Mary Leung’s and Melissa Pezzotti’s TR devices have been packaged, and collection has been coordinated with Eduardo from TR."
         }
       ]
     },
@@ -342,7 +342,7 @@
       "panels": [
         {
           "type": "info",
-          "text": "11/06/2026 Spreadsheet now shows colour coding for date of action or date to be actioned Customers identified as Inform Now have been notified. A few more are due now but next batch aren\u2019t due until July"
+          "text": "11/06/2026 Spreadsheet now shows colour coding for date of action or date to be actioned Customers identified as Inform Now have been notified. A few more are due now but next batch aren’t due until July"
         }
       ]
     },
