@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T09:00:00Z",
+  "updated": "2026-06-25T10:30:50.830907Z",
   "total": 4,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2554",
   "items": [
@@ -13,7 +13,13 @@
       "labels": [
         "D&AI"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-665"
+      "url": "https://cube001.atlassian.net/browse/CPN-665",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Copied from:"
+        }
+      ]
     },
     {
       "key": "CPN-460",
@@ -25,7 +31,17 @@
       "labels": [
         "D&AI"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-460"
+      "url": "https://cube001.atlassian.net/browse/CPN-460",
+      "panels": [
+        {
+          "type": "error",
+          "text": "No deployment plan or clarity on how this moves forward. Need input from GraemeW."
+        },
+        {
+          "type": "info",
+          "text": "Status :    Currently in Test deployment. Planned for Q1 subject to Pipeline delivery timelines expected by     New Roadmap scheduled shared with DM team  AI Assisted Matching Plan - Miro **NLP capacity potentially impacted by  [CPEAI-1264] Security Vulnerabilities 2026 - JIRA Cube"
+        }
+      ]
     },
     {
       "key": "CPN-284",
@@ -37,7 +53,21 @@
       "labels": [
         "D&AI"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-284"
+      "url": "https://cube001.atlassian.net/browse/CPN-284",
+      "panels": [
+        {
+          "type": "error",
+          "text": "Cancelled"
+        },
+        {
+          "type": "info",
+          "text": "Status: In Scoping      Original NLP team time estimates for Apr with Prod deployments changed due to other competing priorities- Section matching/Security vulnerabilities and Pipeline commitments  Revised Project timelines and roadmap  Section Dates Plan - Miro  - now at June end Product has confirmed that Platform will not take this up until Q3   **NLP capacity potentially impacted by  [CPEAI-1264] Security Vulnerabilities 2026 - JIRA Cube"
+        },
+        {
+          "type": "info",
+          "text": "**NLP capacity potentially impacted by  [CPEAI-1264] Security Vulnerabilities 2026 - JIRA Cube"
+        }
+      ]
     },
     {
       "key": "CPN-797",
@@ -49,7 +79,17 @@
       "labels": [
         "D&AI"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-797"
+      "url": "https://cube001.atlassian.net/browse/CPN-797",
+      "panels": [
+        {
+          "type": "error",
+          "text": "Cancelled"
+        },
+        {
+          "type": "info",
+          "text": "Status - In Funnel     Description  - Requirements to be clarified from Product ETA - TBD,  will potentially miss Q1  considering still waiting locked in requirements, communicated with product More summary generation but for book sections and their extracts"
+        }
+      ]
     }
   ]
 }
