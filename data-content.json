@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T08:22:33.497449Z",
+  "updated": "2026-06-25T10:30:48.132764Z",
   "total": 12,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
@@ -15,7 +15,13 @@
         "content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610"
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
+        }
+      ]
     },
     {
       "key": "CPN-392",
@@ -30,7 +36,13 @@
         "InfoSec",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-392"
+      "url": "https://cube001.atlassian.net/browse/CPN-392",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Audit ongoing - Interviews with 12 + teams across Cube including Legal, People, Infrastructure, Cloud, Security.  Expect to receive OFIs at a minimum   Audit dates confirmed Stage 1 22  and 23 April.  State 2 June 11th to 18th April.  Ongoing remediation of vulnerabilities across container packages, endpoints, servers in progress.  Reduced from peak of 200k to100k  currently.    Vulnerability Management Forum set up.  Still lot of work to do.  Machines to be decommissioned (VDIs etc.) - nearly complete Vendor supplier reviews (Critical) completed using Vanta.   InfoSec Risk register uploaded to vanta.   Risk Treatment procedure to be reviewed.   All other risks across Cube have been added to the register.  meetings to be set up with Executive leads.     Internal audit with Ash complete - findings to be addressed.  No major non conformities identified. Minor non conformities to be addressed in infosec session.  ISMS Documentation complete and policies uploaded for employee acknowledgement - 33% have completed the task.  Secure Code training rolled out to Development teams from Vanta - 100 % Complete Security training rolled out to all employees 24/02/2026 - 80% completion rate.  Cyber Training for new starters to be followed up  Vulnerability Scanning tool for web applications, Tenable, deployed by Ash Cyber  Remaining scope  for Content Engineering:  CUBE ISO27001 certification - remaining scope - Content Platform - Confluence"
+        }
+      ]
     },
     {
       "key": "CPN-682",
@@ -43,7 +55,13 @@
         "Content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-682"
+      "url": "https://cube001.atlassian.net/browse/CPN-682",
+      "panels": [
+        {
+          "type": "info",
+          "text": "15/06/26 Regproxy rollout complete. UrbanVPN poses a security risk (   ), so an alternative solution is required. 4C have a solution, but it is similar to 2captcha proxy that we currently use. ProtonVPN has been identified as a suitable VPN solution and can be onboarded, it has openvpn configurations for most countries, as opposed to PIA which has for around 30 countries. ProtonVPN is going through onboarding, an abbreviated onboarding process can be used for this. Ticket for Proton VPN subscription -"
+        }
+      ]
     },
     {
       "key": "CPN-50",
@@ -56,7 +74,13 @@
         "PlanningFlag",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-50"
+      "url": "https://cube001.atlassian.net/browse/CPN-50",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Systran v10 and the Translation API are live since June 2.   This includes autoscaling, scaling groups for language sets, and detailed translation dashboards aviliable in new relic. Only remaining thing is the move of RDM from direct systran communication to the new API"
+        }
+      ]
     },
     {
       "key": "CPN-196",
@@ -72,7 +96,13 @@
         "content",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196"
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26     Azure Migrate has been set up to assess migration of Content VMs to Azure. Work to migrate Dev and Test databases to Azure SQL MI initiated, currently paused. Calls with Microsoft Factory team held. Content migration to Kubernetes is also being progressed, however there is a resourcing risk associated with achieving this."
+        }
+      ]
     },
     {
       "key": "CPN-1012",
@@ -84,7 +114,17 @@
       "labels": [
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1012"
+      "url": "https://cube001.atlassian.net/browse/CPN-1012",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status: AI handover documentation complete. Insights: Documentation in progress. Books handover: consolidating into Sri Lanka. Doco later. RDM/RDI insights: starting after security fixes. RDM/RDI books: starting after security fixes."
+        },
+        {
+          "type": "warning",
+          "text": "Decision on forward direction of Cube data pipelines needed for migration tasks of RDM team. Java replacement seems improbable at this point."
+        }
+      ]
     },
     {
       "key": "CPN-805",
@@ -97,7 +137,8 @@
         "Content",
         "PlanningFlag"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-805"
+      "url": "https://cube001.atlassian.net/browse/CPN-805",
+      "panels": []
     },
     {
       "key": "CPN-554",
@@ -110,7 +151,13 @@
         "PlanningFlag",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-554"
+      "url": "https://cube001.atlassian.net/browse/CPN-554",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status : in-progress   Alert Register   Completed for RegBrain AI services as of      Insight and Book pipeline have key alerts in place.   Still to enhance RDM, book pipeline. Target end May 2026"
+        }
+      ]
     },
     {
       "key": "CPN-569",
@@ -123,7 +170,13 @@
         "PlanningFlag",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-569"
+      "url": "https://cube001.atlassian.net/browse/CPN-569",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status : Moving caching to config almost done. Site cookies feature delayed until Jan-Feb. Will look at it in March, as there\u2019s security audit work to do that\u2019s more important"
+        }
+      ]
     },
     {
       "key": "CPN-798",
@@ -136,7 +189,8 @@
         "PlanningFlag",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-798"
+      "url": "https://cube001.atlassian.net/browse/CPN-798",
+      "panels": []
     },
     {
       "key": "CPN-232",
@@ -149,7 +203,13 @@
         "PlanningFlag",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-232"
+      "url": "https://cube001.atlassian.net/browse/CPN-232",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status:  Cache and XML stamping APIs complete.   IB Master data phase 1 mostly complete (a couple of minor issues to resolve) Other items in a backlog for later consideration"
+        }
+      ]
     },
     {
       "key": "CPN-634",
@@ -162,7 +222,8 @@
         "PlanningFlag",
         "content"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-634"
+      "url": "https://cube001.atlassian.net/browse/CPN-634",
+      "panels": []
     }
   ]
 }
