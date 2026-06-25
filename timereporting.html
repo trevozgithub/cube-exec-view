@@ -170,7 +170,7 @@ function buildWeekCard(week, idx) {
   const key = document.getElementById('wk'+idx);
   CATEGORIES.forEach((cat,i) => {
     const p = pct(week.data[i], total);
-    if (!p) return;
+    if (!p && cat !== 'Platform Enhancements' && cat !== 'Customer Enhancements') return;
     const el = document.createElement('div');
     el.className='key-item';
     el.innerHTML=`<span class="key-dot" style="background:${COLORS[i]}"></span><span class="key-label">${cat}</span><span class="key-pct">${p}%</span>`;
