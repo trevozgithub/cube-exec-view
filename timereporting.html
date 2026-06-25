@@ -88,7 +88,7 @@
 <div class="page-header">
   <h1>⏱️ Time Reporting</h1>
   <div class="subtitle">
-    <span>Weekly Time Distribution by Category</span>
+    <span>Monthly Time Distribution by Category</span>
     <span class="filter-chip">May Week 3 → June Week 2</span>
     <span class="filter-chip">Hours logged</span>
   </div>
@@ -96,7 +96,7 @@
 
 <div class="main">
 
-  <div class="section-title">Weekly Overview</div>
+  <div class="section-title">Monthly Overview</div>
   <div class="weeks-grid" id="weeksGrid"></div>
 
   <div class="section-title">Breakdown by Technology Category</div>
@@ -123,10 +123,10 @@ const CATEGORIES = [
 const COLORS = ['#2563EB','#7C3AED','#0D9488','#DC2626','#D97706','#0369A1','#16A34A','#9CA3AF','#E5E7EB'];
 
 const WEEKS = [
-  { label: 'May – Week 3', data: [3186,120,162,222,1372,595,420,148,1335] },
-  { label: 'May – Week 4', data: [2931,190,163,165,1103,736,543,165,1995] },
-  { label: 'June – Week 1', data: [3196,317,199,239,1370,745,448,157,2501] },
-  { label: 'June – Week 2', data: [3341,337,187,244,1571,718,415,186,3135] }
+  { label: 'February', data: [3545, 140, 942, 479, 2179, 2250, 0, 0, 12916] },
+  { label: 'March', data: [4408, 265, 351, 648, 2219, 2040, 0, 0, 24795] },
+  { label: 'April', data: [8897, 180, 476, 561, 4638, 2942, 0, 0, 12898] },
+  { label: 'May', data: [12263, 632, 640, 762, 5030, 3061, 1444, 0, 7207] }
 ];
 
 const TEAM_BREAKDOWN = [
