@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T10:30:48.685312Z",
+  "updated": "2026-06-25T11:02:48.358273+00:00",
   "total": 5,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=317",
   "items": [
@@ -11,15 +11,17 @@
       "duedate": "2026-12-31",
       "reviewed": "2026-06-15",
       "labels": [
-        "TechOps",
         "Infra",
-        "TR"
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1089",
       "panels": [
         {
           "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been packaged, and collection has been coordinated with Eduardo from TR."
+          "text": "Mary Leung’s and Melissa Pezzotti’s TR devices have been packaged, and collection has been coordinated with Eduardo from TR."
         }
       ]
     },
@@ -50,8 +52,10 @@
       "duedate": "2026-06-30",
       "reviewed": "2026-06-15",
       "labels": [
+        "4CRisk",
+        "Infra",
         "TechOps",
-        "4CRisk"
+        "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1214",
       "panels": [
