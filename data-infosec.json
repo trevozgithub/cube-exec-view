@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T14:41:38Z",
+  "updated": "2026-06-25T10:30:45.612699Z",
   "total": 22,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
@@ -15,7 +15,8 @@
         "infrastructure"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1024"
+      "url": "https://cube001.atlassian.net/browse/CPN-1024",
+      "panels": []
     },
     {
       "key": "CPN-1342",
@@ -30,7 +31,13 @@
         "consumer"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1342"
+      "url": "https://cube001.atlassian.net/browse/CPN-1342",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  5 done, 5 to be prioritised"
+        }
+      ]
     },
     {
       "key": "CPN-925",
@@ -44,7 +51,13 @@
         "infrastructure"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-925"
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 All Legal work on agreements has been completed. Kickoff call held with Ash 06/05. Weekly calls being held on Wednesdays with Ash and Axonius. A spreadsheet containing data sources has been created and needs to be reviewed for scope. Requests for credentials have been raised with the Service Desk and other Stakeholders, credentials are being created.  The Axonius Gateway VM has been created in Azure v2. Review of Axonius Exposures Risk Scoring model to tak eplace on 09/06."
+        }
+      ]
     },
     {
       "key": "CPN-392",
@@ -60,7 +73,13 @@
         "content"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-392"
+      "url": "https://cube001.atlassian.net/browse/CPN-392",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Audit ongoing - Interviews with 12 + teams across Cube including Legal, People, Infrastructure, Cloud, Security.  Expect to receive OFIs at a minimum   Audit dates confirmed Stage 1 22  and 23 April.  State 2 June 11th to 18th April.  Ongoing remediation of vulnerabilities across container packages, endpoints, servers in progress.  Reduced from peak of 200k to100k  currently.    Vulnerability Management Forum set up.  Still lot of work to do.  Machines to be decommissioned (VDIs etc.) - nearly complete Vendor supplier reviews (Critical) completed using Vanta.   InfoSec Risk register uploaded to vanta.   Risk Treatment procedure to be reviewed.   All other risks across Cube have been added to the register.  meetings to be set up with Executive leads.     Internal audit with Ash complete - findings to be addressed.  No major non conformities identified. Minor non conformities to be addressed in infosec session.  ISMS Documentation complete and policies uploaded for employee acknowledgement - 33% have completed the task.  Secure Code training rolled out to Development teams from Vanta - 100 % Complete Security training rolled out to all employees 24/02/2026 - 80% completion rate.  Cyber Training for new starters to be followed up  Vulnerability Scanning tool for web applications, Tenable, deployed by Ash Cyber  Remaining scope  for Content Engineering:  CUBE ISO27001 certification - remaining scope - Content Platform - Confluence"
+        }
+      ]
     },
     {
       "key": "CPN-1331",
@@ -74,7 +93,8 @@
         "RegRoom"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1331"
+      "url": "https://cube001.atlassian.net/browse/CPN-1331",
+      "panels": []
     },
     {
       "key": "CPN-1328",
@@ -88,7 +108,8 @@
         "intelcpn"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1328"
+      "url": "https://cube001.atlassian.net/browse/CPN-1328",
+      "panels": []
     },
     {
       "key": "CPN-1327",
@@ -102,7 +123,8 @@
         "intelcpn"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1327"
+      "url": "https://cube001.atlassian.net/browse/CPN-1327",
+      "panels": []
     },
     {
       "key": "CPN-124",
@@ -116,7 +138,13 @@
         "migrated"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-124"
+      "url": "https://cube001.atlassian.net/browse/CPN-124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
+        }
+      ]
     },
     {
       "key": "CPN-101",
@@ -130,7 +158,17 @@
         "infrastructure"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-101"
+      "url": "https://cube001.atlassian.net/browse/CPN-101",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Fully decommissioned:  68 /87 Excluded:  1  - CUBEOCTO - Plan to migrate away from both TeamCity and Octopus Deploy by moving applications such as RM, Insights pipeline, and other DM\\CDS related projects to Azure Devops. Abandoned  18  - RDS servers. Replacement RDS servers provisioned for POC have been powered down and are scheduled for decommissioning, as they are no longer required."
+        },
+        {
+          "type": "info",
+          "text": "CUBE and Customers Windows 2012 Servers.xlsx"
+        }
+      ]
     },
     {
       "key": "CPN-132",
@@ -143,7 +181,13 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-132"
+      "url": "https://cube001.atlassian.net/browse/CPN-132",
+      "panels": [
+        {
+          "type": "info",
+          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added  Refreshed list sent to Mike and team  Mike & team working on Sendgrid and Datadog  MC working through the list     Veracode now on SSO - 25/03/2026 \u00a0 TS-41835  Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week     Action this week:  Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified   Assign App/System owners.  - done  Ensure SSO / MFA applied as required  w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
+        }
+      ]
     },
     {
       "key": "CPN-1347",
@@ -156,7 +200,8 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1347"
+      "url": "https://cube001.atlassian.net/browse/CPN-1347",
+      "panels": []
     },
     {
       "key": "CPN-169",
@@ -169,7 +214,13 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-169"
+      "url": "https://cube001.atlassian.net/browse/CPN-169",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The following items yet are yet to be completed: Defender for Identity \u2013 Continue/Finalise Rollout should be complete by Friday 7th\u00a0  (COMPLETE     ) Implement Privileged Identity Management (PIM)\u00a0 (This project is being scoped with Daniel Powel, scope/planning to be confirmed) Access Recertification (PIM and Entra ID Access Reviews)  (This project is being scoped with Daniel Powel, scope/planning to be confirmed) Ensure All CUBE-Owned EUC Is Intune Managed  (Muhim sent list of unmanaged devices to SD for remediation: Ticket number:    refers)   Management of Removable Media \u00a0   Deployed on 11th December. (Short list of potential exclusions to be reviewed with James)     28/01: Stefan to reassign EUC onboarding ticket to a member of his team and will start onboarding again from today.  03/03/26: As of today there are 25 devices remaining from  the original list of 63 18/03/26: There are 19 devices remaining to be onboarded.  08/04/26: There are 13 devices remaining.  15/04/26: 11 devices remain. 22/04/26: 5 devices remain 06/05/26: 0 devices remain"
+        }
+      ]
     },
     {
       "key": "CPN-625",
@@ -182,7 +233,13 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-625"
+      "url": "https://cube001.atlassian.net/browse/CPN-625",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status update"
+        }
+      ]
     },
     {
       "key": "CPN-1369",
@@ -197,7 +254,8 @@
         "intelcpn"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1369"
+      "url": "https://cube001.atlassian.net/browse/CPN-1369",
+      "panels": []
     },
     {
       "key": "CPN-1346",
@@ -210,7 +268,8 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1346"
+      "url": "https://cube001.atlassian.net/browse/CPN-1346",
+      "panels": []
     },
     {
       "key": "CPN-907",
@@ -225,7 +284,8 @@
         "hg-priority"
       ],
       "issuetype": "Epic",
-      "url": "https://cube001.atlassian.net/browse/CPN-907"
+      "url": "https://cube001.atlassian.net/browse/CPN-907",
+      "panels": []
     },
     {
       "key": "CPN-358",
@@ -238,7 +298,13 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-358"
+      "url": "https://cube001.atlassian.net/browse/CPN-358",
+      "panels": [
+        {
+          "type": "info",
+          "text": "22/04 - schedule agreed with MTI."
+        }
+      ]
     },
     {
       "key": "CPN-1266",
@@ -251,7 +317,8 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1266"
+      "url": "https://cube001.atlassian.net/browse/CPN-1266",
+      "panels": []
     },
     {
       "key": "CPN-905",
@@ -264,7 +331,8 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-905"
+      "url": "https://cube001.atlassian.net/browse/CPN-905",
+      "panels": []
     },
     {
       "key": "CPN-1258",
@@ -277,7 +345,8 @@
         "InfoSec"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-1258"
+      "url": "https://cube001.atlassian.net/browse/CPN-1258",
+      "panels": []
     },
     {
       "key": "CPN-173",
@@ -291,7 +360,17 @@
         "migrated"
       ],
       "issuetype": "Initiative",
-      "url": "https://cube001.atlassian.net/browse/CPN-173"
+      "url": "https://cube001.atlassian.net/browse/CPN-173",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Update: 31/03/2026"
+        },
+        {
+          "type": "info",
+          "text": "Tenable has been installed and set up by Ash Reports are now accessible.  Need to understand the process of remediating issues  2 workstreams here:   1. Overall approach to risk based Vulnerability Mgt (ASH/Axonius)   2. Implementing enterprise vulnerbility scanning tool for external attack surface (Tenable)"
+        }
+      ]
     },
     {
       "key": "CPN-604",
@@ -304,7 +383,8 @@
         "InfoSec"
       ],
       "issuetype": "Epic",
-      "url": "https://cube001.atlassian.net/browse/CPN-604"
+      "url": "https://cube001.atlassian.net/browse/CPN-604",
+      "panels": []
     }
   ]
 }
