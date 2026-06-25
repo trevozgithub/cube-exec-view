@@ -1,8 +1,27 @@
 {
-  "updated": "2026-06-25T10:30:44.131068Z",
-  "total": 33,
+  "updated": "2026-06-25T11:02:42.791321+00:00",
+  "total": 43,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-1119",
+      "summary": "RegPlatform - DB Performance",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-06-24",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1119",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06:  12 out of 16 items completed resulting in a noticable improvement to performance.  Will carry over to Q3 for remaining 4 which are in progress..  Needs to be an initiative so that the work is not de-prioritised"
+        }
+      ]
+    },
     {
       "key": "CPN-1523",
       "summary": "RegPlatform - Enforcement Agent",
@@ -339,25 +358,6 @@
       ]
     },
     {
-      "key": "CPN-1119",
-      "summary": "RegPlatform - DB Performance",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1119",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/06:  12 out of 16 items completed resulting in a noticable improvement to performance.  Will carry over to Q3 for remaining 4 which are in progress..  Needs to be an initiative so that the work is not de-prioritised"
-        }
-      ]
-    },
-    {
       "key": "CPN-1252",
       "summary": "RegFlow - Testing & MVP Contract",
       "status": "Build & Test",
@@ -585,6 +585,172 @@
         {
           "type": "info",
           "text": "Status 14/04: Post Launch Hypercare through to end of April"
+        }
+      ]
+    },
+    {
+      "key": "CPN-556",
+      "summary": "RegExtract -  Phase 2",
+      "status": "Scoping",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-04-07",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-556",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 16/03: Initiative has been moved to “SCOPING” as it reflects a change in prioritization."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1223",
+      "summary": "RegPlatform - - Leave / absence Q2",
+      "status": "Scoping",
+      "assignee": "George Brand",
+      "duedate": "",
+      "reviewed": "2026-04-01",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1223",
+      "panels": []
+    },
+    {
+      "key": "CPN-562",
+      "summary": "RegInsight - Alerts and Sharing for Saved RegInsight Analysis Searches",
+      "status": "Scoping",
+      "assignee": "Masoom Miah",
+      "duedate": "",
+      "reviewed": "2026-03-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-562",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 08/01: This requires planning and alignment"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1163",
+      "summary": "RegPlatform - Leave / absence - Q2",
+      "status": "Scoping",
+      "assignee": "George Brand",
+      "duedate": "",
+      "reviewed": "2026-03-27",
+      "labels": [
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1163",
+      "panels": []
+    },
+    {
+      "key": "CPN-927",
+      "summary": "RegPlatform Incidents - Q1",
+      "status": "Build & Test",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-02-17",
+      "labels": [
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-927",
+      "panels": []
+    },
+    {
+      "key": "CPN-694",
+      "summary": "Unified UI framework",
+      "status": "Planning",
+      "assignee": "Malcolm Brown",
+      "duedate": "",
+      "reviewed": "2026-02-09",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-694",
+      "panels": []
+    },
+    {
+      "key": "CPN-53",
+      "summary": "RDS retirement",
+      "status": "Scoping",
+      "assignee": "Dan Sutton",
+      "duedate": "2025-09-30",
+      "reviewed": "2026-02-03",
+      "labels": [
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-53",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Risk mitigation  - explore with remaining customer, FCB options to reduce risk such as implementing a VPN or whitelisting.  Action with     Product   - inventory and records management functionality used by FCB and internal compliance reviews needs scoping by product.  Agreed that Lee Fairy will kick off work on his return. Windows servers being decommissioned but does not fully mitigate risk."
+        }
+      ]
+    },
+    {
+      "key": "CPN-630",
+      "summary": "RegConnect - Single public API strategy",
+      "status": "Planning",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-02-27",
+      "reviewed": "2026-02-02",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-630",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 17/12: Current approach is to design content and master data endpoints for Intel and Enterprise migration target customers (and new Enterprise customers) that represent our desired One API future state, and encourage existng Enterprise customers to them. The original proposal was to make these available on a single subdomain - connect.gocube.global.    There are two parts to this: API end point and contract design.  The starting point was a review of the convergence opportunities between Enterprise and proposed Intel.  Final design of content endpoints is in progress. Technical design to have all sit between connect but be accessible on same or similar domain.  Sid has presented initial proposal.  Needs completion and sign-off."
+        }
+      ]
+    },
+    {
+      "key": "CPN-652",
+      "summary": "RegPlatform - Feature Flagging",
+      "status": "Planning",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-01-23",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-652",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/01: No further work planned at the moment although reviewing with Rohit who is gathering more details to determine whether we continue Status 09/01: Sysadmin was demoed. Action is on Rohit and Clarissa to derive any further requirements E.g. Bulk Edit. Once we have this we can plan and commit"
+        }
+      ]
+    },
+    {
+      "key": "CPN-555",
+      "summary": "RegInsight Customer Enhancements",
+      "status": "Post Launch Review",
+      "assignee": "Mike Warren",
+      "duedate": "2025-11-25",
+      "reviewed": "2026-01-08",
+      "labels": [
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-555",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 05/12: This can be closed"
         }
       ]
     }
