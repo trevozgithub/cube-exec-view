@@ -1,8 +1,26 @@
 {
-  "updated": "2026-06-25T11:02:42.791321+00:00",
+  "updated": "2026-06-25T14:37:54.742198+00:00",
   "total": 43,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-53",
+      "summary": "RDS retirement",
+      "status": "Scoping",
+      "assignee": "Dan Sutton",
+      "duedate": "",
+      "reviewed": "2026-06-25",
+      "labels": [
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-53",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Risk mitigation  - explore with remaining customer, FCB options to reduce risk such as implementing a VPN or whitelisting.  Action with     Product   - inventory and records management functionality used by FCB and internal compliance reviews needs scoping by product.  Agreed that Lee Fairy will kick off work on his return. Windows servers being decommissioned but does not fully mitigate risk."
+        }
+      ]
+    },
     {
       "key": "CPN-1119",
       "summary": "RegPlatform - DB Performance",
@@ -679,24 +697,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-694",
       "panels": []
-    },
-    {
-      "key": "CPN-53",
-      "summary": "RDS retirement",
-      "status": "Scoping",
-      "assignee": "Dan Sutton",
-      "duedate": "2025-09-30",
-      "reviewed": "2026-02-03",
-      "labels": [
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-53",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Risk mitigation  - explore with remaining customer, FCB options to reduce risk such as implementing a VPN or whitelisting.  Action with     Product   - inventory and records management functionality used by FCB and internal compliance reviews needs scoping by product.  Agreed that Lee Fairy will kick off work on his return. Windows servers being decommissioned but does not fully mitigate risk."
-        }
-      ]
     },
     {
       "key": "CPN-630",
