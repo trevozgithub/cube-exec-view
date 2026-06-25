@@ -326,7 +326,7 @@ function render(data) {
     <div class="charts-row">
       <div class="chart-card"><h3>RAG Status</h3><div class="chart-wrap"><canvas id="ragChart"></canvas></div></div>
       <div class="chart-card"><h3>Status Distribution</h3><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div>
-      <div class="chart-card"><h3>Initiative Load by Assignee</h3><div class="chart-wrap-bar"><canvas id="assigneeChart"></canvas></div></div>
+      <div class="chart-card"><h3>June Week 1 · Time Distribution</h3><div class="chart-wrap" style="height:160px;"><canvas id="timeDistChart"></canvas></div><div id="timeDistLegend" style="margin-top:6px;font-size:10.5px;line-height:1.7;"></div></div>
     </div>
 
     <div class="timeline-section">
@@ -408,16 +408,28 @@ function render(data) {
     options:{ responsive:true, maintainAspectRatio:false, cutout:'68%', plugins:{ legend:{ position:'right', labels:{ font:{size:11}, boxWidth:10, padding:6, generateLabels:c=>c.data.labels.map((l,i)=>({ text:`${l} (${c.data.datasets[0].data[i]})`, fillStyle:c.data.datasets[0].backgroundColor[i], strokeStyle:'#fff', lineWidth:2, index:i })) } } } }
   }));
 
-  const topAssignees = Object.entries(assigneeCounts).sort((a,b)=>b[1]-a[1]).slice(0,10);
-  chartInstances.push(new Chart(document.getElementById('assigneeChart'), {
-    type:'bar',
-    data:{
-      labels: topAssignees.map(([n])=>n.split(' ').map((w,i)=>i===0?w:w[0]+'.').join(' ')),
-      datasets:[{ label:'Initiatives', data:topAssignees.map(([,v])=>v), backgroundColor:topAssignees.map(([n])=>avatarColor(n)+'BB'), borderColor:topAssignees.map(([n])=>avatarColor(n)), borderWidth:1.5, borderRadius:4 }]
-    },
-    options:{ responsive:true, maintainAspectRatio:false, indexAxis:'y', plugins:{ legend:{display:false} }, scales:{ x:{ grid:{color:'#F3F4F6'}, ticks:{stepSize:1,font:{size:11}} }, y:{ ticks:{font:{size:11}} } } }
-  }));
-}
+  
+  // ── June Week 1 Time Distribution ────────────────────────────────────
+  (function() {
+    const jwData    = [725, 132, 45, 82, 724, 98, 94, 39, 654];
+    const jwLabels  = ['Strategic Initiatives', 'Customer Enhancements', 'Platform Enhancements', 'Urgent Support', 'Maintenance', 'Administration Tasks', 'Leave', 'Uncategorized', 'Time not Logged'];
+    const jwColors  = ['#2563EB', '#7C3AED', '#0D9488', '#DC2626', '#D97706', '#0369A1', '#16A34A', '#9CA3AF', '#E5E7EB'];
+    const jwTotal   = 2593;
+    function pct(v) { return jwTotal ? ((v/jwTotal)*100).toFixed(1) : 0; }
+    chartInstances.push(new Chart(document.getElementById('timeDistChart'), {
+      type: 'doughnut',
+      data: { labels: jwLabels, datasets: [{ data: jwData, backgroundColor: jwColors, borderWidth: 2, borderColor: '#fff', hoverOffset: 4 }] },
+      options: { responsive: true, maintainAspectRatio: false, cutout: '60%',
+        plugins: { legend: { display: false },
+          tooltip: { callbacks: { label: ctx => ctx.label + ': ' + pct(ctx.raw) + '% (' + ctx.raw.toLocaleString() + ' min)' } } } }
+    }));
+    const leg = document.getElementById('timeDistLegend');
+    leg.innerHTML = jwLabels.map((l,i) =>
+      `<span style="display:inline-flex;align-items:center;gap:4px;margin-right:10px;">
+        <span style="width:9px;height:9px;border-radius:50%;background:${jwColors[i]};flex-shrink:0;display:inline-block;"></span>
+        ${l}: <b>${pct(jwData[i])}%</b></span>`
+    ).join('');
+  })();
 
 // ─── FETCH DATA ───────────────────────────────────────────────────
 async function loadData(forceRefresh = false) {
