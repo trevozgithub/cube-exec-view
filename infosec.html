@@ -336,6 +336,7 @@ function render(data) {
   items.forEach(it => { it.rag = calcRAG(it); it.q = calcQ(it.duedate); });
   const ragOrder = { Red:0, Amber:1, Green:2, Grey:3 };
   items.sort((a,b) => ragOrder[a.rag] - ragOrder[b.rag]);
+  window.ITEMS_MAP = Object.fromEntries(items.map(it => [it.key, it]));
 
   const ragCounts = { Green:0, Amber:0, Red:0, Grey:0 };
   items.forEach(it => ragCounts[it.rag]++);
@@ -394,7 +395,7 @@ function render(data) {
               const ov = isOverdue(it.duedate);
               const ac = avatarColor(it.assignee);
               const init = initials(it.assignee);
-              return `<tr>
+              return `<tr data-key="${it.key}"
                 <td class="row-num">${idx+1}</td>
                 <td><div class="wi-cell">
                   <a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">${it.key}</a>
@@ -424,6 +425,12 @@ function render(data) {
     </div>`;
 
   document.getElementById('content').innerHTML = html;
+
+  // Row click → detail drawer
+  document.querySelector('.tl-table tbody').addEventListener('click', function(e) {
+    const tr = e.target.closest('tr[data-key]');
+    if (tr) showDrawer(window.ITEMS_MAP && window.ITEMS_MAP[tr.dataset.key]);
+  });
 
   // Charts
   const ragLabels = ['Green','Amber','Red','Grey'];
@@ -479,18 +486,23 @@ async function loadData(forceRefresh = false) {
 document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
 loadData();
 
-  function showDrawer(key, summary, url, panelsJson) {
-    document.getElementById('drawerKey').textContent   = key;
-    document.getElementById('drawerTitle').textContent = summary;
-    const panels = panelsJson ? JSON.parse(panelsJson) : [];
+  function showDrawer(it) {
+    if (!it) return;
+    document.getElementById('drawerKey').textContent   = it.key;
+    document.getElementById('drawerTitle').textContent = it.summary;
+    const panels = Array.isArray(it.panels) ? it.panels : [];
     const icons  = {info:'ℹ️', note:'📝', warning:'⚠️', error:'🚨', success:'✅'};
     const pHTML  = panels.length
       ? panels.map(p => `<div class="jira-panel ${p.type}"><span class="panel-icon">${icons[p.type]||'ℹ️'}</span>${p.text}</div>`).join('')
       : '<div class="drawer-empty">No status banners on this initiative.</div>';
     document.getElementById('drawerPanels').innerHTML = pHTML +
-      `<a class="drawer-jira-link" href="${url}" target="_blank" rel="noopener">🔗 Open in Jira</a>`;
+      `<a class="drawer-jira-link" href="${it.url}" target="_blank" rel="noopener">🔗 Open in Jira</a>`;
     document.getElementById('detailDrawer').classList.add('open');
     document.getElementById('drawerOverlay').classList.add('open');
+  }
+  function closeDrawer() {
+    document.getElementById('detailDrawer').classList.remove('open');
+    document.getElementById('drawerOverlay').classList.remove('open');
   }
   function closeDrawer() {
     document.getElementById('detailDrawer').classList.remove('open');
