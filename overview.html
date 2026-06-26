@@ -74,8 +74,18 @@
     .chart-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); display: flex; flex-direction: column; }
     .chart-card h3 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
     .click-hint { font-size: 10px; font-weight: 500; color: var(--brand); background: var(--brand-light); padding: 1px 7px; border-radius: 10px; letter-spacing: 0; text-transform: none; cursor: pointer; }
-    .chart-body { display: flex; align-items: center; gap: 12px; flex: 1; }
-    .chart-canvas-wrap { position: relative; width: 170px; height: 170px; flex-shrink: 0; }
+    .chart-body { display: flex; align-items: center; gap: 16px; flex: 1; min-height: 160px; }
+    .chart-canvas-wrap { position: relative; width: 160px; height: 160px; flex-shrink: 0; }
+    /* Custom HTML legend — no truncation, full text */
+    .chart-legend { list-style: none; padding: 0; margin: 0; flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 7px; overflow: visible; min-width: 0; }
+    .chart-legend li { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text); cursor: pointer; padding: 2px 4px; border-radius: 4px; transition: background .1s; }
+    .chart-legend li:hover { background: var(--brand-light); color: var(--brand); }
+    .legend-circle { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    /* Time distribution legend — wrapping 2-col grid on the right */
+    .time-dist-legend { flex: 1; display: flex; flex-wrap: wrap; align-content: center; gap: 5px 8px; min-width: 0; }
+    .time-dist-legend .tl-item { display: flex; align-items: center; gap: 5px; font-size: 10.5px; color: var(--text); width: calc(50% - 4px); min-width: 0; }
+    .time-dist-legend .tl-item .legend-circle { flex-shrink: 0; }
+    .time-dist-legend .tl-item .tl-pct { font-weight: 700; color: var(--text); margin-left: 1px; }
 
     /* TABLE SECTION */
     .timeline-section { background: var(--white); border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.05); overflow: hidden; }
@@ -416,9 +426,9 @@ function render(allItems, lastUpdated) {
     </div>
 
     <div class="charts-row">
-      <div class="chart-card"><h3>Team Distribution <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="teamChart"></canvas></div></div></div>
-      <div class="chart-card"><h3>RAG Status <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="ragChart"></canvas></div></div></div>
-      <div class="chart-card"><h3>Status Distribution <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="statusChart"></canvas></div></div></div>
+      <div class="chart-card"><h3>Team Distribution <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="teamChart"></canvas></div><ul class="chart-legend" id="teamLegend"></ul></div></div>
+      <div class="chart-card"><h3>RAG Status <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="ragChart"></canvas></div><ul class="chart-legend" id="ragLegend"></ul></div></div>
+      <div class="chart-card"><h3>June Week 1 · Time Distribution</h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="timeChart"></canvas></div><div class="time-dist-legend" id="timeLegend"></div></div></div>
     </div>
 
     <div class="timeline-section">
@@ -491,12 +501,7 @@ function render(allItems, lastUpdated) {
       responsive: true, maintainAspectRatio: false, cutout: '65%',
       layout: { padding: 0 },
       plugins: {
-        legend: { position: 'right', labels: { usePointStyle: true, pointStyle: 'circle', font:{size:10}, boxWidth:8, boxHeight:8, padding:8,
-          generateLabels: c => c.data.labels.map((l,i) => ({
-            text: `${TEAM_SHORT[l]||l} (${c.data.datasets[0].data[i]})`,
-            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle: c.data.datasets[0].backgroundColor[i], lineWidth:0, pointStyle:'circle', index:i
-          }))
-        }},
+        legend: { display: false },
         tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
       },
       onClick: (evt, elements) => {
@@ -507,6 +512,15 @@ function render(allItems, lastUpdated) {
       }
     }
   }));
+  // Custom HTML legend — no truncation
+  const teamLegend = document.getElementById('teamLegend');
+  teamLegend.innerHTML = teamLabels.map((l, i) => {
+    const cnt = teamCounts[l] || 0;
+    const src = SOURCES.find(s => s.label === l);
+    return `<li onclick="showFilterModal('${src?.icon||''} ${l}', allItems.filter(it=>it.team==='${l}'))">
+      <span class="legend-circle" style="background:${teamColors[i]}"></span>${TEAM_SHORT[l]||l} (${cnt})
+    </li>`;
+  }).join('');
 
   const ragLabels = ['Green','Amber','Red','Grey'];
   const ragColors = ['#22C55E','#F59E0B','#EF4444','#9CA3AF'];
@@ -520,11 +534,7 @@ function render(allItems, lastUpdated) {
       responsive: true, maintainAspectRatio: false, cutout: '65%',
       layout: { padding: 0 },
       plugins: {
-        legend: { position: 'right', labels: { usePointStyle: true, pointStyle: 'circle', font:{size:12}, boxWidth:10, boxHeight:10, padding:12,
-          generateLabels: c => c.data.labels.map((l,i) => ({
-            text: l, fillStyle: ragColors[i], strokeStyle: ragColors[i], lineWidth:0, pointStyle:'circle', index:i
-          }))
-        }},
+        legend: { display: false },
         tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} (${pct(ctx.raw,total)}%)` }}
       },
       onClick: (evt, elements) => {
@@ -535,34 +545,40 @@ function render(allItems, lastUpdated) {
       }
     }
   }));
+  // Custom HTML legend
+  const ragLegend = document.getElementById('ragLegend');
+  const ragIcons = { Green:'✅', Amber:'⚠️', Red:'🔴', Grey:'⚪' };
+  ragLegend.innerHTML = ragLabels.map((l, i) => `<li onclick="showFilterModal('${ragIcons[l]||''} ${l} RAG Status', allItems.filter(it=>it.rag==='${l}'))">
+    <span class="legend-circle" style="background:${ragColors[i]}"></span>${l}
+  </li>`).join('');
 
-  const sLabels = Object.keys(statusCounts).sort((a,b) => statusCounts[b] - statusCounts[a]);
-  const statusColors = { 'Post Launch Review':'#7C3AED','Operational Readiness':'#16A34A','Build & Test':'#2563EB','Scoping':'#D97706','Planning':'#6B7280','Not started':'#9CA3AF' };
-  chartInstances.push(new Chart(document.getElementById('statusChart'), {
+  // ── June Week 1 Time Distribution (static, from Time Reporting) ────────────
+  const TIME_CATS   = ['Strategic Initiatives','Customer Enhancements','Platform Enhancements',
+                       'Urgent Support','Maintenance','Administration Tasks','Leave','Uncategorized','Time not Logged'];
+  const TIME_COLORS = ['#2563EB','#7C3AED','#0D9488','#DC2626','#D97706','#0369A1','#16A34A','#9CA3AF','#E5E7EB'];
+  const TIME_DATA   = [280, 51, 17, 32, 279, 38, 36, 15, 252]; // proportional to 1000
+  const timeTotal   = TIME_DATA.reduce((a,b)=>a+b, 0);
+  chartInstances.push(new Chart(document.getElementById('timeChart'), {
     type: 'doughnut',
     data: {
-      labels: sLabels,
-      datasets: [{ data: sLabels.map(l => statusCounts[l]), backgroundColor: sLabels.map(l => statusColors[l]||'#9CA3AF'), borderWidth: 3, borderColor: '#fff', hoverOffset: 6 }]
+      labels: TIME_CATS,
+      datasets: [{ data: TIME_DATA, backgroundColor: TIME_COLORS, borderWidth: 3, borderColor: '#fff', hoverOffset: 4 }]
     },
     options: {
-      responsive: true, maintainAspectRatio: false, cutout: '65%',
+      responsive: true, maintainAspectRatio: false, cutout: '60%',
       layout: { padding: 0 },
       plugins: {
-        legend: { position: 'right', labels: { usePointStyle: true, pointStyle: 'circle', font:{size:11}, boxWidth:8, boxHeight:8, padding:8,
-          generateLabels: c => c.data.labels.map((l,i) => ({
-            text: `${l} (${c.data.datasets[0].data[i]})`,
-            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle: c.data.datasets[0].backgroundColor[i], lineWidth:0, pointStyle:'circle', index:i
-          }))
-        }},
-        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
-      },
-      onClick: (evt, elements) => {
-        if (!elements.length) return;
-        const status = sLabels[elements[0].index];
-        showFilterModal(`Status: ${status}`, allItems.filter(it => it.status === status));
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${(ctx.raw/timeTotal*100).toFixed(1)}%` }}
       }
     }
   }));
+  // Custom HTML legend — 2-col wrapping grid
+  const timeLegend = document.getElementById('timeLegend');
+  timeLegend.innerHTML = TIME_CATS.map((l, i) =>
+    `<div class="tl-item"><span class="legend-circle" style="background:${TIME_COLORS[i]}"></span>
+     <span>${l}: <span class="tl-pct">${(TIME_DATA[i]/timeTotal*100).toFixed(1)}%</span></span></div>`
+  ).join('');
 }
 
 // ─── FILTER MODAL ────────────────────────────────────────────────
