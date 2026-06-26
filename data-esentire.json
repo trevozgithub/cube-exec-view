@@ -1,11 +1,37 @@
 {
-  "updated": "2026-06-26T19:19:40.989008Z",
-  "total": 1780,
+  "updated": "2026-06-26T21:00:47.704821Z",
+  "total": 1781,
   "items": [
+    {
+      "key": "INC-7227",
+      "summary": "High Volume of Books Stuck in Queue Due to Caching API Latency",
+      "status": "To Do",
+      "assignee": "Ishara Lakshitha",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "url": "https://cube001.atlassian.net/browse/INC-7227"
+    },
+    {
+      "key": "INC-7226",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "url": "https://cube001.atlassian.net/browse/INC-7226"
+    },
     {
       "key": "INC-7225",
       "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
@@ -17,8 +43,8 @@
     {
       "key": "INC-7224",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -22166,20 +22192,6 @@
       "created": "2026-05-27",
       "updated": "2026-05-27",
       "url": "https://cube001.atlassian.net/browse/INC-5419"
-    },
-    {
-      "key": "INC-5442",
-      "summary": "ATLAS NOTIFICATION: CS4438535 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-27",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5442"
     }
   ]
 }
