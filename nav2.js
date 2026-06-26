@@ -27,14 +27,18 @@ const PAGES = [
   document.getElementById('navTabs').innerHTML = tabs + addBtn;
 
   // Inject responsive nav styles so ALL pages get the fix automatically.
-  // Prevents tab labels from wrapping on any screen size (27-inch, laptop, tablet, etc.)
   if (!document.getElementById('nav2-styles')) {
     var s = document.createElement('style');
     s.id = 'nav2-styles';
     s.textContent =
+      // Never let tab labels wrap
       '.topnav-tab { white-space: nowrap !important; }' +
-      '.topnav-tabs { min-width: 0; flex-shrink: 1; overflow-x: auto !important; scrollbar-width: none !important; }' +
+      // Tab strip: takes all remaining space, scrolls horizontally, no visible scrollbar
+      '.topnav-tabs { flex: 1 1 0; min-width: 0; overflow-x: auto !important; scrollbar-width: none !important; }' +
       '.topnav-tabs::-webkit-scrollbar { display: none !important; }' +
+      // Hide the date + Open-in-Jira button — they crowd out tabs on any screen width
+      '.topnav-right { display: none !important; }' +
+      // Responsive: shrink font/padding as viewport narrows
       '@media (max-width: 1700px) {' +
         '.topnav-tab { font-size: 12px !important; padding: 5px 8px !important; gap: 4px !important; }' +
       '}' +
