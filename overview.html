@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUBE Exec View – Overview</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --brand: #0052CC; --brand-dark: #003785; --brand-light: #E6EEFF;
+      --green: #1D7A3A; --green-bg: #E3F5E9;
+      --amber: #B45309; --amber-bg: #FEF3C7;
+      --red: #B91C1C; --red-bg: #FEE2E2;
+      --grey: #6B7280; --border: #E5E7EB;
+      --surface: #F9FAFB; --white: #FFFFFF; --text: #111827; --text-light: #6B7280;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--surface); color: var(--text); font-size: 13px; line-height: 1.5; }
+
+    /* NAV */
+    .topnav { background: var(--brand-dark); color: #fff; display: flex; align-items: center; gap: 24px; padding: 0 28px; height: 52px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+    .topnav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+    .topnav-logo svg { width: 28px; height: 28px; }
+    .topnav-divider { width: 1px; height: 28px; background: rgba(255,255,255,.25); }
+    .topnav-tabs { display: flex; gap: 4px; flex: 1; overflow-x: auto; scrollbar-width: none; }
+    .topnav-tabs::-webkit-scrollbar { display: none; }
+    .topnav-tab { color: rgba(255,255,255,.75); padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; text-decoration: none; display: flex; align-items: center; gap: 6px; transition: background .15s; }
+    .topnav-tab:hover { background: rgba(255,255,255,.12); color: #fff; }
+    .topnav-tab.active { background: rgba(255,255,255,.18); color: #fff; }
+    .topnav-right { display: flex; align-items: center; gap: 12px; }
+    .topnav-date { font-size: 12px; color: rgba(255,255,255,.6); }
+
+    /* PAGE HEADER */
+    .page-header { background: var(--white); border-bottom: 1px solid var(--border); padding: 18px 28px 14px; }
+    .page-header h1 { font-size: 20px; font-weight: 700; color: var(--brand-dark); margin-bottom: 4px; }
+    .page-header .subtitle { font-size: 13px; color: var(--text-light); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .filter-chip { display: inline-flex; align-items: center; gap: 5px; background: var(--brand-light); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .live-badge { display: inline-flex; align-items: center; gap: 5px; background: #ECFDF5; color: #065F46; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+    .live-dot { width: 7px; height: 7px; border-radius: 50%; background: #22C55E; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+    .refresh-btn { display: inline-flex; align-items: center; gap: 5px; background: none; border: 1px solid var(--border); color: var(--brand); padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; cursor: pointer; transition: background .12s; }
+    .refresh-btn:hover { background: var(--brand-light); }
+    .refresh-btn.spinning svg { animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* MAIN */
+    .main { padding: 20px 28px; max-width: 1700px; margin: 0 auto; }
+
+    /* LOADING */
+    .loading-overlay { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px; gap: 16px; }
+    .spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--brand); border-radius: 50%; animation: spin 0.8s linear infinite; }
+    .loading-text { color: var(--text-light); font-size: 14px; }
+    .error-box { background: var(--red-bg); border: 1px solid #FECACA; border-radius: 8px; padding: 16px 20px; color: var(--red); font-size: 13px; }
+
+    /* KPI */
+    .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 20px; }
+    .kpi-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .kpi-icon { width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+    .kpi-icon.total { background: var(--brand-light); }
+    .kpi-icon.green { background: var(--green-bg); }
+    .kpi-icon.amber { background: var(--amber-bg); }
+    .kpi-icon.red   { background: var(--red-bg); }
+    .kpi-body { flex: 1; }
+    .kpi-value { font-size: 28px; font-weight: 700; line-height: 1; }
+    .kpi-label { font-size: 12px; color: var(--text-light); margin-top: 2px; }
+    .kpi-pct { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; align-self: flex-start; }
+    .kpi-pct.green { background: var(--green-bg); color: var(--green); }
+    .kpi-pct.amber { background: var(--amber-bg); color: var(--amber); }
+    .kpi-pct.red   { background: var(--red-bg);   color: var(--red); }
+    .kpi-pct.blue  { background: var(--brand-light); color: var(--brand); }
+
+    /* CHARTS */
+    .charts-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 20px; }
+    .chart-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .chart-card h3 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+    .click-hint { font-size: 10px; font-weight: 500; color: var(--brand); background: var(--brand-light); padding: 1px 7px; border-radius: 10px; letter-spacing: 0; text-transform: none; }
+    .chart-wrap { position: relative; height: 200px; }
+
+    /* TABLE SECTION */
+    .timeline-section { background: var(--white); border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.05); overflow: hidden; }
+    .timeline-header { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px 12px; border-bottom: 1px solid var(--border); background: var(--surface); flex-wrap: wrap; gap: 8px; }
+    .timeline-header h2 { font-size: 15px; font-weight: 700; }
+    .tl-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .tl-search { border: 1px solid var(--border); border-radius: 6px; padding: 5px 12px; font-size: 12px; color: var(--text); background: var(--white); outline: none; width: 220px; }
+    .tl-search:focus { border-color: var(--brand); box-shadow: 0 0 0 2px var(--brand-light); }
+    .legend { display: flex; gap: 14px; align-items: center; }
+    .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-light); }
+    .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+
+    /* TABLE */
+    .tl-table-wrap { overflow-x: auto; }
+    table.tl-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    table.tl-table thead th { background: #F3F4F6; color: var(--text-light); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .4px; padding: 9px 12px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    table.tl-table tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
+    table.tl-table tbody tr:hover { background: #F9FAFB; }
+    table.tl-table tbody td { padding: 9px 12px; vertical-align: middle; }
+    .row-num { color: var(--text-light); font-size: 11px; text-align: center; }
+    .wi-cell { display: flex; align-items: center; gap: 8px; min-width: 280px; max-width: 380px; }
+    .wi-key { font-size: 11px; color: var(--brand); font-weight: 600; white-space: nowrap; text-decoration: none; }
+    .wi-key:hover { text-decoration: underline; }
+    .wi-summary { color: var(--text); font-weight: 500; line-height: 1.35; }
+
+    /* STATUS BADGES */
+    .status-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: .3px; white-space: nowrap; text-transform: uppercase; }
+    .status-badge::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+    .s-plr { background: #EDE9FE; color: #6D28D9; }
+    .s-or  { background: #D1FAE5; color: #065F46; }
+    .s-bt  { background: #DBEAFE; color: #1E40AF; }
+    .s-sc  { background: #FEF3C7; color: #92400E; }
+    .s-pl  { background: #F3F4F6; color: #374151; }
+    .s-ns  { background: #F3F4F6; color: #6B7280; }
+
+    /* RAG */
+    .rag-pill { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+    .rag-pill .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .rag-green { background: var(--green-bg); color: var(--green); }
+    .rag-green .dot { background: #22C55E; }
+    .rag-amber { background: var(--amber-bg); color: var(--amber); }
+    .rag-amber .dot { background: #F59E0B; }
+    .rag-red   { background: var(--red-bg);   color: var(--red); }
+    .rag-red   .dot { background: #EF4444; }
+    .rag-grey  { background: #F3F4F6; color: #6B7280; }
+    .rag-grey  .dot { background: #9CA3AF; }
+
+    /* TEAM BADGE */
+    .team-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; color: #fff; white-space: nowrap; }
+
+    /* OTHER CELLS */
+    .date-cell { white-space: nowrap; }
+    .date-overdue { color: var(--red); font-weight: 600; }
+    .q-badge { display: inline-block; background: var(--brand-light); color: var(--brand); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; }
+    .assignee-cell { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+    .avatar { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #fff; flex-shrink: 0; }
+
+    /* GANTT */
+    .gantt-col { width: 280px; min-width: 240px; }
+    .gantt-bar-wrap { height: 22px; background: #F3F4F6; border-radius: 3px; position: relative; overflow: hidden; }
+    .gantt-bar { position: absolute; top: 3px; height: 16px; border-radius: 3px; min-width: 6px; }
+    .gantt-bar.green { background: #22C55E; }
+    .gantt-bar.amber { background: #F59E0B; }
+    .gantt-bar.red   { background: #EF4444; }
+    .gantt-bar.grey  { background: #9CA3AF; }
+    .gantt-today { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--brand); opacity: .7; }
+
+    /* FOOTER */
+    .tl-footer { padding: 10px 18px; background: var(--surface); border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--text-light); }
+
+    /* FILTER MODAL - right-side panel */
+    .filter-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.18); z-index: 509; }
+    .filter-overlay.open { display: block; }
+    .filter-modal { position: fixed; right: 0; top: 52px; bottom: 0; width: 660px; background: #fff; box-shadow: -4px 0 24px rgba(0,0,0,.15); z-index: 510; overflow-y: auto; transform: translateX(100%); transition: transform .22s ease; display: flex; flex-direction: column; }
+    .filter-modal.open { transform: translateX(0); }
+    .filter-modal-header { display: flex; justify-content: space-between; align-items: center; padding: 14px 20px; border-bottom: 1px solid #E5E7EB; background: var(--surface); position: sticky; top: 0; z-index: 2; flex-shrink: 0; }
+    .filter-modal-title { font-size: 15px; font-weight: 700; color: var(--brand-dark); }
+    .filter-modal-body { flex: 1; overflow-y: auto; }
+    .drawer-close { border: none; background: none; cursor: pointer; font-size: 20px; color: #9CA3AF; padding: 0 4px; }
+    .drawer-close:hover { color: #111827; }
+
+    /* DETAIL DRAWER */
+    .clickable-row { cursor: pointer; }
+    .clickable-row:hover { background: #EEF2FF !important; }
+    .detail-drawer { position: fixed; right: 0; top: 52px; bottom: 0; width: 420px; background: #fff; box-shadow: -4px 0 24px rgba(0,0,0,.15); z-index: 520; overflow-y: auto; padding: 20px 24px; transform: translateX(100%); transition: transform .22s ease; }
+    .detail-drawer.open { transform: translateX(0); }
+    .drawer-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.18); z-index: 519; }
+    .drawer-overlay.open { display: block; }
+    .drawer-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 1px solid #E5E7EB; }
+    .drawer-key  { font-size: 11px; color: var(--brand); font-weight: 700; }
+    .drawer-title { font-size: 14px; font-weight: 600; color: var(--text); margin-top: 4px; max-width: 340px; line-height: 1.4; }
+    .jira-panel  { border-radius: 4px; padding: 12px 14px; margin-bottom: 12px; font-size: 13px; border-left: 4px solid; line-height: 1.55; }
+    .jira-panel .panel-icon { font-size: 15px; margin-bottom: 6px; display: block; }
+    .jira-panel.info    { background: #DEEBFF; border-color: #0052CC; color: #0747A6; }
+    .jira-panel.note    { background: #EAE6FF; border-color: #5243AA; color: #403294; }
+    .jira-panel.warning { background: #FFFAE6; border-color: #FF8B00; color: #7A5200; }
+    .jira-panel.error   { background: #FFEBE6; border-color: #DE350B; color: #BF2600; }
+    .jira-panel.success { background: #E3FCEF; border-color: #00875A; color: #006644; }
+    .drawer-empty { color: #9CA3AF; font-size: 13px; text-align: center; padding: 32px 0; }
+    .drawer-jira-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 12px; color: var(--brand); text-decoration: none; }
+    .drawer-jira-link:hover { text-decoration: underline; }
+
+    @media (max-width: 1200px) { .charts-row { grid-template-columns: 1fr 1fr; } .kpi-row { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 800px)  { .charts-row { grid-template-columns: 1fr; } .filter-modal { width: 100%; } }
+  </style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav-logo">
+    <svg viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="6" fill="white" fill-opacity="0.15"/><path d="M6 8h6v6H6V8zm10 0h6v6h-6V8zM6 18h6v4H6v-4zm10-4h6v8h-6v-8z" fill="white"/></svg>
+    Cube Technology Initiatives
+  </div>
+  <div class="topnav-divider"></div>
+  <div class="topnav-tabs" id="navTabs"></div>
+  <div class="topnav-right">
+    <span class="topnav-date" id="navDate"></span>
+  </div>
+<script src="nav2.js"></script>
+</nav>
+
+<div class="page-header">
+  <h1>🌐 CUBE Technology Initiatives</h1>
+  <div class="subtitle">
+    <span>All Teams · Live Overview</span>
+    <span id="itemCount">Loading…</span>
+    <span class="live-badge"><span class="live-dot"></span>Live data</span>
+    <button class="refresh-btn" id="refreshBtn" onclick="loadData(true)">
+      <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor" id="refreshIcon"><path d="M13.6 2.4A7 7 0 102.4 13.6M14 1v4h-4"/></svg>
+      Refresh
+    </button>
+    <span id="lastUpdated" style="margin-left:auto; font-size:11px;"></span>
+  </div>
+</div>
+
+<div class="main">
+  <div id="content">
+    <div class="loading-overlay">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading all 7 team feeds in parallel…</div>
+    </div>
+  </div>
+</div>
+
+<!-- Filter Modal -->
+<div id="filterOverlay" class="filter-overlay" onclick="closeFilterModal()"></div>
+<div id="filterModal" class="filter-modal">
+  <div class="filter-modal-header">
+    <div id="filterModalTitle" class="filter-modal-title"></div>
+    <button class="drawer-close" onclick="closeFilterModal()">✕</button>
+  </div>
+  <div class="filter-modal-body" id="filterModalBody"></div>
+</div>
+
+<!-- Detail Drawer -->
+<div id="drawerOverlay" class="drawer-overlay" onclick="closeDrawer()"></div>
+<div id="detailDrawer" class="detail-drawer">
+  <div class="drawer-header">
+    <div>
+      <div class="drawer-key" id="drawerKey"></div>
+      <div class="drawer-title" id="drawerTitle"></div>
+    </div>
+    <button class="drawer-close" onclick="closeDrawer()">✕</button>
+  </div>
+  <div id="drawerPanels"></div>
+</div>
+
+<script>
+const JIRA_BASE  = 'https://cube001.atlassian.net/browse/';
+const GANTT_START = new Date('2025-10-01');
+const GANTT_END   = new Date('2026-09-30');
+
+const SOURCES = [
+  { file: 'data.json',           label: 'Consumer Engineering',   icon: '📊', color: '#2563EB' },
+  { file: 'data-infosec.json',   label: 'InfoSec Projects',        icon: '🔒', color: '#7C3AED' },
+  { file: 'data-infra.json',     label: 'Infrastructure Projects', icon: '🏗️', color: '#D97706' },
+  { file: 'data-content.json',   label: 'Content Engineering',     icon: '📝', color: '#0D9488' },
+  { file: 'data-techops.json',   label: 'Corp Tech & WP Systems',  icon: '🖥️', color: '#DC2626' },
+  { file: 'data-midmarket.json', label: 'Mid-Market',              icon: '📈', color: '#16A34A' },
+  { file: 'data-dataai.json',    label: 'Data & AI',               icon: '🤖', color: '#0369A1' },
+];
+
+const TEAM_SHORT = {
+  'Consumer Engineering':   'Consumer',
+  'InfoSec Projects':        'InfoSec',
+  'Infrastructure Projects': 'Infra',
+  'Content Engineering':     'Content',
+  'Corp Tech & WP Systems':  'Corp Tech',
+  'Mid-Market':              'Mid-Market',
+  'Data & AI':               'Data & AI',
+};
+
+// ─── RAG ─────────────────────────────────────────────────────────
+function calcRAG(item) {
+  const today = new Date();
+  const due = item.duedate ? new Date(item.duedate) : null;
+  const reviewed = item.reviewed ? new Date(item.reviewed) : null;
+  const daysSinceReview = reviewed ? (today - reviewed) / 86400000 : 999;
+  const s = item.status;
+  if (s === 'Post Launch Review' || s === 'Operational Readiness') return 'Green';
+  if (due && due < today) return 'Red';
+  if (s === 'Not started' && !due) return 'Grey';
+  if (s === 'Build & Test') {
+    if (due && (due - today) < 14 * 86400000) return 'Amber';
+    return daysSinceReview > 30 ? 'Amber' : 'Green';
+  }
+  if (s === 'Scoping' || s === 'Planning') return 'Amber';
+  return 'Amber';
+}
+
+function calcQ(duedate) {
+  if (!duedate) return '';
+  const m = parseInt(duedate.slice(5, 7));
+  if (m <= 3) return 'Q1'; if (m <= 6) return 'Q2'; if (m <= 9) return 'Q3'; return 'Q4';
+}
+
+function ganttPct(d) {
+  const dt = new Date(d);
+  if (dt <= GANTT_START) return 0;
+  if (dt >= GANTT_END) return 100;
+  return ((dt - GANTT_START) / (GANTT_END - GANTT_START)) * 100;
+}
+function todayPct() { return ganttPct(new Date()); }
+
+function ganttBounds(item) {
+  const due = item.duedate || null;
+  let startDate, endDate;
+  if (due) {
+    const d = new Date(due);
+    startDate = new Date(d.getFullYear(), d.getMonth() - 4, 1);
+    endDate = d;
+  } else {
+    startDate = new Date('2026-01-01');
+    endDate = new Date('2026-06-30');
+  }
+  return { left: ganttPct(startDate), right: ganttPct(endDate) };
+}
+
+function fmtDate(d) {
+  if (!d) return '';
+  return new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric' });
+}
+function isOverdue(d) { return d && new Date(d) < new Date(); }
+
+const AVATAR_COLORS = {
+  'George Brand':'#0369A1','Jaspreet Manghera':'#DC2626','Masoom Miah':'#7C3AED',
+  'Alistair McPherson':'#0284C7','Beth Denham':'#16A34A',"Helen O'Shea":'#9333EA',
+  'Vamsee Chinta':'#0D9488','Jeremy Noble':'#D97706','Malcolm Brown':'#6B7280',
+  'Unassigned':'#9CA3AF',
+};
+function avatarColor(name) {
+  return AVATAR_COLORS[name] || '#' + Math.abs(name.split('').reduce((a,c)=>a+c.charCodeAt(0),0)).toString(16).slice(0,6).padEnd(6,'3');
+}
+function initials(name) {
+  if (!name || name === 'Unassigned') return '?';
+  return name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+}
+function statusClass(s) {
+  if (s.includes('Post Launch'))   return 's-plr';
+  if (s.includes('Operational'))   return 's-or';
+  if (s.includes('Build'))         return 's-bt';
+  if (s.includes('Scoping'))       return 's-sc';
+  if (s.includes('Not started'))   return 's-ns';
+  return 's-pl';
+}
+function ragBarColor(r) { return r==='Green'?'green':r==='Amber'?'amber':r==='Red'?'red':'grey'; }
+function pct(v,t) { return t ? Math.round(v/t*100) : 0; }
+
+// ─── CHARTS ──────────────────────────────────────────────────────
+let chartInstances = [];
+function destroyCharts() { chartInstances.forEach(c=>c.destroy()); chartInstances = []; }
+
+// ─── RENDER ──────────────────────────────────────────────────────
+function render(allItems, lastUpdated) {
+  destroyCharts();
+
+  allItems.forEach(it => { it.rag = calcRAG(it); it.q = calcQ(it.duedate); });
+  const ragOrder = { Red:0, Amber:1, Green:2, Grey:3 };
+  allItems.sort((a,b) => ragOrder[a.rag] - ragOrder[b.rag]);
+  window.ITEMS_MAP = Object.fromEntries(allItems.map(it => [it.key, it]));
+
+  const total = allItems.length;
+  document.getElementById('itemCount').textContent = `${total} initiatives across 7 teams`;
+  if (lastUpdated) {
+    document.getElementById('lastUpdated').textContent =
+      '🔄 Refreshed: ' + new Date(lastUpdated).toLocaleString('en-GB', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+  }
+
+  const ragCounts = { Green:0, Amber:0, Red:0, Grey:0 };
+  allItems.forEach(it => ragCounts[it.rag]++);
+
+  const teamCounts = {};
+  allItems.forEach(it => { teamCounts[it.team] = (teamCounts[it.team]||0)+1; });
+
+  const statusCounts = {};
+  allItems.forEach(it => { statusCounts[it.status] = (statusCounts[it.status]||0)+1; });
+
+  const todayPos = todayPct();
+
+  const monthsHeader = ['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep']
+    .map(m=>`<div style="flex:1;text-align:center;border-left:1px solid var(--border)">${m}</div>`).join('');
+
+  const tableRows = allItems.map((it, idx) => {
+    const b = ganttBounds(it);
+    const barW = Math.max(b.right - b.left, 1).toFixed(1);
+    const ov = isOverdue(it.duedate);
+    const ac = avatarColor(it.assignee);
+    const init = initials(it.assignee);
+    const tShort = TEAM_SHORT[it.team] || it.team;
+    return `<tr data-key="${it.key}" class="clickable-row">
+      <td class="row-num">${idx+1}</td>
+      <td><div class="wi-cell">
+        <a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${it.key}</a>
+        <span class="wi-summary">${it.summary}</span>
+      </div></td>
+      <td><span class="team-badge" style="background:${it.teamColor}" title="${it.team}">${it.teamIcon} ${tShort}</span></td>
+      <td><span class="status-badge ${statusClass(it.status)}">${it.status}</span></td>
+      <td><div class="rag-pill rag-${it.rag.toLowerCase()}"><div class="dot"></div>${it.rag}</div></td>
+      <td class="date-cell ${ov?'date-overdue':''}">${fmtDate(it.duedate)}${ov?' ⚠':''}</td>
+      <td class="date-cell">${fmtDate(it.reviewed)}</td>
+      <td>${it.q?`<span class="q-badge">${it.q}</span>`:'<span style="color:var(--text-light)">—</span>'}</td>
+      <td><div class="assignee-cell"><div class="avatar" style="background:${ac}">${init}</div>${it.assignee}</div></td>
+      <td class="gantt-col">
+        <div class="gantt-bar-wrap">
+          <div class="gantt-bar ${ragBarColor(it.rag)}" style="left:${b.left.toFixed(1)}%;width:${barW}%"></div>
+          <div class="gantt-today" style="left:${todayPos.toFixed(1)}%"></div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('content').innerHTML = `
+    <div class="kpi-row">
+      <div class="kpi-card"><div class="kpi-icon total">📋</div><div class="kpi-body"><div class="kpi-value" style="color:var(--brand)">${total}</div><div class="kpi-label">Total Initiatives</div></div><div class="kpi-pct blue">All Teams</div></div>
+      <div class="kpi-card"><div class="kpi-icon green">✅</div><div class="kpi-body"><div class="kpi-value" style="color:var(--green)">${ragCounts.Green}</div><div class="kpi-label">On Track (Green)</div></div><div class="kpi-pct green">${pct(ragCounts.Green,total)}%</div></div>
+      <div class="kpi-card"><div class="kpi-icon amber">⚠️</div><div class="kpi-body"><div class="kpi-value" style="color:var(--amber)">${ragCounts.Amber}</div><div class="kpi-label">At Risk (Amber)</div></div><div class="kpi-pct amber">${pct(ragCounts.Amber,total)}%</div></div>
+      <div class="kpi-card"><div class="kpi-icon red">🔴</div><div class="kpi-body"><div class="kpi-value" style="color:var(--red)">${ragCounts.Red}</div><div class="kpi-label">Off Track (Red)</div></div><div class="kpi-pct red">${pct(ragCounts.Red,total)}%</div></div>
+    </div>
+
+    <div class="charts-row">
+      <div class="chart-card"><h3>By Team <span class="click-hint">click to filter</span></h3><div class="chart-wrap"><canvas id="teamChart"></canvas></div></div>
+      <div class="chart-card"><h3>By RAG Status <span class="click-hint">click to filter</span></h3><div class="chart-wrap"><canvas id="ragChart"></canvas></div></div>
+      <div class="chart-card"><h3>By Status <span class="click-hint">click to filter</span></h3><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div>
+    </div>
+
+    <div class="timeline-section">
+      <div class="timeline-header">
+        <h2>📋 Strategic Initiatives Status</h2>
+        <div class="tl-controls">
+          <input type="search" id="tableSearch" class="tl-search" placeholder="Search key, summary or team…">
+          <span id="tableCount" style="font-size:12px;color:var(--text-light)">${total} initiatives</span>
+          <div class="legend">
+            <div class="legend-item"><div class="legend-dot" style="background:#22C55E"></div>On Track</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>At Risk</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#EF4444"></div>Off Track</div>
+          </div>
+        </div>
+      </div>
+      <div class="tl-table-wrap">
+        <table class="tl-table">
+          <thead><tr>
+            <th style="width:36px">#</th>
+            <th style="min-width:300px">Work Item</th>
+            <th>Team</th>
+            <th>Status</th><th>RAG</th><th>Due Date</th><th>Last Updated</th><th>Q</th><th>Assignee</th>
+            <th class="gantt-col">
+              <div style="display:flex;font-size:9px;font-weight:700;color:var(--text-light);letter-spacing:.4px;text-transform:uppercase">
+                ${monthsHeader}
+              </div>
+            </th>
+          </tr></thead>
+          <tbody id="tableBody">${tableRows}</tbody>
+        </table>
+      </div>
+      <div class="tl-footer">
+        <div>Live data aggregated from 7 Jira team views · Auto-refreshes every 5 min via GitHub Actions</div>
+      </div>
+    </div>`;
+
+  // Row click → detail drawer (event delegation)
+  document.getElementById('tableBody').addEventListener('click', function(e) {
+    const tr = e.target.closest('tr[data-key]');
+    if (tr) showDrawer(window.ITEMS_MAP[tr.dataset.key]);
+  });
+
+  // Search / filter
+  document.getElementById('tableSearch').addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    let visible = 0;
+    document.querySelectorAll('#tableBody tr[data-key]').forEach(tr => {
+      const key     = tr.dataset.key.toLowerCase();
+      const summary = tr.querySelector('.wi-summary')?.textContent.toLowerCase() || '';
+      const team    = tr.querySelector('.team-badge')?.textContent.toLowerCase() || '';
+      const show = !q || key.includes(q) || summary.includes(q) || team.includes(q);
+      tr.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    document.getElementById('tableCount').textContent =
+      q ? `${visible} of ${total} initiatives` : `${total} initiatives`;
+  });
+
+  // ── Charts ────────────────────────────────────────────────────
+  const teamLabels = SOURCES.map(s => s.label);
+  const teamColors = SOURCES.map(s => s.color);
+
+  chartInstances.push(new Chart(document.getElementById('teamChart'), {
+    type: 'doughnut',
+    data: {
+      labels: teamLabels,
+      datasets: [{ data: teamLabels.map(l => teamCounts[l]||0), backgroundColor: teamColors, borderWidth: 3, borderColor: '#fff', hoverOffset: 6 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '65%',
+      plugins: {
+        legend: { position: 'right', labels: { font:{size:10}, boxWidth:10, padding:5,
+          generateLabels: c => c.data.labels.map((l,i) => ({
+            text: `${SOURCES[i]?.icon||''} ${TEAM_SHORT[l]||l} (${c.data.datasets[0].data[i]})`,
+            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle:'#fff', lineWidth:2, index:i
+          }))
+        }},
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
+      },
+      onClick: (evt, elements) => {
+        if (!elements.length) return;
+        const label = teamLabels[elements[0].index];
+        const src = SOURCES.find(s => s.label === label);
+        showFilterModal(`${src?.icon||'📂'} ${label}`, allItems.filter(it => it.team === label));
+      }
+    }
+  }));
+
+  const ragLabels = ['Green','Amber','Red','Grey'];
+  const ragColors = ['#22C55E','#F59E0B','#EF4444','#9CA3AF'];
+  chartInstances.push(new Chart(document.getElementById('ragChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ragLabels,
+      datasets: [{ data: ragLabels.map(l => ragCounts[l]||0), backgroundColor: ragColors, borderWidth: 3, borderColor: '#fff', hoverOffset: 6 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '65%',
+      plugins: {
+        legend: { position: 'right', labels: { font:{size:12}, boxWidth:12, padding:10 }},
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
+      },
+      onClick: (evt, elements) => {
+        if (!elements.length) return;
+        const rag = ragLabels[elements[0].index];
+        const icons = { Green:'✅', Amber:'⚠️', Red:'🔴', Grey:'⚪' };
+        showFilterModal(`${icons[rag]||''} ${rag} RAG Status`, allItems.filter(it => it.rag === rag));
+      }
+    }
+  }));
+
+  const sLabels = Object.keys(statusCounts);
+  const statusColors = { 'Post Launch Review':'#7C3AED','Operational Readiness':'#16A34A','Build & Test':'#2563EB','Scoping':'#D97706','Planning':'#6B7280','Not started':'#9CA3AF' };
+  chartInstances.push(new Chart(document.getElementById('statusChart'), {
+    type: 'doughnut',
+    data: {
+      labels: sLabels,
+      datasets: [{ data: sLabels.map(l => statusCounts[l]), backgroundColor: sLabels.map(l => statusColors[l]||'#9CA3AF'), borderWidth: 3, borderColor: '#fff', hoverOffset: 6 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '65%',
+      plugins: {
+        legend: { position: 'right', labels: { font:{size:11}, boxWidth:10, padding:6,
+          generateLabels: c => c.data.labels.map((l,i) => ({
+            text: `${l} (${c.data.datasets[0].data[i]})`,
+            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle:'#fff', lineWidth:2, index:i
+          }))
+        }},
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
+      },
+      onClick: (evt, elements) => {
+        if (!elements.length) return;
+        const status = sLabels[elements[0].index];
+        showFilterModal(`Status: ${status}`, allItems.filter(it => it.status === status));
+      }
+    }
+  }));
+}
+
+// ─── FILTER MODAL ────────────────────────────────────────────────
+function showFilterModal(title, items) {
+  const ragOrder = { Red:0, Amber:1, Green:2, Grey:3 };
+  const sorted = [...items].sort((a,b) => ragOrder[a.rag] - ragOrder[b.rag]);
+
+  document.getElementById('filterModalTitle').innerHTML =
+    `<span>${title}</span><span style="font-size:12px;color:var(--text-light);margin-left:10px;font-weight:500">${items.length} initiatives</span>`;
+
+  const rows = sorted.map((it, i) => {
+    const ov = isOverdue(it.duedate);
+    const tShort = TEAM_SHORT[it.team] || it.team;
+    return `<tr data-key="${it.key}" class="clickable-row">
+      <td class="row-num">${i+1}</td>
+      <td><a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${it.key}</a></td>
+      <td style="max-width:220px;word-break:break-word;font-size:12px;font-weight:500;padding:8px 12px">${it.summary}</td>
+      <td><span class="status-badge ${statusClass(it.status)}">${it.status}</span></td>
+      <td><div class="rag-pill rag-${it.rag.toLowerCase()}"><div class="dot"></div>${it.rag}</div></td>
+      <td><span class="team-badge" style="background:${it.teamColor}" title="${it.team}">${it.teamIcon} ${tShort}</span></td>
+      <td class="date-cell ${ov?'date-overdue':''}">${fmtDate(it.duedate)}${ov?' ⚠':''}</td>
+      <td><div class="assignee-cell">
+        <div class="avatar" style="background:${avatarColor(it.assignee)};width:22px;height:22px;font-size:9px">${initials(it.assignee)}</div>
+        ${it.assignee}
+      </div></td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('filterModalBody').innerHTML = `
+    <div class="tl-table-wrap">
+      <table class="tl-table" style="font-size:12px">
+        <thead><tr>
+          <th style="width:32px">#</th><th>Key</th><th>Summary</th>
+          <th>Status</th><th>RAG</th><th>Team</th><th>Due Date</th><th>Assignee</th>
+        </tr></thead>
+        <tbody id="filterTableBody">${rows}</tbody>
+      </table>
+    </div>`;
+
+  document.getElementById('filterModal').classList.add('open');
+  document.getElementById('filterOverlay').classList.add('open');
+
+  // Row click in modal → close modal and open detail drawer
+  document.getElementById('filterTableBody').onclick = function(e) {
+    const tr = e.target.closest('tr[data-key]');
+    if (!tr) return;
+    closeFilterModal();
+    showDrawer(window.ITEMS_MAP[tr.dataset.key]);
+  };
+}
+
+function closeFilterModal() {
+  document.getElementById('filterModal').classList.remove('open');
+  document.getElementById('filterOverlay').classList.remove('open');
+}
+
+// ─── DETAIL DRAWER ───────────────────────────────────────────────
+function showDrawer(it) {
+  if (!it) return;
+  document.getElementById('drawerKey').textContent   = it.key;
+  document.getElementById('drawerTitle').textContent = it.summary;
+  const panels = Array.isArray(it.panels) ? it.panels : [];
+  const icons  = { info:'ℹ️', note:'📝', warning:'⚠️', error:'🚨', success:'✅' };
+  const pHTML  = panels.length
+    ? panels.map(p => `<div class="jira-panel ${p.type}"><span class="panel-icon">${icons[p.type]||'ℹ️'}</span>${p.text}</div>`).join('')
+    : '<div class="drawer-empty">No status banners on this initiative.</div>';
+  document.getElementById('drawerPanels').innerHTML = pHTML +
+    `<a class="drawer-jira-link" href="${it.url}" target="_blank" rel="noopener">🔗 Open in Jira</a>`;
+  document.getElementById('detailDrawer').classList.add('open');
+  document.getElementById('drawerOverlay').classList.add('open');
+}
+function closeDrawer() {
+  document.getElementById('detailDrawer').classList.remove('open');
+  document.getElementById('drawerOverlay').classList.remove('open');
+}
+
+// ─── FETCH ALL (parallel) ────────────────────────────────────────
+async function loadData(forceRefresh = false) {
+  const btn = document.getElementById('refreshBtn');
+  if (btn) btn.classList.add('spinning');
+
+  try {
+    const results = await Promise.all(
+      SOURCES.map(s =>
+        fetch(`${s.file}?t=${Date.now()}`, { cache: 'no-store' })
+          .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+          .then(d => ({ source: s, items: d.items || [], updated: d.updated }))
+          .catch(e => { console.warn(`Failed to load ${s.file}:`, e.message); return { source: s, items: [], updated: null }; })
+      )
+    );
+
+    let allItems = [];
+    let lastUpdated = null;
+    results.forEach(r => {
+      r.items.forEach(it => {
+        allItems.push({ ...it, team: r.source.label, teamIcon: r.source.icon, teamColor: r.source.color });
+      });
+      if (r.updated && (!lastUpdated || r.updated > lastUpdated)) lastUpdated = r.updated;
+    });
+
+    render(allItems, lastUpdated);
+
+  } catch (err) {
+    document.getElementById('content').innerHTML =
+      `<div class="error-box">⚠ Could not load data: ${err.message}<br><br>If running locally, open via a web server (not file://).</div>`;
+  } finally {
+    if (btn) btn.classList.remove('spinning');
+  }
+}
+
+// ─── INIT ────────────────────────────────────────────────────────
+document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
+loadData();
+</script>
+</body>
+</html>
