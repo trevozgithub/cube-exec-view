@@ -214,12 +214,36 @@
 
 <div class="main">
   <div id="content">
-    <div class="loading-overlay">
+    <div class="loading-overlay" id="loadingOverlay">
       <div class="spinner"></div>
       <div class="loading-text">Loading all 7 team feeds in parallel…</div>
     </div>
   </div>
 </div>
+
+<script>
+/* Defensive timeout — if loadData() never fires (e.g. JS SyntaxError in main
+   script block), replace the spinner with a clear error after 10 seconds so
+   the user isn't left staring at an infinite loader. */
+(function() {
+  var deadline = setTimeout(function() {
+    var overlay = document.getElementById('loadingOverlay');
+    if (overlay && overlay.parentNode.id === 'content') {
+      // loadData() never replaced #content — surface a useful error
+      document.getElementById('content').innerHTML =
+        '<div class="error-box" style="max-width:600px;margin:40px auto;">' +
+        '<strong>⚠️ Dashboard failed to load.</strong><br><br>' +
+        'The page scripts did not execute correctly. This is usually caused by a ' +
+        'file truncation during deployment.<br><br>' +
+        'Please check the browser console (F12 → Console) for a SyntaxError, ' +
+        'then re-push overview.html after running tests locally.' +
+        '</div>';
+    }
+  }, 10000);
+  // Cancel the timeout if the main script calls loadData() in time
+  window.__cancelLoadingTimeout = function() { clearTimeout(deadline); };
+})();
+</script>
 
 <!-- Filter Modal -->
 <div id="filterOverlay" class="filter-overlay" onclick="closeFilterModal()"></div>
@@ -623,6 +647,7 @@ function closeDrawer() {
 
 // ─── FETCH ALL (parallel) ────────────────────────────────────────
 async function loadData(forceRefresh = false) {
+  if (window.__cancelLoadingTimeout) window.__cancelLoadingTimeout();
   const btn = document.getElementById('refreshBtn');
   if (btn) btn.classList.add('spinning');
 
@@ -658,4 +683,6 @@ async function loadData(forceRefresh = false) {
 // ─── INIT ────────────────────────────────────────────────────────
 document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
 loadData();
-</script
+</script>
+</body>
+</html>
