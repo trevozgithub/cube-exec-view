@@ -2,6 +2,7 @@
 // Add new pages here; all pages pick up the change automatically.
 
 const PAGES = [
+  { label: 'Overview',                href: 'overview.html',      icon: '🌐' },
   { label: 'Consumer Engineering',    href: 'index.html',         icon: '📊' },
   { label: 'InfoSec Projects',        href: 'infosec.html',       icon: '🔒' },
   { label: 'Infrastructure Projects', href: 'infra.html',         icon: '🏗️' },
