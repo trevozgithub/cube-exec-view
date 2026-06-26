@@ -10,7 +10,7 @@ const PAGES = [
   { label: 'Corp Tech & WP Systems',  href: 'techops.html',       icon: '\u{1F5A5}️' },
   { label: 'Mid-Market',              href: 'midmarket.html',     icon: '\u{1F4C8}' },
   { label: 'Data & AI',               href: 'dataai.html',        icon: '\u{1F916}' },
-  { label: 'Time Reporting',          href: 'timereporting.html', icon: '\u{23F1}️' },
+  { label: 'Time Reporting',          href: 'timereporting.html', icon: '⏱️' },
   { label: 'Incidents',               href: 'kpi.html',           icon: '\u{1F6A8}' },
 ];
 
@@ -27,24 +27,23 @@ const PAGES = [
   document.getElementById('navTabs').innerHTML = tabs + addBtn;
 
   // Inject responsive nav styles so ALL pages get the fix automatically.
+  // Prevents tab labels from wrapping and ensures all tabs are visible on any screen size.
   if (!document.getElementById('nav2-styles')) {
     var s = document.createElement('style');
     s.id = 'nav2-styles';
     s.textContent =
-      // Never let tab labels wrap
-      '.topnav-tab { white-space: nowrap !important; }' +
-      // Tab strip: takes all remaining space, scrolls horizontally, no visible scrollbar
-      '.topnav-tabs { flex: 1 1 0; min-width: 0; overflow-x: auto !important; scrollbar-width: none !important; }' +
+      // Base: 12px so all 11 tabs fit comfortably on 27-inch (2560px) and larger monitors
+      '.topnav-tab { white-space: nowrap !important; font-size: 12px !important; padding: 5px 8px !important; gap: 4px !important; }' +
+      // Tab strip: fills all available space, scrolls horizontally if needed, no visible scrollbar
+      '.topnav-tabs { flex: 1 1 0 !important; min-width: 0; overflow-x: auto !important; scrollbar-width: none !important; }' +
       '.topnav-tabs::-webkit-scrollbar { display: none !important; }' +
-      // Hide the date + Open-in-Jira button — they crowd out tabs on any screen width
+      // Hide the date + Open-in-Jira button to give the tab strip full width
       '.topnav-right { display: none !important; }' +
-      // Responsive: shrink font/padding as viewport narrows
-      '@media (max-width: 1700px) {' +
-        '.topnav-tab { font-size: 12px !important; padding: 5px 8px !important; gap: 4px !important; }' +
-      '}' +
+      // Laptop / small external monitor
       '@media (max-width: 1400px) {' +
-        '.topnav-tab { font-size: 11px !important; padding: 4px 7px !important; gap: 3px !important; }' +
+        '.topnav-tab { font-size: 11px !important; padding: 4px 6px !important; gap: 3px !important; }' +
       '}' +
+      // Small screen / tablet landscape
       '@media (max-width: 1150px) {' +
         '.topnav-tab { font-size: 10px !important; padding: 4px 5px !important; gap: 2px !important; }' +
         '.topnav-logo { font-size: 13px !important; }' +
