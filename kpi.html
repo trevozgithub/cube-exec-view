@@ -224,6 +224,42 @@
     .drawer-empty { color: #9CA3AF; font-size: 13px; text-align: center; padding: 32px 0; }
     .drawer-jira-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 12px; color: var(--brand); text-decoration: none; }
     .drawer-jira-link:hover { text-decoration: underline; }
+
+    /* WEEKLY SUMMARY CARD */
+    .ws-wrap { background:#F7F3EC; border:1px solid #C8B89A; border-radius:6px; padding:28px 32px 20px; margin-bottom:24px; }
+    .ws-header { display:flex; justify-content:space-between; align-items:flex-start; padding-bottom:20px; border-bottom:2px solid #1C2D4F; margin-bottom:20px; }
+    .ws-brand-main { font-family:'Courier New',monospace; font-size:22px; font-weight:700; color:#1C2D4F; letter-spacing:1.5px; line-height:1; margin-bottom:4px; }
+    .ws-brand-sub { font-size:46px; font-weight:900; color:#C93B00; font-style:italic; line-height:1; font-family:Georgia,serif; }
+    .ws-meta { text-align:right; }
+    .ws-meta-row { font-size:9px; font-weight:700; color:#9CA3AF; letter-spacing:.9px; text-transform:uppercase; margin-top:10px; margin-bottom:1px; }
+    .ws-meta-val { font-size:13px; font-weight:600; color:#1C2D4F; }
+    .ws-kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); border:2px solid #1C2D4F; border-radius:3px; overflow:hidden; margin-bottom:18px; }
+    .ws-kpi { padding:18px 20px; background:#fff; border-right:1px solid #D1C7B6; }
+    .ws-kpi:last-child { border-right:none; }
+    .ws-kpi-num { font-size:54px; font-weight:700; line-height:1; display:block; font-family:-apple-system,sans-serif; }
+    .ws-kpi.kpi-total .ws-kpi-num { color:#1C2D4F; }
+    .ws-kpi.kpi-open .ws-kpi-num { color:#C93B00; }
+    .ws-kpi.kpi-closed .ws-kpi-num { color:#16A34A; }
+    .ws-kpi.kpi-action .ws-kpi-num { color:#1C2D4F; }
+    .ws-kpi-lbl { font-size:9px; font-weight:700; color:#9CA3AF; text-transform:uppercase; letter-spacing:.7px; margin-top:5px; display:block; font-family:-apple-system,sans-serif; }
+    .ws-narrative { background:#1C2D4F; color:#D8D0C0; padding:16px 20px; border-radius:3px; font-size:13px; line-height:1.75; margin-bottom:14px; }
+    .ws-narrative strong { color:#fff; }
+    .ws-note { background:#FEFBE8; border:1px solid #D4A017; border-left:4px solid #D4A017; padding:12px 16px; border-radius:3px; font-size:12.5px; line-height:1.65; margin-bottom:14px; color:#5C4A00; }
+    .ws-note strong { color:#3D2F00; }
+    .ws-bottom { display:grid; grid-template-columns:1fr 1fr; gap:24px; padding-top:16px; border-top:1px solid #C8B89A; margin-top:6px; }
+    .ws-section-title { font-size:9px; font-weight:700; color:#9CA3AF; text-transform:uppercase; letter-spacing:.9px; margin-bottom:10px; padding-bottom:6px; border-bottom:1px solid #C8B89A; font-family:-apple-system,sans-serif; }
+    .ws-section-title span { color:#C93B00; font-weight:700; }
+    .ws-cat-row { display:flex; align-items:center; gap:8px; padding:5px 0; border-bottom:1px solid #EDE8DF; font-size:12.5px; }
+    .ws-cat-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+    .ws-cat-label { flex:1; color:#374151; }
+    .ws-cat-count { font-weight:700; color:#1C2D4F; font-size:14px; }
+    .ws-ticket-grid { display:flex; flex-wrap:wrap; gap:8px; margin-top:2px; }
+    .ws-ticket-chip { display:inline-block; padding:5px 12px; background:#E8E3DA; color:#1C2D4F; font-family:'Courier New',monospace; font-size:12px; font-weight:700; border-radius:3px; text-decoration:none; border:1px solid #C8B89A; transition:background .12s; }
+    .ws-ticket-chip:hover { background:#D4C8B0; }
+    .ws-footer { display:flex; justify-content:space-between; margin-top:16px; padding-top:12px; border-top:1px solid #C8B89A; font-size:10px; color:#9CA3AF; }
+    .ws-empty { color:#9CA3AF; font-size:12px; font-style:italic; padding:8px 0; }
+    /* ANALYTICS SECTION LABEL */
+    .analytics-label { font-size:11px; font-weight:700; color:var(--text-light); text-transform:uppercase; letter-spacing:.6px; margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid var(--border); }
   </style>
 </head>
 <body>
@@ -248,8 +284,7 @@
 <div class="page-header">
   <h1>🚨 Incidents</h1>
   <div class="subtitle">
-    <span>TechOps Initiatives &amp; eSentire Security</span>
-    <span class="filter-chip">Corp Tech & WP Systems</span>
+    <span>eSentire MDR Security Intelligence</span>
     <span class="filter-chip" style="background:#EDE9FE;color:#6D28D9">eSentire MDR</span>
     <span id="itemCount">Loading...</span>
     <span class="live-badge"><span class="live-dot"></span>Live data</span>
@@ -283,408 +318,249 @@
 </div>
 
 <script>
-const JIRA_BASE       = 'https://cube001.atlassian.net/browse/';
-const TECHOPS_URL     = 'https://cube001.atlassian.net/jira/dashboards/11367';
-const ESENTIRE_URL    = 'https://cube001.atlassian.net/jira/dashboards/15636';
-const GANTT_START     = new Date('2025-10-01');
-const GANTT_END       = new Date('2026-09-30');
-const TECHOPS_REDACTED = new Set(['CPN-1428','CPN-1429','CPN-1430']);
+const ESENTIRE_URL = 'https://cube001.atlassian.net/jira/dashboards/15636';
+const JIRA_BASE    = 'https://cube001.atlassian.net/browse/';
 
-// ─── RAG LOGIC ───────────────────────────────────────────────────
-function calcRAG(item) {
-  const today = new Date();
-  const due = item.duedate ? new Date(item.duedate) : null;
-  const reviewed = item.reviewed ? new Date(item.reviewed) : null;
-  const daysSinceReview = reviewed ? (today - reviewed) / 86400000 : 999;
-  const s = item.status;
-  if (s === 'Post Launch Review' || s === 'Operational Readiness') return 'Green';
-  if (due && due < today) return 'Red';
-  if (s === 'Not started' && !due) return 'Grey';
-  if (s === 'Build & Test') {
-    if (due && (due - today) < 14 * 86400000) return 'Amber';
-    return daysSinceReview > 30 ? 'Amber' : 'Green';
-  }
-  if (s === 'Scoping' || s === 'Planning') return 'Amber';
-  return 'Amber';
-}
+/* ─── Helpers ───────────────────────────────────────────────── */
+function fmtD(d) { return d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }
+function fmtDate(s) { if(!s) return '—'; return new Date(s+'T00:00:00').toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}); }
+function fmtDatetime(s) { if(!s) return '—'; return new Date(s).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}); }
+const isOpen = it => { const s=(it.status||'').toLowerCase(); return !s.includes('complet')&&!s.includes('closed')&&!s.includes('resolved'); };
+function avatarColor(n) { return '#'+Math.abs((n||'').split('').reduce((a,c)=>a+c.charCodeAt(0),0)).toString(16).slice(0,6).padEnd(6,'3'); }
+function initials(n) { if(!n||n==='Unassigned') return '?'; return n.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase(); }
+function esentireStatusClass(s) { if(!s) return 's-todo'; const l=s.toLowerCase(); if(l.includes('in progress')) return 's-inprogress'; if(l.includes('action')) return 's-actioned'; if(l.includes('complet')) return 's-completed'; return 's-todo'; }
+function prioClass(p) { if(!p) return 'prio-p5'; const l=p.toUpperCase(); if(l==='P1'||l==='HIGHEST') return 'prio-p1'; if(l==='P2'||l==='HIGH') return 'prio-p2'; if(l==='P3'||l==='MEDIUM') return 'prio-p3'; if(l==='P4'||l==='LOW') return 'prio-p4'; return 'prio-p5'; }
+function typeClass(t) { if(!t) return 'type-other'; const l=t.toLowerCase(); if(l.includes('alert')) return 'type-alert'; if(l.includes('incident')) return 'type-incident'; return 'type-other'; }
 
-function calcQ(duedate) {
-  if (!duedate) return '';
-  const m = parseInt(duedate.slice(5, 7));
-  if (m <= 3) return 'Q1';
-  if (m <= 6) return 'Q2';
-  if (m <= 9) return 'Q3';
-  return 'Q4';
-}
-
-function ganttPct(d) {
-  const dt = new Date(d);
-  if (dt <= GANTT_START) return 0;
-  if (dt >= GANTT_END) return 100;
-  return ((dt - GANTT_START) / (GANTT_END - GANTT_START)) * 100;
-}
-function todayPct() { return ganttPct(new Date()); }
-
-function ganttBounds(item) {
-  const due = item.duedate || null;
-  let startDate, endDate;
-  if (due) {
-    const d = new Date(due);
-    startDate = new Date(d.getFullYear(), d.getMonth() - 4, 1);
-    endDate = d;
-  } else {
-    startDate = new Date('2026-01-01');
-    endDate = new Date('2026-06-30');
-  }
-  return { left: ganttPct(startDate), right: ganttPct(endDate) };
-}
-
-function fmtDate(d) {
-  if (!d) return '—';
-  const s = d.slice ? d.slice(0, 10) : d;
-  return new Date(s + 'T00:00:00').toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
-}
-function fmtDatetime(d) {
-  if (!d) return '—';
-  return new Date(d).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
-}
-function isOverdue(d) { return d && new Date(d) < new Date(); }
-
-const AVATAR_COLORS = {
-  'George Brand': '#0369A1', 'Jaspreet Manghera': '#DC2626', 'Masoom Miah': '#7C3AED',
-  'Alistair McPherson': '#0284C7', 'Beth Denham': '#16A34A', "Helen O'Shea": '#9333EA',
-  'Vamsee Chinta': '#0D9488', 'Jeremy Noble': '#D97706', 'Malcolm Brown': '#6B7280',
-  'Unassigned': '#9CA3AF',
-};
-function avatarColor(name) {
-  return AVATAR_COLORS[name] || '#' + Math.abs(name.split('').reduce((a, c) => a + c.charCodeAt(0), 0)).toString(16).slice(0, 6).padEnd(6, '3');
-}
-function initials(name) {
-  if (!name || name === 'Unassigned') return '?';
-  return name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
-}
-function statusClass(s) {
-  if (s.includes('Post Launch'))  return 's-plr';
-  if (s.includes('Operational'))  return 's-or';
-  if (s.includes('Build'))        return 's-bt';
-  if (s.includes('Scoping'))      return 's-sc';
-  if (s.includes('Not started'))  return 's-ns';
-  return 's-pl';
-}
-function ragBarColor(r) { return r === 'Green' ? 'green' : r === 'Amber' ? 'amber' : r === 'Red' ? 'red' : 'grey'; }
-
-function esentireStatusClass(s) {
-  if (!s) return 's-todo';
-  const l = s.toLowerCase();
-  if (l.includes('in progress')) return 's-inprogress';
-  if (l.includes('action'))      return 's-actioned';
-  if (l.includes('complet'))     return 's-completed';
-  return 's-todo';
-}
-function prioClass(p) {
-  if (!p) return 'prio-p5';
-  const l = p.toUpperCase();
-  if (l === 'P1' || l === 'HIGHEST') return 'prio-p1';
-  if (l === 'P2' || l === 'HIGH')    return 'prio-p2';
-  if (l === 'P3' || l === 'MEDIUM')  return 'prio-p3';
-  if (l === 'P4' || l === 'LOW')     return 'prio-p4';
-  return 'prio-p5';
-}
-function typeClass(t) {
-  if (!t) return 'type-other';
-  const l = t.toLowerCase();
-  if (l.includes('alert'))    return 'type-alert';
-  if (l.includes('incident')) return 'type-incident';
-  return 'type-other';
-}
-
-// ─── CHARTS ───────────────────────────────────────────────────────
-let chartInstances = [];
-function destroyCharts() { chartInstances.forEach(c => c.destroy()); chartInstances = []; }
-
-function makeDonut(id, labels, data, colors) {
-  chartInstances.push(new Chart(document.getElementById(id), {
-    type: 'doughnut',
-    data: {
-      labels,
-      datasets: [{ data, backgroundColor: colors, borderWidth: 3, borderColor: '#fff', hoverOffset: 6 }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, cutout: '68%',
-      plugins: {
-        legend: {
-          position: 'right',
-          labels: {
-            font: { size: 11 }, boxWidth: 10, padding: 6,
-            generateLabels: c => c.data.labels.map((l, i) => ({
-              text: `${l} (${c.data.datasets[0].data[i]})`,
-              fillStyle: c.data.datasets[0].backgroundColor[i],
-              strokeStyle: '#fff', lineWidth: 2, index: i
-            }))
-          }
+/* ─── Charts ────────────────────────────────────────────────── */
+let chartInstances=[];
+function destroyCharts(){ chartInstances.forEach(c=>c.destroy()); chartInstances=[]; }
+function makeDonut(id,labels,data,colors){
+  chartInstances.push(new Chart(document.getElementById(id),{
+    type:'doughnut',
+    data:{ labels, datasets:[{data,backgroundColor:colors,borderWidth:3,borderColor:'#fff',hoverOffset:6}] },
+    options:{ responsive:true,maintainAspectRatio:false,cutout:'68%',
+      plugins:{ legend:{ position:'right',
+        labels:{ font:{size:11},boxWidth:10,padding:6,
+          generateLabels:c=>c.data.labels.map((l,i)=>({text:`${l} (${c.data.datasets[0].data[i]})`,fillStyle:c.data.datasets[0].backgroundColor[i],strokeStyle:'#fff',lineWidth:2,index:i}))
         }
-      }
+      }}
     }
   }));
 }
 
-// ─── RENDER ───────────────────────────────────────────────────────
-function render(techopsData, esentireData) {
+/* ─── Render ────────────────────────────────────────────────── */
+function render(esentireData) {
   destroyCharts();
-
-  // --- TechOps ---
-  const techopsItems = (techopsData.items || []).filter(it =>
-    it.status !== 'Not started' && !TECHOPS_REDACTED.has(it.key)
-  );
-  techopsItems.forEach(it => { it.rag = calcRAG(it); it.q = calcQ(it.duedate); });
-  const ragOrder = { Red: 0, Amber: 1, Green: 2, Grey: 3 };
-  techopsItems.sort((a, b) => ragOrder[a.rag] - ragOrder[b.rag]);
-  window.ITEMS_MAP = Object.fromEntries(techopsItems.map(it => [it.key, it]));
-
-  const ragCounts = { Green: 0, Amber: 0, Red: 0, Grey: 0 };
-  techopsItems.forEach(it => ragCounts[it.rag]++);
-  const statusCounts = {};
-  techopsItems.forEach(it => { statusCounts[it.status] = (statusCounts[it.status] || 0) + 1; });
-  const assigneeCounts = {};
-  techopsItems.forEach(it => { if (it.assignee !== 'Unassigned') assigneeCounts[it.assignee] = (assigneeCounts[it.assignee] || 0) + 1; });
-
-  // --- eSentire ---
   const incItems = esentireData.items || [];
-  const prioCounts = {};
-  incItems.forEach(it => { prioCounts[it.priority || 'Unknown'] = (prioCounts[it.priority || 'Unknown'] || 0) + 1; });
-  const incStatusCounts = {};
-  incItems.forEach(it => { incStatusCounts[it.status || 'Unknown'] = (incStatusCounts[it.status || 'Unknown'] || 0) + 1; });
-  const typeCounts = {};
-  incItems.forEach(it => { typeCounts[it.issuetype || 'Unknown'] = (typeCounts[it.issuetype || 'Unknown'] || 0) + 1; });
+  const dataUpdated = esentireData.updated ? new Date(esentireData.updated) : new Date();
 
-  const incOpen      = incItems.filter(it => (it.status || '').toLowerCase() !== 'completed').length;
-  const incActioned  = incItems.filter(it => (it.status || '').toLowerCase().includes('action')).length;
-  const incCompleted = incItems.filter(it => (it.status || '').toLowerCase().includes('complet')).length;
+  /* Weekly window */
+  const weekEnd   = dataUpdated;
+  const weekStart = new Date(weekEnd.getTime() - 7*24*60*60*1000);
+  const weekItems = incItems.filter(it => {
+    if (!it.created) return false;
+    return new Date(it.created+'T00:00:00') >= weekStart;
+  });
+  const weekTotal  = weekItems.length;
+  const weekOpen   = weekItems.filter(isOpen).length;
+  const weekClosed = weekTotal - weekOpen;
+  const weekAction = weekOpen;
 
-  // Timestamps
-  const tts = techopsData.updated ? new Date(techopsData.updated) : new Date();
-  const ets = esentireData.updated ? new Date(esentireData.updated) : new Date();
-  const latestTs = tts > ets ? tts : ets;
-  document.getElementById('lastUpdated').textContent =
-    '🔄 Refreshed: ' + latestTs.toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
-  document.getElementById('itemCount').textContent =
-    `${techopsItems.length} initiatives · ${incItems.length} incidents`;
+  /* 30-day counts for charts */
+  const prioCounts={}, incStatusCounts={}, typeCounts={};
+  incItems.forEach(it=>{
+    const p=it.priority||'Unknown'; prioCounts[p]=(prioCounts[p]||0)+1;
+    const s=it.status||'Unknown';   incStatusCounts[s]=(incStatusCounts[s]||0)+1;
+    const t=it.issuetype||'Unknown';typeCounts[t]=(typeCounts[t]||0)+1;
+  });
 
-  const today = todayPct();
+  /* Category breakdown from labels */
+  const CAT_COLORS={'Phishing':'#EF4444','Suspicious User Activity':'#F97316','Login from Unusual Location':'#3B82F6','Admin Activity':'#1C2D4F','Admin-Activity':'#1C2D4F','Service Incident':'#7C3AED','Alert':'#EF4444','Other':'#6B7280'};
+  const catCounts={};
+  weekItems.forEach(it=>{
+    const cats=(it.labels&&it.labels.length)?it.labels:[it.issuetype||'Other'];
+    cats.forEach(c=>{ catCounts[c]=(catCounts[c]||0)+1; });
+  });
+  const catEntries=Object.entries(catCounts).sort((a,b)=>b[1]-a[1]);
 
-  // ─── TechOps table rows ───────────────────────────────────────
-  const techopsRows = techopsItems.map((it, idx) => {
-    const b = ganttBounds(it);
-    const barW = Math.max(b.right - b.left, 1).toFixed(1);
-    const ov = isOverdue(it.duedate);
-    const ac = avatarColor(it.assignee);
-    const init = initials(it.assignee);
-    return `<tr data-key="${it.key}" class="clickable-row">
-      <td class="row-num">${idx + 1}</td>
-      <td><div class="wi-cell">
-        <a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${it.key}</a>
-        <span class="wi-summary">${it.summary}</span>
-      </div></td>
-      <td><span class="status-badge ${statusClass(it.status)}">${it.status}</span></td>
-      <td><div class="rag-pill rag-${it.rag.toLowerCase()}"><div class="dot"></div>${it.rag}</div></td>
-      <td class="date-cell ${ov ? 'date-overdue' : ''}">${fmtDate(it.duedate)}${ov ? ' ⚠' : ''}</td>
-      <td class="date-cell">${fmtDate(it.reviewed)}</td>
-      <td>${it.q ? `<span class="q-badge">${it.q}</span>` : '<span style="color:var(--text-light)">—</span>'}</td>
-      <td><div class="assignee-cell"><div class="avatar" style="background:${ac}">${init}</div>${it.assignee}</div></td>
-      <td class="gantt-col">
-        <div class="gantt-bar-wrap">
-          <div class="gantt-bar ${ragBarColor(it.rag)}" style="left:${b.left.toFixed(1)}%;width:${barW}%"></div>
-          <div class="gantt-today" style="left:${today.toFixed(1)}%"></div>
-        </div>
-      </td>
-    </tr>`;
-  }).join('');
+  /* High-priority open for investigation note */
+  const highPrioOpen=weekItems.filter(it=>{
+    const p=(it.priority||'').toUpperCase();
+    return (p==='P1'||p==='P2'||p==='HIGHEST'||p==='HIGH')&&isOpen(it);
+  });
 
-  // ─── eSentire table rows ──────────────────────────────────────
-  const incRows = incItems.map((it, idx) => {
-    const ac = avatarColor(it.assignee || 'Unassigned');
-    const init = initials(it.assignee || 'Unassigned');
+  /* Narrative */
+  let volumeDesc='a steady volume';
+  if(weekTotal===0) volumeDesc='no new alerts';
+  else if(weekTotal<=3) volumeDesc='a lower volume';
+  else if(weekTotal>=12) volumeDesc='a higher than usual volume';
+  const notable=weekItems.filter(it=>{ const p=(it.priority||'').toUpperCase(); return p==='P1'||p==='P2'||p==='HIGHEST'||p==='HIGH'; }).slice(0,3);
+  let notableText='';
+  if(notable.length>0){
+    const nl=notable.map(it=>{
+      const cat=(it.labels&&it.labels[0])?it.labels[0]:(it.issuetype||'incident');
+      const sm=it.summary.length>55?it.summary.slice(0,55)+'…':it.summary;
+      return `a <strong>${cat}</strong> alert (<strong>${it.key}</strong> — ${sm}, currently ${it.status})`;
+    });
+    notableText=' Notable tickets include '+(nl.length===1?nl[0]:nl.slice(0,-1).join(', ')+', and '+nl[nl.length-1])+'.';
+  }
+  const narrative = weekTotal===0
+    ? `No new incidents were recorded during the week of <strong>${fmtD(weekStart)} – ${fmtD(weekEnd)}</strong>. All previous tickets have been resolved or are under ongoing monitoring.`
+    : `During the week of <strong>${fmtD(weekStart)} – ${fmtD(weekEnd)}</strong>, eSentire raised <strong>${weekTotal} alert${weekTotal!==1?'s':''}</strong> against the Cube environment — ${volumeDesc} compared to recent weeks.${notableText} <strong>${weekOpen} ticket${weekOpen!==1?'s remain':' remains'} open</strong> and require${weekOpen===1?'s':''} triage or confirmation of resolution.`;
+
+  const investigationNote = highPrioOpen.length>0
+    ? `<div class="ws-note"><strong>&#9632; NOTE — High Priority Alerts (Under Investigation):</strong> ${highPrioOpen.map(it=>`<strong>${it.key}</strong> (${it.summary})`).join('; ')} remain <strong>under active investigation</strong>. The Information Security team continues to monitor and work towards resolution. Malicious activity cannot be ruled out until each investigation concludes.</div>`
+    : '';
+
+  const catHTML = catEntries.length>0
+    ? catEntries.map(([cat,count])=>`<div class="ws-cat-row"><span class="ws-cat-dot" style="background:${CAT_COLORS[cat]||'#6B7280'}"></span><span class="ws-cat-label">${cat}</span><span class="ws-cat-count">${count}</span></div>`).join('')
+    : '<div class="ws-empty">No category data available for this week</div>';
+
+  const openWeekTickets=weekItems.filter(isOpen);
+  const openHTML = openWeekTickets.length>0
+    ? `<div class="ws-ticket-grid">${openWeekTickets.slice(0,12).map(it=>`<a class="ws-ticket-chip" href="${it.url}" target="_blank" rel="noopener">${it.key}</a>`).join('')}</div>`
+    : '<div class="ws-empty">No open tickets this week</div>';
+
+  /* ─── Incident table rows ────────────────────────────────── */
+  const incRows=incItems.map((it,idx)=>{
+    const ac=avatarColor(it.assignee||'Unassigned');
+    const init=initials(it.assignee||'Unassigned');
     return `<tr data-inc-key="${it.key}">
-      <td class="row-num">${idx + 1}</td>
-      <td><div class="wi-cell">
-        <a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">${it.key}</a>
-        <span class="wi-summary inc-summary-cell">${it.summary}</span>
-      </div></td>
-      <td><span class="type-badge ${typeClass(it.issuetype)}">${it.issuetype || '—'}</span></td>
-      <td><span class="prio-badge ${prioClass(it.priority)}">${it.priority || '—'}</span></td>
-      <td><span class="status-badge ${esentireStatusClass(it.status)}">${it.status || '—'}</span></td>
-      <td><div class="assignee-cell"><div class="avatar" style="background:${ac}">${init}</div>${it.assignee || 'Unassigned'}</div></td>
+      <td class="row-num">${idx+1}</td>
+      <td><div class="wi-cell"><a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">${it.key}</a><span class="wi-summary inc-summary-cell">${it.summary}</span></div></td>
+      <td><span class="type-badge ${typeClass(it.issuetype)}">${it.issuetype||'—'}</span></td>
+      <td><span class="prio-badge ${prioClass(it.priority)}">${it.priority||'—'}</span></td>
+      <td><span class="status-badge ${esentireStatusClass(it.status)}">${it.status||'—'}</span></td>
+      <td><div class="assignee-cell"><div class="avatar" style="background:${ac}">${init}</div>${it.assignee||'Unassigned'}</div></td>
       <td class="date-cell">${fmtDatetime(it.created)}</td>
       <td class="date-cell">${fmtDatetime(it.updated)}</td>
-      <td><a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">↗ Jira</a></td>
+      <td><a class="wi-key" href="${JIRA_BASE}${it.key}" target="_blank" rel="noopener">↗</a></td>
     </tr>`;
   }).join('');
 
-  // ─── BUILD HTML ───────────────────────────────────────────────
+  /* ─── Build full content HTML ────────────────────────────── */
   const html = `
-
-    <!-- ═══ COMBINED KPI CARDS ═══════════════════════════════════ -->
-    <div class="kpi-row">
-      <div class="kpi-card">
-        <div class="kpi-icon total">🖥️</div>
-        <div class="kpi-body">
-          <div class="kpi-value" style="color:var(--brand)">${techopsItems.length}</div>
-          <div class="kpi-label">TechOps Initiatives</div>
-        </div>
-        <div class="kpi-pct blue">Active</div>
+  <div class="ws-wrap">
+    <div class="ws-header">
+      <div>
+        <div class="ws-brand-main">eSentire Alert</div>
+        <div class="ws-brand-sub">Weekly Summary</div>
       </div>
-      <div class="kpi-card">
-        <div class="kpi-icon green">✅</div>
-        <div class="kpi-body">
-          <div class="kpi-value" style="color:var(--green)">${ragCounts.Green}</div>
-          <div class="kpi-label">On Track</div>
-        </div>
-        <div class="kpi-pct green">${techopsItems.length ? Math.round(ragCounts.Green / techopsItems.length * 100) : 0}%</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon amber">⚠️</div>
-        <div class="kpi-body">
-          <div class="kpi-value" style="color:var(--amber)">${ragCounts.Amber + ragCounts.Red}</div>
-          <div class="kpi-label">At Risk / Off Track</div>
-        </div>
-        <div class="kpi-pct amber">${techopsItems.length ? Math.round((ragCounts.Amber + ragCounts.Red) / techopsItems.length * 100) : 0}%</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon purple">🛡️</div>
-        <div class="kpi-body">
-          <div class="kpi-value" style="color:#6D28D9">${incItems.length}</div>
-          <div class="kpi-label">eSentire Incidents (30d)</div>
-        </div>
-        <div class="kpi-pct purple">Total</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon amber">🔔</div>
-        <div class="kpi-body">
-          <div class="kpi-value" style="color:var(--amber)">${incOpen}</div>
-          <div class="kpi-label">Open / In Progress</div>
-        </div>
-        <div class="kpi-pct amber">${incItems.length ? Math.round(incOpen / incItems.length * 100) : 0}%</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon green">🏁</div>
-        <div class="kpi-body">
-          <div class="kpi-value" style="color:var(--green)">${incCompleted}</div>
-          <div class="kpi-label">Completed</div>
-        </div>
-        <div class="kpi-pct green">${incItems.length ? Math.round(incCompleted / incItems.length * 100) : 0}%</div>
+      <div class="ws-meta">
+        <div class="ws-meta-row">Reporting Period</div>
+        <div class="ws-meta-val">${fmtD(weekStart)} – ${fmtD(weekEnd)}</div>
+        <div class="ws-meta-row">Classification</div>
+        <div class="ws-meta-val">eSentire Alert</div>
+        <div class="ws-meta-row">Generated</div>
+        <div class="ws-meta-val">${fmtD(dataUpdated)}</div>
       </div>
     </div>
-
-    <!-- ═══ ESENTIRE SECTION ══════════════════════════════════════ -->
-    <div class="section-divider">
-      <h2>🛡️ eSentire MDR — Security Incidents</h2>
-      <div class="section-line"></div>
-      <span class="section-badge badge-esentire">${incItems.length} incidents · last 30 days</span>
+    <div class="ws-kpi-grid">
+      <div class="ws-kpi kpi-total"><span class="ws-kpi-num">${weekTotal}</span><span class="ws-kpi-lbl">Total Tickets</span></div>
+      <div class="ws-kpi kpi-open"><span class="ws-kpi-num">${weekOpen}</span><span class="ws-kpi-lbl">Open</span></div>
+      <div class="ws-kpi kpi-closed"><span class="ws-kpi-num">${weekClosed}</span><span class="ws-kpi-lbl">Closed / Completed</span></div>
+      <div class="ws-kpi kpi-action"><span class="ws-kpi-num">${weekAction}</span><span class="ws-kpi-lbl">Open — Action Required</span></div>
     </div>
-
-    <div class="charts-row-3">
-      <div class="chart-card"><h3>Incidents by Priority</h3><div class="chart-wrap"><canvas id="priChart"></canvas></div></div>
-      <div class="chart-card"><h3>Incidents by Status</h3><div class="chart-wrap"><canvas id="incStatusChart"></canvas></div></div>
-      <div class="chart-card"><h3>Incidents by Issue Type</h3><div class="chart-wrap"><canvas id="typeChart"></canvas></div></div>
+    <div class="ws-narrative">${narrative}</div>
+    ${investigationNote}
+    <div class="ws-bottom">
+      <div>
+        <div class="ws-section-title">Alert Category Breakdown</div>
+        ${catHTML}
+      </div>
+      <div>
+        <div class="ws-section-title">Open Tickets <span>(${weekOpen} Open)</span></div>
+        ${openHTML}
+      </div>
     </div>
+    <div class="ws-footer">
+      <div>Cube Content Governance | Information Security | For Internal Use Only</div>
+      <div>SOURCE: JIRA · eSentire Portal | CLASSIFICATION: INTERNAL</div>
+    </div>
+  </div>
 
-    <div class="timeline-section">
-      <div class="timeline-header">
-        <h2>🛡️ eSentire Security Incidents</h2>
-        <div class="tl-controls">
-          <input type="search" class="search-input" id="incSearch" placeholder="Search incidents…" oninput="filterIncidents(this.value)" />
-          <a class="tl-btn primary" href="${ESENTIRE_URL}" target="_blank" rel="noopener">View in Jira</a>
-        </div>
+  <div class="analytics-label">30-Day Incident Analytics</div>
+  <div class="charts-row-3">
+    <div class="chart-card"><h3>Incidents by Priority</h3><div class="chart-wrap"><canvas id="priChart"></canvas></div></div>
+    <div class="chart-card"><h3>Incidents by Status</h3><div class="chart-wrap"><canvas id="incStatusChart"></canvas></div></div>
+    <div class="chart-card"><h3>Incidents by Issue Type</h3><div class="chart-wrap"><canvas id="typeChart"></canvas></div></div>
+  </div>
+
+  <div class="timeline-section">
+    <div class="timeline-header">
+      <h2>🛡️ eSentire Security Incidents — Last 30 Days</h2>
+      <div class="tl-controls">
+        <input type="search" class="search-input" id="incSearch" placeholder="Search incidents…" oninput="filterIncidents(this.value)" />
+        <a class="tl-btn primary" href="${ESENTIRE_URL}" target="_blank" rel="noopener">View in Jira</a>
       </div>
-      <div class="tl-table-wrap">
-        <table class="tl-table" id="incTable">
-          <thead><tr>
-            <th style="width:36px">#</th>
-            <th style="min-width:280px">Incident</th>
-            <th>Type</th><th>Priority</th><th>Status</th><th>Assignee</th>
-            <th>Created</th><th>Updated</th><th></th>
-          </tr></thead>
-          <tbody id="incBody">${incRows}</tbody>
-        </table>
-      </div>
-      <div class="tl-footer">
-        <div>Live data from <a href="${ESENTIRE_URL}" target="_blank">Jira · eSentire Dashboard</a> · Last 30 days · Auto-refreshes every 5 min</div>
-        <div><a href="${ESENTIRE_URL}" target="_blank">Open in Jira ↗</a></div>
-      </div>
-    </div>`;
+    </div>
+    <div class="tl-table-wrap">
+      <table class="tl-table" id="incTable">
+        <thead><tr>
+          <th style="width:36px">#</th>
+          <th style="min-width:280px">Incident</th>
+          <th>Type</th><th>Priority</th><th>Status</th><th>Assignee</th>
+          <th>Created</th><th>Updated</th><th></th>
+        </tr></thead>
+        <tbody id="incBody">${incRows}</tbody>
+      </table>
+    </div>
+    <div class="tl-footer">
+      <div>Live data from <a href="${ESENTIRE_URL}" target="_blank">Jira · eSentire Dashboard</a> · Last 30 days · Auto-refreshes every 5 min</div>
+      <div><a href="${ESENTIRE_URL}" target="_blank">Open in Jira ↗</a></div>
+    </div>
+  </div>`;
 
   document.getElementById('content').innerHTML = html;
+  document.getElementById('lastUpdated').textContent = '🔄 Refreshed: '+dataUpdated.toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+  document.getElementById('itemCount').textContent = `${weekTotal} this week · ${incItems.length} total (30d)`;
 
-  // ─── eSentire Charts ─────────────────────────────────────────
-  const prioOrder = ['P1', 'P2', 'P3', 'P4', 'P5'];
-  const prioColors = { P1: '#EF4444', P2: '#F97316', P3: '#F59E0B', P4: '#3B82F6', P5: '#9CA3AF' };
-  const prioLabels = prioOrder.filter(p => prioCounts[p]);
-  makeDonut('priChart', prioLabels, prioLabels.map(p => prioCounts[p] || 0), prioLabels.map(p => prioColors[p] || '#9CA3AF'));
+  /* ─── eSentire Charts ─────────────────────────────────────── */
+  const prioOrder=['P1','P2','P3','P4','P5'];
+  const prioColors={P1:'#EF4444',P2:'#F97316',P3:'#F59E0B',P4:'#3B82F6',P5:'#9CA3AF'};
+  const prioLabels=prioOrder.filter(p=>prioCounts[p]);
+  makeDonut('priChart',prioLabels,prioLabels.map(p=>prioCounts[p]||0),prioLabels.map(p=>prioColors[p]||'#9CA3AF'));
 
-  const incStatusColors = { 'To Do': '#9CA3AF', 'In Progress': '#3B82F6', 'Actioned': '#F59E0B', 'Completed': '#22C55E' };
-  const isLabels = Object.keys(incStatusCounts);
-  makeDonut('incStatusChart', isLabels, isLabels.map(l => incStatusCounts[l]), isLabels.map(l => incStatusColors[l] || '#9CA3AF'));
+  const incStatusColors={'To Do':'#9CA3AF','In Progress':'#3B82F6','Actioned':'#F59E0B','Completed':'#22C55E'};
+  const isLabels=Object.keys(incStatusCounts);
+  makeDonut('incStatusChart',isLabels,isLabels.map(l=>incStatusCounts[l]),isLabels.map(l=>incStatusColors[l]||'#9CA3AF'));
 
-  const typeColors = { 'Alert': '#EF4444', 'Service Incident': '#7C3AED' };
-  const tLabels = Object.keys(typeCounts);
-  makeDonut('typeChart', tLabels, tLabels.map(l => typeCounts[l]), tLabels.map(l => typeColors[l] || '#9CA3AF'));
+  const typeColors={'Alert':'#EF4444','Service Incident':'#7C3AED'};
+  const tLabels=Object.keys(typeCounts);
+  makeDonut('typeChart',tLabels,tLabels.map(l=>typeCounts[l]),tLabels.map(l=>typeColors[l]||'#9CA3AF'));
 }
 
-// ─── INCIDENT SEARCH ────────────────────────────────────────────
-function filterIncidents(q) {
-  const lq = q.toLowerCase();
-  document.querySelectorAll('#incBody tr').forEach(tr => {
-    const text = tr.textContent.toLowerCase();
-    tr.style.display = (!lq || text.includes(lq)) ? '' : 'none';
+/* ─── Incident Search ───────────────────────────────────────── */
+function filterIncidents(q){
+  const lq=q.toLowerCase();
+  document.querySelectorAll('#incBody tr').forEach(tr=>{
+    tr.style.display=(!lq||tr.textContent.toLowerCase().includes(lq))?'':'none';
   });
 }
 
-// ─── FETCH DATA ──────────────────────────────────────────────────
-async function loadData(forceRefresh = false) {
-  const btn = document.getElementById('refreshBtn');
-  if (btn) btn.classList.add('spinning');
-  try {
-    const t = Date.now();
-    const [techopsRes, esentireRes] = await Promise.all([
-      fetch(`data-techops.json?t=${t}`,   { cache: 'no-store' }),
-      fetch(`data-esentire.json?t=${t}`,  { cache: 'no-store' }),
-    ]);
-    if (!techopsRes.ok)  throw new Error(`data-techops.json HTTP ${techopsRes.status}`);
-    if (!esentireRes.ok) throw new Error(`data-esentire.json HTTP ${esentireRes.status}`);
-    const [techopsData, esentireData] = await Promise.all([techopsRes.json(), esentireRes.json()]);
-    render(techopsData, esentireData);
-  } catch (err) {
-    document.getElementById('content').innerHTML =
-      `<div class="error-box">⚠ Could not load data: ${err.message}<br><br>
-       If running locally, open via a web server (not file://).<br>
-       On GitHub Pages, data refreshes automatically every 5 min via GitHub Actions.</div>`;
-  } finally {
-    if (btn) btn.classList.remove('spinning');
+/* ─── Fetch ─────────────────────────────────────────────────── */
+async function loadData(forceRefresh=false){
+  const btn=document.getElementById('refreshBtn');
+  if(btn) btn.classList.add('spinning');
+  try{
+    const res=await fetch(`data-esentire.json?t=${Date.now()}`,{cache:'no-store'});
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    render(await res.json());
+  }catch(err){
+    document.getElementById('content').innerHTML=
+      `<div class="error-box">&#9888; Could not load data: ${err.message}<br><br>If running locally, open via a web server (not file://).<br>On GitHub Pages, data refreshes automatically every 5 min via GitHub Actions.</div>`;
+  }finally{
+    if(btn) btn.classList.remove('spinning');
   }
 }
 
-// ─── DRAWER ──────────────────────────────────────────────────────
-function showDrawer(it) {
-  if (!it) return;
-  document.getElementById('drawerKey').textContent   = it.key;
-  document.getElementById('drawerTitle').textContent = it.summary;
-  const panels = Array.isArray(it.panels) ? it.panels : [];
-  const icons  = { info: 'ℹ️', note: '📝', warning: '⚠️', error: '🚨', success: '✅' };
-  const pHTML  = panels.length
-    ? panels.map(p => `<div class="jira-panel ${p.type}"><span class="panel-icon">${icons[p.type] || 'ℹ️'}</span>${p.text}</div>`).join('')
-    : '<div class="drawer-empty">No status banners on this initiative.</div>';
-  document.getElementById('drawerPanels').innerHTML = pHTML +
-    `<a class="drawer-jira-link" href="${it.url}" target="_blank" rel="noopener">🔗 Open in Jira</a>`;
-  document.getElementById('detailDrawer').classList.add('open');
-  document.getElementById('drawerOverlay').classList.add('open');
-}
-function closeDrawer() {
-  document.getElementById('detailDrawer').classList.remove('open');
-  document.getElementById('drawerOverlay').classList.remove('open');
-}
+/* ─── Drawer ────────────────────────────────────────────────── */
+function showDrawer(it){ if(!it) return; document.getElementById('drawerKey').textContent=it.key; document.getElementById('drawerTitle').textContent=it.summary; document.getElementById('drawerPanels').innerHTML='<div class="drawer-empty">No additional detail panels for this incident.</div><a class="drawer-jira-link" href="'+it.url+'" target="_blank" rel="noopener">🔗 Open in Jira</a>'; document.getElementById('detailDrawer').classList.add('open'); document.getElementById('drawerOverlay').classList.add('open'); }
+function closeDrawer(){ document.getElementById('detailDrawer').classList.remove('open'); document.getElementById('drawerOverlay').classList.remove('open'); }
 
-// ─── INIT ────────────────────────────────────────────────────────
-document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' });
+/* ─── Init ──────────────────────────────────────────────────── */
+document.getElementById('navDate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'});
 loadData();
 </script>
 </body>
