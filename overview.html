@@ -424,7 +424,6 @@ function render(allItems, lastUpdated) {
 
     <div class="timeline-section">
       <div class="timeline-header">
-        <h2>📋 Strategic Initiatives Status</h2>
         <div class="tl-controls">
           <input type="search" id="tableSearch" class="tl-search" placeholder="Search key, summary or team…">
           <span id="tableCount" style="font-size:12px;color:var(--text-light)">${total} initiatives</span>
@@ -659,6 +658,4 @@ async function loadData(forceRefresh = false) {
 // ─── INIT ────────────────────────────────────────────────────────
 document.getElementById('navDate').textContent = new Date().toLocaleDateString('en-GB', { weekday:'short', day:'2-digit', month:'short', year:'numeric' });
 loadData();
-</script>
-</body>
-</html>
+</script
