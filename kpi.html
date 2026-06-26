@@ -575,51 +575,6 @@ function render(techopsData, esentireData) {
       </div>
     </div>
 
-    <!-- ═══ TECHOPS SECTION ══════════════════════════════════════ -->
-    <div class="section-divider">
-      <h2>🖥️ Corp Tech &amp; WP Systems — Initiatives</h2>
-      <div class="section-line"></div>
-      <span class="section-badge badge-techops">${techopsItems.length} active</span>
-    </div>
-
-    <div class="charts-row">
-      <div class="chart-card"><h3>RAG Status</h3><div class="chart-wrap"><canvas id="ragChart"></canvas></div></div>
-      <div class="chart-card"><h3>Status Distribution</h3><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div>
-      <div class="chart-card"><h3>Initiative Load by Assignee</h3><div class="chart-wrap-bar"><canvas id="assigneeChart"></canvas></div></div>
-    </div>
-
-    <div class="timeline-section">
-      <div class="timeline-header">
-        <div class="tl-controls">
-          <div class="legend">
-            <div class="legend-item"><div class="legend-dot" style="background:#22C55E"></div>On Track</div>
-            <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>At Risk</div>
-            <div class="legend-item"><div class="legend-dot" style="background:#EF4444"></div>Off Track</div>
-          </div>
-          <a class="tl-btn primary" href="${TECHOPS_URL}" target="_blank" rel="noopener">View in Jira</a>
-        </div>
-      </div>
-      <div class="tl-table-wrap">
-        <table class="tl-table" id="techopsTable">
-          <thead><tr>
-            <th style="width:36px">#</th>
-            <th style="min-width:300px">Work Item</th>
-            <th>Status</th><th>RAG</th><th>Due Date</th><th>Last Updated</th><th>Q</th><th>Assignee</th>
-            <th class="gantt-col">
-              <div style="display:flex;font-size:9px;font-weight:700;color:var(--text-light);letter-spacing:.4px;text-transform:uppercase">
-                ${['Oct','Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep'].map(m => `<div style="flex:1;text-align:center;border-left:1px solid var(--border)">${m}</div>`).join('')}
-              </div>
-            </th>
-          </tr></thead>
-          <tbody id="techopsBody">${techopsRows}</tbody>
-        </table>
-      </div>
-      <div class="tl-footer">
-        <div>Live data from <a href="${TECHOPS_URL}" target="_blank">Jira · TechOps KPI Dashboard</a> · Auto-refreshes every 5 min via GitHub Actions</div>
-        <div><a href="${TECHOPS_URL}" target="_blank">Open in Jira ↗</a></div>
-      </div>
-    </div>
-
     <!-- ═══ ESENTIRE SECTION ══════════════════════════════════════ -->
     <div class="section-divider">
       <h2>🛡️ eSentire MDR — Security Incidents</h2>
