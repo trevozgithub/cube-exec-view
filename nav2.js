@@ -11,7 +11,7 @@ const PAGES = [
   { label: 'Mid-Market',              href: 'midmarket.html',     icon: '📈' },
   { label: 'Data & AI',               href: 'dataai.html',        icon: '🤖' },
   { label: 'Time Reporting',          href: 'timereporting.html', icon: '⏱️' },
-  { label: 'Corp Tech KPI',           href: 'kpi.html',           icon: '📊' },
+  { label: 'Incidents',                href: 'kpi.html',           icon: '🚨' },
 ];
 
 (function renderNav() {
