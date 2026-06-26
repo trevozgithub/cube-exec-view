@@ -71,10 +71,11 @@
 
     /* CHARTS */
     .charts-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 20px; }
-    .chart-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+    .chart-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.05); display: flex; flex-direction: column; }
     .chart-card h3 { font-size: 11px; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
-    .click-hint { font-size: 10px; font-weight: 500; color: var(--brand); background: var(--brand-light); padding: 1px 7px; border-radius: 10px; letter-spacing: 0; text-transform: none; }
-    .chart-wrap { position: relative; height: 200px; }
+    .click-hint { font-size: 10px; font-weight: 500; color: var(--brand); background: var(--brand-light); padding: 1px 7px; border-radius: 10px; letter-spacing: 0; text-transform: none; cursor: pointer; }
+    .chart-body { display: flex; align-items: center; gap: 12px; flex: 1; }
+    .chart-canvas-wrap { position: relative; width: 170px; height: 170px; flex-shrink: 0; }
 
     /* TABLE SECTION */
     .timeline-section { background: var(--white); border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.05); overflow: hidden; }
@@ -415,9 +416,9 @@ function render(allItems, lastUpdated) {
     </div>
 
     <div class="charts-row">
-      <div class="chart-card"><h3>By Team <span class="click-hint">click to filter</span></h3><div class="chart-wrap"><canvas id="teamChart"></canvas></div></div>
-      <div class="chart-card"><h3>By RAG Status <span class="click-hint">click to filter</span></h3><div class="chart-wrap"><canvas id="ragChart"></canvas></div></div>
-      <div class="chart-card"><h3>By Status <span class="click-hint">click to filter</span></h3><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div>
+      <div class="chart-card"><h3>Team Distribution <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="teamChart"></canvas></div></div></div>
+      <div class="chart-card"><h3>RAG Status <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="ragChart"></canvas></div></div></div>
+      <div class="chart-card"><h3>Status Distribution <span class="click-hint">click to filter</span></h3><div class="chart-body"><div class="chart-canvas-wrap"><canvas id="statusChart"></canvas></div></div></div>
     </div>
 
     <div class="timeline-section">
@@ -488,11 +489,12 @@ function render(allItems, lastUpdated) {
     },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: '65%',
+      layout: { padding: 0 },
       plugins: {
-        legend: { position: 'right', labels: { font:{size:10}, boxWidth:10, padding:5,
+        legend: { position: 'right', labels: { usePointStyle: true, pointStyle: 'circle', font:{size:10}, boxWidth:8, boxHeight:8, padding:8,
           generateLabels: c => c.data.labels.map((l,i) => ({
-            text: `${SOURCES[i]?.icon||''} ${TEAM_SHORT[l]||l} (${c.data.datasets[0].data[i]})`,
-            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle:'#fff', lineWidth:2, index:i
+            text: `${TEAM_SHORT[l]||l} (${c.data.datasets[0].data[i]})`,
+            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle: c.data.datasets[0].backgroundColor[i], lineWidth:0, pointStyle:'circle', index:i
           }))
         }},
         tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
@@ -516,9 +518,14 @@ function render(allItems, lastUpdated) {
     },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: '65%',
+      layout: { padding: 0 },
       plugins: {
-        legend: { position: 'right', labels: { font:{size:12}, boxWidth:12, padding:10 }},
-        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
+        legend: { position: 'right', labels: { usePointStyle: true, pointStyle: 'circle', font:{size:12}, boxWidth:10, boxHeight:10, padding:12,
+          generateLabels: c => c.data.labels.map((l,i) => ({
+            text: l, fillStyle: ragColors[i], strokeStyle: ragColors[i], lineWidth:0, pointStyle:'circle', index:i
+          }))
+        }},
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} (${pct(ctx.raw,total)}%)` }}
       },
       onClick: (evt, elements) => {
         if (!elements.length) return;
@@ -529,7 +536,7 @@ function render(allItems, lastUpdated) {
     }
   }));
 
-  const sLabels = Object.keys(statusCounts);
+  const sLabels = Object.keys(statusCounts).sort((a,b) => statusCounts[b] - statusCounts[a]);
   const statusColors = { 'Post Launch Review':'#7C3AED','Operational Readiness':'#16A34A','Build & Test':'#2563EB','Scoping':'#D97706','Planning':'#6B7280','Not started':'#9CA3AF' };
   chartInstances.push(new Chart(document.getElementById('statusChart'), {
     type: 'doughnut',
@@ -539,11 +546,12 @@ function render(allItems, lastUpdated) {
     },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: '65%',
+      layout: { padding: 0 },
       plugins: {
-        legend: { position: 'right', labels: { font:{size:11}, boxWidth:10, padding:6,
+        legend: { position: 'right', labels: { usePointStyle: true, pointStyle: 'circle', font:{size:11}, boxWidth:8, boxHeight:8, padding:8,
           generateLabels: c => c.data.labels.map((l,i) => ({
             text: `${l} (${c.data.datasets[0].data[i]})`,
-            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle:'#fff', lineWidth:2, index:i
+            fillStyle: c.data.datasets[0].backgroundColor[i], strokeStyle: c.data.datasets[0].backgroundColor[i], lineWidth:0, pointStyle:'circle', index:i
           }))
         }},
         tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.raw} initiatives` }}
