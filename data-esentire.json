@@ -1,7 +1,31 @@
 {
-  "updated": "2026-06-27T11:57:33.543713Z",
-  "total": 1787,
+  "updated": "2026-06-27T14:00:55.707008Z",
+  "total": 1779,
   "items": [
+    {
+      "key": "INC-7294",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7294"
+    },
+    {
+      "key": "INC-7293",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7293"
+    },
     {
       "key": "INC-7292",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -22111,132 +22135,6 @@
       "created": "2026-05-28",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-5491"
-    },
-    {
-      "key": "INC-5490",
-      "summary": "Issue with Analysis in Enterprise",
-      "status": "Completed",
-      "assignee": "Narayani Ramakrishnan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5490"
-    },
-    {
-      "key": "INC-5489",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5489"
-    },
-    {
-      "key": "INC-5488",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8409",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5488"
-    },
-    {
-      "key": "INC-5487",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5487"
-    },
-    {
-      "key": "INC-5486",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5486"
-    },
-    {
-      "key": "INC-5485",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5485"
-    },
-    {
-      "key": "INC-5484",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5484"
-    },
-    {
-      "key": "INC-5483",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5483"
-    },
-    {
-      "key": "INC-5482",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5482"
-    },
-    {
-      "key": "INC-5481",
-      "summary": "PROBLEM: CUBEPROD1SQL03 is DOWN",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5481"
     }
   ]
 }
