@@ -1,12 +1,24 @@
 {
-  "updated": "2026-06-27T18:55:41.465424Z",
-  "total": 1788,
+  "updated": "2026-06-27T20:11:01.265067Z",
+  "total": 1784,
   "items": [
+    {
+      "key": "INC-7305",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "In Triage",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7305"
+    },
     {
       "key": "INC-7304",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -22183,70 +22195,6 @@
       "created": "2026-05-29",
       "updated": "2026-05-29",
       "url": "https://cube001.atlassian.net/browse/INC-5497"
-    },
-    {
-      "key": "INC-5496",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5496"
-    },
-    {
-      "key": "INC-5495",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5495"
-    },
-    {
-      "key": "INC-5494",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5494"
-    },
-    {
-      "key": "INC-5493",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5493"
-    },
-    {
-      "key": "INC-5492",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5492"
     }
   ]
 }
