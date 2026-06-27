@@ -1,7 +1,43 @@
 {
-  "updated": "2026-06-27T08:16:15.371027Z",
-  "total": 1795,
+  "updated": "2026-06-27T10:28:15.681168Z",
+  "total": 1785,
   "items": [
+    {
+      "key": "INC-7287",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7287"
+    },
+    {
+      "key": "INC-7286",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7286"
+    },
+    {
+      "key": "INC-7285",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7285"
+    },
     {
       "key": "INC-7284",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -22175,172 +22211,6 @@
       "created": "2026-05-28",
       "updated": "2026-05-28",
       "url": "https://cube001.atlassian.net/browse/INC-5478"
-    },
-    {
-      "key": "INC-5477",
-      "summary": "SQL Server Alert System: 'Data Movement Suspended' occurred on \\\\CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5477"
-    },
-    {
-      "key": "INC-5476",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-5476"
-    },
-    {
-      "key": "INC-5475",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5475"
-    },
-    {
-      "key": "INC-5474",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5474"
-    },
-    {
-      "key": "INC-5473",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8405",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5473"
-    },
-    {
-      "key": "INC-5472",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8406",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5472"
-    },
-    {
-      "key": "INC-5471",
-      "summary": "May-2026: Evergreen patching CUBE-POC - CUBEPOCSCR01 Error",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5471"
-    },
-    {
-      "key": "INC-5470",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8404",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5470"
-    },
-    {
-      "key": "INC-5469",
-      "summary": "May-2026:CR-26395 CUBE-AZURE - CUBETESTING03 - Patching Error",
-      "status": "Completed",
-      "assignee": "Faaris Ali",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5469"
-    },
-    {
-      "key": "INC-5468",
-      "summary": "SQL Server Alert System: 'Data Movement Suspended' occurred on \\\\CUBEPROD1SQL05",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-5468"
-    },
-    {
-      "key": "INC-5467",
-      "summary": "SQL Server Alert System: 'Data Movement Suspended' occurred on \\\\CUBEPROD1SQL05",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5467"
-    },
-    {
-      "key": "INC-5466",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-28",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5466"
-    },
-    {
-      "key": "INC-5465",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-28",
-      "updated": "2026-05-28",
-      "url": "https://cube001.atlassian.net/browse/INC-5465"
     }
   ]
 }
