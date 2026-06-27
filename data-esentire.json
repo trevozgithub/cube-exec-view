@@ -1,7 +1,31 @@
 {
-  "updated": "2026-06-27T17:44:32.890065Z",
-  "total": 1786,
+  "updated": "2026-06-27T18:55:41.465424Z",
+  "total": 1788,
   "items": [
+    {
+      "key": "INC-7304",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7304"
+    },
+    {
+      "key": "INC-7303",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-27",
+      "updated": "2026-06-27",
+      "url": "https://cube001.atlassian.net/browse/INC-7303"
+    },
     {
       "key": "INC-7302",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -29,11 +53,13 @@
     {
       "key": "INC-7300",
       "summary": "Investigate Failed Processing and High Processing Book Error Count",
-      "status": "To Do",
-      "assignee": "Ishara Lakshitha",
+      "status": "Completed",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-27",
       "updated": "2026-06-27",
       "url": "https://cube001.atlassian.net/browse/INC-7300"
