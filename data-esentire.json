@@ -1,7 +1,19 @@
 {
-  "updated": "2026-06-28T17:23:09.480491Z",
+  "updated": "2026-06-28T18:43:23.863782Z",
   "total": 1786,
   "items": [
+    {
+      "key": "INC-7336",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7336"
+    },
     {
       "key": "INC-7335",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -270,10 +282,12 @@
       "key": "INC-7313",
       "summary": "Opsview Warning Alarm - CUBEPROD2SSIS01 - Base - Additional Drives: E",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-28",
       "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7313"
@@ -1821,12 +1835,12 @@
       "key": "INC-7186",
       "summary": "P1 - TagInsightRel pipeline into GCP",
       "status": "To Do",
-      "assignee": "Justin Andrei Magbuhat",
+      "assignee": "Schubert Pereira",
       "priority": "P1",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-26",
-      "updated": "2026-06-26",
+      "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7186"
     },
     {
@@ -1862,7 +1876,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-26",
-      "updated": "2026-06-26",
+      "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7183"
     },
     {
@@ -22175,20 +22189,6 @@
       "created": "2026-05-29",
       "updated": "2026-05-29",
       "url": "https://cube001.atlassian.net/browse/INC-5524"
-    },
-    {
-      "key": "INC-5526",
-      "summary": "ATLAS NOTIFICATION: CS4443957 - CRITICAL - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-29",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5526"
     }
   ]
 }
