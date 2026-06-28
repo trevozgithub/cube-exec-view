@@ -1,12 +1,96 @@
 {
-  "updated": "2026-06-28T01:52:45.213651Z",
-  "total": 1788,
+  "updated": "2026-06-28T06:13:59.843755Z",
+  "total": 1789,
   "items": [
+    {
+      "key": "INC-7317",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7317"
+    },
+    {
+      "key": "INC-7316",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7316"
+    },
+    {
+      "key": "INC-7315",
+      "summary": "Opsview Warning Alarm - CUBEPROD2ELK05 Disk: /elasticdata",
+      "status": "To Do",
+      "assignee": "Ravali Billakanti",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7315"
+    },
+    {
+      "key": "INC-7314",
+      "summary": "Opsview Warning Alarm - DM-MGMT01 - Base Drives (C: & E:)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7314"
+    },
+    {
+      "key": "INC-7313",
+      "summary": "Opsview Warning Alarm - CUBEPROD2SSIS01 - Base - Additional Drives: E",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7313"
+    },
+    {
+      "key": "INC-7312",
+      "summary": "Opsview Warning Alarm - CUBEPROD1SQL04 Base - Additional Drives: L & M",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7312"
+    },
+    {
+      "key": "INC-7311",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7311"
+    },
     {
       "key": "INC-7310",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -22165,84 +22249,6 @@
       "created": "2026-05-29",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-5510"
-    },
-    {
-      "key": "INC-5504",
-      "summary": "RegBook sync failing in PROD since 3AM",
-      "status": "Completed",
-      "assignee": "Yuriy Kryzhanovskyy",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-29",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5504"
-    },
-    {
-      "key": "INC-5503",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5503"
-    },
-    {
-      "key": "INC-5502",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-29",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5502"
-    },
-    {
-      "key": "INC-5501",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5501"
-    },
-    {
-      "key": "INC-5500",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-5500"
-    },
-    {
-      "key": "INC-5499",
-      "summary": "ATLAS NOTIFICATION: CS4441746 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Graham Case",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-29",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5499"
     }
   ]
 }
