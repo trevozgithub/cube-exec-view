@@ -1,7 +1,55 @@
 {
-  "updated": "2026-06-28T21:15:19.774240Z",
-  "total": 1779,
+  "updated": "2026-06-28T22:30:58.182712Z",
+  "total": 1771,
   "items": [
+    {
+      "key": "INC-7342",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9161",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7342"
+    },
+    {
+      "key": "INC-7341",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7341"
+    },
+    {
+      "key": "INC-7340",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7340"
+    },
+    {
+      "key": "INC-7339",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-28",
+      "updated": "2026-06-28",
+      "url": "https://cube001.atlassian.net/browse/INC-7339"
+    },
     {
       "key": "INC-7338",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -5174,7 +5222,7 @@
         "browserstack"
       ],
       "created": "2026-06-22",
-      "updated": "2026-06-27",
+      "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-6912"
     },
     {
@@ -21955,154 +22003,6 @@
       "created": "2026-05-29",
       "updated": "2026-05-29",
       "url": "https://cube001.atlassian.net/browse/INC-5547"
-    },
-    {
-      "key": "INC-5546",
-      "summary": "Microsoft Defender Security Threat - Anonymous IP address involving one user - Neil Smith",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-29",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-5546"
-    },
-    {
-      "key": "INC-5545",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #59673",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5545"
-    },
-    {
-      "key": "INC-5544",
-      "summary": "SQL Server Alert System: 'Database Role Resolving' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5544"
-    },
-    {
-      "key": "INC-5543",
-      "summary": "SQL Server Alert System: 'AG Role Change (failover)' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5543"
-    },
-    {
-      "key": "INC-5542",
-      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5542"
-    },
-    {
-      "key": "INC-5541",
-      "summary": "PATCHING UAT2 - Failed due to incorrect meta files. ",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-29",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5541"
-    },
-    {
-      "key": "INC-5540",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58173",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5540"
-    },
-    {
-      "key": "INC-5539",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #59672",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5539"
-    },
-    {
-      "key": "INC-5538",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #59671",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5538"
-    },
-    {
-      "key": "INC-5536",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #59669",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5536"
-    },
-    {
-      "key": "INC-5535",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #59670",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5535"
-    },
-    {
-      "key": "INC-5534",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #59668",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-29",
-      "updated": "2026-05-29",
-      "url": "https://cube001.atlassian.net/browse/INC-5534"
     }
   ]
 }
