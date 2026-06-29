@@ -1,7 +1,19 @@
 {
-  "updated": "2026-06-29T22:44:35.309784Z",
-  "total": 1800,
+  "updated": "2026-06-29T23:46:00.474627Z",
+  "total": 1801,
   "items": [
+    {
+      "key": "INC-7403",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9184",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7403"
+    },
     {
       "key": "INC-7402",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -9,7 +21,9 @@
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7402"
@@ -17,8 +31,8 @@
     {
       "key": "INC-7401",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
