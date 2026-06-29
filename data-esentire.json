@@ -1,7 +1,91 @@
 {
-  "updated": "2026-06-29T21:49:45.787670Z",
-  "total": 1794,
+  "updated": "2026-06-29T22:44:35.309784Z",
+  "total": 1800,
   "items": [
+    {
+      "key": "INC-7402",
+      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7402"
+    },
+    {
+      "key": "INC-7401",
+      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7401"
+    },
+    {
+      "key": "INC-7400",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7400"
+    },
+    {
+      "key": "INC-7399",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7399"
+    },
+    {
+      "key": "INC-7398",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7398"
+    },
+    {
+      "key": "INC-7397",
+      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7397"
+    },
+    {
+      "key": "INC-7396",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7396"
+    },
     {
       "key": "INC-7395",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -411,7 +495,9 @@
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7362"
@@ -22273,18 +22359,6 @@
       "created": "2026-05-31",
       "updated": "2026-05-31",
       "url": "https://cube001.atlassian.net/browse/INC-5581"
-    },
-    {
-      "key": "INC-5580",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5580"
     }
   ]
 }
