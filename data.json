@@ -1,8 +1,28 @@
 {
-  "updated": "2026-06-29T06:56:36.581330Z",
-  "total": 43,
+  "updated": "2026-06-29T12:03:39.529825Z",
+  "total": 42,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-06-29",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
+        }
+      ]
+    },
     {
       "key": "CPN-53",
       "summary": "RDS retirement",
@@ -232,27 +252,6 @@
         {
           "type": "note",
           "text": "Plan for a plan under review Ben meeting to agree approach and plan to be scheduled following product spec sign off. Expanded team to re-factor regflow outside of deployment -       to agree team struture. Product specification document sign-off needed - document updated and with    for sign off. Review of e2e test coverage - automated test engineer needed - resources to be identified and priority call needed. API enhancements to decouple form updates from deployments. Timeline to run to end 2025, to be split into quarterly committments10"
-        }
-      ]
-    },
-    {
-      "key": "CPN-81",
-      "summary": "Enterprise in the cloud - Phase 1 ",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer",
-        "cloud",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-81",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/26 Elastic PS to right size the Elastic instances has been paid for, this will be rebated on completion of the work. Elastic are to confirm PS availability, doing this work will require a time from CUBE so could be delayed until after the migration takes place. New performance tests are being created which can be run against Azure and on prem systems. A functional comparison of Azure and on prem UAT is underway and will continue when the data between the systems has been aligned. Previous Functional testing has been run, the pass rate is on a par with functional testing in the on prem environment. Further investigation and optimisation work may be required to improve performance, depending on the output of the performance testing Production set up is blocked due to resource availability constraints from Microsoft, we do not have enough SQL MI processing in UKS to build the required SQL MI instance. RAG is Red due to being behind plan RegPlatform Update 23/06 : Repos now migrated"
         }
       ]
     },
@@ -503,26 +502,6 @@
         {
           "type": "info",
           "text": "Status 22/06:  This is now considered complete. There have been further performance issues noted though, these will be handled separately"
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-06-22",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
         }
       ]
     },
