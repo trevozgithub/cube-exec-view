@@ -1,7 +1,19 @@
 {
-  "updated": "2026-06-29T18:21:51.674665Z",
-  "total": 1801,
+  "updated": "2026-06-29T20:21:02.978135Z",
+  "total": 1795,
   "items": [
+    {
+      "key": "INC-7392",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9180",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-29",
+      "updated": "2026-06-29",
+      "url": "https://cube001.atlassian.net/browse/INC-7392"
+    },
     {
       "key": "INC-7391",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -173,11 +185,13 @@
     {
       "key": "INC-7377",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7377"
@@ -6204,7 +6218,7 @@
     {
       "key": "INC-6881",
       "summary": "P2 - ProfilerQueue build up in PROD",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6212,7 +6226,7 @@
         "24x7"
       ],
       "created": "2026-06-22",
-      "updated": "2026-06-28",
+      "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-6881"
     },
     {
@@ -22283,90 +22297,6 @@
       "created": "2026-05-30",
       "updated": "2026-05-30",
       "url": "https://cube001.atlassian.net/browse/INC-5576"
-    },
-    {
-      "key": "INC-5575",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5575"
-    },
-    {
-      "key": "INC-5574",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5574"
-    },
-    {
-      "key": "INC-5573",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5573"
-    },
-    {
-      "key": "INC-5572",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5572"
-    },
-    {
-      "key": "INC-5571",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5571"
-    },
-    {
-      "key": "INC-5570",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5570"
-    },
-    {
-      "key": "INC-5569",
-      "summary": "AMER - CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-30",
-      "updated": "2026-05-30",
-      "url": "https://cube001.atlassian.net/browse/INC-5569"
     }
   ]
 }
