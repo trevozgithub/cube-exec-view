@@ -1,8 +1,28 @@
 {
-  "updated": "2026-06-30T10:01:40.023966Z",
+  "updated": "2026-06-30T12:21:11.997908Z",
   "total": 42,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-06-30",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
+        }
+      ]
+    },
     {
       "key": "CPN-392",
       "summary": "CUBE ISO27001 certification",
@@ -21,26 +41,6 @@
         {
           "type": "info",
           "text": "ISO Certification Awarded -  Non conformance documentation to be submitted by Jul1st to secure certification    Audit ongoing - Interviews with 12 + teams across Cube including Legal, People, Infrastructure, Cloud, Security.  Expect to receive OFIs at a minimum   Audit dates confirmed Stage 1 22  and 23 April.  State 2 June 11th to 18th April.  Ongoing remediation of vulnerabilities across container packages, endpoints, servers in progress.  Reduced from peak of 200k to100k  currently.    Vulnerability Management Forum set up.  Still lot of work to do.  Machines to be decommissioned (VDIs etc.) - nearly complete Vendor supplier reviews (Critical) completed using Vanta.   InfoSec Risk register uploaded to vanta.   Risk Treatment procedure to be reviewed.   All other risks across Cube have been added to the register.  meetings to be set up with Executive leads.     Internal audit with Ash complete - findings to be addressed.  No major non conformities identified. Minor non conformities to be addressed in infosec session.  ISMS Documentation complete and policies uploaded for employee acknowledgement - 33% have completed the task.  Secure Code training rolled out to Development teams from Vanta - 100 % Complete Security training rolled out to all employees 24/02/2026 - 80% completion rate.  Cyber Training for new starters to be followed up  Vulnerability Scanning tool for web applications, Tenable, deployed by Ash Cyber  Remaining scope  for Content Engineering:  CUBE ISO27001 certification - remaining scope - Content Platform - Confluence"
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-06-29",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
         }
       ]
     },

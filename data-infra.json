@@ -1,8 +1,65 @@
 {
-  "updated": "2026-06-30T10:01:41.050988Z",
+  "updated": "2026-06-30T12:21:14.300432Z",
   "total": 22,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-703",
+      "summary": "Enterprise in the cloud - Phase 2",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-10",
+      "reviewed": "2026-06-30",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-703",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
+        }
+      ]
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-06-30",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete."
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-06-30",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
+        }
+      ]
+    },
     {
       "key": "CPN-1236",
       "summary": "Non-FSI Support Q2 2026",
@@ -39,45 +96,6 @@
       ]
     },
     {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-06-29",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/26 GitHub Enterprise has been approved by Exec on 06/02, with support from EPAM. https://cube001.atlassian.net/wiki/spaces/CT/pages/5393612801/GitHub+Enterprise+Migration+Cost+Consolidation+Proposal A Confluence page detailing the approach  has been created     The EPAM team have been onboarded and started working with the team 23/03. GitHub has been set up and is available for new projects to use and is also available for existing Azure projects. A pilot migration is being carried out with the Editorial Tools team. There have been issues with migrating the pipelines, taking longer than anticipated. The work to resolve the issues will be reused when other repo pipelines are migrated. A split migration approach will be adopted going forward with the repo migration and pipelines being done separately. The RegBrain and DBA teams are being onboarded to GHE. The Acin and 4C migrations are being scoped. An inventory of all repos has been created and shared with teams to complete information and indicate if they should be migrated or archived. It also details which have exposed secrets that should be addressed. Response rates from teams has been low with minimal migration dates nominated and only 35% of repos being marked as active or archive. Individual follow ups are required with leads/managers. A revised approach will be progressed to migrate repos and pipelines separately. This will allow repos to be migrated and take advantage of GHE features which pipelines are being migrated. RegsBase and Editorial Tools migrations have been completed. Editorial Tools require Jira integration to be set up. Acin migration will take place during the week of 08/06. Calls are being held with Engineering Managers to discuss migration of repositories and updated comms will be sent."
-        }
-      ]
-    },
-    {
-      "key": "CPN-703",
-      "summary": "Enterprise in the cloud - Phase 2",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-10",
-      "reviewed": "2026-06-29",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-703",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
-        }
-      ]
-    },
-    {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
       "status": "Launch",
@@ -106,24 +124,6 @@
         {
           "type": "info",
           "text": "26/06/2026 TDD sent to Cabot in the hope it answers their questions. Main actions: any flexibility on deadline of end of March? Document what front end of process does - scanners, workflow, etc. I have said that we will provide this by 24th of July, if not before"
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/26 Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete."
         }
       ]
     },
