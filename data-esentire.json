@@ -1,7 +1,31 @@
 {
-  "updated": "2026-06-30T19:11:14.212168Z",
-  "total": 1847,
+  "updated": "2026-06-30T21:06:29.420183Z",
+  "total": 1849,
   "items": [
+    {
+      "key": "INC-7460",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7460"
+    },
+    {
+      "key": "INC-7459",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7459"
+    },
     {
       "key": "INC-7458",
       "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -55,11 +79,13 @@
     {
       "key": "INC-7454",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-30",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7454"
@@ -79,11 +105,13 @@
     {
       "key": "INC-7452",
       "summary": "Opsview Critical Alarm - DM-MGMT01 - Base - CPU",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-30",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7452"
@@ -1955,7 +1983,7 @@
         "24x7"
       ],
       "created": "2026-06-27",
-      "updated": "2026-06-29",
+      "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7298"
     },
     {
@@ -2139,7 +2167,9 @@
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-27",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7283"
@@ -2783,9 +2813,11 @@
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-26",
-      "updated": "2026-06-29",
+      "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7229"
     },
     {
