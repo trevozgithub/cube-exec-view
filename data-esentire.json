@@ -1,7 +1,33 @@
 {
-  "updated": "2026-06-30T21:06:29.420183Z",
-  "total": 1849,
+  "updated": "2026-06-30T22:38:20.243288Z",
+  "total": 1850,
   "items": [
+    {
+      "key": "INC-7462",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7462"
+    },
+    {
+      "key": "INC-7461",
+      "summary": "Security principal reconnaissance (LDAP)",
+      "status": "To Do",
+      "assignee": "Graham Case",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7461"
+    },
     {
       "key": "INC-7460",
       "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
@@ -22949,20 +22975,6 @@
       "created": "2026-05-31",
       "updated": "2026-05-31",
       "url": "https://cube001.atlassian.net/browse/INC-5591"
-    },
-    {
-      "key": "INC-5590",
-      "summary": "CS4447508 - CUBE Content Governance Global Limited - PRIORITY - LOW  - Security principal reconnaissance (LDAP)",
-      "status": "Completed",
-      "assignee": "Graham Case",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-31",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5590"
     }
   ]
 }
