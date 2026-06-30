@@ -1,7 +1,45 @@
 {
-  "updated": "2026-06-30T22:38:20.243288Z",
+  "updated": "2026-06-30T23:49:36.675189Z",
   "total": 1850,
   "items": [
+    {
+      "key": "INC-7465",
+      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7465"
+    },
+    {
+      "key": "INC-7464",
+      "summary": "P1: LIVE Insight Analysis function errors",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7464"
+    },
+    {
+      "key": "INC-7463",
+      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-06-30",
+      "updated": "2026-06-30",
+      "url": "https://cube001.atlassian.net/browse/INC-7463"
+    },
     {
       "key": "INC-7462",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -727,7 +765,7 @@
     {
       "key": "INC-7402",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1832,7 +1870,7 @@
       "key": "INC-7312",
       "summary": "Opsview Warning Alarm - CUBEPROD1SQL04 Base - Additional Drives: L & M",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -9649,7 +9687,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-18",
-      "updated": "2026-06-29",
+      "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-6669"
     },
     {
@@ -22937,44 +22975,6 @@
       "created": "2026-06-01",
       "updated": "2026-06-01",
       "url": "https://cube001.atlassian.net/browse/INC-5594"
-    },
-    {
-      "key": "INC-5593",
-      "summary": "PROBLEM: CUBEPROD1RDI01 is DOWN",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-05-31",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5593"
-    },
-    {
-      "key": "INC-5592",
-      "summary": "PROBLEM: CUBEPROD1RDI01 is DOWN",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-31",
-      "updated": "2026-05-31",
-      "url": "https://cube001.atlassian.net/browse/INC-5592"
-    },
-    {
-      "key": "INC-5591",
-      "summary": "PROBLEM: CUBEPROD1RDI01 is DOWN",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-05-31",
-      "updated": "2026-05-31",
-      "url": "https://cube001.atlassian.net/browse/INC-5591"
     }
   ]
 }
