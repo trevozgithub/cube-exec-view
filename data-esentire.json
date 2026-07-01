@@ -1,7 +1,55 @@
 {
-  "updated": "2026-06-30T23:49:36.675189Z",
-  "total": 1850,
+  "updated": "2026-07-01T02:02:22.440784Z",
+  "total": 1852,
   "items": [
+    {
+      "key": "INC-7469",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7469"
+    },
+    {
+      "key": "INC-7468",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7468"
+    },
+    {
+      "key": "INC-7467",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7467"
+    },
+    {
+      "key": "INC-7466",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7466"
+    },
     {
       "key": "INC-7465",
       "summary": "Potential P1: LIVE Azure Function Errors - 1h",
@@ -13,7 +61,7 @@
         "24x7"
       ],
       "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7465"
     },
     {
@@ -54,7 +102,7 @@
     },
     {
       "key": "INC-7461",
-      "summary": "Security principal reconnaissance (LDAP)",
+      "summary": "CS4492444-CUBE Content Governance Global Limited-Security principal reconnaissance (LDAP)",
       "status": "To Do",
       "assignee": "Graham Case",
       "priority": "P3",
@@ -63,19 +111,19 @@
         "24x7"
       ],
       "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7461"
     },
     {
       "key": "INC-7460",
       "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
       "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7460"
     },
     {
@@ -255,13 +303,15 @@
     {
       "key": "INC-7445",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7445"
     },
     {
@@ -809,7 +859,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-29",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7399"
     },
     {
@@ -2319,7 +2369,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-27",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7275"
     },
     {
@@ -2837,13 +2887,15 @@
     {
       "key": "INC-7232",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-26",
-      "updated": "2026-06-29",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7232"
     },
     {
@@ -2907,7 +2959,7 @@
         "24x7"
       ],
       "created": "2026-06-26",
-      "updated": "2026-06-29",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7227"
     },
     {
@@ -3284,13 +3336,15 @@
     {
       "key": "INC-7197",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-26",
-      "updated": "2026-06-26",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7197"
     },
     {
@@ -3464,7 +3518,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-26",
-      "updated": "2026-06-28",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7183"
     },
     {
@@ -4086,9 +4140,11 @@
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-25",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7132"
     },
     {
@@ -14921,9 +14977,12 @@
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P1",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff"
+      ],
       "created": "2026-06-12",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-6242"
     },
     {
@@ -18066,7 +18125,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-08",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-5984"
     },
     {
@@ -22951,30 +23010,6 @@
       "created": "2026-06-01",
       "updated": "2026-06-01",
       "url": "https://cube001.atlassian.net/browse/INC-5596"
-    },
-    {
-      "key": "INC-5595",
-      "summary": "May-2026: DM-MGMT01 & DM Patching send notification to dm@cube.global",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5595"
-    },
-    {
-      "key": "INC-5594",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5594"
     }
   ]
 }
