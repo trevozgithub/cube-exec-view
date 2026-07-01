@@ -1,8 +1,148 @@
 {
-  "updated": "2026-07-01T13:21:56.618676Z",
-  "total": 21,
+  "updated": "2026-07-01T16:03:11.944055Z",
+  "total": 29,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2830",
   "items": [
+    {
+      "key": "CPN-164",
+      "summary": "ODEN - Launch",
+      "status": "Build & Test",
+      "assignee": "Vaishali Narayanan",
+      "duedate": "2026-07-07",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "Migration",
+        "intelcpn",
+        "migration"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-164",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status:   \u2022 Currently extracting test data and finalizing parity tool with a view to kicking off the automated first test run on 10-20 notices this week then 1000 by end next week.  \u2022Work in progress: \u2022Notice generation - 21 of 26 identified so far fixed. \u2022Citation behaviour development complete but issue with authentication flow to Intel books will not be fixed before launch. \u2022Open RG document \u2013 investigating Intel services not providing expected results. \u2022Advanced settings on track to complete 20 th  March. \u2022Version compare \u2013 development complete, testing complete 13 th  March. \u2022Add API \u2013 refinement nearing completion \u2013 to be picked up by Intel team.  \u2022Revised phasing agreed to focus on readiness to migrate small PT customers in March, followed by All PT customer and finally SR&R customers.  \u2022Targeting second release on 12 th  May to include: \u2022Add user roles \u2022Add search \u2022Add notifications.  \u2022Following features needed for All PT customers are under refinement and estimation: \u2022Add batch actions \u2022Entity creation via Import \u2022Add Chart Builder \u2022Subscriptions and Entitlements"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1369",
+      "summary": "SOC2 Audit",
+      "status": "Scoping",
+      "assignee": "Helen O'Shea",
+      "duedate": "",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "InfoSec",
+        "infrastructure",
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1369",
+      "panels": []
+    },
+    {
+      "key": "CPN-1605",
+      "summary": "Intel / Oden - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Vaishali Narayanan",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1605",
+      "panels": []
+    },
+    {
+      "key": "CPN-1604",
+      "summary": "Intel Content - Platform Enhancements Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Shanthini Ramachandran",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelContent"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1604",
+      "panels": []
+    },
+    {
+      "key": "CPN-1603",
+      "summary": "Intel / Oden - Platform Enhancements Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Vaishali Narayanan",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelContent"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1603",
+      "panels": []
+    },
+    {
+      "key": "CPN-1602",
+      "summary": "Intel Content - Customer Enhancements Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelContent"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1602",
+      "panels": []
+    },
+    {
+      "key": "CPN-1601",
+      "summary": "Intel Content - Leave / absence - Q3",
+      "status": "Build & Test",
+      "assignee": "Shanthini Ramachandran",
+      "duedate": "",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelContent"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1601",
+      "panels": []
+    },
+    {
+      "key": "CPN-1600",
+      "summary": "Intel Content - Urgent Support Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelContent"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1600",
+      "panels": []
+    },
+    {
+      "key": "CPN-1599",
+      "summary": "Intel - Leave / absence - Q3",
+      "status": "Build & Test",
+      "assignee": "Vaishali Narayanan",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "TestQ2",
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1599",
+      "panels": []
+    },
+    {
+      "key": "CPN-1598",
+      "summary": "Intel Content - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Shanthini Ramachandran",
+      "duedate": "2026-03-31",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1598",
+      "panels": []
+    },
     {
       "key": "CPN-1597",
       "summary": "Intel / Oden - Customer Enhancements Q3 2026",
@@ -80,26 +220,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1441",
       "panels": []
-    },
-    {
-      "key": "CPN-164",
-      "summary": "ODEN - Launch",
-      "status": "Build & Test",
-      "assignee": "Vaishali Narayanan",
-      "duedate": "2026-07-07",
-      "reviewed": "2026-06-26",
-      "labels": [
-        "Migration",
-        "intelcpn",
-        "migration"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-164",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status:   \u2022 Currently extracting test data and finalizing parity tool with a view to kicking off the automated first test run on 10-20 notices this week then 1000 by end next week.  \u2022Work in progress: \u2022Notice generation - 21 of 26 identified so far fixed. \u2022Citation behaviour development complete but issue with authentication flow to Intel books will not be fixed before launch. \u2022Open RG document \u2013 investigating Intel services not providing expected results. \u2022Advanced settings on track to complete 20 th  March. \u2022Version compare \u2013 development complete, testing complete 13 th  March. \u2022Add API \u2013 refinement nearing completion \u2013 to be picked up by Intel team.  \u2022Revised phasing agreed to focus on readiness to migrate small PT customers in March, followed by All PT customer and finally SR&R customers.  \u2022Targeting second release on 12 th  May to include: \u2022Add user roles \u2022Add search \u2022Add notifications.  \u2022Following features needed for All PT customers are under refinement and estimation: \u2022Add batch actions \u2022Entity creation via Import \u2022Add Chart Builder \u2022Subscriptions and Entitlements"
-        }
-      ]
     },
     {
       "key": "CPN-1328",
@@ -193,21 +313,6 @@
         "intelContent"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-861",
-      "panels": []
-    },
-    {
-      "key": "CPN-1369",
-      "summary": "SOC2 Audit",
-      "status": "Scoping",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-05-19",
-      "labels": [
-        "InfoSec",
-        "infrastructure",
-        "intelcpn"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1369",
       "panels": []
     },
     {

@@ -1,7 +1,105 @@
 {
-  "updated": "2026-07-01T13:22:12.445641Z",
+  "updated": "2026-07-01T16:03:24.403666Z",
   "total": 1861,
   "items": [
+    {
+      "key": "INC-7601",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7601"
+    },
+    {
+      "key": "INC-7600",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7600"
+    },
+    {
+      "key": "INC-7599",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7599"
+    },
+    {
+      "key": "INC-7598",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7598"
+    },
+    {
+      "key": "INC-7597",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7597"
+    },
+    {
+      "key": "INC-7596",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7596"
+    },
+    {
+      "key": "INC-7595",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7595"
+    },
+    {
+      "key": "INC-7594",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7594"
+    },
     {
       "key": "INC-7593",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -241,7 +339,7 @@
     {
       "key": "INC-7479",
       "summary": "OpsView - CUBEDEV1FS02 Base - Additional Drives: F",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -354,8 +452,8 @@
     {
       "key": "INC-7470",
       "summary": "API Connect Health Checks Errors",
-      "status": "To Do",
-      "assignee": "Priyanka Bali",
+      "status": "In Progress",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -2253,20 +2351,22 @@
     {
       "key": "INC-7315",
       "summary": "Opsview Warning Alarm - CUBEPROD2ELK05 Disk: /elasticdata",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-28",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7315"
     },
     {
       "key": "INC-7314",
       "summary": "Opsview Warning Alarm - DM-MGMT01 - Base Drives (C: & E:)",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -2557,7 +2657,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-27",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7291"
     },
     {
@@ -4425,7 +4525,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-25",
-      "updated": "2026-06-29",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7165"
     },
     {
@@ -4507,8 +4607,8 @@
     },
     {
       "key": "INC-7132",
-      "summary": "Piprodtranslate-fe - storage/voluime expansion request",
-      "status": "To Do",
+      "summary": "Piprodtranslate-fe - storage/volume expansion request",
+      "status": "In Progress",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -9454,7 +9554,7 @@
         "opsview"
       ],
       "created": "2026-06-19",
-      "updated": "2026-06-23",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-6723"
     },
     {
@@ -18261,7 +18361,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-09",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-6006"
     },
     {
@@ -23016,112 +23116,6 @@
       "created": "2026-06-01",
       "updated": "2026-06-01",
       "url": "https://cube001.atlassian.net/browse/INC-5617"
-    },
-    {
-      "key": "INC-5616",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5616"
-    },
-    {
-      "key": "INC-5615",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5615"
-    },
-    {
-      "key": "INC-5614",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5614"
-    },
-    {
-      "key": "INC-5613",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5613"
-    },
-    {
-      "key": "INC-5612",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5612"
-    },
-    {
-      "key": "INC-5623",
-      "summary": "ATLAS NOTIFICATION: CS4449134 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5623"
-    },
-    {
-      "key": "INC-5622",
-      "summary": "O365 - Non-word Inbox Rule Name for OWA",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5622"
-    },
-    {
-      "key": "INC-5624",
-      "summary": "ATLAS NOTIFICATION: CS4449054 - MEDIUM - ATTACK - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Ser Jan Aldreach Perez",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5624"
     }
   ]
 }
