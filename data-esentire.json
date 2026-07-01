@@ -1,15 +1,130 @@
 {
-  "updated": "2026-07-01T02:02:22.440784Z",
-  "total": 1852,
+  "updated": "2026-07-01T06:42:43.894303Z",
+  "total": 1855,
   "items": [
+    {
+      "key": "INC-7478",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7478"
+    },
+    {
+      "key": "INC-7477",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7477"
+    },
+    {
+      "key": "INC-7476",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7476"
+    },
+    {
+      "key": "INC-7475",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7475"
+    },
+    {
+      "key": "INC-7474",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7474"
+    },
+    {
+      "key": "INC-7473",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7473"
+    },
+    {
+      "key": "INC-7472",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7472"
+    },
+    {
+      "key": "INC-7471",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7471"
+    },
+    {
+      "key": "INC-7470",
+      "summary": "API Connect Health Checks Errors",
+      "status": "To Do",
+      "assignee": "Priyanka Bali",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "API",
+        "Daily-Checks"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7470"
+    },
     {
       "key": "INC-7469",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7469"
@@ -121,7 +236,9 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-30",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7460"
@@ -261,7 +378,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7449"
     },
     {
@@ -403,13 +520,15 @@
     {
       "key": "INC-7437",
       "summary": "Intel Prod - API portal having auth issue",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-30",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7437"
     },
     {
@@ -1093,7 +1212,7 @@
     {
       "key": "INC-7379",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9176",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1101,7 +1220,7 @@
         "24x7"
       ],
       "created": "2026-06-29",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7379"
     },
     {
@@ -3967,7 +4086,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-06-25",
-      "updated": "2026-06-29",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7145"
     },
     {
@@ -4135,7 +4254,7 @@
     },
     {
       "key": "INC-7132",
-      "summary": "piprodtranslate-fe - storage/voluime expansion request",
+      "summary": "Piprodtranslate-fe - storage/voluime expansion request",
       "status": "To Do",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
@@ -22934,82 +23053,6 @@
       "created": "2026-06-01",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-5602"
-    },
-    {
-      "key": "INC-5601",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5601"
-    },
-    {
-      "key": "INC-5600",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5600"
-    },
-    {
-      "key": "INC-5599",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5599"
-    },
-    {
-      "key": "INC-5598",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5598"
-    },
-    {
-      "key": "INC-5597",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5597"
-    },
-    {
-      "key": "INC-5596",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5596"
     }
   ]
 }
