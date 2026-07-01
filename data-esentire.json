@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-01T21:52:14.643479Z",
-  "total": 1867,
+  "updated": "2026-07-01T23:07:08.986382Z",
+  "total": 1870,
   "items": [
+    {
+      "key": "INC-7613",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7613"
+    },
+    {
+      "key": "INC-7612",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60540",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7612"
+    },
+    {
+      "key": "INC-7611",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7611"
+    },
     {
       "key": "INC-7610",
       "summary": "CUBEAZPRD1SQL01\tBase - Additional Drives: J\tWARNING\t14h 13m\tWARNING ",
@@ -3513,12 +3549,13 @@
     {
       "key": "INC-7229",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "alerts"
       ],
       "created": "2026-06-26",
       "updated": "2026-07-01",
