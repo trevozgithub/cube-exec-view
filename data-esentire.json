@@ -1,7 +1,69 @@
 {
-  "updated": "2026-07-01T18:08:58.604275Z",
-  "total": 1863,
+  "updated": "2026-07-01T20:14:51.339538Z",
+  "total": 1866,
   "items": [
+    {
+      "key": "INC-7609",
+      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7609"
+    },
+    {
+      "key": "INC-7608",
+      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7608"
+    },
+    {
+      "key": "INC-7607",
+      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7607"
+    },
+    {
+      "key": "INC-7606",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7606"
+    },
+    {
+      "key": "INC-7605",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7605"
+    },
     {
       "key": "INC-7604",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
@@ -2785,7 +2847,7 @@
     {
       "key": "INC-7283",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2871,11 +2933,13 @@
     {
       "key": "INC-7275",
       "summary": "Opsview Critical Alarm - DR-VEEAMPRX03 Base - Additional Drives: J",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-27",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7275"
@@ -4020,11 +4084,13 @@
     {
       "key": "INC-7183",
       "summary": "Consumer - UAT - Amber Red",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Jaspreet Manghera",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-26",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7183"
@@ -18631,11 +18697,13 @@
     {
       "key": "INC-5984",
       "summary": "Critical notification delivery issue affecting multiple clients",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Vaishali Narayanan",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-08",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-5984"
@@ -23116,32 +23184,6 @@
       "created": "2026-06-01",
       "updated": "2026-06-01",
       "url": "https://cube001.atlassian.net/browse/INC-5627"
-    },
-    {
-      "key": "INC-5626",
-      "summary": "Azure AD - Sign-In Activity from Infrequent Country",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5626"
-    },
-    {
-      "key": "INC-5625",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5625"
     }
   ]
 }
