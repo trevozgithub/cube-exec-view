@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-01T20:14:51.339538Z",
-  "total": 1866,
+  "updated": "2026-07-01T21:52:14.643479Z",
+  "total": 1867,
   "items": [
+    {
+      "key": "INC-7610",
+      "summary": "CUBEAZPRD1SQL01\tBase - Additional Drives: J\tWARNING\t14h 13m\tWARNING ",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7610"
+    },
     {
       "key": "INC-7609",
       "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -103,11 +115,13 @@
     {
       "key": "INC-7601",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7601"
@@ -139,11 +153,13 @@
     {
       "key": "INC-7598",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7598"
