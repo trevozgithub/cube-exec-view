@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-01T16:03:24.403666Z",
-  "total": 1861,
+  "updated": "2026-07-01T18:08:58.604275Z",
+  "total": 1863,
   "items": [
+    {
+      "key": "INC-7604",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7604"
+    },
+    {
+      "key": "INC-7603",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7603"
+    },
+    {
+      "key": "INC-7602",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7602"
+    },
     {
       "key": "INC-7601",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
@@ -567,8 +603,8 @@
     {
       "key": "INC-7461",
       "summary": "CS4492444-CUBE Content Governance Global Limited-Security principal reconnaissance (LDAP)",
-      "status": "To Do",
-      "assignee": "Graham Case",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -3397,7 +3433,7 @@
     {
       "key": "INC-7229",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3405,7 +3441,7 @@
         "24x7"
       ],
       "created": "2026-06-26",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7229"
     },
     {
@@ -3712,7 +3748,7 @@
         "24x7"
       ],
       "created": "2026-06-26",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7205"
     },
     {
@@ -4430,7 +4466,7 @@
     {
       "key": "INC-7145",
       "summary": "Provider Monitoring - Provider 1",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Antony Lucas",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7202,7 +7238,7 @@
       "issuetype": "Escalation",
       "labels": [],
       "created": "2026-06-22",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-6918"
     },
     {
@@ -10209,13 +10245,15 @@
     {
       "key": "INC-6669",
       "summary": "CUBEUAT2APP01 Server generating unusual High Traffic Throughput (last 24 hrs)",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-18",
-      "updated": "2026-06-30",
+      "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-6669"
     },
     {
@@ -23104,18 +23142,6 @@
       "created": "2026-06-01",
       "updated": "2026-06-01",
       "url": "https://cube001.atlassian.net/browse/INC-5625"
-    },
-    {
-      "key": "INC-5617",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5617"
     }
   ]
 }

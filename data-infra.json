@@ -1,8 +1,26 @@
 {
-  "updated": "2026-07-01T16:03:10.321685Z",
+  "updated": "2026-07-01T18:08:40.819437Z",
   "total": 27,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1131",
+      "summary": "Non-FSI Sunset Activities ",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "",
+      "reviewed": "2026-07-01",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1131",
+      "panels": [
+        {
+          "type": "info",
+          "text": "11/06/2026 Spreadsheet now shows colour coding for date of action or date to be actioned Customers identified as Inform Now have been notified. A few more are due now but next batch aren\u2019t due until July"
+        }
+      ]
+    },
     {
       "key": "CPN-676",
       "summary": "CUBE Datacenter Exit",
@@ -52,24 +70,6 @@
         {
           "type": "info",
           "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1131",
-      "summary": "Non-FSI Sunset Activities ",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "",
-      "reviewed": "2026-07-01",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1131",
-      "panels": [
-        {
-          "type": "info",
-          "text": "11/06/2026 Spreadsheet now shows colour coding for date of action or date to be actioned Customers identified as Inform Now have been notified. A few more are due now but next batch aren\u2019t due until July"
         }
       ]
     },
