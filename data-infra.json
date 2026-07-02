@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-02T12:51:12.830989Z",
+  "updated": "2026-07-02T15:07:04.940748Z",
   "total": 27,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-703",
+      "summary": "Enterprise in the cloud - Phase 2",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-10",
+      "reviewed": "2026-07-02",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-703",
+      "panels": [
+        {
+          "type": "info",
+          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
+        }
+      ]
+    },
     {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
@@ -67,25 +86,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1369",
       "panels": []
-    },
-    {
-      "key": "CPN-703",
-      "summary": "Enterprise in the cloud - Phase 2",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-10",
-      "reviewed": "2026-07-01",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-703",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/2026 The Azure dev environment is being used by the Dev team. Code and database pipelines have been automated and linked to the on prem pipelines. Any other issues highlighted by the team are being investigated as a matter of urgency, Database issues in the Test environment have delayed completion of the Test environment. UAT has been failed back from NEU to UKS. Due to issues getting RegBooks up to date a new database and Elastic refresh was carried out. The Elastic instances in UAT have been increased in capacity to resolve storage issues. UAT is ready for testing. QA will run health checks before business testing takes place. Performance testing in Azure UAT has identified issues in the database which are being investigated. The Prep environment is complete and to avoid issues updating RegInsights and RegBooks the current Azure UAT database and Elastic will be restored to Prep. Changes are being made to remove the need for QCH replication. QCH replication has a significant impact on migration and failover timings due to the time taken to re-enable. Cross database joins will replace QCH replication. RAG is Red due to outstanding work to be completed for June migration."
-        }
-      ]
     },
     {
       "key": "CPN-1579",

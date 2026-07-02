@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-02T12:51:32.546632Z",
-  "total": 1895,
+  "updated": "2026-07-02T15:07:19.559781Z",
+  "total": 1899,
   "items": [
+    {
+      "key": "INC-7678",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7678"
+    },
+    {
+      "key": "INC-7677",
+      "summary": "AKS PROD Lag Alert - 1m",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7677"
+    },
+    {
+      "key": "INC-7676",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7676"
+    },
+    {
+      "key": "INC-7675",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7675"
+    },
+    {
+      "key": "INC-7674",
+      "summary": "Opsview Warning Alarm - CubeAZPROD2ELK01 - Unix Load Average WARNING",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7674"
+    },
+    {
+      "key": "INC-7673",
+      "summary": "Opsview Warning Alarm - CubeAZPROD2ELK01 - Unix Load Average WARNING",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7673"
+    },
+    {
+      "key": "INC-7672",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7672"
+    },
+    {
+      "key": "INC-7671",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7671"
+    },
     {
       "key": "INC-7670",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
@@ -105,11 +205,13 @@
     {
       "key": "INC-7662",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7662"
@@ -201,11 +303,13 @@
     {
       "key": "INC-7654",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7654"
@@ -383,11 +487,13 @@
     {
       "key": "INC-7639",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7639"
@@ -395,11 +501,13 @@
     {
       "key": "INC-7638",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Vallalperuman Radhakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7638"
@@ -1364,7 +1472,7 @@
         "24x7"
       ],
       "created": "2026-06-30",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7465"
     },
     {
@@ -3207,14 +3315,14 @@
       "key": "INC-7314",
       "summary": "Opsview Warning Alarm - DM-MGMT01 - Base Drives (C: & E:)",
       "status": "To Do",
-      "assignee": "Nicole Tan-Flores",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "opsview"
       ],
       "created": "2026-06-28",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7314"
     },
     {
@@ -3242,7 +3350,7 @@
         "opsview"
       ],
       "created": "2026-06-28",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7312"
     },
     {
@@ -3502,7 +3610,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-27",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7291"
     },
     {
@@ -3594,7 +3702,7 @@
     {
       "key": "INC-7283",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4279,7 +4387,7 @@
         "24x7"
       ],
       "created": "2026-06-26",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7227"
     },
     {
@@ -4291,7 +4399,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-26",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7282"
     },
     {
@@ -6338,7 +6446,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-24",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7060"
     },
     {
@@ -16294,7 +16402,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-06-12",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-6242"
     },
     {
@@ -22830,7 +22938,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-03",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-5767"
     },
     {
@@ -23498,58 +23606,6 @@
       "created": "2026-06-02",
       "updated": "2026-06-02",
       "url": "https://cube001.atlassian.net/browse/INC-5661"
-    },
-    {
-      "key": "INC-5660",
-      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5660"
-    },
-    {
-      "key": "INC-5659",
-      "summary": "P1: LIVE Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5659"
-    },
-    {
-      "key": "INC-5658",
-      "summary": "P1: LIVE Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5658"
-    },
-    {
-      "key": "INC-5657",
-      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5657"
     }
   ]
 }
