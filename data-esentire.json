@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-02T10:46:09.920103Z",
-  "total": 1901,
+  "updated": "2026-07-02T12:51:32.546632Z",
+  "total": 1895,
   "items": [
+    {
+      "key": "INC-7670",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7670"
+    },
+    {
+      "key": "INC-7669",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7669"
+    },
+    {
+      "key": "INC-7668",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60590",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7668"
+    },
+    {
+      "key": "INC-7667",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60590",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7667"
+    },
+    {
+      "key": "INC-7666",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7666"
+    },
+    {
+      "key": "INC-7665",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7665"
+    },
+    {
+      "key": "INC-7664",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7664"
+    },
+    {
+      "key": "INC-7663",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7663"
+    },
     {
       "key": "INC-7662",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
@@ -101,7 +201,7 @@
     {
       "key": "INC-7654",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -417,7 +517,7 @@
     {
       "key": "INC-7628",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -636,18 +736,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7611"
-    },
-    {
-      "key": "INC-7610",
-      "summary": "CUBEAZPRD1SQL01\tBase - Additional Drives: J\tWARNING\t14h 13m\tWARNING ",
-      "status": "To Do",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7610"
     },
     {
       "key": "INC-7609",
@@ -4462,20 +4550,6 @@
       "url": "https://cube001.atlassian.net/browse/INC-7206"
     },
     {
-      "key": "INC-7205",
-      "summary": "Outage - Emergency Access Portal not working",
-      "status": "To Do",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-26",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7205"
-    },
-    {
       "key": "INC-7204",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
       "status": "Actioned",
@@ -5287,7 +5361,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-25",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7165"
     },
     {
@@ -23476,156 +23550,6 @@
       "created": "2026-06-02",
       "updated": "2026-06-02",
       "url": "https://cube001.atlassian.net/browse/INC-5657"
-    },
-    {
-      "key": "INC-5656",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58511",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5656"
-    },
-    {
-      "key": "INC-5655",
-      "summary": "Multiple Failed Test Attempts for PROD Consumer Application Monitoring",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5655"
-    },
-    {
-      "key": "INC-5654",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58510",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5654"
-    },
-    {
-      "key": "INC-5653",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58508",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5653"
-    },
-    {
-      "key": "INC-5652",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58509",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5652"
-    },
-    {
-      "key": "INC-5651",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58507",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5651"
-    },
-    {
-      "key": "INC-5650",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #58507",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5650"
-    },
-    {
-      "key": "INC-5649",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #60008",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5649"
-    },
-    {
-      "key": "INC-5648",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #60007",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5648"
-    },
-    {
-      "key": "INC-5647",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5647"
-    },
-    {
-      "key": "INC-5646",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #60007",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5646"
-    },
-    {
-      "key": "INC-5645",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #60006",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5645"
     }
   ]
 }
