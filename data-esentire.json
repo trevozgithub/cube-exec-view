@@ -1,7 +1,94 @@
 {
-  "updated": "2026-07-02T00:20:46.445687Z",
-  "total": 1870,
+  "updated": "2026-07-02T04:37:12.854014Z",
+  "total": 1871,
   "items": [
+    {
+      "key": "INC-7623",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7623"
+    },
+    {
+      "key": "INC-7622",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7622"
+    },
+    {
+      "key": "INC-7621",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7621"
+    },
+    {
+      "key": "INC-7620",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7620"
+    },
+    {
+      "key": "INC-7619",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9237",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7619"
+    },
+    {
+      "key": "INC-7618",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9237",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7618"
+    },
+    {
+      "key": "INC-7617",
+      "summary": "PROBLEM: RDI API live Proc4 is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7617"
+    },
     {
       "key": "INC-7616",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -649,7 +736,7 @@
         "Daily-Checks"
       ],
       "created": "2026-07-01",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7470"
     },
     {
@@ -2755,15 +2842,15 @@
     {
       "key": "INC-7298",
       "summary": "High Disk Usage 90.115 piprodtranslate-fe - /dev/mapper/datavg-datalv",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Ersin Mouminoglu",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-06-27",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7298"
     },
     {
@@ -2951,7 +3038,7 @@
         "24x7"
       ],
       "created": "2026-06-27",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7283"
     },
     {
@@ -4807,7 +4894,7 @@
     {
       "key": "INC-7132",
       "summary": "Piprodtranslate-fe - storage/volume expansion request",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4815,7 +4902,7 @@
         "24x7"
       ],
       "created": "2026-06-25",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7132"
     },
     {
@@ -23171,78 +23258,6 @@
       "created": "2026-06-02",
       "updated": "2026-06-02",
       "url": "https://cube001.atlassian.net/browse/INC-5636"
-    },
-    {
-      "key": "INC-5635",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5635"
-    },
-    {
-      "key": "INC-5634",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5634"
-    },
-    {
-      "key": "INC-5633",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5633"
-    },
-    {
-      "key": "INC-5632",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5632"
-    },
-    {
-      "key": "INC-5631",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5631"
-    },
-    {
-      "key": "INC-5630",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5630"
     }
   ]
 }
