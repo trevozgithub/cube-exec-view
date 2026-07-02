@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-01T23:07:08.986382Z",
+  "updated": "2026-07-02T00:20:46.445687Z",
   "total": 1870,
   "items": [
+    {
+      "key": "INC-7616",
+      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7616"
+    },
+    {
+      "key": "INC-7615",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7615"
+    },
+    {
+      "key": "INC-7614",
+      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-01",
+      "updated": "2026-07-01",
+      "url": "https://cube001.atlassian.net/browse/INC-7614"
+    },
     {
       "key": "INC-7613",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -91,11 +127,13 @@
     {
       "key": "INC-7606",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7606"
@@ -731,7 +769,7 @@
     {
       "key": "INC-7460",
       "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -739,7 +777,7 @@
         "24x7"
       ],
       "created": "2026-06-30",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7460"
     },
     {
@@ -907,13 +945,15 @@
     {
       "key": "INC-7446",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-30",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7446"
     },
     {
@@ -2519,7 +2559,9 @@
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview"
+      ],
       "created": "2026-06-28",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7314"
@@ -2545,7 +2587,9 @@
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview"
+      ],
       "created": "2026-06-28",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7312"
@@ -23199,44 +23243,6 @@
       "created": "2026-06-02",
       "updated": "2026-06-02",
       "url": "https://cube001.atlassian.net/browse/INC-5630"
-    },
-    {
-      "key": "INC-5629",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5629"
-    },
-    {
-      "key": "INC-5628",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-01",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5628"
-    },
-    {
-      "key": "INC-5627",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-01",
-      "updated": "2026-06-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5627"
     }
   ]
 }
