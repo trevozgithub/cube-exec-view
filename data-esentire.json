@@ -1,7 +1,55 @@
 {
-  "updated": "2026-07-02T15:07:19.559781Z",
-  "total": 1899,
+  "updated": "2026-07-02T17:01:11.780729Z",
+  "total": 1897,
   "items": [
+    {
+      "key": "INC-7683",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7683"
+    },
+    {
+      "key": "INC-7682",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7682"
+    },
+    {
+      "key": "INC-7681",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7681"
+    },
+    {
+      "key": "INC-7680",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7680"
+    },
     {
       "key": "INC-7678",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -18,7 +66,7 @@
       "key": "INC-7677",
       "summary": "AKS PROD Lag Alert - 1m",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Schubert Pereira",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -8140,13 +8188,15 @@
     {
       "key": "INC-6918",
       "summary": "SJPPROD-TRANS10 ISSUE Urgent",
-      "status": "Escalation Accepted",
+      "status": "Completed",
       "assignee": "Scorch Escarcha",
       "priority": "P2",
-      "issuetype": "Escalation",
-      "labels": [],
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-22",
-      "updated": "2026-07-01",
+      "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-6918"
     },
     {
@@ -23524,88 +23574,6 @@
       "created": "2026-06-02",
       "updated": "2026-06-02",
       "url": "https://cube001.atlassian.net/browse/INC-5664"
-    },
-    {
-      "key": "INC-5665",
-      "summary": "suspicious - General - f_0001d4",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5665"
-    },
-    {
-      "key": "INC-5667",
-      "summary": "ATLAS NOTIFICATION: CS4451988 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5667"
-    },
-    {
-      "key": "INC-5666",
-      "summary": "ATLAS NOTIFICATION: CS4451972 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-5666"
-    },
-    {
-      "key": "INC-5663",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5663"
-    },
-    {
-      "key": "INC-5662",
-      "summary": "Performance Barclays UAT issue with RegGroup and RegOps Module",
-      "status": "Completed",
-      "assignee": "Ser Jan Aldreach Perez",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-02",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5662"
-    },
-    {
-      "key": "INC-5661",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-02",
-      "updated": "2026-06-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5661"
     }
   ]
 }
