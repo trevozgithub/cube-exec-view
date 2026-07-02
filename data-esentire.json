@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-02T20:10:26.948254Z",
-  "total": 1902,
+  "updated": "2026-07-02T21:33:51.318250Z",
+  "total": 1904,
   "items": [
+    {
+      "key": "INC-7693",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7693"
+    },
+    {
+      "key": "INC-7692",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-02",
+      "updated": "2026-07-02",
+      "url": "https://cube001.atlassian.net/browse/INC-7692"
+    },
     {
       "key": "INC-7691",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
@@ -41,11 +65,13 @@
     {
       "key": "INC-7688",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7688"
@@ -175,11 +201,13 @@
     {
       "key": "INC-7676",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7676"
