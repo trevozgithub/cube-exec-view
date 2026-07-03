@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-03T13:14:09.025736Z",
+  "updated": "2026-07-03T15:28:25.730256Z",
   "total": 17,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-50",
+      "summary": "Translation optimisation - v10 and API",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-03",
+      "labels": [
+        "PlanningFlag",
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-50",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Systran v10 and the Translation API are live since June 2.   This includes autoscaling, scaling groups for language sets, and detailed translation dashboards aviliable in new relic. Only remaining thing is the move of RDM from direct systran communication to the new API"
+        }
+      ]
+    },
     {
       "key": "CPN-1593",
       "summary": "RegPlatform Content - Administrative Tasks Q3 2026",
@@ -125,25 +144,6 @@
         {
           "type": "info",
           "text": "15/06/26 Regproxy rollout complete. UrbanVPN poses a security risk (   ), so an alternative solution is required. 4C have a solution, but it is similar to 2captcha proxy that we currently use. ProtonVPN has been identified as a suitable VPN solution and can be onboarded, it has openvpn configurations for most countries, as opposed to PIA which has for around 30 countries. ProtonVPN is going through onboarding, an abbreviated onboarding process can be used for this. Ticket for Proton VPN subscription -"
-        }
-      ]
-    },
-    {
-      "key": "CPN-50",
-      "summary": "Translation optimisation - v10 and API",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-06-12",
-      "labels": [
-        "PlanningFlag",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-50",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Systran v10 and the Translation API are live since June 2.   This includes autoscaling, scaling groups for language sets, and detailed translation dashboards aviliable in new relic. Only remaining thing is the move of RDM from direct systran communication to the new API"
         }
       ]
     },
