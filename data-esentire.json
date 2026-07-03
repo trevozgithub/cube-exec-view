@@ -1,7 +1,106 @@
 {
-  "updated": "2026-07-03T01:22:34.172124Z",
-  "total": 1908,
+  "updated": "2026-07-03T05:10:41.899182Z",
+  "total": 1905,
   "items": [
+    {
+      "key": "INC-7707",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7707"
+    },
+    {
+      "key": "INC-7706",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7706"
+    },
+    {
+      "key": "INC-7705",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7705"
+    },
+    {
+      "key": "INC-7704",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7704"
+    },
+    {
+      "key": "INC-7703",
+      "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is not working properly.",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7703"
+    },
+    {
+      "key": "INC-7702",
+      "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is OK.",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7702"
+    },
+    {
+      "key": "INC-7701",
+      "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is not working properly.",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7701"
+    },
+    {
+      "key": "INC-7700",
+      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7700"
+    },
     {
       "key": "INC-7699",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -3575,7 +3674,7 @@
         "opsview"
       ],
       "created": "2026-06-28",
-      "updated": "2026-07-02",
+      "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7314"
     },
     {
@@ -23573,148 +23672,6 @@
       "created": "2026-06-03",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-5684"
-    },
-    {
-      "key": "INC-5682",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5682"
-    },
-    {
-      "key": "INC-5681",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5681"
-    },
-    {
-      "key": "INC-5680",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5680"
-    },
-    {
-      "key": "INC-5679",
-      "summary": "ATLAS NOTIFICATION: CS4453353 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Graham Case",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5679"
-    },
-    {
-      "key": "INC-5678",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5678"
-    },
-    {
-      "key": "INC-5677",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5677"
-    },
-    {
-      "key": "INC-5676",
-      "summary": "ATLAS NOTIFICATION: CS4452955 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Graham Case",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5676"
-    },
-    {
-      "key": "INC-5675",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5675"
-    },
-    {
-      "key": "INC-5674",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5674"
-    },
-    {
-      "key": "INC-5673",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5673"
-    },
-    {
-      "key": "INC-5672",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5672"
     }
   ]
 }
