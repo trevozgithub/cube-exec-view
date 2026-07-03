@@ -1,17 +1,57 @@
 {
-  "updated": "2026-07-02T23:47:30.804424Z",
-  "total": 1907,
+  "updated": "2026-07-03T01:22:34.172124Z",
+  "total": 1908,
   "items": [
+    {
+      "key": "INC-7699",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7699"
+    },
+    {
+      "key": "INC-7698",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7698"
+    },
+    {
+      "key": "INC-7697",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7697"
+    },
     {
       "key": "INC-7696",
       "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
-      "updated": "2026-07-02",
+      "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7696"
     },
     {
@@ -45,12 +85,12 @@
       "key": "INC-7693",
       "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
       "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-02",
-      "updated": "2026-07-02",
+      "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7693"
     },
     {
@@ -23675,32 +23715,6 @@
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "url": "https://cube001.atlassian.net/browse/INC-5672"
-    },
-    {
-      "key": "INC-5671",
-      "summary": "Opsview Critical Alarm - CUBEPROD2ELK04 & CUBEPROD2ELK05 - Disk: /elasticdata",
-      "status": "Completed",
-      "assignee": "Ravali Billakanti",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5671"
-    },
-    {
-      "key": "INC-5670",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5670"
     }
   ]
 }
