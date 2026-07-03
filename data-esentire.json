@@ -1,12 +1,96 @@
 {
-  "updated": "2026-07-03T15:28:45.034359Z",
+  "updated": "2026-07-03T16:58:01.068884Z",
   "total": 1942,
   "items": [
     {
+      "key": "INC-7778",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7778"
+    },
+    {
+      "key": "INC-7777",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7777"
+    },
+    {
+      "key": "INC-7776",
+      "summary": "CUBEUAT2ELS04 - DISK CRITICAL - free space: /elasticdata",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7776"
+    },
+    {
+      "key": "INC-7775",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7775"
+    },
+    {
+      "key": "INC-7774",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7774"
+    },
+    {
+      "key": "INC-7773",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7773"
+    },
+    {
+      "key": "INC-7772",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7772"
+    },
+    {
       "key": "INC-7771",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -24006,98 +24090,6 @@
       "created": "2026-06-03",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-5729"
-    },
-    {
-      "key": "INC-5712",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5712"
-    },
-    {
-      "key": "INC-5711",
-      "summary": "RegBook sync failing in PROD since 3pm.",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5711"
-    },
-    {
-      "key": "INC-5767",
-      "summary": "Upcoming Update to Your SentinelOne Environment - Customer has been notified ( SSO ) ",
-      "status": "In Progress",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-5767"
-    },
-    {
-      "key": "INC-5710",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5710"
-    },
-    {
-      "key": "INC-5709",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5709"
-    },
-    {
-      "key": "INC-5730",
-      "summary": "O365 - Non-word Inbox Rule Name for OWA",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5730"
-    },
-    {
-      "key": "INC-5708",
-      "summary": "SYSTRAN V10 taking too long for RegBook Translations",
-      "status": "Completed",
-      "assignee": "Anthony Nguyen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5708"
     }
   ]
 }
