@@ -1,12 +1,48 @@
 {
-  "updated": "2026-07-03T21:09:33.180507Z",
-  "total": 1941,
+  "updated": "2026-07-03T22:16:36.283295Z",
+  "total": 1942,
   "items": [
+    {
+      "key": "INC-7797",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7797"
+    },
+    {
+      "key": "INC-7796",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7796"
+    },
+    {
+      "key": "INC-7795",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7795"
+    },
     {
       "key": "INC-7794",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -78,7 +114,7 @@
       "key": "INC-7788",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
       "status": "To Do",
-      "assignee": "Michael Angelo Dorio",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -297,11 +333,13 @@
     {
       "key": "INC-7770",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7770"
@@ -381,11 +419,13 @@
     {
       "key": "INC-7763",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7763"
@@ -24050,32 +24090,6 @@
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "url": "https://cube001.atlassian.net/browse/INC-5733"
-    },
-    {
-      "key": "INC-5732",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Jaspreet Manghera",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5732"
-    },
-    {
-      "key": "INC-5731",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5731"
     }
   ]
 }
