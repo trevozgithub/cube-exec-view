@@ -1,7 +1,71 @@
 {
-  "updated": "2026-07-03T16:58:01.068884Z",
-  "total": 1942,
+  "updated": "2026-07-03T18:19:16.676215Z",
+  "total": 1932,
   "items": [
+    {
+      "key": "INC-7783",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7783"
+    },
+    {
+      "key": "INC-7782",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7782"
+    },
+    {
+      "key": "INC-7781",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7781"
+    },
+    {
+      "key": "INC-7780",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Completed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7780"
+    },
+    {
+      "key": "INC-7779",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-03",
+      "updated": "2026-07-03",
+      "url": "https://cube001.atlassian.net/browse/INC-7779"
+    },
     {
       "key": "INC-7778",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -1207,7 +1271,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-02",
-      "updated": "2026-07-02",
+      "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7677"
     },
     {
@@ -23904,192 +23968,6 @@
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "url": "https://cube001.atlassian.net/browse/INC-5727"
-    },
-    {
-      "key": "INC-5726",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5726"
-    },
-    {
-      "key": "INC-5725",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5725"
-    },
-    {
-      "key": "INC-5724",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5724"
-    },
-    {
-      "key": "INC-5723",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5723"
-    },
-    {
-      "key": "INC-5722",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5722"
-    },
-    {
-      "key": "INC-5721",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5721"
-    },
-    {
-      "key": "INC-5720",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5720"
-    },
-    {
-      "key": "INC-5719",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5719"
-    },
-    {
-      "key": "INC-5718",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5718"
-    },
-    {
-      "key": "INC-5717",
-      "summary": "RecConnect 500 error for RBC PROD on api/RegGRoup/search since May 21",
-      "status": "Completed",
-      "assignee": "Masoom Miah",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5717"
-    },
-    {
-      "key": "INC-5716",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5716"
-    },
-    {
-      "key": "INC-5715",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5715"
-    },
-    {
-      "key": "INC-5714",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5714"
-    },
-    {
-      "key": "INC-5713",
-      "summary": "[TEST] Memory Used % is more than 90 for at least 2 minutes on 'Some-Entity'",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-03",
-      "updated": "2026-06-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5713"
-    },
-    {
-      "key": "INC-5729",
-      "summary": "ATLAS NOTIFICATION: CS4454722 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-03",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5729"
     }
   ]
 }
