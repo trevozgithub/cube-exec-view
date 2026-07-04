@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-04T14:19:36.395696Z",
-  "total": 1963,
+  "updated": "2026-07-04T15:37:23.905804Z",
+  "total": 1955,
   "items": [
+    {
+      "key": "INC-7867",
+      "summary": "CUBEPROD2ELK06 - DISK CRITICAL - free space: /elasticdata 155727 MB (2% inode=99%);",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://cube001.atlassian.net/browse/INC-7867"
+    },
+    {
+      "key": "INC-7866",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://cube001.atlassian.net/browse/INC-7866"
+    },
+    {
+      "key": "INC-7865",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://cube001.atlassian.net/browse/INC-7865"
+    },
     {
       "key": "INC-7864",
       "summary": "DR-VEEAMPRX03  Base - Additional Drives: J  CRITICAL",
@@ -24174,154 +24210,6 @@
       "created": "2026-06-04",
       "updated": "2026-06-05",
       "url": "https://cube001.atlassian.net/browse/INC-5791"
-    },
-    {
-      "key": "INC-5789",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-04",
-      "updated": "2026-06-04",
-      "url": "https://cube001.atlassian.net/browse/INC-5789"
-    },
-    {
-      "key": "INC-5792",
-      "summary": "CS4456979-CUBE Content Governance Global Limited-4 - Low-IRL - SUMO-SUSPICIOUS",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5792"
-    },
-    {
-      "key": "INC-5788",
-      "summary": "CUBE RGP SQL05-06 and SQL07-08 - There are configuration issues.",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5788"
-    },
-    {
-      "key": "INC-5787",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5787"
-    },
-    {
-      "key": "INC-5786",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Completed",
-      "assignee": "Yinka Shoge",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5786"
-    },
-    {
-      "key": "INC-5785",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5785"
-    },
-    {
-      "key": "INC-5784",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5784"
-    },
-    {
-      "key": "INC-5782",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-04",
-      "updated": "2026-06-04",
-      "url": "https://cube001.atlassian.net/browse/INC-5782"
-    },
-    {
-      "key": "INC-5781",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-04",
-      "updated": "2026-06-04",
-      "url": "https://cube001.atlassian.net/browse/INC-5781"
-    },
-    {
-      "key": "INC-5783",
-      "summary": "CS4456940-CUBE Content Governance Global Limited-4 - Low-IRL - SUMO-SUSPICIOUS",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5783"
-    },
-    {
-      "key": "INC-5779",
-      "summary": "Performance issues in Intel",
-      "status": "Completed",
-      "assignee": "Narayani Ramakrishnan",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-04",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5779"
     }
   ]
 }
