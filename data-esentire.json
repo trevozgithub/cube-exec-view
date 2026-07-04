@@ -1,12 +1,48 @@
 {
-  "updated": "2026-07-04T21:11:02.848714Z",
+  "updated": "2026-07-04T22:12:24.255494Z",
   "total": 1955,
   "items": [
     {
-      "key": "INC-7883",
+      "key": "INC-7886",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://cube001.atlassian.net/browse/INC-7886"
+    },
+    {
+      "key": "INC-7885",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "In Triage",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://cube001.atlassian.net/browse/INC-7885"
+    },
+    {
+      "key": "INC-7884",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://cube001.atlassian.net/browse/INC-7884"
+    },
+    {
+      "key": "INC-7883",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -24164,42 +24200,6 @@
       "created": "2026-06-04",
       "updated": "2026-06-04",
       "url": "https://cube001.atlassian.net/browse/INC-5811"
-    },
-    {
-      "key": "INC-5810",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-04",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5810"
-    },
-    {
-      "key": "INC-5809",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-04",
-      "updated": "2026-06-04",
-      "url": "https://cube001.atlassian.net/browse/INC-5809"
-    },
-    {
-      "key": "INC-5808",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-04",
-      "updated": "2026-06-04",
-      "url": "https://cube001.atlassian.net/browse/INC-5808"
     }
   ]
 }
