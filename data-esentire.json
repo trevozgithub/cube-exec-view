@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-05T10:00:04.842987Z",
-  "total": 2035,
+  "updated": "2026-07-05T11:44:21.484234Z",
+  "total": 2036,
   "items": [
+    {
+      "key": "INC-7993",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7993"
+    },
+    {
+      "key": "INC-7992",
+      "summary": "Opsview Critical Alarm - VT-VEEAM - CRITICAL - [Triggered by _AvgCPU>90] - Average CPU Utilisation 100.00%",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7992"
+    },
+    {
+      "key": "INC-7991",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7991"
+    },
+    {
+      "key": "INC-7990",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7990"
+    },
+    {
+      "key": "INC-7989",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7989"
+    },
+    {
+      "key": "INC-7988",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7988"
+    },
+    {
+      "key": "INC-7987",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7987"
+    },
     {
       "key": "INC-7986",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -25070,84 +25154,6 @@
       "created": "2026-06-05",
       "updated": "2026-06-05",
       "url": "https://cube001.atlassian.net/browse/INC-5838"
-    },
-    {
-      "key": "INC-5837",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5837"
-    },
-    {
-      "key": "INC-5836",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-05",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5836"
-    },
-    {
-      "key": "INC-5835",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5835"
-    },
-    {
-      "key": "INC-5834",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-05",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5834"
-    },
-    {
-      "key": "INC-5833",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #60288",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-05",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5833"
-    },
-    {
-      "key": "INC-5831",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5831"
     }
   ]
 }
