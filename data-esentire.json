@@ -1,12 +1,36 @@
 {
-  "updated": "2026-07-05T17:18:04.620569Z",
+  "updated": "2026-07-05T18:33:24.039981Z",
   "total": 2041,
   "items": [
     {
+      "key": "INC-8014",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8014"
+    },
+    {
+      "key": "INC-8013",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8013"
+    },
+    {
       "key": "INC-8012",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,11 +41,13 @@
     {
       "key": "INC-8011",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-05",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-8011"
@@ -233,11 +259,13 @@
     {
       "key": "INC-7992",
       "summary": "Opsview Critical Alarm - VT-VEEAM - CRITICAL - [Triggered by _AvgCPU>90] - Average CPU Utilisation 100.00%",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-05",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7992"
@@ -3193,13 +3221,15 @@
     {
       "key": "INC-7745",
       "summary": "PROBLEM: Multiple Alerts - MS SQL - Generic SQL server statistics is CRITICAL on host CUBEPROD1SQL03",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-03",
-      "updated": "2026-07-04",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7745"
     },
     {
@@ -4011,7 +4041,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-02",
-      "updated": "2026-07-03",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7677"
     },
     {
@@ -25176,32 +25206,6 @@
       "created": "2026-06-06",
       "updated": "2026-06-06",
       "url": "https://cube001.atlassian.net/browse/INC-5853"
-    },
-    {
-      "key": "INC-5852",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5852"
-    },
-    {
-      "key": "INC-5851",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-05",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5851"
     }
   ]
 }
