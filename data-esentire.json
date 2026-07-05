@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-05T15:56:37.741451Z",
-  "total": 2035,
+  "updated": "2026-07-05T17:18:04.620569Z",
+  "total": 2041,
   "items": [
+    {
+      "key": "INC-8012",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8012"
+    },
+    {
+      "key": "INC-8011",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8011"
+    },
+    {
+      "key": "INC-8010",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8010"
+    },
+    {
+      "key": "INC-8009",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8009"
+    },
+    {
+      "key": "INC-8008",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8008"
+    },
+    {
+      "key": "INC-8007",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8007"
+    },
+    {
+      "key": "INC-8006",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8006"
+    },
     {
       "key": "INC-8004",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
@@ -2749,7 +2833,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-03",
-      "updated": "2026-07-03",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7776"
     },
     {
@@ -3735,13 +3819,15 @@
     {
       "key": "INC-7693",
       "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
-      "updated": "2026-07-03",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7693"
     },
     {
@@ -20310,7 +20396,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-06-12",
-      "updated": "2026-07-03",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-6242"
     },
     {
@@ -25116,20 +25202,6 @@
       "created": "2026-06-05",
       "updated": "2026-06-05",
       "url": "https://cube001.atlassian.net/browse/INC-5851"
-    },
-    {
-      "key": "INC-5850",
-      "summary": "Issues with connectivity to DRPSQLPROD01 and CUBEAZPRD1SQL01",
-      "status": "Completed",
-      "assignee": "Pradeep Yamujala",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-5850"
     }
   ]
 }
