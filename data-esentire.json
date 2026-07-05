@@ -1,7 +1,55 @@
 {
-  "updated": "2026-07-05T18:33:24.039981Z",
-  "total": 2041,
+  "updated": "2026-07-05T19:54:46.649551Z",
+  "total": 2045,
   "items": [
+    {
+      "key": "INC-8018",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8018"
+    },
+    {
+      "key": "INC-8017",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8017"
+    },
+    {
+      "key": "INC-8016",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8016"
+    },
+    {
+      "key": "INC-8015",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-8015"
+    },
     {
       "key": "INC-8014",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
@@ -1887,13 +1935,15 @@
     {
       "key": "INC-7855",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-04",
-      "updated": "2026-07-04",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7855"
     },
     {
@@ -3881,7 +3931,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-02",
-      "updated": "2026-07-04",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7691"
     },
     {
@@ -5419,7 +5469,7 @@
     {
       "key": "INC-7470",
       "summary": "API Connect Health Checks Errors",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5428,7 +5478,7 @@
         "Daily-Checks"
       ],
       "created": "2026-07-01",
-      "updated": "2026-07-04",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7470"
     },
     {
@@ -7364,7 +7414,7 @@
     {
       "key": "INC-7312",
       "summary": "Opsview Warning Alarm - CUBEPROD1SQL04 Base - Additional Drives: L & M",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7372,7 +7422,7 @@
         "opsview"
       ],
       "created": "2026-06-28",
-      "updated": "2026-07-04",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7312"
     },
     {
