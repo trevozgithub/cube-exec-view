@@ -1,12 +1,60 @@
 {
-  "updated": "2026-07-05T11:44:21.484234Z",
+  "updated": "2026-07-05T12:56:33.615510Z",
   "total": 2036,
   "items": [
     {
+      "key": "INC-7997",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7997"
+    },
+    {
+      "key": "INC-7996",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7996"
+    },
+    {
+      "key": "INC-7995",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7995"
+    },
+    {
+      "key": "INC-7994",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-05",
+      "updated": "2026-07-05",
+      "url": "https://cube001.atlassian.net/browse/INC-7994"
+    },
+    {
       "key": "INC-7993",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -245,11 +293,13 @@
     {
       "key": "INC-7973",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-05",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7973"
@@ -2467,7 +2517,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-03",
-      "updated": "2026-07-04",
+      "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7788"
     },
     {
@@ -25102,58 +25152,6 @@
       "created": "2026-06-05",
       "updated": "2026-06-05",
       "url": "https://cube001.atlassian.net/browse/INC-5842"
-    },
-    {
-      "key": "INC-5841",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5841"
-    },
-    {
-      "key": "INC-5840",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-05",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5840"
-    },
-    {
-      "key": "INC-5839",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-05",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5839"
-    },
-    {
-      "key": "INC-5838",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-05",
-      "updated": "2026-06-05",
-      "url": "https://cube001.atlassian.net/browse/INC-5838"
     }
   ]
 }
