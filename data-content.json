@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-06T09:43:01.626471Z",
+  "updated": "2026-07-06T13:33:47.391494Z",
   "total": 16,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-682",
+      "summary": "Geo-Blocked Content Access Resolution",
+      "status": "Build & Test",
+      "assignee": "Manish Shivanandhan",
+      "duedate": "2026-03-31",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "Content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-682",
+      "panels": [
+        {
+          "type": "info",
+          "text": "15/06/26 ProtonVPN has been onboarded. Ticket for Proton VPN subscription -        to action set up of Proton VPN."
+        }
+      ]
+    },
     {
       "key": "CPN-610",
       "summary": "GitHub Migration",
@@ -112,25 +131,6 @@
         {
           "type": "info",
           "text": "ISO Certification Awarded -  Non conformance documentation to be submitted by Jul1st to secure certification    Audit ongoing - Interviews with 12 + teams across Cube including Legal, People, Infrastructure, Cloud, Security.  Expect to receive OFIs at a minimum   Audit dates confirmed Stage 1 22  and 23 April.  State 2 June 11th to 18th April.  Ongoing remediation of vulnerabilities across container packages, endpoints, servers in progress.  Reduced from peak of 200k to100k  currently.    Vulnerability Management Forum set up.  Still lot of work to do.  Machines to be decommissioned (VDIs etc.) - nearly complete Vendor supplier reviews (Critical) completed using Vanta.   InfoSec Risk register uploaded to vanta.   Risk Treatment procedure to be reviewed.   All other risks across Cube have been added to the register.  meetings to be set up with Executive leads.     Internal audit with Ash complete - findings to be addressed.  No major non conformities identified. Minor non conformities to be addressed in infosec session.  ISMS Documentation complete and policies uploaded for employee acknowledgement - 33% have completed the task.  Secure Code training rolled out to Development teams from Vanta - 100 % Complete Security training rolled out to all employees 24/02/2026 - 80% completion rate.  Cyber Training for new starters to be followed up  Vulnerability Scanning tool for web applications, Tenable, deployed by Ash Cyber  Remaining scope  for Content Engineering:  CUBE ISO27001 certification - remaining scope - Content Platform - Confluence"
-        }
-      ]
-    },
-    {
-      "key": "CPN-682",
-      "summary": "Geo-Blocked Content Access Resolution",
-      "status": "Build & Test",
-      "assignee": "Manish Shivanandhan",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-06-15",
-      "labels": [
-        "Content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-682",
-      "panels": [
-        {
-          "type": "info",
-          "text": "15/06/26 Regproxy rollout complete. UrbanVPN poses a security risk (   ), so an alternative solution is required. 4C have a solution, but it is similar to 2captcha proxy that we currently use. ProtonVPN has been identified as a suitable VPN solution and can be onboarded, it has openvpn configurations for most countries, as opposed to PIA which has for around 30 countries. ProtonVPN is going through onboarding, an abbreviated onboarding process can be used for this. Ticket for Proton VPN subscription -"
         }
       ]
     },

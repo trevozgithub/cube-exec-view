@@ -1,8 +1,183 @@
 {
-  "updated": "2026-07-06T09:43:01.254073Z",
+  "updated": "2026-07-06T13:33:46.852080Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1420",
+      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-10-29",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "Kodex",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Following the call with Claus, George created a Miro board outlining the proposed workflow:  Kodex AI - Miro .  Awaiting the confirmation from George the design can be passed to TechOps team for creation in Jira."
+        }
+      ]
+    },
+    {
+      "key": "CPN-682",
+      "summary": "Geo-Blocked Content Access Resolution",
+      "status": "Build & Test",
+      "assignee": "Manish Shivanandhan",
+      "duedate": "2026-03-31",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "Content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-682",
+      "panels": [
+        {
+          "type": "info",
+          "text": "15/06/26 ProtonVPN has been onboarded. Ticket for Proton VPN subscription -        to action set up of Proton VPN."
+        }
+      ]
+    },
+    {
+      "key": "CPN-168",
+      "summary": "DNS migration to CloudFlare",
+      "status": "Build & Test",
+      "assignee": "Sean Kelaart",
+      "duedate": "2026-02-27",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-168",
+      "panels": [
+        {
+          "type": "info",
+          "text": "6/7/2026 For  4crisk.ai  waiting for Supradeep to confirm when we can complete the transfer   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1369",
+      "summary": "SOC2 Audit",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "InfoSec",
+        "infrastructure",
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1369",
+      "panels": [
+        {
+          "type": "info",
+          "text": "06/07/2026 Organising NDA with legal / prescient security.  Have requested new quote."
+        }
+      ]
+    },
+    {
+      "key": "CPN-930",
+      "summary": "Cabot - Sunset of Documentum",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "2027-03-01",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "6/07/2026 TDD sent to Cabot in the hope it answers their questions. Waiting to hear but David has been on leave. Main actions: any flexibility on deadline of end of March? Document what front end of process does - scanners, workflow, etc. I have said that we will provide this by 24th of July, if not before"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "Infra",
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned."
+        }
+      ]
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Next steps - Agree on the project plan and create a SoW. Awaiting SJP to submit project milestones and the project status meeting cadence between now and the end of the term (March 2027), which we can use as the basis for our SOW"
+        }
+      ]
+    },
+    {
+      "key": "CPN-105",
+      "summary": "TR Employee Data migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-105",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. Awaiting feedback from TR for long-term solution.  Distribution lists have been recreated by Service Desk Next phase: OneDrive migration to be kicked-off in August. O365 migration plan:"
+        }
+      ]
+    },
+    {
+      "key": "CPN-949",
+      "summary": "4CRisk - Onboarding and O365 migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-949",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Dipak requested a quote from the local vendor for the monitors. [ Open ] Dipak has provided the age details of the devices being replaced. The next step is to coordinate the collection and secure wiping of the old laptops in India and the USA. Softcat responded that they can support us with the secure wiping process as ISO cert. in India region. I\u2019ve requested the quote for that work. Awaiting their feedback. [ Open ] Dipak has provided the current M365 licensing inventory. Following a review of the inventory, it has been determined that the existing licenses should be transitioned to E2 licenses. [ Open ]"
+        }
+      ]
+    },
     {
       "key": "CPN-610",
       "summary": "GitHub Migration",
@@ -57,25 +232,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1024",
       "panels": []
-    },
-    {
-      "key": "CPN-1420",
-      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-10-29",
-      "reviewed": "2026-07-03",
-      "labels": [
-        "Kodex",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Following the call with Claus, George created a Miro board outlining the proposed workflow:  Kodex AI - Miro"
-        }
-      ]
     },
     {
       "key": "CPN-1628",
@@ -146,21 +302,6 @@
       ]
     },
     {
-      "key": "CPN-1369",
-      "summary": "SOC2 Audit",
-      "status": "Scoping",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-01",
-      "labels": [
-        "InfoSec",
-        "infrastructure",
-        "intelcpn"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1369",
-      "panels": []
-    },
-    {
       "key": "CPN-1579",
       "summary": "Platform - Platform Enhancements Q3 2026",
       "status": "Build & Test",
@@ -226,46 +367,6 @@
       "panels": []
     },
     {
-      "key": "CPN-168",
-      "summary": "DNS migration to CloudFlare",
-      "status": "Build & Test",
-      "assignee": "Sean Kelaart",
-      "duedate": "2026-02-27",
-      "reviewed": "2026-06-29",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-168",
-      "panels": [
-        {
-          "type": "info",
-          "text": "29/06/26 First part for ACIN has been done"
-        },
-        {
-          "type": "info",
-          "text": "Also have  PHIGRC.com  and  4CRISK.ai  to do for 4C phigrc.com  is still being used. no  landing page so we can\u2019t access it Faaris has access and the details. Should be completed soon"
-        }
-      ]
-    },
-    {
-      "key": "CPN-930",
-      "summary": "Cabot - Sunset of Documentum",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "2027-03-01",
-      "reviewed": "2026-06-26",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930",
-      "panels": [
-        {
-          "type": "info",
-          "text": "26/06/2026 TDD sent to Cabot in the hope it answers their questions. Main actions: any flexibility on deadline of end of March? Document what front end of process does - scanners, workflow, etc. I have said that we will provide this by 24th of July, if not before"
-        }
-      ]
-    },
-    {
       "key": "CPN-925",
       "summary": "Operationalise Security Aggregation and Asset Management",
       "status": "Planning",
@@ -303,86 +404,6 @@
       ]
     },
     {
-      "key": "CPN-682",
-      "summary": "Geo-Blocked Content Access Resolution",
-      "status": "Build & Test",
-      "assignee": "Manish Shivanandhan",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-06-15",
-      "labels": [
-        "Content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-682",
-      "panels": [
-        {
-          "type": "info",
-          "text": "15/06/26 Regproxy rollout complete. UrbanVPN poses a security risk (   ), so an alternative solution is required. 4C have a solution, but it is similar to 2captcha proxy that we currently use. ProtonVPN has been identified as a suitable VPN solution and can be onboarded, it has openvpn configurations for most countries, as opposed to PIA which has for around 30 countries. ProtonVPN is going through onboarding, an abbreviated onboarding process can be used for this. Ticket for Proton VPN subscription -"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-06-15",
-      "labels": [
-        "Infra",
-        "TR",
-        "TSA_EXIT",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been packaged, and collection has been coordinated with Eduardo from TR."
-        }
-      ]
-    },
-    {
-      "key": "CPN-105",
-      "summary": "TR Employee Data migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-06-15",
-      "labels": [
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-105",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Stefan to discuss with Muhim if ARC (Authenticated Received Chain) can be enabled on CUBE tenant.  Distribution lists have been recreated by Service Desk O365 migration plan:"
-        }
-      ]
-    },
-    {
-      "key": "CPN-949",
-      "summary": "4CRisk - Onboarding and O365 migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-06-12",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-949",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Dipak will review and confirm the monitor models and number to be purchased for the Bangalore office. [ Open ] Dipak has provided the age details of the devices being replaced. The next step is to coordinate the collection and secure wiping of the old laptops in India and the USA. Awaiting feedback from Softcat if they can support us on the secure wiping process as ISO cert. is required. [ Open ] Dipak has provided the current M365 licensing inventory. The list needs to be reviewed with Stefan and optimised to reduce licensing costs, including switching Exchange-only users to E2 licenses. [ Open ]"
-        }
-      ]
-    },
-    {
       "key": "CPN-196",
       "summary": "Content in Cloud",
       "status": "Scoping",
@@ -401,26 +422,6 @@
         {
           "type": "info",
           "text": "08/06/26     Azure Migrate has been set up to assess migration of Content VMs to Azure. Work to migrate Dev and Test databases to Azure SQL MI initiated, currently paused. Calls with Microsoft Factory team held. Content migration to Kubernetes is also being progressed, however there is a resourcing risk associated with achieving this."
-        }
-      ]
-    },
-    {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-05-19",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "19/05/2026 Additional information requested by OpenText was provided to SJP."
         }
       ]
     },

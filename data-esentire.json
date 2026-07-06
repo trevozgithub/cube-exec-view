@@ -1,11 +1,281 @@
 {
-  "updated": "2026-07-06T09:43:15.889934Z",
-  "total": 2098,
+  "updated": "2026-07-06T13:34:02.866056Z",
+  "total": 2112,
   "items": [
+    {
+      "key": "INC-8099",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8099"
+    },
+    {
+      "key": "INC-8098",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8098"
+    },
+    {
+      "key": "INC-8097",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8097"
+    },
+    {
+      "key": "INC-8096",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8096"
+    },
+    {
+      "key": "INC-8095",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8095"
+    },
+    {
+      "key": "INC-8094",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8094"
+    },
+    {
+      "key": "INC-8093",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8093"
+    },
+    {
+      "key": "INC-8092",
+      "summary": "ACIN platform emails not being delivered",
+      "status": "To Do",
+      "assignee": "Faaris Ali",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8092"
+    },
+    {
+      "key": "INC-8091",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8091"
+    },
+    {
+      "key": "INC-8090",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8090"
+    },
+    {
+      "key": "INC-8089",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8089"
+    },
+    {
+      "key": "INC-8088",
+      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8088"
+    },
+    {
+      "key": "INC-8087",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "To Do",
+      "assignee": "Ishara Lakshitha",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8087"
+    },
+    {
+      "key": "INC-8086",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8086"
+    },
+    {
+      "key": "INC-8085",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8085"
+    },
+    {
+      "key": "INC-8084",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8084"
+    },
+    {
+      "key": "INC-8083",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8083"
+    },
+    {
+      "key": "INC-8082",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8082"
+    },
+    {
+      "key": "INC-8081",
+      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8081"
+    },
+    {
+      "key": "INC-8080",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8080"
+    },
+    {
+      "key": "INC-8079",
+      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8079"
+    },
+    {
+      "key": "INC-8078",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Completed",
+      "assignee": "Phil Oakes",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-06",
+      "updated": "2026-07-06",
+      "url": "https://cube001.atlassian.net/browse/INC-8078"
+    },
     {
       "key": "INC-8077",
       "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
@@ -1213,7 +1483,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-05",
-      "updated": "2026-07-05",
+      "updated": "2026-07-06",
       "url": "https://cube001.atlassian.net/browse/INC-7977"
     },
     {
@@ -2575,7 +2845,7 @@
     {
       "key": "INC-7864",
       "summary": "DR-VEEAMPRX03  Base - Additional Drives: J  CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -10259,7 +10529,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-25",
-      "updated": "2026-07-04",
+      "updated": "2026-07-06",
       "url": "https://cube001.atlassian.net/browse/INC-7165"
     },
     {
@@ -25808,110 +26078,6 @@
       "created": "2026-06-06",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-5867"
-    },
-    {
-      "key": "INC-5866",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-06",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5866"
-    },
-    {
-      "key": "INC-5865",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-06",
-      "updated": "2026-06-06",
-      "url": "https://cube001.atlassian.net/browse/INC-5865"
-    },
-    {
-      "key": "INC-5864",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-06",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5864"
-    },
-    {
-      "key": "INC-5863",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-06",
-      "updated": "2026-06-06",
-      "url": "https://cube001.atlassian.net/browse/INC-5863"
-    },
-    {
-      "key": "INC-5862",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-06",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5862"
-    },
-    {
-      "key": "INC-5861",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-06",
-      "updated": "2026-06-06",
-      "url": "https://cube001.atlassian.net/browse/INC-5861"
-    },
-    {
-      "key": "INC-5860",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-06",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5860"
-    },
-    {
-      "key": "INC-5859",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-06",
-      "updated": "2026-06-06",
-      "url": "https://cube001.atlassian.net/browse/INC-5859"
     }
   ]
 }
