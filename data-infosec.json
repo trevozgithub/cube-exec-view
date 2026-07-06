@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-06T13:33:46.232463Z",
+  "updated": "2026-07-06T16:43:16.437357Z",
   "total": 24,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Planning",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-07-06",
+      "labels": [
+        "InfoSec",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "06/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned."
+        }
+      ]
+    },
     {
       "key": "CPN-1369",
       "summary": "SOC2 Audit",
@@ -145,25 +164,6 @@
         {
           "type": "info",
           "text": "Status 23/06:  5 done, 5 to be prioritised"
-        }
-      ]
-    },
-    {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Planning",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-06-22",
-      "labels": [
-        "InfoSec",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/06/26 All Legal work on agreements has been completed. Kickoff call held with Ash 06/05. Weekly calls being held on Wednesdays with Ash and Axonius. A spreadsheet containing data sources has been created and needs to be reviewed for scope. Requests for credentials have been raised with the Service Desk and other Stakeholders, credentials are being created.  The Axonius Gateway VM has been created in Azure v2. Review of Axonius Exposures Risk Scoring model to tak eplace on 09/06."
         }
       ]
     },
