@@ -1,7 +1,93 @@
 {
-  "updated": "2026-07-07T11:32:33.886012Z",
-  "total": 2288,
+  "updated": "2026-07-07T13:49:53.802264Z",
+  "total": 2291,
   "items": [
+    {
+      "key": "INC-8341",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8341"
+    },
+    {
+      "key": "INC-8340",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8340"
+    },
+    {
+      "key": "INC-8339",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8339"
+    },
+    {
+      "key": "INC-8338",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8338"
+    },
+    {
+      "key": "INC-8337",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8337"
+    },
+    {
+      "key": "INC-8336",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8336"
+    },
+    {
+      "key": "INC-8335",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8335"
+    },
     {
       "key": "INC-8334",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -79,11 +165,13 @@
     {
       "key": "INC-8328",
       "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8328"
@@ -103,11 +191,13 @@
     {
       "key": "INC-8326",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8326"
@@ -2175,11 +2265,13 @@
     {
       "key": "INC-8156",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-06",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8156"
@@ -13409,7 +13501,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-25",
-      "updated": "2026-07-06",
+      "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-7165"
     },
     {
@@ -28184,54 +28276,6 @@
       "created": "2026-06-07",
       "updated": "2026-06-07",
       "url": "https://cube001.atlassian.net/browse/INC-5931"
-    },
-    {
-      "key": "INC-5930",
-      "summary": "PROBLEM: Cube Notifier Service - PROD1 is CRITICAL on host CUBEPROD1IIS05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-07",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-5930"
-    },
-    {
-      "key": "INC-5929",
-      "summary": "PROBLEM: Cube Notifier Service - PROD1 is CRITICAL on host CUBEPROD1IIS05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-07",
-      "updated": "2026-06-07",
-      "url": "https://cube001.atlassian.net/browse/INC-5929"
-    },
-    {
-      "key": "INC-5928",
-      "summary": "PROBLEM: Cube Notifier Service - PROD1 is CRITICAL on host CUBEPROD1IIS05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-07",
-      "updated": "2026-06-07",
-      "url": "https://cube001.atlassian.net/browse/INC-5928"
-    },
-    {
-      "key": "INC-5927",
-      "summary": "PROBLEM: Cube Notifier Service - PROD1 is CRITICAL on host CUBEPROD1IIS05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-07",
-      "updated": "2026-06-07",
-      "url": "https://cube001.atlassian.net/browse/INC-5927"
     }
   ]
 }
