@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-07T18:24:08.921347Z",
-  "total": 2301,
+  "updated": "2026-07-07T20:24:44.283121Z",
+  "total": 2304,
   "items": [
+    {
+      "key": "INC-8361",
+      "summary": "VM piuattranslate-be-01 - stopped",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8361"
+    },
+    {
+      "key": "INC-8360",
+      "summary": "VT-vCenter-DS - METRIC CRITICAL - Datastore Usage is 98.08% ",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8360"
+    },
+    {
+      "key": "INC-8359",
+      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8359"
+    },
     {
       "key": "INC-8358",
       "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
@@ -41,11 +77,13 @@
     {
       "key": "INC-8355",
       "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8355"
@@ -2849,7 +2887,7 @@
     {
       "key": "INC-8125",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62836",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2936,11 +2974,13 @@
     {
       "key": "INC-8118",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-06",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8118"
@@ -3082,7 +3122,7 @@
     {
       "key": "INC-8106",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60976",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
