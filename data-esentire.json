@@ -1,12 +1,60 @@
 {
-  "updated": "2026-07-07T16:15:11.745942Z",
-  "total": 2298,
+  "updated": "2026-07-07T18:24:08.921347Z",
+  "total": 2301,
   "items": [
+    {
+      "key": "INC-8358",
+      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8358"
+    },
+    {
+      "key": "INC-8357",
+      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8357"
+    },
+    {
+      "key": "INC-8356",
+      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8356"
+    },
+    {
+      "key": "INC-8355",
+      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8355"
+    },
     {
       "key": "INC-8354",
       "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,7 +65,7 @@
     {
       "key": "INC-8353",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -66,7 +114,7 @@
       "key": "INC-8347",
       "summary": "multiple occurrences internal and external - Intel not loading",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Glenn Ticong",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
@@ -117,11 +165,13 @@
     {
       "key": "INC-8343",
       "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8343"
@@ -28354,18 +28404,6 @@
       "created": "2026-06-08",
       "updated": "2026-06-08",
       "url": "https://cube001.atlassian.net/browse/INC-5938"
-    },
-    {
-      "key": "INC-5937",
-      "summary": "AMER - POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-07",
-      "updated": "2026-06-07",
-      "url": "https://cube001.atlassian.net/browse/INC-5937"
     }
   ]
 }
