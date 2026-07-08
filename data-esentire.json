@@ -1,7 +1,117 @@
 {
-  "updated": "2026-07-08T00:08:16.135703Z",
-  "total": 2320,
+  "updated": "2026-07-08T03:43:22.293822Z",
+  "total": 2329,
   "items": [
+    {
+      "key": "INC-8388",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8388"
+    },
+    {
+      "key": "INC-8387",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8387"
+    },
+    {
+      "key": "INC-8386",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8386"
+    },
+    {
+      "key": "INC-8385",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8385"
+    },
+    {
+      "key": "INC-8384",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8384"
+    },
+    {
+      "key": "INC-8383",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8383"
+    },
+    {
+      "key": "INC-8382",
+      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8382"
+    },
+    {
+      "key": "INC-8381",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8381"
+    },
+    {
+      "key": "INC-8380",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8380"
+    },
     {
       "key": "INC-8379",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -67,7 +177,7 @@
     {
       "key": "INC-8374",
       "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -75,7 +185,7 @@
         "24x7"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8374"
     },
     {
@@ -173,7 +283,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8365"
     },
     {
@@ -221,9 +331,12 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Systran",
+        "VM"
+      ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8361"
     },
     {
@@ -233,9 +346,12 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview",
+        "vt-cust-cmp"
+      ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8360"
     },
     {
@@ -368,10 +484,11 @@
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
-        "Alerts-From-Staff"
+        "Alerts-From-Staff",
+        "Intel"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8347"
     },
     {
@@ -459,7 +576,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8341"
     },
     {
@@ -575,13 +692,15 @@
     {
       "key": "INC-8331",
       "summary": "Enforcement data in PROD has been deleted",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8331"
     },
     {
@@ -1313,7 +1432,7 @@
         "gocube.global"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8271"
     },
     {
@@ -5046,7 +5165,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-05",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7966"
     },
     {
@@ -6235,7 +6354,7 @@
     },
     {
       "key": "INC-7867",
-      "summary": "CUBEPROD2ELK06 - DISK CRITICAL - free space: /elasticdata 155727 MB (2% inode=99%);",
+      "summary": "CUBEPROD2ELK06 - Disk: /dev/sdb DISK CRITICAL - free space: /elasticdata 155727 MB (2% inode = 99%);",
       "status": "To Do",
       "assignee": "Dan Palmer",
       "priority": "P3",
@@ -6244,7 +6363,7 @@
         "opsview"
       ],
       "created": "2026-07-04",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7867"
     },
     {
@@ -7326,7 +7445,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-03",
-      "updated": "2026-07-05",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7776"
     },
     {
@@ -8455,7 +8574,7 @@
         "ElasticSearch"
       ],
       "created": "2026-07-02",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7683"
     },
     {
@@ -11795,7 +11914,7 @@
     },
     {
       "key": "INC-7315",
-      "summary": "Opsview Warning Alarm - CUBEPROD2ELK05 Disk: /elasticdata",
+      "summary": "Opsview Warning Alarm - CUBEPROD2ELK04, CUBEPROD2ELK05, CUBEPROD2ELK06 Disk: /elasticdata",
       "status": "In Progress",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
@@ -11804,7 +11923,7 @@
         "24x7"
       ],
       "created": "2026-06-28",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7315"
     },
     {
@@ -12099,14 +12218,14 @@
     },
     {
       "key": "INC-7291",
-      "summary": "CUBEUAT2ELS05 - DISK CRITICAL - free space: /elasticdata 88542 MB (15% inode=99%);",
+      "summary": "Opsview Critical Alarm - CUBEUAT2ELS04, CUBEUAT2ELS05 - DISK CRITICAL - /elasticdata ",
       "status": "To Do",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-27",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7291"
     },
     {
