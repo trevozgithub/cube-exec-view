@@ -1,8 +1,46 @@
 {
-  "updated": "2026-07-08T11:12:30.988296Z",
-  "total": 49,
+  "updated": "2026-07-08T12:54:01.882696Z",
+  "total": 45,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations",
+      "status": "Scoping",
+      "assignee": "Julien Temim",
+      "duedate": "2026-06-19",
+      "reviewed": "2026-07-08",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": []
+    },
+    {
+      "key": "CPN-240",
+      "summary": "RegPlatform - Analyses and Insight Links from Content Store",
+      "status": "Post Launch Review",
+      "assignee": "George Brand",
+      "duedate": "2026-04-30",
+      "reviewed": "2026-07-08",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-240",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 23/06: Hypercare has ended. This can now be closed"
+        },
+        {
+          "type": "info",
+          "text": "Decision: Point UAT for Enterprise to prod CAS service - Cube Technology - Confluence"
+        }
+      ]
+    },
     {
       "key": "CPN-1119",
       "summary": "RegPlatform - DB Performance Q2 2026",
@@ -41,21 +79,6 @@
           "text": "06/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Migration of Acin, Kodex and 4C Risk repos is to be scheduled and completed. 2 Acin repos have been migrated. These will be reviewed and the remained scheduled. Kodex to be migrated 20 and 21 July. Discussion to be held with 4C regarding migration dates. The target to complete pipeline migration is end of August. A template pipeline will be created and shared with the teams, with the initial step to create documentation for this."
         }
       ]
-    },
-    {
-      "key": "CPN-1124",
-      "summary": "Obligations",
-      "status": "Scoping",
-      "assignee": "Julien Temim",
-      "duedate": "2026-06-19",
-      "reviewed": "2026-07-07",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": []
     },
     {
       "key": "CPN-1252",
@@ -201,27 +224,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1533",
       "panels": []
-    },
-    {
-      "key": "CPN-392",
-      "summary": "CUBE ISO27001 certification",
-      "status": "Operational Readiness",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "labels": [
-        "Acin",
-        "Consumer",
-        "InfoSec",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-392",
-      "panels": [
-        {
-          "type": "info",
-          "text": "ISO Certification Awarded -  Non conformance documentation to be submitted by Jul1st to secure certification    Audit ongoing - Interviews with 12 + teams across Cube including Legal, People, Infrastructure, Cloud, Security.  Expect to receive OFIs at a minimum   Audit dates confirmed Stage 1 22  and 23 April.  State 2 June 11th to 18th April.  Ongoing remediation of vulnerabilities across container packages, endpoints, servers in progress.  Reduced from peak of 200k to100k  currently.    Vulnerability Management Forum set up.  Still lot of work to do.  Machines to be decommissioned (VDIs etc.) - nearly complete Vendor supplier reviews (Critical) completed using Vanta.   InfoSec Risk register uploaded to vanta.   Risk Treatment procedure to be reviewed.   All other risks across Cube have been added to the register.  meetings to be set up with Executive leads.     Internal audit with Ash complete - findings to be addressed.  No major non conformities identified. Minor non conformities to be addressed in infosec session.  ISMS Documentation complete and policies uploaded for employee acknowledgement - 33% have completed the task.  Secure Code training rolled out to Development teams from Vanta - 100 % Complete Security training rolled out to all employees 24/02/2026 - 80% completion rate.  Cyber Training for new starters to be followed up  Vulnerability Scanning tool for web applications, Tenable, deployed by Ash Cyber  Remaining scope  for Content Engineering:  CUBE ISO27001 certification - remaining scope - Content Platform - Confluence"
-        }
-      ]
     },
     {
       "key": "CPN-53",
@@ -437,29 +439,6 @@
       ]
     },
     {
-      "key": "CPN-240",
-      "summary": "RegPlatform - Analyses and Insight Links from Content Store",
-      "status": "Post Launch Review",
-      "assignee": "Masoom Miah",
-      "duedate": "2026-04-30",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-240",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/06: Hypercare has ended. This can now be closed"
-        },
-        {
-          "type": "info",
-          "text": "Decision: Point UAT for Enterprise to prod CAS service - Cube Technology - Confluence"
-        }
-      ]
-    },
-    {
       "key": "CPN-636",
       "summary": "RegBook - Profiling Observability",
       "status": "Build & Test",
@@ -537,25 +516,6 @@
       ]
     },
     {
-      "key": "CPN-1040",
-      "summary": "RegPlatform - Kodex Screening Agent Integration MVP",
-      "status": "Post Launch Review",
-      "assignee": "Masoom Miah",
-      "duedate": "2026-05-21",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1040",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/06 : This is considered complete, however profile api work to support this is in progress and will be handled separately"
-        }
-      ]
-    },
-    {
       "key": "CPN-674",
       "summary": "RegConnect - ServiceNow Integration",
       "status": "Build & Test",
@@ -590,25 +550,6 @@
         {
           "type": "info",
           "text": "Status 23/06:  Was paused in Q2 due to competing priorities. This will be developed across Q3, but will sit lower in priority"
-        }
-      ]
-    },
-    {
-      "key": "CPN-564",
-      "summary": "RegTrend - News and Views",
-      "status": "Operational Readiness",
-      "assignee": "Masoom Miah",
-      "duedate": "2026-04-21",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-564",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/06:  Considered complete. Further enhancements will be handled separate to this initiative"
         }
       ]
     },
@@ -794,25 +735,6 @@
         {
           "type": "info",
           "text": "Status 17/12: Current approach is to design content and master data endpoints for Intel and Enterprise migration target customers (and new Enterprise customers) that represent our desired One API future state, and encourage existng Enterprise customers to them. The original proposal was to make these available on a single subdomain - connect.gocube.global.    There are two parts to this: API end point and contract design.  The starting point was a review of the convergence opportunities between Enterprise and proposed Intel.  Final design of content endpoints is in progress. Technical design to have all sit between connect but be accessible on same or similar domain.  Sid has presented initial proposal.  Needs completion and sign-off."
-        }
-      ]
-    },
-    {
-      "key": "CPN-652",
-      "summary": "RegPlatform - Feature Flagging",
-      "status": "Planning",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-01-23",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-652",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/01: No further work planned at the moment although reviewing with Rohit who is gathering more details to determine whether we continue Status 09/01: Sysadmin was demoed. Action is on Rohit and Clarissa to derive any further requirements E.g. Bulk Edit. Once we have this we can plan and commit"
         }
       ]
     },

@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-08T11:12:56.673608Z",
-  "total": 2331,
+  "updated": "2026-07-08T12:54:27.148363Z",
+  "total": 2328,
   "items": [
+    {
+      "key": "INC-8424",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8424"
+    },
+    {
+      "key": "INC-8423",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8423"
+    },
     {
       "key": "INC-8422",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -81,11 +105,13 @@
     {
       "key": "INC-8416",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8416"
@@ -215,11 +241,13 @@
     {
       "key": "INC-8405",
       "summary": "Uptrends - connect.gocube.global",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8405"
@@ -565,7 +593,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8377"
     },
     {
@@ -1060,11 +1088,13 @@
     {
       "key": "INC-8336",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8336"
@@ -1280,7 +1310,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8319"
     },
     {
@@ -4119,7 +4149,7 @@
     {
       "key": "INC-8087",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4129,7 +4159,7 @@
         "newrelic"
       ],
       "created": "2026-07-06",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8087"
     },
     {
@@ -28719,72 +28749,6 @@
       "created": "2026-06-08",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-5993"
-    },
-    {
-      "key": "INC-5976",
-      "summary": "CLONE - Automated Ticket Creation for Closed issues in NewRelic",
-      "status": "Completed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5976"
-    },
-    {
-      "key": "INC-5975",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5975"
-    },
-    {
-      "key": "INC-5974",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5974"
-    },
-    {
-      "key": "INC-5972",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5972"
-    },
-    {
-      "key": "INC-5971",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5971"
     }
   ]
 }
