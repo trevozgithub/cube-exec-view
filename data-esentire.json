@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-08T22:29:55.253324Z",
-  "total": 2334,
+  "updated": "2026-07-08T23:40:45.999799Z",
+  "total": 2336,
   "items": [
+    {
+      "key": "INC-8453",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8453"
+    },
+    {
+      "key": "INC-8452",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8452"
+    },
+    {
+      "key": "INC-8451",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8451"
+    },
     {
       "key": "INC-8450",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -29,7 +65,7 @@
     {
       "key": "INC-8448",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -9408,11 +9444,13 @@
     {
       "key": "INC-7677",
       "summary": "AKS PROD Lag Alert - 1m",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Schubert Pereira",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-02",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7677"
@@ -28810,18 +28848,6 @@
       "created": "2026-06-09",
       "updated": "2026-06-09",
       "url": "https://cube001.atlassian.net/browse/INC-5997"
-    },
-    {
-      "key": "INC-5996",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5996"
     }
   ]
 }
