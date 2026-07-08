@@ -1,7 +1,81 @@
 {
-  "updated": "2026-07-08T12:54:27.148363Z",
-  "total": 2328,
+  "updated": "2026-07-08T15:21:50.856487Z",
+  "total": 2329,
   "items": [
+    {
+      "key": "INC-8430",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8430"
+    },
+    {
+      "key": "INC-8429",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8429"
+    },
+    {
+      "key": "INC-8428",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8428"
+    },
+    {
+      "key": "INC-8427",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8427"
+    },
+    {
+      "key": "INC-8426",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8426"
+    },
+    {
+      "key": "INC-8425",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8425"
+    },
     {
       "key": "INC-8424",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -587,11 +661,13 @@
     {
       "key": "INC-8377",
       "summary": "Failed Veeam Backup - Cube RGP PROD Data",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8377"
@@ -669,7 +745,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-07",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8370"
     },
     {
@@ -778,7 +854,7 @@
       "key": "INC-8361",
       "summary": "VM piuattranslate-be-01 - stopped",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -793,7 +869,7 @@
       "key": "INC-8360",
       "summary": "VT-vCenter-DS - METRIC CRITICAL - Datastore Usage is 98.08% ",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -1305,7 +1381,7 @@
       "key": "INC-8319",
       "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
       "status": "To Do",
-      "assignee": "Yinka Shoge",
+      "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -5619,11 +5695,13 @@
     {
       "key": "INC-7966",
       "summary": "June-2026: Evergreen patching CUBE-PROD2 - Multiple Patching Error Encountered",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-05",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7966"
@@ -7007,7 +7085,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-04",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7860"
     },
     {
@@ -9094,7 +9172,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-02",
-      "updated": "2026-07-05",
+      "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-7677"
     },
     {
@@ -28685,70 +28763,6 @@
       "created": "2026-06-08",
       "updated": "2026-06-08",
       "url": "https://cube001.atlassian.net/browse/INC-5981"
-    },
-    {
-      "key": "INC-5980",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5980"
-    },
-    {
-      "key": "INC-5979",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5979"
-    },
-    {
-      "key": "INC-5978",
-      "summary": "Insight Summary services are facing 403",
-      "status": "Completed",
-      "assignee": "Ankur Soni",
-      "priority": "P1",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5978"
-    },
-    {
-      "key": "INC-5977",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5977"
-    },
-    {
-      "key": "INC-5993",
-      "summary": "ATLAS NOTIFICATION: CS4464455 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5993"
     }
   ]
 }
