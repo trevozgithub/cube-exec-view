@@ -1,15 +1,53 @@
 {
-  "updated": "2026-07-07T22:59:07.401612Z",
-  "total": 2318,
+  "updated": "2026-07-08T00:08:16.135703Z",
+  "total": 2320,
   "items": [
     {
-      "key": "INC-8376",
+      "key": "INC-8379",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8379"
+    },
+    {
+      "key": "INC-8378",
       "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8378"
+    },
+    {
+      "key": "INC-8377",
+      "summary": "Failed Veeam Backup - Cube RGP PROD Data",
       "status": "To Do",
-      "assignee": "Silver Dangeros",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-07-07",
+      "updated": "2026-07-07",
+      "url": "https://cube001.atlassian.net/browse/INC-8377"
+    },
+    {
+      "key": "INC-8376",
+      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8376"
@@ -216,7 +254,7 @@
       "key": "INC-8358",
       "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
       "status": "To Do",
-      "assignee": "Andrei Item",
+      "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -1281,7 +1319,7 @@
     {
       "key": "INC-8270",
       "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -28606,18 +28644,6 @@
       "created": "2026-06-08",
       "updated": "2026-06-08",
       "url": "https://cube001.atlassian.net/browse/INC-5939"
-    },
-    {
-      "key": "INC-5938",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5938"
     }
   ]
 }
