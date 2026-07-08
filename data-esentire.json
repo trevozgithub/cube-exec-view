@@ -1,7 +1,60 @@
 {
-  "updated": "2026-07-08T15:21:50.856487Z",
-  "total": 2329,
+  "updated": "2026-07-08T16:55:21.854343Z",
+  "total": 2327,
   "items": [
+    {
+      "key": "INC-8434",
+      "summary": "GitHub Service Disruption - Pipelines & Git Pull/Push Affected",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8434"
+    },
+    {
+      "key": "INC-8433",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8433"
+    },
+    {
+      "key": "INC-8432",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8432"
+    },
+    {
+      "key": "INC-8431",
+      "summary": "VT-vCenter-DS - METRIC CRITICAL - Datastore Usage is 98.08%",
+      "status": "To Do",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "opsview",
+        "vt-cust-cmp"
+      ],
+      "created": "2026-07-08",
+      "updated": "2026-07-08",
+      "url": "https://cube001.atlassian.net/browse/INC-8431"
+    },
     {
       "key": "INC-8430",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
@@ -19,11 +72,13 @@
     {
       "key": "INC-8429",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8429"
@@ -864,21 +919,6 @@
       "created": "2026-07-07",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8361"
-    },
-    {
-      "key": "INC-8360",
-      "summary": "VT-vCenter-DS - METRIC CRITICAL - Datastore Usage is 98.08% ",
-      "status": "To Do",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "opsview",
-        "vt-cust-cmp"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8360"
     },
     {
       "key": "INC-8359",
@@ -28694,75 +28734,6 @@
       "created": "2026-06-08",
       "updated": "2026-06-08",
       "url": "https://cube001.atlassian.net/browse/INC-5985"
-    },
-    {
-      "key": "INC-5984",
-      "summary": "Critical notification delivery issue affecting multiple clients",
-      "status": "Completed",
-      "assignee": "Vaishali Narayanan",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-5984"
-    },
-    {
-      "key": "INC-5983",
-      "summary": "Possible scheduler issue: 7,500+ RegPlatform books failed to execute.",
-      "status": "Completed",
-      "assignee": "Ishara Lakshitha",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Urgent_Issues"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5983"
-    },
-    {
-      "key": "INC-5992",
-      "summary": "ATLAS NOTIFICATION: CS4464692 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5992"
-    },
-    {
-      "key": "INC-5982",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-08",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-5982"
-    },
-    {
-      "key": "INC-5981",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-08",
-      "updated": "2026-06-08",
-      "url": "https://cube001.atlassian.net/browse/INC-5981"
     }
   ]
 }
