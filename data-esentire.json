@@ -1,7 +1,46 @@
 {
-  "updated": "2026-07-09T22:04:19.594997Z",
-  "total": 2411,
+  "updated": "2026-07-09T23:34:10.895475Z",
+  "total": 2413,
   "items": [
+    {
+      "key": "INC-8580",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "url": "https://cube001.atlassian.net/browse/INC-8580"
+    },
+    {
+      "key": "INC-8579",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "url": "https://cube001.atlassian.net/browse/INC-8579"
+    },
+    {
+      "key": "INC-8578",
+      "summary": "[UAT] Resource Usage Alerts - CUBEUAT2APP01, cubeuat2els04, cubeuat2els05 ",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "newrelic"
+      ],
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "url": "https://cube001.atlassian.net/browse/INC-8578"
+    },
     {
       "key": "INC-8577",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -1171,11 +1210,13 @@
     {
       "key": "INC-8485",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9392",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-09",
       "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8485"
@@ -1692,7 +1733,10 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff"
+      ],
       "created": "2026-07-08",
       "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8444"
@@ -29792,18 +29836,6 @@
       "created": "2026-06-09",
       "updated": "2026-06-09",
       "url": "https://cube001.atlassian.net/browse/INC-6048"
-    },
-    {
-      "key": "INC-6046",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-6046"
     }
   ]
 }
