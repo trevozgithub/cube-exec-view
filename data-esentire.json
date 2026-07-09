@@ -1,12 +1,50 @@
 {
-  "updated": "2026-07-09T05:13:19.250634Z",
-  "total": 2354,
+  "updated": "2026-07-09T08:48:18.677852Z",
+  "total": 2347,
   "items": [
+    {
+      "key": "INC-8474",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "url": "https://cube001.atlassian.net/browse/INC-8474"
+    },
+    {
+      "key": "INC-8473",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "url": "https://cube001.atlassian.net/browse/INC-8473"
+    },
+    {
+      "key": "INC-8472",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-09",
+      "updated": "2026-07-09",
+      "url": "https://cube001.atlassian.net/browse/INC-8472"
+    },
     {
       "key": "INC-8471",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,11 +55,14 @@
     {
       "key": "INC-8470",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-07-09",
       "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8470"
@@ -145,7 +186,7 @@
     {
       "key": "INC-8460",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -353,7 +394,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8444"
     },
     {
@@ -475,11 +516,13 @@
     {
       "key": "INC-8434",
       "summary": "GitHub Service Disruption - Pipelines & Git Pull/Push Affected",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-08",
       "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8434"
@@ -513,7 +556,7 @@
     {
       "key": "INC-8431",
       "summary": "VT-vCenter-DS - METRIC CRITICAL - Datastore Usage is 98.08%",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -522,7 +565,7 @@
         "vt-cust-cmp"
       ],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8431"
     },
     {
@@ -850,7 +893,7 @@
         "24x7"
       ],
       "created": "2026-07-08",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8405"
     },
     {
@@ -1389,7 +1432,7 @@
         "VM"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8361"
     },
     {
@@ -1519,7 +1562,7 @@
     {
       "key": "INC-8347",
       "summary": "multiple occurrences internal and external - Intel not loading",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -1528,7 +1571,7 @@
         "Intel"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8347"
     },
     {
@@ -1898,7 +1941,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-07",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8319"
     },
     {
@@ -2820,7 +2863,7 @@
         "24x7"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8243"
     },
     {
@@ -7597,7 +7640,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-04",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-7860"
     },
     {
@@ -28954,134 +28997,6 @@
       "created": "2026-06-09",
       "updated": "2026-06-09",
       "url": "https://cube001.atlassian.net/browse/INC-6008"
-    },
-    {
-      "key": "INC-6007",
-      "summary": "Daily master data sync in UAT has been failing since 2 June 2026",
-      "status": "Completed",
-      "assignee": "Muhammad Jahangir",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-09",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-6007"
-    },
-    {
-      "key": "INC-6006",
-      "summary": "Opsview Critical Alarm - CUBEPROD2ELK04 & CUBEPROD2ELK06 - Disk: /elasticdata",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-09",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-6006"
-    },
-    {
-      "key": "INC-6005",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-6005"
-    },
-    {
-      "key": "INC-6004",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-6004"
-    },
-    {
-      "key": "INC-6003",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #59145",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-6003"
-    },
-    {
-      "key": "INC-6002",
-      "summary": "P1: LIVE Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-09",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6002"
-    },
-    {
-      "key": "INC-6001",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #59144",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-09",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6001"
-    },
-    {
-      "key": "INC-6000",
-      "summary": "P1: LIVE Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-6000"
-    },
-    {
-      "key": "INC-5999",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #59144",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-5999"
-    },
-    {
-      "key": "INC-5997",
-      "summary": "CUBEPROD1TRN02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-09",
-      "updated": "2026-06-09",
-      "url": "https://cube001.atlassian.net/browse/INC-5997"
     }
   ]
 }
