@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T14:17:00.778966Z",
+  "updated": "2026-07-09T16:46:50.113376Z",
   "total": 45,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
@@ -16,6 +16,28 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1618",
       "panels": []
+    },
+    {
+      "key": "CPN-44",
+      "summary": "RegFlow - Refactor Ph1 (e2e automated tests, processing service spike)",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "2026-03-31",
+      "reviewed": "2026-07-09",
+      "labels": [
+        "Consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-44",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 16/03: Step 2 Processing Service:  We have a DEV environment and are working on a simple vertical slice to validate auth. Working with cloud team to spin up environments beyond DEV     Step 1 End-2-End Automated Tests:  As of this update the team have automated  113/153 (73%)  end to end tests.           RegFlow - Refactor Tickets & Tracking - Cube RegPlatform - Confluence RegFlow Overhaul Strategy Documen t"
+        },
+        {
+          "type": "note",
+          "text": "Plan for a plan under review Ben meeting to agree approach and plan to be scheduled following product spec sign off. Expanded team to re-factor regflow outside of deployment -       to agree team struture. Product specification document sign-off needed - document updated and with    for sign off. Review of e2e test coverage - automated test engineer needed - resources to be identified and priority call needed. API enhancements to decouple form updates from deployments. Timeline to run to end 2025, to be split into quarterly committments10"
+        }
+      ]
     },
     {
       "key": "CPN-1124",
@@ -429,28 +451,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1529",
       "panels": []
-    },
-    {
-      "key": "CPN-44",
-      "summary": "RegFlow - Refactor Ph1 (e2e automated tests, processing service spike)",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-44",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 16/03: Step 2 Processing Service:  We have a DEV environment and are working on a simple vertical slice to validate auth. Working with cloud team to spin up environments beyond DEV     Step 1 End-2-End Automated Tests:  As of this update the team have automated  113/153 (73%)  end to end tests.           RegFlow - Refactor Tickets & Tracking - Cube RegPlatform - Confluence RegFlow Overhaul Strategy Documen t"
-        },
-        {
-          "type": "note",
-          "text": "Plan for a plan under review Ben meeting to agree approach and plan to be scheduled following product spec sign off. Expanded team to re-factor regflow outside of deployment -       to agree team struture. Product specification document sign-off needed - document updated and with    for sign off. Review of e2e test coverage - automated test engineer needed - resources to be identified and priority call needed. API enhancements to decouple form updates from deployments. Timeline to run to end 2025, to be split into quarterly committments10"
-        }
-      ]
     },
     {
       "key": "CPN-636",
