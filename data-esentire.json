@@ -1,7 +1,81 @@
 {
-  "updated": "2026-07-10T16:01:23.969844Z",
-  "total": 2442,
+  "updated": "2026-07-10T17:56:46.358485Z",
+  "total": 2437,
   "items": [
+    {
+      "key": "INC-8641",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8641"
+    },
+    {
+      "key": "INC-8640",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8640"
+    },
+    {
+      "key": "INC-8639",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8639"
+    },
+    {
+      "key": "INC-8638",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8638"
+    },
+    {
+      "key": "INC-8637",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8637"
+    },
+    {
+      "key": "INC-8636",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8636"
+    },
     {
       "key": "INC-8635",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -67,7 +141,7 @@
     {
       "key": "INC-8630",
       "summary": "DT-CUBE-FGT01 - Interface: port1 - CRITICAL status",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -23596,8 +23670,8 @@
     },
     {
       "key": "INC-6613",
-      "summary": "TEST - RCA - PROD - No new insights found within the last 2 hours",
-      "status": "Completed",
+      "summary": "TEST - RCA - PROD/UAT - No problem found",
+      "status": "In Progress",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -23606,7 +23680,7 @@
         "Test-Case"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-19",
+      "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-6613"
     },
     {
@@ -30060,146 +30134,6 @@
       "created": "2026-06-10",
       "updated": "2026-06-10",
       "url": "https://cube001.atlassian.net/browse/INC-6083"
-    },
-    {
-      "key": "INC-6082",
-      "summary": "AMER - P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6082"
-    },
-    {
-      "key": "INC-6081",
-      "summary": "AMER - PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6081"
-    },
-    {
-      "key": "INC-6080",
-      "summary": "CLONE - PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6080"
-    },
-    {
-      "key": "INC-6078",
-      "summary": "AMER - PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6078"
-    },
-    {
-      "key": "INC-6091",
-      "summary": "ATLAS NOTIFICATION: CS4469048 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-10",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6091"
-    },
-    {
-      "key": "INC-6077",
-      "summary": "PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-10",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6077"
-    },
-    {
-      "key": "INC-6076",
-      "summary": "PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6076"
-    },
-    {
-      "key": "INC-6075",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6075"
-    },
-    {
-      "key": "INC-6092",
-      "summary": "Auth0 - Login Activity from Infrequent Country",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-10",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6092"
-    },
-    {
-      "key": "INC-6074",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6074"
-    },
-    {
-      "key": "INC-6093",
-      "summary": "ATLAS NOTIFICATION: CS4468955 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-10",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6093"
     }
   ]
 }

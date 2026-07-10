@@ -1,8 +1,26 @@
 {
-  "updated": "2026-07-10T16:01:05.835828Z",
+  "updated": "2026-07-10T17:56:27.952010Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-07-10",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete. Deployments of SFTP servers will begin WC"
+        }
+      ]
+    },
     {
       "key": "CPN-1420",
       "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
@@ -88,24 +106,6 @@
         {
           "type": "info",
           "text": "6/7/2026 For  4crisk.ai  waiting for Supradeep to confirm when we can complete the transfer. Scheduled for 21st of July   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin Registrar migration will be completed next week when Giuseppe is back from leave and Acin release is completed this week."
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-07-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete. Deployments of SFTP servers will begin WC"
         }
       ]
     },
