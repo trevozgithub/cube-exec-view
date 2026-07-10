@@ -1,8 +1,45 @@
 {
-  "updated": "2026-07-10T13:32:51.862587Z",
+  "updated": "2026-07-10T16:01:05.835828Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1420",
+      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-10-29",
+      "reviewed": "2026-07-10",
+      "labels": [
+        "Kodex",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Following the call with Claus, George created a Miro board outlining the proposed workflow:  Kodex AI - Miro .  Awaiting the confirmation from George the design can be passed to TechOps team for creation in Jira."
+        }
+      ]
+    },
+    {
+      "key": "CPN-930",
+      "summary": "Cabot - Sunset of Documentum",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "2027-03-01",
+      "reviewed": "2026-07-10",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "8/07/2026 Had a meeting, summary in comments. David not yet able to confirm if TDD provides all the details they need. At next call (29th July) will need to confirm timelines and SOW"
+        }
+      ]
+    },
     {
       "key": "CPN-703",
       "summary": "Enterprise in the cloud - Phase 2",
@@ -88,24 +125,6 @@
         {
           "type": "info",
           "text": "06/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned."
-        }
-      ]
-    },
-    {
-      "key": "CPN-930",
-      "summary": "Cabot - Sunset of Documentum",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "2027-03-01",
-      "reviewed": "2026-07-08",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930",
-      "panels": [
-        {
-          "type": "info",
-          "text": "8/07/2026 Had a meeting, summary in comments. David not yet able to confirm if TDD provides all the details they need. At next call (29th July) will need to confirm timelines and SOW"
         }
       ]
     },
@@ -244,25 +263,6 @@
         {
           "type": "info",
           "text": "06/07/26 ProtonVPN has been onboarded. Ticket for Proton VPN subscription -        to action set up of Proton VPN."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1420",
-      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-10-29",
-      "reviewed": "2026-07-06",
-      "labels": [
-        "Kodex",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Following the call with Claus, George created a Miro board outlining the proposed workflow:  Kodex AI - Miro .  Awaiting the confirmation from George the design can be passed to TechOps team for creation in Jira."
         }
       ]
     },
