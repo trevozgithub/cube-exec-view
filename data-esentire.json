@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-10T19:41:31.033088Z",
-  "total": 2444,
+  "updated": "2026-07-10T20:53:45.528138Z",
+  "total": 2442,
   "items": [
+    {
+      "key": "INC-8657",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8657"
+    },
+    {
+      "key": "INC-8656",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8656"
+    },
+    {
+      "key": "INC-8655",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-10",
+      "updated": "2026-07-10",
+      "url": "https://cube001.atlassian.net/browse/INC-8655"
+    },
     {
       "key": "INC-8654",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
@@ -41,11 +77,13 @@
     {
       "key": "INC-8651",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8651"
@@ -30158,66 +30196,6 @@
       "created": "2026-06-10",
       "updated": "2026-06-10",
       "url": "https://cube001.atlassian.net/browse/INC-6098"
-    },
-    {
-      "key": "INC-6097",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6097"
-    },
-    {
-      "key": "INC-6096",
-      "summary": "PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6096"
-    },
-    {
-      "key": "INC-6095",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6095"
-    },
-    {
-      "key": "INC-6090",
-      "summary": "PROBLEM: Base - Additional Drives: E is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6090"
-    },
-    {
-      "key": "INC-6089",
-      "summary": "AMER - P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-10",
-      "updated": "2026-06-10",
-      "url": "https://cube001.atlassian.net/browse/INC-6089"
     }
   ]
 }
