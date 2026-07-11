@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-10T23:09:35.321574Z",
+  "updated": "2026-07-11T00:09:31.963993Z",
   "total": 2440,
   "items": [
+    {
+      "key": "INC-8663",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "In Triage",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-11",
+      "updated": "2026-07-11",
+      "url": "https://cube001.atlassian.net/browse/INC-8663"
+    },
+    {
+      "key": "INC-8662",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-11",
+      "updated": "2026-07-11",
+      "url": "https://cube001.atlassian.net/browse/INC-8662"
+    },
     {
       "key": "INC-8661",
       "summary": "A replication error occurred at the vSphere Replication Server for replication 'CUBEPROD1SQL04'.",
@@ -9,7 +33,10 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8661"
@@ -351,7 +378,9 @@
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8633"
@@ -30148,30 +30177,6 @@
       "created": "2026-06-11",
       "updated": "2026-06-11",
       "url": "https://cube001.atlassian.net/browse/INC-6106"
-    },
-    {
-      "key": "INC-6105",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6105"
-    },
-    {
-      "key": "INC-6104",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6104"
     }
   ]
 }
