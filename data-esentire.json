@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-11T03:42:57.739072Z",
-  "total": 2383,
+  "updated": "2026-07-11T06:02:45.956855Z",
+  "total": 2377,
   "items": [
+    {
+      "key": "INC-8668",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-11",
+      "updated": "2026-07-11",
+      "url": "https://cube001.atlassian.net/browse/INC-8668"
+    },
     {
       "key": "INC-8667",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -362,13 +374,16 @@
     {
       "key": "INC-8638",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
       "created": "2026-07-10",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8638"
     },
     {
@@ -480,9 +495,12 @@
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
       "created": "2026-07-10",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8629"
     },
     {
@@ -1117,7 +1135,7 @@
         "newrelic"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8578"
     },
     {
@@ -29399,94 +29417,6 @@
       "created": "2026-06-11",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-6174"
-    },
-    {
-      "key": "INC-6171",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6171"
-    },
-    {
-      "key": "INC-6170",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6170"
-    },
-    {
-      "key": "INC-6169",
-      "summary": "Opsview Critical Alarm -  Multiple vSphere - vCenters - NTP connection error",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6169"
-    },
-    {
-      "key": "INC-6168",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6168"
-    },
-    {
-      "key": "INC-6167",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6167"
-    },
-    {
-      "key": "INC-6166",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6166"
-    },
-    {
-      "key": "INC-6165",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6165"
     }
   ]
 }
