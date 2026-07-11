@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T18:12:42.698074Z",
-  "total": 2332,
+  "updated": "2026-07-11T19:34:13.997221Z",
+  "total": 2331,
   "items": [
     {
       "key": "INC-8680",
@@ -440,11 +440,13 @@
     {
       "key": "INC-8645",
       "summary": "VT-vCenter-DS - monitoring Datastore Usage is 98.79%",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-10",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8645"
@@ -28847,18 +28849,6 @@
       "created": "2026-06-11",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6234"
-    },
-    {
-      "key": "INC-6231",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6231"
     }
   ]
 }
