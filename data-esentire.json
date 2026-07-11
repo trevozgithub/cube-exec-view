@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-11T12:40:24.412177Z",
-  "total": 2341,
+  "updated": "2026-07-11T14:11:43.003459Z",
+  "total": 2333,
   "items": [
+    {
+      "key": "INC-8679",
+      "summary": "DR-VEEAMPRX01 - Base - Additional Drives: E (100.0%), Free=512KB (0.0%)",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-11",
+      "updated": "2026-07-11",
+      "url": "https://cube001.atlassian.net/browse/INC-8679"
+    },
     {
       "key": "INC-8678",
       "summary": "Opsview - CUBEDEV2FS01 - Base - Additional Drives: E - CRITICAL",
@@ -415,12 +427,12 @@
       "key": "INC-8645",
       "summary": "VT-vCenter-DS - monitoring Datastore Usage is 98.79%",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-10",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8645"
     },
     {
@@ -28857,122 +28869,6 @@
       "created": "2026-06-11",
       "updated": "2026-06-11",
       "url": "https://cube001.atlassian.net/browse/INC-6229"
-    },
-    {
-      "key": "INC-6228",
-      "summary": "ATLAS NOTIFICATION: CS4470735 - INFO - BENIGN - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6228"
-    },
-    {
-      "key": "INC-6227",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6227"
-    },
-    {
-      "key": "INC-6226",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6226"
-    },
-    {
-      "key": "INC-6225",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1TRN02",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6225"
-    },
-    {
-      "key": "INC-6224",
-      "summary": "PROD RM - Stuck in loading issue",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6224"
-    },
-    {
-      "key": "INC-6223",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6223"
-    },
-    {
-      "key": "INC-6222",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6222"
-    },
-    {
-      "key": "INC-6221",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6221"
-    },
-    {
-      "key": "INC-6220",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6220"
     }
   ]
 }
