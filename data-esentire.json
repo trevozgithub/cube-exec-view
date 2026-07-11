@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T11:39:30.005121Z",
-  "total": 2342,
+  "updated": "2026-07-11T12:40:24.412177Z",
+  "total": 2341,
   "items": [
     {
       "key": "INC-8678",
@@ -53,11 +53,13 @@
     {
       "key": "INC-8674",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8674"
@@ -65,11 +67,13 @@
     {
       "key": "INC-8673",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8673"
@@ -3806,7 +3810,7 @@
         "24x7"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-08",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8377"
     },
     {
@@ -28969,18 +28973,6 @@
       "created": "2026-06-11",
       "updated": "2026-06-11",
       "url": "https://cube001.atlassian.net/browse/INC-6220"
-    },
-    {
-      "key": "INC-6219",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://cube001.atlassian.net/browse/INC-6219"
     }
   ]
 }
