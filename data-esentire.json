@@ -1,12 +1,24 @@
 {
-  "updated": "2026-07-11T22:23:02.874004Z",
-  "total": 2331,
+  "updated": "2026-07-11T23:24:19.057921Z",
+  "total": 2332,
   "items": [
+    {
+      "key": "INC-8685",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-11",
+      "updated": "2026-07-11",
+      "url": "https://cube001.atlassian.net/browse/INC-8685"
+    },
     {
       "key": "INC-8684",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -195,7 +207,12 @@
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Backups",
+        "DRP-PROD",
+        "Daily-Checks",
+        "veeam"
+      ],
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8669"
@@ -3964,7 +3981,7 @@
         "24x7"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8370"
     },
     {
@@ -8747,7 +8764,7 @@
         "health-check"
       ],
       "created": "2026-07-05",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-7979"
     },
     {
@@ -10107,7 +10124,7 @@
         "opsview"
       ],
       "created": "2026-07-04",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-7867"
     },
     {
@@ -15669,7 +15686,7 @@
         "24x7"
       ],
       "created": "2026-06-28",
-      "updated": "2026-07-10",
+      "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-7315"
     },
     {
