@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T14:18:01.047430Z",
-  "total": 2329,
+  "updated": "2026-07-12T15:30:03.773771Z",
+  "total": 2326,
   "items": [
     {
       "key": "INC-8716",
@@ -17,11 +17,13 @@
     {
       "key": "INC-8715",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8715"
@@ -28805,42 +28807,6 @@
       "created": "2026-06-12",
       "updated": "2026-06-12",
       "url": "https://cube001.atlassian.net/browse/INC-6273"
-    },
-    {
-      "key": "INC-6272",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6272"
-    },
-    {
-      "key": "INC-6271",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6271"
-    },
-    {
-      "key": "INC-6270",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6270"
     }
   ]
 }
