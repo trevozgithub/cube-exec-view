@@ -1,12 +1,72 @@
 {
-  "updated": "2026-07-12T20:33:22.101634Z",
-  "total": 2319,
+  "updated": "2026-07-12T21:29:00.865066Z",
+  "total": 2323,
   "items": [
     {
-      "key": "INC-8725",
+      "key": "INC-8730",
       "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8730"
+    },
+    {
+      "key": "INC-8729",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8729"
+    },
+    {
+      "key": "INC-8728",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8728"
+    },
+    {
+      "key": "INC-8727",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8727"
+    },
+    {
+      "key": "INC-8726",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8726"
+    },
+    {
+      "key": "INC-8725",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,11 +89,13 @@
     {
       "key": "INC-8723",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8723"
@@ -28711,18 +28773,6 @@
       "created": "2026-06-12",
       "updated": "2026-06-12",
       "url": "https://cube001.atlassian.net/browse/INC-6290"
-    },
-    {
-      "key": "INC-6289",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6289"
     }
   ]
 }
