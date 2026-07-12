@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T12:43:45.692077Z",
-  "total": 2337,
+  "updated": "2026-07-12T14:18:01.047430Z",
+  "total": 2329,
   "items": [
     {
       "key": "INC-8716",
@@ -41,11 +41,13 @@
     {
       "key": "INC-8713",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9463",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8713"
@@ -28839,106 +28841,6 @@
       "created": "2026-06-12",
       "updated": "2026-06-12",
       "url": "https://cube001.atlassian.net/browse/INC-6270"
-    },
-    {
-      "key": "INC-6269",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6269"
-    },
-    {
-      "key": "INC-6268",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6268"
-    },
-    {
-      "key": "INC-6267",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6267"
-    },
-    {
-      "key": "INC-6266",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6266"
-    },
-    {
-      "key": "INC-6265",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-12",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6265"
-    },
-    {
-      "key": "INC-6264",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6264"
-    },
-    {
-      "key": "INC-6263",
-      "summary": "High Translation Service Backlog",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-12",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6263"
-    },
-    {
-      "key": "INC-6262",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6262"
     }
   ]
 }
