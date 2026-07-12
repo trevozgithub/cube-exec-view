@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-12T09:19:25.156786Z",
-  "total": 2337,
+  "updated": "2026-07-12T10:48:37.816375Z",
+  "total": 2332,
   "items": [
+    {
+      "key": "INC-8707",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "In Triage",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8707"
+    },
+    {
+      "key": "INC-8706",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8706"
+    },
+    {
+      "key": "INC-8708",
+      "summary": "ATLAS NOTIFICATION: CS4503786 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
+      "status": "To Do",
+      "assignee": "Muhim Hussen",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8708"
+    },
     {
       "key": "INC-8705",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
@@ -29,11 +65,13 @@
     {
       "key": "INC-8703",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8703"
@@ -77,11 +115,13 @@
     {
       "key": "INC-8699",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8699"
@@ -965,7 +1005,7 @@
       "key": "INC-8629",
       "summary": "DM-MGMT01 - Base - C Drive CRITICAL - [Triggered by _Used%>98] ",
       "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -28835,108 +28875,6 @@
       "created": "2026-06-12",
       "updated": "2026-06-12",
       "url": "https://cube001.atlassian.net/browse/INC-6259"
-    },
-    {
-      "key": "INC-6258",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-12",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6258"
-    },
-    {
-      "key": "INC-6257",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6257"
-    },
-    {
-      "key": "INC-6256",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-12",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6256"
-    },
-    {
-      "key": "INC-6255",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6255"
-    },
-    {
-      "key": "INC-6254",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-12",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6254"
-    },
-    {
-      "key": "INC-6253",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6253"
-    },
-    {
-      "key": "INC-6252",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6252"
-    },
-    {
-      "key": "INC-6251",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6251"
     }
   ]
 }
