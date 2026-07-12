@@ -1,15 +1,29 @@
 {
-  "updated": "2026-07-12T17:38:35.435508Z",
-  "total": 2323,
+  "updated": "2026-07-12T18:37:44.073738Z",
+  "total": 2319,
   "items": [
+    {
+      "key": "INC-8721",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8721"
+    },
     {
       "key": "INC-8720",
       "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
       "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8720"
@@ -28711,68 +28725,6 @@
       "created": "2026-06-12",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-6285"
-    },
-    {
-      "key": "INC-6284",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-12",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6284"
-    },
-    {
-      "key": "INC-6283",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6283"
-    },
-    {
-      "key": "INC-6282",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6282"
-    },
-    {
-      "key": "INC-6281",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6281"
-    },
-    {
-      "key": "INC-6280",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6280"
     }
   ]
 }
