@@ -1,12 +1,39 @@
 {
-  "updated": "2026-07-11T23:24:19.057921Z",
+  "updated": "2026-07-12T01:04:06.313930Z",
   "total": 2332,
   "items": [
     {
+      "key": "INC-8687",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8687"
+    },
+    {
+      "key": "INC-8686",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Systran",
+        "alerts"
+      ],
+      "created": "2026-07-11",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8686"
+    },
+    {
       "key": "INC-8685",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -523,9 +550,13 @@
       "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "ingestion",
+        "newrelic"
+      ],
       "created": "2026-07-10",
-      "updated": "2026-07-10",
+      "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8644"
     },
     {
@@ -719,7 +750,7 @@
         "opsview"
       ],
       "created": "2026-07-10",
-      "updated": "2026-07-11",
+      "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8629"
     },
     {
@@ -1351,10 +1382,11 @@
       "issuetype": "Service Incident",
       "labels": [
         "24x7",
+        "Daily-Checks",
         "newrelic"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-11",
+      "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8578"
     },
     {
@@ -2799,9 +2831,13 @@
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Alerts-From-Staff",
+        "Daily-Checks",
+        "newrelic"
+      ],
       "created": "2026-07-09",
-      "updated": "2026-07-11",
+      "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8464"
     },
     {
@@ -28838,32 +28874,6 @@
       "created": "2026-06-12",
       "updated": "2026-06-12",
       "url": "https://cube001.atlassian.net/browse/INC-6238"
-    },
-    {
-      "key": "INC-6237",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-12",
-      "updated": "2026-06-12",
-      "url": "https://cube001.atlassian.net/browse/INC-6237"
-    },
-    {
-      "key": "INC-6236",
-      "summary": "PROD/UAT API Health Check \u2013 Pipeline Run Fails Due to Missing Service Connection",
-      "status": "Completed",
-      "assignee": "Priyanka Bali",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-11",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6236"
     }
   ]
 }
