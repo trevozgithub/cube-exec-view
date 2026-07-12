@@ -1,7 +1,60 @@
 {
-  "updated": "2026-07-12T01:04:06.313930Z",
-  "total": 2332,
+  "updated": "2026-07-12T04:34:58.448307Z",
+  "total": 2336,
   "items": [
+    {
+      "key": "INC-8691",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8691"
+    },
+    {
+      "key": "INC-8690",
+      "summary": "Opsview - Critical Alarm - AzureWebApp_dev-business-app_dev-app.gocube.global",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8690"
+    },
+    {
+      "key": "INC-8689",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Systran",
+        "Translation",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8689"
+    },
+    {
+      "key": "INC-8688",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-12",
+      "updated": "2026-07-12",
+      "url": "https://cube001.atlassian.net/browse/INC-8688"
+    },
     {
       "key": "INC-8687",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -4641,9 +4694,14 @@
       "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ELKAlert",
+        "LIVE",
+        "alerts",
+        "schedularservice"
+      ],
       "created": "2026-07-07",
-      "updated": "2026-07-09",
+      "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-8319"
     },
     {
@@ -28822,7 +28880,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-06-12",
-      "updated": "2026-07-09",
+      "updated": "2026-07-12",
       "url": "https://cube001.atlassian.net/browse/INC-6242"
     },
     {
