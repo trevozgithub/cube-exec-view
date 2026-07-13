@@ -1,17 +1,31 @@
 {
-  "updated": "2026-07-12T23:30:28.815800Z",
+  "updated": "2026-07-13T01:11:30.992633Z",
   "total": 2327,
   "items": [
     {
+      "key": "INC-8739",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-13",
+      "updated": "2026-07-13",
+      "url": "https://cube001.atlassian.net/browse/INC-8739"
+    },
+    {
       "key": "INC-8738",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9473",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8738"
     },
     {
@@ -118,13 +132,18 @@
     {
       "key": "INC-8729",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Systran",
+        "Translation",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8729"
     },
     {
@@ -3470,16 +3489,17 @@
       "key": "INC-8464",
       "summary": "NewRelic SQL integration is down",
       "status": "To Do",
-      "assignee": "Johnmar Carlos Wabe",
+      "assignee": "Kishan Gohil",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "Alerts-From-Staff",
         "Daily-Checks",
+        "Urgent_Issues",
         "newrelic"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8464"
     },
     {
@@ -3533,7 +3553,7 @@
         "24x7"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-09",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8460"
     },
     {
@@ -4595,7 +4615,7 @@
         "24x7"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-08",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8376"
     },
     {
@@ -14428,7 +14448,7 @@
         "24x7"
       ],
       "created": "2026-07-01",
-      "updated": "2026-07-01",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-7473"
     },
     {
@@ -28812,18 +28832,6 @@
       "created": "2026-06-13",
       "updated": "2026-06-13",
       "url": "https://cube001.atlassian.net/browse/INC-6295"
-    },
-    {
-      "key": "INC-6294",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6294"
     }
   ]
 }
