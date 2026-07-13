@@ -1,7 +1,48 @@
 {
-  "updated": "2026-07-13T01:11:30.992633Z",
-  "total": 2327,
+  "updated": "2026-07-13T04:46:28.549183Z",
+  "total": 2324,
   "items": [
+    {
+      "key": "INC-8742",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Systran",
+        "Translation",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-07-13",
+      "updated": "2026-07-13",
+      "url": "https://cube001.atlassian.net/browse/INC-8742"
+    },
+    {
+      "key": "INC-8741",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-13",
+      "updated": "2026-07-13",
+      "url": "https://cube001.atlassian.net/browse/INC-8741"
+    },
+    {
+      "key": "INC-8740",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-13",
+      "updated": "2026-07-13",
+      "url": "https://cube001.atlassian.net/browse/INC-8740"
+    },
     {
       "key": "INC-8739",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -68,7 +109,7 @@
       "key": "INC-8734",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9472",
       "status": "In Progress",
-      "assignee": "Earl Francisco",
+      "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -78,7 +119,7 @@
         "health-check"
       ],
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8734"
     },
     {
@@ -557,7 +598,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8696"
     },
     {
@@ -648,7 +689,7 @@
         "newrelic"
       ],
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8689"
     },
     {
@@ -11909,7 +11950,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-03",
-      "updated": "2026-07-10",
+      "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-7776"
     },
     {
@@ -28758,80 +28799,6 @@
       "created": "2026-06-13",
       "updated": "2026-06-13",
       "url": "https://cube001.atlassian.net/browse/INC-6301"
-    },
-    {
-      "key": "INC-6300",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6300"
-    },
-    {
-      "key": "INC-6299",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6299"
-    },
-    {
-      "key": "INC-6298",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6298"
-    },
-    {
-      "key": "INC-6297",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-13",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6297"
-    },
-    {
-      "key": "INC-6296",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6296"
-    },
-    {
-      "key": "INC-6295",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6295"
     }
   ]
 }
