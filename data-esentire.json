@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-13T19:47:55.380003Z",
-  "total": 2366,
+  "updated": "2026-07-13T20:45:12.983670Z",
+  "total": 2367,
   "items": [
+    {
+      "key": "INC-8803",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-13",
+      "updated": "2026-07-13",
+      "url": "https://cube001.atlassian.net/browse/INC-8803"
+    },
+    {
+      "key": "INC-8802",
+      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-13",
+      "updated": "2026-07-13",
+      "url": "https://cube001.atlassian.net/browse/INC-8802"
+    },
     {
       "key": "INC-8801",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
@@ -21,7 +45,9 @@
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8800"
@@ -151,11 +177,13 @@
     {
       "key": "INC-8789",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8789"
@@ -29297,18 +29325,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6320"
-    },
-    {
-      "key": "INC-6319",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-13",
-      "updated": "2026-06-13",
-      "url": "https://cube001.atlassian.net/browse/INC-6319"
     }
   ]
 }
