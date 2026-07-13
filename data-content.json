@@ -1,8 +1,28 @@
 {
-  "updated": "2026-07-13T07:57:45.561270Z",
+  "updated": "2026-07-13T11:23:22.446051Z",
   "total": 15,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-07-13",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "06/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Migration of Acin, Kodex and 4C Risk repos is to be scheduled and completed. 2 Acin repos have been migrated. These will be reviewed and the remained scheduled. Kodex to be migrated 20 and 21 July. Discussion to be held with 4C regarding migration dates. The target to complete pipeline migration is end of August. A template pipeline will be created and shared with the teams, with the initial step to create documentation for this."
+        }
+      ]
+    },
     {
       "key": "CPN-1548",
       "summary": "HTML to PDF Conversion of RegInsights",
@@ -32,26 +52,6 @@
         {
           "type": "info",
           "text": "Systran v10 and the Translation API are live since June 2.   This includes autoscaling, scaling groups for language sets, and detailed translation dashboards aviliable in new relic. Only remaining thing is the move of RDM from direct systran communication to the new API"
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-07-07",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "06/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Migration of Acin, Kodex and 4C Risk repos is to be scheduled and completed. 2 Acin repos have been migrated. These will be reviewed and the remained scheduled. Kodex to be migrated 20 and 21 July. Discussion to be held with 4C regarding migration dates. The target to complete pipeline migration is end of August. A template pipeline will be created and shared with the teams, with the initial step to create documentation for this."
         }
       ]
     },

@@ -1,40 +1,26 @@
 {
-  "updated": "2026-07-13T07:57:46.087481Z",
+  "updated": "2026-07-13T11:23:23.109021Z",
   "total": 5,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=317",
   "items": [
     {
-      "key": "CPN-1503",
-      "summary": "New CUBE website",
-      "status": "Planning",
-      "assignee": "Dan Sutton",
-      "duedate": "",
-      "reviewed": "2026-07-08",
-      "labels": [
-        "TechOps"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1503",
-      "panels": []
-    },
-    {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Planning",
+      "key": "CPN-1214",
+      "summary": "4CRisk - Systems migration and consolidation",
+      "status": "Build & Test",
       "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-07-06",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-07-13",
       "labels": [
+        "4CRisk",
         "Infra",
-        "TR",
-        "TSA_EXIT",
         "TechOps",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
       "panels": [
         {
           "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned."
+          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - TBD [ Open ] DNS migration - 1st part scheduled for 15th July, 2nd part scheduled to be completed by 22nd July [ Open ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week.[ Open ]"
         }
       ]
     },
@@ -44,7 +30,7 @@
       "status": "Build & Test",
       "assignee": "Agnieszka Gorniak",
       "duedate": "2026-12-31",
-      "reviewed": "2026-07-06",
+      "reviewed": "2026-07-13",
       "labels": [
         "TechOps",
         "infrastructure"
@@ -58,25 +44,39 @@
       ]
     },
     {
-      "key": "CPN-1214",
-      "summary": "4CRisk - Systems migration and consolidation",
-      "status": "Build & Test",
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Planning",
       "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-07-06",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-07-13",
       "labels": [
-        "4CRisk",
         "Infra",
+        "TR",
+        "TSA_EXIT",
         "TechOps",
         "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
       "panels": [
         {
           "type": "info",
-          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Dipak checked and confirmed PyCharm needs to be used. Side by side comparison between PyCharm and VS Code has been created by Dipak:   . The number of free PyCharm license available for allocation: 7. Dipak will confirm the users they should be allocated to.  [ Open ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] Migration of 4CRisk Jira has been completed on migration Sandbox. A follow-up session was held today with Dipak and George to review and agree on the Jira workflow for the 4CRisk space within the CUBE instance. George has created a Miro board and will prepare the workflow design based on the outcomes and decisions from today's meeting. [ Open ] DNS migration, Faaris spoke with 4crisk team last Thursday and confirmed plan of action ready to go for migrating  4crisk.ai . There are other domains on their portfolio which their team is looking into confirming where the DNS records sit before we can proceed with those domains. Tracked under epic    and task     [ Open ] To replace the existing 4CRisk OpenAI account and Gemini API integrations, a dedicated project space needs to be created in AI Foundry. Dipak confirmed project space has been created in AI Foundry and the team is working on this. By the end of the week they will come to conclusion.[ Open ]"
+          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA."
         }
       ]
+    },
+    {
+      "key": "CPN-1503",
+      "summary": "New CUBE website",
+      "status": "Planning",
+      "assignee": "Dan Sutton",
+      "duedate": "",
+      "reviewed": "2026-07-08",
+      "labels": [
+        "TechOps"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1503",
+      "panels": []
     },
     {
       "key": "CPN-1504",
