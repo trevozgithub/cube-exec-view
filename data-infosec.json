@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-13T13:33:40.378105Z",
-  "total": 18,
+  "updated": "2026-07-13T16:09:38.137602Z",
+  "total": 17,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-07-13",
+      "labels": [
+        "InfoSec",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "13/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
+        }
+      ]
+    },
     {
       "key": "CPN-1369",
       "summary": "SOC2 Audit",
@@ -36,25 +55,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1024",
       "panels": []
-    },
-    {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-07-08",
-      "labels": [
-        "InfoSec",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "06/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned."
-        }
-      ]
     },
     {
       "key": "CPN-132",
@@ -125,26 +125,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1588",
       "panels": []
-    },
-    {
-      "key": "CPN-1342",
-      "summary": "RegPlatform - Penetration testing remediation Feb 26 retest",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-06-23",
-      "labels": [
-        "Consumer",
-        "InfoSec",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1342",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/06:  5 done, 5 to be prioritised"
-        }
-      ]
     },
     {
       "key": "CPN-1328",
