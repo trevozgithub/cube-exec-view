@@ -1,12 +1,36 @@
 {
-  "updated": "2026-07-14T18:54:33.374627Z",
+  "updated": "2026-07-14T20:11:51.081169Z",
   "total": 2434,
   "items": [
     {
+      "key": "INC-8896",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8896"
+    },
+    {
+      "key": "INC-8895",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8895"
+    },
+    {
       "key": "INC-8894",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -349,11 +373,13 @@
     {
       "key": "INC-8866",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
       "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8866"
@@ -30147,30 +30173,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6346"
-    },
-    {
-      "key": "INC-6345",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6345"
-    },
-    {
-      "key": "INC-6344",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6344"
     }
   ]
 }
