@@ -1,12 +1,101 @@
 {
-  "updated": "2026-07-14T04:12:58.035761Z",
-  "total": 2386,
+  "updated": "2026-07-14T06:27:59.693695Z",
+  "total": 2390,
   "items": [
+    {
+      "key": "INC-8836",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8836"
+    },
+    {
+      "key": "INC-8835",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8835"
+    },
+    {
+      "key": "INC-8834",
+      "summary": "Left Open Console in OPS-NTP06 & OPS-NPT07",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8834"
+    },
+    {
+      "key": "INC-8833",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "INFRA",
+        "PROD",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8833"
+    },
+    {
+      "key": "INC-8832",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8832"
+    },
+    {
+      "key": "INC-8831",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8831"
+    },
+    {
+      "key": "INC-8830",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8830"
+    },
     {
       "key": "INC-8829",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -70,12 +159,13 @@
     {
       "key": "INC-8824",
       "summary": "Opsview Multiple Alerts - CUBEPROD1RDI04",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "INFRA",
+        "PROD",
         "alerts",
         "opsview"
       ],
@@ -2117,7 +2207,7 @@
     {
       "key": "INC-8661",
       "summary": "A replication error occurred at the vSphere Replication Server for replication 'CUBEPROD1SQL04'.",
-      "status": "Completed",
+      "status": "In Progress",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -29533,45 +29623,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6330"
-    },
-    {
-      "key": "INC-6329",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6329"
-    },
-    {
-      "key": "INC-6328",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6328"
-    },
-    {
-      "key": "INC-6327",
-      "summary": "RBC - Issue in Extracting RegInsights from CUBE PROD API",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-06-14",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6327"
     }
   ]
 }
