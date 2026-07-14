@@ -1,11 +1,95 @@
 {
-  "updated": "2026-07-14T16:39:32.120229Z",
-  "total": 2429,
+  "updated": "2026-07-14T18:54:33.374627Z",
+  "total": 2434,
   "items": [
+    {
+      "key": "INC-8894",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8894"
+    },
+    {
+      "key": "INC-8893",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8893"
+    },
+    {
+      "key": "INC-8892",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8892"
+    },
+    {
+      "key": "INC-8891",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8891"
+    },
+    {
+      "key": "INC-8890",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8890"
+    },
+    {
+      "key": "INC-8889",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8889"
+    },
+    {
+      "key": "INC-8888",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8888"
+    },
     {
       "key": "INC-8887",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -55,11 +139,13 @@
     {
       "key": "INC-8883",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
       "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8883"
@@ -30085,30 +30171,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6344"
-    },
-    {
-      "key": "INC-6343",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-6343"
-    },
-    {
-      "key": "INC-6342",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-6342"
     }
   ]
 }
