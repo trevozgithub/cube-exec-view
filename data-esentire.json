@@ -1,15 +1,81 @@
 {
-  "updated": "2026-07-14T06:27:59.693695Z",
-  "total": 2390,
+  "updated": "2026-07-14T08:38:10.782451Z",
+  "total": 2394,
   "items": [
     {
-      "key": "INC-8836",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "key": "INC-8841",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8841"
+    },
+    {
+      "key": "INC-8840",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8840"
+    },
+    {
+      "key": "INC-8839",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8839"
+    },
+    {
+      "key": "INC-8838",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8838"
+    },
+    {
+      "key": "INC-8837",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8837"
+    },
+    {
+      "key": "INC-8836",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Systran",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-07-14",
       "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8836"
@@ -41,7 +107,7 @@
     {
       "key": "INC-8833",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -130,7 +196,7 @@
     {
       "key": "INC-8826",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1696,13 +1762,15 @@
     {
       "key": "INC-8701",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8701"
     },
     {
@@ -1835,7 +1903,7 @@
       "key": "INC-8690",
       "summary": "Opsview - Critical Alarm - AzureWebApp_dev-business-app_dev-app.gocube.global",
       "status": "To Do",
-      "assignee": "Dan Palmer",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -6524,7 +6592,7 @@
         "schedularservice"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8319"
     },
     {
@@ -29611,18 +29679,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6331"
-    },
-    {
-      "key": "INC-6330",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6330"
     }
   ]
 }
