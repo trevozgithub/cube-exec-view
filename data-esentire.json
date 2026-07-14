@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-14T08:38:10.782451Z",
-  "total": 2394,
+  "updated": "2026-07-14T10:24:34.117763Z",
+  "total": 2395,
   "items": [
+    {
+      "key": "INC-8846",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8846"
+    },
+    {
+      "key": "INC-8845",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8845"
+    },
+    {
+      "key": "INC-8844",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9509",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8844"
+    },
+    {
+      "key": "INC-8843",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9509",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8843"
+    },
+    {
+      "key": "INC-8842",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8842"
+    },
     {
       "key": "INC-8841",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -95,11 +155,13 @@
     {
       "key": "INC-8834",
       "summary": "Left Open Console in OPS-NTP06 & OPS-NPT07",
-      "status": "To Do",
-      "assignee": "Dan Palmer",
+      "status": "Completed",
+      "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
       "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8834"
@@ -20817,7 +20879,7 @@
         "24x7"
       ],
       "created": "2026-06-24",
-      "updated": "2026-07-06",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-7060"
     },
     {
@@ -26088,7 +26150,7 @@
         "24x7"
       ],
       "created": "2026-06-18",
-      "updated": "2026-06-20",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-6625"
     },
     {
@@ -29627,58 +29689,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6335"
-    },
-    {
-      "key": "INC-6334",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-14",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6334"
-    },
-    {
-      "key": "INC-6333",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-14",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6333"
-    },
-    {
-      "key": "INC-6332",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6332"
-    },
-    {
-      "key": "INC-6331",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6331"
     }
   ]
 }
