@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-13T23:35:41.639819Z",
-  "total": 2377,
+  "updated": "2026-07-14T01:02:13.682943Z",
+  "total": 2379,
   "items": [
+    {
+      "key": "INC-8816",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8816"
+    },
+    {
+      "key": "INC-8815",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8815"
+    },
+    {
+      "key": "INC-8814",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-13",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8814"
+    },
     {
       "key": "INC-8813",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
@@ -501,7 +537,10 @@
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8773"
@@ -1336,13 +1375,15 @@
     {
       "key": "INC-8708",
       "summary": "ATLAS NOTIFICATION: CS4503786 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-12",
-      "updated": "2026-07-12",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8708"
     },
     {
@@ -1550,7 +1591,7 @@
     {
       "key": "INC-8689",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1920,7 +1961,7 @@
         "opsview"
       ],
       "created": "2026-07-10",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8661"
     },
     {
@@ -4416,7 +4457,7 @@
         "newrelic"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8464"
     },
     {
@@ -10374,7 +10415,7 @@
     {
       "key": "INC-7979",
       "summary": "API Connect Health Checks Errors - PROD ",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -10384,7 +10425,7 @@
         "health-check"
       ],
       "created": "2026-07-05",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-7979"
     },
     {
@@ -11928,7 +11969,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-04",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-7860"
     },
     {
@@ -19469,9 +19510,11 @@
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-25",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-7165"
     },
     {
@@ -29437,18 +29480,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-14",
       "url": "https://cube001.atlassian.net/browse/INC-6321"
-    },
-    {
-      "key": "INC-6320",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6320"
     }
   ]
 }
