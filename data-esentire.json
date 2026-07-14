@@ -1,15 +1,53 @@
 {
-  "updated": "2026-07-14T10:24:34.117763Z",
+  "updated": "2026-07-14T11:54:05.978565Z",
   "total": 2395,
   "items": [
     {
+      "key": "INC-8849",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8849"
+    },
+    {
+      "key": "INC-8848",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8848"
+    },
+    {
+      "key": "INC-8847",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-14",
+      "updated": "2026-07-14",
+      "url": "https://cube001.atlassian.net/browse/INC-8847"
+    },
+    {
       "key": "INC-8846",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
       "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-8846"
@@ -12349,11 +12387,13 @@
     {
       "key": "INC-7860",
       "summary": "ATLAS NOTIFICATION: CS4496278 - MEDIUM - ATTACK - CUBE Content Governance Global Limited",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-04",
       "updated": "2026-07-14",
       "url": "https://cube001.atlassian.net/browse/INC-7860"
@@ -29653,42 +29693,6 @@
       "created": "2026-06-14",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-6338"
-    },
-    {
-      "key": "INC-6337",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6337"
-    },
-    {
-      "key": "INC-6336",
-      "summary": "https://cube001.atlassian.net/browse/INC-6335",
-      "status": "Cancelled",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Escalation",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6336"
-    },
-    {
-      "key": "INC-6335",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-14",
-      "updated": "2026-06-14",
-      "url": "https://cube001.atlassian.net/browse/INC-6335"
     }
   ]
 }
