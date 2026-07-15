@@ -1,12 +1,86 @@
 {
-  "updated": "2026-07-15T00:09:46.586901Z",
-  "total": 2442,
+  "updated": "2026-07-15T03:35:03.147311Z",
+  "total": 2444,
   "items": [
+    {
+      "key": "INC-8913",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8913"
+    },
+    {
+      "key": "INC-8912",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8912"
+    },
+    {
+      "key": "INC-8911",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8911"
+    },
+    {
+      "key": "INC-8910",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8910"
+    },
+    {
+      "key": "INC-8909",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8909"
+    },
+    {
+      "key": "INC-8908",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8908"
+    },
     {
       "key": "INC-8907",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +91,8 @@
     {
       "key": "INC-8906",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,37 +103,37 @@
     {
       "key": "INC-8905",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8905"
     },
     {
       "key": "INC-8904",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8904"
     },
     {
       "key": "INC-8903",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8903"
     },
     {
@@ -121,7 +195,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8898"
     },
     {
@@ -187,13 +261,18 @@
     {
       "key": "INC-8892",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ELKAlert",
+        "LIVE",
+        "Migration",
+        "database"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8892"
     },
     {
@@ -271,13 +350,15 @@
     {
       "key": "INC-8885",
       "summary": "DM-MGMT01 - For Monitoring - CPU Critical Status",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8885"
     },
     {
@@ -377,9 +458,13 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ELKAlert",
+        "Migration",
+        "UAT"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8877"
     },
     {
@@ -523,13 +608,16 @@
     {
       "key": "INC-8865",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "opsview"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8865"
     },
     {
@@ -623,13 +711,15 @@
     {
       "key": "INC-8857",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8857"
     },
     {
@@ -825,9 +915,13 @@
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "API",
+        "ELKAlert",
+        "LIVE"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8841"
     },
     {
@@ -1681,7 +1775,7 @@
         "opsview"
       ],
       "created": "2026-07-13",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8773"
     },
     {
@@ -2726,7 +2820,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-12",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8690"
     },
     {
@@ -3103,7 +3197,7 @@
         "replication"
       ],
       "created": "2026-07-10",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8661"
     },
     {
@@ -4147,7 +4241,7 @@
         "newrelic"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8578"
     },
     {
@@ -5599,7 +5693,7 @@
         "newrelic"
       ],
       "created": "2026-07-09",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8464"
     },
     {
@@ -30221,58 +30315,6 @@
       "created": "2026-06-15",
       "updated": "2026-06-15",
       "url": "https://cube001.atlassian.net/browse/INC-6353"
-    },
-    {
-      "key": "INC-6352",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6352"
-    },
-    {
-      "key": "INC-6351",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6351"
-    },
-    {
-      "key": "INC-6350",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6350"
-    },
-    {
-      "key": "INC-6349",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6349"
     }
   ]
 }
