@@ -1,12 +1,50 @@
 {
-  "updated": "2026-07-15T03:35:03.147311Z",
-  "total": 2444,
+  "updated": "2026-07-15T05:57:43.445265Z",
+  "total": 2445,
   "items": [
+    {
+      "key": "INC-8916",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8916"
+    },
+    {
+      "key": "INC-8915",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8915"
+    },
+    {
+      "key": "INC-8914",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8914"
+    },
     {
       "key": "INC-8913",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -556,13 +594,15 @@
     {
       "key": "INC-8869",
       "summary": "UAT Not Loading",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8869"
     },
     {
@@ -5681,9 +5721,9 @@
     },
     {
       "key": "INC-8464",
-      "summary": "NewRelic SQL integration is down",
-      "status": "To Do",
-      "assignee": "Kishan Gohil",
+      "summary": "NewRelic SQL integration is down DRPSQLPROD02,DRPSQLPROD01",
+      "status": "Completed",
+      "assignee": "Craig Waddington",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -30291,30 +30331,6 @@
       "created": "2026-06-15",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-6355"
-    },
-    {
-      "key": "INC-6354",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6354"
-    },
-    {
-      "key": "INC-6353",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6353"
     }
   ]
 }
