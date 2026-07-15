@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-15T05:57:43.445265Z",
-  "total": 2445,
+  "updated": "2026-07-15T08:29:10.039145Z",
+  "total": 2438,
   "items": [
+    {
+      "key": "INC-8920",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8920"
+    },
+    {
+      "key": "INC-8919",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8919"
+    },
+    {
+      "key": "INC-8918",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8918"
+    },
+    {
+      "key": "INC-8917",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8917"
+    },
     {
       "key": "INC-8916",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
@@ -951,7 +1001,7 @@
     {
       "key": "INC-8841",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1806,8 +1856,8 @@
     {
       "key": "INC-8773",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Manish Shivanandhan",
+      "status": "Completed",
+      "assignee": "Vamshi Kanisetty",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -3135,7 +3185,7 @@
         "veeam"
       ],
       "created": "2026-07-11",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8669"
     },
     {
@@ -3227,7 +3277,7 @@
     {
       "key": "INC-8661",
       "summary": "A replication error occurred at the vSphere Replication Server for replication 'CUBEPROD1SQL04'.",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -18924,12 +18974,12 @@
       "key": "INC-7291",
       "summary": "Opsview Critical Alarm - CUBEUAT2ELS04, CUBEUAT2ELS05 - DISK CRITICAL - /elasticdata ",
       "status": "To Do",
-      "assignee": "Ravali Billakanti",
+      "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-06-27",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-7291"
     },
     {
@@ -30193,144 +30243,6 @@
       "created": "2026-06-15",
       "updated": "2026-06-15",
       "url": "https://cube001.atlassian.net/browse/INC-6366"
-    },
-    {
-      "key": "INC-6365",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6365"
-    },
-    {
-      "key": "INC-6364",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6364"
-    },
-    {
-      "key": "INC-6363",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6363"
-    },
-    {
-      "key": "INC-6362",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6362"
-    },
-    {
-      "key": "INC-6361",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6361"
-    },
-    {
-      "key": "INC-6360",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6360"
-    },
-    {
-      "key": "INC-6359",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6359"
-    },
-    {
-      "key": "INC-6358",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6358"
-    },
-    {
-      "key": "INC-6357",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6357"
-    },
-    {
-      "key": "INC-6356",
-      "summary": "live.gocube.global - Uptime (3009 - HTTP error 404: Not Found)",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6356"
-    },
-    {
-      "key": "INC-6355",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Vallalperuman Radhakrishnan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-6355"
     }
   ]
 }
