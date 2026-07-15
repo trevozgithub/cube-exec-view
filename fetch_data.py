@@ -196,7 +196,42 @@ FETCHES = [
     )),
 ]
 
+
+def fetch_townhall():
+    """Fetch CPN-1712 description and write data-townhall.json."""
+    req = urllib.request.Request(
+        'https://cube001.atlassian.net/rest/api/3/issue/CPN-1712?fields=summary,description,assignee,status,updated',
+        headers={
+            'Authorization': f'Basic {auth}',
+            'Accept': 'application/json',
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = json.load(r)
+    f = data.get('fields', {})
+    result = {
+        'updated':     datetime.datetime.utcnow().isoformat() + 'Z',
+        'key':         'CPN-1712',
+        'summary':     f.get('summary', ''),
+        'description': f.get('description'),
+        'assignee':    (f.get('assignee') or {}).get('displayName', 'Unassigned'),
+        'status':      (f.get('status') or {}).get('name', ''),
+    }
+    tmp = 'data-townhall.json.tmp'
+    with open(tmp, 'w', newline='\n') as fh:
+        json.dump(result, fh, indent=2)
+    os.replace(tmp, 'data-townhall.json')
+    print('OK  data-townhall.json')
+
 failures = []
+
+# Townhall runs separately (no args tuple)
+try:
+    fetch_townhall()
+except Exception as e:
+    print(f'FAIL data-townhall.json: {e}', file=sys.stderr)
+    failures.append('data-townhall.json')
+
 for fn, args in FETCHES:
     try:
         fn(*args)
