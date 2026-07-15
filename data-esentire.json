@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-15T15:43:56.283026Z",
-  "total": 2425,
+  "updated": "2026-07-15T16:57:41.140190Z",
+  "total": 2419,
   "items": [
+    {
+      "key": "INC-8951",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8951"
+    },
+    {
+      "key": "INC-8950",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8950"
+    },
+    {
+      "key": "INC-8949",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8949"
+    },
+    {
+      "key": "INC-8948",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8948"
+    },
     {
       "key": "INC-8947",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
@@ -29957,128 +30007,6 @@
       "created": "2026-06-15",
       "updated": "2026-06-15",
       "url": "https://cube001.atlassian.net/browse/INC-6417"
-    },
-    {
-      "key": "INC-6416",
-      "summary": "AMER - P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6416"
-    },
-    {
-      "key": "INC-6415",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6415"
-    },
-    {
-      "key": "INC-6414",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6414"
-    },
-    {
-      "key": "INC-6413",
-      "summary": "AMER - P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6413"
-    },
-    {
-      "key": "INC-6411",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6411"
-    },
-    {
-      "key": "INC-6410",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6410"
-    },
-    {
-      "key": "INC-6409",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6409"
-    },
-    {
-      "key": "INC-6408",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6408"
-    },
-    {
-      "key": "INC-6407",
-      "summary": "AMER - P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6407"
-    },
-    {
-      "key": "INC-6406",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6406"
     }
   ]
 }
