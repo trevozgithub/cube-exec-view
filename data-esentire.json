@@ -1,12 +1,24 @@
 {
-  "updated": "2026-07-15T22:41:46.557546Z",
-  "total": 2424,
+  "updated": "2026-07-15T23:42:31.763605Z",
+  "total": 2422,
   "items": [
+    {
+      "key": "INC-8971",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://cube001.atlassian.net/browse/INC-8971"
+    },
     {
       "key": "INC-8970",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +29,8 @@
     {
       "key": "INC-8969",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -391,11 +403,13 @@
     {
       "key": "INC-8938",
       "summary": "Patching Error : CR-26824 : Patch scan/deployment operation failed because there is no space left on the endpoint",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Craig Waddington",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-15",
       "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8938"
@@ -30041,44 +30055,6 @@
       "created": "2026-06-15",
       "updated": "2026-06-16",
       "url": "https://cube001.atlassian.net/browse/INC-6433"
-    },
-    {
-      "key": "INC-6432",
-      "summary": "OpsView - CUBEUAT2ELS06 Disk: /elasticdata",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-15",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6432"
-    },
-    {
-      "key": "INC-6431",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6431"
-    },
-    {
-      "key": "INC-6430",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-15",
-      "updated": "2026-06-15",
-      "url": "https://cube001.atlassian.net/browse/INC-6430"
     }
   ]
 }
