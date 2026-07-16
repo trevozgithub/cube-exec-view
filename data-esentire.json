@@ -1,12 +1,128 @@
 {
-  "updated": "2026-07-16T01:09:54.199618Z",
-  "total": 2419,
+  "updated": "2026-07-16T04:26:12.480629Z",
+  "total": 2420,
   "items": [
+    {
+      "key": "INC-8985",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8985"
+    },
+    {
+      "key": "INC-8984",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8984"
+    },
+    {
+      "key": "INC-8983",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8983"
+    },
+    {
+      "key": "INC-8982",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8982"
+    },
+    {
+      "key": "INC-8981",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8981"
+    },
+    {
+      "key": "INC-8980",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8980"
+    },
+    {
+      "key": "INC-8979",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Systran",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8979"
+    },
+    {
+      "key": "INC-8978",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8978"
+    },
+    {
+      "key": "INC-8977",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9546",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "RM",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8977"
+    },
     {
       "key": "INC-8976",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9546",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +133,8 @@
     {
       "key": "INC-8975",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -383,7 +499,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-15",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8945"
     },
     {
@@ -29915,108 +30031,6 @@
       "created": "2026-06-16",
       "updated": "2026-06-16",
       "url": "https://cube001.atlassian.net/browse/INC-6449"
-    },
-    {
-      "key": "INC-6448",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-16",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6448"
-    },
-    {
-      "key": "INC-6447",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-16",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6447"
-    },
-    {
-      "key": "INC-6446",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6446"
-    },
-    {
-      "key": "INC-6445",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6445"
-    },
-    {
-      "key": "INC-6444",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6444"
-    },
-    {
-      "key": "INC-6443",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6443"
-    },
-    {
-      "key": "INC-6442",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6442"
-    },
-    {
-      "key": "INC-6441",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-16",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6441"
     }
   ]
 }
