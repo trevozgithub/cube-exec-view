@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-16T07:01:59.446406Z",
-  "total": 2424,
+  "updated": "2026-07-16T09:23:31.416154Z",
+  "total": 2420,
   "items": [
+    {
+      "key": "INC-8999",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8999"
+    },
+    {
+      "key": "INC-8998",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8998"
+    },
+    {
+      "key": "INC-8997",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8997"
+    },
+    {
+      "key": "INC-8996",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8996"
+    },
+    {
+      "key": "INC-8995",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8995"
+    },
     {
       "key": "INC-8994",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
@@ -17,11 +77,13 @@
     {
       "key": "INC-8993",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8993"
@@ -54,7 +116,7 @@
       "key": "INC-8990",
       "summary": "July-2026: Evergreen patching CUBE TEST1 - CUBETEST1RDI05 Reboot pending",
       "status": "To Do",
-      "assignee": "Johnmar Carlos Wabe",
+      "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -608,11 +670,13 @@
     {
       "key": "INC-8945",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-15",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8945"
@@ -848,11 +912,13 @@
     {
       "key": "INC-8926",
       "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Manjunatha C B",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-15",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8926"
@@ -8504,8 +8570,8 @@
     {
       "key": "INC-8319",
       "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "To Do",
-      "assignee": "Yuriy Kryzhanovskyy",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -8515,7 +8581,7 @@
         "schedularservice"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8319"
     },
     {
@@ -19894,13 +19960,15 @@
     {
       "key": "INC-7291",
       "summary": "Opsview Critical Alarm - CUBEUAT2ELS04, CUBEUAT2ELS05 - DISK CRITICAL - /elasticdata ",
-      "status": "To Do",
-      "assignee": "Niel Singo",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-06-27",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-7291"
     },
     {
@@ -29978,118 +30046,6 @@
       "created": "2026-06-16",
       "updated": "2026-06-16",
       "url": "https://cube001.atlassian.net/browse/INC-6462"
-    },
-    {
-      "key": "INC-6461",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6461"
-    },
-    {
-      "key": "INC-6460",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6460"
-    },
-    {
-      "key": "INC-6459",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-16",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6459"
-    },
-    {
-      "key": "INC-6458",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6458"
-    },
-    {
-      "key": "INC-6495",
-      "summary": "Last Logged In User stays N/A despite agent capturing a logon",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-16",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-6495"
-    },
-    {
-      "key": "INC-6457",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6457"
-    },
-    {
-      "key": "INC-6456",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6456"
-    },
-    {
-      "key": "INC-6455",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6455"
-    },
-    {
-      "key": "INC-6454",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6454"
     }
   ]
 }
