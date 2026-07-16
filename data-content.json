@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-15T23:42:16.382535Z",
+  "updated": "2026-07-16T01:09:37.557385Z",
   "total": 13,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-554",
+      "summary": "Content Alerts for P1 and P2",
+      "status": "Build & Test",
+      "assignee": "Antony Ball",
+      "duedate": "2026-05-31",
+      "reviewed": "2026-07-16",
+      "labels": [
+        "PlanningFlag",
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-554",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status : in-progress   Alert Register   Completed for RegBrain AI services as of      Insight and Book pipeline have key alerts in place.   Still to enhance RDM, book pipeline. Target end May 2026"
+        }
+      ]
+    },
     {
       "key": "CPN-1548",
       "summary": "HTML to PDF Conversion of RegInsights",
@@ -202,25 +221,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1589",
       "panels": []
-    },
-    {
-      "key": "CPN-554",
-      "summary": "Content Alerts for P1 and P2",
-      "status": "Build & Test",
-      "assignee": "Antony Ball",
-      "duedate": "2026-05-31",
-      "reviewed": "2026-05-05",
-      "labels": [
-        "PlanningFlag",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-554",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status : in-progress   Alert Register   Completed for RegBrain AI services as of      Insight and Book pipeline have key alerts in place.   Still to enhance RDM, book pipeline. Target end May 2026"
-        }
-      ]
     }
   ]
 }
