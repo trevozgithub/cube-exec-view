@@ -1,11 +1,273 @@
 {
-  "updated": "2026-07-16T12:55:02.400493Z",
-  "total": 2438,
+  "updated": "2026-07-16T15:03:26.332056Z",
+  "total": 2450,
   "items": [
+    {
+      "key": "INC-9060",
+      "summary": "VT-VEEAM | Multiple Backup & Backup Copy Job Failures (11 Sessions) ",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9060"
+    },
+    {
+      "key": "INC-9059",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "In Triage",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9059"
+    },
+    {
+      "key": "INC-9056",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9056"
+    },
+    {
+      "key": "INC-9055",
+      "summary": "FAILED - Automated Citi User Check API Call - UAT",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Automation",
+        "Manual_Testing",
+        "api",
+        "citi",
+        "uat"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9055"
+    },
+    {
+      "key": "INC-9054",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9054"
+    },
+    {
+      "key": "INC-9053",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9053"
+    },
+    {
+      "key": "INC-9052",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9052"
+    },
+    {
+      "key": "INC-9051",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9051"
+    },
+    {
+      "key": "INC-9050",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9050"
+    },
+    {
+      "key": "INC-9049",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9049"
+    },
+    {
+      "key": "INC-9048",
+      "summary": "Sectors not being included in the automated Early Access process for CUBE Intel from SF",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9048"
+    },
+    {
+      "key": "INC-9047",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9047"
+    },
+    {
+      "key": "INC-9046",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9046"
+    },
+    {
+      "key": "INC-9045",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9045"
+    },
+    {
+      "key": "INC-9044",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #63778",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9044"
+    },
+    {
+      "key": "INC-9043",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9043"
+    },
+    {
+      "key": "INC-9042",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61853",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9042"
+    },
+    {
+      "key": "INC-9041",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #63777",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9041"
+    },
+    {
+      "key": "INC-9040",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61852",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9040"
+    },
+    {
+      "key": "INC-9039",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9039"
+    },
+    {
+      "key": "INC-9038",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #63776",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9038"
+    },
     {
       "key": "INC-9037",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61851",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -89,11 +351,13 @@
     {
       "key": "INC-9030",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9030"
@@ -185,7 +449,7 @@
     {
       "key": "INC-9022",
       "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -245,11 +509,13 @@
     {
       "key": "INC-9017",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9017"
@@ -307,11 +573,13 @@
     {
       "key": "INC-9012",
       "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9012"
@@ -528,7 +796,7 @@
       "key": "INC-8994",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -1684,7 +1952,7 @@
       "url": "https://cube001.atlassian.net/browse/INC-8902"
     },
     {
-      "key": "INC-8901",
+      "key": "INC-9057",
       "summary": "vSphere - vCenter - Datastore Status: DT-CUBE-PS02-PROD1-APP",
       "status": "To Do",
       "assignee": "Faaris Ali",
@@ -1692,8 +1960,8 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8901"
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9057"
     },
     {
       "key": "INC-8900",
@@ -2001,7 +2269,7 @@
         "UAT"
       ],
       "created": "2026-07-14",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8877"
     },
     {
@@ -30146,116 +30414,6 @@
       "created": "2026-06-16",
       "updated": "2026-06-16",
       "url": "https://cube001.atlassian.net/browse/INC-6491"
-    },
-    {
-      "key": "INC-6490",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-16",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6490"
-    },
-    {
-      "key": "INC-6489",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6489"
-    },
-    {
-      "key": "INC-6488",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6488"
-    },
-    {
-      "key": "INC-6487",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6487"
-    },
-    {
-      "key": "INC-6486",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6486"
-    },
-    {
-      "key": "INC-6485",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6485"
-    },
-    {
-      "key": "INC-6484",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6484"
-    },
-    {
-      "key": "INC-6483",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6483"
-    },
-    {
-      "key": "INC-6482",
-      "summary": "SYSTRAN Translation FR-EN Smoke query result is > 0.0 on 'SYSTRAN Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6482"
     }
   ]
 }
