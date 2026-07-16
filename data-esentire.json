@@ -1,7 +1,103 @@
 {
-  "updated": "2026-07-16T18:58:03.410434Z",
-  "total": 2449,
+  "updated": "2026-07-16T20:07:22.881017Z",
+  "total": 2452,
   "items": [
+    {
+      "key": "INC-9086",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9086"
+    },
+    {
+      "key": "INC-9085",
+      "summary": "Test for ticket creation",
+      "status": "Cancelled",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Escalation",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9085"
+    },
+    {
+      "key": "INC-9084",
+      "summary": "test",
+      "status": "Cancelled",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Escalation",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9084"
+    },
+    {
+      "key": "INC-9083",
+      "summary": "test",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9083"
+    },
+    {
+      "key": "INC-9082",
+      "summary": "test",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9082"
+    },
+    {
+      "key": "INC-9081",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9081"
+    },
+    {
+      "key": "INC-9080",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9080"
+    },
+    {
+      "key": "INC-9079",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9079"
+    },
     {
       "key": "INC-9078",
       "summary": "Test hyperlink",
@@ -499,11 +595,13 @@
     {
       "key": "INC-9036",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #63775",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9036"
@@ -30344,66 +30442,6 @@
       "created": "2026-06-16",
       "updated": "2026-06-16",
       "url": "https://cube001.atlassian.net/browse/INC-6516"
-    },
-    {
-      "key": "INC-6515",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6515"
-    },
-    {
-      "key": "INC-6514",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6514"
-    },
-    {
-      "key": "INC-6513",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6513"
-    },
-    {
-      "key": "INC-6512",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6512"
-    },
-    {
-      "key": "INC-6511",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6511"
     }
   ]
 }
