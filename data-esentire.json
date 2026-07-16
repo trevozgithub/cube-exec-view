@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-16T22:18:12.352575Z",
-  "total": 2453,
+  "updated": "2026-07-16T23:15:11.651459Z",
+  "total": 2452,
   "items": [
+    {
+      "key": "INC-9098",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9098"
+    },
+    {
+      "key": "INC-9097",
+      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-9097"
+    },
     {
       "key": "INC-9096",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -79,11 +103,13 @@
     {
       "key": "INC-9090",
       "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9090"
@@ -351,7 +377,9 @@
       "assignee": "Sandeep Multani",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9068"
@@ -425,7 +453,9 @@
       "assignee": "Daniel Powell\u200c",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9062"
@@ -449,7 +479,10 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Backups"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9060"
@@ -835,11 +868,13 @@
     {
       "key": "INC-9027",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9027"
@@ -995,11 +1030,13 @@
     {
       "key": "INC-9014",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61844",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9014"
@@ -30424,42 +30461,6 @@
       "created": "2026-06-16",
       "updated": "2026-06-17",
       "url": "https://cube001.atlassian.net/browse/INC-6528"
-    },
-    {
-      "key": "INC-6527",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6527"
-    },
-    {
-      "key": "INC-6526",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #59443",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6526"
-    },
-    {
-      "key": "INC-6525",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6525"
     }
   ]
 }
