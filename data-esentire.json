@@ -1,7 +1,120 @@
 {
-  "updated": "2026-07-16T04:26:12.480629Z",
-  "total": 2420,
+  "updated": "2026-07-16T07:01:59.446406Z",
+  "total": 2424,
   "items": [
+    {
+      "key": "INC-8994",
+      "summary": "API Connect Health Checks Errors - PROD & UAT",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8994"
+    },
+    {
+      "key": "INC-8993",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8993"
+    },
+    {
+      "key": "INC-8992",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8992"
+    },
+    {
+      "key": "INC-8991",
+      "summary": "Patching error - TCGDESKTOP02",
+      "status": "To Do",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8991"
+    },
+    {
+      "key": "INC-8990",
+      "summary": "July-2026: Evergreen patching CUBE TEST1 - CUBETEST1RDI05 Reboot pending",
+      "status": "To Do",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8990"
+    },
+    {
+      "key": "INC-8989",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "ELKAlert",
+        "Migration",
+        "SQL",
+        "UAT"
+      ],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8989"
+    },
+    {
+      "key": "INC-8988",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8988"
+    },
+    {
+      "key": "INC-8987",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8987"
+    },
+    {
+      "key": "INC-8986",
+      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-16",
+      "updated": "2026-07-16",
+      "url": "https://cube001.atlassian.net/browse/INC-8986"
+    },
     {
       "key": "INC-8985",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -233,9 +346,11 @@
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-15",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8967"
     },
     {
@@ -625,7 +740,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-15",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8935"
     },
     {
@@ -655,13 +770,17 @@
     {
       "key": "INC-8932",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "SQL",
+        "opsview"
+      ],
       "created": "2026-07-15",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8932"
     },
     {
@@ -735,7 +854,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-15",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8926"
     },
     {
@@ -1454,7 +1573,7 @@
         "24x7"
       ],
       "created": "2026-07-14",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8869"
     },
     {
@@ -1480,7 +1599,7 @@
         "24x7"
       ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8867"
     },
     {
@@ -1583,7 +1702,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-15",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8859"
     },
     {
@@ -1625,7 +1744,7 @@
         "24x7"
       ],
       "created": "2026-07-14",
-      "updated": "2026-07-14",
+      "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8856"
     },
     {
@@ -29971,66 +30090,6 @@
       "created": "2026-06-16",
       "updated": "2026-06-16",
       "url": "https://cube001.atlassian.net/browse/INC-6454"
-    },
-    {
-      "key": "INC-6453",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6453"
-    },
-    {
-      "key": "INC-6452",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6452"
-    },
-    {
-      "key": "INC-6451",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6451"
-    },
-    {
-      "key": "INC-6450",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6450"
-    },
-    {
-      "key": "INC-6449",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-16",
-      "updated": "2026-06-16",
-      "url": "https://cube001.atlassian.net/browse/INC-6449"
     }
   ]
 }
