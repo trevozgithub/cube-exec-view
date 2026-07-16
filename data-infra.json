@@ -1,8 +1,26 @@
 {
-  "updated": "2026-07-16T15:03:03.752672Z",
+  "updated": "2026-07-16T16:38:15.145942Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-168",
+      "summary": "DNS migration to CloudFlare",
+      "status": "Build & Test",
+      "assignee": "Sean Kelaart",
+      "duedate": "2026-07-24",
+      "reviewed": "2026-07-16",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-168",
+      "panels": [
+        {
+          "type": "info",
+          "text": "6/7/2026 For  4crisk.ai  waiting for Supradeep to confirm when we can complete the transfer. Scheduled for 21st of July   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin Registrar migration will be completed next week when Giuseppe is back from leave and Acin release is completed this week."
+        }
+      ]
+    },
     {
       "key": "CPN-676",
       "summary": "CUBE Datacenter Exit",
@@ -128,24 +146,6 @@
         {
           "type": "info",
           "text": "Dipak requested a quote from the local vendor for the monitors. Followed up with the vendor. [ Open ] Legacy assets wipe process - Old devices will be wiped in accordance with compliance standards, and CUBE will receive certificates of data erasure upon completion. Softcat has provided the required form for asset details. Awaiting feedback from Dipak. [ Open ] M365 license reduction - Coordinated with Stefan to complete that task this week. [ Open ]"
-        }
-      ]
-    },
-    {
-      "key": "CPN-168",
-      "summary": "DNS migration to CloudFlare",
-      "status": "Build & Test",
-      "assignee": "Sean Kelaart",
-      "duedate": "2026-07-24",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-168",
-      "panels": [
-        {
-          "type": "info",
-          "text": "6/7/2026 For  4crisk.ai  waiting for Supradeep to confirm when we can complete the transfer. Scheduled for 21st of July   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin Registrar migration will be completed next week when Giuseppe is back from leave and Acin release is completed this week."
         }
       ]
     },
