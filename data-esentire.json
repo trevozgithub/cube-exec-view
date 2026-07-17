@@ -1,7 +1,55 @@
 {
-  "updated": "2026-07-17T03:42:54.377663Z",
-  "total": 2451,
+  "updated": "2026-07-17T06:05:50.027164Z",
+  "total": 2446,
   "items": [
+    {
+      "key": "INC-9114",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS05",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9114"
+    },
+    {
+      "key": "INC-9113",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS06",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9113"
+    },
+    {
+      "key": "INC-9112",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9112"
+    },
+    {
+      "key": "INC-9111",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9111"
+    },
     {
       "key": "INC-9110",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -600,13 +648,13 @@
       "summary": "Unable to access RegTransform - (https://regtransform.gocube.global/)",
       "status": "To Do",
       "assignee": "Daniel Powell\u200c",
-      "priority": "P2",
+      "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9062"
     },
     {
@@ -624,8 +672,8 @@
     {
       "key": "INC-9060",
       "summary": "VT-VEEAM | Multiple Backup & Backup Copy Job Failures (11 Sessions) ",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -633,7 +681,7 @@
         "Backups"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9060"
     },
     {
@@ -30344,116 +30392,6 @@
       "created": "2026-06-17",
       "updated": "2026-06-17",
       "url": "https://cube001.atlassian.net/browse/INC-6550"
-    },
-    {
-      "key": "INC-6549",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6549"
-    },
-    {
-      "key": "INC-6548",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6548"
-    },
-    {
-      "key": "INC-6547",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6547"
-    },
-    {
-      "key": "INC-6546",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6546"
-    },
-    {
-      "key": "INC-6545",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6545"
-    },
-    {
-      "key": "INC-6544",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6544"
-    },
-    {
-      "key": "INC-6543",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6543"
-    },
-    {
-      "key": "INC-6542",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6542"
-    },
-    {
-      "key": "INC-6541",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6541"
     }
   ]
 }
