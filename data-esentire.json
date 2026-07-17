@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-17T22:27:24.013579Z",
-  "total": 2441,
+  "updated": "2026-07-17T23:28:33.322682Z",
+  "total": 2443,
   "items": [
+    {
+      "key": "INC-9162",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9162"
+    },
+    {
+      "key": "INC-9161",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9161"
+    },
     {
       "key": "INC-9160",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -3752,11 +3776,13 @@
     {
       "key": "INC-8859",
       "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-14",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-8859"
