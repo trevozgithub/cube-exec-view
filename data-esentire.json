@@ -1,12 +1,84 @@
 {
-  "updated": "2026-07-17T12:52:14.532018Z",
-  "total": 2432,
+  "updated": "2026-07-17T14:27:27.765895Z",
+  "total": 2431,
   "items": [
+    {
+      "key": "INC-9136",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "In Triage",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9136"
+    },
+    {
+      "key": "INC-9135",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9135"
+    },
+    {
+      "key": "INC-9134",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9134"
+    },
+    {
+      "key": "INC-9133",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9133"
+    },
+    {
+      "key": "INC-9132",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9132"
+    },
+    {
+      "key": "INC-9131",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9131"
+    },
     {
       "key": "INC-9130",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1729,13 +1801,15 @@
     {
       "key": "INC-8990",
       "summary": "July-2026: Evergreen patching CUBE TEST1 - CUBETEST1RDI05 Reboot pending",
-      "status": "To Do",
-      "assignee": "Niel Singo",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-8990"
     },
     {
@@ -3384,7 +3458,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-14",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-8859"
     },
     {
@@ -5513,7 +5587,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-12",
-      "updated": "2026-07-15",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-8690"
     },
     {
@@ -30136,94 +30210,6 @@
       "created": "2026-06-17",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6587"
-    },
-    {
-      "key": "INC-6586",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6586"
-    },
-    {
-      "key": "INC-6585",
-      "summary": "ATLAS NOTIFICATION: CS4477995 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6585"
-    },
-    {
-      "key": "INC-6584",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6584"
-    },
-    {
-      "key": "INC-6583",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6583"
-    },
-    {
-      "key": "INC-6582",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6582"
-    },
-    {
-      "key": "INC-6581",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6581"
-    },
-    {
-      "key": "INC-6580",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6580"
     }
   ]
 }
