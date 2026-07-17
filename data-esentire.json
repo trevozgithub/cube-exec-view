@@ -1,7 +1,81 @@
 {
-  "updated": "2026-07-17T18:31:02.142225Z",
-  "total": 2436,
+  "updated": "2026-07-17T19:42:42.060439Z",
+  "total": 2440,
   "items": [
+    {
+      "key": "INC-9153",
+      "summary": "CUBEUAT2SQL05 - Monitoring Critical Alert - Base - CPU",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9153"
+    },
+    {
+      "key": "INC-9152",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9152"
+    },
+    {
+      "key": "INC-9151",
+      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9151"
+    },
+    {
+      "key": "INC-9150",
+      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9150"
+    },
+    {
+      "key": "INC-9149",
+      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9149"
+    },
+    {
+      "key": "INC-9148",
+      "summary": "CUBEPROD2SQL01 - Monitoring Critical Status - Base CPU",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9148"
+    },
     {
       "key": "INC-9147",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -2228,7 +2302,7 @@
     {
       "key": "INC-8967",
       "summary": "4CRisk DNS Migration -  down time on the DNS migration",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2236,7 +2310,7 @@
         "24x7"
       ],
       "created": "2026-07-15",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-8967"
     },
     {
@@ -30248,30 +30322,6 @@
       "created": "2026-06-17",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6595"
-    },
-    {
-      "key": "INC-6594",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6594"
-    },
-    {
-      "key": "INC-6593",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6593"
     }
   ]
 }
