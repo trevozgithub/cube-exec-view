@@ -1,8 +1,48 @@
 {
-  "updated": "2026-07-17T14:27:07.802963Z",
+  "updated": "2026-07-17T15:59:09.523697Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1420",
+      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-10-29",
+      "reviewed": "2026-07-17",
+      "labels": [
+        "Kodex",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Request has been sent to TechOps team for creation in Jira space based on the design  Kodex AI - Miro ."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1214",
+      "summary": "4CRisk - Systems migration and consolidation",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-07-17",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "panels": [
+        {
+          "type": "info",
+          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - TBD [ Open ] DNS migration - 1st part scheduled for 15th July, 2nd part scheduled to be completed by 22nd July [ Open ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week.[ Open ]"
+        }
+      ]
+    },
     {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
@@ -91,27 +131,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1214",
-      "summary": "4CRisk - Systems migration and consolidation",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-07-14",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214",
-      "panels": [
-        {
-          "type": "info",
-          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - TBD [ Open ] DNS migration - 1st part scheduled for 15th July, 2nd part scheduled to be completed by 22nd July [ Open ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week.[ Open ]"
-        }
-      ]
-    },
-    {
       "key": "CPN-703",
       "summary": "Enterprise in the cloud - Phase 2",
       "status": "Build & Test",
@@ -188,25 +207,6 @@
         {
           "type": "info",
           "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1420",
-      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-10-29",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "Kodex",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Request has been sent to TechOps team for creation in Jira space based on the design  Kodex AI - Miro ."
         }
       ]
     },

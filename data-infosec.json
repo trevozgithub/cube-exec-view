@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-17T14:27:07.212944Z",
+  "updated": "2026-07-17T15:59:08.588992Z",
   "total": 17,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-124",
+      "summary": "Linux workstation/virtualization decommissioning",
+      "status": "Scoping",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "",
+      "reviewed": "2026-07-17",
+      "labels": [
+        "InfoSec",
+        "migrated"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
+        }
+      ]
+    },
     {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
@@ -157,25 +176,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1327",
       "panels": []
-    },
-    {
-      "key": "CPN-124",
-      "summary": "Linux workstation/virtualization decommissioning",
-      "status": "Scoping",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "",
-      "reviewed": "2026-06-12",
-      "labels": [
-        "InfoSec",
-        "migrated"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
-        }
-      ]
     },
     {
       "key": "CPN-1347",
