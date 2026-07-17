@@ -1,8 +1,30 @@
 {
-  "updated": "2026-07-17T15:59:08.588992Z",
+  "updated": "2026-07-17T17:19:59.600779Z",
   "total": 17,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-132",
+      "summary": "Security - SSO/MFA - All Applications",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-07-17",
+      "labels": [
+        "InfoSec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-132",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
+        },
+        {
+          "type": "info",
+          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
+        }
+      ]
+    },
     {
       "key": "CPN-124",
       "summary": "Linux workstation/virtualization decommissioning",
@@ -35,28 +57,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1024",
       "panels": []
-    },
-    {
-      "key": "CPN-132",
-      "summary": "Security - SSO/MFA - All Applications",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-07-14",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-132",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
-        },
-        {
-          "type": "info",
-          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
-        }
-      ]
     },
     {
       "key": "CPN-925",

@@ -1,15 +1,65 @@
 {
-  "updated": "2026-07-17T15:59:34.213772Z",
-  "total": 2433,
+  "updated": "2026-07-17T17:20:16.689722Z",
+  "total": 2434,
   "items": [
     {
-      "key": "INC-9140",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "key": "INC-9144",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
       "status": "To Do",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9144"
+    },
+    {
+      "key": "INC-9143",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9143"
+    },
+    {
+      "key": "INC-9142",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9142"
+    },
+    {
+      "key": "INC-9141",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9141"
+    },
+    {
+      "key": "INC-9140",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9140"
@@ -30196,42 +30246,6 @@
       "created": "2026-06-17",
       "updated": "2026-06-17",
       "url": "https://cube001.atlassian.net/browse/INC-6592"
-    },
-    {
-      "key": "INC-6591",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6591"
-    },
-    {
-      "key": "INC-6590",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6590"
-    },
-    {
-      "key": "INC-6589",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6589"
     }
   ]
 }
