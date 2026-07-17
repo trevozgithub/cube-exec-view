@@ -1,15 +1,41 @@
 {
-  "updated": "2026-07-17T20:36:56.860077Z",
-  "total": 2442,
+  "updated": "2026-07-17T21:31:02.202127Z",
+  "total": 2438,
   "items": [
+    {
+      "key": "INC-9157",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9157"
+    },
+    {
+      "key": "INC-9156",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9156"
+    },
     {
       "key": "INC-9155",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9590",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9155"
@@ -29,11 +55,13 @@
     {
       "key": "INC-9153",
       "summary": "CUBEUAT2SQL05 - Monitoring Critical Alert - Base - CPU",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9153"
@@ -91,11 +119,13 @@
     {
       "key": "INC-9148",
       "summary": "CUBEPROD2SQL01 - Monitoring Critical Status - Base CPU",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9148"
@@ -30270,82 +30300,6 @@
       "created": "2026-06-18",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-6603"
-    },
-    {
-      "key": "INC-6601",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6601"
-    },
-    {
-      "key": "INC-6600",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6600"
-    },
-    {
-      "key": "INC-6599",
-      "summary": "SYSTRAN Services Health query result is > 0.0 on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6599"
-    },
-    {
-      "key": "INC-6597",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6597"
-    },
-    {
-      "key": "INC-6596",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-17",
-      "updated": "2026-06-17",
-      "url": "https://cube001.atlassian.net/browse/INC-6596"
-    },
-    {
-      "key": "INC-6595",
-      "summary": "Amex API user apiusertokenrm@aexp.com PROD 500 error",
-      "status": "Completed",
-      "assignee": "Ser Jan Aldreach Perez",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-17",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6595"
     }
   ]
 }
