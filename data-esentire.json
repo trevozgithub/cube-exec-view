@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-18T00:59:53.829899Z",
-  "total": 2449,
+  "updated": "2026-07-18T04:08:30.009637Z",
+  "total": 2450,
   "items": [
+    {
+      "key": "INC-9172",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9172"
+    },
+    {
+      "key": "INC-9171",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9171"
+    },
+    {
+      "key": "INC-9170",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9170"
+    },
     {
       "key": "INC-9169",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -29,11 +65,14 @@
     {
       "key": "INC-9167",
       "summary": "P1: UAT Insight Analysis function errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "ELKAlert"
+      ],
       "created": "2026-07-18",
       "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9167"
@@ -550,7 +589,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-17",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9126"
     },
     {
@@ -1343,7 +1382,7 @@
         "24x7"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9062"
     },
     {
@@ -2166,13 +2205,15 @@
     {
       "key": "INC-8994",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-8994"
     },
     {
@@ -2205,12 +2246,12 @@
       "key": "INC-8991",
       "summary": "Patching error - TCGDESKTOP02",
       "status": "In Progress",
-      "assignee": "Mayur Patel",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-8991"
     },
     {
@@ -3644,7 +3685,7 @@
         "UAT"
       ],
       "created": "2026-07-14",
-      "updated": "2026-07-16",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-8877"
     },
     {
@@ -30417,30 +30458,6 @@
       "created": "2026-06-18",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-6606"
-    },
-    {
-      "key": "INC-6605",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6605"
-    },
-    {
-      "key": "INC-6604",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6604"
     }
   ]
 }
