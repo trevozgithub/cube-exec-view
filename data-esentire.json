@@ -1,17 +1,103 @@
 {
-  "updated": "2026-07-17T23:28:33.322682Z",
-  "total": 2443,
+  "updated": "2026-07-18T00:59:53.829899Z",
+  "total": 2449,
   "items": [
     {
-      "key": "INC-9162",
+      "key": "INC-9169",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9169"
+    },
+    {
+      "key": "INC-9168",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9168"
+    },
+    {
+      "key": "INC-9167",
+      "summary": "P1: UAT Insight Analysis function errors",
       "status": "To Do",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9167"
+    },
+    {
+      "key": "INC-9166",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9166"
+    },
+    {
+      "key": "INC-9165",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-18",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9165"
+    },
+    {
+      "key": "INC-9164",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
       "created": "2026-07-17",
       "updated": "2026-07-17",
+      "url": "https://cube001.atlassian.net/browse/INC-9164"
+    },
+    {
+      "key": "INC-9163",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-17",
+      "updated": "2026-07-18",
+      "url": "https://cube001.atlassian.net/browse/INC-9163"
+    },
+    {
+      "key": "INC-9162",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9162"
     },
     {
@@ -29,11 +115,13 @@
     {
       "key": "INC-9160",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9160"
@@ -143,13 +231,16 @@
     {
       "key": "INC-9151",
       "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "ELKAlert"
+      ],
       "created": "2026-07-17",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9151"
     },
     {
@@ -1985,7 +2076,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9002"
     },
     {
@@ -2081,7 +2172,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-8994"
     },
     {
@@ -30350,18 +30441,6 @@
       "created": "2026-06-18",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-6604"
-    },
-    {
-      "key": "INC-6603",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6603"
     }
   ]
 }
