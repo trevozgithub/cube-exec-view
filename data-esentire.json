@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T22:27:54.020859Z",
-  "total": 2409,
+  "updated": "2026-07-18T23:29:47.037097Z",
+  "total": 2408,
   "items": [
     {
       "key": "INC-9193",
@@ -841,7 +841,11 @@
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "API",
+        "Daily-Checks",
+        "health-check"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9126"
@@ -1660,10 +1664,11 @@
       "issuetype": "Service Incident",
       "labels": [
         "24x7",
-        "Backups"
+        "Backups",
+        "Daily-Checks"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9060"
     },
     {
@@ -29933,18 +29938,6 @@
       "created": "2026-06-18",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-6669"
-    },
-    {
-      "key": "INC-6668",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6668"
     }
   ]
 }
