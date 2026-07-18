@@ -1,15 +1,17 @@
 {
-  "updated": "2026-07-18T19:48:14.207909Z",
-  "total": 2413,
+  "updated": "2026-07-18T20:34:01.018233Z",
+  "total": 2411,
   "items": [
     {
       "key": "INC-9193",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-18",
       "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9193"
@@ -1785,7 +1787,7 @@
     {
       "key": "INC-9048",
       "summary": "Sectors not being included in the automated Early Access process for CUBE Intel from SF",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3194,13 +3196,15 @@
     {
       "key": "INC-8935",
       "summary": "Unable to load UAT again",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-15",
-      "updated": "2026-07-17",
+      "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-8935"
     },
     {
@@ -29965,30 +29969,6 @@
       "created": "2026-06-18",
       "updated": "2026-06-18",
       "url": "https://cube001.atlassian.net/browse/INC-6666"
-    },
-    {
-      "key": "INC-6665",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6665"
-    },
-    {
-      "key": "INC-6664",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-18",
-      "updated": "2026-06-18",
-      "url": "https://cube001.atlassian.net/browse/INC-6664"
     }
   ]
 }
