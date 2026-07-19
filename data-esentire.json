@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-19T19:47:31.413507Z",
-  "total": 2389,
+  "updated": "2026-07-19T20:33:57.919827Z",
+  "total": 2387,
   "items": [
+    {
+      "key": "INC-9219",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9219"
+    },
     {
       "key": "INC-9218",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -768,11 +780,13 @@
     {
       "key": "INC-9158",
       "summary": "ATLAS NOTIFICATION: CS5003748 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "eSentire_Alert"
+      ],
       "created": "2026-07-17",
       "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9158"
@@ -29686,45 +29700,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6717"
-    },
-    {
-      "key": "INC-6716",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6716"
-    },
-    {
-      "key": "INC-6715",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8933",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6715"
-    },
-    {
-      "key": "INC-6714",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8933",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6714"
     }
   ]
 }
