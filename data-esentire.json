@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-19T22:29:35.139937Z",
-  "total": 2385,
+  "updated": "2026-07-19T23:32:46.205843Z",
+  "total": 2383,
   "items": [
+    {
+      "key": "INC-9223",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9223"
+    },
     {
       "key": "INC-9222",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -29636,45 +29648,6 @@
       "created": "2026-06-20",
       "updated": "2026-06-20",
       "url": "https://cube001.atlassian.net/browse/INC-6725"
-    },
-    {
-      "key": "INC-6724",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6724"
-    },
-    {
-      "key": "INC-6723",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-6723"
-    },
-    {
-      "key": "INC-6722",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6722"
     }
   ]
 }
