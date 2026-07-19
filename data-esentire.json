@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-18T23:29:47.037097Z",
-  "total": 2408,
+  "updated": "2026-07-19T01:05:37.644074Z",
+  "total": 2407,
   "items": [
+    {
+      "key": "INC-9194",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9194"
+    },
     {
       "key": "INC-9193",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
@@ -2809,13 +2821,13 @@
       "summary": "4CRisk DNS Migration -  down time on the DNS migration",
       "status": "In Progress",
       "assignee": "Faaris Ali",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-07-15",
-      "updated": "2026-07-17",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-8967"
     },
     {
@@ -29912,32 +29924,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6672"
-    },
-    {
-      "key": "INC-6671",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6671"
-    },
-    {
-      "key": "INC-6669",
-      "summary": "CUBEUAT2APP01 Server generating unusual High Traffic Throughput (last 24 hrs)",
-      "status": "Completed",
-      "assignee": "Zaw Aung",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-18",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-6669"
     }
   ]
 }
