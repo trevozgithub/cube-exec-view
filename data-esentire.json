@@ -1,12 +1,24 @@
 {
-  "updated": "2026-07-19T14:12:52.763092Z",
+  "updated": "2026-07-19T15:17:26.635668Z",
   "total": 2402,
   "items": [
     {
-      "key": "INC-9213",
+      "key": "INC-9214",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9214"
+    },
+    {
+      "key": "INC-9213",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -706,7 +718,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-17",
-      "updated": "2026-07-18",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9158"
     },
     {
@@ -10617,15 +10629,15 @@
     {
       "key": "INC-8370",
       "summary": "Disk USAGE- 90.249 piprodtranslate-fe - /dev/mapper/rootvg-varlv",
-      "status": "In Progress",
-      "assignee": "Glenn Ticong",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-07-07",
-      "updated": "2026-07-18",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-8370"
     },
     {
@@ -29866,18 +29878,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6697"
-    },
-    {
-      "key": "INC-6696",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6696"
     }
   ]
 }
