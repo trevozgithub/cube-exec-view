@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-19T07:10:26.175214Z",
-  "total": 2411,
+  "updated": "2026-07-19T09:17:07.957513Z",
+  "total": 2409,
   "items": [
     {
       "key": "INC-9211",
       "summary": "Your daily Uptrends report: Account overview",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -56,7 +56,7 @@
     {
       "key": "INC-9207",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62081",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -156,11 +156,13 @@
     {
       "key": "INC-9200",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64023",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-19",
       "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9200"
@@ -1908,7 +1910,7 @@
         "Daily-Checks"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-18",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9060"
     },
     {
@@ -2614,7 +2616,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-18",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9002"
     },
     {
@@ -29964,30 +29966,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6687"
-    },
-    {
-      "key": "INC-6686",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6686"
-    },
-    {
-      "key": "INC-6685",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6685"
     }
   ]
 }
