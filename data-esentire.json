@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-19T16:15:46.368296Z",
-  "total": 2393,
+  "updated": "2026-07-19T17:28:06.227479Z",
+  "total": 2391,
   "items": [
+    {
+      "key": "INC-9216",
+      "summary": "Consumer - PROD - Amber Red",
+      "status": "To Do",
+      "assignee": "Jaspreet Manghera",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9216"
+    },
     {
       "key": "INC-9215",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -29730,46 +29742,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6710"
-    },
-    {
-      "key": "INC-6709",
-      "summary": "VT-Veeam Cube_RGP_PROD_Data_Daily_Offsite_Copy\\CUBE_RGP_Data_Daily_Backup_ELS_ELK - FAILED",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-6709"
-    },
-    {
-      "key": "INC-6708",
-      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6708"
-    },
-    {
-      "key": "INC-6707",
-      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6707"
     }
   ]
 }
