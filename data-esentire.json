@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-19T15:17:26.635668Z",
-  "total": 2402,
+  "updated": "2026-07-19T16:15:46.368296Z",
+  "total": 2393,
   "items": [
+    {
+      "key": "INC-9215",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9215"
+    },
     {
       "key": "INC-9214",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -1910,7 +1922,7 @@
     {
       "key": "INC-9062",
       "summary": "Unable to access RegTransform - (https://regtransform.gocube.global/)",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Daniel Powell\u200c",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1918,7 +1930,7 @@
         "24x7"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-18",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9062"
     },
     {
@@ -29758,126 +29770,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6707"
-    },
-    {
-      "key": "INC-6706",
-      "summary": "PROBLEM: Microsoft SQL - List all lock types is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6706"
-    },
-    {
-      "key": "INC-6705",
-      "summary": "PROBLEM: Microsoft SQL - SQL Server cache statistics is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6705"
-    },
-    {
-      "key": "INC-6704",
-      "summary": "PROBLEM: Microsoft SQL - List SQL cache types is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6704"
-    },
-    {
-      "key": "INC-6703",
-      "summary": "PROBLEM: Microsoft SQL - Server wait statistics is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6703"
-    },
-    {
-      "key": "INC-6702",
-      "summary": "PROBLEM: Microsoft SQL - Lock statistics is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6702"
-    },
-    {
-      "key": "INC-6701",
-      "summary": "PROBLEM: Microsoft SQL - List all DBs is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6701"
-    },
-    {
-      "key": "INC-6700",
-      "summary": "PROBLEM: Microsoft SQL - Server Listener is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6700"
-    },
-    {
-      "key": "INC-6699",
-      "summary": "PROBLEM: Microsoft SQL - DB Agent Service is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6699"
-    },
-    {
-      "key": "INC-6698",
-      "summary": "PROBLEM: Microsoft SQL - Server Service is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6698"
-    },
-    {
-      "key": "INC-6697",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6697"
     }
   ]
 }
