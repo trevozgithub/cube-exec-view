@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T18:31:40.357534Z",
-  "total": 2391,
+  "updated": "2026-07-19T19:47:31.413507Z",
+  "total": 2389,
   "items": [
     {
       "key": "INC-9218",
@@ -1895,10 +1895,12 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "Alerts-From-Staff",
+        "Intel"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-18",
+      "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9068"
     },
     {
@@ -29723,30 +29725,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6714"
-    },
-    {
-      "key": "INC-6713",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8936",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6713"
-    },
-    {
-      "key": "INC-6712",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6712"
     }
   ]
 }
