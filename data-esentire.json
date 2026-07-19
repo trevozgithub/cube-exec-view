@@ -1,15 +1,47 @@
 {
-  "updated": "2026-07-19T17:28:06.227479Z",
+  "updated": "2026-07-19T18:31:40.357534Z",
   "total": 2391,
   "items": [
     {
-      "key": "INC-9216",
-      "summary": "Consumer - PROD - Amber Red",
-      "status": "To Do",
-      "assignee": "Jaspreet Manghera",
+      "key": "INC-9218",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9218"
+    },
+    {
+      "key": "INC-9217",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "Pipeline",
+        "RegInsight",
+        "SQL",
+        "alerts"
+      ],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9217"
+    },
+    {
+      "key": "INC-9216",
+      "summary": "Consumer - PROD - Amber Red",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-19",
       "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9216"
@@ -17,8 +49,8 @@
     {
       "key": "INC-9215",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +61,8 @@
     {
       "key": "INC-9214",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29715,33 +29747,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6712"
-    },
-    {
-      "key": "INC-6711",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6711"
-    },
-    {
-      "key": "INC-6710",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6710"
     }
   ]
 }
