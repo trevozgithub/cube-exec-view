@@ -1,7 +1,33 @@
 {
-  "updated": "2026-07-19T21:32:02.013695Z",
-  "total": 2387,
+  "updated": "2026-07-19T22:29:35.139937Z",
+  "total": 2385,
   "items": [
+    {
+      "key": "INC-9222",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9222"
+    },
+    {
+      "key": "INC-9221",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-19",
+      "updated": "2026-07-19",
+      "url": "https://cube001.atlassian.net/browse/INC-9221"
+    },
     {
       "key": "INC-9220",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -29649,57 +29675,6 @@
       "created": "2026-06-19",
       "updated": "2026-06-19",
       "url": "https://cube001.atlassian.net/browse/INC-6722"
-    },
-    {
-      "key": "INC-6721",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6721"
-    },
-    {
-      "key": "INC-6720",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6720"
-    },
-    {
-      "key": "INC-6719",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-06-19",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6719"
-    },
-    {
-      "key": "INC-6718",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-19",
-      "updated": "2026-06-19",
-      "url": "https://cube001.atlassian.net/browse/INC-6718"
     }
   ]
 }
