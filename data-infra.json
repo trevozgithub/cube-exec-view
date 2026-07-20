@@ -1,8 +1,46 @@
 {
-  "updated": "2026-07-20T10:53:37.316463Z",
+  "updated": "2026-07-20T13:04:19.411946Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-168",
+      "summary": "DNS migration to CloudFlare",
+      "status": "Build & Test",
+      "assignee": "Sean Kelaart",
+      "duedate": "2026-07-24",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-168",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/7/2026 For  4crisk.ai  waiting for Supradeep to confirm when we can complete the transfer. Scheduled for 21st of July   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin Registrar migration will be completed next week when Giuseppe is back from leave and Acin release is completed this week."
+        }
+      ]
+    },
+    {
+      "key": "CPN-949",
+      "summary": "4CRisk - Onboarding and O365 migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-08-07",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-949",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Monitors. Received the quote from the vendor. Awaiting review/approval from Barry [ Open ] Legacy assets wipe process - Provided the assets details to Softcat. Awaiting their quote. [ Open ] M365 license reduction - Completed. [ Done ]"
+        }
+      ]
+    },
     {
       "key": "CPN-1571",
       "summary": "Platform - Administrative Tasks Q3 2026",
@@ -146,24 +184,6 @@
       ]
     },
     {
-      "key": "CPN-168",
-      "summary": "DNS migration to CloudFlare",
-      "status": "Build & Test",
-      "assignee": "Sean Kelaart",
-      "duedate": "2026-07-24",
-      "reviewed": "2026-07-16",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-168",
-      "panels": [
-        {
-          "type": "info",
-          "text": "6/7/2026 For  4crisk.ai  waiting for Supradeep to confirm when we can complete the transfer. Scheduled for 21st of July   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin Registrar migration will be completed next week when Giuseppe is back from leave and Acin release is completed this week."
-        }
-      ]
-    },
-    {
       "key": "CPN-676",
       "summary": "CUBE Datacenter Exit",
       "status": "Build & Test",
@@ -197,26 +217,6 @@
         {
           "type": "info",
           "text": "13/07/26 ProtonVPN has been onboarded. Ticket for Proton VPN subscription -        to action set up of Proton VPN."
-        }
-      ]
-    },
-    {
-      "key": "CPN-949",
-      "summary": "4CRisk - Onboarding and O365 migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-08-07",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-949",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Dipak requested a quote from the local vendor for the monitors. Followed up with the vendor. [ Open ] Legacy assets wipe process - Old devices will be wiped in accordance with compliance standards, and CUBE will receive certificates of data erasure upon completion. Softcat has provided the required form for asset details. Awaiting feedback from Dipak. [ Open ] M365 license reduction - Coordinated with Stefan to complete that task this week. [ Open ]"
         }
       ]
     },

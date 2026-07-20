@@ -1,7 +1,79 @@
 {
-  "updated": "2026-07-20T10:53:59.094597Z",
-  "total": 2385,
+  "updated": "2026-07-20T13:04:37.347287Z",
+  "total": 2386,
   "items": [
+    {
+      "key": "INC-9238",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62199",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9238"
+    },
+    {
+      "key": "INC-9237",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62198",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9237"
+    },
+    {
+      "key": "INC-9236",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62197",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9236"
+    },
+    {
+      "key": "INC-9235",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62196",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9235"
+    },
+    {
+      "key": "INC-9234",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62195",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9234"
+    },
+    {
+      "key": "INC-9233",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62195",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9233"
+    },
     {
       "key": "INC-9232",
       "summary": "Intel Prod Content Ingestion Service logging errors",
@@ -201,7 +273,7 @@
         "alerts"
       ],
       "created": "2026-07-19",
-      "updated": "2026-07-19",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9217"
     },
     {
@@ -3014,11 +3086,13 @@
     {
       "key": "INC-8991",
       "summary": "Patching error - TCGDESKTOP02",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-8991"
@@ -29604,72 +29678,6 @@
       "created": "2026-06-20",
       "updated": "2026-06-20",
       "url": "https://cube001.atlassian.net/browse/INC-6740"
-    },
-    {
-      "key": "INC-6739",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6739"
-    },
-    {
-      "key": "INC-6738",
-      "summary": "Alerts From Staff - Simplification of Dispositioning Tags on CUBE and CR&C Project",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6738"
-    },
-    {
-      "key": "INC-6737",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts"
-      ],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6737"
-    },
-    {
-      "key": "INC-6736",
-      "summary": "CUBEUAT2REDIS01 - Usage: real 90% (10569/11729 MB), buffer: 0 MB, cache: 884 MB, swap: 100% (4060/4060 MB)",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-20",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6736"
-    },
-    {
-      "key": "INC-6734",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6734"
     }
   ]
 }
