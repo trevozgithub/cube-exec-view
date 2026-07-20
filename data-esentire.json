@@ -1,12 +1,62 @@
 {
-  "updated": "2026-07-20T04:52:53.563940Z",
-  "total": 2382,
+  "updated": "2026-07-20T07:55:14.516703Z",
+  "total": 2383,
   "items": [
+    {
+      "key": "INC-9229",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9229"
+    },
+    {
+      "key": "INC-9228",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9228"
+    },
+    {
+      "key": "INC-9227",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9227"
+    },
+    {
+      "key": "INC-9226",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9226"
+    },
     {
       "key": "INC-9225",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1269,7 +1319,7 @@
         "health-check"
       ],
       "created": "2026-07-17",
-      "updated": "2026-07-19",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9126"
     },
     {
@@ -2082,7 +2132,7 @@
     {
       "key": "INC-9060",
       "summary": "VT-VEEAM | Multiple Backup & Backup Copy Job Failures (11 Sessions) ",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2092,7 +2142,7 @@
         "Daily-Checks"
       ],
       "created": "2026-07-16",
-      "updated": "2026-07-19",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9060"
     },
     {
@@ -2929,7 +2979,7 @@
       "key": "INC-8991",
       "summary": "Patching error - TCGDESKTOP02",
       "status": "In Progress",
-      "assignee": "Dan Palmer",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -6725,12 +6775,12 @@
       "key": "INC-8690",
       "summary": "Opsview - Critical Alarm - AzureWebApp_dev-business-app_dev-app.gocube.global",
       "status": "To Do",
-      "assignee": "Ersin Mouminoglu",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-12",
-      "updated": "2026-07-17",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-8690"
     },
     {
@@ -29596,44 +29646,6 @@
       "created": "2026-06-20",
       "updated": "2026-06-20",
       "url": "https://cube001.atlassian.net/browse/INC-6733"
-    },
-    {
-      "key": "INC-6732",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6732"
-    },
-    {
-      "key": "INC-6731",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6731"
-    },
-    {
-      "key": "INC-6730",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6730"
     }
   ]
 }
