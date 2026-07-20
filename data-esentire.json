@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-20T01:09:54.192655Z",
-  "total": 2383,
+  "updated": "2026-07-20T04:52:53.563940Z",
+  "total": 2382,
   "items": [
+    {
+      "key": "INC-9225",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9225"
+    },
     {
       "key": "INC-9224",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -2922,7 +2934,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-18",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-8991"
     },
     {
@@ -29622,32 +29634,6 @@
       "created": "2026-06-20",
       "updated": "2026-06-20",
       "url": "https://cube001.atlassian.net/browse/INC-6730"
-    },
-    {
-      "key": "INC-6727",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6727"
-    },
-    {
-      "key": "INC-6726",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6726"
     }
   ]
 }
