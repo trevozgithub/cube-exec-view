@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-20T20:14:50.327889Z",
-  "total": 2390,
+  "updated": "2026-07-20T21:36:06.636915Z",
+  "total": 2387,
   "items": [
     {
       "key": "INC-9247",
@@ -206,11 +206,13 @@
     {
       "key": "INC-9229",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-20",
       "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9229"
@@ -29699,42 +29701,6 @@
       "created": "2026-06-20",
       "updated": "2026-06-20",
       "url": "https://cube001.atlassian.net/browse/INC-6746"
-    },
-    {
-      "key": "INC-6745",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8969",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6745"
-    },
-    {
-      "key": "INC-6744",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6744"
-    },
-    {
-      "key": "INC-6743",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6743"
     }
   ]
 }
