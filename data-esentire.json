@@ -1,7 +1,60 @@
 {
-  "updated": "2026-07-20T13:04:37.347287Z",
-  "total": 2386,
+  "updated": "2026-07-20T15:19:36.191159Z",
+  "total": 2389,
   "items": [
+    {
+      "key": "INC-9242",
+      "summary": "New Relic Alert \u2013 BITS service repeatedly stopping/starting on CUBEPROD2IIS03",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9242"
+    },
+    {
+      "key": "INC-9241",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9241"
+    },
+    {
+      "key": "INC-9240",
+      "summary": "CUBEUAT2APP01 - BITS Service Cycling and Elevated Storage Usage",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P5",
+      "issuetype": "Service Incident",
+      "labels": [
+        "bits",
+        "storage",
+        "uat",
+        "windows"
+      ],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9240"
+    },
+    {
+      "key": "INC-9239",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-20",
+      "updated": "2026-07-20",
+      "url": "https://cube001.atlassian.net/browse/INC-9239"
+    },
     {
       "key": "INC-9238",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62199",
@@ -53,11 +106,13 @@
     {
       "key": "INC-9234",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62195",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-20",
       "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9234"
@@ -1020,7 +1075,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-07-17",
-      "updated": "2026-07-19",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9158"
     },
     {
@@ -2956,7 +3011,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-19",
+      "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9002"
     },
     {
@@ -29666,18 +29721,6 @@
       "created": "2026-06-20",
       "updated": "2026-06-20",
       "url": "https://cube001.atlassian.net/browse/INC-6741"
-    },
-    {
-      "key": "INC-6740",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-20",
-      "updated": "2026-06-20",
-      "url": "https://cube001.atlassian.net/browse/INC-6740"
     }
   ]
 }

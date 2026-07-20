@@ -1,8 +1,124 @@
 {
-  "updated": "2026-07-20T13:04:19.411946Z",
+  "updated": "2026-07-20T15:19:18.609905Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "InfoSec",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Migration of Acin, Kodex and 4C Risk repos is to be scheduled and completed. 2 Acin repos have been migrated, the remaining Acin repos will be migrated during the week of 13/07. Kodex to be migrated 20 and 21 July. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The target to complete pipeline migration is end of August. A template pipeline will be created and shared with the teams, with the initial step to create documentation for this. The pipeline inventory has been shared with Engineering Managers and calls will be scheduled week commencing 20/07 to review and agree next steps."
+        }
+      ]
+    },
+    {
+      "key": "CPN-697",
+      "summary": "Database Rationalization",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-697",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Consolidated 13 existing AlwaysOn Availability Groups into a single Availability Group on PREP and UAT. Configured backups for the UAT SQL Azure VMs using the existing on-premises file server as a temporary solution until Azure Blob Storage is available. Completed creation and configuration of all required SQL maintenance jobs in the UAT environment and reviewed SQL Agent permissions. Revisit unused indexes across DRP databases (DEV and Production) and begin the planned cleanup. Kick off data cleanup in DEV for the InsightProfileResult and CustomerInsightRel tables.    CustomerProfileConceptRel data cleanup on the customer database on RPG in Production completed. Completed TEST SQL MI configuration and successfully failed over to Azure. Reinstalled SQL Server 2025 on the new DRP database server but need clarification if these are still required if the architecture design as changed regarding SQL MI. Configured the UAT Azure SQL VM and all databases restored as standalone ready for testing. Ongoing tasks to build out new UAT SQL Azure VMs for go-live migration Kick off data cleanup in RGP DEV for the InsightProfileResult and CustomerInsightRel tables after script deletion review.     No progress on the RGP Test SQL Managed Instance configuration setup last week due to other priorities; work planned to resume this week. Database Watch now configured on AZURE to help with ongoing performance issues on UAT. But the DBAs are unable to view some of the dashboards due to permission issues. Raised this with Paul and waiting for response.  Successfully rolled out Query Store across all DRP production databases.  Configuration setup for the RGP Test SQL Managed Instance was meant to commence on Friday but was off sick. Will start looking at this this week Continue reviewing database access across DRP environments and progress remediation activities. Add missing databases to the PROD1 AlwaysOn Availability Group. Completed  Kick off DRP remediation activities, including planning for the migration of databases to the new server estate. Ongoing and next phase to start this week   ===    [DBOPS-169] Upgrade PROD2 Windows/SQL Servers to v2022   PROD2 Database migration to the new set of production servers, completed over the course of the weekend (02th of May 2026) [DBOPS-54] AG & Replication Monitoring Always On Alerting Implementation: Completed and running on all prod and UAT environments on the on-prem environment Outstanding:- Documenting setup [DBOPS-92] Query Optimisation - Production Ongoing works with the Engineering team to implement recommended changes. Most of the tasks have now been allocated to an engineer who is working closely with the DBA team [DBOPS-288] Enterprise Dev team access to Azure SQL MI UAT database Failover to Azure Assisting with troubleshooting on DEV SQL MI"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1420",
+      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-10-29",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "Kodex",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Jira space for Kodex team has been created based on the design  Kodex AI - Miro .  George to set up a squad object and link this to the space. Claus to advise on the location & repos Kodex uses so that these can be integrated to Plandek"
+        }
+      ]
+    },
+    {
+      "key": "CPN-105",
+      "summary": "TR Employee Data migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-105",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. Awaiting feedback from TR for long-term solution.  Distribution lists have been recreated by Service Desk Next phase: OneDrive migration to be kicked-off in August. Scheduled for   O365 migration plan:"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1214",
+      "summary": "4CRisk - Systems migration and consolidation",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-07-20",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "panels": [
+        {
+          "type": "info",
+          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part scheduled for 22nd July [ Open ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is still ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week. ETA 31st July [ Open ]"
+        }
+      ]
+    },
     {
       "key": "CPN-168",
       "summary": "DNS migration to CloudFlare",
@@ -55,45 +171,6 @@
       "panels": []
     },
     {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-07-20",
-      "labels": [
-        "InfoSec",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "13/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-07-20",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "13/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Migration of Acin, Kodex and 4C Risk repos is to be scheduled and completed. 2 Acin repos have been migrated, the remaining Acin repos will be migrated during the week of 13/07. Kodex to be migrated 20 and 21 July. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The target to complete pipeline migration is end of August. A template pipeline will be created and shared with the teams, with the initial step to create documentation for this. The pipeline inventory has been shared with Engineering Managers and calls will be scheduled week commencing 20/07 to review and agree next steps."
-        }
-      ]
-    },
-    {
       "key": "CPN-703",
       "summary": "Enterprise in the cloud - Phase 2",
       "status": "Build & Test",
@@ -142,46 +219,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-196",
       "panels": []
-    },
-    {
-      "key": "CPN-1420",
-      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-10-29",
-      "reviewed": "2026-07-17",
-      "labels": [
-        "Kodex",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Request has been sent to TechOps team for creation in Jira space based on the design  Kodex AI - Miro ."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1214",
-      "summary": "4CRisk - Systems migration and consolidation",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-07-17",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214",
-      "panels": [
-        {
-          "type": "info",
-          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - TBD [ Open ] DNS migration - 1st part scheduled for 15th July, 2nd part scheduled to be completed by 22nd July [ Open ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week.[ Open ]"
-        }
-      ]
     },
     {
       "key": "CPN-676",
@@ -344,43 +381,6 @@
         {
           "type": "info",
           "text": "Next steps - Agree on the project plan and create a SoW. Awaiting SJP to submit project milestones and the project status meeting cadence between now and the end of the term (March 2027), which we can use as the basis for our SOW"
-        }
-      ]
-    },
-    {
-      "key": "CPN-105",
-      "summary": "TR Employee Data migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-105",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. Awaiting feedback from TR for long-term solution.  Distribution lists have been recreated by Service Desk Next phase: OneDrive migration to be kicked-off in August. O365 migration plan:"
-        }
-      ]
-    },
-    {
-      "key": "CPN-697",
-      "summary": "Database Rationalization",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-697",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CustomerProfileConceptRel data cleanup on the customer database on RPG in Production completed. Completed TEST SQL MI configuration and successfully failed over to Azure. Reinstalled SQL Server 2025 on the new DRP database server but need clarification if these are still required if the architecture design as changed regarding SQL MI. Configured the UAT Azure SQL VM and all databases restored as standalone ready for testing. Ongoing tasks to build out new UAT SQL Azure VMs for go-live migration Kick off data cleanup in RGP DEV for the InsightProfileResult and CustomerInsightRel tables after script deletion review.     No progress on the RGP Test SQL Managed Instance configuration setup last week due to other priorities; work planned to resume this week. Database Watch now configured on AZURE to help with ongoing performance issues on UAT. But the DBAs are unable to view some of the dashboards due to permission issues. Raised this with Paul and waiting for response.  Successfully rolled out Query Store across all DRP production databases.  Configuration setup for the RGP Test SQL Managed Instance was meant to commence on Friday but was off sick. Will start looking at this this week Continue reviewing database access across DRP environments and progress remediation activities. Add missing databases to the PROD1 AlwaysOn Availability Group. Completed  Kick off DRP remediation activities, including planning for the migration of databases to the new server estate. Ongoing and next phase to start this week   ===    [DBOPS-169] Upgrade PROD2 Windows/SQL Servers to v2022   PROD2 Database migration to the new set of production servers, completed over the course of the weekend (02th of May 2026) [DBOPS-54] AG & Replication Monitoring Always On Alerting Implementation: Completed and running on all prod and UAT environments on the on-prem environment Outstanding:- Documenting setup [DBOPS-92] Query Optimisation - Production Ongoing works with the Engineering team to implement recommended changes. Most of the tasks have now been allocated to an engineer who is working closely with the DBA team [DBOPS-288] Enterprise Dev team access to Azure SQL MI UAT database Failover to Azure Assisting with troubleshooting on DEV SQL MI"
         }
       ]
     },
