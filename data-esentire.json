@@ -1,7 +1,69 @@
 {
-  "updated": "2026-07-21T13:00:42.723274Z",
-  "total": 2310,
+  "updated": "2026-07-21T15:12:42.524807Z",
+  "total": 2312,
   "items": [
+    {
+      "key": "INC-9289",
+      "summary": "Intel Find not working during a customer call",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9289"
+    },
+    {
+      "key": "INC-9288",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9288"
+    },
+    {
+      "key": "INC-9286",
+      "summary": "VT-vCenter.tcgcloud.local still showing SJCLIENT01",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9286"
+    },
+    {
+      "key": "INC-9285",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62297",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9285"
+    },
+    {
+      "key": "INC-9284",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9284"
+    },
     {
       "key": "INC-9283",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -492,11 +554,13 @@
     {
       "key": "INC-9242",
       "summary": "New Relic Alert \u2013 BITS service repeatedly stopping/starting on CUBEPROD2IIS03",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-20",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9242"
@@ -516,7 +580,7 @@
     {
       "key": "INC-9240",
       "summary": "CUBEUAT2APP01 - BITS Service Cycling and Elevated Storage Usage",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P5",
       "issuetype": "Service Incident",
@@ -1568,7 +1632,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-07-17",
-      "updated": "2026-07-20",
+      "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9158"
     },
     {
@@ -2928,7 +2992,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-16",
-      "updated": "2026-07-19",
+      "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9048"
     },
     {
@@ -28751,42 +28815,6 @@
       "created": "2026-06-21",
       "updated": "2026-06-21",
       "url": "https://cube001.atlassian.net/browse/INC-6862"
-    },
-    {
-      "key": "INC-6861",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6861"
-    },
-    {
-      "key": "INC-6860",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6860"
-    },
-    {
-      "key": "INC-6859",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6859"
     }
   ]
 }
