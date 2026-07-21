@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-21T01:08:37.982861Z",
-  "total": 2385,
+  "updated": "2026-07-21T04:31:32.634953Z",
+  "total": 2373,
   "items": [
+    {
+      "key": "INC-9252",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9252"
+    },
+    {
+      "key": "INC-9251",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "Utilization",
+        "opsview"
+      ],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9251"
+    },
+    {
+      "key": "INC-9250",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9250"
+    },
     {
       "key": "INC-9249",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -1538,7 +1578,7 @@
     {
       "key": "INC-9126",
       "summary": "API Connect Health Checks Errors - PROD and UAT ",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3071,13 +3111,15 @@
     {
       "key": "INC-9002",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
-      "updated": "2026-07-20",
+      "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9002"
     },
     {
@@ -3520,7 +3562,7 @@
         "24x7"
       ],
       "created": "2026-07-15",
-      "updated": "2026-07-19",
+      "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-8967"
     },
     {
@@ -4651,7 +4693,7 @@
         "UAT"
       ],
       "created": "2026-07-14",
-      "updated": "2026-07-18",
+      "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-8877"
     },
     {
@@ -29491,194 +29533,6 @@
       "created": "2026-06-21",
       "updated": "2026-06-21",
       "url": "https://cube001.atlassian.net/browse/INC-6765"
-    },
-    {
-      "key": "INC-6764",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61371",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6764"
-    },
-    {
-      "key": "INC-6763",
-      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-21",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6763"
-    },
-    {
-      "key": "INC-6762",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61370",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6762"
-    },
-    {
-      "key": "INC-6761",
-      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6761"
-    },
-    {
-      "key": "INC-6760",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6760"
-    },
-    {
-      "key": "INC-6759",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6759"
-    },
-    {
-      "key": "INC-6758",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6758"
-    },
-    {
-      "key": "INC-6757",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61367",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6757"
-    },
-    {
-      "key": "INC-6756",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61368",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-21",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6756"
-    },
-    {
-      "key": "INC-6755",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61368",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6755"
-    },
-    {
-      "key": "INC-6754",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61366",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6754"
-    },
-    {
-      "key": "INC-6753",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6753"
-    },
-    {
-      "key": "INC-6752",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #59837",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-21",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6752"
-    },
-    {
-      "key": "INC-6751",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #59837",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6751"
-    },
-    {
-      "key": "INC-6750",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-21",
-      "url": "https://cube001.atlassian.net/browse/INC-6750"
     }
   ]
 }
