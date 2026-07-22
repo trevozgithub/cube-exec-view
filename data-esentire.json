@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-22T17:45:47.546072Z",
+  "updated": "2026-07-22T18:51:19.534476Z",
   "total": 2412,
   "items": [
+    {
+      "key": "INC-9432",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "url": "https://cube001.atlassian.net/browse/INC-9432"
+    },
+    {
+      "key": "INC-9431",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "url": "https://cube001.atlassian.net/browse/INC-9431"
+    },
     {
       "key": "INC-9430",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -1528,7 +1552,7 @@
       "key": "INC-9307",
       "summary": "UAT doesn't load - spinning CUBE",
       "status": "In Progress",
-      "assignee": "Unassigned",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -30044,30 +30068,6 @@
       "created": "2026-06-22",
       "updated": "2026-06-22",
       "url": "https://cube001.atlassian.net/browse/INC-6905"
-    },
-    {
-      "key": "INC-6904",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9010",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6904"
-    },
-    {
-      "key": "INC-6903",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6903"
     }
   ]
 }
