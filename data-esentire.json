@@ -1,15 +1,89 @@
 {
-  "updated": "2026-07-21T23:07:53.220684Z",
-  "total": 2352,
+  "updated": "2026-07-22T00:05:13.369963Z",
+  "total": 2353,
   "items": [
     {
-      "key": "INC-9338",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64291",
+      "key": "INC-9344",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64296",
       "status": "To Do",
-      "assignee": "Johnmar Carlos Wabe",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "url": "https://cube001.atlassian.net/browse/INC-9344"
+    },
+    {
+      "key": "INC-9343",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "url": "https://cube001.atlassian.net/browse/INC-9343"
+    },
+    {
+      "key": "INC-9342",
+      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9342"
+    },
+    {
+      "key": "INC-9341",
+      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9341"
+    },
+    {
+      "key": "INC-9340",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64295",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9340"
+    },
+    {
+      "key": "INC-9339",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64294",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-21",
+      "updated": "2026-07-21",
+      "url": "https://cube001.atlassian.net/browse/INC-9339"
+    },
+    {
+      "key": "INC-9338",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64291",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9338"
@@ -54,7 +128,7 @@
       "key": "INC-9334",
       "summary": "A replication error occurred at the vSphere Replication Server for replication 'CUBEPROD1SQL03'",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -8104,9 +8178,11 @@
       "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview"
+      ],
       "created": "2026-07-12",
-      "updated": "2026-07-20",
+      "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-8690"
     },
     {
@@ -29245,70 +29321,6 @@
       "created": "2026-06-22",
       "updated": "2026-06-22",
       "url": "https://cube001.atlassian.net/browse/INC-6876"
-    },
-    {
-      "key": "INC-6875",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8994",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6875"
-    },
-    {
-      "key": "INC-6874",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6874"
-    },
-    {
-      "key": "INC-6873",
-      "summary": "Server unresponsive - DRPSQLPROD02",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-21",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-6873"
-    },
-    {
-      "key": "INC-6872",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8995",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-21",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6872"
-    },
-    {
-      "key": "INC-6871",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #8995",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-21",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6871"
     }
   ]
 }
