@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-22T18:51:19.534476Z",
-  "total": 2412,
+  "updated": "2026-07-22T20:12:43.440620Z",
+  "total": 2405,
   "items": [
+    {
+      "key": "INC-9433",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-22",
+      "url": "https://cube001.atlassian.net/browse/INC-9433"
+    },
     {
       "key": "INC-9432",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -289,11 +301,13 @@
     {
       "key": "INC-9409",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9409"
@@ -29968,106 +29982,6 @@
       "created": "2026-06-22",
       "updated": "2026-06-22",
       "url": "https://cube001.atlassian.net/browse/INC-6913"
-    },
-    {
-      "key": "INC-6912",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9012",
-      "status": "Completed",
-      "assignee": "Sivachidambaram Srinivasan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-06-22",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-6912"
-    },
-    {
-      "key": "INC-6911",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9013",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6911"
-    },
-    {
-      "key": "INC-6910",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6910"
-    },
-    {
-      "key": "INC-6909",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6909"
-    },
-    {
-      "key": "INC-6908",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6908"
-    },
-    {
-      "key": "INC-6907",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9012",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6907"
-    },
-    {
-      "key": "INC-6906",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6906"
-    },
-    {
-      "key": "INC-6905",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9011",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6905"
     }
   ]
 }
