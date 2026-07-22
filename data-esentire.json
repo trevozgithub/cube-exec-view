@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T21:21:44.158609Z",
-  "total": 2404,
+  "updated": "2026-07-22T22:32:11.316204Z",
+  "total": 2401,
   "items": [
     {
       "key": "INC-9437",
@@ -4833,11 +4833,13 @@
     {
       "key": "INC-9048",
       "summary": "Sectors not being included in the automated Early Access process for CUBE Intel from SF",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Sandeep Multani",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-16",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9048"
@@ -29932,44 +29934,6 @@
       "created": "2026-06-22",
       "updated": "2026-06-23",
       "url": "https://cube001.atlassian.net/browse/INC-6921"
-    },
-    {
-      "key": "INC-6920",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-22",
-      "url": "https://cube001.atlassian.net/browse/INC-6920"
-    },
-    {
-      "key": "INC-6919",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6919"
-    },
-    {
-      "key": "INC-6918",
-      "summary": "SJPPROD-TRANS10 ISSUE Urgent",
-      "status": "Completed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-22",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-6918"
     }
   ]
 }
