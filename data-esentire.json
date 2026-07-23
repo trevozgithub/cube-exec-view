@@ -1,7 +1,105 @@
 {
-  "updated": "2026-07-23T11:33:28.069625Z",
-  "total": 2362,
+  "updated": "2026-07-23T13:10:50.793621Z",
+  "total": 2364,
   "items": [
+    {
+      "key": "INC-9478",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62467",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9478"
+    },
+    {
+      "key": "INC-9477",
+      "summary": "DRP PROD RDI Loader Service Down",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9477"
+    },
+    {
+      "key": "INC-9476",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9476"
+    },
+    {
+      "key": "INC-9475",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9475"
+    },
+    {
+      "key": "INC-9474",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9474"
+    },
+    {
+      "key": "INC-9473",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9473"
+    },
+    {
+      "key": "INC-9472",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62466",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9472"
+    },
+    {
+      "key": "INC-9471",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62465",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9471"
+    },
     {
       "key": "INC-9470",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62464",
@@ -29,11 +127,13 @@
     {
       "key": "INC-9468",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9468"
@@ -77,11 +177,13 @@
     {
       "key": "INC-9464",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9464"
@@ -89,11 +191,13 @@
     {
       "key": "INC-9463",
       "summary": "SQL Server Alert System: 'Database Role Resolving' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9463"
@@ -29391,84 +29495,6 @@
       "created": "2026-06-23",
       "updated": "2026-06-23",
       "url": "https://cube001.atlassian.net/browse/INC-7000"
-    },
-    {
-      "key": "INC-6999",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6999"
-    },
-    {
-      "key": "INC-6998",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6998"
-    },
-    {
-      "key": "INC-6997",
-      "summary": "OpsView Website Monitors Systran PROD - Services: piprodtranslate.gocube.global",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts"
-      ],
-      "created": "2026-06-23",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-6997"
-    },
-    {
-      "key": "INC-6996",
-      "summary": "PROBLEM: Base - CPU Queue length is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-06-23",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-6996"
-    },
-    {
-      "key": "INC-6995",
-      "summary": "PROBLEM: Base - CPU Queue length is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6995"
-    },
-    {
-      "key": "INC-6994",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6994"
     }
   ]
 }
