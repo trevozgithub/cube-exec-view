@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-23T07:14:22.285322Z",
-  "total": 2396,
+  "updated": "2026-07-23T09:40:36.185550Z",
+  "total": 2395,
   "items": [
+    {
+      "key": "INC-9456",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9456"
+    },
+    {
+      "key": "INC-9455",
+      "summary": "Alert: Kazakh translations failing silently",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9455"
+    },
     {
       "key": "INC-9454",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -227,7 +251,7 @@
     {
       "key": "INC-9436",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1860,13 +1884,17 @@
     {
       "key": "INC-9305",
       "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ELKAlert",
+        "LIVE",
+        "schedularservice"
+      ],
       "created": "2026-07-21",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9305"
     },
     {
@@ -2941,7 +2969,7 @@
     {
       "key": "INC-9217",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -29849,46 +29877,6 @@
       "created": "2026-06-23",
       "updated": "2026-06-23",
       "url": "https://cube001.atlassian.net/browse/INC-6946"
-    },
-    {
-      "key": "INC-6945",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "ElasticSearch",
-        "alerts"
-      ],
-      "created": "2026-06-23",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-6945"
-    },
-    {
-      "key": "INC-6944",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6944"
-    },
-    {
-      "key": "INC-6943",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6943"
     }
   ]
 }
