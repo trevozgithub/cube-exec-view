@@ -1,15 +1,89 @@
 {
-  "updated": "2026-07-23T01:09:17.126302Z",
+  "updated": "2026-07-23T04:33:46.847404Z",
   "total": 2404,
   "items": [
     {
+      "key": "INC-9453",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9453"
+    },
+    {
+      "key": "INC-9452",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9452"
+    },
+    {
+      "key": "INC-9451",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9451"
+    },
+    {
+      "key": "INC-9450",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62433",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9450"
+    },
+    {
+      "key": "INC-9449",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9449"
+    },
+    {
+      "key": "INC-9448",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9448"
+    },
+    {
       "key": "INC-9447",
       "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9447"
@@ -41,11 +115,13 @@
     {
       "key": "INC-9444",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9444"
@@ -143,9 +219,13 @@
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "LIVE",
+        "Migration",
+        "alerts"
+      ],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9436"
     },
     {
@@ -289,9 +369,14 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ELKAlert",
+        "Migration",
+        "UAT",
+        "alerts"
+      ],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9424"
     },
     {
@@ -357,13 +442,15 @@
     {
       "key": "INC-9418",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9418"
     },
     {
@@ -613,7 +700,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9398"
     },
     {
@@ -1407,13 +1494,13 @@
     {
       "key": "INC-9334",
       "summary": "A replication error occurred at the vSphere Replication Server for replication 'CUBEPROD1SQL03'",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-21",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9334"
     },
     {
@@ -2854,7 +2941,7 @@
         "alerts"
       ],
       "created": "2026-07-19",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9217"
     },
     {
@@ -4008,7 +4095,7 @@
         "health-check"
       ],
       "created": "2026-07-17",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9126"
     },
     {
@@ -29898,78 +29985,6 @@
       "created": "2026-06-23",
       "updated": "2026-06-23",
       "url": "https://cube001.atlassian.net/browse/INC-6934"
-    },
-    {
-      "key": "INC-6933",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6933"
-    },
-    {
-      "key": "INC-6932",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9022",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6932"
-    },
-    {
-      "key": "INC-6931",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6931"
-    },
-    {
-      "key": "INC-6930",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6930"
-    },
-    {
-      "key": "INC-6929",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9020",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6929"
-    },
-    {
-      "key": "INC-6928",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6928"
     }
   ]
 }
