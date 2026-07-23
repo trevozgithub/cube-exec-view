@@ -1,17 +1,115 @@
 {
-  "updated": "2026-07-22T23:35:18.904514Z",
-  "total": 2401,
+  "updated": "2026-07-23T01:09:17.126302Z",
+  "total": 2404,
   "items": [
     {
-      "key": "INC-9439",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "key": "INC-9447",
+      "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9447"
+    },
+    {
+      "key": "INC-9446",
+      "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9446"
+    },
+    {
+      "key": "INC-9445",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9445"
+    },
+    {
+      "key": "INC-9444",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9444"
+    },
+    {
+      "key": "INC-9443",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9443"
+    },
+    {
+      "key": "INC-9442",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9442"
+    },
+    {
+      "key": "INC-9441",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9441"
+    },
+    {
+      "key": "INC-9440",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-07-22",
-      "updated": "2026-07-22",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9440"
+    },
+    {
+      "key": "INC-9439",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-22",
+      "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9439"
     },
     {
@@ -29872,68 +29970,6 @@
       "created": "2026-06-23",
       "updated": "2026-06-23",
       "url": "https://cube001.atlassian.net/browse/INC-6928"
-    },
-    {
-      "key": "INC-6927",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9019",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6927"
-    },
-    {
-      "key": "INC-6926",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9019",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6926"
-    },
-    {
-      "key": "INC-6925",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6925"
-    },
-    {
-      "key": "INC-6924",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6924"
-    },
-    {
-      "key": "INC-6923",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-22",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-6923"
     }
   ]
 }
