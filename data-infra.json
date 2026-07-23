@@ -1,8 +1,26 @@
 {
-  "updated": "2026-07-23T09:40:12.970952Z",
+  "updated": "2026-07-23T11:33:09.050909Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-168",
+      "summary": "DNS migration to CloudFlare",
+      "status": "Build & Test",
+      "assignee": "Sean Kelaart",
+      "duedate": "2026-07-24",
+      "reviewed": "2026-07-23",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-168",
+      "panels": [
+        {
+          "type": "info",
+          "text": "23/7/2026 For the 3 phigrc ones (for 4C) ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin move is now complete"
+        }
+      ]
+    },
     {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
@@ -33,24 +51,6 @@
         {
           "type": "info",
           "text": "06/07/2026 SQL MI has performance issues around use of TempDB. A SQL VM has been created in Azure UAT to compare performance against SQL MI and on prem. Initial results show increased performance compared to SQL MI. SQL VMs are being further built out in the UAT environment. Elastic consumption and spend is significantly higher than originally target. The Elastic PS is unlikely to reduce the spend to the forecast level. Dev and Test environments have been migrated to Azure. The Test migration took longer than expected and had issues. Further migrations in the Prep environment are required to prove and refine the process. RAG is Red due to outstanding work to be completed for migration."
-        }
-      ]
-    },
-    {
-      "key": "CPN-168",
-      "summary": "DNS migration to CloudFlare",
-      "status": "Build & Test",
-      "assignee": "Sean Kelaart",
-      "duedate": "2026-07-24",
-      "reviewed": "2026-07-21",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-168",
-      "panels": [
-        {
-          "type": "info",
-          "text": "21/7/2026 For  4crisk.ai  nameserver switchover has taken place. Just part 2 which is straightforward   For the 3 phigrc ones ( phigrc.com ,  phigrc.ai  and  phigrccom.onmicrosoft.com ) we are waiting for transfer details. Have chased Supradeep Acin Registrar migration will be completed next week when Giuseppe is back from leave and Acin release is completed this week."
         }
       ]
     },
