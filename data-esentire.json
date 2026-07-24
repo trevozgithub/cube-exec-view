@@ -1,11 +1,179 @@
 {
-  "updated": "2026-07-24T08:46:37.947890Z",
-  "total": 2376,
+  "updated": "2026-07-24T10:50:33.996927Z",
+  "total": 2379,
   "items": [
+    {
+      "key": "INC-9551",
+      "summary": "PROBLEM: MS SQL - List all DBs is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9551"
+    },
+    {
+      "key": "INC-9550",
+      "summary": "PROBLEM: MS SQL - Server wait statistics is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9550"
+    },
+    {
+      "key": "INC-9549",
+      "summary": "PROBLEM: MS SQL - List SQL cache types is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9549"
+    },
+    {
+      "key": "INC-9548",
+      "summary": "PROBLEM: MS SQL - SQL Server cache statistics is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9548"
+    },
+    {
+      "key": "INC-9547",
+      "summary": "PROBLEM: MS SQL - List all lock types is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9547"
+    },
+    {
+      "key": "INC-9546",
+      "summary": "PROBLEM: MS SQL - Lock statistics is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9546"
+    },
+    {
+      "key": "INC-9545",
+      "summary": "PROBLEM: MS SQL - Check memory is CRITICAL on host CUBEPROD1SQL08",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9545"
+    },
+    {
+      "key": "INC-9544",
+      "summary": "PROBLEM: MS SQL - List all DBs is CRITICAL on host CUBEPROD1SQL08",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9544"
+    },
+    {
+      "key": "INC-9543",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
+      "status": "In Triage",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9543"
+    },
+    {
+      "key": "INC-9542",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9542"
+    },
+    {
+      "key": "INC-9541",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9541"
+    },
+    {
+      "key": "INC-9540",
+      "summary": "INTEL Web Transaction beyond p95 threshold",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9540"
+    },
+    {
+      "key": "INC-9539",
+      "summary": "INTEL Web Transaction beyond p95 threshold",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9539"
+    },
+    {
+      "key": "INC-9538",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9538"
+    },
     {
       "key": "INC-9537",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
@@ -18,7 +186,7 @@
       "key": "INC-9536",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
       "status": "In Progress",
-      "assignee": "Justin Andrei Magbuhat",
+      "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -1769,13 +1937,15 @@
     {
       "key": "INC-9398",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-22",
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9398"
     },
     {
@@ -29548,149 +29718,6 @@
       "created": "2026-06-24",
       "updated": "2026-06-24",
       "url": "https://cube001.atlassian.net/browse/INC-7061"
-    },
-    {
-      "key": "INC-7060",
-      "summary": "ATLAS NOTIFICATION: CS4486126 - LOW - ATTACK - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-24",
-      "updated": "2026-07-14",
-      "url": "https://cube001.atlassian.net/browse/INC-7060"
-    },
-    {
-      "key": "INC-7059",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7059"
-    },
-    {
-      "key": "INC-7058",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7058"
-    },
-    {
-      "key": "INC-7057",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7057"
-    },
-    {
-      "key": "INC-7056",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7056"
-    },
-    {
-      "key": "INC-7055",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7055"
-    },
-    {
-      "key": "INC-7054",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7054"
-    },
-    {
-      "key": "INC-7053",
-      "summary": "Downtime on anything (acin.com)",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-06-24",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7053"
-    },
-    {
-      "key": "INC-7052",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "ElasticSearch",
-        "alerts"
-      ],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7052"
-    },
-    {
-      "key": "INC-7051",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7051"
-    },
-    {
-      "key": "INC-7050",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9051",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7050"
     }
   ]
 }

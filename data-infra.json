@@ -1,8 +1,27 @@
 {
-  "updated": "2026-07-24T08:46:16.345047Z",
+  "updated": "2026-07-24T10:50:19.099297Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-703",
+      "summary": "Enterprise in the cloud - Phase 2",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-10",
+      "reviewed": "2026-07-24",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-703",
+      "panels": [
+        {
+          "type": "info",
+          "text": "06/07/2026 SQL MI has performance issues around use of TempDB. A SQL VM has been created in Azure UAT to compare performance against SQL MI and on prem. Initial results show increased performance compared to SQL MI. SQL VMs are being further built out in the UAT environment. Elastic consumption and spend is significantly higher than originally target. The Elastic PS is unlikely to reduce the spend to the forecast level. Dev and Test environments have been migrated to Azure. The Test migration took longer than expected and had issues. Further migrations in the Prep environment are required to prove and refine the process. RAG is Red due to outstanding work to be completed for migration."
+        }
+      ]
+    },
     {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
@@ -47,25 +66,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1569",
       "panels": []
-    },
-    {
-      "key": "CPN-703",
-      "summary": "Enterprise in the cloud - Phase 2",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-10",
-      "reviewed": "2026-07-22",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-703",
-      "panels": [
-        {
-          "type": "info",
-          "text": "06/07/2026 SQL MI has performance issues around use of TempDB. A SQL VM has been created in Azure UAT to compare performance against SQL MI and on prem. Initial results show increased performance compared to SQL MI. SQL VMs are being further built out in the UAT environment. Elastic consumption and spend is significantly higher than originally target. The Elastic PS is unlikely to reduce the spend to the forecast level. Dev and Test environments have been migrated to Azure. The Test migration took longer than expected and had issues. Further migrations in the Prep environment are required to prove and refine the process. RAG is Red due to outstanding work to be completed for migration."
-        }
-      ]
     },
     {
       "key": "CPN-930",
