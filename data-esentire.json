@@ -1,12 +1,52 @@
 {
-  "updated": "2026-07-23T23:08:51.257130Z",
+  "updated": "2026-07-24T00:10:27.216894Z",
   "total": 2375,
   "items": [
     {
+      "key": "INC-9514",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9514"
+    },
+    {
+      "key": "INC-9513",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "ELKAlert",
+        "Migration"
+      ],
+      "created": "2026-07-23",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9513"
+    },
+    {
+      "key": "INC-9512",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-23",
+      "updated": "2026-07-23",
+      "url": "https://cube001.atlassian.net/browse/INC-9512"
+    },
+    {
       "key": "INC-9511",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,13 +57,16 @@
     {
       "key": "INC-9510",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "ELKAlert"
+      ],
       "created": "2026-07-23",
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9510"
     },
     {
@@ -41,8 +84,8 @@
     {
       "key": "INC-9508",
       "summary": "Files not progressing through DRP PROD RDI Loader",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Craig Waddington",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -2231,9 +2274,13 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "PROD",
+        "replication"
+      ],
       "created": "2026-07-21",
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9334"
     },
     {
@@ -29616,42 +29663,6 @@
       "created": "2026-06-24",
       "updated": "2026-06-24",
       "url": "https://cube001.atlassian.net/browse/INC-7026"
-    },
-    {
-      "key": "INC-7025",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7025"
-    },
-    {
-      "key": "INC-7024",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9042",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7024"
-    },
-    {
-      "key": "INC-7023",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-23",
-      "updated": "2026-06-23",
-      "url": "https://cube001.atlassian.net/browse/INC-7023"
     }
   ]
 }
