@@ -1,7 +1,116 @@
 {
-  "updated": "2026-07-24T00:10:27.216894Z",
-  "total": 2375,
+  "updated": "2026-07-24T03:44:55.334460Z",
+  "total": 2378,
   "items": [
+    {
+      "key": "INC-9522",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9522"
+    },
+    {
+      "key": "INC-9521",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "ELKAlert",
+        "Migration"
+      ],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9521"
+    },
+    {
+      "key": "INC-9520",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9520"
+    },
+    {
+      "key": "INC-9519",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "ELKAlert",
+        "Migration"
+      ],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9519"
+    },
+    {
+      "key": "INC-9518",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9518"
+    },
+    {
+      "key": "INC-9517",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9517"
+    },
+    {
+      "key": "INC-9516",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9516"
+    },
+    {
+      "key": "INC-9515",
+      "summary": "CUBE-FS04 Base - CPU CRITICAL - [Triggered by _AvgCPU>90] - Average CPU Utilisation 99.74%",
+      "status": "Completed",
+      "assignee": "Craig Waddington",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9515"
+    },
     {
       "key": "INC-9514",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -213,13 +322,15 @@
     {
       "key": "INC-9498",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-23",
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9498"
     },
     {
@@ -359,13 +470,17 @@
     {
       "key": "INC-9486",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64453",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-07-23",
-      "updated": "2026-07-23",
+      "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9486"
     },
     {
@@ -29603,66 +29718,6 @@
       "created": "2026-06-24",
       "updated": "2026-06-24",
       "url": "https://cube001.atlassian.net/browse/INC-7033"
-    },
-    {
-      "key": "INC-7030",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7030"
-    },
-    {
-      "key": "INC-7029",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7029"
-    },
-    {
-      "key": "INC-7028",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9044",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7028"
-    },
-    {
-      "key": "INC-7027",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7027"
-    },
-    {
-      "key": "INC-7026",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-24",
-      "url": "https://cube001.atlassian.net/browse/INC-7026"
     }
   ]
 }
