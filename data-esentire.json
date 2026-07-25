@@ -1,12 +1,84 @@
 {
-  "updated": "2026-07-24T23:43:24.210873Z",
-  "total": 2437,
+  "updated": "2026-07-25T01:13:13.962133Z",
+  "total": 2439,
   "items": [
+    {
+      "key": "INC-9646",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9646"
+    },
+    {
+      "key": "INC-9645",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9645"
+    },
+    {
+      "key": "INC-9644",
+      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9644"
+    },
+    {
+      "key": "INC-9643",
+      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9643"
+    },
+    {
+      "key": "INC-9642",
+      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9642"
+    },
+    {
+      "key": "INC-9641",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-24",
+      "updated": "2026-07-24",
+      "url": "https://cube001.atlassian.net/browse/INC-9641"
+    },
     {
       "key": "INC-9640",
       "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL07",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +89,8 @@
     {
       "key": "INC-9639",
       "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL08",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -311,7 +383,7 @@
     {
       "key": "INC-9615",
       "summary": "INTEL Web Transaction beyond p95 threshold",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -319,7 +391,7 @@
         "24x7"
       ],
       "created": "2026-07-24",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9615"
     },
     {
@@ -457,13 +529,17 @@
     {
       "key": "INC-9603",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-07-24",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9603"
     },
     {
@@ -611,7 +687,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-24",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -1277,7 +1353,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-24",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9536"
     },
     {
@@ -4612,7 +4688,7 @@
         "Daily-Checks"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-23",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9270"
     },
     {
@@ -30374,54 +30450,6 @@
       "created": "2026-06-25",
       "updated": "2026-06-25",
       "url": "https://cube001.atlassian.net/browse/INC-7096"
-    },
-    {
-      "key": "INC-7095",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7095"
-    },
-    {
-      "key": "INC-7094",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7094"
-    },
-    {
-      "key": "INC-7093",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9066",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7093"
-    },
-    {
-      "key": "INC-7092",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9067",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-24",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7092"
     }
   ]
 }
