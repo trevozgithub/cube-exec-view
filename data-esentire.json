@@ -1,15 +1,55 @@
 {
-  "updated": "2026-07-25T04:31:24.137990Z",
-  "total": 2437,
+  "updated": "2026-07-25T06:58:54.021012Z",
+  "total": 2431,
   "items": [
+    {
+      "key": "INC-9655",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9655"
+    },
+    {
+      "key": "INC-9654",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9654"
+    },
+    {
+      "key": "INC-9653",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9653"
+    },
     {
       "key": "INC-9652",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9652"
@@ -29,7 +69,7 @@
     {
       "key": "INC-9650",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
@@ -115,13 +155,15 @@
     {
       "key": "INC-9643",
       "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-24",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9643"
     },
     {
@@ -773,7 +815,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-24",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9590"
     },
     {
@@ -4548,7 +4590,7 @@
         "Intel"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-23",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9289"
     },
     {
@@ -30318,116 +30360,6 @@
       "created": "2026-06-25",
       "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7113"
-    },
-    {
-      "key": "INC-7112",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9073",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7112"
-    },
-    {
-      "key": "INC-7111",
-      "summary": "Patching Error: Windows Component is Corrupted (-2145124318) on CUBETCB05",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7111"
-    },
-    {
-      "key": "INC-7110",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7110"
-    },
-    {
-      "key": "INC-7109",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7109"
-    },
-    {
-      "key": "INC-7108",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7108"
-    },
-    {
-      "key": "INC-7107",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7107"
-    },
-    {
-      "key": "INC-7106",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9071",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7106"
-    },
-    {
-      "key": "INC-7105",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7105"
-    },
-    {
-      "key": "INC-7104",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7104"
     }
   ]
 }
