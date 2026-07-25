@@ -1,7 +1,81 @@
 {
-  "updated": "2026-07-25T01:13:13.962133Z",
-  "total": 2439,
+  "updated": "2026-07-25T04:31:24.137990Z",
+  "total": 2437,
   "items": [
+    {
+      "key": "INC-9652",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9652"
+    },
+    {
+      "key": "INC-9651",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9651"
+    },
+    {
+      "key": "INC-9650",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "In Triage",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9650"
+    },
+    {
+      "key": "INC-9649",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9649"
+    },
+    {
+      "key": "INC-9648",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9648"
+    },
+    {
+      "key": "INC-9647",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-25",
+      "updated": "2026-07-25",
+      "url": "https://cube001.atlassian.net/browse/INC-9647"
+    },
     {
       "key": "INC-9646",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -3901,7 +3975,7 @@
     {
       "key": "INC-9334",
       "summary": "A replication error occurred at the vSphere Replication Server for replication 'CUBEPROD1SQL03'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3911,7 +3985,7 @@
         "replication"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-24",
+      "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9334"
     },
     {
@@ -30354,102 +30428,6 @@
       "created": "2026-06-25",
       "updated": "2026-06-25",
       "url": "https://cube001.atlassian.net/browse/INC-7104"
-    },
-    {
-      "key": "INC-7103",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7103"
-    },
-    {
-      "key": "INC-7102",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7102"
-    },
-    {
-      "key": "INC-7101",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7101"
-    },
-    {
-      "key": "INC-7100",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7100"
-    },
-    {
-      "key": "INC-7099",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9069",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7099"
-    },
-    {
-      "key": "INC-7098",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7098"
-    },
-    {
-      "key": "INC-7097",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9068",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7097"
-    },
-    {
-      "key": "INC-7096",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-25",
-      "updated": "2026-06-25",
-      "url": "https://cube001.atlassian.net/browse/INC-7096"
     }
   ]
 }
