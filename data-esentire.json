@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-26T09:03:28.879502Z",
-  "total": 2452,
+  "updated": "2026-07-26T10:50:20.809707Z",
+  "total": 2453,
   "items": [
+    {
+      "key": "INC-9755",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9755"
+    },
+    {
+      "key": "INC-9754",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62722",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9754"
+    },
+    {
+      "key": "INC-9753",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9753"
+    },
+    {
+      "key": "INC-9752",
+      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9752"
+    },
+    {
+      "key": "INC-9751",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9751"
+    },
+    {
+      "key": "INC-9750",
+      "summary": "Alert: ArticleIngestionService Polling Failure Detected",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9750"
+    },
+    {
+      "key": "INC-9749",
+      "summary": "Alert: ArticleIngestionService Polling Failure Detected",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9749"
+    },
     {
       "key": "INC-9748",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -30551,82 +30635,6 @@
       "created": "2026-06-26",
       "updated": "2026-06-26",
       "url": "https://cube001.atlassian.net/browse/INC-7191"
-    },
-    {
-      "key": "INC-7190",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7190"
-    },
-    {
-      "key": "INC-7189",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7189"
-    },
-    {
-      "key": "INC-7188",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-26",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7188"
-    },
-    {
-      "key": "INC-7187",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7187"
-    },
-    {
-      "key": "INC-7186",
-      "summary": "P1 - TagInsightRel pipeline into GCP",
-      "status": "Completed",
-      "assignee": "Schubert Pereira",
-      "priority": "P1",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-26",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7186"
-    },
-    {
-      "key": "INC-7185",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7185"
     }
   ]
 }
