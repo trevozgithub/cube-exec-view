@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-26T13:14:48.729200Z",
-  "total": 2453,
+  "updated": "2026-07-26T14:45:35.470329Z",
+  "total": 2448,
   "items": [
+    {
+      "key": "INC-9768",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9768"
+    },
     {
       "key": "INC-9767",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
@@ -209,11 +221,13 @@
     {
       "key": "INC-9750",
       "summary": "Alert: ArticleIngestionService Polling Failure Detected",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9750"
@@ -8013,7 +8027,7 @@
         "health-check"
       ],
       "created": "2026-07-17",
-      "updated": "2026-07-25",
+      "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9126"
     },
     {
@@ -30553,78 +30567,6 @@
       "created": "2026-06-26",
       "updated": "2026-06-26",
       "url": "https://cube001.atlassian.net/browse/INC-7210"
-    },
-    {
-      "key": "INC-7209",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7209"
-    },
-    {
-      "key": "INC-7208",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7208"
-    },
-    {
-      "key": "INC-7207",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7207"
-    },
-    {
-      "key": "INC-7206",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7206"
-    },
-    {
-      "key": "INC-7204",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7204"
-    },
-    {
-      "key": "INC-7203",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7203"
     }
   ]
 }
