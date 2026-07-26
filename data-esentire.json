@@ -1,12 +1,50 @@
 {
-  "updated": "2026-07-26T03:58:57.528526Z",
-  "total": 2463,
+  "updated": "2026-07-26T06:44:31.998573Z",
+  "total": 2454,
   "items": [
+    {
+      "key": "INC-9744",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9744"
+    },
+    {
+      "key": "INC-9743",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9743"
+    },
+    {
+      "key": "INC-9742",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9742"
+    },
     {
       "key": "INC-9741",
       "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,7 +55,7 @@
     {
       "key": "INC-9740",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
@@ -70,11 +108,15 @@
     {
       "key": "INC-9736",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62690",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "RegInsight",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9736"
@@ -118,7 +160,7 @@
     {
       "key": "INC-9732",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9788",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -30613,150 +30655,6 @@
       "created": "2026-06-26",
       "updated": "2026-06-26",
       "url": "https://cube001.atlassian.net/browse/INC-7179"
-    },
-    {
-      "key": "INC-7178",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7178"
-    },
-    {
-      "key": "INC-7177",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7177"
-    },
-    {
-      "key": "INC-7176",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9096",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7176"
-    },
-    {
-      "key": "INC-7175",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7175"
-    },
-    {
-      "key": "INC-7174",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7174"
-    },
-    {
-      "key": "INC-7173",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7173"
-    },
-    {
-      "key": "INC-7172",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7172"
-    },
-    {
-      "key": "INC-7171",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9095",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7171"
-    },
-    {
-      "key": "INC-7170",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7170"
-    },
-    {
-      "key": "INC-7169",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7169"
-    },
-    {
-      "key": "INC-7168",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7168"
-    },
-    {
-      "key": "INC-7167",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7167"
     }
   ]
 }
