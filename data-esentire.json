@@ -1,11 +1,143 @@
 {
-  "updated": "2026-07-27T13:42:48.478262Z",
-  "total": 2418,
+  "updated": "2026-07-27T16:04:07.116905Z",
+  "total": 2425,
   "items": [
+    {
+      "key": "INC-9834",
+      "summary": "INTEL Web Transaction beyond p95 threshold",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9834"
+    },
+    {
+      "key": "INC-9833",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9833"
+    },
+    {
+      "key": "INC-9832",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9832"
+    },
+    {
+      "key": "INC-9831",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9831"
+    },
+    {
+      "key": "INC-9830",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9830"
+    },
+    {
+      "key": "INC-9829",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9829"
+    },
+    {
+      "key": "INC-9828",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9828"
+    },
+    {
+      "key": "INC-9827",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9827"
+    },
+    {
+      "key": "INC-9826",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9826"
+    },
+    {
+      "key": "INC-9825",
+      "summary": "INTEL Web Transaction beyond p95 threshold",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9825"
+    },
+    {
+      "key": "INC-9824",
+      "summary": "INTEL Web Transaction beyond p95 threshold",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9824"
+    },
     {
       "key": "INC-9823",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
@@ -93,7 +225,7 @@
     {
       "key": "INC-9816",
       "summary": "ACKNOWLEDGEMENT REQUIRED - ATLAS NOTIFICATION: CS5007297 - HIGH - ATTACK - CUBE Content Governance Global Limited",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -193,11 +325,13 @@
     {
       "key": "INC-9808",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9808"
@@ -2896,7 +3030,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-24",
-      "updated": "2026-07-25",
+      "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -30163,58 +30297,6 @@
       "created": "2026-06-27",
       "updated": "2026-06-27",
       "url": "https://cube001.atlassian.net/browse/INC-7299"
-    },
-    {
-      "key": "INC-7298",
-      "summary": "High Disk Usage 90.115 piprodtranslate-fe - /dev/mapper/datavg-datalv",
-      "status": "Completed",
-      "assignee": "Ersin Mouminoglu",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-27",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7298"
-    },
-    {
-      "key": "INC-7297",
-      "summary": "High Disk Usage 91.256 CUBEPROD2APP02 - C:",
-      "status": "Completed",
-      "assignee": "Ravali Billakanti",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-27",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7297"
-    },
-    {
-      "key": "INC-7296",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7296"
-    },
-    {
-      "key": "INC-7295",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7295"
     }
   ]
 }
