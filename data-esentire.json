@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-27T21:53:08.210290Z",
-  "total": 2431,
+  "updated": "2026-07-27T22:57:15.039669Z",
+  "total": 2429,
   "items": [
+    {
+      "key": "INC-9848",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9848"
+    },
     {
       "key": "INC-9847",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -65,11 +77,13 @@
     {
       "key": "INC-9842",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
-      "assignee": "Nicole Tan-Flores",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9842"
@@ -2256,11 +2270,13 @@
     {
       "key": "INC-9666",
       "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-25",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9666"
@@ -2340,7 +2356,7 @@
     {
       "key": "INC-9659",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64612",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6740,7 +6756,7 @@
     {
       "key": "INC-9307",
       "summary": "UAT doesn't load - spinning CUBE",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6748,7 +6764,7 @@
         "24x7"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-26",
+      "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9307"
     },
     {
@@ -6888,7 +6904,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-24",
+      "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9296"
     },
     {
@@ -9007,7 +9023,7 @@
     {
       "key": "INC-9126",
       "summary": "API Connect Health Checks Errors - PROD and UAT ",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -9017,7 +9033,7 @@
         "health-check"
       ],
       "created": "2026-07-17",
-      "updated": "2026-07-26",
+      "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9126"
     },
     {
@@ -30333,42 +30349,6 @@
       "created": "2026-06-28",
       "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7309"
-    },
-    {
-      "key": "INC-7308",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7308"
-    },
-    {
-      "key": "INC-7307",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7307"
-    },
-    {
-      "key": "INC-7306",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7306"
     }
   ]
 }
