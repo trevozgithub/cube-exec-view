@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-26T23:13:14.852638Z",
-  "total": 2433,
+  "updated": "2026-07-27T00:14:45.393295Z",
+  "total": 2429,
   "items": [
+    {
+      "key": "INC-9784",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9784"
+    },
+    {
+      "key": "INC-9783",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Migration",
+        "UAT",
+        "alerts"
+      ],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9783"
+    },
+    {
+      "key": "INC-9782",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-26",
+      "updated": "2026-07-26",
+      "url": "https://cube001.atlassian.net/browse/INC-9782"
+    },
     {
       "key": "INC-9781",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -21,7 +61,10 @@
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ELKAlert",
+        "LIVE"
+      ],
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9780"
@@ -29,7 +72,7 @@
     {
       "key": "INC-9779",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -30295,92 +30338,6 @@
       "created": "2026-06-27",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7244"
-    },
-    {
-      "key": "INC-7243",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7243"
-    },
-    {
-      "key": "INC-7242",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61924",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7242"
-    },
-    {
-      "key": "INC-7241",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7241"
-    },
-    {
-      "key": "INC-7240",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61923",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7240"
-    },
-    {
-      "key": "INC-7239",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61922",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7239"
-    },
-    {
-      "key": "INC-7238",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61921",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-26",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7238"
-    },
-    {
-      "key": "INC-7237",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #61921",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-26",
-      "updated": "2026-06-26",
-      "url": "https://cube001.atlassian.net/browse/INC-7237"
     }
   ]
 }
