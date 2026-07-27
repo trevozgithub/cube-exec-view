@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-27T16:04:07.116905Z",
+  "updated": "2026-07-27T17:52:18.390052Z",
   "total": 2425,
   "items": [
+    {
+      "key": "INC-9839",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9839"
+    },
+    {
+      "key": "INC-9838",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9838"
+    },
+    {
+      "key": "INC-9837",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9837"
+    },
+    {
+      "key": "INC-9836",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9836"
+    },
+    {
+      "key": "INC-9835",
+      "summary": "INTEL Web Transaction beyond p95 threshold",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-27",
+      "updated": "2026-07-27",
+      "url": "https://cube001.atlassian.net/browse/INC-9835"
+    },
     {
       "key": "INC-9834",
       "summary": "INTEL Web Transaction beyond p95 threshold",
@@ -53,11 +113,13 @@
     {
       "key": "INC-9830",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9830"
@@ -30235,68 +30297,6 @@
       "created": "2026-06-27",
       "updated": "2026-06-27",
       "url": "https://cube001.atlassian.net/browse/INC-7304"
-    },
-    {
-      "key": "INC-7303",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7303"
-    },
-    {
-      "key": "INC-7302",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7302"
-    },
-    {
-      "key": "INC-7301",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7301"
-    },
-    {
-      "key": "INC-7300",
-      "summary": "Investigate Failed Processing and High Processing Book Error Count",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7300"
-    },
-    {
-      "key": "INC-7299",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-27",
-      "updated": "2026-06-27",
-      "url": "https://cube001.atlassian.net/browse/INC-7299"
     }
   ]
 }
