@@ -1,8 +1,63 @@
 {
-  "updated": "2026-07-28T11:26:43.010056Z",
-  "total": 39,
+  "updated": "2026-07-28T13:12:02.080355Z",
+  "total": 30,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-1266",
+      "summary": "InfoSec Risk Mitigation actions",
+      "status": "Scoping",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1266",
+      "panels": []
+    },
+    {
+      "key": "CPN-1369",
+      "summary": "SOC2 Audit",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit",
+        "infrastructure",
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1369",
+      "panels": [
+        {
+          "type": "info",
+          "text": "06/07/2026 Organising NDA with legal / prescient security.  Have requested new quote."
+        }
+      ]
+    },
+    {
+      "key": "CPN-124",
+      "summary": "Linux workstation/virtualization decommissioning",
+      "status": "Scoping",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit",
+        "migrated"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
+        }
+      ]
+    },
     {
       "key": "CPN-1024",
       "summary": "Identity & Access Management",
@@ -12,327 +67,10 @@
       "reviewed": "2026-07-28",
       "labels": [
         "InfoSec",
+        "cye-cyber-audit",
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1024",
-      "panels": []
-    },
-    {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1820",
-      "summary": "Lack of continuous response capability",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1820",
-      "panels": []
-    },
-    {
-      "key": "CPN-1819",
-      "summary": "Vendors not continuously monitored",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1819",
-      "panels": []
-    },
-    {
-      "key": "CPN-1826",
-      "summary": "Lack of automated DR",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1826",
-      "panels": []
-    },
-    {
-      "key": "CPN-1825",
-      "summary": "Lack of comms & data-flow mapping",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1825",
-      "panels": []
-    },
-    {
-      "key": "CPN-1824",
-      "summary": "Inadequate role-based awareness training",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1824",
-      "panels": []
-    },
-    {
-      "key": "CPN-1823",
-      "summary": "Technical information disclosure (\u00d72) \u00b7\u00a0DORA",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1823",
-      "panels": []
-    },
-    {
-      "key": "CPN-1822",
-      "summary": "Missing container/K8s protection",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1822",
-      "panels": []
-    },
-    {
-      "key": "CPN-1821",
-      "summary": "Lack of CTI programme",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1821",
-      "panels": []
-    },
-    {
-      "key": "CPN-1818",
-      "summary": "Insufficient BCP \u00b7\u00a0DORA",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1818",
-      "panels": []
-    },
-    {
-      "key": "CPN-1817",
-      "summary": "User enumeration \u00b7\u00a0DORA",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1817",
-      "panels": []
-    },
-    {
-      "key": "CPN-1816",
-      "summary": "Production data in non-prod",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1816",
-      "panels": []
-    },
-    {
-      "key": "CPN-1815",
-      "summary": "Exposed non-prod environments (\u00d76) \u00b7\u00a0DORA",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1815",
-      "panels": []
-    },
-    {
-      "key": "CPN-1814",
-      "summary": "Retrieving data. Wait a few seconds and try to cut or copy again.",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1814",
-      "panels": []
-    },
-    {
-      "key": "CPN-1805",
-      "summary": "Outdated & vulnerable tech (Win2012) \u00b7 DORA",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1805",
-      "panels": []
-    },
-    {
-      "key": "CPN-1812",
-      "summary": "Insecure MFA (SMS) \u00b7\u00a0DORA",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1812",
-      "panels": []
-    },
-    {
-      "key": "CPN-1811",
-      "summary": "Personal users w/ high Azure privileges \u00b7\u00a0DORA",
-      "status": "Build & Test",
-      "assignee": "Graham Case",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1811",
-      "panels": []
-    },
-    {
-      "key": "CPN-1810",
-      "summary": "Board not involved in cyber",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1810",
-      "panels": []
-    },
-    {
-      "key": "CPN-1809",
-      "summary": "Sensitive-data exposure via AI/GenAI",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1809",
-      "panels": []
-    },
-    {
-      "key": "CPN-1808",
-      "summary": "Lack of DLP strategy",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1808",
-      "panels": []
-    },
-    {
-      "key": "CPN-1807",
-      "summary": "Insufficient SSDLC",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1807",
-      "panels": []
-    },
-    {
-      "key": "CPN-1806",
-      "summary": "Ineffective asset management",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1806",
-      "panels": []
-    },
-    {
-      "key": "CPN-1804",
-      "summary": "Admin/sensitive interfaces exposed \u00b7 DORA",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1804",
-      "panels": []
-    },
-    {
-      "key": "CPN-1347",
-      "summary": "RegApp Web - Penetration Test remediation - Dec 25",
-      "status": "Planning",
-      "assignee": "Shanthini Ramachandran",
-      "duedate": "",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1347",
       "panels": []
     },
     {
@@ -341,9 +79,10 @@
       "status": "Build & Test",
       "assignee": "Helen O'Shea",
       "duedate": "2026-08-31",
-      "reviewed": "2026-07-17",
+      "reviewed": "2026-07-28",
       "labels": [
-        "InfoSec"
+        "InfoSec",
+        "cye-cyber-audit"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-132",
       "panels": [
@@ -358,43 +97,205 @@
       ]
     },
     {
-      "key": "CPN-124",
-      "summary": "Linux workstation/virtualization decommissioning",
-      "status": "Scoping",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "",
-      "reviewed": "2026-07-17",
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-07-28",
       "labels": [
         "InfoSec",
-        "migrated"
+        "cye-cyber-audit",
+        "infrastructure"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-124",
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
       "panels": [
         {
           "type": "info",
-          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
+          "text": "27/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
         }
       ]
     },
     {
-      "key": "CPN-1369",
-      "summary": "SOC2 Audit",
+      "key": "CPN-1825",
+      "summary": "Lack of comms & data-flow mapping",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1825",
+      "panels": []
+    },
+    {
+      "key": "CPN-1824",
+      "summary": "Inadequate role-based awareness training",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1824",
+      "panels": []
+    },
+    {
+      "key": "CPN-1823",
+      "summary": "Technical information disclosure (\u00d72) \u00b7\u00a0DORA",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1823",
+      "panels": []
+    },
+    {
+      "key": "CPN-1822",
+      "summary": "Container/K8s protection - Defender for Cloud",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1822",
+      "panels": []
+    },
+    {
+      "key": "CPN-1820",
+      "summary": "Lack of continuous response capability",
       "status": "Build & Test",
       "assignee": "Helen O'Shea",
       "duedate": "",
-      "reviewed": "2026-07-13",
+      "reviewed": "2026-07-28",
       "labels": [
         "InfoSec",
-        "infrastructure",
-        "intelcpn"
+        "cye-cyber-audit"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1369",
-      "panels": [
-        {
-          "type": "info",
-          "text": "06/07/2026 Organising NDA with legal / prescient security.  Have requested new quote."
-        }
-      ]
+      "url": "https://cube001.atlassian.net/browse/CPN-1820",
+      "panels": []
+    },
+    {
+      "key": "CPN-1819",
+      "summary": "Vendors not continuously monitored",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1819",
+      "panels": []
+    },
+    {
+      "key": "CPN-1817",
+      "summary": "User enumeration \u00b7\u00a0DORA",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1817",
+      "panels": []
+    },
+    {
+      "key": "CPN-1815",
+      "summary": "Exposed non-prod environments (\u00d76) \u00b7\u00a0DORA",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1815",
+      "panels": []
+    },
+    {
+      "key": "CPN-1810",
+      "summary": "Board not involved in cyber",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1810",
+      "panels": []
+    },
+    {
+      "key": "CPN-1809",
+      "summary": "Sensitive-data exposure via AI/GenAI",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1809",
+      "panels": []
+    },
+    {
+      "key": "CPN-1808",
+      "summary": "Lack of DLP strategy",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1808",
+      "panels": []
+    },
+    {
+      "key": "CPN-1807",
+      "summary": "Insufficient SSDLC",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1807",
+      "panels": []
+    },
+    {
+      "key": "CPN-1347",
+      "summary": "RegApp Web - Penetration Test remediation - Dec 25",
+      "status": "Planning",
+      "assignee": "Shanthini Ramachandran",
+      "duedate": "",
+      "reviewed": "2026-07-27",
+      "labels": [
+        "InfoSec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1347",
+      "panels": []
     },
     {
       "key": "CPN-1585",
