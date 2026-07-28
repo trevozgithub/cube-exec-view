@@ -1,7 +1,59 @@
 {
-  "updated": "2026-07-28T21:31:11.533496Z",
-  "total": 2517,
+  "updated": "2026-07-28T22:38:27.687355Z",
+  "total": 2516,
   "items": [
+    {
+      "key": "INC-9969",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9969"
+    },
+    {
+      "key": "INC-9968",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9968"
+    },
+    {
+      "key": "INC-9967",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Completed",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9967"
+    },
+    {
+      "key": "INC-9966",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9966"
+    },
     {
       "key": "INC-9965",
       "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
@@ -81,7 +133,9 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-28",
       "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9959"
@@ -603,11 +657,13 @@
     {
       "key": "INC-9916",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview"
+      ],
       "created": "2026-07-28",
       "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9916"
@@ -1163,7 +1219,9 @@
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-28",
       "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9870"
@@ -31359,66 +31417,6 @@
       "created": "2026-06-28",
       "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7344"
-    },
-    {
-      "key": "INC-7343",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7343"
-    },
-    {
-      "key": "INC-7342",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9161",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7342"
-    },
-    {
-      "key": "INC-7341",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7341"
-    },
-    {
-      "key": "INC-7340",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7340"
-    },
-    {
-      "key": "INC-7339",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7339"
     }
   ]
 }
