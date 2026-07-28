@@ -1,7 +1,117 @@
 {
-  "updated": "2026-07-28T18:44:08.238978Z",
-  "total": 2504,
+  "updated": "2026-07-28T20:08:06.503890Z",
+  "total": 2512,
   "items": [
+    {
+      "key": "INC-9960",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9960"
+    },
+    {
+      "key": "INC-9959",
+      "summary": "PROD Not Loading and Latency Issues",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9959"
+    },
+    {
+      "key": "INC-9958",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9958"
+    },
+    {
+      "key": "INC-9957",
+      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9957"
+    },
+    {
+      "key": "INC-9956",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9956"
+    },
+    {
+      "key": "INC-9955",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62946",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9955"
+    },
+    {
+      "key": "INC-9954",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62945",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9954"
+    },
+    {
+      "key": "INC-9953",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9953"
+    },
+    {
+      "key": "INC-9952",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9952"
+    },
     {
       "key": "INC-9951",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -68,7 +178,7 @@
       "key": "INC-9946",
       "summary": "CRITICAL POTENTIAL RegPlatform Consumer P1: LIVE issues in the last 3 hours for Checksum Report",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -187,11 +297,13 @@
     {
       "key": "INC-9936",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-28",
       "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9936"
@@ -31247,18 +31359,6 @@
       "created": "2026-06-28",
       "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7339"
-    },
-    {
-      "key": "INC-7338",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7338"
     }
   ]
 }

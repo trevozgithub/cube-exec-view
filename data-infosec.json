@@ -1,8 +1,71 @@
 {
-  "updated": "2026-07-28T18:43:44.930322Z",
-  "total": 30,
+  "updated": "2026-07-28T20:07:47.932113Z",
+  "total": 29,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-1808",
+      "summary": "Lack of DLP strategy",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1808",
+      "panels": []
+    },
+    {
+      "key": "CPN-1809",
+      "summary": "Sensitive-data exposure via AI/GenAI",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1809",
+      "panels": []
+    },
+    {
+      "key": "CPN-1024",
+      "summary": "Identity & Access Management",
+      "status": "Build & Test",
+      "assignee": "Graham Case",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1024",
+      "panels": []
+    },
+    {
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-07-28",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "27/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
+        }
+      ]
+    },
     {
       "key": "CPN-1266",
       "summary": "InfoSec Risk Mitigation actions",
@@ -59,21 +122,6 @@
       ]
     },
     {
-      "key": "CPN-1024",
-      "summary": "Identity & Access Management",
-      "status": "Build & Test",
-      "assignee": "Graham Case",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-07-28",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1024",
-      "panels": []
-    },
-    {
       "key": "CPN-132",
       "summary": "Security - SSO/MFA - All Applications",
       "status": "Build & Test",
@@ -93,26 +141,6 @@
         {
           "type": "info",
           "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
-        }
-      ]
-    },
-    {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-07-28",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
         }
       ]
     },
@@ -243,34 +271,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1809",
-      "summary": "Sensitive-data exposure via AI/GenAI",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-28",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1809",
-      "panels": []
-    },
-    {
-      "key": "CPN-1808",
-      "summary": "Lack of DLP strategy",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-07-28",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1808",
-      "panels": []
-    },
-    {
       "key": "CPN-1807",
       "summary": "Insufficient SSDLC",
       "status": "Build & Test",
@@ -388,21 +388,6 @@
         "InfoSec"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1346",
-      "panels": []
-    },
-    {
-      "key": "CPN-907",
-      "summary": "Improve operationalization around Microsoft security services",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-05-06",
-      "labels": [
-        "InfoSec",
-        "cyber-security",
-        "hg-priority"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-907",
       "panels": []
     },
     {
