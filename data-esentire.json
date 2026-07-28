@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-28T00:07:26.728882Z",
-  "total": 2431,
+  "updated": "2026-07-28T03:32:46.287436Z",
+  "total": 2430,
   "items": [
+    {
+      "key": "INC-9856",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9856"
+    },
+    {
+      "key": "INC-9855",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9855"
+    },
+    {
+      "key": "INC-9854",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64727",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9854"
+    },
+    {
+      "key": "INC-9853",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9853"
+    },
+    {
+      "key": "INC-9852",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "url": "https://cube001.atlassian.net/browse/INC-9852"
+    },
     {
       "key": "INC-9851",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -287,13 +347,15 @@
     {
       "key": "INC-9828",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-27",
-      "updated": "2026-07-27",
+      "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9828"
     },
     {
@@ -795,7 +857,7 @@
         "alerts"
       ],
       "created": "2026-07-27",
-      "updated": "2026-07-27",
+      "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9788"
     },
     {
@@ -1852,7 +1914,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-25",
-      "updated": "2026-07-27",
+      "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9704"
     },
     {
@@ -3914,7 +3976,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-24",
-      "updated": "2026-07-27",
+      "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9536"
     },
     {
@@ -6802,7 +6864,7 @@
         "24x7"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-27",
+      "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9307"
     },
     {
@@ -7035,7 +7097,7 @@
         "Intel"
       ],
       "created": "2026-07-21",
-      "updated": "2026-07-26",
+      "updated": "2026-07-28",
       "url": "https://cube001.atlassian.net/browse/INC-9289"
     },
     {
@@ -30295,86 +30357,6 @@
       "created": "2026-06-28",
       "updated": "2026-06-28",
       "url": "https://cube001.atlassian.net/browse/INC-7316"
-    },
-    {
-      "key": "INC-7315",
-      "summary": "Opsview Warning Alarm - CUBEPROD2ELK04, CUBEPROD2ELK05, CUBEPROD2ELK06 Disk: /elasticdata",
-      "status": "Completed",
-      "assignee": "Ravali Billakanti",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-28",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-7315"
-    },
-    {
-      "key": "INC-7314",
-      "summary": "Opsview Warning Alarm - DM-MGMT01 - Base Drives (C: & E:)",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "opsview"
-      ],
-      "created": "2026-06-28",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-7314"
-    },
-    {
-      "key": "INC-7313",
-      "summary": "Opsview Warning Alarm - CUBEPROD2SSIS01 - Base - Additional Drives: E",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-28",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7313"
-    },
-    {
-      "key": "INC-7312",
-      "summary": "Opsview Warning Alarm - CUBEPROD1SQL04 Base - Additional Drives: L & M",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "opsview"
-      ],
-      "created": "2026-06-28",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7312"
-    },
-    {
-      "key": "INC-7311",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7311"
-    },
-    {
-      "key": "INC-7310",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-28",
-      "updated": "2026-06-28",
-      "url": "https://cube001.atlassian.net/browse/INC-7310"
     }
   ]
 }
