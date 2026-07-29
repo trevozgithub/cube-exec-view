@@ -1,7 +1,129 @@
 {
-  "updated": "2026-07-29T21:09:19.557074Z",
-  "total": 2568,
+  "updated": "2026-07-29T22:12:46.638698Z",
+  "total": 2576,
   "items": [
+    {
+      "key": "INC-10085",
+      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10085"
+    },
+    {
+      "key": "INC-10084",
+      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10084"
+    },
+    {
+      "key": "INC-10083",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10083"
+    },
+    {
+      "key": "INC-10082",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64907",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10082"
+    },
+    {
+      "key": "INC-10081",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10081"
+    },
+    {
+      "key": "INC-10080",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63051",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10080"
+    },
+    {
+      "key": "INC-10079",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64906",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10079"
+    },
+    {
+      "key": "INC-10078",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10078"
+    },
+    {
+      "key": "INC-10077",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64905",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10077"
+    },
+    {
+      "key": "INC-10076",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64904",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10076"
+    },
     {
       "key": "INC-10075",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -403,11 +525,13 @@
     {
       "key": "INC-10042",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10042"
@@ -32032,30 +32156,6 @@
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7398"
-    },
-    {
-      "key": "INC-7397",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7397"
-    },
-    {
-      "key": "INC-7396",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7396"
     }
   ]
 }
