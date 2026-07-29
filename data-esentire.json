@@ -1,11 +1,149 @@
 {
-  "updated": "2026-07-29T14:36:19.845075Z",
-  "total": 2529,
+  "updated": "2026-07-29T16:08:00.077347Z",
+  "total": 2532,
   "items": [
+    {
+      "key": "INC-10027",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10027"
+    },
+    {
+      "key": "INC-10026",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10026"
+    },
+    {
+      "key": "INC-10025",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10025"
+    },
+    {
+      "key": "INC-10024",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10024"
+    },
+    {
+      "key": "INC-10023",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10023"
+    },
+    {
+      "key": "INC-10022",
+      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10022"
+    },
+    {
+      "key": "INC-10021",
+      "summary": "P1: LIVE Insight Analysis function errors",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10021"
+    },
+    {
+      "key": "INC-10019",
+      "summary": "P1: LIVE Insight Analysis function errors",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10019"
+    },
+    {
+      "key": "INC-10018",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10018"
+    },
+    {
+      "key": "INC-10017",
+      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10017"
+    },
+    {
+      "key": "INC-10016",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63021",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10016"
+    },
     {
       "key": "INC-10015",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Triage",
+      "status": "Actioned",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -17,8 +155,8 @@
     {
       "key": "INC-10014",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63020",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -64,9 +202,9 @@
     },
     {
       "key": "INC-10010",
-      "summary": "P1 - Can't access Intel-Live - getting network errors",
+      "summary": "P1 - Atmoso Line Down - 29/07/26 - 15:41",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -31482,106 +31620,6 @@
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7384"
-    },
-    {
-      "key": "INC-7383",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9177",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7383"
-    },
-    {
-      "key": "INC-7382",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7382"
-    },
-    {
-      "key": "INC-7381",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7381"
-    },
-    {
-      "key": "INC-7380",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7380"
-    },
-    {
-      "key": "INC-7379",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9176",
-      "status": "Completed",
-      "assignee": "Sivachidambaram Srinivasan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-29",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-7379"
-    },
-    {
-      "key": "INC-7378",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9176",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7378"
-    },
-    {
-      "key": "INC-7377",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7377"
-    },
-    {
-      "key": "INC-7376",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7376"
     }
   ]
 }
