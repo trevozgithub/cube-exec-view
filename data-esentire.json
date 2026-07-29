@@ -1,7 +1,79 @@
 {
-  "updated": "2026-07-29T16:08:00.077347Z",
-  "total": 2532,
+  "updated": "2026-07-29T17:37:30.905249Z",
+  "total": 2535,
   "items": [
+    {
+      "key": "INC-10033",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64889",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10033"
+    },
+    {
+      "key": "INC-10032",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63033",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10032"
+    },
+    {
+      "key": "INC-10031",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10031"
+    },
+    {
+      "key": "INC-10030",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10030"
+    },
+    {
+      "key": "INC-10029",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10029"
+    },
+    {
+      "key": "INC-10028",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10028"
+    },
     {
       "key": "INC-10027",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -275,11 +347,13 @@
     {
       "key": "INC-10004",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10004"
@@ -31584,42 +31658,6 @@
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7387"
-    },
-    {
-      "key": "INC-7386",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9178",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7386"
-    },
-    {
-      "key": "INC-7385",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7385"
-    },
-    {
-      "key": "INC-7384",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7384"
     }
   ]
 }
