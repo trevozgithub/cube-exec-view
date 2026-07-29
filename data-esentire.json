@@ -1,12 +1,100 @@
 {
-  "updated": "2026-07-28T23:40:32.746735Z",
-  "total": 2519,
+  "updated": "2026-07-29T01:09:55.700645Z",
+  "total": 2525,
   "items": [
+    {
+      "key": "INC-9980",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9980"
+    },
+    {
+      "key": "INC-9979",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9979"
+    },
+    {
+      "key": "INC-9978",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9978"
+    },
+    {
+      "key": "INC-9977",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9977"
+    },
+    {
+      "key": "INC-9976",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9976"
+    },
+    {
+      "key": "INC-9975",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-28",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9975"
+    },
+    {
+      "key": "INC-9974",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-28",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9974"
+    },
     {
       "key": "INC-9973",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,7 +105,7 @@
     {
       "key": "INC-9972",
       "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,8 +117,8 @@
     {
       "key": "INC-9971",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -603,7 +691,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-28",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9930"
     },
     {
@@ -627,7 +715,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-28",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9923"
     },
     {
@@ -31441,18 +31529,6 @@
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7346"
-    },
-    {
-      "key": "INC-7345",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7345"
     }
   ]
 }
