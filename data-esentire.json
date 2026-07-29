@@ -1,7 +1,79 @@
 {
-  "updated": "2026-07-29T22:12:46.638698Z",
+  "updated": "2026-07-29T23:16:24.135877Z",
   "total": 2576,
   "items": [
+    {
+      "key": "INC-10091",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10091"
+    },
+    {
+      "key": "INC-10090",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10090"
+    },
+    {
+      "key": "INC-10089",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63052",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10089"
+    },
+    {
+      "key": "INC-10088",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10088"
+    },
+    {
+      "key": "INC-10087",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64909",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10087"
+    },
+    {
+      "key": "INC-10086",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64908",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10086"
+    },
     {
       "key": "INC-10085",
       "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
@@ -261,8 +333,8 @@
     {
       "key": "INC-10064",
       "summary": "No new Regulatory Insights published in UAT and LIVE for 3 hours",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
@@ -615,7 +687,9 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10035"
@@ -787,7 +861,9 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10021"
@@ -909,7 +985,9 @@
       "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10010"
@@ -917,11 +995,13 @@
     {
       "key": "INC-10009",
       "summary": "PROBLEM: CUBEAZPRD1SQL01 is DOWN",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10009"
@@ -1126,7 +1206,7 @@
       "key": "INC-9992",
       "summary": "Opsview Critical Alarm - DR-VEEAMPRX06 Base - Additional Drives: F",
       "status": "In Progress",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -2730,7 +2810,7 @@
     {
       "key": "INC-9862",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62889",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -32080,82 +32160,6 @@
       "created": "2026-06-29",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7404"
-    },
-    {
-      "key": "INC-7403",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9184",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7403"
-    },
-    {
-      "key": "INC-7402",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Ravali Billakanti",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-29",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7402"
-    },
-    {
-      "key": "INC-7401",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7401"
-    },
-    {
-      "key": "INC-7400",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7400"
-    },
-    {
-      "key": "INC-7399",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-29",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-7399"
-    },
-    {
-      "key": "INC-7398",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7398"
     }
   ]
 }
