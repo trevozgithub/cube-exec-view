@@ -1,7 +1,103 @@
 {
-  "updated": "2026-07-29T10:07:23.744069Z",
-  "total": 2520,
+  "updated": "2026-07-29T12:19:07.871520Z",
+  "total": 2523,
   "items": [
+    {
+      "key": "INC-10004",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10004"
+    },
+    {
+      "key": "INC-10003",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10003"
+    },
+    {
+      "key": "INC-10002",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10002"
+    },
+    {
+      "key": "INC-10001",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10001"
+    },
+    {
+      "key": "INC-10000",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-10000"
+    },
+    {
+      "key": "INC-9999",
+      "summary": "Multiple UNKNOWN WMI query problems on host CUBEPRODINX",
+      "status": "In Progress",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9999"
+    },
+    {
+      "key": "INC-9998",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPRODINX",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9998"
+    },
+    {
+      "key": "INC-9997",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-29",
+      "updated": "2026-07-29",
+      "url": "https://cube001.atlassian.net/browse/INC-9997"
+    },
     {
       "key": "INC-9996",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -634,7 +730,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-28",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9946"
     },
     {
@@ -912,11 +1008,13 @@
     {
       "key": "INC-9923",
       "summary": "CUBEPROD1RDI05 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-28",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9923"
@@ -1070,13 +1168,15 @@
     {
       "key": "INC-9910",
       "summary": "Performance - Requesting for background processes check & Having issues to opening User profile and Saving a user taking forever",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Isabel Farina",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-28",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9910"
     },
     {
@@ -1554,7 +1654,7 @@
     {
       "key": "INC-9870",
       "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2570,7 +2670,7 @@
     {
       "key": "INC-9788",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5693,13 +5793,15 @@
     {
       "key": "INC-9536",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-24",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9536"
     },
     {
@@ -31406,70 +31508,6 @@
       "created": "2026-06-29",
       "updated": "2026-06-29",
       "url": "https://cube001.atlassian.net/browse/INC-7372"
-    },
-    {
-      "key": "INC-7371",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7371"
-    },
-    {
-      "key": "INC-7370",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7370"
-    },
-    {
-      "key": "INC-7369",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7369"
-    },
-    {
-      "key": "INC-7368",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7368"
-    },
-    {
-      "key": "INC-7367",
-      "summary": "Failing to process RR Analysis to Content Store",
-      "status": "Completed",
-      "assignee": "Pradeep Yamujala",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-29",
-      "updated": "2026-06-29",
-      "url": "https://cube001.atlassian.net/browse/INC-7367"
     }
   ]
 }
