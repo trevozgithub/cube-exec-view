@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-30T03:36:29.027763Z",
-  "total": 2575,
+  "updated": "2026-07-30T06:11:59.022771Z",
+  "total": 2576,
   "items": [
+    {
+      "key": "INC-10105",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10105"
+    },
+    {
+      "key": "INC-10104",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10104"
+    },
+    {
+      "key": "INC-10103",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "To Do",
+      "assignee": "Phil Oakes",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10103"
+    },
+    {
+      "key": "INC-10102",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10102"
+    },
+    {
+      "key": "INC-10101",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10101"
+    },
+    {
+      "key": "INC-10100",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10100"
+    },
+    {
+      "key": "INC-10099",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10099"
+    },
     {
       "key": "INC-10098",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -423,7 +507,11 @@
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "RegInsight",
+        "UAT"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10064"
@@ -1062,10 +1150,12 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "ElasticSearch"
+        "ElasticSearch",
+        "LIVE",
+        "alerts"
       ],
       "created": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10011"
     },
     {
@@ -1884,10 +1974,11 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "ElasticSearch"
+        "ElasticSearch",
+        "RegInsight"
       ],
       "created": "2026-07-28",
-      "updated": "2026-07-29",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-9946"
     },
     {
@@ -32097,80 +32188,6 @@
       "created": "2026-06-30",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7419"
-    },
-    {
-      "key": "INC-7417",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9191",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7417"
-    },
-    {
-      "key": "INC-7416",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7416"
-    },
-    {
-      "key": "INC-7415",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7415"
-    },
-    {
-      "key": "INC-7414",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7414"
-    },
-    {
-      "key": "INC-7413",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7413"
-    },
-    {
-      "key": "INC-7412",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7412"
     }
   ]
 }
