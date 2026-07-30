@@ -1,7 +1,45 @@
 {
-  "updated": "2026-07-30T22:30:57.351316Z",
+  "updated": "2026-07-30T23:36:09.297731Z",
   "total": 2594,
   "items": [
+    {
+      "key": "INC-10171",
+      "summary": "CUBEPROD1RDI05 - RDI API live Proc3 is still on a flapping stop / start status.",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "opsview"
+      ],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10171"
+    },
+    {
+      "key": "INC-10170",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10170"
+    },
+    {
+      "key": "INC-10169",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10169"
+    },
     {
       "key": "INC-10168",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
@@ -89,8 +127,8 @@
     {
       "key": "INC-10160",
       "summary": "Unable to connect to UAT SQL Server \u2013 Possible Cloudflare/Network Connectivity Issue",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Craig Waddington",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -381,11 +419,13 @@
     {
       "key": "INC-10136",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-30",
       "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10136"
@@ -8181,7 +8221,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-07-23",
-      "updated": "2026-07-24",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-9508"
     },
     {
@@ -32361,44 +32401,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7466"
-    },
-    {
-      "key": "INC-7465",
-      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-06-30",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7465"
-    },
-    {
-      "key": "INC-7464",
-      "summary": "P1: LIVE Insight Analysis function errors",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7464"
-    },
-    {
-      "key": "INC-7463",
-      "summary": "Potential P1: LIVE Azure Function Errors - 1h",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7463"
     }
   ]
 }
