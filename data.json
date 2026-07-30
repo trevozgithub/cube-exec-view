@@ -1,8 +1,131 @@
 {
-  "updated": "2026-07-30T12:57:22.799475Z",
+  "updated": "2026-07-30T15:17:36.681220Z",
   "total": 41,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-1618",
+      "summary": "OpRisk - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1618",
+      "panels": []
+    },
+    {
+      "key": "CPN-1855",
+      "summary": "RegPlatform - HTML to PDF (JPMC)",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1855",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 30/07:  In progress with content pipeline, RGP dev will commence soon"
+        }
+      ]
+    },
+    {
+      "key": "CPN-674",
+      "summary": "RegConnect - ServiceNow Integration",
+      "status": "Build & Test",
+      "assignee": "Ian Shaw",
+      "duedate": "",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-674",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 30/07: Good progress. Core development on track for Q3"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1519",
+      "summary": "RegPlatform - Enhanced Citation Linking API Update",
+      "status": "Scoping",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1519",
+      "panels": []
+    },
+    {
+      "key": "CPN-1706",
+      "summary": "RegPlatform - DB Performance Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1706",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status:"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1795",
+      "summary": "RegPlatform - Audit Capability Presentation",
+      "status": "Scoping",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1795",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 30/07:  There are additional layers of complexity detected. Further solution discovery needs to take place before this get a green light"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1529",
+      "summary": "RegPlatform - Integrated Risk Control Module",
+      "status": "Scoping",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-07-30",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1529",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 30/07:  Confirming with Rohit on the scope for this and whether it will land in Q3"
+        }
+      ]
+    },
     {
       "key": "CPN-1525",
       "summary": "RegPlatform - Registration Coworker",
@@ -61,25 +184,6 @@
       ]
     },
     {
-      "key": "CPN-1855",
-      "summary": "RegPlatform - HTML to PDF (JPMC)",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1855",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 30/07:  In progress with content pipeline, RGP dev will commence soon"
-        }
-      ]
-    },
-    {
       "key": "CPN-1523",
       "summary": "RegPlatform - Enforcement Coworker",
       "status": "Build & Test",
@@ -132,25 +236,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1706",
-      "summary": "RegPlatform - DB Performance Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1706",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status:"
-        }
-      ]
-    },
-    {
       "key": "CPN-1124",
       "summary": "RegPlatform - Obligations",
       "status": "Build & Test",
@@ -163,81 +248,6 @@
         "consumer"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": []
-    },
-    {
-      "key": "CPN-1519",
-      "summary": "RegPlatform - Enhanced Citation Linking API Update",
-      "status": "Scoping",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1519",
-      "panels": []
-    },
-    {
-      "key": "CPN-674",
-      "summary": "RegConnect - ServiceNow Integration",
-      "status": "Build & Test",
-      "assignee": "Ian Shaw",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-674",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 30/07: Good progress. Core development on track for Q3"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1529",
-      "summary": "RegPlatform - Integrated Risk Control Module",
-      "status": "Scoping",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1529",
-      "panels": []
-    },
-    {
-      "key": "CPN-1795",
-      "summary": "RegPlatform - Audit Capability Presentation",
-      "status": "Scoping",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1795",
-      "panels": []
-    },
-    {
-      "key": "CPN-1618",
-      "summary": "OpRisk - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jeremy Noble",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1618",
       "panels": []
     },
     {
