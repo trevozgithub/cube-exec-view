@@ -1,7 +1,31 @@
 {
-  "updated": "2026-07-29T23:16:24.135877Z",
-  "total": 2576,
+  "updated": "2026-07-30T00:15:13.380749Z",
+  "total": 2574,
   "items": [
+    {
+      "key": "INC-10093",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10093"
+    },
+    {
+      "key": "INC-10092",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10092"
+    },
     {
       "key": "INC-10091",
       "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
@@ -683,7 +707,7 @@
     {
       "key": "INC-10035",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64889",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -781,11 +805,13 @@
     {
       "key": "INC-10027",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10027"
@@ -973,7 +999,9 @@
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ElasticSearch"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-10011"
@@ -1125,7 +1153,9 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-29",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9999"
@@ -1626,7 +1656,7 @@
         "24x7"
       ],
       "created": "2026-07-28",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9959"
     },
     {
@@ -1780,11 +1810,13 @@
     {
       "key": "INC-9946",
       "summary": "CRITICAL POTENTIAL RegPlatform Consumer P1: LIVE issues in the last 3 hours for Checksum Report",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "ElasticSearch"
+      ],
       "created": "2026-07-28",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9946"
@@ -2412,13 +2444,16 @@
     {
       "key": "INC-9895",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Daily-Checks",
+        "health-check"
+      ],
       "created": "2026-07-28",
-      "updated": "2026-07-28",
+      "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9895"
     },
     {
@@ -3340,7 +3375,7 @@
     {
       "key": "INC-9819",
       "summary": "Unable to approve IBs in RM - Reported by Research",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3348,7 +3383,7 @@
         "24x7"
       ],
       "created": "2026-07-27",
-      "updated": "2026-07-28",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-9819"
     },
     {
@@ -4793,7 +4828,9 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-25",
       "updated": "2026-07-29",
       "url": "https://cube001.atlassian.net/browse/INC-9704"
@@ -32112,54 +32149,6 @@
       "created": "2026-06-30",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7408"
-    },
-    {
-      "key": "INC-7407",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9185",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7407"
-    },
-    {
-      "key": "INC-7406",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7406"
-    },
-    {
-      "key": "INC-7405",
-      "summary": "Signal lost for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7405"
-    },
-    {
-      "key": "INC-7404",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9186",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-29",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7404"
     }
   ]
 }
