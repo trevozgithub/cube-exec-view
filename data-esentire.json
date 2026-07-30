@@ -1,7 +1,69 @@
 {
-  "updated": "2026-07-30T00:15:13.380749Z",
-  "total": 2574,
+  "updated": "2026-07-30T03:36:29.027763Z",
+  "total": 2575,
   "items": [
+    {
+      "key": "INC-10098",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10098"
+    },
+    {
+      "key": "INC-10097",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10097"
+    },
+    {
+      "key": "INC-10096",
+      "summary": "P1: UAT Insight Analysis function errors",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10096"
+    },
+    {
+      "key": "INC-10095",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10095"
+    },
+    {
+      "key": "INC-10094",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10094"
+    },
     {
       "key": "INC-10093",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -363,7 +425,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10064"
     },
     {
@@ -1154,10 +1216,13 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "PROD",
+        "opsview",
+        "server"
       ],
       "created": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-9999"
     },
     {
@@ -1239,9 +1304,13 @@
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "DR",
+        "VEEAMPRX",
+        "opsview"
+      ],
       "created": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-9992"
     },
     {
@@ -4824,15 +4893,16 @@
     {
       "key": "INC-9704",
       "summary": "CUBEUAT2APP02 Base - CPU   CRITICAL [Triggered by _AvgCPU>90] - Average CPU Utilisation 99.81%",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "opsview"
       ],
       "created": "2026-07-25",
-      "updated": "2026-07-29",
+      "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-9704"
     },
     {
@@ -32101,54 +32171,6 @@
       "created": "2026-06-30",
       "updated": "2026-06-30",
       "url": "https://cube001.atlassian.net/browse/INC-7412"
-    },
-    {
-      "key": "INC-7411",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9188",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7411"
-    },
-    {
-      "key": "INC-7410",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9187",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7410"
-    },
-    {
-      "key": "INC-7409",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7409"
-    },
-    {
-      "key": "INC-7408",
-      "summary": "Signal lost for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-06-30",
-      "updated": "2026-06-30",
-      "url": "https://cube001.atlassian.net/browse/INC-7408"
     }
   ]
 }
