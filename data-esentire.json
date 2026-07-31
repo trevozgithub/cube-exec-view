@@ -1,12 +1,132 @@
 {
-  "updated": "2026-07-31T10:15:34.147989Z",
-  "total": 2599,
+  "updated": "2026-07-31T12:22:19.017147Z",
+  "total": 2602,
   "items": [
+    {
+      "key": "INC-10210",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "To Do",
+      "assignee": "Phil Oakes",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10210"
+    },
+    {
+      "key": "INC-10209",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10209"
+    },
+    {
+      "key": "INC-10208",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "In Triage",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10208"
+    },
+    {
+      "key": "INC-10207",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10207"
+    },
+    {
+      "key": "INC-10206",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10206"
+    },
+    {
+      "key": "INC-10205",
+      "summary": "SalesForce emails not being sent - P2 now fixed, need RCA",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10205"
+    },
+    {
+      "key": "INC-10204",
+      "summary": "SQL Server Alert System: 'Database Not Accessible' occurred on \\\\CUBEUAT2SQL08\\UAT2SQL08",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10204"
+    },
+    {
+      "key": "INC-10203",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10203"
+    },
+    {
+      "key": "INC-10202",
+      "summary": "SQL Server Alert System: 'Database Not Accessible' occurred on \\\\CUBEUAT2SQL08\\UAT2SQL08",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10202"
+    },
+    {
+      "key": "INC-10201",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65051",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10201"
+    },
     {
       "key": "INC-10200",
       "summary": "SQL Server Alert System: 'Database Not Accessible' occurred on \\\\CUBEUAT2SQL08\\UAT2SQL08",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -77,11 +197,13 @@
     {
       "key": "INC-10194",
       "summary": "SQL Server Alert System: 'Database Not Accessible' occurred on \\\\CUBEUAT2SQL08\\UAT2SQL08",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10194"
@@ -89,11 +211,13 @@
     {
       "key": "INC-10193",
       "summary": "SQL Server Alert System: 'Database Not Accessible' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10193"
@@ -32368,92 +32492,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7592"
-    },
-    {
-      "key": "INC-7496",
-      "summary": "June-2026: DM-MGMT01 & DM Patching send notification to dm@cube.global",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P5",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7496"
-    },
-    {
-      "key": "INC-7495",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7495"
-    },
-    {
-      "key": "INC-7494",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7494"
-    },
-    {
-      "key": "INC-7493",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7493"
-    },
-    {
-      "key": "INC-7492",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7492"
-    },
-    {
-      "key": "INC-7491",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7491"
-    },
-    {
-      "key": "INC-7490",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7490"
     }
   ]
 }
