@@ -1,7 +1,91 @@
 {
-  "updated": "2026-07-31T04:43:30.430351Z",
-  "total": 2589,
+  "updated": "2026-07-31T07:37:54.082255Z",
+  "total": 2593,
   "items": [
+    {
+      "key": "INC-10185",
+      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10185"
+    },
+    {
+      "key": "INC-10184",
+      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10184"
+    },
+    {
+      "key": "INC-10183",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10183"
+    },
+    {
+      "key": "INC-10182",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10182"
+    },
+    {
+      "key": "INC-10181",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10181"
+    },
+    {
+      "key": "INC-10180",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10180"
+    },
+    {
+      "key": "INC-10179",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10179"
+    },
     {
       "key": "INC-10178",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -732,12 +816,12 @@
       "key": "INC-10118",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-30",
-      "updated": "2026-07-30",
+      "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -2035,7 +2119,7 @@
     {
       "key": "INC-10011",
       "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2045,7 +2129,7 @@
         "alerts"
       ],
       "created": "2026-07-29",
-      "updated": "2026-07-30",
+      "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10011"
     },
     {
@@ -32300,45 +32384,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7481"
-    },
-    {
-      "key": "INC-7480",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7480"
-    },
-    {
-      "key": "INC-7479",
-      "summary": "OpsView - CUBEDEV1FS02 Base - Additional Drives: F",
-      "status": "Completed",
-      "assignee": "Yinka Shoge",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "opsview"
-      ],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7479"
-    },
-    {
-      "key": "INC-7478",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7478"
     }
   ]
 }
