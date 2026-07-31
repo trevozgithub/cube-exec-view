@@ -1,12 +1,48 @@
 {
-  "updated": "2026-07-31T22:14:32.380370Z",
-  "total": 2659,
+  "updated": "2026-07-31T23:18:37.428858Z",
+  "total": 2660,
   "items": [
+    {
+      "key": "INC-10289",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10289"
+    },
+    {
+      "key": "INC-10288",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10288"
+    },
+    {
+      "key": "INC-10287",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10287"
+    },
     {
       "key": "INC-10286",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -42,10 +78,13 @@
       "key": "INC-10283",
       "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
       "status": "To Do",
-      "assignee": "Michael Angelo Dorio",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10283"
@@ -7199,7 +7238,7 @@
         "opsview"
       ],
       "created": "2026-07-25",
-      "updated": "2026-07-30",
+      "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-9704"
     },
     {
@@ -33154,30 +33193,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7614"
-    },
-    {
-      "key": "INC-7613",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7613"
-    },
-    {
-      "key": "INC-7612",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60540",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7612"
     }
   ]
 }
