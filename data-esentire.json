@@ -1,12 +1,48 @@
 {
-  "updated": "2026-07-30T23:36:09.297731Z",
-  "total": 2594,
+  "updated": "2026-07-31T01:11:25.176638Z",
+  "total": 2593,
   "items": [
+    {
+      "key": "INC-10174",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10174"
+    },
+    {
+      "key": "INC-10173",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10173"
+    },
+    {
+      "key": "INC-10172",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-30",
+      "updated": "2026-07-30",
+      "url": "https://cube001.atlassian.net/browse/INC-10172"
+    },
     {
       "key": "INC-10171",
       "summary": "CUBEPROD1RDI05 - RDI API live Proc3 is still on a flapping stop / start status.",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -133,7 +169,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-30",
-      "updated": "2026-07-30",
+      "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10160"
     },
     {
@@ -1834,7 +1870,7 @@
     {
       "key": "INC-10021",
       "summary": "P1: LIVE Insight Analysis function errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1842,7 +1878,7 @@
         "24x7"
       ],
       "created": "2026-07-29",
-      "updated": "2026-07-29",
+      "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10021"
     },
     {
@@ -2102,7 +2138,7 @@
     {
       "key": "INC-9999",
       "summary": "Multiple UNKNOWN WMI query problems on host CUBEPRODINX",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2770,7 +2806,7 @@
     {
       "key": "INC-9946",
       "summary": "CRITICAL POTENTIAL RegPlatform Consumer P1: LIVE issues in the last 3 hours for Checksum Report",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2779,7 +2815,7 @@
         "RegInsight"
       ],
       "created": "2026-07-28",
-      "updated": "2026-07-30",
+      "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-9946"
     },
     {
@@ -32351,56 +32387,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7470"
-    },
-    {
-      "key": "INC-7469",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7469"
-    },
-    {
-      "key": "INC-7468",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7468"
-    },
-    {
-      "key": "INC-7467",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7467"
-    },
-    {
-      "key": "INC-7466",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7466"
     }
   ]
 }
