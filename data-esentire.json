@@ -1,12 +1,84 @@
 {
-  "updated": "2026-07-31T21:06:04.315151Z",
-  "total": 2654,
+  "updated": "2026-07-31T22:14:32.380370Z",
+  "total": 2659,
   "items": [
     {
-      "key": "INC-10280",
+      "key": "INC-10286",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10286"
+    },
+    {
+      "key": "INC-10285",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10285"
+    },
+    {
+      "key": "INC-10284",
+      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1RDI05",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10284"
+    },
+    {
+      "key": "INC-10283",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10283"
+    },
+    {
+      "key": "INC-10282",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10282"
+    },
+    {
+      "key": "INC-10281",
+      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10281"
+    },
+    {
+      "key": "INC-10280",
+      "summary": "P1 - URGENT: UAT - Migration Job Failures",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +101,8 @@
     {
       "key": "INC-10278",
       "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -649,11 +721,13 @@
     {
       "key": "INC-10227",
       "summary": "Currently cant access Intel live environment",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10227"
@@ -33104,18 +33178,6 @@
       "created": "2026-07-01",
       "updated": "2026-07-01",
       "url": "https://cube001.atlassian.net/browse/INC-7612"
-    },
-    {
-      "key": "INC-7611",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7611"
     }
   ]
 }
