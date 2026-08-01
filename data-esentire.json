@@ -1,11 +1,71 @@
 {
-  "updated": "2026-08-01T00:15:27.125094Z",
-  "total": 2665,
+  "updated": "2026-08-01T03:55:52.216378Z",
+  "total": 2666,
   "items": [
+    {
+      "key": "INC-10302",
+      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10302"
+    },
+    {
+      "key": "INC-10301",
+      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10301"
+    },
+    {
+      "key": "INC-10300",
+      "summary": "SQL Server Alert System: 'AG Role Change (failover)' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10300"
+    },
+    {
+      "key": "INC-10299",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10299"
+    },
+    {
+      "key": "INC-10298",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10298"
+    },
     {
       "key": "INC-10297",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -65,7 +125,7 @@
         "newrelic"
       ],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10293"
     },
     {
@@ -167,13 +227,16 @@
     {
       "key": "INC-10284",
       "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10284"
     },
     {
@@ -893,9 +956,13 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10226"
     },
     {
@@ -972,14 +1039,18 @@
     },
     {
       "key": "INC-10219",
-      "summary": "500 Errors",
+      "summary": "UAT Environment 500 Errors",
       "status": "In Progress",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "ElasticSearch"
+      ],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10219"
     },
     {
@@ -1069,11 +1140,13 @@
     {
       "key": "INC-10210",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-31",
       "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10210"
@@ -2207,7 +2280,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-30",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -33221,57 +33294,6 @@
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7621"
-    },
-    {
-      "key": "INC-7620",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7620"
-    },
-    {
-      "key": "INC-7619",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9237",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7619"
-    },
-    {
-      "key": "INC-7618",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9237",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7618"
-    },
-    {
-      "key": "INC-7617",
-      "summary": "PROBLEM: RDI API live Proc4 is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7617"
     }
   ]
 }
