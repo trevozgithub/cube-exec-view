@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-01T22:02:58.886420Z",
+  "updated": "2026-08-01T23:06:35.150055Z",
   "total": 2626,
   "items": [
+    {
+      "key": "INC-10336",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10336"
+    },
     {
       "key": "INC-10335",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
@@ -2666,7 +2678,13 @@
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "API",
+        "Daily-Checks",
+        "PROD",
+        "UAT",
+        "health-check"
+      ],
       "created": "2026-07-30",
       "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
@@ -32764,21 +32782,6 @@
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7695"
-    },
-    {
-      "key": "INC-7694",
-      "summary": "SJPPROD-TRANS10 \u2013 vSphere Replication Failure: Disk Resize Invalid Argument Error",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "INFRA"
-      ],
-      "created": "2026-07-02",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7694"
     }
   ]
 }
