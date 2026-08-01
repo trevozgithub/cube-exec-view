@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-01T08:55:08.638102Z",
-  "total": 2641,
+  "updated": "2026-08-01T10:41:30.293085Z",
+  "total": 2633,
   "items": [
+    {
+      "key": "INC-10311",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "In Progress",
+      "assignee": "Ishara Lakshitha",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10311"
+    },
+    {
+      "key": "INC-10310",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10310"
+    },
     {
       "key": "INC-10309",
       "summary": "Your daily Uptrends report: Account overview",
@@ -27737,7 +27761,7 @@
         "newrelic"
       ],
       "created": "2026-07-06",
-      "updated": "2026-07-08",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-8087"
     },
     {
@@ -32860,130 +32884,6 @@
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7663"
-    },
-    {
-      "key": "INC-7662",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7662"
-    },
-    {
-      "key": "INC-7661",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7661"
-    },
-    {
-      "key": "INC-7660",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7660"
-    },
-    {
-      "key": "INC-7659",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7659"
-    },
-    {
-      "key": "INC-7658",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7658"
-    },
-    {
-      "key": "INC-7657",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7657"
-    },
-    {
-      "key": "INC-7656",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7656"
-    },
-    {
-      "key": "INC-7655",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7655"
-    },
-    {
-      "key": "INC-7654",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7654"
-    },
-    {
-      "key": "INC-7653",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7653"
     }
   ]
 }
