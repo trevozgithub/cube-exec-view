@@ -1,7 +1,109 @@
 {
-  "updated": "2026-07-31T23:18:37.428858Z",
-  "total": 2660,
+  "updated": "2026-08-01T00:15:27.125094Z",
+  "total": 2665,
   "items": [
+    {
+      "key": "INC-10297",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "opsview"
+      ],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10297"
+    },
+    {
+      "key": "INC-10296",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10296"
+    },
+    {
+      "key": "INC-10295",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-01",
+      "updated": "2026-08-01",
+      "url": "https://cube001.atlassian.net/browse/INC-10295"
+    },
+    {
+      "key": "INC-10294",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10294"
+    },
+    {
+      "key": "INC-10293",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "To Do",
+      "assignee": "Phil Oakes",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Intel",
+        "newrelic"
+      ],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10293"
+    },
+    {
+      "key": "INC-10292",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10292"
+    },
+    {
+      "key": "INC-10291",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10291"
+    },
+    {
+      "key": "INC-10290",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "url": "https://cube001.atlassian.net/browse/INC-10290"
+    },
     {
       "key": "INC-10289",
       "summary": "P1 - URGENT: UAT - Migration Job Failures",
@@ -382,11 +484,15 @@
     {
       "key": "INC-10258",
       "summary": "CUBEPROD2SQL01 - Average CPU Utilisation CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10258"
@@ -432,11 +538,15 @@
     {
       "key": "INC-10254",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10254"
@@ -616,13 +726,18 @@
     {
       "key": "INC-10239",
       "summary": "CUBE Intel Spinning Out while loading",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Sandeep Multani",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "Intel",
+        "intelContent"
+      ],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10239"
     },
     {
@@ -954,13 +1069,13 @@
     {
       "key": "INC-10210",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10210"
     },
     {
@@ -7229,7 +7344,7 @@
     {
       "key": "INC-9704",
       "summary": "CUBEUAT2APP02 Base - CPU   CRITICAL [Triggered by _AvgCPU>90] - Average CPU Utilisation 99.81%",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -33157,42 +33272,6 @@
       "created": "2026-07-02",
       "updated": "2026-07-02",
       "url": "https://cube001.atlassian.net/browse/INC-7617"
-    },
-    {
-      "key": "INC-7616",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7616"
-    },
-    {
-      "key": "INC-7615",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7615"
-    },
-    {
-      "key": "INC-7614",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-01",
-      "updated": "2026-07-01",
-      "url": "https://cube001.atlassian.net/browse/INC-7614"
     }
   ]
 }
