@@ -1,11 +1,47 @@
 {
-  "updated": "2026-08-02T08:57:00.682725Z",
-  "total": 2611,
+  "updated": "2026-08-02T10:44:45.584922Z",
+  "total": 2605,
   "items": [
+    {
+      "key": "INC-10345",
+      "summary": "Opsview Critical Alarm - CUBEPROD1RDI05 RDI API live Proc2 & RDI API live Proc3",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10345"
+    },
+    {
+      "key": "INC-10344",
+      "summary": "PRDSM - INTEL Performance Monitoring",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10344"
+    },
+    {
+      "key": "INC-10343",
+      "summary": "PRDSM - INTEL Performance Monitoring",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10343"
+    },
     {
       "key": "INC-10342",
       "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Scorch Escarcha",
       "priority": "P3",
       "issuetype": "Alert",
@@ -17,8 +53,8 @@
     {
       "key": "INC-10341",
       "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -32537,116 +32573,6 @@
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7726"
-    },
-    {
-      "key": "INC-7725",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7725"
-    },
-    {
-      "key": "INC-7724",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7724"
-    },
-    {
-      "key": "INC-7723",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7723"
-    },
-    {
-      "key": "INC-7722",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7722"
-    },
-    {
-      "key": "INC-7721",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7721"
-    },
-    {
-      "key": "INC-7720",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7720"
-    },
-    {
-      "key": "INC-7719",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7719"
-    },
-    {
-      "key": "INC-7718",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7718"
-    },
-    {
-      "key": "INC-7717",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7717"
     }
   ]
 }
