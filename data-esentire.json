@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T00:09:37.558483Z",
-  "total": 2623,
+  "updated": "2026-08-02T03:53:00.203787Z",
+  "total": 2618,
   "items": [
     {
       "key": "INC-10337",
@@ -147,7 +147,7 @@
         "UAT"
       ],
       "created": "2026-08-01",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10329"
     },
     {
@@ -325,9 +325,15 @@
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Book",
+        "PROD",
+        "Pipeline",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-01",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10311"
     },
     {
@@ -433,9 +439,13 @@
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "SQL",
+        "UAT",
+        "alerts"
+      ],
       "created": "2026-08-01",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10302"
     },
     {
@@ -672,10 +682,12 @@
       "issuetype": "Service Incident",
       "labels": [
         "24x7",
-        "opsview"
+        "Storage",
+        "opsview",
+        "server"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10283"
     },
     {
@@ -829,9 +841,11 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Intel"
+      ],
       "created": "2026-07-31",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10270"
     },
     {
@@ -1384,11 +1398,14 @@
       "issuetype": "Service Incident",
       "labels": [
         "24x7",
+        "PROD",
+        "Utilization",
         "alerts",
-        "newrelic"
+        "newrelic",
+        "server"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10226"
     },
     {
@@ -1458,9 +1475,12 @@
       "assignee": "Chethiya Amarasinghe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Alerts-From-Staff",
+        "PROD"
+      ],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10220"
     },
     {
@@ -1628,13 +1648,13 @@
     {
       "key": "INC-10205",
       "summary": "SalesForce emails not being sent - P2 now fixed, need RCA",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-31",
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10205"
     },
     {
@@ -2063,10 +2083,12 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "opsview"
+        "PROD",
+        "opsview",
+        "server"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10171"
     },
     {
@@ -2185,10 +2207,12 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
+        "SQL",
+        "UAT",
         "database"
       ],
       "created": "2026-07-30",
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10160"
     },
     {
@@ -2236,7 +2260,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-07-30",
-      "updated": "2026-07-31",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10157"
     },
     {
@@ -4028,13 +4052,13 @@
       "summary": "P1 - Atmoso Line Down - 29/07/26 - 15:41",
       "status": "In Progress",
       "assignee": "Zaw Aung",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-07-29",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10010"
     },
     {
@@ -6517,10 +6541,11 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "eSentire_Alert"
       ],
       "created": "2026-07-27",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-9813"
     },
     {
@@ -32694,70 +32719,6 @@
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7704"
-    },
-    {
-      "key": "INC-7703",
-      "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is not working properly.",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7703"
-    },
-    {
-      "key": "INC-7702",
-      "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is OK.",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7702"
-    },
-    {
-      "key": "INC-7701",
-      "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is not working properly.",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7701"
-    },
-    {
-      "key": "INC-7700",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7700"
-    },
-    {
-      "key": "INC-7699",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7699"
     }
   ]
 }
