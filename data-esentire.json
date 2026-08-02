@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-01T23:06:35.150055Z",
-  "total": 2626,
+  "updated": "2026-08-02T00:09:37.558483Z",
+  "total": 2623,
   "items": [
+    {
+      "key": "INC-10337",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10337"
+    },
     {
       "key": "INC-10336",
       "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
@@ -67,11 +79,15 @@
     {
       "key": "INC-10331",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63323",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-01",
       "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10331"
@@ -91,11 +107,15 @@
     {
       "key": "INC-10328",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65191",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "UAT",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-01",
       "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10328"
@@ -115,11 +135,17 @@
     {
       "key": "INC-10329",
       "summary": "No new Insights have been published in both UAT and LIVE for approximately 1 hours.",
-      "status": "To Do",
-      "assignee": "Michael Angelo Dorio",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Monitoring",
+        "PROD",
+        "ProdSupport",
+        "RegInsight",
+        "UAT"
+      ],
       "created": "2026-08-01",
       "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10329"
@@ -32732,56 +32758,6 @@
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7699"
-    },
-    {
-      "key": "INC-7698",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7698"
-    },
-    {
-      "key": "INC-7697",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7697"
-    },
-    {
-      "key": "INC-7696",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-02",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7696"
-    },
-    {
-      "key": "INC-7695",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-02",
-      "updated": "2026-07-02",
-      "url": "https://cube001.atlassian.net/browse/INC-7695"
     }
   ]
 }
