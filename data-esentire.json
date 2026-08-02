@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-02T03:53:00.203787Z",
-  "total": 2618,
+  "updated": "2026-08-02T06:29:17.633283Z",
+  "total": 2614,
   "items": [
+    {
+      "key": "INC-10338",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10338"
+    },
     {
       "key": "INC-10337",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -1227,7 +1239,7 @@
     {
       "key": "INC-10239",
       "summary": "CUBE Intel Spinning Out while loading",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Sandeep Multani",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -1238,7 +1250,7 @@
         "intelContent"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10239"
     },
     {
@@ -1648,11 +1660,13 @@
     {
       "key": "INC-10205",
       "summary": "SalesForce emails not being sent - P2 now fixed, need RCA",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-07-31",
       "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10205"
@@ -4050,7 +4064,7 @@
     {
       "key": "INC-10010",
       "summary": "P1 - Atmoso Line Down - 29/07/26 - 15:41",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zaw Aung",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -4975,9 +4989,13 @@
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Macquarie",
+        "UAT",
+        "certificate"
+      ],
       "created": "2026-07-28",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-9937"
     },
     {
@@ -9271,9 +9289,12 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "RegInsight"
+      ],
       "created": "2026-07-24",
-      "updated": "2026-07-30",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -13065,10 +13086,13 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "Intel"
+        "Alerts-From-Staff",
+        "Intel",
+        "LIVE",
+        "PROD"
       ],
       "created": "2026-07-21",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-9289"
     },
     {
@@ -13279,10 +13303,13 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "Daily-Checks"
+        "Daily-Checks",
+        "Translation",
+        "alerts",
+        "newrelic"
       ],
       "created": "2026-07-21",
-      "updated": "2026-08-01",
+      "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-9270"
     },
     {
@@ -32656,69 +32683,6 @@
       "created": "2026-07-03",
       "updated": "2026-07-03",
       "url": "https://cube001.atlassian.net/browse/INC-7709"
-    },
-    {
-      "key": "INC-7708",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7708"
-    },
-    {
-      "key": "INC-7707",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "opsview"
-      ],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7707"
-    },
-    {
-      "key": "INC-7706",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7706"
-    },
-    {
-      "key": "INC-7705",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7705"
-    },
-    {
-      "key": "INC-7704",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-03",
-      "url": "https://cube001.atlassian.net/browse/INC-7704"
     }
   ]
 }
