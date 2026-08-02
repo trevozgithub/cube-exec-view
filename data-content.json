@@ -1,8 +1,27 @@
 {
-  "updated": "2026-08-02T19:57:18.804921Z",
+  "updated": "2026-08-02T21:03:13.902805Z",
   "total": 13,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-50",
+      "summary": "Translation optimisation - v10 and API",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-08-02",
+      "labels": [
+        "PlanningFlag",
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-50",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Systran 9 is back in place. Systran v10 and the Translation API are live since June 2. At the moment they are unused as Systran v10 doesn\u2019t support the production load.    The new design has been setup, but there\u2019s no clarity on devops capacity to do the deployments at this point."
+        }
+      ]
+    },
     {
       "key": "CPN-1548",
       "summary": "HTML to PDF Conversion of RegInsights",
@@ -145,25 +164,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-798",
       "panels": []
-    },
-    {
-      "key": "CPN-50",
-      "summary": "Translation optimisation - v10 and API",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-07-15",
-      "labels": [
-        "PlanningFlag",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-50",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Systran 9 is back in place. Systran v10 and the Translation API are live since June 2. At the moment they are unused as Systran v10 doesn\u2019t support the production load.    The new design has been setup, but there\u2019s no clarity on devops capacity to do the deployments at this point."
-        }
-      ]
     },
     {
       "key": "CPN-1593",
