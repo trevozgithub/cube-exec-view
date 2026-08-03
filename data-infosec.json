@@ -1,8 +1,28 @@
 {
-  "updated": "2026-08-03T10:56:46.248054Z",
+  "updated": "2026-08-03T13:44:26.162948Z",
   "total": 29,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "03/08/26 Formal project close down meeting to be scheduled by Ash. Remaining actions will be tracked on the regular Monday calls with Ash. Final training sessions are being held."
+        }
+      ]
+    },
     {
       "key": "CPN-1583",
       "summary": "InfoSec - Administrative Tasks Q3 2026",
@@ -158,26 +178,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1809",
       "panels": []
-    },
-    {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-07-31",
-      "reviewed": "2026-07-28",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/07/26 Weekly calls being held on Wednesdays with Ash and Axonius. The Axonius Gateway VM has been created in Azure v2 and credentials for datasources provisioned. Data is being logged in Axonius and access is available. The project is on track to complete for the end of July subject to training and documentation being completed."
-        }
-      ]
     },
     {
       "key": "CPN-124",
