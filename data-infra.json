@@ -1,8 +1,179 @@
 {
-  "updated": "2026-08-03T07:34:49.605405Z",
+  "updated": "2026-08-03T10:56:47.141226Z",
   "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1571",
+      "summary": "Platform - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1571",
+      "panels": []
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "27/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Acin repos have been migrated, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. Creation of the Golden Pipeline is expected to be complete 29/07."
+        }
+      ]
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete. Deployments of SFTP servers will begin WC"
+        }
+      ]
+    },
+    {
+      "key": "CPN-703",
+      "summary": "Enterprise in the cloud - Phase 2",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-17",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-703",
+      "panels": [
+        {
+          "type": "info",
+          "text": "27/07/2026 The UAT environment was migrated to Azure over the weekend. Some issues have been raised, nothing major requiring moving back to on prem. Issues are being resolved as they are raised. Production migration is planned for the weekend of 15/16 August. The production environment us being completed and the application deployed so it can be tested. Discussions are ongoing with Elastic about consumption and spend. The Elastic PS is unlikely to reduce the spend to the forecast level for managed. Other alternatives being considered are Serverless Elastic and reverting to self hosting. RAG is Amber for the production migration in mid August."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1214",
+      "summary": "4CRisk - Systems migration and consolidation",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "panels": [
+        {
+          "type": "info",
+          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses - Approved, awaiting purchase and allocation [ Open ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - The majority of the modules are now running on CUBE AI Foundry, with only a single module remaining on the 4CRisk OpenAI platform. The remaining module will need to remain on the 4CRisk OpenAI platform for an additional month, as the team has identified that its equivalent module in AI Foundry has been deprecated. The functionality dependent on this module, Global Search, is business-critical. Team is working towards fully migrating the Global Search functionality by the end of August. [ Open ]"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "Infra",
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA. The weekly report is sent before the end of the TSA period and includes ex-TR leavers"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1420",
+      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-10-29",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "Kodex",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Jira space for Kodex team has been created based on the design  Kodex AI - Miro .  [ Closed ] George completed the set up a squad object and linked it to the space. [ Closed ] Claus to advise on the location & repos Kodex uses so that these can be integrated to Plandek. Meeting set up for 4th August to discuss the outstanding items required to complete the Atlassian/Plandek setup [ Open ]"
+        }
+      ]
+    },
+    {
+      "key": "CPN-105",
+      "summary": "TR Employee Data migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-105",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. ARC sealing config has been suggested to TR as a long-term solution. Meeting to discuss the settings scheduled for   Next phase: OneDrive migration to be kicked-off in August. Scheduled for   OneDrive migration comms were sent out to the user and OneDrive pre-migration tasks has been completed. O365 migration plan:"
+        }
+      ]
+    },
+    {
+      "key": "CPN-949",
+      "summary": "4CRisk - Onboarding and O365 migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-08-07",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-949",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Monitors. Quote approved by Barry. Order placed for 35 monitors [ Done ] Legacy assets wipe & disposal process  [ Open ]  Provided the assets details to Softcat. Still awaiting the quote from their local partner. Followed up with Fraser. Devices are being wiped by Viresh. ETA by the end of this week.  M365 license reduction - Completed. [ Done ]"
+        }
+      ]
+    },
     {
       "key": "CPN-930",
       "summary": "Cabot - Sunset of Documentum",
@@ -43,19 +214,6 @@
       ]
     },
     {
-      "key": "CPN-1571",
-      "summary": "Platform - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1571",
-      "panels": []
-    },
-    {
       "key": "CPN-1569",
       "summary": "Platform  - Urgent Support Q3 2026",
       "status": "Build & Test",
@@ -67,43 +225,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1569",
       "panels": []
-    },
-    {
-      "key": "CPN-703",
-      "summary": "Enterprise in the cloud - Phase 2",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-17",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-703",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/07/2026 The UAT environment was migrated to Azure over the weekend. Some issues have been raised, nothing major requiring moving back to on prem. Issues are being resolved as they are raised. Production migration is planned for the weekend of 15/16 August. The production environment us being completed and the application deployed so it can be tested. Discussions are ongoing with Elastic about consumption and spend. The Elastic PS is unlikely to reduce the spend to the forecast level for managed. Other alternatives being considered are Serverless Elastic and reverting to self hosting. RAG is Amber for the production migration in mid August."
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-07-29",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Workshops and planning calls held to discuss scope and next steps, further planning to take place. A spreadsheet containing resources has been compiled with some quick wins identified. An initial review of HR and finance servers has been completed. A review of SFTP has been carried out. A call was held with pro2col who supply and support GoAnywhere. They could support migration and will provided licences. Migration of GoAnywhere will take place after Enterprise migration is complete. Deployments of SFTP servers will begin WC"
-        }
-      ]
     },
     {
       "key": "CPN-1024",
@@ -160,68 +281,6 @@
       ]
     },
     {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/07/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Acin repos have been migrated, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. Creation of the Golden Pipeline is expected to be complete 29/07."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "Infra",
-        "TR",
-        "TSA_EXIT",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA."
-        }
-      ]
-    },
-    {
-      "key": "CPN-949",
-      "summary": "4CRisk - Onboarding and O365 migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-08-07",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-949",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Monitors. Received the quote from the vendor. Awaiting review/approval from Barry [ Open ] Legacy assets wipe & disposal process  [ Open ]  Provided the assets details to Softcat. Awaiting their quote. ETA this week. Devices are scheduled to be wiped this week by Viresh M365 license reduction - Completed. [ Done ]"
-        }
-      ]
-    },
-    {
       "key": "CPN-826",
       "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
       "status": "Planning",
@@ -238,65 +297,6 @@
         {
           "type": "info",
           "text": "Next steps - Agree on the project plan and create a SoW. Awaiting SJP to submit project milestones and the project status meeting cadence between now and the end of the term (March 2027), which we can use as the basis for our SOW"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1420",
-      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-10-29",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "Kodex",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Jira space for Kodex team has been created based on the design  Kodex AI - Miro .  [ Closed ] George completed the set up a squad object and linked it to the space. [ Closed ] Claus to advise on the location & repos Kodex uses so that these can be integrated to Plandek [ Open ]"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1214",
-      "summary": "4CRisk - Systems migration and consolidation",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214",
-      "panels": [
-        {
-          "type": "info",
-          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is still ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week.  ETA 31st July  [ Open ]"
-        }
-      ]
-    },
-    {
-      "key": "CPN-105",
-      "summary": "TR Employee Data migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-105",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. Awaiting feedback from TR for long-term solution.  Next phase: OneDrive migration to be kicked-off in August. Scheduled for   OneDrive migration comms were sent out to the user and OneDrive pre-migration tasks has been completed. O365 migration plan:"
         }
       ]
     },

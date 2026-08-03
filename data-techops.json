@@ -1,15 +1,36 @@
 {
-  "updated": "2026-08-03T07:34:50.870249Z",
+  "updated": "2026-08-03T10:56:48.602025Z",
   "total": 5,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=317",
   "items": [
+    {
+      "key": "CPN-1214",
+      "summary": "4CRisk - Systems migration and consolidation",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-08-03",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "panels": [
+        {
+          "type": "info",
+          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses - Approved, awaiting purchase and allocation [ Open ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - The majority of the modules are now running on CUBE AI Foundry, with only a single module remaining on the 4CRisk OpenAI platform. The remaining module will need to remain on the 4CRisk OpenAI platform for an additional month, as the team has identified that its equivalent module in AI Foundry has been deprecated. The functionality dependent on this module, Global Search, is business-critical. Team is working towards fully migrating the Global Search functionality by the end of August. [ Open ]"
+        }
+      ]
+    },
     {
       "key": "CPN-1089",
       "summary": "TR - TSA Exit",
       "status": "Build & Test",
       "assignee": "Agnieszka Gorniak",
       "duedate": "2026-12-31",
-      "reviewed": "2026-07-27",
+      "reviewed": "2026-08-03",
       "labels": [
         "Infra",
         "TR",
@@ -21,28 +42,7 @@
       "panels": [
         {
           "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1214",
-      "summary": "4CRisk - Systems migration and consolidation",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-07-27",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214",
-      "panels": [
-        {
-          "type": "info",
-          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses in progress (Awaiting feedback from Barry)  [ Open ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - Dipak\u2019s team is currently testing the OpenAI 5.1 model in AI Foundry. Some of the models previously used through the 4CRisk OpenAI account have been deprecated in the CUBE AI Foundry environment. Testing is still ongoing in the development environment, and, subject to successful results, deployment to production is planned for next week.  ETA 31st July  [ Open ]"
+          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA. The weekly report is sent before the end of the TSA period and includes ex-TR leavers"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "status": "Build & Test",
       "assignee": "Agnieszka Gorniak",
       "duedate": "2026-12-31",
-      "reviewed": "2026-07-27",
+      "reviewed": "2026-08-03",
       "labels": [
         "TechOps",
         "infrastructure"
@@ -61,7 +61,7 @@
       "panels": [
         {
           "type": "info",
-          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. Awaiting feedback from TR for long-term solution.  Next phase: OneDrive migration to be kicked-off in August. Scheduled for   OneDrive migration comms were sent out to the user and OneDrive pre-migration tasks has been completed. O365 migration plan:"
+          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Temporal solution has been implemented by Stefan. ARC sealing config has been suggested to TR as a long-term solution. Meeting to discuss the settings scheduled for   Next phase: OneDrive migration to be kicked-off in August. Scheduled for   OneDrive migration comms were sent out to the user and OneDrive pre-migration tasks has been completed. O365 migration plan:"
         }
       ]
     },
