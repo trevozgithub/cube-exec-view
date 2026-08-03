@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-03T22:15:16.657314Z",
-  "total": 2528,
+  "updated": "2026-08-03T23:30:44.480694Z",
+  "total": 2520,
   "items": [
+    {
+      "key": "INC-10428",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65385",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10428"
+    },
     {
       "key": "INC-10427",
       "summary": "Intel Prod Content Ingestion Service logging errors",
@@ -199,8 +211,8 @@
     {
       "key": "INC-10411",
       "summary": "RegPlatform PROD down - potential P1",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Jaspreet Manghera",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
@@ -311,11 +323,13 @@
     {
       "key": "INC-10402",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10402"
@@ -1095,9 +1109,11 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "opsview"
+      ],
       "created": "2026-08-02",
-      "updated": "2026-08-02",
+      "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10339"
     },
     {
@@ -1431,7 +1447,7 @@
     {
       "key": "INC-10311",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1659,7 +1675,7 @@
     {
       "key": "INC-10293",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2515,7 +2531,7 @@
         "server"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-02",
+      "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10226"
     },
     {
@@ -2581,7 +2597,7 @@
     {
       "key": "INC-10220",
       "summary": "Content Store Prod - intermittent timeouts/connectivity issues and slow performance",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Chethiya Amarasinghe",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -31531,114 +31547,6 @@
       "created": "2026-07-04",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7896"
-    },
-    {
-      "key": "INC-7895",
-      "summary": "Uptrends Alert! Monitor: \"connect.gocube.global\" is not working properly.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7895"
-    },
-    {
-      "key": "INC-7894",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60826",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7894"
-    },
-    {
-      "key": "INC-7893",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60825",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7893"
-    },
-    {
-      "key": "INC-7892",
-      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Uptime\" is not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7892"
-    },
-    {
-      "key": "INC-7891",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7891"
-    },
-    {
-      "key": "INC-7890",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7890"
-    },
-    {
-      "key": "INC-7889",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7889"
-    },
-    {
-      "key": "INC-7888",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7888"
-    },
-    {
-      "key": "INC-7887",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7887"
     }
   ]
 }
