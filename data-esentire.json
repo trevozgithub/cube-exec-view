@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-03T21:02:40.446434Z",
+  "updated": "2026-08-03T22:15:16.657314Z",
   "total": 2528,
   "items": [
+    {
+      "key": "INC-10427",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10427"
+    },
+    {
+      "key": "INC-10426",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10426"
+    },
+    {
+      "key": "INC-10425",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10425"
+    },
+    {
+      "key": "INC-10424",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10424"
+    },
+    {
+      "key": "INC-10423",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10423"
+    },
     {
       "key": "INC-10422",
       "summary": "Intel Prod Content Ingestion Service logging errors",
@@ -175,11 +235,13 @@
     {
       "key": "INC-10408",
       "summary": "PROBLEM: Base - Uptime is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10408"
@@ -357,11 +419,13 @@
     {
       "key": "INC-10392",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65349",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "browserstack"
+      ],
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10392"
@@ -369,11 +433,13 @@
     {
       "key": "INC-10391",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63465",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "browserstack"
+      ],
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10391"
@@ -31573,66 +31639,6 @@
       "created": "2026-07-04",
       "updated": "2026-07-04",
       "url": "https://cube001.atlassian.net/browse/INC-7887"
-    },
-    {
-      "key": "INC-7886",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7886"
-    },
-    {
-      "key": "INC-7885",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7885"
-    },
-    {
-      "key": "INC-7884",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7884"
-    },
-    {
-      "key": "INC-7883",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7883"
-    },
-    {
-      "key": "INC-7882",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7882"
     }
   ]
 }
