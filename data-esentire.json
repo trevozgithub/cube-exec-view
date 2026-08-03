@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-02T23:08:42.825758Z",
-  "total": 2531,
+  "updated": "2026-08-03T00:12:07.317841Z",
+  "total": 2529,
   "items": [
+    {
+      "key": "INC-10350",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-03",
+      "updated": "2026-08-03",
+      "url": "https://cube001.atlassian.net/browse/INC-10350"
+    },
+    {
+      "key": "INC-10349",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10349"
+    },
+    {
+      "key": "INC-10348",
+      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-02",
+      "updated": "2026-08-02",
+      "url": "https://cube001.atlassian.net/browse/INC-10348"
+    },
     {
       "key": "INC-10347",
       "summary": "CUBE stuck at loading pages",
@@ -9,7 +45,10 @@
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "RM",
+        "cube"
+      ],
       "created": "2026-08-02",
       "updated": "2026-08-02",
       "url": "https://cube001.atlassian.net/browse/INC-10347"
@@ -31605,68 +31644,6 @@
       "created": "2026-07-04",
       "updated": "2026-07-04",
       "url": "https://cube001.atlassian.net/browse/INC-7809"
-    },
-    {
-      "key": "INC-7808",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7808"
-    },
-    {
-      "key": "INC-7807",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7807"
-    },
-    {
-      "key": "INC-7806",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7806"
-    },
-    {
-      "key": "INC-7805",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Manish Shivanandhan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-03",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-7805"
-    },
-    {
-      "key": "INC-7804",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-03",
-      "updated": "2026-07-04",
-      "url": "https://cube001.atlassian.net/browse/INC-7804"
     }
   ]
 }
