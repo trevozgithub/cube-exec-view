@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-04T21:22:45.308578Z",
-  "total": 2487,
+  "updated": "2026-08-04T22:34:48.878343Z",
+  "total": 2482,
   "items": [
+    {
+      "key": "INC-10528",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63580",
+      "status": "In Triage",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10528"
+    },
     {
       "key": "INC-10527",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63578",
@@ -869,11 +881,13 @@
     {
       "key": "INC-10456",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-04",
       "updated": "2026-08-04",
       "url": "https://cube001.atlassian.net/browse/INC-10456"
@@ -31087,78 +31101,6 @@
       "created": "2026-07-05",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-8035"
-    },
-    {
-      "key": "INC-8034",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8034"
-    },
-    {
-      "key": "INC-8033",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8033"
-    },
-    {
-      "key": "INC-8032",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8032"
-    },
-    {
-      "key": "INC-8031",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8031"
-    },
-    {
-      "key": "INC-8030",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8030"
-    },
-    {
-      "key": "INC-8029",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8029"
     }
   ]
 }
