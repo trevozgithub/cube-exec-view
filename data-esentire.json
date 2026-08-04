@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-03T23:30:44.480694Z",
-  "total": 2520,
+  "updated": "2026-08-04T01:02:57.482751Z",
+  "total": 2503,
   "items": [
+    {
+      "key": "INC-10429",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10429"
+    },
     {
       "key": "INC-10428",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65385",
@@ -565,7 +577,10 @@
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "newrelic"
+      ],
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10383"
@@ -31331,222 +31346,6 @@
       "created": "2026-07-05",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7914"
-    },
-    {
-      "key": "INC-7913",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7913"
-    },
-    {
-      "key": "INC-7912",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7912"
-    },
-    {
-      "key": "INC-7911",
-      "summary": "Uptrends Reminder! Monitor: \"live.gocube.global - Browser check\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7911"
-    },
-    {
-      "key": "INC-7910",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60831",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7910"
-    },
-    {
-      "key": "INC-7909",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60830",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7909"
-    },
-    {
-      "key": "INC-7908",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60829",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7908"
-    },
-    {
-      "key": "INC-7907",
-      "summary": "Uptrends Reminder! Monitor: \"live.gocube.global - Uptime\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7907"
-    },
-    {
-      "key": "INC-7906",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7906"
-    },
-    {
-      "key": "INC-7905",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60828",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7905"
-    },
-    {
-      "key": "INC-7904",
-      "summary": "Uptrends Reminder! Monitor: \"live.gocube.global - Browser check\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7904"
-    },
-    {
-      "key": "INC-7903",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7903"
-    },
-    {
-      "key": "INC-7902",
-      "summary": "Uptrends Reminder! Monitor: \"live.gocube.global - Uptime\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7902"
-    },
-    {
-      "key": "INC-7901",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7901"
-    },
-    {
-      "key": "INC-7900",
-      "summary": "Uptrends Reminder! Monitor: \"live.gocube.global - Browser check\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7900"
-    },
-    {
-      "key": "INC-7899",
-      "summary": "Uptrends Reminder! Monitor: \"live.gocube.global - Uptime\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7899"
-    },
-    {
-      "key": "INC-7898",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7898"
-    },
-    {
-      "key": "INC-7897",
-      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is not working properly.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7897"
-    },
-    {
-      "key": "INC-7896",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60827",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-04",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7896"
     }
   ]
 }
