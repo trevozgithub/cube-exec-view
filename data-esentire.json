@@ -1,7 +1,106 @@
 {
-  "updated": "2026-08-04T04:25:15.333486Z",
-  "total": 2480,
+  "updated": "2026-08-04T07:14:11.183108Z",
+  "total": 2459,
   "items": [
+    {
+      "key": "INC-10444",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10444"
+    },
+    {
+      "key": "INC-10443",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10443"
+    },
+    {
+      "key": "INC-10442",
+      "summary": "Files not progressing through DRP PROD RDI Loader",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10442"
+    },
+    {
+      "key": "INC-10441",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10441"
+    },
+    {
+      "key": "INC-10440",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "opsview"
+      ],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10440"
+    },
+    {
+      "key": "INC-10439",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10439"
+    },
+    {
+      "key": "INC-10438",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10438"
+    },
+    {
+      "key": "INC-10437",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-04",
+      "updated": "2026-08-04",
+      "url": "https://cube001.atlassian.net/browse/INC-10437"
+    },
     {
       "key": "INC-10436",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -66,14 +165,15 @@
       "key": "INC-10431",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
       "status": "In Progress",
-      "assignee": "Earl Francisco",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "PROD",
         "Utilization",
         "alerts",
-        "newrelic"
+        "newrelic",
+        "server"
       ],
       "created": "2026-08-04",
       "updated": "2026-08-04",
@@ -1113,7 +1213,9 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
+        "24x7",
         "RM",
+        "alerts",
         "cube"
       ],
       "created": "2026-08-02",
@@ -2622,7 +2724,7 @@
     {
       "key": "INC-10226",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2635,7 +2737,7 @@
         "server"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-03",
+      "updated": "2026-08-04",
       "url": "https://cube001.atlassian.net/browse/INC-10226"
     },
     {
@@ -3851,7 +3953,7 @@
     {
       "key": "INC-10125",
       "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhammad Jahangir",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3957,7 +4059,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-03",
+      "updated": "2026-08-04",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -11538,7 +11640,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-07-23",
-      "updated": "2026-07-30",
+      "updated": "2026-08-04",
       "url": "https://cube001.atlassian.net/browse/INC-9508"
     },
     {
@@ -30726,360 +30828,6 @@
       "created": "2026-07-05",
       "updated": "2026-07-05",
       "url": "https://cube001.atlassian.net/browse/INC-7973"
-    },
-    {
-      "key": "INC-7972",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7972"
-    },
-    {
-      "key": "INC-7971",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7971"
-    },
-    {
-      "key": "INC-7970",
-      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is OK.",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7970"
-    },
-    {
-      "key": "INC-7969",
-      "summary": "Uptrends Alert! Monitor: \"connect.gocube.global\" is OK.",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7969"
-    },
-    {
-      "key": "INC-7968",
-      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Uptime\" is OK.",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7968"
-    },
-    {
-      "key": "INC-7967",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7967"
-    },
-    {
-      "key": "INC-7966",
-      "summary": "June-2026: Evergreen patching CUBE-PROD2 - Multiple Patching Error Encountered",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-05",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-7966"
-    },
-    {
-      "key": "INC-7965",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60855",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7965"
-    },
-    {
-      "key": "INC-7964",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60854",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7964"
-    },
-    {
-      "key": "INC-7963",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60853",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7963"
-    },
-    {
-      "key": "INC-7962",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60852",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7962"
-    },
-    {
-      "key": "INC-7961",
-      "summary": "June-2026: Evergreen patching CUBE DM - User-based applications cannot be patched when the user(s) (a-jefree.lim) are logged out.",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "patching"
-      ],
-      "created": "2026-07-05",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-7961"
-    },
-    {
-      "key": "INC-7960",
-      "summary": "PROBLEM: MS SQL - Server buffer manager is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7960"
-    },
-    {
-      "key": "INC-7959",
-      "summary": "PROBLEM: MS SQL - Generic SQL server statistics is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7959"
-    },
-    {
-      "key": "INC-7958",
-      "summary": "PROBLEM: MS SQL - Server Latch/SuperLatch statistics is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7958"
-    },
-    {
-      "key": "INC-7957",
-      "summary": "PROBLEM: MS SQL - Server wait statistics is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7957"
-    },
-    {
-      "key": "INC-7956",
-      "summary": "PROBLEM: MS SQL - Lock statistics is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7956"
-    },
-    {
-      "key": "INC-7955",
-      "summary": "PROBLEM: MS SQL - List SQL cache types is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7955"
-    },
-    {
-      "key": "INC-7954",
-      "summary": "PROBLEM: MS SQL - List all lock types is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7954"
-    },
-    {
-      "key": "INC-7953",
-      "summary": "PROBLEM: MS SQL - List all DBs is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7953"
-    },
-    {
-      "key": "INC-7952",
-      "summary": "PROBLEM: MS SQL - SQL Server cache statistics is CRITICAL on host CUBEPROD1SQL05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7952"
-    },
-    {
-      "key": "INC-7951",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7951"
-    },
-    {
-      "key": "INC-7950",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7950"
-    },
-    {
-      "key": "INC-7949",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60851",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7949"
-    },
-    {
-      "key": "INC-7948",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60850",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7948"
-    },
-    {
-      "key": "INC-7947",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60849",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7947"
-    },
-    {
-      "key": "INC-7946",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60848",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7946"
-    },
-    {
-      "key": "INC-7945",
-      "summary": "June-2026: Evergreen patching CUBE DM - There is not enough space on the disk.",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "patching"
-      ],
-      "created": "2026-07-05",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-7945"
-    },
-    {
-      "key": "INC-7944",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-7944"
     }
   ]
 }
