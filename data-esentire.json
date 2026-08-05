@@ -1,15 +1,65 @@
 {
-  "updated": "2026-08-05T14:32:30.854356Z",
-  "total": 2451,
+  "updated": "2026-08-05T16:18:08.029500Z",
+  "total": 2431,
   "items": [
     {
-      "key": "INC-10567",
-      "summary": "DM-MGMT01 - C Drive - an ON and Off Critical Status Alert",
+      "key": "INC-10571",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS07",
       "status": "To Do",
-      "assignee": "Dan Palmer",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10571"
+    },
+    {
+      "key": "INC-10570",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS07",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10570"
+    },
+    {
+      "key": "INC-10569",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10569"
+    },
+    {
+      "key": "INC-10568",
+      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10568"
+    },
+    {
+      "key": "INC-10567",
+      "summary": "DM-MGMT01 - C Drive - an ON and Off Critical Status Alert",
+      "status": "Completed",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-05",
       "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10567"
@@ -30435,304 +30485,6 @@
       "created": "2026-07-06",
       "updated": "2026-07-06",
       "url": "https://cube001.atlassian.net/browse/INC-8129"
-    },
-    {
-      "key": "INC-8128",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8128"
-    },
-    {
-      "key": "INC-8127",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60985",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8127"
-    },
-    {
-      "key": "INC-8126",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62837",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8126"
-    },
-    {
-      "key": "INC-8125",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62836",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "UAT",
-        "browserstack"
-      ],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8125"
-    },
-    {
-      "key": "INC-8124",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62836",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8124"
-    },
-    {
-      "key": "INC-8123",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60983",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8123"
-    },
-    {
-      "key": "INC-8122",
-      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8122"
-    },
-    {
-      "key": "INC-8121",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62835",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8121"
-    },
-    {
-      "key": "INC-8120",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60982",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8120"
-    },
-    {
-      "key": "INC-8119",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8119"
-    },
-    {
-      "key": "INC-8118",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8118"
-    },
-    {
-      "key": "INC-8117",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8117"
-    },
-    {
-      "key": "INC-8116",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8116"
-    },
-    {
-      "key": "INC-8115",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60981",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8115"
-    },
-    {
-      "key": "INC-8114",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8114"
-    },
-    {
-      "key": "INC-8113",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60980",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8113"
-    },
-    {
-      "key": "INC-8112",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60979",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8112"
-    },
-    {
-      "key": "INC-8111",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60978",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8111"
-    },
-    {
-      "key": "INC-8110",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8110"
-    },
-    {
-      "key": "INC-8109",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8109"
-    },
-    {
-      "key": "INC-8108",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60977",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8108"
-    },
-    {
-      "key": "INC-8107",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60975",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8107"
-    },
-    {
-      "key": "INC-8106",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #60976",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "browserstack"
-      ],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8106"
-    },
-    {
-      "key": "INC-8105",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8105"
     }
   ]
 }
