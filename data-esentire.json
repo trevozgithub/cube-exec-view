@@ -1,11 +1,47 @@
 {
-  "updated": "2026-08-04T23:39:50.209673Z",
-  "total": 2484,
+  "updated": "2026-08-05T01:05:54.912486Z",
+  "total": 2482,
   "items": [
+    {
+      "key": "INC-10536",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10536"
+    },
+    {
+      "key": "INC-10535",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10535"
+    },
+    {
+      "key": "INC-10534",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-05",
+      "updated": "2026-08-05",
+      "url": "https://cube001.atlassian.net/browse/INC-10534"
+    },
     {
       "key": "INC-10533",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65487",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,8 +65,8 @@
     {
       "key": "INC-10531",
       "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -185,13 +221,17 @@
     {
       "key": "INC-10518",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63570",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10518"
     },
     {
@@ -335,9 +375,12 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff"
+      ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10506"
     },
     {
@@ -909,13 +952,15 @@
     {
       "key": "INC-10459",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63546",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10459"
     },
     {
@@ -1788,13 +1833,13 @@
     {
       "key": "INC-10387",
       "summary": "P1 - Extractor Pods Unable to Connect to Insight Capture Services",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Ishara Lakshitha",
       "priority": "P1",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-03",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10387"
     },
     {
@@ -2979,7 +3024,7 @@
         "newrelic"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-04",
+      "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10293"
     },
     {
@@ -31068,69 +31113,6 @@
       "created": "2026-07-06",
       "updated": "2026-07-06",
       "url": "https://cube001.atlassian.net/browse/INC-8043"
-    },
-    {
-      "key": "INC-8042",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8042"
-    },
-    {
-      "key": "INC-8041",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8041"
-    },
-    {
-      "key": "INC-8040",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8040"
-    },
-    {
-      "key": "INC-8039",
-      "summary": "CUBEPRODSQL SQL Agent Status Checking Report - Error",
-      "status": "Completed",
-      "assignee": "Yuriy Kryzhanovskyy",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Daily-Checks",
-        "SQL"
-      ],
-      "created": "2026-07-05",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8039"
-    },
-    {
-      "key": "INC-8038",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-05",
-      "updated": "2026-07-05",
-      "url": "https://cube001.atlassian.net/browse/INC-8038"
     }
   ]
 }
