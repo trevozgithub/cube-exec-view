@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-06T13:16:47.822572Z",
-  "total": 2274,
+  "updated": "2026-08-06T15:33:45.120938Z",
+  "total": 2265,
   "items": [
+    {
+      "key": "INC-10628",
+      "summary": "DR-VEEAMPRX03 - CRITICAL Base - Additional Drives: G",
+      "status": "In Progress",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10628"
+    },
     {
       "key": "INC-10627",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
@@ -127,11 +139,13 @@
     {
       "key": "INC-10617",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63727",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
       "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10617"
@@ -177,11 +191,13 @@
     {
       "key": "INC-10613",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
       "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10613"
@@ -813,7 +829,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-05",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10563"
     },
     {
@@ -28469,137 +28485,6 @@
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8352"
-    },
-    {
-      "key": "INC-8351",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8351"
-    },
-    {
-      "key": "INC-8350",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8350"
-    },
-    {
-      "key": "INC-8347",
-      "summary": "multiple occurrences internal and external - Intel not loading",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Alerts-From-Staff",
-        "Intel"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8347"
-    },
-    {
-      "key": "INC-8346",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8346"
-    },
-    {
-      "key": "INC-8345",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8345"
-    },
-    {
-      "key": "INC-8344",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8344"
-    },
-    {
-      "key": "INC-8343",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8343"
-    },
-    {
-      "key": "INC-8342",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8342"
-    },
-    {
-      "key": "INC-8348",
-      "summary": "ATLAS NOTIFICATION: CS4498960 - LOW - ATTACK - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8348"
-    },
-    {
-      "key": "INC-8341",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8341"
     }
   ]
 }
