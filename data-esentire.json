@@ -1,11 +1,61 @@
 {
-  "updated": "2026-08-06T09:14:48.244452Z",
-  "total": 2275,
+  "updated": "2026-08-06T11:36:01.752051Z",
+  "total": 2269,
   "items": [
+    {
+      "key": "INC-10616",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63727",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10616"
+    },
+    {
+      "key": "INC-10615",
+      "summary": "Files not progressing through DRP PROD RDI Loader",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10615"
+    },
+    {
+      "key": "INC-10614",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10614"
+    },
+    {
+      "key": "INC-10613",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10613"
+    },
     {
       "key": "INC-10612",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "In Triage",
+      "status": "Actioned",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
@@ -177,7 +227,7 @@
     {
       "key": "INC-10598",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65613",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -266,11 +316,13 @@
     {
       "key": "INC-10591",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10054",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
       "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10591"
@@ -302,11 +354,13 @@
     {
       "key": "INC-10588",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
       "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10588"
@@ -391,13 +445,15 @@
     {
       "key": "INC-10581",
       "summary": "RegBook sync in PROD running for over 5h",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-05",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10581"
     },
     {
@@ -2119,11 +2175,13 @@
     {
       "key": "INC-10442",
       "summary": "Files not progressing through DRP PROD RDI Loader",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
-      "priority": "P2",
+      "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-04",
       "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10442"
@@ -19255,7 +19313,7 @@
         "Intel"
       ],
       "created": "2026-07-16",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-9068"
     },
     {
@@ -28484,134 +28542,6 @@
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8335"
-    },
-    {
-      "key": "INC-8334",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8334"
-    },
-    {
-      "key": "INC-8333",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8333"
-    },
-    {
-      "key": "INC-8332",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8332"
-    },
-    {
-      "key": "INC-8331",
-      "summary": "Enforcement data in PROD has been deleted",
-      "status": "Completed",
-      "assignee": "Yuriy Kryzhanovskyy",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8331"
-    },
-    {
-      "key": "INC-8330",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8330"
-    },
-    {
-      "key": "INC-8329",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8329"
-    },
-    {
-      "key": "INC-8328",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8328"
-    },
-    {
-      "key": "INC-8327",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8327"
-    },
-    {
-      "key": "INC-8326",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8326"
-    },
-    {
-      "key": "INC-8325",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8325"
     }
   ]
 }
