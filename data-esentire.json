@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-06T00:13:04.499592Z",
-  "total": 2343,
+  "updated": "2026-08-06T03:42:44.606627Z",
+  "total": 2300,
   "items": [
+    {
+      "key": "INC-10585",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10585"
+    },
+    {
+      "key": "INC-10584",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10584"
+    },
     {
       "key": "INC-10583",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -59,9 +83,13 @@
       "assignee": "Graham Case",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "SECURITY_INCIDENT",
+        "alerts",
+        "eSentire_Alert"
+      ],
       "created": "2026-08-05",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10579"
     },
     {
@@ -327,7 +355,7 @@
     {
       "key": "INC-10557",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -337,7 +365,7 @@
         "newrelic"
       ],
       "created": "2026-08-05",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10557"
     },
     {
@@ -376,7 +404,7 @@
         "opsview"
       ],
       "created": "2026-08-05",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10554"
     },
     {
@@ -955,7 +983,7 @@
       "key": "INC-10506",
       "summary": "URGENT: Notification Delivery Failure & SendGrid Logging Discrepancy - Monetary Authority of Singapore (MAS)",
       "status": "In Progress",
-      "assignee": "Unassigned",
+      "assignee": "Vaishali Narayanan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -963,7 +991,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10506"
     },
     {
@@ -1385,13 +1413,17 @@
     {
       "key": "INC-10471",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63551",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "browserstack"
+      ],
       "created": "2026-08-04",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10471"
     },
     {
@@ -2786,7 +2818,7 @@
         "browserstack"
       ],
       "created": "2026-08-03",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10359"
     },
     {
@@ -2935,7 +2967,7 @@
         "cube"
       ],
       "created": "2026-08-02",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10347"
     },
     {
@@ -3607,7 +3639,7 @@
         "newrelic"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10293"
     },
     {
@@ -5777,7 +5809,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -12321,7 +12353,7 @@
         "RegInsight"
       ],
       "created": "2026-07-24",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -28865,556 +28897,6 @@
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8273"
-    },
-    {
-      "key": "INC-8272",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62881",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8272"
-    },
-    {
-      "key": "INC-8271",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Uptrends",
-        "alerts",
-        "gocube.global"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8271"
-    },
-    {
-      "key": "INC-8270",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Completed",
-      "assignee": "Yuriy Kryzhanovskyy",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "LIVE",
-        "alerts",
-        "schedularservice"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8270"
-    },
-    {
-      "key": "INC-8269",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8269"
-    },
-    {
-      "key": "INC-8268",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61026",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8268"
-    },
-    {
-      "key": "INC-8267",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8267"
-    },
-    {
-      "key": "INC-8266",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61025",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8266"
-    },
-    {
-      "key": "INC-8265",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62880",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8265"
-    },
-    {
-      "key": "INC-8264",
-      "summary": "Uptrends Alert! Monitor: \"connect.gocube.global\" is not working properly.",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8264"
-    },
-    {
-      "key": "INC-8263",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8263"
-    },
-    {
-      "key": "INC-8262",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62879",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8262"
-    },
-    {
-      "key": "INC-8261",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8261"
-    },
-    {
-      "key": "INC-8260",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61024",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8260"
-    },
-    {
-      "key": "INC-8259",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8259"
-    },
-    {
-      "key": "INC-8258",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61023",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8258"
-    },
-    {
-      "key": "INC-8257",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62877",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8257"
-    },
-    {
-      "key": "INC-8256",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61022",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8256"
-    },
-    {
-      "key": "INC-8255",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8255"
-    },
-    {
-      "key": "INC-8254",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61021",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8254"
-    },
-    {
-      "key": "INC-8253",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62876",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8253"
-    },
-    {
-      "key": "INC-8252",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8252"
-    },
-    {
-      "key": "INC-8251",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61020",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8251"
-    },
-    {
-      "key": "INC-8250",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8250"
-    },
-    {
-      "key": "INC-8249",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62875",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8249"
-    },
-    {
-      "key": "INC-8248",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8248"
-    },
-    {
-      "key": "INC-8247",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61019",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8247"
-    },
-    {
-      "key": "INC-8246",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62874",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8246"
-    },
-    {
-      "key": "INC-8245",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8245"
-    },
-    {
-      "key": "INC-8244",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61018",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8244"
-    },
-    {
-      "key": "INC-8243",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8243"
-    },
-    {
-      "key": "INC-8242",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62873",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8242"
-    },
-    {
-      "key": "INC-8241",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8241"
-    },
-    {
-      "key": "INC-8240",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8240"
-    },
-    {
-      "key": "INC-8239",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8239"
-    },
-    {
-      "key": "INC-8238",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62872",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8238"
-    },
-    {
-      "key": "INC-8237",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8237"
-    },
-    {
-      "key": "INC-8236",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61017",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8236"
-    },
-    {
-      "key": "INC-8235",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8235"
-    },
-    {
-      "key": "INC-8234",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62871",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8234"
-    },
-    {
-      "key": "INC-8233",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61016",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8233"
-    },
-    {
-      "key": "INC-8232",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62870",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8232"
-    },
-    {
-      "key": "INC-8231",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61015",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8231"
-    },
-    {
-      "key": "INC-8230",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8230"
-    },
-    {
-      "key": "INC-8229",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62869",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8229"
-    },
-    {
-      "key": "INC-8228",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61014",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8228"
     }
   ]
 }
