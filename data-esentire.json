@@ -1,15 +1,29 @@
 {
-  "updated": "2026-08-05T23:14:58.204602Z",
-  "total": 2357,
+  "updated": "2026-08-06T00:13:04.499592Z",
+  "total": 2343,
   "items": [
+    {
+      "key": "INC-10583",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10583"
+    },
     {
       "key": "INC-10582",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63666",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-05",
       "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10582"
@@ -313,11 +327,15 @@
     {
       "key": "INC-10557",
       "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-05",
       "updated": "2026-08-05",
       "url": "https://cube001.atlassian.net/browse/INC-10557"
@@ -29397,190 +29415,6 @@
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8228"
-    },
-    {
-      "key": "INC-8227",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8227"
-    },
-    {
-      "key": "INC-8226",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8226"
-    },
-    {
-      "key": "INC-8225",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8225"
-    },
-    {
-      "key": "INC-8224",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62868",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8224"
-    },
-    {
-      "key": "INC-8223",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8223"
-    },
-    {
-      "key": "INC-8222",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8222"
-    },
-    {
-      "key": "INC-8221",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8221"
-    },
-    {
-      "key": "INC-8220",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61013",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8220"
-    },
-    {
-      "key": "INC-8219",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62867",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8219"
-    },
-    {
-      "key": "INC-8218",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8218"
-    },
-    {
-      "key": "INC-8217",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61012",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8217"
-    },
-    {
-      "key": "INC-8216",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8216"
-    },
-    {
-      "key": "INC-8215",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62866",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8215"
-    },
-    {
-      "key": "INC-8214",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61011",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8214"
-    },
-    {
-      "key": "INC-8213",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62865",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-06",
-      "updated": "2026-07-06",
-      "url": "https://cube001.atlassian.net/browse/INC-8213"
     }
   ]
 }
