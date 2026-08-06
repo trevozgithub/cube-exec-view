@@ -1,7 +1,58 @@
 {
-  "updated": "2026-08-06T03:42:44.606627Z",
-  "total": 2300,
+  "updated": "2026-08-06T06:16:55.376620Z",
+  "total": 2267,
   "items": [
+    {
+      "key": "INC-10589",
+      "summary": "QA Unable to Publish New and UR Books",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10589"
+    },
+    {
+      "key": "INC-10588",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10588"
+    },
+    {
+      "key": "INC-10587",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10587"
+    },
+    {
+      "key": "INC-10586",
+      "summary": "P3-DRPSQLPROD01- SLOWNESS IN QUERY",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Alerts-From-Staff",
+        "sql"
+      ],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10586"
+    },
     {
       "key": "INC-10585",
       "summary": "Intel Prod Content Ingestion Service logging errors",
@@ -79,7 +130,7 @@
     {
       "key": "INC-10579",
       "summary": "ATLAS NOTIFICATION: CS5011435 - LOW - ATTACK - CUBE Content Governance Global Limited",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Graham Case",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1535,9 +1586,12 @@
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Intel",
+        "ProdSupport"
+      ],
       "created": "2026-08-04",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10462"
     },
     {
@@ -1742,12 +1796,15 @@
       "key": "INC-10445",
       "summary": "Intel Running slowly",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Chethiya Amarasinghe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Alerts-From-Staff",
+        "Intel"
+      ],
       "created": "2026-08-04",
-      "updated": "2026-08-04",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10445"
     },
     {
@@ -1783,7 +1840,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-04",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10442"
     },
     {
@@ -2160,13 +2217,15 @@
     {
       "key": "INC-10411",
       "summary": "RegPlatform PROD down - potential P1",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Jaspreet Manghera",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-03",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10411"
     },
     {
@@ -2448,13 +2507,15 @@
     {
       "key": "INC-10387",
       "summary": "P1 - Extractor Pods Unable to Connect to Insight Capture Services",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ishara Lakshitha",
       "priority": "P1",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-03",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10387"
     },
     {
@@ -3059,7 +3120,7 @@
     {
       "key": "INC-10339",
       "summary": "Opsview Critical Alarm - Unhandled Host Elastic Search unknown",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3067,7 +3128,7 @@
         "opsview"
       ],
       "created": "2026-08-02",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10339"
     },
     {
@@ -5278,7 +5339,7 @@
         "database"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10160"
     },
     {
@@ -28453,450 +28514,6 @@
       "created": "2026-07-07",
       "updated": "2026-07-07",
       "url": "https://cube001.atlassian.net/browse/INC-8310"
-    },
-    {
-      "key": "INC-8309",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62892",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8309"
-    },
-    {
-      "key": "INC-8308",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61034",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8308"
-    },
-    {
-      "key": "INC-8307",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62891",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8307"
-    },
-    {
-      "key": "INC-8306",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8306"
-    },
-    {
-      "key": "INC-8305",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62890",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8305"
-    },
-    {
-      "key": "INC-8304",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8304"
-    },
-    {
-      "key": "INC-8303",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8303"
-    },
-    {
-      "key": "INC-8302",
-      "summary": "Uptrends Alert! Monitor: \"connect.gocube.global\" is OK.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8302"
-    },
-    {
-      "key": "INC-8301",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62889",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8301"
-    },
-    {
-      "key": "INC-8300",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8300"
-    },
-    {
-      "key": "INC-8299",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8299"
-    },
-    {
-      "key": "INC-8298",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61033",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8298"
-    },
-    {
-      "key": "INC-8297",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8297"
-    },
-    {
-      "key": "INC-8296",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8296"
-    },
-    {
-      "key": "INC-8295",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62887",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8295"
-    },
-    {
-      "key": "INC-8294",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61032",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8294"
-    },
-    {
-      "key": "INC-8293",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8293"
-    },
-    {
-      "key": "INC-8292",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62886",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8292"
-    },
-    {
-      "key": "INC-8291",
-      "summary": "CUBEPROD1FS02 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8291"
-    },
-    {
-      "key": "INC-8290",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61031",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8290"
-    },
-    {
-      "key": "INC-8289",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62885",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8289"
-    },
-    {
-      "key": "INC-8288",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8288"
-    },
-    {
-      "key": "INC-8287",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61030",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8287"
-    },
-    {
-      "key": "INC-8286",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8286"
-    },
-    {
-      "key": "INC-8285",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8285"
-    },
-    {
-      "key": "INC-8284",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61029",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8284"
-    },
-    {
-      "key": "INC-8283",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62884",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8283"
-    },
-    {
-      "key": "INC-8282",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8282"
-    },
-    {
-      "key": "INC-8281",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8281"
-    },
-    {
-      "key": "INC-8280",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62883",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8280"
-    },
-    {
-      "key": "INC-8279",
-      "summary": "PROBLEM: Base - Additional Drives: F is CRITICAL on host CUBEPROD1FS02",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8279"
-    },
-    {
-      "key": "INC-8278",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8278"
-    },
-    {
-      "key": "INC-8277",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61028",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8277"
-    },
-    {
-      "key": "INC-8276",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8276"
-    },
-    {
-      "key": "INC-8275",
-      "summary": "Uptrends Reminder! Monitor: \"connect.gocube.global\" is still not working properly.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8275"
-    },
-    {
-      "key": "INC-8274",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #62882",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8274"
-    },
-    {
-      "key": "INC-8273",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #61027",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8273"
     }
   ]
 }
