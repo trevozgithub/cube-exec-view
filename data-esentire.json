@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-07T14:29:03.878329Z",
-  "total": 2231,
+  "updated": "2026-08-07T15:28:00.657249Z",
+  "total": 2227,
   "items": [
+    {
+      "key": "INC-10668",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10668"
+    },
     {
       "key": "INC-10667",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -28001,73 +28013,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8432"
-    },
-    {
-      "key": "INC-8431",
-      "summary": "VT-vCenter-DS - METRIC CRITICAL - Datastore Usage is 98.08%",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "opsview",
-        "vt-cust-cmp"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8431"
-    },
-    {
-      "key": "INC-8430",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8430"
-    },
-    {
-      "key": "INC-8429",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8429"
-    },
-    {
-      "key": "INC-8428",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8428"
-    },
-    {
-      "key": "INC-8427",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8427"
     }
   ]
 }
