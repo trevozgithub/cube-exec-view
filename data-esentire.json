@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T20:54:10.929697Z",
-  "total": 2223,
+  "updated": "2026-08-07T21:37:11.706582Z",
+  "total": 2222,
   "items": [
     {
       "key": "INC-10678",
@@ -53,11 +53,13 @@
     {
       "key": "INC-10674",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10674"
@@ -79,7 +81,7 @@
       "summary": "SysTran Translation API Issue",
       "status": "In Progress",
       "assignee": "Andrei Item",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-07",
@@ -27940,18 +27942,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8447"
-    },
-    {
-      "key": "INC-8446",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8446"
     }
   ]
 }
