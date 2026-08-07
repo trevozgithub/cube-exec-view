@@ -1,7 +1,35 @@
 {
-  "updated": "2026-08-07T03:35:17.369416Z",
-  "total": 2238,
+  "updated": "2026-08-07T05:21:26.578749Z",
+  "total": 2232,
   "items": [
+    {
+      "key": "INC-10638",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10638"
+    },
+    {
+      "key": "INC-10637",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10637"
+    },
     {
       "key": "INC-10636",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -121,13 +149,15 @@
     {
       "key": "INC-10627",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10627"
     },
     {
@@ -602,7 +632,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-06",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10589"
     },
     {
@@ -735,7 +765,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-08-05",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10579"
     },
     {
@@ -3124,7 +3154,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-03",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10393"
     },
     {
@@ -28048,104 +28078,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8397"
-    },
-    {
-      "key": "INC-8396",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8396"
-    },
-    {
-      "key": "INC-8395",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8395"
-    },
-    {
-      "key": "INC-8394",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8394"
-    },
-    {
-      "key": "INC-8393",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8393"
-    },
-    {
-      "key": "INC-8392",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8392"
-    },
-    {
-      "key": "INC-8391",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8391"
-    },
-    {
-      "key": "INC-8390",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8390"
-    },
-    {
-      "key": "INC-8389",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8389"
     }
   ]
 }
