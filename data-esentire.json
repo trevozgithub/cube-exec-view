@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-07T09:12:22.793050Z",
-  "total": 2232,
+  "updated": "2026-08-07T10:11:58.667168Z",
+  "total": 2231,
   "items": [
+    {
+      "key": "INC-10658",
+      "summary": "Systran Maintenance - Sunday 8 am to 10am",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10658"
+    },
     {
       "key": "INC-10657",
       "summary": "Disk USAGE: 100% UKSPREPSQL01 > F: Drive",
@@ -125,7 +137,7 @@
     {
       "key": "INC-10647",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65706",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -217,7 +229,7 @@
     {
       "key": "INC-10640",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -28058,32 +28070,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8418"
-    },
-    {
-      "key": "INC-8417",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8417"
-    },
-    {
-      "key": "INC-8416",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8416"
     }
   ]
 }
