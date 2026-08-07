@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-07T11:08:56.947125Z",
-  "total": 2231,
+  "updated": "2026-08-07T11:57:01.095559Z",
+  "total": 2229,
   "items": [
     {
       "key": "INC-10663",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1274,12 +1274,12 @@
       "key": "INC-10563",
       "summary": "No RegInsights flowing to GCP",
       "status": "To Do",
-      "assignee": "Tom Brown",
+      "assignee": "Andrew Minor",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-05",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10563"
     },
     {
@@ -5922,7 +5922,7 @@
         "24x7"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10212"
     },
     {
@@ -28042,30 +28042,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8425"
-    },
-    {
-      "key": "INC-8424",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8424"
-    },
-    {
-      "key": "INC-8423",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8423"
     }
   ]
 }
