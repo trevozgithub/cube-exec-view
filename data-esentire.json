@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-07T18:12:29.134779Z",
-  "total": 2224,
+  "updated": "2026-08-07T19:18:12.156885Z",
+  "total": 2220,
   "items": [
     {
       "key": "INC-10672",
       "summary": "SysTran Translation API Issue",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -17,11 +17,13 @@
     {
       "key": "INC-10671",
       "summary": "CubeAZPROD2ELK01 Host CRITICAL STATS Monitoring",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10671"
@@ -27917,58 +27919,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8443"
-    },
-    {
-      "key": "INC-8442",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8442"
-    },
-    {
-      "key": "INC-8441",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8441"
-    },
-    {
-      "key": "INC-8440",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8440"
-    },
-    {
-      "key": "INC-8439",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8439"
     }
   ]
 }
