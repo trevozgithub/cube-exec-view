@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-07T19:18:12.156885Z",
-  "total": 2220,
+  "updated": "2026-08-07T20:03:14.148739Z",
+  "total": 2221,
   "items": [
+    {
+      "key": "INC-10674",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10674"
+    },
+    {
+      "key": "INC-10673",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10673"
+    },
     {
       "key": "INC-10672",
       "summary": "SysTran Translation API Issue",
@@ -482,7 +506,7 @@
       "key": "INC-10634",
       "summary": "Intel not loading",
       "status": "To Do",
-      "assignee": "Sandeep Multani",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -5424,7 +5448,7 @@
       "key": "INC-10239",
       "summary": "CUBE Intel Spinning Out while loading",
       "status": "In Progress",
-      "assignee": "Sandeep Multani",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
@@ -20016,7 +20040,7 @@
       "key": "INC-9068",
       "summary": "Platform Limitation - CUBE Intel Notification Scheduling - UTC Time Zone Handling",
       "status": "To Do",
-      "assignee": "Sandeep Multani",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -27907,18 +27931,6 @@
       "created": "2026-07-08",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-8444"
-    },
-    {
-      "key": "INC-8443",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8443"
     }
   ]
 }
