@@ -1,15 +1,119 @@
 {
-  "updated": "2026-08-06T15:33:45.120938Z",
-  "total": 2265,
+  "updated": "2026-08-07T00:33:20.250084Z",
+  "total": 2246,
   "items": [
     {
-      "key": "INC-10628",
-      "summary": "DR-VEEAMPRX03 - CRITICAL Base - Additional Drives: G",
-      "status": "In Progress",
-      "assignee": "Mayur Patel",
+      "key": "INC-10636",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10636"
+    },
+    {
+      "key": "INC-10635",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10635"
+    },
+    {
+      "key": "INC-10634",
+      "summary": "Intel not loading",
+      "status": "To Do",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10634"
+    },
+    {
+      "key": "INC-10633",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-08-06",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10633"
+    },
+    {
+      "key": "INC-10632",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10632"
+    },
+    {
+      "key": "INC-10631",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10631"
+    },
+    {
+      "key": "INC-10630",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10630"
+    },
+    {
+      "key": "INC-10629",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-06",
+      "updated": "2026-08-06",
+      "url": "https://cube001.atlassian.net/browse/INC-10629"
+    },
+    {
+      "key": "INC-10628",
+      "summary": "DR-VEEAMPRX03 - CRITICAL Base - Additional Drives: G",
+      "status": "Completed",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
       "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10628"
@@ -622,7 +726,7 @@
       "key": "INC-10579",
       "summary": "ATLAS NOTIFICATION: CS5011435 - LOW - ATTACK - CUBE Content Governance Global Limited",
       "status": "In Progress",
-      "assignee": "Graham Case",
+      "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -3020,7 +3124,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-03",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10393"
     },
     {
@@ -4183,7 +4287,7 @@
     {
       "key": "INC-10293",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4471,7 +4575,7 @@
     {
       "key": "INC-10270",
       "summary": "Trial Account Activation - UTC Time Zone Issue - Exchange House Services Australia Pty Limited",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Azhar Mohammad",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4479,7 +4583,7 @@
         "Intel"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10270"
     },
     {
@@ -4861,7 +4965,7 @@
     {
       "key": "INC-10239",
       "summary": "CUBE Intel Spinning Out while loading",
-      "status": "Completed",
+      "status": "In Progress",
       "assignee": "Sandeep Multani",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -4872,7 +4976,7 @@
         "intelContent"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-02",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10239"
     },
     {
@@ -5114,7 +5218,7 @@
         "PROD"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-03",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10220"
     },
     {
@@ -5464,7 +5568,7 @@
     {
       "key": "INC-10212",
       "summary": "ATLAS NOTIFICATION: CS5009277 - MEDIUM - SUSPICIOUS - CUBE Content Governance Global Limited",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5472,7 +5576,7 @@
         "24x7"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-05",
+      "updated": "2026-08-06",
       "url": "https://cube001.atlassian.net/browse/INC-10212"
     },
     {
@@ -28140,351 +28244,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8381"
-    },
-    {
-      "key": "INC-8380",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8380"
-    },
-    {
-      "key": "INC-8379",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8379"
-    },
-    {
-      "key": "INC-8378",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8378"
-    },
-    {
-      "key": "INC-8377",
-      "summary": "Failed Veeam Backup - Cube RGP PROD Data",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8377"
-    },
-    {
-      "key": "INC-8376",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8376"
-    },
-    {
-      "key": "INC-8375",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8375"
-    },
-    {
-      "key": "INC-8374",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8374"
-    },
-    {
-      "key": "INC-8373",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8373"
-    },
-    {
-      "key": "INC-8372",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8372"
-    },
-    {
-      "key": "INC-8370",
-      "summary": "Disk USAGE- 90.249 piprodtranslate-fe - /dev/mapper/rootvg-varlv",
-      "status": "Completed",
-      "assignee": "Ser Jan Aldreach Perez",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-19",
-      "url": "https://cube001.atlassian.net/browse/INC-8370"
-    },
-    {
-      "key": "INC-8369",
-      "summary": "CUBEPROD1MT02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8369"
-    },
-    {
-      "key": "INC-8368",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8368"
-    },
-    {
-      "key": "INC-8367",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8367"
-    },
-    {
-      "key": "INC-8366",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8366"
-    },
-    {
-      "key": "INC-8365",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8365"
-    },
-    {
-      "key": "INC-8364",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8364"
-    },
-    {
-      "key": "INC-8363",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8363"
-    },
-    {
-      "key": "INC-8362",
-      "summary": "SYSTRAN V9 Services Health query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8362"
-    },
-    {
-      "key": "INC-8361",
-      "summary": "VM piuattranslate-be-01 - stopped",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Systran",
-        "VM"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8361"
-    },
-    {
-      "key": "INC-8359",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8359"
-    },
-    {
-      "key": "INC-8358",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Manish Shivanandhan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8358"
-    },
-    {
-      "key": "INC-8357",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8357"
-    },
-    {
-      "key": "INC-8356",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8356"
-    },
-    {
-      "key": "INC-8355",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8355"
-    },
-    {
-      "key": "INC-8354",
-      "summary": "CUBEPROD1MT02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8354"
-    },
-    {
-      "key": "INC-8353",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8353"
-    },
-    {
-      "key": "INC-8352",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-07",
-      "updated": "2026-07-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8352"
     }
   ]
 }
