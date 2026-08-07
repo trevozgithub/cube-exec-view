@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T00:33:20.250084Z",
-  "total": 2246,
+  "updated": "2026-08-07T03:35:17.369416Z",
+  "total": 2238,
   "items": [
     {
       "key": "INC-10636",
@@ -635,7 +635,7 @@
       "key": "INC-10586",
       "summary": "P3-DRPSQLPROD01- SLOWNESS IN QUERY",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -643,7 +643,7 @@
         "sql"
       ],
       "created": "2026-08-06",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10586"
     },
     {
@@ -1637,7 +1637,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10506"
     },
     {
@@ -2177,7 +2177,7 @@
     {
       "key": "INC-10462",
       "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2186,7 +2186,7 @@
         "ProdSupport"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10462"
     },
     {
@@ -3177,7 +3177,7 @@
         "newrelic"
       ],
       "created": "2026-08-03",
-      "updated": "2026-08-05",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10383"
     },
     {
@@ -13011,7 +13011,7 @@
         "RegInsight"
       ],
       "created": "2026-07-24",
-      "updated": "2026-08-06",
+      "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -28146,104 +28146,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8389"
-    },
-    {
-      "key": "INC-8388",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8388"
-    },
-    {
-      "key": "INC-8387",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8387"
-    },
-    {
-      "key": "INC-8386",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8386"
-    },
-    {
-      "key": "INC-8385",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8385"
-    },
-    {
-      "key": "INC-8384",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8384"
-    },
-    {
-      "key": "INC-8383",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8383"
-    },
-    {
-      "key": "INC-8382",
-      "summary": "SYSTRAN V9 Translation FR-EN Smoke query result is > 0.0 for 5 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8382"
-    },
-    {
-      "key": "INC-8381",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8381"
     }
   ]
 }
