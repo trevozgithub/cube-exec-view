@@ -1,7 +1,55 @@
 {
-  "updated": "2026-08-07T20:03:14.148739Z",
-  "total": 2221,
+  "updated": "2026-08-07T20:54:10.929697Z",
+  "total": 2223,
   "items": [
+    {
+      "key": "INC-10678",
+      "summary": "SQL Server Alert System: 'AG Role Change (failover)' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10678"
+    },
+    {
+      "key": "INC-10677",
+      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10677"
+    },
+    {
+      "key": "INC-10676",
+      "summary": "SQL Server Alert System: 'AG Role Change (failover)' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10676"
+    },
+    {
+      "key": "INC-10675",
+      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-07",
+      "updated": "2026-08-07",
+      "url": "https://cube001.atlassian.net/browse/INC-10675"
+    },
     {
       "key": "INC-10674",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
@@ -505,7 +553,7 @@
     {
       "key": "INC-10634",
       "summary": "Intel not loading",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -27904,33 +27952,6 @@
       "created": "2026-07-08",
       "updated": "2026-07-08",
       "url": "https://cube001.atlassian.net/browse/INC-8446"
-    },
-    {
-      "key": "INC-8445",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-08",
-      "updated": "2026-07-08",
-      "url": "https://cube001.atlassian.net/browse/INC-8445"
-    },
-    {
-      "key": "INC-8444",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-07-08",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8444"
     }
   ]
 }
