@@ -1,7 +1,22 @@
 {
-  "updated": "2026-08-08T02:31:56.899737Z",
+  "updated": "2026-08-08T03:54:33.328679Z",
   "total": 2209,
   "items": [
+    {
+      "key": "INC-10682",
+      "summary": "UAT Maintenance Mode not going through",
+      "status": "Escalation Raised",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "UAT",
+        "patching"
+      ],
+      "created": "2026-08-08",
+      "updated": "2026-08-08",
+      "url": "https://cube001.atlassian.net/browse/INC-10682"
+    },
     {
       "key": "INC-10681",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10097",
@@ -43,25 +58,29 @@
     {
       "key": "INC-10678",
       "summary": "SQL Server Alert System: 'AG Role Change (failover)' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
-      "updated": "2026-08-07",
+      "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10678"
     },
     {
       "key": "INC-10677",
       "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
-      "updated": "2026-08-07",
+      "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10677"
     },
     {
@@ -3690,13 +3709,15 @@
     {
       "key": "INC-10393",
       "summary": "ATLAS NOTIFICATION: CS5010192 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-03",
-      "updated": "2026-08-07",
+      "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10393"
     },
     {
@@ -4755,7 +4776,7 @@
         "alerts"
       ],
       "created": "2026-08-01",
-      "updated": "2026-08-07",
+      "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10302"
     },
     {
@@ -27764,18 +27785,6 @@
       "created": "2026-07-09",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-8464"
-    },
-    {
-      "key": "INC-8463",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-09",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8463"
     }
   ]
 }
