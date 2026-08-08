@@ -1,7 +1,33 @@
 {
-  "updated": "2026-08-08T00:32:05.829507Z",
-  "total": 2213,
+  "updated": "2026-08-08T02:31:56.899737Z",
+  "total": 2209,
   "items": [
+    {
+      "key": "INC-10681",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10097",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "browserstack"
+      ],
+      "created": "2026-08-08",
+      "updated": "2026-08-08",
+      "url": "https://cube001.atlassian.net/browse/INC-10681"
+    },
+    {
+      "key": "INC-10680",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10097",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-08",
+      "updated": "2026-08-08",
+      "url": "https://cube001.atlassian.net/browse/INC-10680"
+    },
     {
       "key": "INC-10679",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -1140,13 +1166,15 @@
     {
       "key": "INC-10589",
       "summary": "QA Unable to Publish New and UR Books",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
-      "updated": "2026-08-07",
+      "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10589"
     },
     {
@@ -27748,88 +27776,6 @@
       "created": "2026-07-09",
       "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8463"
-    },
-    {
-      "key": "INC-8462",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Migration",
-        "UAT",
-        "alerts"
-      ],
-      "created": "2026-07-09",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8462"
-    },
-    {
-      "key": "INC-8461",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-09",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8461"
-    },
-    {
-      "key": "INC-8460",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-09",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8460"
-    },
-    {
-      "key": "INC-8459",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-09",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8459"
-    },
-    {
-      "key": "INC-8458",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-09",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8458"
-    },
-    {
-      "key": "INC-8457",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Migration",
-        "UAT",
-        "alerts"
-      ],
-      "created": "2026-07-09",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8457"
     }
   ]
 }
