@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T11:31:34.004146Z",
-  "total": 2221,
+  "updated": "2026-08-08T11:58:09.771188Z",
+  "total": 2220,
   "items": [
     {
       "key": "INC-10712",
@@ -305,11 +305,13 @@
     {
       "key": "INC-10687",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63879",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-08",
       "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10687"
@@ -558,13 +560,15 @@
     {
       "key": "INC-10667",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
-      "updated": "2026-08-07",
+      "updated": "2026-08-08",
       "url": "https://cube001.atlassian.net/browse/INC-10667"
     },
     {
@@ -27905,18 +27909,6 @@
       "created": "2026-07-09",
       "updated": "2026-07-09",
       "url": "https://cube001.atlassian.net/browse/INC-8483"
-    },
-    {
-      "key": "INC-8482",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9391",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-09",
-      "updated": "2026-07-09",
-      "url": "https://cube001.atlassian.net/browse/INC-8482"
     }
   ]
 }
