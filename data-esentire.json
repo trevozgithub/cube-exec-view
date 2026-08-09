@@ -1,7 +1,91 @@
 {
-  "updated": "2026-08-09T02:51:41.108288Z",
-  "total": 2120,
+  "updated": "2026-08-09T04:12:02.201991Z",
+  "total": 2119,
   "items": [
+    {
+      "key": "INC-10728",
+      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10728"
+    },
+    {
+      "key": "INC-10727",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63945",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10727"
+    },
+    {
+      "key": "INC-10726",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63945",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10726"
+    },
+    {
+      "key": "INC-10725",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65886",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10725"
+    },
+    {
+      "key": "INC-10724",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10724"
+    },
+    {
+      "key": "INC-10723",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10723"
+    },
+    {
+      "key": "INC-10722",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10722"
+    },
     {
       "key": "INC-10721",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -26546,106 +26630,6 @@
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8600"
-    },
-    {
-      "key": "INC-8599",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8599"
-    },
-    {
-      "key": "INC-8598",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-10",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8598"
-    },
-    {
-      "key": "INC-8597",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-10",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8597"
-    },
-    {
-      "key": "INC-8596",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8596"
-    },
-    {
-      "key": "INC-8595",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8595"
-    },
-    {
-      "key": "INC-8594",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8594"
-    },
-    {
-      "key": "INC-8593",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8593"
-    },
-    {
-      "key": "INC-8592",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8592"
     }
   ]
 }
