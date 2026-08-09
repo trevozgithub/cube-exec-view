@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-09T05:19:39.059644Z",
+  "updated": "2026-08-09T06:04:48.140569Z",
   "total": 2115,
   "items": [
+    {
+      "key": "INC-10729",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-09",
+      "updated": "2026-08-09",
+      "url": "https://cube001.atlassian.net/browse/INC-10729"
+    },
     {
       "key": "INC-10728",
       "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
@@ -71,7 +83,7 @@
     {
       "key": "INC-10723",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -718,7 +730,13 @@
       "assignee": "Andrei Item",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "RegBook",
+        "RegInsight",
+        "Systran",
+        "Translation"
+      ],
       "created": "2026-08-07",
       "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10672"
@@ -26579,18 +26597,6 @@
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8605"
-    },
-    {
-      "key": "INC-8604",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8604"
     }
   ]
 }
