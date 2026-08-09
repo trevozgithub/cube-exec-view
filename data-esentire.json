@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-09T04:12:02.201991Z",
-  "total": 2119,
+  "updated": "2026-08-09T05:19:39.059644Z",
+  "total": 2115,
   "items": [
     {
       "key": "INC-10728",
       "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -21,7 +21,13 @@
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "LIVE",
+        "PROD",
+        "RegInsight",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-09",
       "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10727"
@@ -69,7 +75,12 @@
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "RegInsight",
+        "SQL",
+        "alerts"
+      ],
       "created": "2026-08-09",
       "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10723"
@@ -26580,56 +26591,6 @@
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8604"
-    },
-    {
-      "key": "INC-8603",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-10",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8603"
-    },
-    {
-      "key": "INC-8602",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8602"
-    },
-    {
-      "key": "INC-8601",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8601"
-    },
-    {
-      "key": "INC-8600",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8600"
     }
   ]
 }
