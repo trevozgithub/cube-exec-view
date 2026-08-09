@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-09T00:40:04.975466Z",
-  "total": 2126,
+  "updated": "2026-08-09T02:51:41.108288Z",
+  "total": 2120,
   "items": [
     {
       "key": "INC-10721",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -21,9 +21,13 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Systran",
+        "Translation",
+        "alerts"
+      ],
       "created": "2026-08-08",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10720"
     },
     {
@@ -97,9 +101,13 @@
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "Translation",
+        "newrelic"
+      ],
       "created": "2026-08-08",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10714"
     },
     {
@@ -484,11 +492,12 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
+        "Pipeline",
         "UAT",
         "patching"
       ],
       "created": "2026-08-08",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10682"
     },
     {
@@ -616,7 +625,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-07",
-      "updated": "2026-08-08",
+      "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10672"
     },
     {
@@ -4698,7 +4707,7 @@
         "cube"
       ],
       "created": "2026-08-02",
-      "updated": "2026-08-07",
+      "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10347"
     },
     {
@@ -26637,78 +26646,6 @@
       "created": "2026-07-10",
       "updated": "2026-07-10",
       "url": "https://cube001.atlassian.net/browse/INC-8592"
-    },
-    {
-      "key": "INC-8591",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8591"
-    },
-    {
-      "key": "INC-8590",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8590"
-    },
-    {
-      "key": "INC-8589",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8589"
-    },
-    {
-      "key": "INC-8588",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8588"
-    },
-    {
-      "key": "INC-8587",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8587"
-    },
-    {
-      "key": "INC-8586",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-10",
-      "updated": "2026-07-10",
-      "url": "https://cube001.atlassian.net/browse/INC-8586"
     }
   ]
 }
