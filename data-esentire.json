@@ -1,12 +1,120 @@
 {
-  "updated": "2026-08-10T21:50:10.274610Z",
-  "total": 2180,
+  "updated": "2026-08-10T22:23:22.227904Z",
+  "total": 2188,
   "items": [
     {
-      "key": "INC-10873",
+      "key": "INC-10882",
+      "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10882"
+    },
+    {
+      "key": "INC-10881",
       "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10881"
+    },
+    {
+      "key": "INC-10880",
+      "summary": "PRDSM - INTEL Performance Monitoring 200_400ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10880"
+    },
+    {
+      "key": "INC-10879",
+      "summary": "PRDSM - INTEL Performance Monitoring 650_1000ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10879"
+    },
+    {
+      "key": "INC-10878",
+      "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10878"
+    },
+    {
+      "key": "INC-10877",
+      "summary": "PRDSM - INTEL Performance Monitoring 200_400ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10877"
+    },
+    {
+      "key": "INC-10876",
+      "summary": "PRDSM - INTEL Performance Monitoring 650_1000ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10876"
+    },
+    {
+      "key": "INC-10875",
+      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10875"
+    },
+    {
+      "key": "INC-10874",
+      "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10874"
+    },
+    {
+      "key": "INC-10873",
+      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,7 +125,7 @@
     {
       "key": "INC-10872",
       "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,8 +137,8 @@
     {
       "key": "INC-10871",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66056",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41,7 +149,7 @@
     {
       "key": "INC-10870",
       "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
@@ -1006,10 +1114,14 @@
       "key": "INC-10790",
       "summary": "PRDSM - INTEL Performance Monitoring",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Intel",
+        "alerts"
+      ],
       "created": "2026-08-10",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10790"
@@ -27353,18 +27465,6 @@
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8685"
-    },
-    {
-      "key": "INC-8684",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8684"
     }
   ]
 }
