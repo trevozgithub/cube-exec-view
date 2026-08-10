@@ -1,7 +1,58 @@
 {
-  "updated": "2026-08-10T03:01:39.931539Z",
-  "total": 2073,
+  "updated": "2026-08-10T04:48:31.554208Z",
+  "total": 2077,
   "items": [
+    {
+      "key": "INC-10754",
+      "summary": "PRDSM - INTEL Performance Monitoring",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10754"
+    },
+    {
+      "key": "INC-10753",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10753"
+    },
+    {
+      "key": "INC-10752",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10752"
+    },
+    {
+      "key": "INC-10751",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10751"
+    },
     {
       "key": "INC-10750",
       "summary": "Intel Prod Content Ingestion Service logging errors",
@@ -1657,13 +1708,13 @@
     {
       "key": "INC-10620",
       "summary": "Master Data Sync in PROD RGP is not working",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-06",
-      "updated": "2026-08-07",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10620"
     },
     {
@@ -18256,7 +18307,7 @@
       "key": "INC-9289",
       "summary": "Intel Find not working during a customer call",
       "status": "In Progress",
-      "assignee": "Kishan Gohil",
+      "assignee": "Schubert Pereira",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -18266,7 +18317,7 @@
         "PROD"
       ],
       "created": "2026-07-21",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-9289"
     },
     {
