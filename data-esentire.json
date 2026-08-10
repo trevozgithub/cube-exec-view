@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T08:00:52.961331Z",
-  "total": 2090,
+  "updated": "2026-08-10T09:43:16.873783Z",
+  "total": 2085,
   "items": [
     {
       "key": "INC-10770",
@@ -467,11 +467,13 @@
     {
       "key": "INC-10733",
       "summary": "HTTP \"POST\" \"/api/RegBook/search\" responded 500",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-09",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10733"
@@ -1338,7 +1340,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-07",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10665"
     },
     {
@@ -1435,19 +1437,19 @@
       "key": "INC-10657",
       "summary": "Disk USAGE: 100% UKSPREPSQL01 > F: Drive",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Kishan Gohil",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-07",
-      "updated": "2026-08-07",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10657"
     },
     {
       "key": "INC-10656",
       "summary": "Disk USAGE: 94.8% transform-prod-uksouth-systran-mongodb-primary-vm > /dev/sdc1",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -26213,70 +26215,6 @@
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8676"
-    },
-    {
-      "key": "INC-8675",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8675"
-    },
-    {
-      "key": "INC-8674",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-11",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8674"
-    },
-    {
-      "key": "INC-8673",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-11",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8673"
-    },
-    {
-      "key": "INC-8672",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8672"
-    },
-    {
-      "key": "INC-8671",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8671"
     }
   ]
 }

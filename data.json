@@ -1,8 +1,42 @@
 {
-  "updated": "2026-08-10T08:00:33.656978Z",
+  "updated": "2026-08-10T09:42:59.434079Z",
   "total": 41,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-08-10",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "03/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. RAG is Amber due to status of the pipeline migration."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1618",
+      "summary": "OpRisk - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-08-10",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1618",
+      "panels": []
+    },
     {
       "key": "CPN-1532",
       "summary": "RegPlatform - Administrative Tasks Q3 2026",
@@ -15,20 +49,6 @@
         "consumer"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1532",
-      "panels": []
-    },
-    {
-      "key": "CPN-1618",
-      "summary": "OpRisk - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jeremy Noble",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-08-09",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1618",
       "panels": []
     },
     {
@@ -59,26 +79,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1619",
       "panels": []
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-08-03",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "03/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. RAG is Amber due to status of the pipeline migration."
-        }
-      ]
     },
     {
       "key": "CPN-1855",
