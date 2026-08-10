@@ -1,22 +1,8 @@
 {
-  "updated": "2026-08-10T12:31:04.128068Z",
+  "updated": "2026-08-10T14:01:01.116292Z",
   "total": 41,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
-    {
-      "key": "CPN-1618",
-      "summary": "OpRisk - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jeremy Noble",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-08-10",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1618",
-      "panels": []
-    },
     {
       "key": "CPN-610",
       "summary": "GitHub Migration",
@@ -33,9 +19,23 @@
       "panels": [
         {
           "type": "info",
-          "text": "03/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. RAG is Amber due to status of the pipeline migration."
+          "text": "10/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. RAG is Amber due to status of the pipeline migration."
         }
       ]
+    },
+    {
+      "key": "CPN-1618",
+      "summary": "OpRisk - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-08-10",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1618",
+      "panels": []
     },
     {
       "key": "CPN-1532",
