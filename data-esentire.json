@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T11:38:19.063004Z",
+  "updated": "2026-08-10T12:31:21.892857Z",
   "total": 2088,
   "items": [
     {
@@ -78,7 +78,7 @@
       "key": "INC-10770",
       "summary": "Key Manager Plus - SSL Certificate Expiry Notification",
       "status": "To Do",
-      "assignee": "Dan Palmer",
+      "assignee": "Andrew Minor",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -1410,7 +1410,9 @@
       "assignee": "Jeremy Noble",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10665"
