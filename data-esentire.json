@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-10T09:43:16.873783Z",
-  "total": 2085,
+  "updated": "2026-08-10T10:49:05.238092Z",
+  "total": 2086,
   "items": [
+    {
+      "key": "INC-10772",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10772"
+    },
+    {
+      "key": "INC-10771",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10771"
+    },
     {
       "key": "INC-10770",
       "summary": "Key Manager Plus - SSL Certificate Expiry Notification",
@@ -179,7 +203,7 @@
       "key": "INC-10756",
       "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
       "status": "To Do",
-      "assignee": "Dan Palmer",
+      "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -1252,7 +1276,7 @@
         "Translation"
       ],
       "created": "2026-08-07",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10672"
     },
     {
@@ -1436,11 +1460,13 @@
     {
       "key": "INC-10657",
       "summary": "Disk USAGE: 100% UKSPREPSQL01 > F: Drive",
-      "status": "To Do",
-      "assignee": "Kishan Gohil",
+      "status": "Completed",
+      "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-07",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10657"
@@ -26203,18 +26229,6 @@
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8677"
-    },
-    {
-      "key": "INC-8676",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8676"
     }
   ]
 }
