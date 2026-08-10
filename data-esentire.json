@@ -1,7 +1,69 @@
 {
-  "updated": "2026-08-10T06:04:51.147226Z",
-  "total": 2087,
+  "updated": "2026-08-10T08:00:52.961331Z",
+  "total": 2090,
   "items": [
+    {
+      "key": "INC-10770",
+      "summary": "Key Manager Plus - SSL Certificate Expiry Notification",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10770"
+    },
+    {
+      "key": "INC-10769",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10769"
+    },
+    {
+      "key": "INC-10768",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10768"
+    },
+    {
+      "key": "INC-10767",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "In Progress",
+      "assignee": "Dilina Dayasiri",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10767"
+    },
+    {
+      "key": "INC-10766",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10766"
+    },
     {
       "key": "INC-10765",
       "summary": "CUBEPROD1RDI05 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
@@ -411,19 +473,21 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-09",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10733"
     },
     {
       "key": "INC-10732",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65901",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-09",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10732"
     },
     {
@@ -1388,7 +1452,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-07",
-      "updated": "2026-08-07",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10656"
     },
     {
@@ -26213,35 +26277,6 @@
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8671"
-    },
-    {
-      "key": "INC-8670",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8670"
-    },
-    {
-      "key": "INC-8669",
-      "summary": "VEEAM Failed Backup Job: CUBE_DRP_PROD_Daily_Backup",
-      "status": "Completed",
-      "assignee": "Ravali Billakanti",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Backups",
-        "DRP-PROD",
-        "Daily-Checks",
-        "veeam"
-      ],
-      "created": "2026-07-11",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8669"
     }
   ]
 }
