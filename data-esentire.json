@@ -1,7 +1,48 @@
 {
-  "updated": "2026-08-10T00:45:19.548539Z",
-  "total": 2071,
+  "updated": "2026-08-10T03:01:39.931539Z",
+  "total": 2073,
   "items": [
+    {
+      "key": "INC-10750",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "To Do",
+      "assignee": "Phil Oakes",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Intel",
+        "PROD",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10750"
+    },
+    {
+      "key": "INC-10749",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10749"
+    },
+    {
+      "key": "INC-10748",
+      "summary": "PRDSM - INTEL Performance Monitoring",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-10",
+      "updated": "2026-08-10",
+      "url": "https://cube001.atlassian.net/browse/INC-10748"
+    },
     {
       "key": "INC-10747",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -149,13 +190,15 @@
     {
       "key": "INC-10735",
       "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Scorch Escarcha",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-09",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10735"
     },
     {
@@ -5991,10 +6034,12 @@
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "Intel"
+        "Intel",
+        "PROD",
+        "UAT"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10270"
     },
     {
@@ -7878,7 +7923,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-07",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -9839,14 +9884,15 @@
       "key": "INC-9959",
       "summary": "PROD Not Loading and Latency Issues",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Jaspreet Manghera",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "Alerts-From-Staff"
       ],
       "created": "2026-07-28",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-9959"
     },
     {
@@ -14413,7 +14459,7 @@
     {
       "key": "INC-9591",
       "summary": "RegInsights - Issuing Bodies assigned to incorrect Jurisdictions",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -14422,7 +14468,7 @@
         "RegInsight"
       ],
       "created": "2026-07-24",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -20975,10 +21021,12 @@
       "labels": [
         "24x7",
         "Alerts-From-Staff",
-        "Intel"
+        "Intel",
+        "PROD",
+        "RegInsight"
       ],
       "created": "2026-07-16",
-      "updated": "2026-08-07",
+      "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-9068"
     },
     {
@@ -26017,18 +26065,6 @@
       "created": "2026-07-11",
       "updated": "2026-07-11",
       "url": "https://cube001.atlassian.net/browse/INC-8668"
-    },
-    {
-      "key": "INC-8667",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://cube001.atlassian.net/browse/INC-8667"
     }
   ]
 }
