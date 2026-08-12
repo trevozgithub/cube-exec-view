@@ -1,11 +1,121 @@
 {
-  "updated": "2026-08-12T06:40:18.951859Z",
+  "updated": "2026-08-12T08:04:37.210689Z",
   "total": 2591,
   "items": [
     {
+      "key": "INC-11356",
+      "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11356"
+    },
+    {
+      "key": "INC-11355",
+      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11355"
+    },
+    {
+      "key": "INC-11354",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11354"
+    },
+    {
+      "key": "INC-11353",
+      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11353"
+    },
+    {
+      "key": "INC-11352",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11352"
+    },
+    {
+      "key": "INC-11351",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11351"
+    },
+    {
+      "key": "INC-11350",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66186",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11350"
+    },
+    {
+      "key": "INC-11349",
+      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11349"
+    },
+    {
+      "key": "INC-11348",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11348"
+    },
+    {
       "key": "INC-11347",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66185",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
@@ -17,8 +127,8 @@
     {
       "key": "INC-11346",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66184",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -340,8 +450,8 @@
     {
       "key": "INC-11320",
       "summary": "Macquarie unable to log in to UAT using SSO - Unexpected error",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -4233,11 +4343,13 @@
     {
       "key": "INC-10998",
       "summary": "RM Save Issue \u2013 Insight Save Failing/Delayed",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Abheeth Kotelawala",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-11",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-10998"
@@ -12186,7 +12298,7 @@
         "browserstack"
       ],
       "created": "2026-08-03",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-10359"
     },
     {
@@ -32207,116 +32319,6 @@
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8755"
-    },
-    {
-      "key": "INC-8754",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8754"
-    },
-    {
-      "key": "INC-8753",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8753"
-    },
-    {
-      "key": "INC-8752",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8752"
-    },
-    {
-      "key": "INC-8751",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-13",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8751"
-    },
-    {
-      "key": "INC-8750",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8750"
-    },
-    {
-      "key": "INC-8749",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8749"
-    },
-    {
-      "key": "INC-8748",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8748"
-    },
-    {
-      "key": "INC-8747",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8747"
-    },
-    {
-      "key": "INC-8746",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8746"
     }
   ]
 }
