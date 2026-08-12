@@ -1,7 +1,115 @@
 {
-  "updated": "2026-08-12T05:06:44.900116Z",
-  "total": 2585,
+  "updated": "2026-08-12T06:40:18.951859Z",
+  "total": 2591,
   "items": [
+    {
+      "key": "INC-11347",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66185",
+      "status": "In Triage",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11347"
+    },
+    {
+      "key": "INC-11346",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66184",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11346"
+    },
+    {
+      "key": "INC-11345",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66183",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11345"
+    },
+    {
+      "key": "INC-11344",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66182",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11344"
+    },
+    {
+      "key": "INC-11343",
+      "summary": "\ud83d\udea8 P1 Incident Alert \u2013 Books Processing Degraded (Caching Backlog)",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11343"
+    },
+    {
+      "key": "INC-11342",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11342"
+    },
+    {
+      "key": "INC-11341",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11341"
+    },
+    {
+      "key": "INC-11340",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66181",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11340"
+    },
+    {
+      "key": "INC-11339",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66180",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11339"
+    },
     {
       "key": "INC-11338",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66179",
@@ -41,11 +149,13 @@
     {
       "key": "INC-11335",
       "summary": "Book Capture Process Stalled - AKS Unable to connect to Cosmos DB",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ishara Lakshitha",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11335"
@@ -165,7 +275,7 @@
     },
     {
       "key": "INC-11325",
-      "summary": "CPU is greater than 90% for 15 Minutes",
+      "summary": "CPU is greater than 90% for 15 Minutes-transform-prod-uksouth-systran-backend-vmss-04000000 ",
       "status": "To Do",
       "assignee": "Earl Francisco",
       "priority": "P3",
@@ -394,7 +504,7 @@
     },
     {
       "key": "INC-11307",
-      "summary": "CPU is greater than 90% for 15 Minutes",
+      "summary": "CPU is greater than 90% for 15 Minutes- transform-prod-uksouth-systran-backend-vmss-0200003Z",
       "status": "To Do",
       "assignee": "Silver Dangeros",
       "priority": "P3",
@@ -2161,13 +2271,15 @@
     {
       "key": "INC-11161",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-11",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11161"
     },
     {
@@ -4123,11 +4235,11 @@
       "summary": "RM Save Issue \u2013 Insight Save Failing/Delayed",
       "status": "In Progress",
       "assignee": "Abheeth Kotelawala",
-      "priority": "P2",
+      "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-11",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-10998"
     },
     {
@@ -4181,13 +4293,15 @@
     {
       "key": "INC-10993",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-11",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-10993"
     },
     {
@@ -21601,7 +21715,7 @@
     {
       "key": "INC-9591",
       "summary": "RegInsights - Issuing Bodies assigned to incorrect Jurisdictions",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -21610,7 +21724,7 @@
         "RegInsight"
       ],
       "created": "2026-07-24",
-      "updated": "2026-08-10",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
     },
     {
@@ -32203,42 +32317,6 @@
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8746"
-    },
-    {
-      "key": "INC-8745",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8745"
-    },
-    {
-      "key": "INC-8744",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8744"
-    },
-    {
-      "key": "INC-8743",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9481",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8743"
     }
   ]
 }
