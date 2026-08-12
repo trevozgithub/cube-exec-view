@@ -1,12 +1,72 @@
 {
-  "updated": "2026-08-12T08:04:37.210689Z",
-  "total": 2591,
+  "updated": "2026-08-12T09:21:57.499875Z",
+  "total": 2586,
   "items": [
+    {
+      "key": "INC-11361",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66195",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11361"
+    },
+    {
+      "key": "INC-11360",
+      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11360"
+    },
+    {
+      "key": "INC-11359",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66194",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11359"
+    },
+    {
+      "key": "INC-11358",
+      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11358"
+    },
+    {
+      "key": "INC-11357",
+      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11357"
+    },
     {
       "key": "INC-11356",
       "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -67,11 +127,13 @@
     {
       "key": "INC-11351",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11351"
@@ -175,11 +237,13 @@
     {
       "key": "INC-11342",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11342"
@@ -6719,12 +6783,12 @@
       "key": "INC-10801",
       "summary": "Storage Above 90% Utilisation for more than 15 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-10",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-10801"
     },
     {
@@ -8447,7 +8511,7 @@
         "24x7"
       ],
       "created": "2026-08-07",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-10665"
     },
     {
@@ -32195,130 +32259,6 @@
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8765"
-    },
-    {
-      "key": "INC-8764",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-13",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8764"
-    },
-    {
-      "key": "INC-8763",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-13",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8763"
-    },
-    {
-      "key": "INC-8762",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8762"
-    },
-    {
-      "key": "INC-8761",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8761"
-    },
-    {
-      "key": "INC-8760",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8760"
-    },
-    {
-      "key": "INC-8759",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8759"
-    },
-    {
-      "key": "INC-8758",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8758"
-    },
-    {
-      "key": "INC-8757",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8757"
-    },
-    {
-      "key": "INC-8756",
-      "summary": "PRDSM_TEST_Enterprise_UAT_Consumer Alert",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8756"
-    },
-    {
-      "key": "INC-8755",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8755"
     }
   ]
 }
