@@ -1,7 +1,79 @@
 {
-  "updated": "2026-08-12T03:12:47.432728Z",
-  "total": 2582,
+  "updated": "2026-08-12T05:06:44.900116Z",
+  "total": 2585,
   "items": [
+    {
+      "key": "INC-11338",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66179",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11338"
+    },
+    {
+      "key": "INC-11337",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66176",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11337"
+    },
+    {
+      "key": "INC-11336",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66175",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11336"
+    },
+    {
+      "key": "INC-11335",
+      "summary": "Book Capture Process Stalled - AKS Unable to connect to Cosmos DB",
+      "status": "To Do",
+      "assignee": "Ishara Lakshitha",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11335"
+    },
+    {
+      "key": "INC-11334",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66174",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11334"
+    },
+    {
+      "key": "INC-11333",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66173",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://cube001.atlassian.net/browse/INC-11333"
+    },
     {
       "key": "INC-11332",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66170",
@@ -221,11 +293,13 @@
     {
       "key": "INC-11315",
       "summary": "CPU is greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11315"
@@ -233,11 +307,13 @@
     {
       "key": "INC-11314",
       "summary": "CPU is greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11314"
@@ -269,11 +345,13 @@
     {
       "key": "INC-11311",
       "summary": "CPU is greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11311"
@@ -321,7 +399,9 @@
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "newrelic"
+      ],
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11307"
@@ -32159,47 +32239,6 @@
       "created": "2026-07-13",
       "updated": "2026-07-13",
       "url": "https://cube001.atlassian.net/browse/INC-8743"
-    },
-    {
-      "key": "INC-8742",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Systran",
-        "Translation",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-07-13",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8742"
-    },
-    {
-      "key": "INC-8741",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8741"
-    },
-    {
-      "key": "INC-8740",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-13",
-      "updated": "2026-07-13",
-      "url": "https://cube001.atlassian.net/browse/INC-8740"
     }
   ]
 }
