@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-14T20:59:34.357258Z",
-  "total": 3151,
+  "updated": "2026-08-14T21:34:15.341608Z",
+  "total": 3154,
   "items": [
+    {
+      "key": "INC-12133",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12133"
+    },
+    {
+      "key": "INC-12132",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12132"
+    },
+    {
+      "key": "INC-12131",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12131"
+    },
+    {
+      "key": "INC-12130",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 200_400ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12130"
+    },
+    {
+      "key": "INC-12129",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12129"
+    },
     {
       "key": "INC-12128",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64453",
@@ -725,11 +785,13 @@
     {
       "key": "INC-12068",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-14",
       "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-12068"
@@ -989,11 +1051,13 @@
     {
       "key": "INC-12046",
       "summary": "[critical] CUBEAZUAT2SQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-14",
       "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-12046"
@@ -38984,32 +39048,6 @@
       "created": "2026-07-15",
       "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8969"
-    },
-    {
-      "key": "INC-8968",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8968"
-    },
-    {
-      "key": "INC-8967",
-      "summary": "4CRisk DNS Migration -  down time on the DNS migration",
-      "status": "Completed",
-      "assignee": "Faaris Ali",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-15",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8967"
     }
   ]
 }
