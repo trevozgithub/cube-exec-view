@@ -1,7 +1,79 @@
 {
-  "updated": "2026-08-14T23:12:19.671189Z",
-  "total": 3159,
+  "updated": "2026-08-14T23:39:48.889174Z",
+  "total": 3164,
   "items": [
+    {
+      "key": "INC-12146",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12146"
+    },
+    {
+      "key": "INC-12145",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66444",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12145"
+    },
+    {
+      "key": "INC-12144",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12144"
+    },
+    {
+      "key": "INC-12143",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12143"
+    },
+    {
+      "key": "INC-12142",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66443",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12142"
+    },
+    {
+      "key": "INC-12141",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12141"
+    },
     {
       "key": "INC-12140",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66441",
@@ -29,11 +101,15 @@
     {
       "key": "INC-12138",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-14",
       "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-12138"
@@ -28620,7 +28696,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-07-27",
-      "updated": "2026-08-13",
+      "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-9813"
     },
     {
@@ -39106,18 +39182,6 @@
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-8972"
-    },
-    {
-      "key": "INC-8971",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8971"
     }
   ]
 }
