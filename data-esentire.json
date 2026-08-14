@@ -1,7 +1,127 @@
 {
-  "updated": "2026-08-14T15:59:11.891199Z",
-  "total": 3099,
+  "updated": "2026-08-14T17:02:28.424766Z",
+  "total": 3105,
   "items": [
+    {
+      "key": "INC-12068",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12068"
+    },
+    {
+      "key": "INC-12067",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12067"
+    },
+    {
+      "key": "INC-12066",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001d6 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12066"
+    },
+    {
+      "key": "INC-12065",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12065"
+    },
+    {
+      "key": "INC-12064",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66415",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12064"
+    },
+    {
+      "key": "INC-12063",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66414",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12063"
+    },
+    {
+      "key": "INC-12062",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66415",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12062"
+    },
+    {
+      "key": "INC-12061",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12061"
+    },
+    {
+      "key": "INC-12060",
+      "summary": "[critical] CUBEAZUAT2SQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12060"
+    },
+    {
+      "key": "INC-12059",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12059"
+    },
     {
       "key": "INC-12058",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
@@ -38348,56 +38468,6 @@
       "created": "2026-07-15",
       "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8952"
-    },
-    {
-      "key": "INC-8951",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8951"
-    },
-    {
-      "key": "INC-8950",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-15",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8950"
-    },
-    {
-      "key": "INC-8949",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8949"
-    },
-    {
-      "key": "INC-8948",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8948"
     }
   ]
 }
