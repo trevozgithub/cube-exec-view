@@ -1,7 +1,55 @@
 {
-  "updated": "2026-08-14T22:25:38.174669Z",
-  "total": 3156,
+  "updated": "2026-08-14T22:51:04.582165Z",
+  "total": 3158,
   "items": [
+    {
+      "key": "INC-12139",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12139"
+    },
+    {
+      "key": "INC-12138",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12138"
+    },
+    {
+      "key": "INC-12137",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12137"
+    },
+    {
+      "key": "INC-12136",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12136"
+    },
     {
       "key": "INC-12135",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
@@ -39052,30 +39100,6 @@
       "created": "2026-07-15",
       "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8971"
-    },
-    {
-      "key": "INC-8970",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8970"
-    },
-    {
-      "key": "INC-8969",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8969"
     }
   ]
 }
