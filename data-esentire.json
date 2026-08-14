@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-14T02:44:56.476512Z",
-  "total": 2895,
+  "updated": "2026-08-14T04:30:50.186801Z",
+  "total": 2897,
   "items": [
+    {
+      "key": "INC-11824",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66367",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-11824"
+    },
+    {
+      "key": "INC-11823",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-11823"
+    },
+    {
+      "key": "INC-11822",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001d6 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-11822"
+    },
+    {
+      "key": "INC-11821",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001d6 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-11821"
+    },
+    {
+      "key": "INC-11820",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-11820"
+    },
     {
       "key": "INC-11819",
       "summary": "[warning]  - PRDSM - INTEL Performance Monitoring 200_400ms",
@@ -1551,7 +1611,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-13",
-      "updated": "2026-08-13",
+      "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-11690"
     },
     {
@@ -1629,13 +1689,15 @@
     {
       "key": "INC-11683",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-13",
-      "updated": "2026-08-13",
+      "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-11683"
     },
     {
@@ -2903,7 +2965,7 @@
     {
       "key": "INC-11577",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2911,7 +2973,7 @@
         "24x7"
       ],
       "created": "2026-08-13",
-      "updated": "2026-08-13",
+      "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-11577"
     },
     {
@@ -4786,7 +4848,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-12",
-      "updated": "2026-08-13",
+      "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-11424"
     },
     {
@@ -35906,44 +35968,6 @@
       "created": "2026-07-15",
       "updated": "2026-07-15",
       "url": "https://cube001.atlassian.net/browse/INC-8916"
-    },
-    {
-      "key": "INC-8915",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-15",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-8915"
-    },
-    {
-      "key": "INC-8914",
-      "summary": "Signal lost for 15 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8914"
-    },
-    {
-      "key": "INC-8913",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-15",
-      "updated": "2026-07-15",
-      "url": "https://cube001.atlassian.net/browse/INC-8913"
     }
   ]
 }
