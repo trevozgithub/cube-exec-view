@@ -1,12 +1,24 @@
 {
-  "updated": "2026-08-14T22:51:04.582165Z",
-  "total": 3158,
+  "updated": "2026-08-14T23:12:19.671189Z",
+  "total": 3159,
   "items": [
+    {
+      "key": "INC-12140",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66441",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-14",
+      "updated": "2026-08-14",
+      "url": "https://cube001.atlassian.net/browse/INC-12140"
+    },
     {
       "key": "INC-12139",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -489,11 +501,13 @@
     {
       "key": "INC-12099",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64448",
-      "status": "To Do",
-      "assignee": "Andrei Item",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-14",
       "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-12099"
@@ -911,11 +925,13 @@
     {
       "key": "INC-12064",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66415",
-      "status": "To Do",
-      "assignee": "Andrei Item",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-14",
       "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-12064"
@@ -1417,11 +1433,13 @@
     {
       "key": "INC-12022",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-14",
       "updated": "2026-08-14",
       "url": "https://cube001.atlassian.net/browse/INC-12022"
