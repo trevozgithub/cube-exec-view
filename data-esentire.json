@@ -1,12 +1,72 @@
 {
-  "updated": "2026-08-15T14:42:24.880918Z",
-  "total": 3271,
+  "updated": "2026-08-15T15:00:46.546838Z",
+  "total": 3274,
   "items": [
+    {
+      "key": "INC-12343",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12343"
+    },
+    {
+      "key": "INC-12342",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12342"
+    },
+    {
+      "key": "INC-12341",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12341"
+    },
+    {
+      "key": "INC-12340",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12340"
+    },
+    {
+      "key": "INC-12339",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66504",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12339"
+    },
     {
       "key": "INC-12338",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66504",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -40402,34 +40462,6 @@
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9061"
-    },
-    {
-      "key": "INC-9060",
-      "summary": "VT-VEEAM | Multiple Backup & Backup Copy Job Failures (11 Sessions) ",
-      "status": "Completed",
-      "assignee": "Faaris Ali",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Backups",
-        "Daily-Checks"
-      ],
-      "created": "2026-07-16",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9060"
-    },
-    {
-      "key": "INC-9059",
-      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9059"
     }
   ]
 }
