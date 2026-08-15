@@ -1,12 +1,36 @@
 {
-  "updated": "2026-08-15T23:37:51.285794Z",
-  "total": 3348,
+  "updated": "2026-08-15T23:55:58.054892Z",
+  "total": 3347,
   "items": [
+    {
+      "key": "INC-12459",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12459"
+    },
+    {
+      "key": "INC-12458",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12458"
+    },
     {
       "key": "INC-12457",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66540",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41295,45 +41319,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9103"
-    },
-    {
-      "key": "INC-9102",
-      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "newrelic"
-      ],
-      "created": "2026-07-16",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9102"
-    },
-    {
-      "key": "INC-9101",
-      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9101"
-    },
-    {
-      "key": "INC-9100",
-      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9100"
     }
   ]
 }
