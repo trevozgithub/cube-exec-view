@@ -1,11 +1,71 @@
 {
-  "updated": "2026-08-15T20:55:00.384184Z",
-  "total": 3320,
+  "updated": "2026-08-15T21:21:02.212913Z",
+  "total": 3323,
   "items": [
+    {
+      "key": "INC-12427",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12427"
+    },
+    {
+      "key": "INC-12426",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64552",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12426"
+    },
+    {
+      "key": "INC-12425",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64551",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12425"
+    },
+    {
+      "key": "INC-12424",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64550",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12424"
+    },
+    {
+      "key": "INC-12423",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12423"
+    },
     {
       "key": "INC-12422",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66529",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,8 +89,8 @@
     {
       "key": "INC-12420",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -989,11 +1049,13 @@
     {
       "key": "INC-12339",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66504",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-15",
       "updated": "2026-08-15",
       "url": "https://cube001.atlassian.net/browse/INC-12339"
@@ -40972,32 +41034,6 @@
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9095"
-    },
-    {
-      "key": "INC-9094",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9094"
-    },
-    {
-      "key": "INC-9093",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-16",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9093"
     }
   ]
 }
