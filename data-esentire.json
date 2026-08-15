@@ -1,7 +1,115 @@
 {
-  "updated": "2026-08-15T15:30:44.165511Z",
-  "total": 3280,
+  "updated": "2026-08-15T15:51:18.365222Z",
+  "total": 3286,
   "items": [
+    {
+      "key": "INC-12362",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12362"
+    },
+    {
+      "key": "INC-12361",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12361"
+    },
+    {
+      "key": "INC-12360",
+      "summary": "Uptrends Status ",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12360"
+    },
+    {
+      "key": "INC-12359",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12359"
+    },
+    {
+      "key": "INC-12358",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66508",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12358"
+    },
+    {
+      "key": "INC-12357",
+      "summary": "[critical] transform-prod-uksouth-systran-mongodb-primary-vm - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12357"
+    },
+    {
+      "key": "INC-12356",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12356"
+    },
+    {
+      "key": "INC-12355",
+      "summary": "[critical] aks-default-13639162-vmss000001 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12355"
+    },
+    {
+      "key": "INC-12354",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12354"
+    },
     {
       "key": "INC-12353",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64529",
@@ -40494,42 +40602,6 @@
       "created": "2026-07-16",
       "updated": "2026-08-13",
       "url": "https://cube001.atlassian.net/browse/INC-9068"
-    },
-    {
-      "key": "INC-9067",
-      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Services Health - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9067"
-    },
-    {
-      "key": "INC-9066",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9066"
-    },
-    {
-      "key": "INC-9065",
-      "summary": "Signal lost for 30 minutes on 'SYSTRAN V9 Translation FR-EN Smoke - Synthetic failure'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9065"
     }
   ]
 }
