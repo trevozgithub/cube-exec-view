@@ -1,7 +1,79 @@
 {
-  "updated": "2026-08-15T23:14:23.886813Z",
-  "total": 3343,
+  "updated": "2026-08-15T23:37:51.285794Z",
+  "total": 3348,
   "items": [
+    {
+      "key": "INC-12457",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66540",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12457"
+    },
+    {
+      "key": "INC-12456",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12456"
+    },
+    {
+      "key": "INC-12455",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64561",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12455"
+    },
+    {
+      "key": "INC-12454",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66539",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12454"
+    },
+    {
+      "key": "INC-12453",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12453"
+    },
+    {
+      "key": "INC-12452",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64560",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12452"
+    },
     {
       "key": "INC-12451",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64559",
@@ -29,11 +101,13 @@
     {
       "key": "INC-12449",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66534",
-      "status": "To Do",
-      "assignee": "Earl Francisco",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-15",
       "updated": "2026-08-15",
       "url": "https://cube001.atlassian.net/browse/INC-12449"
@@ -41260,20 +41334,6 @@
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9100"
-    },
-    {
-      "key": "INC-9099",
-      "summary": "Opsview Critical Alarm -CUBEPREP2APP01- CUBEPREP2APP01 HIGH CPU USAGE ALERT",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "opsview"
-      ],
-      "created": "2026-07-16",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9099"
     }
   ]
 }
