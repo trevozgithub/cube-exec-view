@@ -1,7 +1,127 @@
 {
-  "updated": "2026-08-15T15:00:46.546838Z",
-  "total": 3274,
+  "updated": "2026-08-15T15:30:44.165511Z",
+  "total": 3280,
   "items": [
+    {
+      "key": "INC-12353",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64529",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12353"
+    },
+    {
+      "key": "INC-12352",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12352"
+    },
+    {
+      "key": "INC-12351",
+      "summary": "[critical] transform-prod-uksouth-systran-mongodb-primary-vm - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12351"
+    },
+    {
+      "key": "INC-12350",
+      "summary": "[critical] aks-default-13639162-vmss000001 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12350"
+    },
+    {
+      "key": "INC-12349",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12349"
+    },
+    {
+      "key": "INC-12348",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64528",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12348"
+    },
+    {
+      "key": "INC-12347",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64527",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12347"
+    },
+    {
+      "key": "INC-12346",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66506",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12346"
+    },
+    {
+      "key": "INC-12345",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64526",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12345"
+    },
+    {
+      "key": "INC-12344",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-15",
+      "updated": "2026-08-15",
+      "url": "https://cube001.atlassian.net/browse/INC-12344"
+    },
     {
       "key": "INC-12343",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
@@ -40410,58 +40530,6 @@
       "created": "2026-07-16",
       "updated": "2026-07-16",
       "url": "https://cube001.atlassian.net/browse/INC-9065"
-    },
-    {
-      "key": "INC-9064",
-      "summary": "CRITICAL POTENTIAL RegPlatform Consumer P1: LIVE issues in the last 3 hours for Checksum Report",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-16",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9064"
-    },
-    {
-      "key": "INC-9063",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9063"
-    },
-    {
-      "key": "INC-9062",
-      "summary": "Unable to access RegTransform - (https://regtransform.gocube.global/)",
-      "status": "Completed",
-      "assignee": "Daniel Powell\u200c",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-16",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9062"
-    },
-    {
-      "key": "INC-9061",
-      "summary": "CRITICAL POTENTIAL RegPlatform Consumer P1: LIVE issues in the last 3 hours for Checksum Report",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-16",
-      "updated": "2026-07-16",
-      "url": "https://cube001.atlassian.net/browse/INC-9061"
     }
   ]
 }
