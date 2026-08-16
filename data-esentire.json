@@ -1,12 +1,84 @@
 {
-  "updated": "2026-08-16T22:01:27.548536Z",
-  "total": 3538,
+  "updated": "2026-08-16T22:32:32.031522Z",
+  "total": 3543,
   "items": [
+    {
+      "key": "INC-12713",
+      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12713"
+    },
+    {
+      "key": "INC-12712",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12712"
+    },
+    {
+      "key": "INC-12711",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12711"
+    },
+    {
+      "key": "INC-12710",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12710"
+    },
+    {
+      "key": "INC-12709",
+      "summary": "\u26a0\ufe0f HIGH | PROD | Latency warning p95 (>1s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12709"
+    },
+    {
+      "key": "INC-12708",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12708"
+    },
     {
       "key": "INC-12707",
       "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +89,8 @@
     {
       "key": "INC-12706",
       "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -43578,20 +43650,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9161"
-    },
-    {
-      "key": "INC-9160",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9160"
     }
   ]
 }
