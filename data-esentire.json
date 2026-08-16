@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-16T08:56:56.355727Z",
-  "total": 3441,
+  "updated": "2026-08-16T09:33:19.061984Z",
+  "total": 3442,
   "items": [
+    {
+      "key": "INC-12574",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12574"
+    },
+    {
+      "key": "INC-12573",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12573"
+    },
+    {
+      "key": "INC-12572",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66578",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12572"
+    },
     {
       "key": "INC-12571",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66577",
@@ -29,8 +65,8 @@
     {
       "key": "INC-12569",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D6] Functions - Pod Unhealthy event",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,8 +89,8 @@
     {
       "key": "INC-12567",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [C2] Debezium - Running pod count dropped",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -65,8 +101,8 @@
     {
       "key": "INC-12566",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
-      "status": "In Triage",
-      "assignee": "Zyra Nicolas",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -42425,32 +42461,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9123"
-    },
-    {
-      "key": "INC-9122",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9122"
-    },
-    {
-      "key": "INC-9121",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9121"
     }
   ]
 }
