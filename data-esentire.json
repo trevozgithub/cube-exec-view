@@ -1,12 +1,108 @@
 {
-  "updated": "2026-08-16T04:19:18.493475Z",
-  "total": 3397,
+  "updated": "2026-08-16T04:55:27.567027Z",
+  "total": 3404,
   "items": [
+    {
+      "key": "INC-12525",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66561",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12525"
+    },
+    {
+      "key": "INC-12524",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12524"
+    },
+    {
+      "key": "INC-12523",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66560",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12523"
+    },
+    {
+      "key": "INC-12522",
+      "summary": "Opsview critical alarm - Unhandled Category - CUBEONTMIGR",
+      "status": "To Do",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12522"
+    },
+    {
+      "key": "INC-12521",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64581",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12521"
+    },
+    {
+      "key": "INC-12520",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66559",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12520"
+    },
+    {
+      "key": "INC-12519",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64580",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12519"
+    },
+    {
+      "key": "INC-12518",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12518"
+    },
     {
       "key": "INC-12517",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +113,8 @@
     {
       "key": "INC-12516",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64579",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +125,8 @@
     {
       "key": "INC-12515",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64578",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -21807,7 +21903,7 @@
     {
       "key": "INC-10720",
       "summary": "piprodtranslate-fe\tWebsite Monitors Systran PROD - Services: piprodtranslate.gocube.global\tCRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -21817,7 +21913,7 @@
         "alerts"
       ],
       "created": "2026-08-08",
-      "updated": "2026-08-13",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-10720"
     },
     {
@@ -23087,13 +23183,15 @@
     {
       "key": "INC-10620",
       "summary": "Master Data Sync in PROD RGP is not working",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-06",
-      "updated": "2026-08-14",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-10620"
     },
     {
@@ -25274,7 +25372,7 @@
     {
       "key": "INC-10445",
       "summary": "Intel Running slowly",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Chethiya Amarasinghe",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -25283,7 +25381,7 @@
         "Intel"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-13",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-10445"
     },
     {
@@ -41913,18 +42011,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9112"
-    },
-    {
-      "key": "INC-9111",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9111"
     }
   ]
 }
