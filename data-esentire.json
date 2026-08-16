@@ -1,7 +1,103 @@
 {
-  "updated": "2026-08-16T23:37:43.701918Z",
-  "total": 3558,
+  "updated": "2026-08-16T23:55:41.057966Z",
+  "total": 3565,
   "items": [
+    {
+      "key": "INC-12739",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12739"
+    },
+    {
+      "key": "INC-12738",
+      "summary": "\u26a0\ufe0f HIGH | PROD | Latency warning p95 (>1s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12738"
+    },
+    {
+      "key": "INC-12737",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12737"
+    },
+    {
+      "key": "INC-12736",
+      "summary": "\u26a0\ufe0f HIGH | PROD | Latency warning p95 (>1s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12736"
+    },
+    {
+      "key": "INC-12735",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12735"
+    },
+    {
+      "key": "INC-12734",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12734"
+    },
+    {
+      "key": "INC-12733",
+      "summary": "\u26a0\ufe0f HIGH | PROD | Latency warning p95 (>1s)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12733"
+    },
+    {
+      "key": "INC-12732",
+      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12732"
+    },
     {
       "key": "INC-12731",
       "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
@@ -77,8 +173,8 @@
     {
       "key": "INC-12725",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -4455,13 +4551,15 @@
     {
       "key": "INC-12360",
       "summary": "Production Support - Uptrends Monitoring Status",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-15",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-12360"
     },
     {
@@ -16667,7 +16765,7 @@
         "24x7"
       ],
       "created": "2026-08-12",
-      "updated": "2026-08-12",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-11353"
     },
     {
@@ -25075,7 +25173,7 @@
     {
       "key": "INC-10665",
       "summary": "Customer updates not being ingested into elastic",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Jeremy Noble",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -25083,7 +25181,7 @@
         "24x7"
       ],
       "created": "2026-08-07",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-10665"
     },
     {
@@ -43816,18 +43914,6 @@
       "created": "2026-07-18",
       "updated": "2026-07-18",
       "url": "https://cube001.atlassian.net/browse/INC-9165"
-    },
-    {
-      "key": "INC-9164",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9164"
     }
   ]
 }
