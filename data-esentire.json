@@ -1,12 +1,36 @@
 {
-  "updated": "2026-08-16T19:51:25.329080Z",
+  "updated": "2026-08-16T20:12:05.885948Z",
   "total": 3528,
   "items": [
     {
+      "key": "INC-12693",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12693"
+    },
+    {
+      "key": "INC-12692",
+      "summary": "\u2705 RESOLVED | PROD | Latency warning p95 (>1s)",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12692"
+    },
+    {
       "key": "INC-12691",
       "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -43450,32 +43474,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9156"
-    },
-    {
-      "key": "INC-9155",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9590",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9155"
-    },
-    {
-      "key": "INC-9154",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9590",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9154"
     }
   ]
 }
