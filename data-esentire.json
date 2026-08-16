@@ -1,12 +1,84 @@
 {
-  "updated": "2026-08-16T17:03:06.493970Z",
-  "total": 3504,
+  "updated": "2026-08-16T17:30:47.057514Z",
+  "total": 3507,
   "items": [
+    {
+      "key": "INC-12662",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12662"
+    },
+    {
+      "key": "INC-12661",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12661"
+    },
+    {
+      "key": "INC-12660",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12660"
+    },
+    {
+      "key": "INC-12659",
+      "summary": "\u26a0\ufe0f HIGH | PROD | [A7] Stateless - K8s Warning events",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12659"
+    },
+    {
+      "key": "INC-12658",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateless - Pods not ready",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12658"
+    },
+    {
+      "key": "INC-12657",
+      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12657"
+    },
     {
       "key": "INC-12656",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66610",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -43161,44 +43233,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9146"
-    },
-    {
-      "key": "INC-9145",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9145"
-    },
-    {
-      "key": "INC-9144",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9144"
-    },
-    {
-      "key": "INC-9143",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9143"
     }
   ]
 }
