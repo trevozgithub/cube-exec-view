@@ -1,12 +1,24 @@
 {
-  "updated": "2026-08-16T15:50:51.844437Z",
-  "total": 3488,
+  "updated": "2026-08-16T16:12:21.514638Z",
+  "total": 3487,
   "items": [
+    {
+      "key": "INC-12638",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66606",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12638"
+    },
     {
       "key": "INC-12637",
       "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +29,8 @@
     {
       "key": "INC-12636",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66605",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -27509,7 +27521,7 @@
         "newrelic"
       ],
       "created": "2026-08-03",
-      "updated": "2026-08-13",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-10383"
     },
     {
@@ -42983,32 +42995,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9142"
-    },
-    {
-      "key": "INC-9141",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9141"
-    },
-    {
-      "key": "INC-9140",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9140"
     }
   ]
 }
