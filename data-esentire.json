@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-16T14:36:16.251809Z",
-  "total": 3480,
+  "updated": "2026-08-16T14:57:39.963938Z",
+  "total": 3483,
   "items": [
+    {
+      "key": "INC-12629",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12629"
+    },
+    {
+      "key": "INC-12628",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12628"
+    },
+    {
+      "key": "INC-12627",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66601",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12627"
+    },
     {
       "key": "INC-12626",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,11 +65,13 @@
     {
       "key": "INC-12624",
       "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-16",
       "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-12624"
@@ -30667,7 +30705,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-14",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
