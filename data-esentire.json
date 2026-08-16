@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-16T20:59:04.084654Z",
-  "total": 3532,
+  "updated": "2026-08-16T21:28:42.967858Z",
+  "total": 3533,
   "items": [
+    {
+      "key": "INC-12701",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12701"
+    },
+    {
+      "key": "INC-12700",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12700"
+    },
+    {
+      "key": "INC-12699",
+      "summary": "\u2705 RESOLVED | PROD | Latency warning p95 (>1s)",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12699"
+    },
     {
       "key": "INC-12698",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -43496,32 +43532,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9159"
-    },
-    {
-      "key": "INC-9158",
-      "summary": "ATLAS NOTIFICATION: CS5003748 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "eSentire_Alert"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9158"
-    },
-    {
-      "key": "INC-9157",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-17",
-      "url": "https://cube001.atlassian.net/browse/INC-9157"
     }
   ]
 }
