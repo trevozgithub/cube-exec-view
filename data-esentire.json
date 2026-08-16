@@ -1,11 +1,47 @@
 {
-  "updated": "2026-08-16T11:33:32.207766Z",
+  "updated": "2026-08-16T11:53:08.479354Z",
   "total": 3461,
   "items": [
     {
+      "key": "INC-12599",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12599"
+    },
+    {
+      "key": "INC-12598",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12598"
+    },
+    {
+      "key": "INC-12597",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66589",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12597"
+    },
+    {
       "key": "INC-12596",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66588",
-      "status": "To Do",
+      "status": "Closed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
@@ -42645,50 +42681,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9129"
-    },
-    {
-      "key": "INC-9128",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9128"
-    },
-    {
-      "key": "INC-9127",
-      "summary": "P1 - URGENT: PROD and UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrej Skripic",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9127"
-    },
-    {
-      "key": "INC-9126",
-      "summary": "API Connect Health Checks Errors - PROD and UAT ",
-      "status": "Completed",
-      "assignee": "Priyanka Bali",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "API",
-        "Daily-Checks",
-        "health-check"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9126"
     }
   ]
 }
