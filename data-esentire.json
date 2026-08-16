@@ -1,7 +1,79 @@
 {
-  "updated": "2026-08-16T23:15:45.260230Z",
-  "total": 3554,
+  "updated": "2026-08-16T23:37:43.701918Z",
+  "total": 3558,
   "items": [
+    {
+      "key": "INC-12731",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12731"
+    },
+    {
+      "key": "INC-12730",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12730"
+    },
+    {
+      "key": "INC-12729",
+      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12729"
+    },
+    {
+      "key": "INC-12728",
+      "summary": "\u2705 RESOLVED | PROD | Latency warning p95 (>1s)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12728"
+    },
+    {
+      "key": "INC-12727",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12727"
+    },
+    {
+      "key": "INC-12726",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-16",
+      "updated": "2026-08-16",
+      "url": "https://cube001.atlassian.net/browse/INC-12726"
+    },
     {
       "key": "INC-12725",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
@@ -41,8 +113,8 @@
     {
       "key": "INC-12722",
       "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -65,8 +137,8 @@
     {
       "key": "INC-12720",
       "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -77,8 +149,8 @@
     {
       "key": "INC-12719",
       "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -89,8 +161,8 @@
     {
       "key": "INC-12718",
       "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -161,8 +233,8 @@
     {
       "key": "INC-12712",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -3131,7 +3203,7 @@
     {
       "key": "INC-12465",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66540",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -9601,7 +9673,7 @@
         "24x7"
       ],
       "created": "2026-08-14",
-      "updated": "2026-08-15",
+      "updated": "2026-08-16",
       "url": "https://cube001.atlassian.net/browse/INC-11929"
     },
     {
@@ -31845,7 +31917,7 @@
     {
       "key": "INC-10118",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -43756,32 +43828,6 @@
       "created": "2026-07-17",
       "updated": "2026-07-17",
       "url": "https://cube001.atlassian.net/browse/INC-9164"
-    },
-    {
-      "key": "INC-9163",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-17",
-      "updated": "2026-07-18",
-      "url": "https://cube001.atlassian.net/browse/INC-9163"
-    },
-    {
-      "key": "INC-9162",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-17",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9162"
     }
   ]
 }
