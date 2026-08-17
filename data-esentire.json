@@ -1,12 +1,286 @@
 {
-  "updated": "2026-08-17T03:34:03.707764Z",
-  "total": 3619,
+  "updated": "2026-08-17T04:23:28.059521Z",
+  "total": 3641,
   "items": [
     {
-      "key": "INC-12801",
+      "key": "INC-12823",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64672",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12823"
+    },
+    {
+      "key": "INC-12822",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12822"
+    },
+    {
+      "key": "INC-12821",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12821"
+    },
+    {
+      "key": "INC-12820",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12820"
+    },
+    {
+      "key": "INC-12819",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66655",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12819"
+    },
+    {
+      "key": "INC-12818",
+      "summary": "\u2705 RESOLVED | PROD | Service error-rate breach",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12818"
+    },
+    {
+      "key": "INC-12817",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64671",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12817"
+    },
+    {
+      "key": "INC-12816",
       "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12816"
+    },
+    {
+      "key": "INC-12815",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66654",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12815"
+    },
+    {
+      "key": "INC-12814",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12814"
+    },
+    {
+      "key": "INC-12813",
+      "summary": "\u2705 RESOLVED | PROD | Latency warning p95 (>1s)",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12813"
+    },
+    {
+      "key": "INC-12812",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12812"
+    },
+    {
+      "key": "INC-12811",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12811"
+    },
+    {
+      "key": "INC-12810",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12810"
+    },
+    {
+      "key": "INC-12809",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66653",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12809"
+    },
+    {
+      "key": "INC-12808",
+      "summary": "\u2705 RESOLVED | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12808"
+    },
+    {
+      "key": "INC-12807",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66652",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "RegInsight",
+        "UAT",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12807"
+    },
+    {
+      "key": "INC-12806",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64669",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "RegInsight",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12806"
+    },
+    {
+      "key": "INC-12805",
+      "summary": "P3 - Experiencing slowness on DRPSQLPROD01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12805"
+    },
+    {
+      "key": "INC-12804",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66652",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12804"
+    },
+    {
+      "key": "INC-12803",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64669",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12803"
+    },
+    {
+      "key": "INC-12802",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-12802"
+    },
+    {
+      "key": "INC-12801",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -3649,25 +3923,31 @@
     {
       "key": "INC-12498",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-12498"
     },
     {
       "key": "INC-12497",
       "summary": "[critical] UKSPREPSQL02 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-12497"
     },
     {
@@ -5607,7 +5887,11 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-08-15",
       "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-12335"
@@ -14874,7 +15158,7 @@
         "24x7"
       ],
       "created": "2026-08-13",
-      "updated": "2026-08-13",
+      "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-11567"
     },
     {
@@ -26945,7 +27229,7 @@
         "sql"
       ],
       "created": "2026-08-06",
-      "updated": "2026-08-11",
+      "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-10586"
     },
     {
