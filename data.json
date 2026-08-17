@@ -1,8 +1,28 @@
 {
-  "updated": "2026-08-17T11:56:08.996068Z",
+  "updated": "2026-08-17T12:52:39.136039Z",
   "total": 38,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-08-17",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "10/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. RAG is Amber due to status of the pipeline migration."
+        }
+      ]
+    },
     {
       "key": "CPN-1321",
       "summary": "RegInsight - Insight Analysis capabilities with Insights",
@@ -35,26 +55,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1527",
       "panels": []
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-08-17",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "10/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. RAG is Amber due to status of the pipeline migration."
-        }
-      ]
     },
     {
       "key": "CPN-1528",
