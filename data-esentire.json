@@ -1,7 +1,139 @@
 {
-  "updated": "2026-08-17T12:53:16.928452Z",
-  "total": 3798,
+  "updated": "2026-08-17T13:35:36.757172Z",
+  "total": 3807,
   "items": [
+    {
+      "key": "INC-13011",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13011"
+    },
+    {
+      "key": "INC-13010",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "In Triage",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13010"
+    },
+    {
+      "key": "INC-13009",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13009"
+    },
+    {
+      "key": "INC-13008",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13008"
+    },
+    {
+      "key": "INC-13007",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13007"
+    },
+    {
+      "key": "INC-13006",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13006"
+    },
+    {
+      "key": "INC-13005",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13005"
+    },
+    {
+      "key": "INC-13004",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13004"
+    },
+    {
+      "key": "INC-13003",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13003"
+    },
+    {
+      "key": "INC-13002",
+      "summary": "[critical] UKSPREPSQL02 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13002"
+    },
+    {
+      "key": "INC-13001",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13001"
+    },
     {
       "key": "INC-13000",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
@@ -29443,7 +29575,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-08-05",
-      "updated": "2026-08-13",
+      "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-10579"
     },
     {
@@ -46715,32 +46847,6 @@
       "created": "2026-07-19",
       "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9194"
-    },
-    {
-      "key": "INC-9193",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-18",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9193"
-    },
-    {
-      "key": "INC-9192",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-18",
-      "updated": "2026-07-18",
-      "url": "https://cube001.atlassian.net/browse/INC-9192"
     }
   ]
 }

@@ -1,8 +1,27 @@
 {
-  "updated": "2026-08-17T12:52:41.834562Z",
+  "updated": "2026-08-17T13:35:10.832535Z",
   "total": 13,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-682",
+      "summary": "Geo-Blocked Content Access Resolution",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-03-31",
+      "reviewed": "2026-08-17",
+      "labels": [
+        "Content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-682",
+      "panels": [
+        {
+          "type": "info",
+          "text": "03/08/26 ProtonVPN has been onboarded. Ticket for Proton VPN subscription -        to action set up of Proton VPN. BrightData is used by 4CRisk and requires onboarding. This has the benefit of being whitelisted for a number of government websites, which makes monitoring of these IBs easier. Additional ProtonVPN proxies are being onboarded."
+        }
+      ]
+    },
     {
       "key": "CPN-196",
       "summary": "Content in Cloud",
@@ -52,25 +71,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1593",
       "panels": []
-    },
-    {
-      "key": "CPN-682",
-      "summary": "Geo-Blocked Content Access Resolution",
-      "status": "Build & Test",
-      "assignee": "Manish Shivanandhan",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-08-03",
-      "labels": [
-        "Content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-682",
-      "panels": [
-        {
-          "type": "info",
-          "text": "03/08/26 ProtonVPN has been onboarded. Ticket for Proton VPN subscription -        to action set up of Proton VPN. BrightData is used by 4CRisk and requires onboarding. This has the benefit of being whitelisted for a number of government websites, which makes monitoring of these IBs easier. Additional ProtonVPN proxies are being onboarded."
-        }
-      ]
     },
     {
       "key": "CPN-50",
