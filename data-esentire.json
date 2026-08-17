@@ -1,7 +1,95 @@
 {
-  "updated": "2026-08-17T14:40:23.811825Z",
-  "total": 3822,
+  "updated": "2026-08-17T15:02:02.611186Z",
+  "total": 3829,
   "items": [
+    {
+      "key": "INC-13033",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13033"
+    },
+    {
+      "key": "INC-13032",
+      "summary": "[critical] CUBETEST1SQL04 - CPU greater than 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13032"
+    },
+    {
+      "key": "INC-13031",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13031"
+    },
+    {
+      "key": "INC-13030",
+      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13030"
+    },
+    {
+      "key": "INC-13029",
+      "summary": "[critical] CUBETEST1SQL04 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13029"
+    },
+    {
+      "key": "INC-13028",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13028"
+    },
+    {
+      "key": "INC-13027",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-17",
+      "updated": "2026-08-17",
+      "url": "https://cube001.atlassian.net/browse/INC-13027"
+    },
     {
       "key": "INC-13026",
       "summary": "[critical] CUBEPROD2FS01 - Storage Utilisation greater than 90% for more than 15 Minutes",
@@ -11443,13 +11531,15 @@
     {
       "key": "INC-12076",
       "summary": "ACKNOWLEDGEMENT REQUIRED - ATLAS NOTIFICATION: CS5015109 - HIGH - ATTACK - CUBE Content Governance Global Limited",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-14",
-      "updated": "2026-08-15",
+      "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-12076"
     },
     {
