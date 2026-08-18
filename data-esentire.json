@@ -1,7 +1,127 @@
 {
-  "updated": "2026-08-18T07:10:51.201924Z",
-  "total": 4072,
+  "updated": "2026-08-18T07:55:12.682231Z",
+  "total": 4082,
   "items": [
+    {
+      "key": "INC-13304",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13304"
+    },
+    {
+      "key": "INC-13303",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13303"
+    },
+    {
+      "key": "INC-13302",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001ct - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13302"
+    },
+    {
+      "key": "INC-13301",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13301"
+    },
+    {
+      "key": "INC-13300",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13300"
+    },
+    {
+      "key": "INC-13299",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13299"
+    },
+    {
+      "key": "INC-13298",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13298"
+    },
+    {
+      "key": "INC-13297",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13297"
+    },
+    {
+      "key": "INC-13296",
+      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
+      "status": "Closed",
+      "assignee": "Gokulakrishnan Palanisamy",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13296"
+    },
+    {
+      "key": "INC-13295",
+      "summary": "\u2705 RESOLVED | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13295"
+    },
     {
       "key": "INC-13294",
       "summary": "Your daily Uptrends report: Account overview",
@@ -77,11 +197,15 @@
     {
       "key": "INC-13288",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-18",
       "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13288"
@@ -2789,11 +2913,11 @@
       "summary": "PROD RegPlatform Login Page Not Loading - Page Spinning",
       "status": "In Progress",
       "assignee": "Unassigned",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13064"
     },
     {
@@ -30168,9 +30292,13 @@
       "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-10",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-10801"
     },
     {
@@ -35449,7 +35577,7 @@
         "newrelic"
       ],
       "created": "2026-08-03",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-10383"
     },
     {
@@ -36857,7 +36985,7 @@
         "UAT"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-13",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-10270"
     },
     {
