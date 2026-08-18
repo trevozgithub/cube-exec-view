@@ -1,12 +1,60 @@
 {
-  "updated": "2026-08-18T17:51:22.781886Z",
-  "total": 4247,
+  "updated": "2026-08-18T18:23:34.694801Z",
+  "total": 4249,
   "items": [
+    {
+      "key": "INC-13478",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13478"
+    },
+    {
+      "key": "INC-13477",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13477"
+    },
+    {
+      "key": "INC-13476",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13476"
+    },
+    {
+      "key": "INC-13475",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13475"
+    },
     {
       "key": "INC-13474",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -52143,36 +52191,6 @@
       "created": "2026-07-19",
       "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9219"
-    },
-    {
-      "key": "INC-9218",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-19",
-      "updated": "2026-07-19",
-      "url": "https://cube001.atlassian.net/browse/INC-9218"
-    },
-    {
-      "key": "INC-9217",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Pipeline",
-        "RegInsight",
-        "SQL",
-        "alerts"
-      ],
-      "created": "2026-07-19",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9217"
     }
   ]
 }
