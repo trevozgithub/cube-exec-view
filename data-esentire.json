@@ -1,12 +1,292 @@
 {
-  "updated": "2026-08-18T00:50:19.755830Z",
-  "total": 3994,
+  "updated": "2026-08-18T02:08:04.639065Z",
+  "total": 4015,
   "items": [
+    {
+      "key": "INC-13222",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13222"
+    },
+    {
+      "key": "INC-13221",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13221"
+    },
+    {
+      "key": "INC-13220",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13220"
+    },
+    {
+      "key": "INC-13219",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13219"
+    },
+    {
+      "key": "INC-13218",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13218"
+    },
+    {
+      "key": "INC-13217",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13217"
+    },
+    {
+      "key": "INC-13216",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13216"
+    },
+    {
+      "key": "INC-13215",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13215"
+    },
+    {
+      "key": "INC-13214",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13214"
+    },
+    {
+      "key": "INC-13213",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13213"
+    },
+    {
+      "key": "INC-13212",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13212"
+    },
+    {
+      "key": "INC-13211",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13211"
+    },
+    {
+      "key": "INC-13210",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13210"
+    },
+    {
+      "key": "INC-13209",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13209"
+    },
+    {
+      "key": "INC-13208",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13208"
+    },
+    {
+      "key": "INC-13207",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13207"
+    },
+    {
+      "key": "INC-13206",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13206"
+    },
+    {
+      "key": "INC-13205",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13205"
+    },
+    {
+      "key": "INC-13204",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13204"
+    },
+    {
+      "key": "INC-13203",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13203"
+    },
+    {
+      "key": "INC-13202",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13202"
+    },
+    {
+      "key": "INC-13201",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13201"
+    },
+    {
+      "key": "INC-13200",
+      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13200"
+    },
     {
       "key": "INC-13199",
       "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +297,8 @@
     {
       "key": "INC-13198",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +309,8 @@
     {
       "key": "INC-13197",
       "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41,8 +321,8 @@
     {
       "key": "INC-13196",
       "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -54,7 +334,7 @@
       "key": "INC-13195",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Johnmar Carlos Wabe",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -215,19 +495,21 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13182"
     },
     {
       "key": "INC-13181",
       "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13181"
     },
     {
@@ -2275,7 +2557,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13011"
     },
     {
@@ -2311,7 +2593,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13008"
     },
     {
@@ -2323,7 +2605,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13007"
     },
     {
@@ -2371,7 +2653,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13003"
     },
     {
@@ -2383,7 +2665,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-13002"
     },
     {
@@ -2491,7 +2773,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12993"
     },
     {
@@ -2503,7 +2785,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12992"
     },
     {
@@ -2527,7 +2809,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12990"
     },
     {
@@ -2587,7 +2869,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12985"
     },
     {
@@ -2623,7 +2905,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12982"
     },
     {
@@ -2707,7 +2989,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12975"
     },
     {
@@ -2719,7 +3001,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12974"
     },
     {
@@ -2767,7 +3049,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12970"
     },
     {
@@ -2779,7 +3061,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12969"
     },
     {
@@ -2803,7 +3085,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12967"
     },
     {
@@ -2815,7 +3097,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12966"
     },
     {
@@ -2827,7 +3109,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12965"
     },
     {
@@ -2839,7 +3121,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12964"
     },
     {
@@ -2851,7 +3133,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12963"
     },
     {
@@ -2889,7 +3171,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12960"
     },
     {
@@ -2901,7 +3183,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12959"
     },
     {
@@ -2913,7 +3195,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12958"
     },
     {
@@ -2925,7 +3207,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12957"
     },
     {
@@ -2985,7 +3267,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12952"
     },
     {
@@ -3083,7 +3365,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12944"
     },
     {
@@ -3119,7 +3401,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12941"
     },
     {
@@ -3131,7 +3413,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12940"
     },
     {
@@ -3167,7 +3449,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12937"
     },
     {
@@ -3179,7 +3461,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12936"
     },
     {
@@ -3191,7 +3473,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12935"
     },
     {
@@ -3227,7 +3509,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12932"
     },
     {
@@ -3239,7 +3521,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12931"
     },
     {
@@ -3311,7 +3593,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12925"
     },
     {
@@ -3323,7 +3605,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12924"
     },
     {
@@ -3335,7 +3617,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12923"
     },
     {
@@ -3359,7 +3641,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12921"
     },
     {
@@ -3371,7 +3653,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12920"
     },
     {
@@ -3383,7 +3665,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12919"
     },
     {
@@ -3455,7 +3737,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12913"
     },
     {
@@ -3467,7 +3749,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12912"
     },
     {
@@ -3479,7 +3761,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12911"
     },
     {
@@ -3611,7 +3893,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12900"
     },
     {
@@ -3623,7 +3905,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12899"
     },
     {
@@ -3635,7 +3917,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12898"
     },
     {
@@ -3647,7 +3929,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12897"
     },
     {
@@ -3755,7 +4037,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12888"
     },
     {
@@ -3767,7 +4049,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12887"
     },
     {
@@ -3779,7 +4061,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12886"
     },
     {
@@ -3841,7 +4123,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12881"
     },
     {
@@ -3865,7 +4147,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12879"
     },
     {
@@ -3925,7 +4207,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12874"
     },
     {
@@ -3973,7 +4255,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12870"
     },
     {
@@ -4119,7 +4401,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12857"
     },
     {
@@ -4191,7 +4473,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12851"
     },
     {
@@ -4275,7 +4557,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12844"
     },
     {
@@ -4491,7 +4773,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12826"
     },
     {
@@ -4551,7 +4833,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12821"
     },
     {
@@ -4563,7 +4845,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12820"
     },
     {
@@ -4611,7 +4893,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12816"
     },
     {
@@ -4671,7 +4953,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12811"
     },
     {
@@ -4683,7 +4965,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12810"
     },
     {
@@ -4789,7 +5071,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12802"
     },
     {
@@ -4801,7 +5083,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12801"
     },
     {
@@ -4837,7 +5119,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12798"
     },
     {
@@ -4849,7 +5131,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12797"
     },
     {
@@ -4861,7 +5143,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12796"
     },
     {
@@ -4957,7 +5239,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12788"
     },
     {
@@ -4969,7 +5251,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12787"
     },
     {
@@ -5069,7 +5351,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12779"
     },
     {
@@ -5153,7 +5435,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12772"
     },
     {
@@ -5189,7 +5471,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12769"
     },
     {
@@ -5201,7 +5483,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12768"
     },
     {
@@ -5225,7 +5507,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12766"
     },
     {
@@ -5357,7 +5639,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12755"
     },
     {
@@ -5513,7 +5795,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12742"
     },
     {
@@ -5753,7 +6035,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12722"
     },
     {
@@ -5765,7 +6047,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12721"
     },
     {
@@ -5777,7 +6059,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12720"
     },
     {
@@ -5789,7 +6071,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12719"
     },
     {
@@ -5801,7 +6083,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12718"
     },
     {
@@ -5837,7 +6119,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12715"
     },
     {
@@ -7005,7 +7287,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12618"
     },
     {
@@ -7209,7 +7491,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12601"
     },
     {
@@ -7245,7 +7527,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12598"
     },
     {
@@ -7293,7 +7575,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12594"
     },
     {
@@ -7329,7 +7611,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12591"
     },
     {
@@ -7341,7 +7623,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12590"
     },
     {
@@ -7389,7 +7671,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12586"
     },
     {
@@ -7485,7 +7767,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12578"
     },
     {
@@ -7521,7 +7803,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12575"
     },
     {
@@ -7821,7 +8103,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12550"
     },
     {
@@ -7929,7 +8211,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12541"
     },
     {
@@ -7941,7 +8223,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12540"
     },
     {
@@ -7977,7 +8259,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12537"
     },
     {
@@ -7989,7 +8271,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12536"
     },
     {
@@ -8097,7 +8379,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12527"
     },
     {
@@ -8109,7 +8391,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12526"
     },
     {
@@ -8219,7 +8501,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12517"
     },
     {
@@ -8267,7 +8549,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12513"
     },
     {
@@ -8303,7 +8585,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12510"
     },
     {
@@ -8363,7 +8645,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12505"
     },
     {
@@ -8411,7 +8693,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12501"
     },
     {
@@ -8435,7 +8717,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12499"
     },
     {
@@ -8450,7 +8732,7 @@
         "newrelic"
       ],
       "created": "2026-08-16",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12498"
     },
     {
@@ -8465,7 +8747,7 @@
         "newrelic"
       ],
       "created": "2026-08-16",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12497"
     },
     {
@@ -8501,7 +8783,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12494"
     },
     {
@@ -8717,7 +8999,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12476"
     },
     {
@@ -8767,7 +9049,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12472"
     },
     {
@@ -8865,7 +9147,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-16",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12464"
     },
     {
@@ -8937,7 +9219,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-15",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12458"
     },
     {
@@ -8961,7 +9243,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-15",
-      "updated": "2026-08-16",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12456"
     },
     {
@@ -9143,7 +9425,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-15",
-      "updated": "2026-08-15",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-12441"
     },
     {
@@ -15637,7 +15919,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11903"
     },
     {
@@ -15661,7 +15943,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11901"
     },
     {
@@ -15673,7 +15955,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11900"
     },
     {
@@ -15685,7 +15967,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11899"
     },
     {
@@ -15697,7 +15979,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11898"
     },
     {
@@ -15709,7 +15991,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11897"
     },
     {
@@ -15721,7 +16003,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11896"
     },
     {
@@ -15745,7 +16027,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11894"
     },
     {
@@ -15757,7 +16039,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11893"
     },
     {
@@ -15769,7 +16051,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11892"
     },
     {
@@ -15781,7 +16063,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11891"
     },
     {
@@ -15793,7 +16075,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11890"
     },
     {
@@ -15805,7 +16087,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11889"
     },
     {
@@ -15817,7 +16099,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11888"
     },
     {
@@ -15829,7 +16111,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11887"
     },
     {
@@ -15841,7 +16123,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11886"
     },
     {
@@ -15997,7 +16279,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11873"
     },
     {
@@ -16129,7 +16411,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11862"
     },
     {
@@ -21101,7 +21383,7 @@
         "24x7"
       ],
       "created": "2026-08-12",
-      "updated": "2026-08-17",
+      "updated": "2026-08-18",
       "url": "https://cube001.atlassian.net/browse/INC-11451"
     },
     {
@@ -49072,35 +49354,6 @@
       "created": "2026-07-19",
       "updated": "2026-07-19",
       "url": "https://cube001.atlassian.net/browse/INC-9197"
-    },
-    {
-      "key": "INC-9196",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9619",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "browserstack",
-        "health-check",
-        "rm"
-      ],
-      "created": "2026-07-19",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9196"
-    },
-    {
-      "key": "INC-9195",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #9619",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-19",
-      "updated": "2026-07-19",
-      "url": "https://cube001.atlassian.net/browse/INC-9195"
     }
   ]
 }
