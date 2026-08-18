@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-18T19:38:30.032906Z",
-  "total": 4259,
+  "updated": "2026-08-18T19:57:18.415764Z",
+  "total": 4262,
   "items": [
+    {
+      "key": "INC-13491",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13491"
+    },
+    {
+      "key": "INC-13490",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13490"
+    },
+    {
+      "key": "INC-13489",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-18",
+      "updated": "2026-08-18",
+      "url": "https://cube001.atlassian.net/browse/INC-13489"
+    },
     {
       "key": "INC-13488",
       "summary": "[critical] CUBETEST1RDI05 - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Nicole Tan-Flores",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -689,7 +725,7 @@
     {
       "key": "INC-13431",
       "summary": "VT-vCenter-DS vSphere - vCenter - Datastore Status: VT-CUBE-PS01-RGP-PROD-SQL01 CRITICAL  - Datastore Usage is 98.16%",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
