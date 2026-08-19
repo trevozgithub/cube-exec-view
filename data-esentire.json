@@ -1,12 +1,88 @@
 {
-  "updated": "2026-08-19T05:18:47.489223Z",
-  "total": 4316,
+  "updated": "2026-08-19T05:51:55.621250Z",
+  "total": 4322,
   "items": [
+    {
+      "key": "INC-13560",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13560"
+    },
+    {
+      "key": "INC-13559",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001cd - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13559"
+    },
+    {
+      "key": "INC-13558",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13558"
+    },
+    {
+      "key": "INC-13557",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13557"
+    },
+    {
+      "key": "INC-13556",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13556"
+    },
+    {
+      "key": "INC-13555",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13555"
+    },
     {
       "key": "INC-13554",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +105,8 @@
     {
       "key": "INC-13552",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -33775,7 +33851,7 @@
         "newrelic"
       ],
       "created": "2026-08-10",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-10767"
     },
     {
