@@ -1,7 +1,58 @@
 {
-  "updated": "2026-08-19T05:51:55.621250Z",
-  "total": 4322,
+  "updated": "2026-08-19T06:30:03.209737Z",
+  "total": 4326,
   "items": [
+    {
+      "key": "INC-13564",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13564"
+    },
+    {
+      "key": "INC-13563",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001cd - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13563"
+    },
+    {
+      "key": "INC-13562",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13562"
+    },
+    {
+      "key": "INC-13561",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13561"
+    },
     {
       "key": "INC-13560",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
@@ -29,8 +80,8 @@
     {
       "key": "INC-13558",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
