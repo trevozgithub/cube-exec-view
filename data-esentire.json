@@ -1,7 +1,82 @@
 {
-  "updated": "2026-08-19T04:07:27.817556Z",
-  "total": 4309,
+  "updated": "2026-08-19T04:50:19.693443Z",
+  "total": 4314,
   "items": [
+    {
+      "key": "INC-13551",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13551"
+    },
+    {
+      "key": "INC-13549",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13549"
+    },
+    {
+      "key": "INC-13548",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13548"
+    },
+    {
+      "key": "INC-13547",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13547"
+    },
+    {
+      "key": "INC-13546",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13546"
+    },
+    {
+      "key": "INC-13545",
+      "summary": "INFRA-MGMT LOW DISK SPACE",
+      "status": "To Do",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "ops",
+        "patching"
+      ],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13545"
+    },
     {
       "key": "INC-13544",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -438,7 +513,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13509"
     },
     {
@@ -52920,18 +52995,6 @@
       "created": "2026-07-20",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9226"
-    },
-    {
-      "key": "INC-9225",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9225"
     }
   ]
 }
