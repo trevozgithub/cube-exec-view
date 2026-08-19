@@ -1,7 +1,81 @@
 {
-  "updated": "2026-08-19T14:57:58.387542Z",
-  "total": 4402,
+  "updated": "2026-08-19T15:39:08.048812Z",
+  "total": 4405,
   "items": [
+    {
+      "key": "INC-13659",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13659"
+    },
+    {
+      "key": "INC-13658",
+      "summary": "CUBEREGSBASE DOWN - for Decom",
+      "status": "Completed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13658"
+    },
+    {
+      "key": "INC-13657",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13657"
+    },
+    {
+      "key": "INC-13656",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13656"
+    },
+    {
+      "key": "INC-13655",
+      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13655"
+    },
+    {
+      "key": "INC-13654",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13654"
+    },
     {
       "key": "INC-13653",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -46934,7 +47008,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-07-27",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-9813"
     },
     {
@@ -54013,49 +54087,6 @@
       "created": "2026-07-20",
       "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9245"
-    },
-    {
-      "key": "INC-9242",
-      "summary": "New Relic Alert \u2013 BITS service repeatedly stopping/starting on CUBEPROD2IIS03",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-20",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9242"
-    },
-    {
-      "key": "INC-9241",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9241"
-    },
-    {
-      "key": "INC-9240",
-      "summary": "CUBEUAT2APP01 - BITS Service Cycling and Elevated Storage Usage",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P5",
-      "issuetype": "Service Incident",
-      "labels": [
-        "bits",
-        "storage",
-        "uat",
-        "windows"
-      ],
-      "created": "2026-07-20",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9240"
     }
   ]
 }

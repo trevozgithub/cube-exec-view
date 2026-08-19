@@ -1,83 +1,35 @@
 {
-  "updated": "2026-08-19T14:57:20.933603Z",
-  "total": 26,
+  "updated": "2026-08-19T15:38:36.766055Z",
+  "total": 25,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
     {
-      "key": "CPN-1024",
-      "summary": "Identity & Access Management",
-      "status": "Build & Test",
-      "assignee": "Graham Case",
-      "duedate": "2026-07-31",
+      "key": "CPN-124",
+      "summary": "Linux workstation/virtualization decommissioning",
+      "status": "Scoping",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "",
       "reviewed": "2026-08-19",
       "labels": [
         "InfoSec",
-        "cye-cyber-audit"
+        "cye-cyber-audit",
+        "migrated"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1024",
-      "panels": []
-    },
-    {
-      "key": "CPN-1588",
-      "summary": " InfoSec - Urgent Support Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-08-18",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1588",
-      "panels": []
-    },
-    {
-      "key": "CPN-1819",
-      "summary": "Vendors not continuously monitored",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-08-18",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1819",
-      "panels": []
-    },
-    {
-      "key": "CPN-1585",
-      "summary": "InfoSec - Maintenance Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-08-17",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1585",
-      "panels": []
-    },
-    {
-      "key": "CPN-1820",
-      "summary": "Lack of continuous response capability",
-      "status": "Operational Readiness",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-08-17",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1820",
-      "panels": []
+      "url": "https://cube001.atlassian.net/browse/CPN-124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
+        }
+      ]
     },
     {
       "key": "CPN-1369",
       "summary": "SOC2 Audit",
       "status": "Build & Test",
       "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-08-13",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-08-19",
       "labels": [
         "InfoSec",
         "cye-cyber-audit",
@@ -92,12 +44,49 @@
       ]
     },
     {
+      "key": "CPN-1820",
+      "summary": "Lack of continuous response capability",
+      "status": "Operational Readiness",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1820",
+      "panels": []
+    },
+    {
+      "key": "CPN-132",
+      "summary": "Security - SSO/MFA - All Applications",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-132",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
+        },
+        {
+          "type": "info",
+          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
+        }
+      ]
+    },
+    {
       "key": "CPN-1810",
       "summary": "Board not involved in cyber",
       "status": "Build & Test",
       "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-08-10",
+      "duedate": "2026-08-14",
+      "reviewed": "2026-08-19",
       "labels": [
         "InfoSec",
         "cye-cyber-audit"
@@ -106,16 +95,84 @@
       "panels": []
     },
     {
+      "key": "CPN-1585",
+      "summary": "InfoSec - Maintenance Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1585",
+      "panels": []
+    },
+    {
       "key": "CPN-1583",
       "summary": "InfoSec - Administrative Tasks Q3 2026",
       "status": "Build & Test",
       "assignee": "Muhim Hussen",
       "duedate": "2026-06-30",
-      "reviewed": "2026-08-05",
+      "reviewed": "2026-08-19",
       "labels": [
         "InfoSec"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1583",
+      "panels": []
+    },
+    {
+      "key": "CPN-1588",
+      "summary": " InfoSec - Urgent Support Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1588",
+      "panels": []
+    },
+    {
+      "key": "CPN-1821",
+      "summary": "Lack of CTI programme",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1821",
+      "panels": []
+    },
+    {
+      "key": "CPN-1819",
+      "summary": "Vendors not continuously monitored",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1819",
+      "panels": []
+    },
+    {
+      "key": "CPN-1024",
+      "summary": "Identity & Access Management",
+      "status": "Build & Test",
+      "assignee": "Graham Case",
+      "duedate": "2026-07-31",
+      "reviewed": "2026-08-19",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1024",
       "panels": []
     },
     {
@@ -136,43 +193,6 @@
           "text": "03/08/26 Formal project close down meeting to be scheduled by Ash. Remaining actions will be tracked on the regular Monday calls with Ash. Final training sessions are being held."
         }
       ]
-    },
-    {
-      "key": "CPN-132",
-      "summary": "Security - SSO/MFA - All Applications",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-08-03",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-132",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
-        },
-        {
-          "type": "info",
-          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1821",
-      "summary": "Lack of CTI programme",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-07-30",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1821",
-      "panels": []
     },
     {
       "key": "CPN-1808",
@@ -201,26 +221,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1809",
       "panels": []
-    },
-    {
-      "key": "CPN-124",
-      "summary": "Linux workstation/virtualization decommissioning",
-      "status": "Scoping",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "",
-      "reviewed": "2026-07-28",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit",
-        "migrated"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "- I\u2019ve asked Muhim to check whether there are any outstanding actions related to this. The last time we discussed whether conditional access policies would prevent Linux workstations from accessing our assets."
-        }
-      ]
     },
     {
       "key": "CPN-1825",
@@ -370,19 +370,6 @@
         "InfoSec"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-905",
-      "panels": []
-    },
-    {
-      "key": "CPN-604",
-      "summary": "Endpoint Automated Tests Vanta -",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-01-08",
-      "reviewed": "2026-02-10",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-604",
       "panels": []
     }
   ]
