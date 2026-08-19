@@ -1,7 +1,79 @@
 {
-  "updated": "2026-08-19T06:30:03.209737Z",
-  "total": 4326,
+  "updated": "2026-08-19T07:22:53.869159Z",
+  "total": 4329,
   "items": [
+    {
+      "key": "INC-13570",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13570"
+    },
+    {
+      "key": "INC-13569",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13569"
+    },
+    {
+      "key": "INC-13568",
+      "summary": "00015670 - Urgent: 504 timeout issue for Regbook API",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13568"
+    },
+    {
+      "key": "INC-13567",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13567"
+    },
+    {
+      "key": "INC-13566",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13566"
+    },
+    {
+      "key": "INC-13565",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13565"
+    },
     {
       "key": "INC-13564",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -41,7 +113,7 @@
     {
       "key": "INC-13561",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2226,13 +2298,15 @@
     {
       "key": "INC-13380",
       "summary": "PROBLEM: Microsoft SQL - Active transactions: hangfire_compliance_prod is CRITICAL on host CUBEPRODSQL",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13380"
     },
     {
@@ -3156,7 +3230,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13303"
     },
     {
@@ -18993,7 +19067,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-14",
-      "updated": "2026-08-14",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-11993"
     },
     {
@@ -25559,7 +25633,7 @@
         "newrelic"
       ],
       "created": "2026-08-12",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-11451"
     },
     {
@@ -42032,7 +42106,7 @@
     {
       "key": "INC-10118",
       "summary": "API Connect Health Checks Errors - PROD & UAT",
-      "status": "Completed",
+      "status": "In Progress",
       "assignee": "Priyanka Bali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -42044,7 +42118,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -53106,44 +53180,6 @@
       "created": "2026-07-20",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9230"
-    },
-    {
-      "key": "INC-9229",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-20",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9229"
-    },
-    {
-      "key": "INC-9228",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9228"
-    },
-    {
-      "key": "INC-9227",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9227"
     }
   ]
 }
