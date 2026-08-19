@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-19T09:21:42.692602Z",
+  "updated": "2026-08-19T09:56:40.647813Z",
   "total": 4336,
   "items": [
     {
+      "key": "INC-13580",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001df - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13580"
+    },
+    {
+      "key": "INC-13579",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13579"
+    },
+    {
+      "key": "INC-13578",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13578"
+    },
+    {
       "key": "INC-13577",
       "summary": "[critical] aks-ctins02-16016004-vmss0001df - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -31253,7 +31289,7 @@
         "24x7"
       ],
       "created": "2026-08-11",
-      "updated": "2026-08-14",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-10998"
     },
     {
@@ -53226,46 +53262,6 @@
       "created": "2026-07-20",
       "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9233"
-    },
-    {
-      "key": "INC-9232",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9232"
-    },
-    {
-      "key": "INC-9231",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9231"
-    },
-    {
-      "key": "INC-9230",
-      "summary": "NewRelic SQL Dashboard widgets not updating - Pipeline schedule failure (recurrence of INC-8464)",
-      "status": "Completed",
-      "assignee": "Craig Waddington",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-20",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9230"
     }
   ]
 }
