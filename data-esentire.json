@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-18T23:53:03.940314Z",
-  "total": 4287,
+  "updated": "2026-08-19T00:58:51.765121Z",
+  "total": 4291,
   "items": [
+    {
+      "key": "INC-13526",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13526"
+    },
+    {
+      "key": "INC-13525",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13525"
+    },
+    {
+      "key": "INC-13524",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13524"
+    },
+    {
+      "key": "INC-13523",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66829",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13523"
+    },
+    {
+      "key": "INC-13522",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-19",
+      "updated": "2026-08-19",
+      "url": "https://cube001.atlassian.net/browse/INC-13522"
+    },
     {
       "key": "INC-13521",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
@@ -1093,9 +1153,13 @@
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13431"
     },
     {
@@ -3509,9 +3573,13 @@
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "eSentire_Alert"
+      ],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13231"
     },
     {
@@ -15988,9 +16056,13 @@
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-15",
-      "updated": "2026-08-18",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-12197"
     },
     {
@@ -22102,7 +22174,7 @@
     {
       "key": "INC-11690",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -22113,7 +22185,7 @@
         "database"
       ],
       "created": "2026-08-13",
-      "updated": "2026-08-17",
+      "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-11690"
     },
     {
@@ -52637,18 +52709,6 @@
       "created": "2026-07-20",
       "updated": "2026-07-20",
       "url": "https://cube001.atlassian.net/browse/INC-9225"
-    },
-    {
-      "key": "INC-9224",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-20",
-      "updated": "2026-07-20",
-      "url": "https://cube001.atlassian.net/browse/INC-9224"
     }
   ]
 }
