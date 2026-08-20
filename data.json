@@ -1,8 +1,27 @@
 {
-  "updated": "2026-08-20T10:02:34.233635Z",
-  "total": 38,
+  "updated": "2026-08-20T10:42:42.613796Z",
+  "total": 32,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-1529",
+      "summary": "RegPlatform - Integrated Risk Control Module",
+      "status": "Operational Readiness",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-08-20",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1529",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 13/08:  Now integrated with RGP. Considered done. Next step is forming customer rollout plan     The Integrated Risk Control Module within RegPlatform will enable financial institutions to seamlessly connect regulatory obligations to their risk control environment, creating a single, auditable view of compliance and control coverage"
+        }
+      ]
+    },
     {
       "key": "CPN-1618",
       "summary": "OpRisk - Administrative Tasks Q3 2026",
@@ -332,25 +351,6 @@
       ]
     },
     {
-      "key": "CPN-1529",
-      "summary": "RegPlatform - Integrated Risk Control Module",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1529",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 13/08:  Now integrated with RGP. Considered done. Next step is forming customer rollout plan     The Integrated Risk Control Module within RegPlatform will enable financial institutions to seamlessly connect regulatory obligations to their risk control environment, creating a single, auditable view of compliance and control coverage"
-        }
-      ]
-    },
-    {
       "key": "CPN-1616",
       "summary": "OpRisk- Customer Enhancements Q3 2026",
       "status": "Build & Test",
@@ -362,20 +362,6 @@
         "consumer"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1616",
-      "panels": []
-    },
-    {
-      "key": "CPN-1520",
-      "summary": "RegPlatform - Priorities Coworker for Horizon Scanning",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-07-16",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1520",
       "panels": []
     },
     {
@@ -405,25 +391,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1524",
       "panels": []
-    },
-    {
-      "key": "CPN-1041",
-      "summary": "RegConnect - Add Data Integrity Verification [JPMC]",
-      "status": "Operational Readiness",
-      "assignee": "Vamsee Chinta",
-      "duedate": "",
-      "reviewed": "2026-07-15",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1041",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 23/06:  The linked items have been completed. We need to understand whether there are additional requirements before closing"
-        }
-      ]
     },
     {
       "key": "CPN-1531",
@@ -496,46 +463,6 @@
       "panels": []
     },
     {
-      "key": "CPN-71",
-      "summary": "RegPlatform - Audit Capability",
-      "status": "Build & Test",
-      "assignee": "Unassigned",
-      "duedate": "",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "Consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-71",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 22/06: This was a Q1 activity that is now planned for rollout in Q3. So have added this item to the Initiative view instead of creating a new initiative. It is unclear how this will be resourced. Lee to confirm with Jeremy. Initial roll out to production for DB and API complete to on-prem. Currently awaiting service bus queues/topics setup for hydrator and update functions. Need confirmation about client data on cloud though. This is RED and we do not expect to conclude in Q1. Should drop from the Q1 commitment. New scope - must release INF changes to capture AUDIT in LIVE  No further UI work for quarter  Complete audit event for RegFlow Complete audit events for RegGroup Start audit audit events for RegAdmin Complete audit events for RegBooks Complete audit events for RegInsights Deploy to limited users on UAT and Production"
-        }
-      ]
-    },
-    {
-      "key": "CPN-44",
-      "summary": "RegFlow - Refactor Ph1 (e2e automated tests, processing service spike)",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-07-09",
-      "labels": [
-        "Consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-44",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 16/03: Step 2 Processing Service:  We have a DEV environment and are working on a simple vertical slice to validate auth. Working with cloud team to spin up environments beyond DEV     Step 1 End-2-End Automated Tests:  As of this update the team have automated  113/153 (73%)  end to end tests.           RegFlow - Refactor Tickets & Tracking - Cube RegPlatform - Confluence RegFlow Overhaul Strategy Documen t"
-        },
-        {
-          "type": "note",
-          "text": "Plan for a plan under review Ben meeting to agree approach and plan to be scheduled following product spec sign off. Expanded team to re-factor regflow outside of deployment -       to agree team struture. Product specification document sign-off needed - document updated and with    for sign off. Review of e2e test coverage - automated test engineer needed - resources to be identified and priority call needed. API enhancements to decouple form updates from deployments. Timeline to run to end 2025, to be split into quarterly committments10"
-        }
-      ]
-    },
-    {
       "key": "CPN-53",
       "summary": "RDS retirement",
       "status": "Scoping",
@@ -550,27 +477,6 @@
         {
           "type": "info",
           "text": "Risk mitigation  - explore with remaining customer, FCB options to reduce risk such as implementing a VPN or whitelisting.  Action with     Product   - inventory and records management functionality used by FCB and internal compliance reviews needs scoping by product.  Agreed that Lee Fairy will kick off work on his return. Windows servers being decommissioned but does not fully mitigate risk."
-        }
-      ]
-    },
-    {
-      "key": "CPN-288",
-      "summary": "RegExtract Phase 1",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "2025-12-31",
-      "reviewed": "2026-06-04",
-      "labels": [
-        "consumer",
-        "regbooks",
-        "regextract",
-        "reggroup"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-288",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 12/12 -  Customer validation in progress. They have asked for analysis to a deeper level. Awaiting customer sign-off"
         }
       ]
     },
@@ -623,24 +529,6 @@
         {
           "type": "info",
           "text": "Status 17/12: Current approach is to design content and master data endpoints for Intel and Enterprise migration target customers (and new Enterprise customers) that represent our desired One API future state, and encourage existng Enterprise customers to them. The original proposal was to make these available on a single subdomain - connect.gocube.global.    There are two parts to this: API end point and contract design.  The starting point was a review of the convergence opportunities between Enterprise and proposed Intel.  Final design of content endpoints is in progress. Technical design to have all sit between connect but be accessible on same or similar domain.  Sid has presented initial proposal.  Needs completion and sign-off."
-        }
-      ]
-    },
-    {
-      "key": "CPN-555",
-      "summary": "RegInsight Customer Enhancements",
-      "status": "Post Launch Review",
-      "assignee": "Mike Warren",
-      "duedate": "2025-11-25",
-      "reviewed": "2026-01-08",
-      "labels": [
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-555",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 05/12: This can be closed"
         }
       ]
     }
