@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-20T15:18:28.900399Z",
-  "total": 4493,
+  "updated": "2026-08-20T15:54:02.006895Z",
+  "total": 4487,
   "items": [
+    {
+      "key": "INC-13794",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13794"
+    },
+    {
+      "key": "INC-13793",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13793"
+    },
+    {
+      "key": "INC-13792",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13792"
+    },
     {
       "key": "INC-13791",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -55031,123 +55067,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9299"
-    },
-    {
-      "key": "INC-9298",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64263",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9298"
-    },
-    {
-      "key": "INC-9297",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62305",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9297"
-    },
-    {
-      "key": "INC-9296",
-      "summary": "Horrible performance - RegPlatform PROD",
-      "status": "Completed",
-      "assignee": "Dapo Afolabi",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9296"
-    },
-    {
-      "key": "INC-9295",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64262",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9295"
-    },
-    {
-      "key": "INC-9294",
-      "summary": "Very poor performance in LIVE - 21/07/26",
-      "status": "Completed",
-      "assignee": "Dapo Afolabi",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9294"
-    },
-    {
-      "key": "INC-9293",
-      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9293"
-    },
-    {
-      "key": "INC-9292",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64261",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "browserstack"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9292"
-    },
-    {
-      "key": "INC-9291",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64261",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9291"
-    },
-    {
-      "key": "INC-9290",
-      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9290"
     }
   ]
 }
