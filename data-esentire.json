@@ -1,12 +1,60 @@
 {
-  "updated": "2026-08-20T13:07:54.862674Z",
-  "total": 4474,
+  "updated": "2026-08-20T13:58:08.442067Z",
+  "total": 4476,
   "items": [
+    {
+      "key": "INC-13771",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "In Triage",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13771"
+    },
+    {
+      "key": "INC-13770",
+      "summary": "[critical] capture-test-uksouth-insight-mongodb-vm - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13770"
+    },
+    {
+      "key": "INC-13769",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13769"
+    },
+    {
+      "key": "INC-13768",
+      "summary": "[critical] capture-test-uksouth-insight-mongodb-vm - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13768"
+    },
     {
       "key": "INC-13767",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -959,13 +1007,15 @@
     {
       "key": "INC-13689",
       "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13689"
     },
     {
@@ -1465,7 +1515,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13648"
     },
     {
@@ -54903,30 +54953,6 @@
       "created": "2026-07-21",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9286"
-    },
-    {
-      "key": "INC-9285",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62297",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9285"
-    },
-    {
-      "key": "INC-9284",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9284"
     }
   ]
 }
