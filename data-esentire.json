@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20T10:43:12.512455Z",
-  "total": 4466,
+  "updated": "2026-08-20T11:09:28.460514Z",
+  "total": 4465,
   "items": [
     {
       "key": "INC-13751",
@@ -41,11 +41,13 @@
     {
       "key": "INC-13748",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS07",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13748"
@@ -54817,18 +54819,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9277"
-    },
-    {
-      "key": "INC-9276",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62286",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9276"
     }
   ]
 }
