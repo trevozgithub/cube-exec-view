@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-19T23:50:23.212828Z",
-  "total": 4450,
+  "updated": "2026-08-20T00:31:58.686163Z",
+  "total": 4449,
   "items": [
+    {
+      "key": "INC-13708",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13708"
+    },
     {
       "key": "INC-13707",
       "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
@@ -1829,7 +1841,7 @@
       "key": "INC-13557",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
       "status": "To Do",
-      "assignee": "LJ Rendal",
+      "assignee": "Masoom Miah",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -1838,7 +1850,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13557"
     },
     {
@@ -2286,11 +2298,13 @@
     {
       "key": "INC-13519",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 3000_4000ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-18",
       "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13519"
@@ -2322,25 +2336,29 @@
     {
       "key": "INC-13516",
       "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13516"
     },
     {
       "key": "INC-13515",
       "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-18",
-      "updated": "2026-08-18",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13515"
     },
     {
@@ -2406,13 +2424,15 @@
     {
       "key": "INC-13509",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-18",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13509"
     },
     {
@@ -6653,7 +6673,7 @@
         "24x7"
       ],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13161"
     },
     {
@@ -7811,13 +7831,15 @@
     {
       "key": "INC-13064",
       "summary": "PROD RegPlatform Login Page Not Loading - Page Spinning",
-      "status": "In Progress",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-17",
-      "updated": "2026-08-18",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13064"
     },
     {
@@ -43784,7 +43806,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -54617,30 +54639,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9250"
-    },
-    {
-      "key": "INC-9249",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9249"
-    },
-    {
-      "key": "INC-9248",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9248"
     }
   ]
 }
