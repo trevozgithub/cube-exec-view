@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-20T15:54:02.006895Z",
-  "total": 4487,
+  "updated": "2026-08-20T16:32:25.280181Z",
+  "total": 4479,
   "items": [
+    {
+      "key": "INC-13796",
+      "summary": "SJP-Client stuck loading ",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13796"
+    },
     {
       "key": "INC-13794",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
@@ -54951,122 +54963,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9308"
-    },
-    {
-      "key": "INC-9307",
-      "summary": "UAT doesn't load - spinning CUBE",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9307"
-    },
-    {
-      "key": "INC-9306",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64265",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9306"
-    },
-    {
-      "key": "INC-9305",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Completed",
-      "assignee": "Muhammad Jahangir",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "ELKAlert",
-        "LIVE",
-        "schedularservice"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9305"
-    },
-    {
-      "key": "INC-9304",
-      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9304"
-    },
-    {
-      "key": "INC-9303",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9303"
-    },
-    {
-      "key": "INC-9302",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64264",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9302"
-    },
-    {
-      "key": "INC-9301",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62306",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9301"
-    },
-    {
-      "key": "INC-9300",
-      "summary": "P1: LIVE - Scheduler Service - 4 exceptions in the last 20mins",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9300"
-    },
-    {
-      "key": "INC-9299",
-      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9299"
     }
   ]
 }
