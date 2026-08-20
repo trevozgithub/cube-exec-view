@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-20T06:28:33.296166Z",
-  "total": 4447,
+  "updated": "2026-08-20T07:24:43.971280Z",
+  "total": 4448,
   "items": [
+    {
+      "key": "INC-13724",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13724"
+    },
+    {
+      "key": "INC-13723",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13723"
+    },
+    {
+      "key": "INC-13722",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13722"
+    },
+    {
+      "key": "INC-13721",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13721"
+    },
+    {
+      "key": "INC-13720",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13720"
+    },
     {
       "key": "INC-13719",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -17,11 +77,13 @@
     {
       "key": "INC-13718",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS07",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13718"
@@ -41,11 +103,13 @@
     {
       "key": "INC-13716",
       "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13716"
@@ -2108,7 +2172,7 @@
     {
       "key": "INC-13545",
       "summary": "INFRA-MGMT LOW DISK SPACE",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2117,7 +2181,7 @@
         "patching"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13545"
     },
     {
@@ -2146,7 +2210,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13543"
     },
     {
@@ -54556,56 +54620,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9267"
-    },
-    {
-      "key": "INC-9266",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9266"
-    },
-    {
-      "key": "INC-9265",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9265"
-    },
-    {
-      "key": "INC-9264",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9264"
-    },
-    {
-      "key": "INC-9263",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62270",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9263"
     }
   ]
 }
