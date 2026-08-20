@@ -1,12 +1,36 @@
 {
-  "updated": "2026-08-20T23:36:05.847116Z",
-  "total": 4466,
+  "updated": "2026-08-20T23:57:45.580830Z",
+  "total": 4465,
   "items": [
+    {
+      "key": "INC-13817",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13817"
+    },
+    {
+      "key": "INC-13816",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13816"
+    },
     {
       "key": "INC-13815",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -234,10 +258,13 @@
       "key": "INC-13796",
       "summary": "SJP-Client stuck loading ",
       "status": "To Do",
-      "assignee": "Andrei Item",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "VM"
+      ],
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13796"
@@ -54761,44 +54788,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9343"
-    },
-    {
-      "key": "INC-9342",
-      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9342"
-    },
-    {
-      "key": "INC-9341",
-      "summary": "CUBEUAT2APP02 query result is > 97.0 for 10 minutes on 'High Memory Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9341"
-    },
-    {
-      "key": "INC-9340",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64295",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9340"
     }
   ]
 }
