@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20T03:07:51.791646Z",
-  "total": 4453,
+  "updated": "2026-08-20T03:57:21.133974Z",
+  "total": 4451,
   "items": [
     {
       "key": "INC-13712",
@@ -8389,9 +8389,13 @@
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "alerts"
+      ],
       "created": "2026-08-17",
-      "updated": "2026-08-17",
+      "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13023"
     },
     {
@@ -54661,34 +54665,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9252"
-    },
-    {
-      "key": "INC-9251",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "opsview"
-      ],
-      "created": "2026-07-21",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9251"
-    },
-    {
-      "key": "INC-9250",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9250"
     }
   ]
 }
