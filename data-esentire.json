@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-20T11:09:28.460514Z",
-  "total": 4465,
+  "updated": "2026-08-20T11:42:10.359450Z",
+  "total": 4467,
   "items": [
+    {
+      "key": "INC-13754",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13754"
+    },
+    {
+      "key": "INC-13753",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13753"
+    },
+    {
+      "key": "INC-13752",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "url": "https://cube001.atlassian.net/browse/INC-13752"
+    },
     {
       "key": "INC-13751",
       "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
@@ -175,7 +211,7 @@
     {
       "key": "INC-13737",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7189,8 +7225,8 @@
     {
       "key": "INC-13161",
       "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "In Progress",
-      "assignee": "Silver Dangeros",
+      "status": "Completed",
+      "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -54807,18 +54843,6 @@
       "created": "2026-07-21",
       "updated": "2026-07-21",
       "url": "https://cube001.atlassian.net/browse/INC-9278"
-    },
-    {
-      "key": "INC-9277",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-21",
-      "updated": "2026-07-21",
-      "url": "https://cube001.atlassian.net/browse/INC-9277"
     }
   ]
 }
