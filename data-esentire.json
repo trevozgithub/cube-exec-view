@@ -1,12 +1,84 @@
 {
-  "updated": "2026-08-21T07:14:00.531142Z",
+  "updated": "2026-08-21T08:00:55.141250Z",
   "total": 4481,
   "items": [
+    {
+      "key": "INC-13890",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13890"
+    },
+    {
+      "key": "INC-13889",
+      "summary": "[critical] CUBEAZDEV1EXC01 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13889"
+    },
+    {
+      "key": "INC-13888",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10411",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13888"
+    },
+    {
+      "key": "INC-13887",
+      "summary": "[critical] CUBEAZDEV1EXC01 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13887"
+    },
+    {
+      "key": "INC-13886",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13886"
+    },
+    {
+      "key": "INC-13885",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10411",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13885"
+    },
     {
       "key": "INC-13884",
       "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -20,7 +92,7 @@
       "key": "INC-13883",
       "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -69,7 +141,7 @@
     {
       "key": "INC-13879",
       "summary": "Your daily Uptrends report: Account overview",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
@@ -709,7 +781,7 @@
     {
       "key": "INC-13827",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -29474,7 +29546,7 @@
         "newrelic"
       ],
       "created": "2026-08-12",
-      "updated": "2026-08-19",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-11451"
     },
     {
@@ -54908,80 +54980,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9400"
-    },
-    {
-      "key": "INC-9399",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64327",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9399"
-    },
-    {
-      "key": "INC-9398",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9398"
-    },
-    {
-      "key": "INC-9397",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64326",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9397"
-    },
-    {
-      "key": "INC-9396",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9396"
-    },
-    {
-      "key": "INC-9395",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64325",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9395"
-    },
-    {
-      "key": "INC-9394",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64324",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9394"
     }
   ]
 }
