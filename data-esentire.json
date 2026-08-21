@@ -1,11 +1,23 @@
 {
-  "updated": "2026-08-21T20:35:33.707438Z",
-  "total": 4524,
+  "updated": "2026-08-21T20:58:00.731804Z",
+  "total": 4523,
   "items": [
+    {
+      "key": "INC-13969",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13969"
+    },
     {
       "key": "INC-13968",
       "summary": "[critical] CUBEPROD1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -17,8 +29,8 @@
     {
       "key": "INC-13967",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -55465,34 +55477,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9437"
-    },
-    {
-      "key": "INC-9436",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "LIVE",
-        "Migration",
-        "alerts"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9436"
-    },
-    {
-      "key": "INC-9435",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9435"
     }
   ]
 }
