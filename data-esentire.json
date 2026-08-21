@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-21T19:20:20.528612Z",
-  "total": 4517,
+  "updated": "2026-08-21T20:01:13.558928Z",
+  "total": 4519,
   "items": [
+    {
+      "key": "INC-13962",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13962"
+    },
+    {
+      "key": "INC-13961",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13961"
+    },
     {
       "key": "INC-13960",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
@@ -317,11 +341,13 @@
     {
       "key": "INC-13934",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67079",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13934"
