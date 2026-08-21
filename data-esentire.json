@@ -1,7 +1,203 @@
 {
-  "updated": "2026-08-21T06:20:03.874225Z",
-  "total": 4470,
+  "updated": "2026-08-21T07:14:00.531142Z",
+  "total": 4481,
   "items": [
+    {
+      "key": "INC-13884",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13884"
+    },
+    {
+      "key": "INC-13883",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13883"
+    },
+    {
+      "key": "INC-13882",
+      "summary": "[critical] CUBEPROD1RDI05 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13882"
+    },
+    {
+      "key": "INC-13881",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13881"
+    },
+    {
+      "key": "INC-13880",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13880"
+    },
+    {
+      "key": "INC-13879",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "In Triage",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13879"
+    },
+    {
+      "key": "INC-13878",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13878"
+    },
+    {
+      "key": "INC-13877",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13877"
+    },
+    {
+      "key": "INC-13876",
+      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13876"
+    },
+    {
+      "key": "INC-13875",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13875"
+    },
+    {
+      "key": "INC-13874",
+      "summary": "[critical] CUBEPROD1RDI05 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13874"
+    },
+    {
+      "key": "INC-13873",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13873"
+    },
+    {
+      "key": "INC-13872",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13872"
+    },
+    {
+      "key": "INC-13871",
+      "summary": "[critical] CUBEPROD1RDI05 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13871"
+    },
+    {
+      "key": "INC-13870",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13870"
+    },
+    {
+      "key": "INC-13869",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13869"
+    },
     {
       "key": "INC-13868",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
@@ -3801,7 +3997,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13557"
     },
     {
@@ -43879,7 +44075,7 @@
         "UAT"
       ],
       "created": "2026-07-31",
-      "updated": "2026-08-18",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-10270"
     },
     {
@@ -54786,66 +54982,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9394"
-    },
-    {
-      "key": "INC-9393",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9393"
-    },
-    {
-      "key": "INC-9392",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64323",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9392"
-    },
-    {
-      "key": "INC-9391",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64322",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9391"
-    },
-    {
-      "key": "INC-9390",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9390"
-    },
-    {
-      "key": "INC-9389",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64321",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9389"
     }
   ]
 }
