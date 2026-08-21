@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-21T04:24:23.551581Z",
-  "total": 4468,
+  "updated": "2026-08-21T05:05:17.601094Z",
+  "total": 4469,
   "items": [
+    {
+      "key": "INC-13857",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13857"
+    },
+    {
+      "key": "INC-13856",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13856"
+    },
+    {
+      "key": "INC-13855",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "In Triage",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13855"
+    },
+    {
+      "key": "INC-13854",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13854"
+    },
+    {
+      "key": "INC-13853",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13853"
+    },
     {
       "key": "INC-13852",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -2940,13 +3000,15 @@
     {
       "key": "INC-13611",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 300_500ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-19",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13611"
     },
     {
@@ -3756,7 +3818,7 @@
     {
       "key": "INC-13543",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3767,7 +3829,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13543"
     },
     {
@@ -54778,54 +54840,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9379"
-    },
-    {
-      "key": "INC-9378",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64315",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9378"
-    },
-    {
-      "key": "INC-9377",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64313",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9377"
-    },
-    {
-      "key": "INC-9376",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64314",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9376"
-    },
-    {
-      "key": "INC-9375",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9375"
     }
   ]
 }
