@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-21T16:25:44.186585Z",
-  "total": 4507,
+  "updated": "2026-08-21T17:01:55.449294Z",
+  "total": 4508,
   "items": [
+    {
+      "key": "INC-13947",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13947"
+    },
+    {
+      "key": "INC-13946",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13946"
+    },
+    {
+      "key": "INC-13945",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13945"
+    },
     {
       "key": "INC-13944",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
@@ -17,7 +53,7 @@
     {
       "key": "INC-13943",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -55263,32 +55299,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9430"
-    },
-    {
-      "key": "INC-9429",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9429"
-    },
-    {
-      "key": "INC-9428",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9428"
     }
   ]
 }
