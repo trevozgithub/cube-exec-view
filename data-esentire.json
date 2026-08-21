@@ -1,12 +1,36 @@
 {
-  "updated": "2026-08-21T11:43:23.952672Z",
+  "updated": "2026-08-21T12:04:53.917576Z",
   "total": 4491,
   "items": [
     {
-      "key": "INC-13915",
+      "key": "INC-13917",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13917"
+    },
+    {
+      "key": "INC-13916",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13916"
+    },
+    {
+      "key": "INC-13915",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -615,7 +639,7 @@
     {
       "key": "INC-13865",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -787,7 +811,7 @@
     {
       "key": "INC-13851",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -55076,32 +55100,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9417"
-    },
-    {
-      "key": "INC-9416",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9416"
-    },
-    {
-      "key": "INC-9415",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9415"
     }
   ]
 }
