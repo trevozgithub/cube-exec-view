@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-21T14:41:50.859214Z",
-  "total": 4503,
+  "updated": "2026-08-21T15:16:08.533171Z",
+  "total": 4502,
   "items": [
+    {
+      "key": "INC-13937",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13937"
+    },
+    {
+      "key": "INC-13936",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13936"
+    },
     {
       "key": "INC-13935",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
@@ -55207,47 +55231,6 @@
       "created": "2026-07-22",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9426"
-    },
-    {
-      "key": "INC-9425",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9425"
-    },
-    {
-      "key": "INC-9424",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "ELKAlert",
-        "Migration",
-        "UAT",
-        "alerts"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9424"
-    },
-    {
-      "key": "INC-9423",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9423"
     }
   ]
 }
