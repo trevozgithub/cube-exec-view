@@ -1,11 +1,83 @@
 {
-  "updated": "2026-08-21T15:52:48.272073Z",
-  "total": 4503,
+  "updated": "2026-08-21T16:25:44.186585Z",
+  "total": 4507,
   "items": [
+    {
+      "key": "INC-13944",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13944"
+    },
+    {
+      "key": "INC-13943",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13943"
+    },
+    {
+      "key": "INC-13942",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13942"
+    },
+    {
+      "key": "INC-13941",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL04",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13941"
+    },
+    {
+      "key": "INC-13940",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13940"
+    },
+    {
+      "key": "INC-13939",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL04",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13939"
+    },
     {
       "key": "INC-13938",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -55217,32 +55289,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9428"
-    },
-    {
-      "key": "INC-9427",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9427"
-    },
-    {
-      "key": "INC-9426",
-      "summary": "VT-R01-SAN-SW01 -  CRITICAL Alert Interface: TenGigabitEthernet 1/17",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9426"
     }
   ]
 }
