@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-21T10:03:44.459611Z",
-  "total": 4488,
+  "updated": "2026-08-21T10:43:26.756823Z",
+  "total": 4490,
   "items": [
+    {
+      "key": "INC-13909",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13909"
+    },
+    {
+      "key": "INC-13908",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13908"
+    },
     {
       "key": "INC-13907",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
@@ -239,7 +263,7 @@
     {
       "key": "INC-13888",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10411",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1976,7 +2000,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13746"
     },
     {
@@ -2174,13 +2198,15 @@
     {
       "key": "INC-13729",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 200_400ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13729"
     },
     {
@@ -3602,13 +3628,15 @@
     {
       "key": "INC-13612",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-19",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13612"
     },
     {
@@ -28405,7 +28433,7 @@
         "24x7"
       ],
       "created": "2026-08-13",
-      "updated": "2026-08-13",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-11561"
     },
     {
