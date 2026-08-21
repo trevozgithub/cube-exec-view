@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-21T09:31:23.392133Z",
-  "total": 4490,
+  "updated": "2026-08-21T10:03:44.459611Z",
+  "total": 4488,
   "items": [
+    {
+      "key": "INC-13907",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13907"
+    },
+    {
+      "key": "INC-13906",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13906"
+    },
+    {
+      "key": "INC-13905",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13905"
+    },
     {
       "key": "INC-13904",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -101,11 +137,13 @@
     {
       "key": "INC-13896",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13896"
@@ -113,11 +151,13 @@
     {
       "key": "INC-13895",
       "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13895"
@@ -185,11 +225,13 @@
     {
       "key": "INC-13889",
       "summary": "[critical] CUBEAZDEV1EXC01 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-13889"
@@ -37625,7 +37667,7 @@
         "newrelic"
       ],
       "created": "2026-08-10",
-      "updated": "2026-08-18",
+      "updated": "2026-08-21",
       "url": "https://cube001.atlassian.net/browse/INC-10801"
     },
     {
@@ -55024,68 +55066,6 @@
       "created": "2026-07-22",
       "updated": "2026-07-22",
       "url": "https://cube001.atlassian.net/browse/INC-9410"
-    },
-    {
-      "key": "INC-9409",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-22",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9409"
-    },
-    {
-      "key": "INC-9408",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9408"
-    },
-    {
-      "key": "INC-9407",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64334",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9407"
-    },
-    {
-      "key": "INC-9406",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64333",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9406"
-    },
-    {
-      "key": "INC-9405",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9405"
     }
   ]
 }
