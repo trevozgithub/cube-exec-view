@@ -1,12 +1,72 @@
 {
-  "updated": "2026-08-21T05:05:17.601094Z",
+  "updated": "2026-08-21T05:46:17.675294Z",
   "total": 4469,
   "items": [
     {
-      "key": "INC-13857",
+      "key": "INC-13862",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13862"
+    },
+    {
+      "key": "INC-13861",
+      "summary": "[critical] aks-ctbook06-13154044-vmss0002hj - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13861"
+    },
+    {
+      "key": "INC-13860",
       "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13860"
+    },
+    {
+      "key": "INC-13859",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13859"
+    },
+    {
+      "key": "INC-13858",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-21",
+      "updated": "2026-08-21",
+      "url": "https://cube001.atlassian.net/browse/INC-13858"
+    },
+    {
+      "key": "INC-13857",
+      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +77,8 @@
     {
       "key": "INC-13856",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,7 +89,7 @@
     {
       "key": "INC-13855",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
@@ -54780,66 +54840,6 @@
       "created": "2026-07-22",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9384"
-    },
-    {
-      "key": "INC-9383",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64318",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9383"
-    },
-    {
-      "key": "INC-9382",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9382"
-    },
-    {
-      "key": "INC-9381",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9381"
-    },
-    {
-      "key": "INC-9380",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64317",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9380"
-    },
-    {
-      "key": "INC-9379",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64316",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-22",
-      "updated": "2026-07-22",
-      "url": "https://cube001.atlassian.net/browse/INC-9379"
     }
   ]
 }
