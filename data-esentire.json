@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-22T00:03:00.313775Z",
-  "total": 4523,
+  "updated": "2026-08-22T01:46:58.767254Z",
+  "total": 4519,
   "items": [
+    {
+      "key": "INC-13979",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13979"
+    },
+    {
+      "key": "INC-13978",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13978"
+    },
+    {
+      "key": "INC-13977",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13977"
+    },
+    {
+      "key": "INC-13976",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13976"
+    },
+    {
+      "key": "INC-13975",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13975"
+    },
     {
       "key": "INC-13974",
       "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
@@ -215,7 +275,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13957"
     },
     {
@@ -613,7 +673,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13924"
     },
     {
@@ -42223,7 +42283,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-17",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-10506"
     },
     {
@@ -55363,120 +55423,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9451"
-    },
-    {
-      "key": "INC-9450",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62433",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9450"
-    },
-    {
-      "key": "INC-9449",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9449"
-    },
-    {
-      "key": "INC-9448",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9448"
-    },
-    {
-      "key": "INC-9447",
-      "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9447"
-    },
-    {
-      "key": "INC-9446",
-      "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9446"
-    },
-    {
-      "key": "INC-9445",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9445"
-    },
-    {
-      "key": "INC-9444",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9444"
-    },
-    {
-      "key": "INC-9443",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9443"
-    },
-    {
-      "key": "INC-9442",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9442"
     }
   ]
 }
