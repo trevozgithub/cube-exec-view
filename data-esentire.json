@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T12:02:38.055341Z",
-  "total": 4523,
+  "updated": "2026-08-22T12:57:06.174532Z",
+  "total": 4517,
   "items": [
     {
       "key": "INC-14005",
@@ -17,11 +17,13 @@
     {
       "key": "INC-14004",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67159",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-14004"
@@ -1299,7 +1301,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13900"
     },
     {
@@ -2216,7 +2218,7 @@
         "alerts"
       ],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13827"
     },
     {
@@ -32203,7 +32205,7 @@
         "24x7"
       ],
       "created": "2026-08-12",
-      "updated": "2026-08-18",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-11353"
     },
     {
@@ -55424,84 +55426,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9479"
-    },
-    {
-      "key": "INC-9478",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62467",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9478"
-    },
-    {
-      "key": "INC-9477",
-      "summary": "DRP PROD RDI Loader Service Down",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9477"
-    },
-    {
-      "key": "INC-9476",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9476"
-    },
-    {
-      "key": "INC-9475",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9475"
-    },
-    {
-      "key": "INC-9474",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9474"
-    },
-    {
-      "key": "INC-9473",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9473"
     }
   ]
 }
