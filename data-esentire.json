@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T08:43:05.096017Z",
-  "total": 4536,
+  "updated": "2026-08-22T09:11:18.550404Z",
+  "total": 4535,
   "items": [
     {
       "key": "INC-14000",
@@ -937,11 +937,13 @@
     {
       "key": "INC-13924",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13924"
@@ -949,13 +951,15 @@
     {
       "key": "INC-13923",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13923"
     },
     {
@@ -1033,11 +1037,13 @@
     {
       "key": "INC-13916",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13916"
@@ -1375,7 +1381,7 @@
     {
       "key": "INC-13888",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10411",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -55648,20 +55654,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9456"
-    },
-    {
-      "key": "INC-9455",
-      "summary": "Alert: Kazakh translations failing silently",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Systran"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9455"
     }
   ]
 }
