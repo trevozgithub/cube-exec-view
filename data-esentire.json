@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T04:48:02.697193Z",
-  "total": 4532,
+  "updated": "2026-08-22T05:14:24.031046Z",
+  "total": 4531,
   "items": [
     {
       "key": "INC-13995",
@@ -17,7 +17,7 @@
     {
       "key": "INC-13994",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65074",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -65,7 +65,7 @@
     {
       "key": "INC-13990",
       "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -81,11 +81,16 @@
     {
       "key": "INC-13989",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67132",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "InsightRelated",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13989"
@@ -55586,18 +55591,6 @@
       "created": "2026-07-23",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9455"
-    },
-    {
-      "key": "INC-9454",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9454"
     }
   ]
 }
