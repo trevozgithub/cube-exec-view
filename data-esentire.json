@@ -1,7 +1,33 @@
 {
-  "updated": "2026-08-22T23:01:01.797131Z",
-  "total": 4505,
+  "updated": "2026-08-22T23:30:24.551690Z",
+  "total": 4506,
   "items": [
+    {
+      "key": "INC-14028",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14028"
+    },
+    {
+      "key": "INC-14027",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14027"
+    },
     {
       "key": "INC-14026",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
@@ -17,8 +43,8 @@
     {
       "key": "INC-14025",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -845,11 +871,13 @@
     {
       "key": "INC-13957",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13957"
@@ -55248,18 +55276,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9512"
-    },
-    {
-      "key": "INC-9511",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9511"
     }
   ]
 }
