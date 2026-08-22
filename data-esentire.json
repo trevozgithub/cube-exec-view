@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T21:02:15.004423Z",
-  "total": 4503,
+  "updated": "2026-08-22T21:31:45.695802Z",
+  "total": 4504,
   "items": [
+    {
+      "key": "INC-14019",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14019"
+    },
     {
       "key": "INC-14018",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -77,11 +89,13 @@
     {
       "key": "INC-14012",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-14012"
