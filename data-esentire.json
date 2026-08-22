@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-22T06:14:50.748810Z",
-  "total": 4531,
+  "updated": "2026-08-22T07:03:31.582793Z",
+  "total": 4533,
   "items": [
+    {
+      "key": "INC-13997",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13997"
+    },
+    {
+      "key": "INC-13996",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13996"
+    },
     {
       "key": "INC-13995",
       "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
@@ -669,13 +693,15 @@
     {
       "key": "INC-13941",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13941"
     },
     {
@@ -977,7 +1003,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13916"
     },
     {
@@ -1838,11 +1864,13 @@
     {
       "key": "INC-13846",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13846"
@@ -11519,7 +11547,7 @@
     {
       "key": "INC-13051",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -11529,7 +11557,7 @@
         "opsview"
       ],
       "created": "2026-08-17",
-      "updated": "2026-08-20",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13051"
     },
     {
