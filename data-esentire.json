@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-22T01:46:58.767254Z",
-  "total": 4519,
+  "updated": "2026-08-22T02:43:01.402092Z",
+  "total": 4520,
   "items": [
+    {
+      "key": "INC-13982",
+      "summary": "[critical] CUBEPROD1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13982"
+    },
+    {
+      "key": "INC-13981",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13981"
+    },
+    {
+      "key": "INC-13980",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13980"
+    },
     {
       "key": "INC-13979",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
@@ -668,7 +704,7 @@
       "key": "INC-13924",
       "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Justin Andrei Magbuhat",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -1374,12 +1410,12 @@
       "key": "INC-13866",
       "summary": "[critical] aks-ctbook06-13154044-vmss0002hj - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "LJ Rendal",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13866"
     },
     {
@@ -1629,7 +1665,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13846"
     },
     {
@@ -5012,9 +5048,13 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "API",
+        "Alerts-From-Staff"
+      ],
       "created": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13568"
     },
     {
@@ -5153,7 +5193,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-21",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13557"
     },
     {
@@ -55399,30 +55439,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9453"
-    },
-    {
-      "key": "INC-9452",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9452"
-    },
-    {
-      "key": "INC-9451",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9451"
     }
   ]
 }
