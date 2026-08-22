@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T05:46:39.207738Z",
+  "updated": "2026-08-22T06:14:50.748810Z",
   "total": 4531,
   "items": [
     {
@@ -17,11 +17,16 @@
     {
       "key": "INC-13994",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65074",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "InsightRelated",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13994"
@@ -81,7 +86,7 @@
     {
       "key": "INC-13989",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67132",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1581,11 +1586,13 @@
     {
       "key": "INC-13866",
       "summary": "[critical] aks-ctbook06-13154044-vmss0002hj - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13866"
