@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T09:11:18.550404Z",
+  "updated": "2026-08-22T09:43:59.852043Z",
   "total": 4535,
   "items": [
+    {
+      "key": "INC-14001",
+      "summary": "[critical] CUBEPROD1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14001"
+    },
     {
       "key": "INC-14000",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -223,11 +235,13 @@
     {
       "key": "INC-13983",
       "summary": "[critical] CUBEPROD1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13983"
@@ -55642,18 +55656,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9457"
-    },
-    {
-      "key": "INC-9456",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9456"
     }
   ]
 }
