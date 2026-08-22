@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T22:42:35.922447Z",
+  "updated": "2026-08-22T23:01:01.797131Z",
   "total": 4505,
   "items": [
+    {
+      "key": "INC-14026",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14026"
+    },
     {
       "key": "INC-14025",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -55248,21 +55260,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9511"
-    },
-    {
-      "key": "INC-9510",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "ELKAlert"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9510"
     }
   ]
 }
