@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T04:08:12.063413Z",
-  "total": 4531,
+  "updated": "2026-08-22T04:48:02.697193Z",
+  "total": 4532,
   "items": [
+    {
+      "key": "INC-13995",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-13995"
+    },
     {
       "key": "INC-13994",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65074",
@@ -17,8 +29,8 @@
     {
       "key": "INC-13993",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67133",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -57,7 +69,11 @@
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "InsightRelated",
+        "newrelic"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13990"
