@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T09:43:59.852043Z",
-  "total": 4535,
+  "updated": "2026-08-22T10:02:26.701969Z",
+  "total": 4534,
   "items": [
+    {
+      "key": "INC-14002",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14002"
+    },
     {
       "key": "INC-14001",
       "summary": "[critical] CUBEPROD1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
@@ -55630,32 +55642,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9459"
-    },
-    {
-      "key": "INC-9458",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62459",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9458"
-    },
-    {
-      "key": "INC-9457",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62459",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9457"
     }
   ]
 }
