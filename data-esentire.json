@@ -1,7 +1,33 @@
 {
-  "updated": "2026-08-22T23:30:24.551690Z",
+  "updated": "2026-08-22T23:50:58.872140Z",
   "total": 4506,
   "items": [
+    {
+      "key": "INC-14030",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14030"
+    },
+    {
+      "key": "INC-14029",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14029"
+    },
     {
       "key": "INC-14028",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -31,8 +57,8 @@
     {
       "key": "INC-14026",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -239,11 +265,13 @@
     {
       "key": "INC-14008",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67175",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-14008"
@@ -55248,34 +55276,6 @@
       "created": "2026-07-24",
       "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9514"
-    },
-    {
-      "key": "INC-9513",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "ELKAlert",
-        "Migration"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9513"
-    },
-    {
-      "key": "INC-9512",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9512"
     }
   ]
 }
