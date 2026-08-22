@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T21:52:57.628163Z",
+  "updated": "2026-08-22T22:16:46.762277Z",
   "total": 4503,
   "items": [
+    {
+      "key": "INC-14021",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14021"
+    },
     {
       "key": "INC-14020",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -9634,7 +9646,7 @@
     {
       "key": "INC-13231",
       "summary": "ATLAS NOTIFICATION: CS5016313 - MEDIUM - SUSPICIOUS - CUBE Content Governance Global Limited",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -55225,21 +55237,6 @@
       "created": "2026-07-23",
       "updated": "2026-07-23",
       "url": "https://cube001.atlassian.net/browse/INC-9509"
-    },
-    {
-      "key": "INC-9508",
-      "summary": "Files not progressing through DRP PROD RDI Loader",
-      "status": "Completed",
-      "assignee": "Craig Waddington",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9508"
     }
   ]
 }
