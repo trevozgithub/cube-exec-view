@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-22T21:31:45.695802Z",
-  "total": 4504,
+  "updated": "2026-08-22T21:52:57.628163Z",
+  "total": 4503,
   "items": [
+    {
+      "key": "INC-14020",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-22",
+      "updated": "2026-08-22",
+      "url": "https://cube001.atlassian.net/browse/INC-14020"
+    },
     {
       "key": "INC-14019",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -9632,7 +9644,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-08-18",
-      "updated": "2026-08-20",
+      "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13231"
     },
     {
@@ -55228,32 +55240,6 @@
       "created": "2026-07-23",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9508"
-    },
-    {
-      "key": "INC-9507",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-23",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9507"
-    },
-    {
-      "key": "INC-9506",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-23",
-      "updated": "2026-07-23",
-      "url": "https://cube001.atlassian.net/browse/INC-9506"
     }
   ]
 }
