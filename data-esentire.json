@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-23T18:55:40.238600Z",
-  "total": 4444,
+  "updated": "2026-08-23T19:23:17.356884Z",
+  "total": 4442,
   "items": [
+    {
+      "key": "INC-14065",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14065"
+    },
     {
       "key": "INC-14064",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -54462,42 +54474,6 @@
       "created": "2026-07-24",
       "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9613"
-    },
-    {
-      "key": "INC-9612",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL07",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9612"
-    },
-    {
-      "key": "INC-9611",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL08",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9611"
-    },
-    {
-      "key": "INC-9610",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9610"
     }
   ]
 }
