@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-23T15:51:54.085573Z",
-  "total": 4463,
+  "updated": "2026-08-23T16:16:07.097002Z",
+  "total": 4460,
   "items": [
+    {
+      "key": "INC-14061",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14061"
+    },
     {
       "key": "INC-14060",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -54689,56 +54701,6 @@
       "created": "2026-07-24",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-9591"
-    },
-    {
-      "key": "INC-9590",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-24",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9590"
-    },
-    {
-      "key": "INC-9589",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9589"
-    },
-    {
-      "key": "INC-9588",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL07",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9588"
-    },
-    {
-      "key": "INC-9587",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL08",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9587"
     }
   ]
 }
