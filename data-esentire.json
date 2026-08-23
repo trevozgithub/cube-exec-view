@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T07:10:07.176568Z",
-  "total": 4500,
+  "updated": "2026-08-23T07:47:38.826031Z",
+  "total": 4498,
   "items": [
     {
       "key": "INC-14045",
@@ -41,11 +41,13 @@
     {
       "key": "INC-14042",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10457",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-23",
       "updated": "2026-08-23",
       "url": "https://cube001.atlassian.net/browse/INC-14042"
@@ -281,7 +283,7 @@
         "opsview"
       ],
       "created": "2026-08-22",
-      "updated": "2026-08-22",
+      "updated": "2026-08-23",
       "url": "https://cube001.atlassian.net/browse/INC-14022"
     },
     {
@@ -55161,32 +55163,6 @@
       "created": "2026-07-24",
       "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9537"
-    },
-    {
-      "key": "INC-9536",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Muhammad Jahangir",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-24",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9536"
-    },
-    {
-      "key": "INC-9535",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9535"
     }
   ]
 }
