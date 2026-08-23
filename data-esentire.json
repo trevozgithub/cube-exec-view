@@ -1,7 +1,31 @@
 {
-  "updated": "2026-08-23T21:25:52.036126Z",
+  "updated": "2026-08-23T21:48:02.938095Z",
   "total": 4429,
   "items": [
+    {
+      "key": "INC-14069",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14069"
+    },
+    {
+      "key": "INC-14068",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14068"
+    },
     {
       "key": "INC-14067",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
@@ -54288,30 +54312,6 @@
       "created": "2026-07-24",
       "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9630"
-    },
-    {
-      "key": "INC-9629",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL07",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9629"
-    },
-    {
-      "key": "INC-9628",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL08",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9628"
     }
   ]
 }
