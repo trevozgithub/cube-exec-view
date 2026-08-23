@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-23T13:45:15.425528Z",
-  "total": 4471,
+  "updated": "2026-08-23T14:04:19.047094Z",
+  "total": 4472,
   "items": [
+    {
+      "key": "INC-14059",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14059"
+    },
     {
       "key": "INC-14058",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
@@ -41,11 +53,13 @@
     {
       "key": "INC-14055",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67255",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-23",
       "updated": "2026-08-23",
       "url": "https://cube001.atlassian.net/browse/INC-14055"
@@ -116,7 +130,7 @@
       "key": "INC-14049",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
