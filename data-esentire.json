@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-23T13:09:02.309102Z",
-  "total": 4473,
+  "updated": "2026-08-23T13:45:15.425528Z",
+  "total": 4471,
   "items": [
+    {
+      "key": "INC-14058",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14058"
+    },
     {
       "key": "INC-14057",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -54821,42 +54833,6 @@
       "created": "2026-07-24",
       "updated": "2026-07-24",
       "url": "https://cube001.atlassian.net/browse/INC-9577"
-    },
-    {
-      "key": "INC-9576",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9576"
-    },
-    {
-      "key": "INC-9575",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL07",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9575"
-    },
-    {
-      "key": "INC-9574",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL08",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9574"
     }
   ]
 }
