@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-23T11:00:15.514359Z",
-  "total": 4492,
+  "updated": "2026-08-23T11:30:02.640260Z",
+  "total": 4490,
   "items": [
+    {
+      "key": "INC-14056",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-23",
+      "updated": "2026-08-23",
+      "url": "https://cube001.atlassian.net/browse/INC-14056"
+    },
     {
       "key": "INC-14055",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67255",
@@ -55053,42 +55065,6 @@
       "created": "2026-07-24",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9556"
-    },
-    {
-      "key": "INC-9555",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62534",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9555"
-    },
-    {
-      "key": "INC-9554",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL07",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9554"
-    },
-    {
-      "key": "INC-9553",
-      "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL08",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-24",
-      "updated": "2026-07-24",
-      "url": "https://cube001.atlassian.net/browse/INC-9553"
     }
   ]
 }
