@@ -1,12 +1,60 @@
 {
-  "updated": "2026-08-24T04:56:09.436515Z",
-  "total": 4431,
+  "updated": "2026-08-24T05:41:11.085305Z",
+  "total": 4435,
   "items": [
+    {
+      "key": "INC-14099",
+      "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14099"
+    },
+    {
+      "key": "INC-14098",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10480",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14098"
+    },
+    {
+      "key": "INC-14097",
+      "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14097"
+    },
+    {
+      "key": "INC-14096",
+      "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14096"
+    },
     {
       "key": "INC-14095",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,11 +77,13 @@
     {
       "key": "INC-14093",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10478",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-24",
       "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14093"
@@ -2385,13 +2435,15 @@
     {
       "key": "INC-13900",
       "summary": "No Insights loaded for today in RM, 21/8- Under review, collecting, new",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-21",
-      "updated": "2026-08-22",
+      "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-13900"
     },
     {
