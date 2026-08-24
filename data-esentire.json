@@ -1,12 +1,24 @@
 {
-  "updated": "2026-08-24T04:00:52.923128Z",
-  "total": 4432,
+  "updated": "2026-08-24T04:56:09.436515Z",
+  "total": 4431,
   "items": [
+    {
+      "key": "INC-14095",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14095"
+    },
     {
       "key": "INC-14094",
       "summary": "P2 - ProfilerQueue build up in PROD",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Jeremy Noble",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -305,13 +317,15 @@
     {
       "key": "INC-14069",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-23",
-      "updated": "2026-08-23",
+      "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14069"
     },
     {
@@ -2582,7 +2596,7 @@
         "24x7"
       ],
       "created": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-13884"
     },
     {
@@ -54316,32 +54330,6 @@
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9654"
-    },
-    {
-      "key": "INC-9653",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9653"
-    },
-    {
-      "key": "INC-9652",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9652"
     }
   ]
 }
