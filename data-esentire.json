@@ -1,12 +1,120 @@
 {
-  "updated": "2026-08-24T13:54:46.051804Z",
-  "total": 4438,
+  "updated": "2026-08-24T14:40:58.880941Z",
+  "total": 4441,
   "items": [
     {
-      "key": "INC-14149",
+      "key": "INC-14158",
+      "summary": "[critical] CUBEPROD1RDI05 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14158"
+    },
+    {
+      "key": "INC-14157",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "In Triage",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14157"
+    },
+    {
+      "key": "INC-14156",
+      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14156"
+    },
+    {
+      "key": "INC-14155",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14155"
+    },
+    {
+      "key": "INC-14154",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14154"
+    },
+    {
+      "key": "INC-14153",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14153"
+    },
+    {
+      "key": "INC-14152",
       "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14152"
+    },
+    {
+      "key": "INC-14151",
+      "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14151"
+    },
+    {
+      "key": "INC-14150",
+      "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14150"
+    },
+    {
+      "key": "INC-14149",
+      "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -54,7 +162,7 @@
       "key": "INC-14145",
       "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -54342,83 +54450,6 @@
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9707"
-    },
-    {
-      "key": "INC-9706",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64642",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9706"
-    },
-    {
-      "key": "INC-9705",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64641",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9705"
-    },
-    {
-      "key": "INC-9704",
-      "summary": "CUBEUAT2APP02 Base - CPU   CRITICAL [Triggered by _AvgCPU>90] - Average CPU Utilisation 99.81%",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "opsview"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9704"
-    },
-    {
-      "key": "INC-9703",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9703"
-    },
-    {
-      "key": "INC-9702",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9702"
-    },
-    {
-      "key": "INC-9701",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64640",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9701"
     }
   ]
 }
