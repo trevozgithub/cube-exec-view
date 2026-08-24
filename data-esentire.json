@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-24T07:37:30.703530Z",
-  "total": 4436,
+  "updated": "2026-08-24T08:25:30.631474Z",
+  "total": 4429,
   "items": [
+    {
+      "key": "INC-14109",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14109"
+    },
     {
       "key": "INC-14108",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -6771,7 +6783,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-23",
+      "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-13557"
     },
     {
@@ -54303,104 +54315,6 @@
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9670"
-    },
-    {
-      "key": "INC-9669",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64617",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9669"
-    },
-    {
-      "key": "INC-9668",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64616",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9668"
-    },
-    {
-      "key": "INC-9667",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9667"
-    },
-    {
-      "key": "INC-9666",
-      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9666"
-    },
-    {
-      "key": "INC-9665",
-      "summary": "SQL Server Alert System: 'Database Role Resolving' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9665"
-    },
-    {
-      "key": "INC-9664",
-      "summary": "SQL Server Alert System: 'AG Role Change (failover)' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9664"
-    },
-    {
-      "key": "INC-9663",
-      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9663"
-    },
-    {
-      "key": "INC-9662",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #64615",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9662"
     }
   ]
 }
