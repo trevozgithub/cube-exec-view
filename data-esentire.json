@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-24T16:52:03.820194Z",
-  "total": 4462,
+  "updated": "2026-08-24T17:24:27.815480Z",
+  "total": 4463,
   "items": [
+    {
+      "key": "INC-14192",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14192"
+    },
+    {
+      "key": "INC-14191",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67377",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14191"
+    },
+    {
+      "key": "INC-14190",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67377",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14190"
+    },
     {
       "key": "INC-14189",
       "summary": "[critical] CUBEPROD1RDI05 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -343,11 +379,13 @@
     {
       "key": "INC-14159",
       "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-24",
       "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14159"
@@ -54674,32 +54712,6 @@
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9717"
-    },
-    {
-      "key": "INC-9716",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9716"
-    },
-    {
-      "key": "INC-9715",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9715"
     }
   ]
 }
