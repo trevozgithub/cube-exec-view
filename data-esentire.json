@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-24T22:36:17.008950Z",
-  "total": 4472,
+  "updated": "2026-08-24T22:59:54.493753Z",
+  "total": 4476,
   "items": [
+    {
+      "key": "INC-14215",
+      "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14215"
+    },
+    {
+      "key": "INC-14214",
+      "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14214"
+    },
+    {
+      "key": "INC-14213",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14213"
+    },
+    {
+      "key": "INC-14212",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14212"
+    },
+    {
+      "key": "INC-14211",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14211"
+    },
     {
       "key": "INC-14210",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -356,10 +416,14 @@
       "key": "INC-14179",
       "summary": "Increase /dev/root storage by 50% on AKS nodes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Kishan Gohil",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Azure",
+        "alerts"
+      ],
       "created": "2026-08-24",
       "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14179"
@@ -368,7 +432,7 @@
       "key": "INC-14178",
       "summary": "Increase /dev/root storage by 50% on SQL servers",
       "status": "In Progress",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -17380,7 +17444,7 @@
         "RM"
       ],
       "created": "2026-08-17",
-      "updated": "2026-08-21",
+      "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-12782"
     },
     {
@@ -54800,20 +54864,6 @@
       "created": "2026-07-25",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9727"
-    },
-    {
-      "key": "INC-9726",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9726"
     }
   ]
 }
