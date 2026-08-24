@@ -1,12 +1,24 @@
 {
-  "updated": "2026-08-24T20:22:40.849462Z",
-  "total": 4468,
+  "updated": "2026-08-24T20:57:22.498633Z",
+  "total": 4467,
   "items": [
+    {
+      "key": "INC-14202",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14202"
+    },
     {
       "key": "INC-14201",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -54744,32 +54756,6 @@
       "created": "2026-07-25",
       "updated": "2026-07-25",
       "url": "https://cube001.atlassian.net/browse/INC-9723"
-    },
-    {
-      "key": "INC-9722",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-25",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9722"
-    },
-    {
-      "key": "INC-9721",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9721"
     }
   ]
 }
