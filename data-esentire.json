@@ -1,12 +1,84 @@
 {
-  "updated": "2026-08-24T02:58:13.578400Z",
-  "total": 4428,
+  "updated": "2026-08-24T04:00:52.923128Z",
+  "total": 4432,
   "items": [
+    {
+      "key": "INC-14094",
+      "summary": "P2 - ProfilerQueue build up in PROD",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14094"
+    },
+    {
+      "key": "INC-14093",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10478",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14093"
+    },
+    {
+      "key": "INC-14092",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14092"
+    },
+    {
+      "key": "INC-14091",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14091"
+    },
+    {
+      "key": "INC-14090",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10478",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14090"
+    },
+    {
+      "key": "INC-14089",
+      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://cube001.atlassian.net/browse/INC-14089"
+    },
     {
       "key": "INC-14088",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +89,8 @@
     {
       "key": "INC-14087",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41,8 +113,8 @@
     {
       "key": "INC-14085",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -65,8 +137,8 @@
     {
       "key": "INC-14083",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -77,8 +149,8 @@
     {
       "key": "INC-14082",
       "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -54270,30 +54342,6 @@
       "created": "2026-07-25",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9652"
-    },
-    {
-      "key": "INC-9651",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9651"
-    },
-    {
-      "key": "INC-9650",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-25",
-      "updated": "2026-07-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9650"
     }
   ]
 }
