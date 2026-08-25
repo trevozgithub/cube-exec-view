@@ -1,12 +1,48 @@
 {
-  "updated": "2026-08-25T07:36:06.376942Z",
-  "total": 4512,
+  "updated": "2026-08-25T08:21:45.688207Z",
+  "total": 4514,
   "items": [
     {
-      "key": "INC-14271",
+      "key": "INC-14274",
       "summary": "[critical] capture-test-uksouth-insight-mongodb-vm - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14274"
+    },
+    {
+      "key": "INC-14273",
+      "summary": "[critical] capture-test-uksouth-insight-mongodb-vm - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14273"
+    },
+    {
+      "key": "INC-14272",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14272"
+    },
+    {
+      "key": "INC-14271",
+      "summary": "[critical] capture-test-uksouth-insight-mongodb-vm - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,7 +53,7 @@
     {
       "key": "INC-14270",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,7 +65,7 @@
     {
       "key": "INC-14269",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
@@ -55304,18 +55340,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9748"
-    },
-    {
-      "key": "INC-9747",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9747"
     }
   ]
 }
