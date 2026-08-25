@@ -1,7 +1,91 @@
 {
-  "updated": "2026-08-25T11:57:53.211055Z",
-  "total": 4542,
+  "updated": "2026-08-25T13:03:08.298978Z",
+  "total": 4546,
   "items": [
+    {
+      "key": "INC-14325",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14325"
+    },
+    {
+      "key": "INC-14324",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14324"
+    },
+    {
+      "key": "INC-14323",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14323"
+    },
+    {
+      "key": "INC-14322",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 250_400ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14322"
+    },
+    {
+      "key": "INC-14321",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14321"
+    },
+    {
+      "key": "INC-14320",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14320"
+    },
+    {
+      "key": "INC-14319",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14319"
+    },
     {
       "key": "INC-14318",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
@@ -125,11 +209,13 @@
     {
       "key": "INC-14308",
       "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14308"
@@ -272,7 +358,7 @@
       "key": "INC-14296",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -358,7 +444,7 @@
       "key": "INC-14289",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' 3000_4000ms - CRITICAL",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -382,7 +468,7 @@
       "key": "INC-14287",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Feeds/Get' 200_400ms - CRITICAL",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -406,7 +492,7 @@
       "key": "INC-14285",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' 150_300ms - CRITICAL",
       "status": "To Do",
-      "assignee": "Raemon Dela Pena",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -3982,7 +4068,7 @@
     {
       "key": "INC-13991",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -55644,42 +55730,6 @@
       "created": "2026-07-26",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9767"
-    },
-    {
-      "key": "INC-9766",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9766"
-    },
-    {
-      "key": "INC-9765",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9765"
-    },
-    {
-      "key": "INC-9764",
-      "summary": "Alert: ArticleIngestionService Polling Failure Detected",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9764"
     }
   ]
 }
