@@ -1,7 +1,115 @@
 {
-  "updated": "2026-08-25T09:49:49.741155Z",
-  "total": 4523,
+  "updated": "2026-08-25T10:18:13.441131Z",
+  "total": 4530,
   "items": [
+    {
+      "key": "INC-14296",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14296"
+    },
+    {
+      "key": "INC-14295",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14295"
+    },
+    {
+      "key": "INC-14294",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14294"
+    },
+    {
+      "key": "INC-14293",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14293"
+    },
+    {
+      "key": "INC-14292",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14292"
+    },
+    {
+      "key": "INC-14291",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14291"
+    },
+    {
+      "key": "INC-14290",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14290"
+    },
+    {
+      "key": "INC-14289",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' 3000_4000ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14289"
+    },
+    {
+      "key": "INC-14288",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14288"
+    },
     {
       "key": "INC-14287",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Feeds/Get' 200_400ms - CRITICAL",
@@ -17,8 +125,8 @@
     {
       "key": "INC-14286",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' 150_300ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,8 +161,8 @@
     {
       "key": "INC-14283",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' 3000_4000ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -65,7 +173,7 @@
     {
       "key": "INC-14282",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Feeds/Get' 200_400ms - CRITICAL",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
@@ -55424,30 +55532,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9754"
-    },
-    {
-      "key": "INC-9753",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9753"
-    },
-    {
-      "key": "INC-9752",
-      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9752"
     }
   ]
 }
