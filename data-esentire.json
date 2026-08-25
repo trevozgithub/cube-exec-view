@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-25T00:49:43.446119Z",
-  "total": 4485,
+  "updated": "2026-08-25T02:09:50.843283Z",
+  "total": 4487,
   "items": [
+    {
+      "key": "INC-14230",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14230"
+    },
+    {
+      "key": "INC-14229",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14229"
+    },
+    {
+      "key": "INC-14228",
+      "summary": "Essentire Security alert - CS5018942 - Phishing email delivered from throwaway Gmail account",
+      "status": "To Do",
+      "assignee": "Muhim Hussen",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "eSentire_Alert"
+      ],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14228"
+    },
     {
       "key": "INC-14227",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
@@ -898,7 +938,7 @@
       "key": "INC-14152",
       "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -910,7 +950,7 @@
       "key": "INC-14151",
       "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -1426,14 +1466,14 @@
       "key": "INC-14108",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-08-24",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14108"
     },
     {
@@ -1559,15 +1599,15 @@
     {
       "key": "INC-14097",
       "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Yinka Shoge",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-08-24",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14097"
     },
     {
@@ -2148,14 +2188,14 @@
       "key": "INC-14049",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-08-23",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14049"
     },
     {
@@ -37312,7 +37352,7 @@
         "24x7"
       ],
       "created": "2026-08-11",
-      "updated": "2026-08-18",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-11155"
     },
     {
@@ -54966,18 +55006,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9731"
-    },
-    {
-      "key": "INC-9730",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9730"
     }
   ]
 }
