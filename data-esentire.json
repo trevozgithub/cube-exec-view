@@ -1,7 +1,19 @@
 {
-  "updated": "2026-08-25T21:59:31.254685Z",
-  "total": 4646,
+  "updated": "2026-08-25T22:37:18.134947Z",
+  "total": 4643,
   "items": [
+    {
+      "key": "INC-14436",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14436"
+    },
     {
       "key": "INC-14435",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
@@ -56878,61 +56890,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9781"
-    },
-    {
-      "key": "INC-9780",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "ELKAlert",
-        "LIVE"
-      ],
-      "created": "2026-07-26",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9780"
-    },
-    {
-      "key": "INC-9779",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Migration",
-        "UAT",
-        "alerts"
-      ],
-      "created": "2026-07-26",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9779"
-    },
-    {
-      "key": "INC-9778",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9778"
-    },
-    {
-      "key": "INC-9777",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9777"
     }
   ]
 }
