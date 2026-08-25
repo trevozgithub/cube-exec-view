@@ -1,15 +1,32 @@
 {
-  "updated": "2026-08-25T04:02:57.448354Z",
+  "updated": "2026-08-25T04:50:10.854813Z",
   "total": 4494,
   "items": [
     {
+      "key": "INC-14250",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14250"
+    },
+    {
       "key": "INC-14249",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "Utilization",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14249"
@@ -286,7 +303,7 @@
       "key": "INC-14226",
       "summary": "Opsview Critical Alarm :CUBEPREP2APP01-Base - C Drive",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -303,7 +320,12 @@
       "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "DEV",
+        "Services",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14225"
@@ -853,9 +875,13 @@
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PREP",
+        "PROD",
+        "UAT"
+      ],
       "created": "2026-08-24",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14178"
     },
     {
@@ -1169,7 +1195,12 @@
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "UAT",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-24",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14152"
@@ -1865,13 +1896,15 @@
     {
       "key": "INC-14094",
       "summary": "P2 - ProfilerQueue build up in PROD",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Jeremy Noble",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-24",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14094"
     },
     {
@@ -2746,7 +2779,7 @@
         "opsview"
       ],
       "created": "2026-08-22",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14022"
     },
     {
@@ -55063,18 +55096,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9744"
-    },
-    {
-      "key": "INC-9743",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9743"
     }
   ]
 }
