@@ -1,12 +1,84 @@
 {
-  "updated": "2026-08-25T13:59:44.606297Z",
-  "total": 4574,
+  "updated": "2026-08-25T14:55:55.248546Z",
+  "total": 4580,
   "items": [
+    {
+      "key": "INC-14361",
+      "summary": "P2 - CUBE GCP Collector Not Sending Data",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14361"
+    },
+    {
+      "key": "INC-14360",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14360"
+    },
+    {
+      "key": "INC-14359",
+      "summary": "Library content errors",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14359"
+    },
+    {
+      "key": "INC-14358",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14358"
+    },
+    {
+      "key": "INC-14357",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14357"
+    },
+    {
+      "key": "INC-14356",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 250_400ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14356"
+    },
     {
       "key": "INC-14355",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' 150_300ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -42,7 +114,7 @@
       "key": "INC-14352",
       "summary": "[critical] piuattranslate-be-0100000F - Storage Utilisation greater than 80% for more than 15 Minutes",
       "status": "To Do",
-      "assignee": "Andrei Item",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -53,11 +125,13 @@
     {
       "key": "INC-14351",
       "summary": "[critical] piuattranslate-be-0100000E - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14351"
@@ -65,11 +139,13 @@
     {
       "key": "INC-14350",
       "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14350"
@@ -113,11 +189,13 @@
     {
       "key": "INC-14346",
       "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14346"
@@ -126,7 +204,7 @@
       "key": "INC-14345",
       "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation greater than 80% for more than 15 Minutes",
       "status": "To Do",
-      "assignee": "Andrei Item",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
