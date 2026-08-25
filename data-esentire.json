@@ -1,12 +1,120 @@
 {
-  "updated": "2026-08-25T16:19:55.946491Z",
-  "total": 4589,
+  "updated": "2026-08-25T17:02:11.108613Z",
+  "total": 4597,
   "items": [
+    {
+      "key": "INC-14381",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14381"
+    },
+    {
+      "key": "INC-14380",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' 650_1000ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14380"
+    },
+    {
+      "key": "INC-14379",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14379"
+    },
+    {
+      "key": "INC-14378",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' 650_1000ms - CRITICAL",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14378"
+    },
+    {
+      "key": "INC-14377",
+      "summary": "[critical] SJP-CLIENT02 - Storage Utilisation greater than 80% for more than 15 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14377"
+    },
+    {
+      "key": "INC-14376",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001e8 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14376"
+    },
+    {
+      "key": "INC-14375",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14375"
+    },
+    {
+      "key": "INC-14374",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14374"
+    },
+    {
+      "key": "INC-14373",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14373"
+    },
     {
       "key": "INC-14372",
       "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -56237,20 +56345,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9772"
-    },
-    {
-      "key": "INC-9771",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-26",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9771"
     }
   ]
 }
