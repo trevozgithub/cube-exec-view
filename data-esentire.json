@@ -1,12 +1,96 @@
 {
-  "updated": "2026-08-25T05:55:41.720495Z",
-  "total": 4500,
+  "updated": "2026-08-25T06:51:13.638351Z",
+  "total": 4506,
   "items": [
+    {
+      "key": "INC-14264",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14264"
+    },
+    {
+      "key": "INC-14263",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14263"
+    },
+    {
+      "key": "INC-14262",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14262"
+    },
+    {
+      "key": "INC-14261",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14261"
+    },
+    {
+      "key": "INC-14260",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14260"
+    },
+    {
+      "key": "INC-14259",
+      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14259"
+    },
+    {
+      "key": "INC-14258",
+      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14258"
+    },
     {
       "key": "INC-14257",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1942,12 +2026,16 @@
     {
       "key": "INC-14097",
       "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "PROD",
+        "Utilization",
+        "alerts",
+        "newrelic"
       ],
       "created": "2026-08-24",
       "updated": "2026-08-25",
@@ -3671,7 +3759,7 @@
         "24x7"
       ],
       "created": "2026-08-21",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-13957"
     },
     {
@@ -15075,7 +15163,7 @@
         "alerts"
       ],
       "created": "2026-08-17",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-13023"
     },
     {
@@ -50540,7 +50628,7 @@
         "health-check"
       ],
       "created": "2026-07-30",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-10118"
     },
     {
@@ -55156,18 +55244,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9746"
-    },
-    {
-      "key": "INC-9745",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9745"
     }
   ]
 }
