@@ -1,12 +1,24 @@
 {
-  "updated": "2026-08-25T23:01:53.611135Z",
-  "total": 4650,
+  "updated": "2026-08-25T23:33:57.592312Z",
+  "total": 4649,
   "items": [
+    {
+      "key": "INC-14445",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14445"
+    },
     {
       "key": "INC-14444",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -56946,34 +56958,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9784"
-    },
-    {
-      "key": "INC-9783",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Migration",
-        "UAT",
-        "alerts"
-      ],
-      "created": "2026-07-26",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9783"
-    },
-    {
-      "key": "INC-9782",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9782"
     }
   ]
 }
