@@ -1,7 +1,103 @@
 {
-  "updated": "2026-08-25T10:55:38.050558Z",
-  "total": 4541,
+  "updated": "2026-08-25T11:29:37.297993Z",
+  "total": 4544,
   "items": [
+    {
+      "key": "INC-14317",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 250_400ms - CRITICAL",
+      "status": "To Do",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14317"
+    },
+    {
+      "key": "INC-14316",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 250_400ms - CRITICAL",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14316"
+    },
+    {
+      "key": "INC-14315",
+      "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 300_500ms - CRITICAL",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14315"
+    },
+    {
+      "key": "INC-14314",
+      "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14314"
+    },
+    {
+      "key": "INC-14313",
+      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14313"
+    },
+    {
+      "key": "INC-14312",
+      "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14312"
+    },
+    {
+      "key": "INC-14311",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14311"
+    },
+    {
+      "key": "INC-14310",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14310"
+    },
     {
       "key": "INC-14309",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' 3000_4000ms - CRITICAL",
@@ -9210,7 +9306,7 @@
         "newrelic"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-24",
+      "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-13557"
     },
     {
@@ -55608,66 +55704,6 @@
       "created": "2026-07-26",
       "updated": "2026-07-26",
       "url": "https://cube001.atlassian.net/browse/INC-9761"
-    },
-    {
-      "key": "INC-9760",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62724",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9760"
-    },
-    {
-      "key": "INC-9759",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9759"
-    },
-    {
-      "key": "INC-9758",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62723",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9758"
-    },
-    {
-      "key": "INC-9757",
-      "summary": "piprodtranslate-fe query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9757"
-    },
-    {
-      "key": "INC-9756",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9756"
     }
   ]
 }
