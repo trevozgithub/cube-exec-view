@@ -1,12 +1,72 @@
 {
-  "updated": "2026-08-25T15:44:05.572463Z",
-  "total": 4585,
+  "updated": "2026-08-25T16:19:55.946491Z",
+  "total": 4589,
   "items": [
+    {
+      "key": "INC-14372",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14372"
+    },
+    {
+      "key": "INC-14371",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14371"
+    },
+    {
+      "key": "INC-14370",
+      "summary": "[critical] SJP-CLIENT02 - Storage Utilisation greater than 80% for more than 15 Minutes",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14370"
+    },
+    {
+      "key": "INC-14369",
+      "summary": "[critical] SJP-CLIENT02 - Storage Utilisation greater than 80% for more than 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14369"
+    },
+    {
+      "key": "INC-14368",
+      "summary": "eSentire CS5019578 - Azure Storage accounts configured for public blob access \u2013 Production subscription",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-25",
+      "updated": "2026-08-25",
+      "url": "https://cube001.atlassian.net/browse/INC-14368"
+    },
     {
       "key": "INC-14367",
       "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,11 +113,13 @@
     {
       "key": "INC-14363",
       "summary": "RegPlatform UAT Down",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrew Minor",
       "priority": "P1",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14363"
@@ -56189,18 +56251,6 @@
       "created": "2026-07-26",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9771"
-    },
-    {
-      "key": "INC-9770",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-26",
-      "updated": "2026-07-26",
-      "url": "https://cube001.atlassian.net/browse/INC-9770"
     }
   ]
 }
