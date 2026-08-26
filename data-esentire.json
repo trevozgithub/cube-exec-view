@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-26T08:08:12.330342Z",
-  "total": 4686,
+  "updated": "2026-08-26T09:01:27.751703Z",
+  "total": 4687,
   "items": [
+    {
+      "key": "INC-14511",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14511"
+    },
+    {
+      "key": "INC-14510",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14510"
+    },
+    {
+      "key": "INC-14509",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14509"
+    },
     {
       "key": "INC-14508",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Comments/Get/{query}' > 1000ms",
@@ -3446,7 +3482,7 @@
         "opsview"
       ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14226"
     },
     {
@@ -57385,33 +57421,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9811"
-    },
-    {
-      "key": "INC-9810",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9810"
-    },
-    {
-      "key": "INC-9813",
-      "summary": "ACKNOWLEDGEMENT REQUIRED - ATLAS NOTIFICATION: CS5007267 - HIGH - ATTACK - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "eSentire_Alert"
-      ],
-      "created": "2026-07-27",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-9813"
     }
   ]
 }
