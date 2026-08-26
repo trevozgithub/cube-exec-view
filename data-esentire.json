@@ -1,15 +1,89 @@
 {
-  "updated": "2026-08-26T01:39:13.470093Z",
-  "total": 4656,
+  "updated": "2026-08-26T02:52:05.914245Z",
+  "total": 4657,
   "items": [
     {
-      "key": "INC-14457",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 15 Minutes",
+      "key": "INC-14463",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "LJ Rendal",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14463"
+    },
+    {
+      "key": "INC-14462",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU Utilisation > 90% for 15 Minutes",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14462"
+    },
+    {
+      "key": "INC-14461",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14461"
+    },
+    {
+      "key": "INC-14460",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
+      "status": "In Triage",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14460"
+    },
+    {
+      "key": "INC-14459",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU Utilisation > 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14459"
+    },
+    {
+      "key": "INC-14458",
+      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14458"
+    },
+    {
+      "key": "INC-14457",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
       "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14457"
@@ -17,11 +91,13 @@
     {
       "key": "INC-14456",
       "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "LJ Rendal",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
       "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14456"
@@ -185,11 +261,13 @@
     {
       "key": "INC-14442",
       "summary": "[critical] piuattranslate-be-0100000F - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14442"
@@ -197,13 +275,15 @@
     {
       "key": "INC-14441",
       "summary": "[critical] piuattranslate-be-0100000E - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14441"
     },
     {
@@ -1013,13 +1093,15 @@
     {
       "key": "INC-14373",
       "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Nicole Tan-Flores",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14373"
     },
     {
@@ -1037,13 +1119,15 @@
     {
       "key": "INC-14371",
       "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "To Do",
-      "assignee": "Nicole Tan-Flores",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14371"
     },
     {
@@ -1267,13 +1351,15 @@
     {
       "key": "INC-14352",
       "summary": "[critical] piuattranslate-be-0100000F - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14352"
     },
     {
@@ -3714,7 +3800,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-24",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14151"
     },
     {
@@ -3786,7 +3872,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-24",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14145"
     },
     {
@@ -3834,7 +3920,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-24",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14141"
     },
     {
@@ -56972,72 +57058,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9794"
-    },
-    {
-      "key": "INC-9793",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-27",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9793"
-    },
-    {
-      "key": "INC-9792",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9792"
-    },
-    {
-      "key": "INC-9791",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9791"
-    },
-    {
-      "key": "INC-9790",
-      "summary": "Opsview Critical Alarm - CUBEPROD2ELK04 - rta nan lost 172.16.10.134",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "alert",
-        "opsview"
-      ],
-      "created": "2026-07-27",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9790"
-    },
-    {
-      "key": "INC-9789",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9789"
     }
   ]
 }
