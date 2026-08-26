@@ -1,7 +1,55 @@
 {
-  "updated": "2026-08-26T16:25:35.303393Z",
+  "updated": "2026-08-26T18:15:44.783332Z",
   "total": 4714,
   "items": [
+    {
+      "key": "INC-14569",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14569"
+    },
+    {
+      "key": "INC-14568",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14568"
+    },
+    {
+      "key": "INC-14567",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14567"
+    },
+    {
+      "key": "INC-14566",
+      "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14566"
+    },
     {
       "key": "INC-14565",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
@@ -621,8 +669,8 @@
     {
       "key": "INC-14514",
       "summary": "Claude Usage Budget Limit Reached",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Scorch Escarcha",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -57735,56 +57783,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9843"
-    },
-    {
-      "key": "INC-9842",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-27",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-9842"
-    },
-    {
-      "key": "INC-9841",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9841"
-    },
-    {
-      "key": "INC-9840",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9840"
-    },
-    {
-      "key": "INC-9839",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9839"
     }
   ]
 }
