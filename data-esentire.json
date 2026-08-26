@@ -1,12 +1,36 @@
 {
-  "updated": "2026-08-26T04:26:24.153592Z",
-  "total": 4661,
+  "updated": "2026-08-26T05:06:35.753131Z",
+  "total": 4662,
   "items": [
+    {
+      "key": "INC-14474",
+      "summary": "August-2026: Evergreen patching AZURE Servers,DEVOPS,POC,SharedServices - Not enough disk",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14474"
+    },
+    {
+      "key": "INC-14473",
+      "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14473"
+    },
     {
       "key": "INC-14472",
       "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +53,8 @@
     {
       "key": "INC-14470",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,8 +77,8 @@
     {
       "key": "INC-14468",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1069,13 +1093,15 @@
     {
       "key": "INC-14384",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
-      "status": "To Do",
-      "assignee": "Andrei Item",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14384"
     },
     {
@@ -48324,7 +48350,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-10506"
     },
     {
@@ -57098,18 +57124,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9800"
-    },
-    {
-      "key": "INC-9799",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9799"
     }
   ]
 }
