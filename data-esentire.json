@@ -1,11 +1,145 @@
 {
-  "updated": "2026-08-26T09:01:27.751703Z",
-  "total": 4687,
+  "updated": "2026-08-26T09:52:49.069231Z",
+  "total": 4696,
   "items": [
+    {
+      "key": "INC-14522",
+      "summary": "[critical] CUBEPROD2PBI01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14522"
+    },
+    {
+      "key": "INC-14521",
+      "summary": "[critical] CUBEPROD2PBI01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14521"
+    },
+    {
+      "key": "INC-14520",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14520"
+    },
+    {
+      "key": "INC-14519",
+      "summary": "SQL Server Alert System: 'AG Replica Changed States' occurred on \\\\CUBEUAT2SQL05\\UAT2SQL05",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14519"
+    },
+    {
+      "key": "INC-14518",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14518"
+    },
+    {
+      "key": "INC-14517",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14517"
+    },
+    {
+      "key": "INC-14516",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "To Do",
+      "assignee": "Narayani Ramakrishnan",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14516"
+    },
+    {
+      "key": "INC-14515",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "To Do",
+      "assignee": "Narayani Ramakrishnan",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14515"
+    },
+    {
+      "key": "INC-14514",
+      "summary": "Claude Usage Budget Limit Reached",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "ClaudeAI"
+      ],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14514"
+    },
+    {
+      "key": "INC-14513",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14513"
+    },
+    {
+      "key": "INC-14512",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14512"
+    },
     {
       "key": "INC-14511",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,7 +163,7 @@
     {
       "key": "INC-14509",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
@@ -78,7 +212,7 @@
       "key": "INC-14505",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Comments/Get/{query}' > 1000ms",
       "status": "To Do",
-      "assignee": "Earl Francisco",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -214,7 +348,7 @@
       "key": "INC-14494",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
       "status": "To Do",
-      "assignee": "Earl Francisco",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -634,7 +768,7 @@
       "key": "INC-14459",
       "summary": "[critical] aks-functions-39094223-vmss00001d - CPU Utilisation > 90% for 15 Minutes",
       "status": "To Do",
-      "assignee": "Earl Francisco",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -983,7 +1117,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14431"
     },
     {
@@ -1181,11 +1315,13 @@
     {
       "key": "INC-14414",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14414"
@@ -1592,12 +1728,12 @@
       "key": "INC-14380",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' 650_1000ms - CRITICAL",
       "status": "To Do",
-      "assignee": "Andrei Item",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14380"
     },
     {
@@ -2647,13 +2783,15 @@
     {
       "key": "INC-14294",
       "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14294"
     },
     {
@@ -2707,13 +2845,15 @@
     {
       "key": "INC-14289",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' 3000_4000ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14289"
     },
     {
@@ -2731,13 +2871,15 @@
     {
       "key": "INC-14287",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Feeds/Get' 200_400ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14287"
     },
     {
@@ -2755,13 +2897,15 @@
     {
       "key": "INC-14285",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' 150_300ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14285"
     },
     {
@@ -5283,12 +5427,12 @@
       "key": "INC-14077",
       "summary": "Intel Prod Content Ingestion Service logging errors",
       "status": "In Progress",
-      "assignee": "Johnmar Carlos Wabe",
+      "assignee": "Phil Oakes",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-23",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14077"
     },
     {
@@ -57397,30 +57541,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9814"
-    },
-    {
-      "key": "INC-9812",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9812"
-    },
-    {
-      "key": "INC-9811",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9811"
     }
   ]
 }
