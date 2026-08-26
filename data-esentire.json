@@ -1,12 +1,108 @@
 {
-  "updated": "2026-08-26T10:29:51.140213Z",
-  "total": 4700,
+  "updated": "2026-08-26T11:04:35.532527Z",
+  "total": 4707,
   "items": [
+    {
+      "key": "INC-14535",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14535"
+    },
+    {
+      "key": "INC-14534",
+      "summary": "[critical] CUBEPROD2PBI01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14534"
+    },
+    {
+      "key": "INC-14533",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Comments/Get/{query}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14533"
+    },
+    {
+      "key": "INC-14532",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Comments/Get/{query}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14532"
+    },
+    {
+      "key": "INC-14531",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14531"
+    },
+    {
+      "key": "INC-14530",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14530"
+    },
+    {
+      "key": "INC-14529",
+      "summary": "[critical] CUBEPROD2PBI01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14529"
+    },
+    {
+      "key": "INC-14528",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14528"
+    },
     {
       "key": "INC-14527",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1107,11 +1203,13 @@
     {
       "key": "INC-14437",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14437"
@@ -1205,11 +1303,13 @@
     {
       "key": "INC-14429",
       "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
       "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14429"
@@ -1952,12 +2052,14 @@
       "key": "INC-14368",
       "summary": "eSentire CS5019578 - Azure Storage accounts configured for public blob access \u2013 Production subscription",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14368"
     },
     {
@@ -1987,13 +2089,15 @@
     {
       "key": "INC-14365",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67465",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14365"
     },
     {
@@ -2067,7 +2171,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14359"
     },
     {
@@ -2133,13 +2237,15 @@
     {
       "key": "INC-14353",
       "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14353"
     },
     {
@@ -2187,25 +2293,29 @@
     {
       "key": "INC-14349",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14349"
     },
     {
       "key": "INC-14348",
       "summary": "[critical] CUBETEST1RDI04 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14348"
     },
     {
@@ -2237,13 +2347,15 @@
     {
       "key": "INC-14345",
       "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14345"
     },
     {
@@ -2261,13 +2373,15 @@
     {
       "key": "INC-14343",
       "summary": "[critical] CUBETEST1SQL04 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14343"
     },
     {
@@ -2429,13 +2543,15 @@
     {
       "key": "INC-14329",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 300_500ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14329"
     },
     {
@@ -2573,13 +2689,15 @@
     {
       "key": "INC-14317",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Comments/Get/{query}' 250_400ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14317"
     },
     {
@@ -2829,13 +2947,15 @@
     {
       "key": "INC-14296",
       "summary": "[critical]  - PRDSM - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' 400_600ms - CRITICAL",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14296"
     },
     {
@@ -3704,7 +3824,7 @@
     {
       "key": "INC-14225",
       "summary": "Opsview critical alarm - SJPDEV-TRANS10 - CYGWIN service",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3715,7 +3835,7 @@
         "opsview"
       ],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14225"
     },
     {
@@ -6971,7 +7091,7 @@
     {
       "key": "INC-13957",
       "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6979,7 +7099,7 @@
         "24x7"
       ],
       "created": "2026-08-21",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-13957"
     },
     {
@@ -7872,7 +7992,7 @@
     {
       "key": "INC-13884",
       "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7880,7 +8000,7 @@
         "24x7"
       ],
       "created": "2026-08-21",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-13884"
     },
     {
@@ -57589,18 +57709,6 @@
       "created": "2026-07-27",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-9816"
-    },
-    {
-      "key": "INC-9815",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #62817",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9815"
     }
   ]
 }
