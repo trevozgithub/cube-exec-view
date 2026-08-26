@@ -1,7 +1,55 @@
 {
-  "updated": "2026-08-26T03:47:04.348588Z",
-  "total": 4658,
+  "updated": "2026-08-26T04:26:24.153592Z",
+  "total": 4661,
   "items": [
+    {
+      "key": "INC-14472",
+      "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14472"
+    },
+    {
+      "key": "INC-14471",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14471"
+    },
+    {
+      "key": "INC-14470",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14470"
+    },
+    {
+      "key": "INC-14469",
+      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-26",
+      "updated": "2026-08-26",
+      "url": "https://cube001.atlassian.net/browse/INC-14469"
+    },
     {
       "key": "INC-14468",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
@@ -17,8 +65,8 @@
     {
       "key": "INC-14467",
       "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +77,8 @@
     {
       "key": "INC-14466",
       "summary": "[critical] CUBEPREP2SQL05 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41,8 +89,8 @@
     {
       "key": "INC-14465",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,8 +101,8 @@
     {
       "key": "INC-14464",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -65,8 +113,8 @@
     {
       "key": "INC-14463",
       "summary": "[critical] aks-functions-39094223-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -391,7 +439,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14437"
     },
     {
@@ -1397,7 +1445,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-25",
-      "updated": "2026-08-25",
+      "updated": "2026-08-26",
       "url": "https://cube001.atlassian.net/browse/INC-14354"
     },
     {
@@ -57062,18 +57110,6 @@
       "created": "2026-07-27",
       "updated": "2026-07-27",
       "url": "https://cube001.atlassian.net/browse/INC-9799"
-    },
-    {
-      "key": "INC-9798",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-27",
-      "updated": "2026-07-27",
-      "url": "https://cube001.atlassian.net/browse/INC-9798"
     }
   ]
 }
