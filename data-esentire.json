@@ -1,7 +1,536 @@
 {
-  "updated": "2026-08-28T22:43:48.075622Z",
-  "total": 4797,
+  "updated": "2026-08-29T03:54:48.284468Z",
+  "total": 4830,
   "items": [
+    {
+      "key": "INC-14940",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65632",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14940"
+    },
+    {
+      "key": "INC-14939",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "In Triage",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14939"
+    },
+    {
+      "key": "INC-14938",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14938"
+    },
+    {
+      "key": "INC-14937",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14937"
+    },
+    {
+      "key": "INC-14936",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65631",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14936"
+    },
+    {
+      "key": "INC-14935",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14935"
+    },
+    {
+      "key": "INC-14934",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14934"
+    },
+    {
+      "key": "INC-14933",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65630",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14933"
+    },
+    {
+      "key": "INC-14932",
+      "summary": "[critical] CUBEPREP2SQL05 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14932"
+    },
+    {
+      "key": "INC-14931",
+      "summary": "[critical] CUBEPREP2SQL05 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14931"
+    },
+    {
+      "key": "INC-14930",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65629",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14930"
+    },
+    {
+      "key": "INC-14929",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65628",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14929"
+    },
+    {
+      "key": "INC-14928",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65627",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14928"
+    },
+    {
+      "key": "INC-14927",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65626",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14927"
+    },
+    {
+      "key": "INC-14926",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65624",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14926"
+    },
+    {
+      "key": "INC-14925",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65623",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14925"
+    },
+    {
+      "key": "INC-14924",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65622",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14924"
+    },
+    {
+      "key": "INC-14923",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14923"
+    },
+    {
+      "key": "INC-14922",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65621",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14922"
+    },
+    {
+      "key": "INC-14921",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65620",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14921"
+    },
+    {
+      "key": "INC-14920",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14920"
+    },
+    {
+      "key": "INC-14919",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14919"
+    },
+    {
+      "key": "INC-14918",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65619",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14918"
+    },
+    {
+      "key": "INC-14917",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65617",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14917"
+    },
+    {
+      "key": "INC-14916",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65618",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14916"
+    },
+    {
+      "key": "INC-14915",
+      "summary": "[critical] aks-ctbook04-18886134-vmss00051o - RAM Utilisation > 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14915"
+    },
+    {
+      "key": "INC-14914",
+      "summary": "[critical] aks-ctbook04-18886134-vmss00051o - RAM Utilisation > 90% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14914"
+    },
+    {
+      "key": "INC-14913",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14913"
+    },
+    {
+      "key": "INC-14912",
+      "summary": "[critical] aks-ctbook04-18886134-vmss00051o - RAM Utilisation > 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14912"
+    },
+    {
+      "key": "INC-14911",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10594",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "RM",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-08-28",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14911"
+    },
+    {
+      "key": "INC-14910",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65616",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14910"
+    },
+    {
+      "key": "INC-14909",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65615",
+      "status": "In Progress",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-08-28",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14909"
+    },
+    {
+      "key": "INC-14908",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65615",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14908"
+    },
+    {
+      "key": "INC-14907",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14907"
+    },
+    {
+      "key": "INC-14906",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10594",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14906"
+    },
+    {
+      "key": "INC-14905",
+      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14905"
+    },
+    {
+      "key": "INC-14904",
+      "summary": "[critical] aks-intel02-63489346-vmss000001 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14904"
+    },
+    {
+      "key": "INC-14903",
+      "summary": "[critical] piuattranslate-be-0100000F - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14903"
+    },
+    {
+      "key": "INC-14902",
+      "summary": "[critical] aks-intel02-63489346-vmss000001 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14902"
+    },
+    {
+      "key": "INC-14901",
+      "summary": "[critical] piuattranslate-be-0100000E - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14901"
+    },
+    {
+      "key": "INC-14900",
+      "summary": "[critical] piuattranslate-be-0100000E - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14900"
+    },
+    {
+      "key": "INC-14899",
+      "summary": "[critical] piuattranslate-be-0100000F - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14899"
+    },
+    {
+      "key": "INC-14898",
+      "summary": "[critical] aks-intel02-63489346-vmss000001 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-28",
+      "updated": "2026-08-28",
+      "url": "https://cube001.atlassian.net/browse/INC-14898"
+    },
     {
       "key": "INC-14897",
       "summary": "[critical] CUBEPROD1SQL04 - CPU Utilisation > 90% for 15 Minutes",
@@ -143,7 +672,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14886"
     },
     {
@@ -269,25 +798,32 @@
     {
       "key": "INC-14875",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65606",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Insights",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14875"
     },
     {
       "key": "INC-14874",
       "summary": "[critical] CUBEPROD1SQL04 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Andrei Item",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14874"
     },
     {
@@ -329,13 +865,18 @@
     {
       "key": "INC-14870",
       "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67766",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Insights",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14870"
     },
     {
@@ -795,7 +1336,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14832"
     },
     {
@@ -813,13 +1354,15 @@
     {
       "key": "INC-14830",
       "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14830"
     },
     {
@@ -969,7 +1512,7 @@
         "newrelic"
       ],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14818"
     },
     {
@@ -3107,13 +3650,17 @@
     {
       "key": "INC-14642",
       "summary": "Jira Cloud site cube001.atlassian.net returning 'Page unavailable'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Atlassian",
+        "alerts"
+      ],
       "created": "2026-08-27",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "url": "https://cube001.atlassian.net/browse/INC-14642"
     },
     {
@@ -3347,7 +3894,7 @@
         "newrelic"
       ],
       "created": "2026-08-27",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14623"
     },
     {
@@ -4113,13 +4660,15 @@
     {
       "key": "INC-14560",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' > 4000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
-      "updated": "2026-08-26",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14560"
     },
     {
@@ -4535,13 +5084,15 @@
     {
       "key": "INC-14525",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
-      "updated": "2026-08-27",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14525"
     },
     {
@@ -4659,13 +5210,15 @@
     {
       "key": "INC-14515",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
-      "updated": "2026-08-27",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14515"
     },
     {
@@ -4769,13 +5322,15 @@
     {
       "key": "INC-14506",
       "summary": "[critical] CUBEPROD2PBI01 - RAM Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
-      "updated": "2026-08-26",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14506"
     },
     {
@@ -4917,13 +5472,15 @@
     {
       "key": "INC-14494",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
-      "updated": "2026-08-27",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14494"
     },
     {
@@ -5203,7 +5760,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-26",
-      "updated": "2026-08-26",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14471"
     },
     {
@@ -6779,13 +7336,15 @@
     {
       "key": "INC-14344",
       "summary": "[critical] CUBEPREP2SQL06 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14344"
     },
     {
@@ -58636,128 +59195,6 @@
       "created": "2026-07-30",
       "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10099"
-    },
-    {
-      "key": "INC-10098",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10098"
-    },
-    {
-      "key": "INC-10097",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10097"
-    },
-    {
-      "key": "INC-10096",
-      "summary": "P1: UAT Insight Analysis function errors",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10096"
-    },
-    {
-      "key": "INC-10095",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10095"
-    },
-    {
-      "key": "INC-10094",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10094"
-    },
-    {
-      "key": "INC-10093",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10093"
-    },
-    {
-      "key": "INC-10092",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10092"
-    },
-    {
-      "key": "INC-10091",
-      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-29",
-      "updated": "2026-07-29",
-      "url": "https://cube001.atlassian.net/browse/INC-10091"
-    },
-    {
-      "key": "INC-10090",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-29",
-      "updated": "2026-07-29",
-      "url": "https://cube001.atlassian.net/browse/INC-10090"
-    },
-    {
-      "key": "INC-10089",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63052",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-29",
-      "updated": "2026-07-29",
-      "url": "https://cube001.atlassian.net/browse/INC-10089"
     }
   ]
 }
