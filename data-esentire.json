@@ -1,12 +1,122 @@
 {
-  "updated": "2026-08-29T03:54:48.284468Z",
-  "total": 4830,
+  "updated": "2026-08-29T10:51:35.322371Z",
+  "total": 4796,
   "items": [
+    {
+      "key": "INC-14949",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14949"
+    },
+    {
+      "key": "INC-14948",
+      "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14948"
+    },
+    {
+      "key": "INC-14947",
+      "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14947"
+    },
+    {
+      "key": "INC-14946",
+      "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 15 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14946"
+    },
+    {
+      "key": "INC-14945",
+      "summary": "[critical] CUBEPROD2PBI01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14945"
+    },
+    {
+      "key": "INC-14944",
+      "summary": "[critical] CUBEPROD2PBI01 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14944"
+    },
+    {
+      "key": "INC-14943",
+      "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14943"
+    },
+    {
+      "key": "INC-14942",
+      "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14942"
+    },
+    {
+      "key": "INC-14941",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65633",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14941"
+    },
     {
       "key": "INC-14940",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65632",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,7 +127,7 @@
     {
       "key": "INC-14939",
       "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
@@ -29,12 +139,14 @@
     {
       "key": "INC-14938",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
-      "assignee": "LJ Rendal",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7",
+        "PROD",
+        "Utilization",
         "alerts",
         "opsview"
       ],
@@ -253,7 +365,12 @@
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "UAT",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-29",
       "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14920"
@@ -325,7 +442,11 @@
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-29",
       "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14914"
@@ -466,9 +587,15 @@
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Storage",
+        "Translation",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14903"
     },
     {
@@ -5402,7 +5529,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-26",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14500"
     },
     {
@@ -5736,7 +5863,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-26",
-      "updated": "2026-08-26",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14473"
     },
     {
@@ -10603,8 +10730,8 @@
     {
       "key": "INC-14077",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "In Progress",
-      "assignee": "Phil Oakes",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -10613,7 +10740,7 @@
         "alerts"
       ],
       "created": "2026-08-23",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14077"
     },
     {
@@ -23482,7 +23609,7 @@
     {
       "key": "INC-13023",
       "summary": "Insights not been added to database",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -23492,7 +23619,7 @@
         "alerts"
       ],
       "created": "2026-08-17",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-13023"
     },
     {
@@ -58653,548 +58780,6 @@
       "created": "2026-07-30",
       "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10142"
-    },
-    {
-      "key": "INC-10141",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10141"
-    },
-    {
-      "key": "INC-10140",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10140"
-    },
-    {
-      "key": "INC-10139",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10139"
-    },
-    {
-      "key": "INC-10138",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10138"
-    },
-    {
-      "key": "INC-10137",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10137"
-    },
-    {
-      "key": "INC-10136",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10136"
-    },
-    {
-      "key": "INC-10135",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10135"
-    },
-    {
-      "key": "INC-10134",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10134"
-    },
-    {
-      "key": "INC-10133",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10133"
-    },
-    {
-      "key": "INC-10132",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10132"
-    },
-    {
-      "key": "INC-10131",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10131"
-    },
-    {
-      "key": "INC-10130",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10130"
-    },
-    {
-      "key": "INC-10129",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10129"
-    },
-    {
-      "key": "INC-10128",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10128"
-    },
-    {
-      "key": "INC-10127",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10127"
-    },
-    {
-      "key": "INC-10126",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10126"
-    },
-    {
-      "key": "INC-10125",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Muhammad Jahangir",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "ELKAlert",
-        "LIVE",
-        "Migration",
-        "database"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10125"
-    },
-    {
-      "key": "INC-10124",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10124"
-    },
-    {
-      "key": "INC-10123",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10123"
-    },
-    {
-      "key": "INC-10122",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10122"
-    },
-    {
-      "key": "INC-10121",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10121"
-    },
-    {
-      "key": "INC-10120",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10120"
-    },
-    {
-      "key": "INC-10119",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10119"
-    },
-    {
-      "key": "INC-10118",
-      "summary": "API Connect Health Checks Errors - PROD & UAT",
-      "status": "Completed",
-      "assignee": "Priyanka Bali",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "API",
-        "Daily-Checks",
-        "PROD",
-        "UAT",
-        "health-check"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-26",
-      "url": "https://cube001.atlassian.net/browse/INC-10118"
-    },
-    {
-      "key": "INC-10117",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10117"
-    },
-    {
-      "key": "INC-10116",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10116"
-    },
-    {
-      "key": "INC-10115",
-      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10115"
-    },
-    {
-      "key": "INC-10114",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10114"
-    },
-    {
-      "key": "INC-10113",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10113"
-    },
-    {
-      "key": "INC-10112",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10112"
-    },
-    {
-      "key": "INC-10111",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10111"
-    },
-    {
-      "key": "INC-10110",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10110"
-    },
-    {
-      "key": "INC-10109",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63083",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10109"
-    },
-    {
-      "key": "INC-10108",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63082",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "alerts",
-        "browserstack",
-        "health-check"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10108"
-    },
-    {
-      "key": "INC-10107",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63082",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10107"
-    },
-    {
-      "key": "INC-10106",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10106"
-    },
-    {
-      "key": "INC-10105",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10105"
-    },
-    {
-      "key": "INC-10104",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10104"
-    },
-    {
-      "key": "INC-10103",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "newrelic"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10103"
-    },
-    {
-      "key": "INC-10102",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10102"
-    },
-    {
-      "key": "INC-10101",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10101"
-    },
-    {
-      "key": "INC-10100",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10100"
-    },
-    {
-      "key": "INC-10099",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10099"
     }
   ]
 }
