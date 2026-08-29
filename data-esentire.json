@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-29T10:51:35.322371Z",
-  "total": 4796,
+  "updated": "2026-08-29T15:23:19.135648Z",
+  "total": 4787,
   "items": [
+    {
+      "key": "INC-14952",
+      "summary": "[critical] SJP-CLIENT02 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14952"
+    },
+    {
+      "key": "INC-14951",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14951"
+    },
+    {
+      "key": "INC-14950",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-29",
+      "updated": "2026-08-29",
+      "url": "https://cube001.atlassian.net/browse/INC-14950"
+    },
     {
       "key": "INC-14949",
       "summary": "Your daily Uptrends report: Account overview",
@@ -438,7 +474,7 @@
     {
       "key": "INC-14914",
       "summary": "[critical] aks-ctbook04-18886134-vmss00051o - RAM Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -507,7 +543,7 @@
     {
       "key": "INC-14909",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65615",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -607,7 +643,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14902"
     },
     {
@@ -619,7 +655,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14901"
     },
     {
@@ -1113,7 +1149,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-08-29",
       "url": "https://cube001.atlassian.net/browse/INC-14861"
     },
     {
@@ -58629,157 +58665,6 @@
       "created": "2026-07-30",
       "updated": "2026-07-30",
       "url": "https://cube001.atlassian.net/browse/INC-10154"
-    },
-    {
-      "key": "INC-10153",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10153"
-    },
-    {
-      "key": "INC-10152",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10152"
-    },
-    {
-      "key": "INC-10151",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10151"
-    },
-    {
-      "key": "INC-10150",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10150"
-    },
-    {
-      "key": "INC-10149",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "opsview"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10149"
-    },
-    {
-      "key": "INC-10148",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10148"
-    },
-    {
-      "key": "INC-10147",
-      "summary": "P1 CRITICAL: LIVE - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10147"
-    },
-    {
-      "key": "INC-10146",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10146"
-    },
-    {
-      "key": "INC-10145",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10145"
-    },
-    {
-      "key": "INC-10144",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10144"
-    },
-    {
-      "key": "INC-10143",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-07-30",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10143"
-    },
-    {
-      "key": "INC-10142",
-      "summary": "P1 CRITICAL: LIVE - Regbook Sync failures",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-30",
-      "updated": "2026-07-30",
-      "url": "https://cube001.atlassian.net/browse/INC-10142"
     }
   ]
 }
