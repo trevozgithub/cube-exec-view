@@ -1,7 +1,43 @@
 {
-  "updated": "2026-08-30T19:57:50.576776Z",
-  "total": 4708,
+  "updated": "2026-08-30T22:38:59.954365Z",
+  "total": 4694,
   "items": [
+    {
+      "key": "INC-14991",
+      "summary": "[critical] SJP-CLIENT02 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-30",
+      "updated": "2026-08-30",
+      "url": "https://cube001.atlassian.net/browse/INC-14991"
+    },
+    {
+      "key": "INC-14990",
+      "summary": "CUBEUAT2APP02 Base - CPU CRITICAL 2026-08-31 06:08:41 21m 35s CRITICAL - [Triggered by _AvgCPU>90] - Average CPU Utilisation 98.38%",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-08-30",
+      "updated": "2026-08-30",
+      "url": "https://cube001.atlassian.net/browse/INC-14990"
+    },
+    {
+      "key": "INC-14989",
+      "summary": "[critical] aks-transform02-21490253-vmss000006 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-30",
+      "updated": "2026-08-30",
+      "url": "https://cube001.atlassian.net/browse/INC-14989"
+    },
     {
       "key": "INC-14988",
       "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 15 Minutes",
@@ -1160,7 +1196,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-28",
-      "updated": "2026-08-29",
+      "updated": "2026-08-30",
       "url": "https://cube001.atlassian.net/browse/INC-14896"
     },
     {
@@ -57484,218 +57520,6 @@
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "url": "https://cube001.atlassian.net/browse/INC-10288"
-    },
-    {
-      "key": "INC-10287",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10287"
-    },
-    {
-      "key": "INC-10286",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10286"
-    },
-    {
-      "key": "INC-10285",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10285"
-    },
-    {
-      "key": "INC-10284",
-      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "opsview"
-      ],
-      "created": "2026-07-31",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10284"
-    },
-    {
-      "key": "INC-10283",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Storage",
-        "opsview",
-        "server"
-      ],
-      "created": "2026-07-31",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10283"
-    },
-    {
-      "key": "INC-10282",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10282"
-    },
-    {
-      "key": "INC-10281",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10281"
-    },
-    {
-      "key": "INC-10280",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10280"
-    },
-    {
-      "key": "INC-10279",
-      "summary": "PROBLEM: Base - Uptime is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10279"
-    },
-    {
-      "key": "INC-10278",
-      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10278"
-    },
-    {
-      "key": "INC-10277",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10277"
-    },
-    {
-      "key": "INC-10276",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10276"
-    },
-    {
-      "key": "INC-10275",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10275"
-    },
-    {
-      "key": "INC-10274",
-      "summary": "POTENTIAL P1: LIVE issues in the last 5 minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10274"
-    },
-    {
-      "key": "INC-10273",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10273"
-    },
-    {
-      "key": "INC-10272",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10272"
-    },
-    {
-      "key": "INC-10271",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10271"
     }
   ]
 }
