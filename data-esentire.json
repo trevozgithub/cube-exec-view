@@ -1,12 +1,100 @@
 {
-  "updated": "2026-08-30T22:38:59.954365Z",
-  "total": 4694,
+  "updated": "2026-08-31T00:50:28.626512Z",
+  "total": 4691,
   "items": [
+    {
+      "key": "INC-14998",
+      "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-31",
+      "updated": "2026-08-31",
+      "url": "https://cube001.atlassian.net/browse/INC-14998"
+    },
+    {
+      "key": "INC-14997",
+      "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-31",
+      "updated": "2026-08-31",
+      "url": "https://cube001.atlassian.net/browse/INC-14997"
+    },
+    {
+      "key": "INC-14996",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-31",
+      "updated": "2026-08-31",
+      "url": "https://cube001.atlassian.net/browse/INC-14996"
+    },
+    {
+      "key": "INC-14995",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-31",
+      "updated": "2026-08-31",
+      "url": "https://cube001.atlassian.net/browse/INC-14995"
+    },
+    {
+      "key": "INC-14994",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-31",
+      "updated": "2026-08-31",
+      "url": "https://cube001.atlassian.net/browse/INC-14994"
+    },
+    {
+      "key": "INC-14993",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-08-30",
+      "updated": "2026-08-30",
+      "url": "https://cube001.atlassian.net/browse/INC-14993"
+    },
+    {
+      "key": "INC-14992",
+      "summary": "[critical] SJP-CLIENT02 - Storage Utilisation > 80% for 15 Minutes",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-08-30",
+      "updated": "2026-08-30",
+      "url": "https://cube001.atlassian.net/browse/INC-14992"
+    },
     {
       "key": "INC-14991",
       "summary": "[critical] SJP-CLIENT02 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -877,7 +965,7 @@
       "key": "INC-14920",
       "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
       "status": "To Do",
-      "assignee": "LJ Rendal",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -887,7 +975,7 @@
         "newrelic"
       ],
       "created": "2026-08-29",
-      "updated": "2026-08-29",
+      "updated": "2026-08-30",
       "url": "https://cube001.atlassian.net/browse/INC-14920"
     },
     {
@@ -1813,7 +1901,7 @@
         "newrelic"
       ],
       "created": "2026-08-28",
-      "updated": "2026-08-29",
+      "updated": "2026-08-30",
       "url": "https://cube001.atlassian.net/browse/INC-14847"
     },
     {
@@ -7669,7 +7757,7 @@
     {
       "key": "INC-14370",
       "summary": "[critical] SJP-CLIENT02 - Storage Utilisation greater than 80% for more than 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Dan Palmer",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7679,7 +7767,7 @@
         "alerts"
       ],
       "created": "2026-08-25",
-      "updated": "2026-08-26",
+      "updated": "2026-08-30",
       "url": "https://cube001.atlassian.net/browse/INC-14370"
     },
     {
@@ -57394,132 +57482,6 @@
       "created": "2026-08-01",
       "updated": "2026-08-01",
       "url": "https://cube001.atlassian.net/browse/INC-10298"
-    },
-    {
-      "key": "INC-10297",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "opsview"
-      ],
-      "created": "2026-08-01",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10297"
-    },
-    {
-      "key": "INC-10296",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-01",
-      "updated": "2026-08-01",
-      "url": "https://cube001.atlassian.net/browse/INC-10296"
-    },
-    {
-      "key": "INC-10295",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-01",
-      "updated": "2026-08-01",
-      "url": "https://cube001.atlassian.net/browse/INC-10295"
-    },
-    {
-      "key": "INC-10294",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10294"
-    },
-    {
-      "key": "INC-10293",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Intel",
-        "newrelic"
-      ],
-      "created": "2026-07-31",
-      "updated": "2026-08-06",
-      "url": "https://cube001.atlassian.net/browse/INC-10293"
-    },
-    {
-      "key": "INC-10292",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10292"
-    },
-    {
-      "key": "INC-10291",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10291"
-    },
-    {
-      "key": "INC-10290",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10290"
-    },
-    {
-      "key": "INC-10289",
-      "summary": "P1 - URGENT: UAT - Migration Job Failures",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10289"
-    },
-    {
-      "key": "INC-10288",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "url": "https://cube001.atlassian.net/browse/INC-10288"
     }
   ]
 }
