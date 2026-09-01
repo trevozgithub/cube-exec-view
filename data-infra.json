@@ -1,8 +1,26 @@
 {
-  "updated": "2026-09-01T07:58:43.477965Z",
+  "updated": "2026-09-01T13:26:24.452344Z",
   "total": 24,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-930",
+      "summary": "Cabot - Sunset of Documentum",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "2027-03-01",
+      "reviewed": "2026-09-01",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "1/09/2026 Still nothing definite for us (call notes below). Have asked for next meeting at end of September At that point will need to confirm timelines and SOW"
+        }
+      ]
+    },
     {
       "key": "CPN-826",
       "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
@@ -39,24 +57,6 @@
         {
           "type": "info",
           "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Long terms solution implemented by TR has been tested and works for TR sub-domains no-reply@content.thomsonreuters.com donotreply.ari@regintel.thomsonreuters.com Awaiting the TR to apply the solution to remaining  no-reply@content-qa.thomsonreuters.com  sub-domain and DL. OneDrive migration kicked-off on  . Weekly sync runs every Friday. Next phase: Teams and SharePoint migration scheduled to be kicked off on   O365 migration plan:"
-        }
-      ]
-    },
-    {
-      "key": "CPN-930",
-      "summary": "Cabot - Sunset of Documentum",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "2027-03-01",
-      "reviewed": "2026-08-26",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930",
-      "panels": [
-        {
-          "type": "info",
-          "text": "26/08/2026 Meeting notes below - still nothing for us at this time At next call (1st September) will need to confirm timelines and SOW"
         }
       ]
     },
