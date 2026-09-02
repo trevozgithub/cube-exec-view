@@ -1,7 +1,83 @@
 {
-  "updated": "2026-09-02T00:30:31.598863Z",
-  "total": 5007,
+  "updated": "2026-09-02T04:59:32.186210Z",
+  "total": 5001,
   "items": [
+    {
+      "key": "INC-15373",
+      "summary": "Translations for Japaneese are not working in prod",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15373"
+    },
+    {
+      "key": "INC-15372",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15372"
+    },
+    {
+      "key": "INC-15371",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15371"
+    },
+    {
+      "key": "INC-15370",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15370"
+    },
+    {
+      "key": "INC-15369",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15369"
+    },
+    {
+      "key": "INC-15368",
+      "summary": "August-2026: DM-MGMT01 & DM Patching send notification to dm@cube.global",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15368"
+    },
     {
       "key": "INC-15367",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
@@ -23,7 +99,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15366"
     },
     {
@@ -1045,7 +1121,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15283"
     },
     {
@@ -1095,7 +1171,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15279"
     },
     {
@@ -3931,7 +4007,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-31",
-      "updated": "2026-08-31",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15046"
     },
     {
@@ -5741,13 +5817,15 @@
     {
       "key": "INC-14901",
       "summary": "[critical] piuattranslate-be-0100000E - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14901"
     },
     {
@@ -8320,13 +8398,15 @@
     {
       "key": "INC-14693",
       "summary": "PROD RM STATUS NEW INSIGHTS",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
-      "priority": "P2",
+      "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-27",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14693"
     },
     {
@@ -61206,155 +61286,6 @@
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10364"
-    },
-    {
-      "key": "INC-10363",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10363"
-    },
-    {
-      "key": "INC-10362",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10362"
-    },
-    {
-      "key": "INC-10361",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10361"
-    },
-    {
-      "key": "INC-10360",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10360"
-    },
-    {
-      "key": "INC-10359",
-      "summary": "Browser Stack - Subscription Renewal - Warning! 80% usage exceeded",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-13",
-      "url": "https://cube001.atlassian.net/browse/INC-10359"
-    },
-    {
-      "key": "INC-10358",
-      "summary": "Warning! 80% usage exceeded",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10358"
-    },
-    {
-      "key": "INC-10357",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10357"
-    },
-    {
-      "key": "INC-10356",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10356"
-    },
-    {
-      "key": "INC-10355",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10355"
-    },
-    {
-      "key": "INC-10354",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10354"
-    },
-    {
-      "key": "INC-10353",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10353"
-    },
-    {
-      "key": "INC-10352",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10352"
     }
   ]
 }
