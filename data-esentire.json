@@ -1,10 +1,22 @@
 {
-  "updated": "2026-09-02T17:26:40.248411Z",
-  "total": 4985,
+  "updated": "2026-09-02T20:02:29.705977Z",
+  "total": 4982,
   "items": [
     {
+      "key": "INC-15411",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15411"
+    },
+    {
       "key": "INC-15410",
-      "summary": "CUBEDEV2FS01 Base - Additional Drives: E   CRITICAL",
+      "summary": "Opsview - CUBEDEV2FS01 Base - Additional Drives: E - CRITICAL",
       "status": "To Do",
       "assignee": "LJ Rendal",
       "priority": "P3",
@@ -91,11 +103,13 @@
     {
       "key": "INC-15403",
       "summary": "[critical] aks-ctins02-16016004-vmss0001h6 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15403"
@@ -107,7 +121,9 @@
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15402"
@@ -119,7 +135,9 @@
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15401"
@@ -131,7 +149,9 @@
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15400"
@@ -143,7 +163,9 @@
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15399"
@@ -290,7 +312,7 @@
     {
       "key": "INC-15387",
       "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -323,7 +345,9 @@
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15385"
@@ -453,11 +477,13 @@
     {
       "key": "INC-15374",
       "summary": "Uptrends : live.gocube.global - Browser Check error 3031 for Redding",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15374"
@@ -1281,13 +1307,15 @@
     {
       "key": "INC-15307",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #65946",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15307"
     },
     {
@@ -1391,13 +1419,15 @@
     {
       "key": "INC-15298",
       "summary": "CUBEUAT2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15298"
     },
     {
@@ -4085,7 +4115,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-31",
-      "updated": "2026-08-31",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15078"
     },
     {
@@ -6800,7 +6830,7 @@
         "newrelic"
       ],
       "created": "2026-08-28",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14861"
     },
     {
@@ -61053,54 +61083,6 @@
       "created": "2026-08-03",
       "updated": "2026-08-03",
       "url": "https://cube001.atlassian.net/browse/INC-10420"
-    },
-    {
-      "key": "INC-10419",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63487",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10419"
-    },
-    {
-      "key": "INC-10418",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65373",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10418"
-    },
-    {
-      "key": "INC-10417",
-      "summary": "Book Pipeline:Kindly check the Scheduler - too many books in Progress",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10417"
-    },
-    {
-      "key": "INC-10416",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10416"
     }
   ]
 }
