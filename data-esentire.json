@@ -1,7 +1,91 @@
 {
-  "updated": "2026-09-02T04:59:32.186210Z",
-  "total": 5001,
+  "updated": "2026-09-02T09:28:52.819069Z",
+  "total": 4989,
   "items": [
+    {
+      "key": "INC-15380",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15380"
+    },
+    {
+      "key": "INC-15379",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15379"
+    },
+    {
+      "key": "INC-15378",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15378"
+    },
+    {
+      "key": "INC-15377",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15377"
+    },
+    {
+      "key": "INC-15376",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15376"
+    },
+    {
+      "key": "INC-15375",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15375"
+    },
+    {
+      "key": "INC-15374",
+      "summary": "Uptrends : live.gocube.global - Browser Check error 3031 for Redding",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15374"
+    },
     {
       "key": "INC-15373",
       "summary": "Translations for Japaneese are not working in prod",
@@ -443,13 +527,15 @@
     {
       "key": "INC-15338",
       "summary": "[critical] CUBEPREP2SQL06 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15338"
     },
     {
@@ -1001,15 +1087,15 @@
     {
       "key": "INC-15292",
       "summary": " CS5022706 - Successful sign-in from phishing infrastructure via Hide.ME VPN",
-      "status": "In Progress",
-      "assignee": "Johnmar Carlos Wabe",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15292"
     },
     {
@@ -4530,7 +4616,7 @@
         "PROD"
       ],
       "created": "2026-08-31",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15004"
     },
     {
@@ -6866,7 +6952,7 @@
     {
       "key": "INC-14818",
       "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6874,7 +6960,7 @@
         "newrelic"
       ],
       "created": "2026-08-28",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14818"
     },
     {
@@ -7314,7 +7400,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-27",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14782"
     },
     {
@@ -8128,15 +8214,16 @@
     {
       "key": "INC-14715",
       "summary": "Email spam from notifications@cube.global",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Vallalperuman Radhakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "Alerts-From-Staff"
       ],
       "created": "2026-08-27",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14715"
     },
     {
@@ -10842,7 +10929,7 @@
         "Translation"
       ],
       "created": "2026-08-26",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14495"
     },
     {
@@ -14727,7 +14814,7 @@
     {
       "key": "INC-14179",
       "summary": "Increase /dev/root storage by 50% on AKS nodes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Kishan Gohil",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -14737,7 +14824,7 @@
         "alerts"
       ],
       "created": "2026-08-24",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14179"
     },
     {
@@ -21261,13 +21348,15 @@
     {
       "key": "INC-13648",
       "summary": "P2 RegConnect - api performance in UAT with multiple 503 errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Jaspreet Manghera",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-19",
-      "updated": "2026-08-28",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-13648"
     },
     {
@@ -22229,8 +22318,8 @@
     {
       "key": "INC-13568",
       "summary": "00015670 - Urgent: 504 timeout issue for Regbook API",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -22239,7 +22328,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-19",
-      "updated": "2026-08-28",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-13568"
     },
     {
@@ -59499,7 +59588,7 @@
     {
       "key": "INC-10506",
       "summary": "URGENT: Notification Delivery Failure & SendGrid Logging Discrepancy - Monetary Authority of Singapore (MAS)",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -59508,7 +59597,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-04",
-      "updated": "2026-08-31",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-10506"
     },
     {
@@ -61052,240 +61141,6 @@
       "created": "2026-08-03",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-10383"
-    },
-    {
-      "key": "INC-10382",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10382"
-    },
-    {
-      "key": "INC-10381",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10381"
-    },
-    {
-      "key": "INC-10380",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10380"
-    },
-    {
-      "key": "INC-10379",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10379"
-    },
-    {
-      "key": "INC-10378",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10378"
-    },
-    {
-      "key": "INC-10377",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10377"
-    },
-    {
-      "key": "INC-10376",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10376"
-    },
-    {
-      "key": "INC-10375",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10375"
-    },
-    {
-      "key": "INC-10374",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10374"
-    },
-    {
-      "key": "INC-10373",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10373"
-    },
-    {
-      "key": "INC-10372",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10372"
-    },
-    {
-      "key": "INC-10371",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10371"
-    },
-    {
-      "key": "INC-10370",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10370"
-    },
-    {
-      "key": "INC-10369",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10369"
-    },
-    {
-      "key": "INC-10368",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10368"
-    },
-    {
-      "key": "INC-10367",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10367"
-    },
-    {
-      "key": "INC-10366",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "opsview"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10366"
-    },
-    {
-      "key": "INC-10365",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10365"
-    },
-    {
-      "key": "INC-10364",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10364"
     }
   ]
 }
