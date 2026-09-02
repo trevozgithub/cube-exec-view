@@ -1,15 +1,159 @@
 {
-  "updated": "2026-09-02T09:28:52.819069Z",
-  "total": 4989,
+  "updated": "2026-09-02T13:49:22.877372Z",
+  "total": 4983,
   "items": [
     {
-      "key": "INC-15380",
-      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "key": "INC-15391",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15391"
+    },
+    {
+      "key": "INC-15390",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Andrei Item",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Storage",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15390"
+    },
+    {
+      "key": "INC-15389",
+      "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15389"
+    },
+    {
+      "key": "INC-15388",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15388"
+    },
+    {
+      "key": "INC-15387",
+      "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Storage",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15387"
+    },
+    {
+      "key": "INC-15386",
+      "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15386"
+    },
+    {
+      "key": "INC-15385",
+      "summary": "[critical] ip-172-50-75-140.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15385"
+    },
+    {
+      "key": "INC-15384",
+      "summary": "[critical] ip-172-50-75-140.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15384"
+    },
+    {
+      "key": "INC-15383",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15383"
+    },
+    {
+      "key": "INC-15382",
+      "summary": "[critical] CUBEPROD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15382"
+    },
+    {
+      "key": "INC-15381",
+      "summary": "[critical] CUBEPROD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-02",
+      "updated": "2026-09-02",
+      "url": "https://cube001.atlassian.net/browse/INC-15381"
+    },
+    {
+      "key": "INC-15380",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15380"
@@ -278,7 +422,7 @@
       "key": "INC-15358",
       "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
       "status": "Completed",
-      "assignee": "Unassigned",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -347,7 +491,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15353"
     },
     {
@@ -407,7 +551,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15348"
     },
     {
@@ -1201,11 +1345,13 @@
     {
       "key": "INC-15283",
       "summary": "[critical] aks-ctins02-16016004-vmss0001fg - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-01",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15283"
@@ -1251,11 +1397,13 @@
     {
       "key": "INC-15279",
       "summary": "[critical] aks-ctins02-16016004-vmss0001ex - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-01",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15279"
@@ -1555,7 +1703,7 @@
     {
       "key": "INC-15254",
       "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 15 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1563,7 +1711,7 @@
         "opsview"
       ],
       "created": "2026-09-01",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15254"
     },
     {
@@ -2733,7 +2881,7 @@
         "24x7"
       ],
       "created": "2026-08-31",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15157"
     },
     {
@@ -4087,11 +4235,13 @@
     {
       "key": "INC-15046",
       "summary": "[critical] aks-ctins02-16016004-vmss0001gg - CPU Utilisation > 90% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-31",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15046"
@@ -4790,7 +4940,7 @@
         "24x7"
       ],
       "created": "2026-08-30",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14990"
     },
     {
@@ -5649,7 +5799,7 @@
     {
       "key": "INC-14920",
       "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5660,7 +5810,7 @@
         "newrelic"
       ],
       "created": "2026-08-29",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14920"
     },
     {
@@ -5965,13 +6115,15 @@
     {
       "key": "INC-14896",
       "summary": "[critical] aks-transform02-21490253-vmss000006 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-28",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14896"
     },
     {
@@ -6085,7 +6237,7 @@
     {
       "key": "INC-14886",
       "summary": "[critical] CUBEPREP2SQL05 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6096,7 +6248,7 @@
         "newrelic"
       ],
       "created": "2026-08-28",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14886"
     },
     {
@@ -6952,7 +7104,7 @@
     {
       "key": "INC-14818",
       "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -8102,18 +8254,6 @@
       "url": "https://cube001.atlassian.net/browse/INC-14725"
     },
     {
-      "key": "INC-14724",
-      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "In Progress",
-      "assignee": "Ravali Billakanti",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [],
-      "created": "2026-08-27",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-14724"
-    },
-    {
       "key": "INC-14723",
       "summary": "[critical] capture-test-uksouth-insight-mongodb-vm - CPU Utilisation > 90% for 15 Minutes",
       "status": "Completed",
@@ -8136,7 +8276,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-08-27",
-      "updated": "2026-08-27",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14722"
     },
     {
@@ -11193,11 +11333,13 @@
     {
       "key": "INC-14473",
       "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14473"
@@ -11217,11 +11359,13 @@
     {
       "key": "INC-14471",
       "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-08-26",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14471"
@@ -12603,13 +12747,16 @@
     {
       "key": "INC-14359",
       "summary": "Library content errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Sandeep Multani",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Alerts-From-Staff",
+        "Intel"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-14359"
     },
     {
@@ -60934,213 +61081,6 @@
       "created": "2026-08-03",
       "updated": "2026-08-04",
       "url": "https://cube001.atlassian.net/browse/INC-10399"
-    },
-    {
-      "key": "INC-10398",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65352",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10398"
-    },
-    {
-      "key": "INC-10397",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63467",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10397"
-    },
-    {
-      "key": "INC-10396",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65351",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10396"
-    },
-    {
-      "key": "INC-10395",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63466",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10395"
-    },
-    {
-      "key": "INC-10394",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65350",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10394"
-    },
-    {
-      "key": "INC-10392",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65349",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "browserstack"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10392"
-    },
-    {
-      "key": "INC-10391",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63465",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "browserstack"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10391"
-    },
-    {
-      "key": "INC-10390",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65349",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10390"
-    },
-    {
-      "key": "INC-10389",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63465",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10389"
-    },
-    {
-      "key": "INC-10388",
-      "summary": "High Parser Backlog Insights Dashboard",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10388"
-    },
-    {
-      "key": "INC-10387",
-      "summary": "P1 - Extractor Pods Unable to Connect to Insight Capture Services",
-      "status": "Completed",
-      "assignee": "Ishara Lakshitha",
-      "priority": "P1",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10387"
-    },
-    {
-      "key": "INC-10393",
-      "summary": "ATLAS NOTIFICATION: CS5010192 - MEDIUM - VULNERABILITY - CUBE Content Governance Global Limited",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-18",
-      "url": "https://cube001.atlassian.net/browse/INC-10393"
-    },
-    {
-      "key": "INC-10386",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10386"
-    },
-    {
-      "key": "INC-10385",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10385"
-    },
-    {
-      "key": "INC-10384",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-03",
-      "updated": "2026-08-03",
-      "url": "https://cube001.atlassian.net/browse/INC-10384"
-    },
-    {
-      "key": "INC-10383",
-      "summary": "HTTP 401 Errors in CUBEPROD2APP01",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "newrelic"
-      ],
-      "created": "2026-08-03",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-10383"
     }
   ]
 }
