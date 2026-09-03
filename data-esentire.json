@@ -1,7 +1,142 @@
 {
-  "updated": "2026-09-03T09:41:45.853887Z",
-  "total": 4974,
+  "updated": "2026-09-03T13:53:44.629624Z",
+  "total": 4963,
   "items": [
+    {
+      "key": "INC-15444",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68319",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15444"
+    },
+    {
+      "key": "INC-15443",
+      "summary": "No New Insights on PROD in the last 45 mins",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Alerts-From-Staff",
+        "PROD",
+        "RegInsight",
+        "UAT"
+      ],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15443"
+    },
+    {
+      "key": "INC-15442",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68318",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15442"
+    },
+    {
+      "key": "INC-15441",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68317",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "RegInsight",
+        "UAT",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15441"
+    },
+    {
+      "key": "INC-15440",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68317",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15440"
+    },
+    {
+      "key": "INC-15439",
+      "summary": "PROD is DOWN: RegConnect PROD Worker CronJob failing: Service Bus topic rest-connector-topic hit its 5 GiB entity-size quota, blocking all sync triggers",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff"
+      ],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15439"
+    },
+    {
+      "key": "INC-15438",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10725",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15438"
+    },
+    {
+      "key": "INC-15437",
+      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10724",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15437"
+    },
+    {
+      "key": "INC-15436",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hk - CPU Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15436"
+    },
+    {
+      "key": "INC-15435",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hk - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-03",
+      "updated": "2026-09-03",
+      "url": "https://cube001.atlassian.net/browse/INC-15435"
+    },
     {
       "key": "INC-15434",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10723",
@@ -9,7 +144,9 @@
       "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "browserstack"
+      ],
       "created": "2026-09-03",
       "updated": "2026-09-03",
       "url": "https://cube001.atlassian.net/browse/INC-15434"
@@ -398,15 +535,18 @@
     {
       "key": "INC-15402",
       "summary": "[critical] aks-ctins02-16016004-vmss0001h5 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
-        "24x7"
+        "24x7",
+        "Utilization",
+        "alerts",
+        "newrelic"
       ],
       "created": "2026-09-02",
-      "updated": "2026-09-02",
+      "updated": "2026-09-03",
       "url": "https://cube001.atlassian.net/browse/INC-15402"
     },
     {
@@ -563,7 +703,7 @@
         "newrelic"
       ],
       "created": "2026-09-02",
-      "updated": "2026-09-02",
+      "updated": "2026-09-03",
       "url": "https://cube001.atlassian.net/browse/INC-15390"
     },
     {
@@ -8112,7 +8252,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-08-27",
-      "updated": "2026-09-02",
+      "updated": "2026-09-03",
       "url": "https://cube001.atlassian.net/browse/INC-14782"
     },
     {
@@ -13287,9 +13427,11 @@
       "assignee": "Muhim Hussen",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "eSentire_Alert"
+      ],
       "created": "2026-08-25",
-      "updated": "2026-09-01",
+      "updated": "2026-09-03",
       "url": "https://cube001.atlassian.net/browse/INC-14361"
     },
     {
@@ -60722,275 +60864,6 @@
       "created": "2026-08-04",
       "updated": "2026-08-04",
       "url": "https://cube001.atlassian.net/browse/INC-10472"
-    },
-    {
-      "key": "INC-10471",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63551",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff",
-        "browserstack"
-      ],
-      "created": "2026-08-04",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10471"
-    },
-    {
-      "key": "INC-10470",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63551",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10470"
-    },
-    {
-      "key": "INC-10469",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63550",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10469"
-    },
-    {
-      "key": "INC-10468",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63549",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10468"
-    },
-    {
-      "key": "INC-10467",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-08-04",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10467"
-    },
-    {
-      "key": "INC-10466",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10466"
-    },
-    {
-      "key": "INC-10465",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63548",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-04",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10465"
-    },
-    {
-      "key": "INC-10464",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63548",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10464"
-    },
-    {
-      "key": "INC-10463",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10463"
-    },
-    {
-      "key": "INC-10462",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Completed",
-      "assignee": "Narayani Ramakrishnan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Intel",
-        "ProdSupport"
-      ],
-      "created": "2026-08-04",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10462"
-    },
-    {
-      "key": "INC-10461",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10461"
-    },
-    {
-      "key": "INC-10460",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10460"
-    },
-    {
-      "key": "INC-10459",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63546",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-04",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10459"
-    },
-    {
-      "key": "INC-10458",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10458"
-    },
-    {
-      "key": "INC-10457",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #63546",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10457"
-    },
-    {
-      "key": "INC-10456",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-04",
-      "updated": "2026-08-07",
-      "url": "https://cube001.atlassian.net/browse/INC-10456"
-    },
-    {
-      "key": "INC-10455",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10455"
-    },
-    {
-      "key": "INC-10454",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10454"
-    },
-    {
-      "key": "INC-10453",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10453"
-    },
-    {
-      "key": "INC-10452",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10452"
-    },
-    {
-      "key": "INC-10451",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-04",
-      "updated": "2026-08-04",
-      "url": "https://cube001.atlassian.net/browse/INC-10451"
     }
   ]
 }

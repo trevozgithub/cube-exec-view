@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T09:41:00.119157Z",
+  "updated": "2026-09-03T13:53:09.612098Z",
   "total": 24,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
@@ -9,12 +9,46 @@
       "status": "Build & Test",
       "assignee": "Dan Palmer",
       "duedate": "2026-12-31",
-      "reviewed": "2026-09-02",
+      "reviewed": "2026-09-03",
       "labels": [
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-676",
       "panels": []
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-09-03",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": []
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2027-03-30",
+      "reviewed": "2026-09-03",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Next steps - Agree on the project plan and create a SoW. Awaiting SJP to submit project milestones and the project status meeting cadence between now and the end of the term (March 2027), which we can use as the basis for our SOW"
+        }
+      ]
     },
     {
       "key": "CPN-1571",
@@ -83,26 +117,6 @@
         {
           "type": "info",
           "text": "1/09/2026 Still nothing definite for us (call notes below). Have asked for next meeting at end of September At that point will need to confirm timelines and SOW"
-        }
-      ]
-    },
-    {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2027-03-30",
-      "reviewed": "2026-08-31",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Next steps - Agree on the project plan and create a SoW. Awaiting SJP to submit project milestones and the project status meeting cadence between now and the end of the term (March 2027), which we can use as the basis for our SOW"
         }
       ]
     },
@@ -243,20 +257,6 @@
           "text": "19/08/26 ProtonVPN has been onboarded. Additional proxies can be set up using ProtonVPN, the process has been defined where the research team create tickets for provisioning."
         }
       ]
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Planning",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-08-17",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": []
     },
     {
       "key": "CPN-1576",
