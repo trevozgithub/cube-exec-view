@@ -1,7 +1,139 @@
 {
-  "updated": "2026-09-06T17:16:58.165337Z",
-  "total": 5384,
+  "updated": "2026-09-06T19:18:13.671257Z",
+  "total": 5394,
   "items": [
+    {
+      "key": "INC-16076",
+      "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16076"
+    },
+    {
+      "key": "INC-16075",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66337",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16075"
+    },
+    {
+      "key": "INC-16074",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68627",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16074"
+    },
+    {
+      "key": "INC-16073",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66336",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16073"
+    },
+    {
+      "key": "INC-16072",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68626",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16072"
+    },
+    {
+      "key": "INC-16071",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66335",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16071"
+    },
+    {
+      "key": "INC-16070",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68624",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16070"
+    },
+    {
+      "key": "INC-16069",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68623",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16069"
+    },
+    {
+      "key": "INC-16068",
+      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66334",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16068"
+    },
+    {
+      "key": "INC-16067",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68622",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16067"
+    },
+    {
+      "key": "INC-16066",
+      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68621",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-06",
+      "updated": "2026-09-06",
+      "url": "https://cube001.atlassian.net/browse/INC-16066"
+    },
     {
       "key": "INC-16065",
       "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66333",
@@ -1546,13 +1678,15 @@
     {
       "key": "INC-15938",
       "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10783",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-05",
-      "updated": "2026-09-05",
+      "updated": "2026-09-06",
       "url": "https://cube001.atlassian.net/browse/INC-15938"
     },
     {
@@ -7001,7 +7135,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-03",
-      "updated": "2026-09-05",
+      "updated": "2026-09-06",
       "url": "https://cube001.atlassian.net/browse/INC-15487"
     },
     {
@@ -21938,7 +22072,7 @@
         "RegConnect"
       ],
       "created": "2026-08-25",
-      "updated": "2026-09-01",
+      "updated": "2026-09-06",
       "url": "https://cube001.atlassian.net/browse/INC-14284"
     },
     {
@@ -65856,24 +65990,6 @@
       "created": "2026-08-07",
       "updated": "2026-08-07",
       "url": "https://cube001.atlassian.net/browse/INC-10673"
-    },
-    {
-      "key": "INC-10672",
-      "summary": "SysTran Translation API Issue",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "RegBook",
-        "RegInsight",
-        "Systran",
-        "Translation"
-      ],
-      "created": "2026-08-07",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-10672"
     }
   ]
 }
