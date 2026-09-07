@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:41:10.214901Z",
+  "updated": "2026-09-07T16:39:51.877244Z",
   "total": 32,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
@@ -23,7 +23,7 @@
       "status": "Build & Test",
       "assignee": "Alistair McPherson",
       "duedate": "2026-08-31",
-      "reviewed": "2026-09-02",
+      "reviewed": "2026-09-07",
       "labels": [
         "consumer",
         "content",
@@ -33,7 +33,7 @@
       "panels": [
         {
           "type": "info",
-          "text": "17/08/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Discussion to be held with 4C regarding migration dates and access has been provided to 4C repos for review. The pipeline inventory has been shared with Engineering managers and calls are being held to review Pipelines which are in scope for migration and assess alignment with Golden Pipeline. A pilot version of the pipeline, including skills has been created and tested on pipelines. Migrated pipelines are being reviewed by Engineering Managers. Following review bulk migration of pipelines can take place. RAG is Amber due to status of the pipeline migration."
+          "text": "07/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have had secrets addressed. Large files and restricted file types are outstanding. Releases for Red Bull and HSBC is being prioritised with GitHub migration work expected to recommence during the week of 07/09. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Blocking of Critical security vulnerabilities is scheduled to be enabled 16/09."
         }
       ]
     },

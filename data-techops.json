@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:41:13.607583Z",
+  "updated": "2026-09-07T16:39:53.580871Z",
   "total": 10,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=317",
   "items": [
@@ -23,6 +23,28 @@
       ]
     },
     {
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-09-07",
+      "labels": [
+        "Infra",
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
+        }
+      ]
+    },
+    {
       "key": "CPN-1214",
       "summary": "4CRisk - Systems migration and consolidation",
       "status": "Build & Test",
@@ -40,28 +62,6 @@
         {
           "type": "info",
           "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses - Licenses have been allocated to the users  [ Closed ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - The majority of the modules are now running on CUBE AI Foundry, with only a single module remaining on the 4CRisk OpenAI platform. The remaining module will need to remain on the 4CRisk OpenAI platform for an additional month, as the team has identified that its equivalent module in AI Foundry has been deprecated. The functionality dependent on this module, Global Search, is business-critical. Team is working towards fully migrating the Global Search functionality by the end of September. [ Open ] Adobe/SoftwareOne - The Acrobat Services (API) renewal agreement needs to be completed under the CUBE legal entity by 23 October. [ Open ] Separate initiative has been created to track 4CRisk Product AWS to Azure migration"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-08-24",
-      "labels": [
-        "Infra",
-        "TR",
-        "TSA_EXIT",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Mary Leung\u2019s and Melissa Pezzotti\u2019s TR devices have been returned. Agreed with TR to keep Daniel\u2019s laptop by the end of the TSA. The weekly report is sent before the end of the TSA period and includes ex-TR leavers"
         }
       ]
     },
