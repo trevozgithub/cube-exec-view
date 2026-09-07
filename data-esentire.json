@@ -1,7 +1,431 @@
 {
-  "updated": "2026-09-07T20:10:41.863572Z",
-  "total": 5446,
+  "updated": "2026-09-07T22:51:12.629472Z",
+  "total": 5478,
   "items": [
+    {
+      "key": "INC-16208",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16208"
+    },
+    {
+      "key": "INC-16207",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16207"
+    },
+    {
+      "key": "INC-16206",
+      "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16206"
+    },
+    {
+      "key": "INC-16205",
+      "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16205"
+    },
+    {
+      "key": "INC-16204",
+      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16204"
+    },
+    {
+      "key": "INC-16203",
+      "summary": "[critical] aks-intel01-11055639-vmss0002b1 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16203"
+    },
+    {
+      "key": "INC-16202",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16202"
+    },
+    {
+      "key": "INC-16201",
+      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "false-positive"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16201"
+    },
+    {
+      "key": "INC-16200",
+      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "false-positive"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16200"
+    },
+    {
+      "key": "INC-16199",
+      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "false-positive"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16199"
+    },
+    {
+      "key": "INC-16198",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "false-positive"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16198"
+    },
+    {
+      "key": "INC-16197",
+      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16197"
+    },
+    {
+      "key": "INC-16196",
+      "summary": "[critical] aks-intel02-63489346-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "false-positive"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16196"
+    },
+    {
+      "key": "INC-16195",
+      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16195"
+    },
+    {
+      "key": "INC-16194",
+      "summary": "[critical] aks-intel02-63489346-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16194"
+    },
+    {
+      "key": "INC-16193",
+      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16193"
+    },
+    {
+      "key": "INC-16192",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16192"
+    },
+    {
+      "key": "INC-16191",
+      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16191"
+    },
+    {
+      "key": "INC-16190",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16190"
+    },
+    {
+      "key": "INC-16189",
+      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16189"
+    },
+    {
+      "key": "INC-16188",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16188"
+    },
+    {
+      "key": "INC-16187",
+      "summary": "[critical] aks-intel01-11055639-vmss0002b1 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16187"
+    },
+    {
+      "key": "INC-16186",
+      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16186"
+    },
+    {
+      "key": "INC-16185",
+      "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16185"
+    },
+    {
+      "key": "INC-16184",
+      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16184"
+    },
+    {
+      "key": "INC-16183",
+      "summary": "[critical] aks-intel01-11055639-vmss0002b1 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16183"
+    },
+    {
+      "key": "INC-16182",
+      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16182"
+    },
+    {
+      "key": "INC-16181",
+      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16181"
+    },
+    {
+      "key": "INC-16180",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16180"
+    },
+    {
+      "key": "INC-16179",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16179"
+    },
+    {
+      "key": "INC-16178",
+      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16178"
+    },
+    {
+      "key": "INC-16177",
+      "summary": "[critical] aks-intel02-63489346-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16177"
+    },
+    {
+      "key": "INC-16176",
+      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-07",
+      "updated": "2026-09-07",
+      "url": "https://cube001.atlassian.net/browse/INC-16176"
+    },
     {
       "key": "INC-16175",
       "summary": "[critical] aks-asynccomm-13276705-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
@@ -17,11 +441,13 @@
     {
       "key": "INC-16174",
       "summary": "PROBLEM: MS SQL - DB Agent Service is CRITICAL on host CUBEPROD1SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-07",
       "updated": "2026-09-07",
       "url": "https://cube001.atlassian.net/browse/INC-16174"
@@ -29,11 +455,13 @@
     {
       "key": "INC-16173",
       "summary": "PROBLEM: MS SQL - Server Service is CRITICAL on host CUBEPROD1SQL05",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-07",
       "updated": "2026-09-07",
       "url": "https://cube001.atlassian.net/browse/INC-16173"
@@ -4565,13 +4993,15 @@
     {
       "key": "INC-15801",
       "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-05",
-      "updated": "2026-09-05",
+      "updated": "2026-09-07",
       "url": "https://cube001.atlassian.net/browse/INC-15801"
     },
     {
@@ -66641,22 +67071,6 @@
       "created": "2026-08-09",
       "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10721"
-    },
-    {
-      "key": "INC-10720",
-      "summary": "piprodtranslate-fe\tWebsite Monitors Systran PROD - Services: piprodtranslate.gocube.global\tCRITICAL",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Systran",
-        "Translation",
-        "alerts"
-      ],
-      "created": "2026-08-08",
-      "updated": "2026-08-16",
-      "url": "https://cube001.atlassian.net/browse/INC-10720"
     }
   ]
 }
