@@ -1,7 +1,271 @@
 {
-  "updated": "2026-09-08T09:55:13.321835Z",
-  "total": 5504,
+  "updated": "2026-09-08T14:11:51.681978Z",
+  "total": 5521,
   "items": [
+    {
+      "key": "INC-16273",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16273"
+    },
+    {
+      "key": "INC-16272",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "Storage",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16272"
+    },
+    {
+      "key": "INC-16271",
+      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16271"
+    },
+    {
+      "key": "INC-16269",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS07",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16269"
+    },
+    {
+      "key": "INC-16268",
+      "summary": "CUBEPROD1IIS06 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16268"
+    },
+    {
+      "key": "INC-16267",
+      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16267"
+    },
+    {
+      "key": "INC-16266",
+      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16266"
+    },
+    {
+      "key": "INC-16265",
+      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Alerts-From-Staff"
+      ],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16265"
+    },
+    {
+      "key": "INC-16264",
+      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16264"
+    },
+    {
+      "key": "INC-16263",
+      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16263"
+    },
+    {
+      "key": "INC-16262",
+      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16262"
+    },
+    {
+      "key": "INC-16261",
+      "summary": "CUBEPROD1IIS06 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16261"
+    },
+    {
+      "key": "INC-16260",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS06",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "Utilization",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16260"
+    },
+    {
+      "key": "INC-16259",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS06",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16259"
+    },
+    {
+      "key": "INC-16258",
+      "summary": "[critical] ip-192-168-139-52.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "DEV",
+        "Storage",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16258"
+    },
+    {
+      "key": "INC-16257",
+      "summary": "[critical] ip-192-168-139-52.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16257"
+    },
+    {
+      "key": "INC-16256",
+      "summary": "Intel: Find>Search by Keyword not working",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Alerts-From-Staff",
+        "Intel"
+      ],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16256"
+    },
+    {
+      "key": "INC-16255",
+      "summary": "Intel: Find>Search by Keyword not working",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "Alerts-From-Staff"
+      ],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16255"
+    },
+    {
+      "key": "INC-16254",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16254"
+    },
+    {
+      "key": "INC-16253",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16253"
+    },
     {
       "key": "INC-16252",
       "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
@@ -343,11 +607,14 @@
     {
       "key": "INC-16224",
       "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
-      "assignee": "Michael Angelo Dorio",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
+        "PROD",
+        "Utilization",
+        "alerts",
         "opsview"
       ],
       "created": "2026-09-08",
@@ -383,7 +650,7 @@
       "summary": "RegTrend Module \u2014 500 Error on Issuing Body Filter",
       "status": "To Do",
       "assignee": "Andrei Item",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
         "LIVE",
@@ -67352,42 +67619,6 @@
       "created": "2026-08-09",
       "updated": "2026-08-09",
       "url": "https://cube001.atlassian.net/browse/INC-10742"
-    },
-    {
-      "key": "INC-10741",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-09",
-      "updated": "2026-08-09",
-      "url": "https://cube001.atlassian.net/browse/INC-10741"
-    },
-    {
-      "key": "INC-10740",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-09",
-      "updated": "2026-08-09",
-      "url": "https://cube001.atlassian.net/browse/INC-10740"
-    },
-    {
-      "key": "INC-10739",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #65915",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-09",
-      "updated": "2026-08-09",
-      "url": "https://cube001.atlassian.net/browse/INC-10739"
     }
   ]
 }

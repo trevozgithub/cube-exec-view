@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T09:54:31.867053Z",
+  "updated": "2026-09-08T14:11:16.890878Z",
   "total": 27,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
@@ -19,12 +19,31 @@
       "panels": []
     },
     {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-09-08",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "07/09/26 Build of Sweden Central (SDC) has started with the Terraform to create the Hub being modified and run. Resource groups for Identity, Management and Connectivity is expected to complete 07/09, then focus will switch to Spoke deployment. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. An initial working version is being targeted for the week of 07/09."
+        }
+      ]
+    },
+    {
       "key": "CPN-676",
       "summary": "CUBE Datacenter Exit",
       "status": "Build & Test",
       "assignee": "Dan Palmer",
       "duedate": "2026-12-31",
-      "reviewed": "2026-09-07",
+      "reviewed": "2026-09-08",
       "labels": [
         "infrastructure"
       ],
@@ -122,25 +141,6 @@
         {
           "type": "info",
           "text": "07/09/26 Planning to be carried out and tasks moved from the main database rationalisation initiative."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-09-07",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "07/09/26 Build of Sweden Central (SDC) has started with the Terraform to create the Hub being modified and run. Resource groups for Identity, Management and Connectivity is expected to complete 07/09, then focus will switch to Spoke deployment. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. An initial working version is being targeted for the week of 07/09."
         }
       ]
     },
