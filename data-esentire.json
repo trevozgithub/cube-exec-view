@@ -1,7 +1,19 @@
 {
-  "updated": "2026-09-08T17:56:35.021034Z",
-  "total": 5525,
+  "updated": "2026-09-08T20:55:34.805301Z",
+  "total": 5523,
   "items": [
+    {
+      "key": "INC-16280",
+      "summary": "[critical] CUBEPROD1SQL05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-08",
+      "updated": "2026-09-08",
+      "url": "https://cube001.atlassian.net/browse/INC-16280"
+    },
     {
       "key": "INC-16279",
       "summary": "[critical] CUBEPROD1SQL05 - Storage Utilisation > 80% for 30 Minutes",
@@ -860,7 +872,7 @@
       "key": "INC-16210",
       "summary": "Request for Assistance \u2013 TS to INC Ticket Conversion for Essentire Alerts",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -1548,7 +1560,7 @@
     {
       "key": "INC-16157",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -23669,16 +23681,16 @@
     },
     {
       "key": "INC-14361",
-      "summary": "P2 - CUBE GCP Collector Not Sending Data",
+      "summary": "CUBE GCP Collector Not Sending Data",
       "status": "In Progress",
       "assignee": "Muhim Hussen",
-      "priority": "P2",
+      "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "eSentire_Alert"
       ],
       "created": "2026-08-25",
-      "updated": "2026-09-07",
+      "updated": "2026-09-08",
       "url": "https://cube001.atlassian.net/browse/INC-14361"
     },
     {
@@ -67641,42 +67653,6 @@
       "created": "2026-08-10",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10747"
-    },
-    {
-      "key": "INC-10746",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-09",
-      "updated": "2026-08-09",
-      "url": "https://cube001.atlassian.net/browse/INC-10746"
-    },
-    {
-      "key": "INC-10745",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-09",
-      "updated": "2026-08-09",
-      "url": "https://cube001.atlassian.net/browse/INC-10745"
-    },
-    {
-      "key": "INC-10744",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-09",
-      "updated": "2026-08-09",
-      "url": "https://cube001.atlassian.net/browse/INC-10744"
     }
   ]
 }
