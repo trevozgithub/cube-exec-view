@@ -1,15 +1,165 @@
 {
-  "updated": "2026-09-09T06:06:17.205521Z",
-  "total": 5517,
+  "updated": "2026-09-09T11:17:23.808598Z",
+  "total": 5518,
   "items": [
     {
-      "key": "INC-16293",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "key": "INC-16304",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16304"
+    },
+    {
+      "key": "INC-16303",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16303"
+    },
+    {
+      "key": "INC-16302",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Utilization",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16302"
+    },
+    {
+      "key": "INC-16301",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
       "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16301"
+    },
+    {
+      "key": "INC-16300",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16300"
+    },
+    {
+      "key": "INC-16299",
+      "summary": "CUBEPROD1IIS06 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16299"
+    },
+    {
+      "key": "INC-16298",
+      "summary": "CUBEPROD1IIS06 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16298"
+    },
+    {
+      "key": "INC-16297",
+      "summary": "CUBEPROD1IIS06 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16297"
+    },
+    {
+      "key": "INC-16296",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16296"
+    },
+    {
+      "key": "INC-16295",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS06",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16295"
+    },
+    {
+      "key": "INC-16294",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS06",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16294"
+    },
+    {
+      "key": "INC-16293",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "Utilization",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-09-09",
       "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16293"
@@ -113,11 +263,15 @@
     {
       "key": "INC-16284",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #68832",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "UAT",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-09-08",
       "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16284"
@@ -137,7 +291,7 @@
     {
       "key": "INC-16282",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #66510",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -200,13 +354,15 @@
     {
       "key": "INC-16277",
       "summary": "CUBEPROD1IIS06 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16277"
     },
     {
@@ -240,9 +396,11 @@
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "eSentire_Alert"
+      ],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16274"
     },
     {
@@ -441,7 +599,7 @@
         "newrelic"
       ],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16258"
     },
     {
@@ -460,7 +618,7 @@
       "key": "INC-16256",
       "summary": "Intel: Find>Search by Keyword not working",
       "status": "To Do",
-      "assignee": "Silver Dangeros",
+      "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -468,7 +626,7 @@
         "Intel"
       ],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16256"
     },
     {
@@ -891,7 +1049,7 @@
     {
       "key": "INC-16221",
       "summary": "RegTrend Module \u2014 500 Error on Issuing Body Filter",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Kalani Jayatissa",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -900,7 +1058,7 @@
         "browserstack"
       ],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16221"
     },
     {
@@ -1086,11 +1244,13 @@
     {
       "key": "INC-16206",
       "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 30 Minutes",
-      "status": "In Progress",
-      "assignee": "Johnmar Carlos Wabe",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-07",
       "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16206"
@@ -4126,7 +4286,9 @@
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "LIVE"
+      ],
       "created": "2026-09-06",
       "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15960"
@@ -4232,7 +4394,7 @@
     {
       "key": "INC-15951",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7074,13 +7236,15 @@
     {
       "key": "INC-15717",
       "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "LJ Rendal",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-04",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15717"
     },
     {
@@ -14705,7 +14869,7 @@
         "Intel"
       ],
       "created": "2026-08-31",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15099"
     },
     {
@@ -17940,7 +18104,7 @@
     {
       "key": "INC-14839",
       "summary": "\ud83d\udd34 HIGH PRIORITY ALERT \u2013 Job Failure: 176046_TEMPLATE_REG_MGMT_INTAKE_MASTER_RECON_SM",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -17948,7 +18112,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-08-28",
-      "updated": "2026-09-07",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-14839"
     },
     {
@@ -22183,7 +22347,7 @@
         "Translation"
       ],
       "created": "2026-08-26",
-      "updated": "2026-09-05",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-14495"
     },
     {
@@ -67442,134 +67606,6 @@
       "created": "2026-08-10",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10776"
-    },
-    {
-      "key": "INC-10775",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10775"
-    },
-    {
-      "key": "INC-10774",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10774"
-    },
-    {
-      "key": "INC-10773",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10773"
-    },
-    {
-      "key": "INC-10772",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10772"
-    },
-    {
-      "key": "INC-10771",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2SQL01",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10771"
-    },
-    {
-      "key": "INC-10770",
-      "summary": "Key Manager Plus - SSL Certificate Expiry Notification",
-      "status": "Completed",
-      "assignee": "Andrew Minor",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Support"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-13",
-      "url": "https://cube001.atlassian.net/browse/INC-10770"
-    },
-    {
-      "key": "INC-10769",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10769"
-    },
-    {
-      "key": "INC-10768",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10768"
-    },
-    {
-      "key": "INC-10767",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Dilina Dayasiri",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-10767"
-    },
-    {
-      "key": "INC-10766",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10766"
     }
   ]
 }
