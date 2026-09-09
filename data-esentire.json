@@ -1,7 +1,67 @@
 {
-  "updated": "2026-09-09T01:17:19.211078Z",
-  "total": 5529,
+  "updated": "2026-09-09T06:06:17.205521Z",
+  "total": 5517,
   "items": [
+    {
+      "key": "INC-16293",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16293"
+    },
+    {
+      "key": "INC-16292",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16292"
+    },
+    {
+      "key": "INC-16291",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16291"
+    },
+    {
+      "key": "INC-16290",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16290"
+    },
+    {
+      "key": "INC-16289",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-09",
+      "updated": "2026-09-09",
+      "url": "https://cube001.atlassian.net/browse/INC-16289"
+    },
     {
       "key": "INC-16288",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
@@ -59,7 +119,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16284"
     },
     {
@@ -86,7 +146,7 @@
         "browserstack"
       ],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16282"
     },
     {
@@ -470,7 +530,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16251"
     },
     {
@@ -1032,7 +1092,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-07",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16206"
     },
     {
@@ -1849,7 +1909,7 @@
         "health-check"
       ],
       "created": "2026-09-07",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16143"
     },
     {
@@ -3996,7 +4056,7 @@
     {
       "key": "INC-15965",
       "summary": "[critical] ip-172-18-69-12.ec2.internal - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4006,7 +4066,7 @@
         "Utilization"
       ],
       "created": "2026-09-06",
-      "updated": "2026-09-07",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15965"
     },
     {
@@ -4068,7 +4128,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-06",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15960"
     },
     {
@@ -4182,7 +4242,7 @@
         "SQL"
       ],
       "created": "2026-09-06",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15951"
     },
     {
@@ -4223,7 +4283,7 @@
         "newrelic"
       ],
       "created": "2026-09-05",
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-15948"
     },
     {
@@ -67510,224 +67570,6 @@
       "created": "2026-08-10",
       "updated": "2026-08-10",
       "url": "https://cube001.atlassian.net/browse/INC-10766"
-    },
-    {
-      "key": "INC-10765",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10765"
-    },
-    {
-      "key": "INC-10764",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10764"
-    },
-    {
-      "key": "INC-10763",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10763"
-    },
-    {
-      "key": "INC-10762",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10762"
-    },
-    {
-      "key": "INC-10761",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10761"
-    },
-    {
-      "key": "INC-10760",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10760"
-    },
-    {
-      "key": "INC-10759",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Completed",
-      "assignee": "Narayani Ramakrishnan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-10759"
-    },
-    {
-      "key": "INC-10758",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10758"
-    },
-    {
-      "key": "INC-10757",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10757"
-    },
-    {
-      "key": "INC-10756",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Niel Singo",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-14",
-      "url": "https://cube001.atlassian.net/browse/INC-10756"
-    },
-    {
-      "key": "INC-10755",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10755"
-    },
-    {
-      "key": "INC-10754",
-      "summary": "PRDSM - INTEL Performance Monitoring",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10754"
-    },
-    {
-      "key": "INC-10753",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10753"
-    },
-    {
-      "key": "INC-10752",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10752"
-    },
-    {
-      "key": "INC-10751",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10751"
-    },
-    {
-      "key": "INC-10750",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Phil Oakes",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Intel",
-        "PROD",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10750"
-    },
-    {
-      "key": "INC-10749",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-10",
-      "updated": "2026-08-10",
-      "url": "https://cube001.atlassian.net/browse/INC-10749"
     }
   ]
 }
