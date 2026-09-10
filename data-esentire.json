@@ -1,7 +1,79 @@
 {
-  "updated": "2026-09-10T18:19:26.770442Z",
-  "total": 5169,
+  "updated": "2026-09-10T20:59:40.760064Z",
+  "total": 5162,
   "items": [
+    {
+      "key": "INC-16439",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-10",
+      "updated": "2026-09-10",
+      "url": "https://cube001.atlassian.net/browse/INC-16439"
+    },
+    {
+      "key": "INC-16438",
+      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-10",
+      "updated": "2026-09-10",
+      "url": "https://cube001.atlassian.net/browse/INC-16438"
+    },
+    {
+      "key": "INC-16437",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10900",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-10",
+      "updated": "2026-09-10",
+      "url": "https://cube001.atlassian.net/browse/INC-16437"
+    },
+    {
+      "key": "INC-16436",
+      "summary": "RegGroup Summaries not Generating in UAT",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-10",
+      "updated": "2026-09-10",
+      "url": "https://cube001.atlassian.net/browse/INC-16436"
+    },
+    {
+      "key": "INC-16435",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10899",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-10",
+      "updated": "2026-09-10",
+      "url": "https://cube001.atlassian.net/browse/INC-16435"
+    },
+    {
+      "key": "INC-16434",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10898",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-10",
+      "updated": "2026-09-10",
+      "url": "https://cube001.atlassian.net/browse/INC-16434"
+    },
     {
       "key": "INC-16433",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10897",
@@ -875,13 +947,15 @@
     {
       "key": "INC-16364",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10874",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-09",
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-16364"
     },
     {
@@ -931,7 +1005,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-09",
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-16360"
     },
     {
@@ -1185,11 +1259,13 @@
     {
       "key": "INC-16339",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-09",
       "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-16339"
@@ -1459,7 +1535,7 @@
         "24x7"
       ],
       "created": "2026-09-09",
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-16317"
     },
     {
@@ -1473,7 +1549,7 @@
         "24x7"
       ],
       "created": "2026-09-09",
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-16316"
     },
     {
@@ -3690,7 +3766,7 @@
         "health-check"
       ],
       "created": "2026-09-07",
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-16143"
     },
     {
@@ -5903,15 +5979,15 @@
     {
       "key": "INC-15960",
       "summary": "live.gocube.global \u2013 Recurring Browser Check Alerts (Status 3031)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "LIVE"
       ],
       "created": "2026-09-06",
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-15960"
     },
     {
@@ -26612,7 +26688,7 @@
         "RegConnect"
       ],
       "created": "2026-08-25",
-      "updated": "2026-09-07",
+      "updated": "2026-09-10",
       "url": "https://cube001.atlassian.net/browse/INC-14284"
     },
     {
@@ -63276,172 +63352,6 @@
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "url": "https://cube001.atlassian.net/browse/INC-11268"
-    },
-    {
-      "key": "INC-11267",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66146",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11267"
-    },
-    {
-      "key": "INC-11266",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66145",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11266"
-    },
-    {
-      "key": "INC-11265",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66144",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11265"
-    },
-    {
-      "key": "INC-11264",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66143",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11264"
-    },
-    {
-      "key": "INC-11263",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66142",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11263"
-    },
-    {
-      "key": "INC-11261",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66141",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11261"
-    },
-    {
-      "key": "INC-11260",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66140",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11260"
-    },
-    {
-      "key": "INC-11262",
-      "summary": "PROD RegBook \u2014 Details Page Loading Issue",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-11",
-      "updated": "2026-08-14",
-      "url": "https://cube001.atlassian.net/browse/INC-11262"
-    },
-    {
-      "key": "INC-11258",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66139",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11258"
-    },
-    {
-      "key": "INC-11257",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66139",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-16",
-      "url": "https://cube001.atlassian.net/browse/INC-11257"
-    },
-    {
-      "key": "INC-11256",
-      "summary": "No new Insights in UAT  - Browserstack  UAT Consumer Application Monitoring",
-      "status": "Completed",
-      "assignee": "Schubert Pereira",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff",
-        "alerts"
-      ],
-      "created": "2026-08-11",
-      "updated": "2026-08-27",
-      "url": "https://cube001.atlassian.net/browse/INC-11256"
-    },
-    {
-      "key": "INC-11255",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64163",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "url": "https://cube001.atlassian.net/browse/INC-11255"
-    },
-    {
-      "key": "INC-11254",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64163",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-11",
-      "updated": "2026-08-16",
-      "url": "https://cube001.atlassian.net/browse/INC-11254"
     }
   ]
 }
