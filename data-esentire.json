@@ -1,7 +1,129 @@
 {
-  "updated": "2026-09-11T10:24:37.722497Z",
-  "total": 5107,
+  "updated": "2026-09-11T14:33:33.916552Z",
+  "total": 5104,
   "items": [
+    {
+      "key": "INC-16488",
+      "summary": "[critical] ip-30-0-6-225.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16488"
+    },
+    {
+      "key": "INC-16487",
+      "summary": "[critical] ip-30-0-6-225.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16487"
+    },
+    {
+      "key": "INC-16486",
+      "summary": "[critical] piprodtranslate-be-0100001H - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16486"
+    },
+    {
+      "key": "INC-16485",
+      "summary": "[critical] ip-30-0-6-225.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16485"
+    },
+    {
+      "key": "INC-16484",
+      "summary": "[critical] ip-30-0-6-225.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16484"
+    },
+    {
+      "key": "INC-16483",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16483"
+    },
+    {
+      "key": "INC-16482",
+      "summary": "[critical] ip-30-0-6-225.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16482"
+    },
+    {
+      "key": "INC-16481",
+      "summary": "[critical] CUBEDMSQL - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16481"
+    },
+    {
+      "key": "INC-16480",
+      "summary": "[critical] CUBEPROD1SQL05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16480"
+    },
+    {
+      "key": "INC-16479",
+      "summary": "[critical] ip-30-0-6-35.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-11",
+      "updated": "2026-09-11",
+      "url": "https://cube001.atlassian.net/browse/INC-16479"
+    },
     {
       "key": "INC-16478",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #66713",
@@ -65,11 +187,13 @@
     {
       "key": "INC-16473",
       "summary": "[critical] ip-30-0-6-35.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-11",
       "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16473"
@@ -137,11 +261,13 @@
     {
       "key": "INC-16467",
       "summary": "[critical] piprodtranslate-be-0100001H - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-11",
       "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16467"
@@ -329,11 +455,13 @@
     {
       "key": "INC-16451",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-11",
       "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16451"
@@ -1381,8 +1509,8 @@
     {
       "key": "INC-16367",
       "summary": "Annual Run - xPression Failure - HK - Production",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Sean Kelaart",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -1391,7 +1519,7 @@
         "alerts"
       ],
       "created": "2026-09-09",
-      "updated": "2026-09-09",
+      "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16367"
     },
     {
@@ -1719,7 +1847,7 @@
     {
       "key": "INC-16340",
       "summary": "[critical] CUBEDMSQL - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2487,11 +2615,13 @@
     {
       "key": "INC-16280",
       "summary": "[critical] CUBEPROD1SQL05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-08",
       "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16280"
@@ -2505,7 +2635,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-08",
-      "updated": "2026-09-08",
+      "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16279"
     },
     {
@@ -3927,7 +4057,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-07",
-      "updated": "2026-09-07",
+      "updated": "2026-09-11",
       "url": "https://cube001.atlassian.net/browse/INC-16167"
     },
     {
@@ -62496,170 +62626,6 @@
       "created": "2026-08-12",
       "updated": "2026-08-12",
       "url": "https://cube001.atlassian.net/browse/INC-11375"
-    },
-    {
-      "key": "INC-11374",
-      "summary": "Patching Error : Download Success but checksum failed Error : 60000.",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-12",
-      "updated": "2026-08-13",
-      "url": "https://cube001.atlassian.net/browse/INC-11374"
-    },
-    {
-      "key": "INC-11373",
-      "summary": "PRDSM - INTEL Performance Monitoring 400_600ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11373"
-    },
-    {
-      "key": "INC-11372",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11372"
-    },
-    {
-      "key": "INC-11371",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11371"
-    },
-    {
-      "key": "INC-11370",
-      "summary": "Patching Error : Patch deployment failed because the agent was unable to download the patch from the vendor.",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-12",
-      "updated": "2026-08-18",
-      "url": "https://cube001.atlassian.net/browse/INC-11370"
-    },
-    {
-      "key": "INC-11369",
-      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11369"
-    },
-    {
-      "key": "INC-11368",
-      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11368"
-    },
-    {
-      "key": "INC-11367",
-      "summary": "PRDSM - INTEL Performance Monitoring 650_1000ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11367"
-    },
-    {
-      "key": "INC-11366",
-      "summary": "PRDSM - INTEL Performance Monitoring 650_1000ms",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11366"
-    },
-    {
-      "key": "INC-11365",
-      "summary": "PRDSM - INTEL Performance Monitoring 150_300ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11365"
-    },
-    {
-      "key": "INC-11364",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66211",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11364"
-    },
-    {
-      "key": "INC-11363",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66210",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-12",
-      "updated": "2026-08-12",
-      "url": "https://cube001.atlassian.net/browse/INC-11363"
-    },
-    {
-      "key": "INC-11362",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #66210",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-12",
-      "updated": "2026-08-16",
-      "url": "https://cube001.atlassian.net/browse/INC-11362"
     }
   ]
 }

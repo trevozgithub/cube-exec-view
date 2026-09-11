@@ -1,21 +1,45 @@
 {
-  "updated": "2026-09-11T10:24:04.488671Z",
+  "updated": "2026-09-11T14:32:47.871230Z",
   "total": 32,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
     {
-      "key": "CPN-1532",
-      "summary": "RegPlatform - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
+      "key": "CPN-1523",
+      "summary": "RegPlatform - Enforcement Coworker",
+      "status": "Operational Readiness",
       "assignee": "Jaspreet Manghera",
-      "duedate": "2026-09-30",
+      "duedate": "",
       "reviewed": "2026-09-11",
       "labels": [
         "Consumer",
         "consumer"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1532",
-      "panels": []
+      "url": "https://cube001.atlassian.net/browse/CPN-1523",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  In prod, now in hypercare"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1705",
+      "summary": "RegConnect - Pseudo Duplicate Insight [API]",
+      "status": "Operational Readiness",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-11",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1705",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Queued for PROD release by end Sep"
+        }
+      ]
     },
     {
       "key": "CPN-1618",
@@ -29,6 +53,20 @@
         "consumer"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1618",
+      "panels": []
+    },
+    {
+      "key": "CPN-1532",
+      "summary": "RegPlatform - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-09-11",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1532",
       "panels": []
     },
     {
@@ -82,25 +120,6 @@
         {
           "type": "info",
           "text": "Status 13/08:  This is blocked awaiting Vamsee to determine approach on API spec. Likely to slip to Q4"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1705",
-      "summary": "RegConnect - Pseudo Duplicate Insight [API]",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-09-02",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1705",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 27/08:  Currently on track from an RGP perspective, now in testing"
         }
       ]
     },
@@ -290,25 +309,6 @@
         {
           "type": "info",
           "text": "Status 30/07: Good progress. Core development on track for Q3"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1523",
-      "summary": "RegPlatform - Enforcement Coworker",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1523",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 13/08:  RegPlatform dev complete, awaiting Kodex to be able to complete. CUrrent PROD ETA 24 Aug"
         }
       ]
     },
