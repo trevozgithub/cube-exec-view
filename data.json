@@ -1,8 +1,189 @@
 {
-  "updated": "2026-09-14T14:02:08.519058Z",
-  "total": 32,
+  "updated": "2026-09-14T19:17:28.028574Z",
+  "total": 31,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-674",
+      "summary": "RegConnect - ServiceNow Integration",
+      "status": "Build & Test",
+      "assignee": "Ian Shaw",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-674",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 30/07: Good progress. Core development on track for Q3"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1522",
+      "summary": "RegPlatform - Workflow Notifications for Insight Analysis",
+      "status": "Operational Readiness",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1522",
+      "panels": []
+    },
+    {
+      "key": "CPN-1523",
+      "summary": "RegPlatform - Enforcement Coworker",
+      "status": "Operational Readiness",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1523",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  In prod, now in hypercare"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations",
+      "status": "Build & Test",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1705",
+      "summary": "RegConnect - Pseudo Duplicate Insight [API]",
+      "status": "Operational Readiness",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1705",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Queued for PROD release by end Sep"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1855",
+      "summary": "RegPlatform - HTML to PDF (JPMC)",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1855",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Queued for PROD release next week"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1795",
+      "summary": "RegPlatform - Audit Capability Presentation",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1795",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  MVP is in UAT with small changes to follow. Customer testing to validate whether this PROD ready"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1529",
+      "summary": "RegPlatform - Integrated Risk Control Module",
+      "status": "Operational Readiness",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1529",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 27/08:  Now integrated with RGP. Considered done. Next step is forming customer rollout plan     The Integrated Risk Control Module within RegPlatform will enable financial institutions to seamlessly connect regulatory obligations to their risk control environment, creating a single, auditable view of compliance and control coverage"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1519",
+      "summary": "RegPlatform - Enhanced Citation Linking API Update",
+      "status": "Scoping",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1519",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Scope being finalised. Now RED for Q3 and will likely move to Q4"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1618",
+      "summary": "OpRisk - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-09-14",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1618",
+      "panels": []
+    },
     {
       "key": "CPN-610",
       "summary": "GitHub Migration",
@@ -24,20 +205,6 @@
       ]
     },
     {
-      "key": "CPN-1618",
-      "summary": "OpRisk - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jeremy Noble",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1618",
-      "panels": []
-    },
-    {
       "key": "CPN-1532",
       "summary": "RegPlatform - Administrative Tasks Q3 2026",
       "status": "Build & Test",
@@ -50,59 +217,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1532",
       "panels": []
-    },
-    {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations",
-      "status": "Build & Test",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-09-11",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": []
-    },
-    {
-      "key": "CPN-1523",
-      "summary": "RegPlatform - Enforcement Coworker",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-09-11",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1523",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  In prod, now in hypercare"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1705",
-      "summary": "RegConnect - Pseudo Duplicate Insight [API]",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-09-11",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1705",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Queued for PROD release by end Sep"
-        }
-      ]
     },
     {
       "key": "CPN-1126",
@@ -155,25 +269,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1619",
       "panels": []
-    },
-    {
-      "key": "CPN-1529",
-      "summary": "RegPlatform - Integrated Risk Control Module",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-20",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1529",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 13/08:  Now integrated with RGP. Considered done. Next step is forming customer rollout plan     The Integrated Risk Control Module within RegPlatform will enable financial institutions to seamlessly connect regulatory obligations to their risk control environment, creating a single, auditable view of compliance and control coverage"
-        }
-      ]
     },
     {
       "key": "CPN-1321",
@@ -238,115 +333,6 @@
         {
           "type": "info",
           "text": "Status 14/04: Tech lead TJ is being moved into a new team, with additional developer support. Handover to be discussed so we can understand whether we can deliver in Q2 Elastic upgrade and migration - Cube Technology - Confluence"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1519",
-      "summary": "RegPlatform - Enhanced Citation Linking API Update",
-      "status": "Scoping",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1519",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 13/08:  Scope being finalised. Remains amber due to latency of getting into development due to constraints in product and with Vamsee validating the API approach"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1706",
-      "summary": "RegPlatform - DB Performance Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1706",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status:"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1522",
-      "summary": "RegPlatform - Workflow Notifications for Insight Analysis",
-      "status": "Operational Readiness",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1522",
-      "panels": []
-    },
-    {
-      "key": "CPN-674",
-      "summary": "RegConnect - ServiceNow Integration",
-      "status": "Build & Test",
-      "assignee": "Ian Shaw",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-674",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 30/07: Good progress. Core development on track for Q3"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1855",
-      "summary": "RegPlatform - HTML to PDF (JPMC)",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1855",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 13/08:  Should be dev complete next week, slight delay due to cloud variables"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1795",
-      "summary": "RegPlatform - Audit Capability Presentation",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "",
-      "reviewed": "2026-08-13",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1795",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 13/08:  There are additional layers of complexity detected. Further infrastructure work in progress. Will need to flag operational readiness asap"
         }
       ]
     },
