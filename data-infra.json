@@ -1,8 +1,89 @@
 {
-  "updated": "2026-09-15T10:29:57.071817Z",
+  "updated": "2026-09-15T15:14:11.436085Z",
   "total": 30,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-949",
+      "summary": "4CRisk - Onboarding and O365 migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-08-07",
+      "reviewed": "2026-09-15",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-949",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Legacy assets wipe & disposal process  [ Open ]  A quote has been received from Softcat ($2,000), and confirmation has been requested regarding the disposal process in the India region. Quote received from BitRaser (\u00a3150 for 20 devices). Souvik has identified a potential charity for consideration. Requested a decision from Neil on how to proceed. Note: If we go with BitRaser, the wiping would need to be handled in-house, meaning we'd need to assign someone to carry it out."
+        }
+      ]
+    },
+    {
+      "key": "CPN-105",
+      "summary": "TR Employee Data migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-09-15",
+      "labels": [
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-105",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Long terms solution implemented by TR has been tested and works for TR sub-domains no-reply@content.thomsonreuters.com donotreply.ari@regintel.thomsonreuters.com Awaiting the TR to apply the solution to remaining  no-reply@content-qa.thomsonreuters.com  sub-domain and DL. OneDrive migration kicked-off on  . Weekly sync runs every Friday. Next phase: Teams and SharePoint migration scheduled to be kicked off on    (On track) O365 migration plan:"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-09-15",
+      "labels": [
+        "Infra",
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
+        }
+      ]
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2027-03-30",
+      "reviewed": "2026-09-15",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
+        }
+      ]
+    },
     {
       "key": "CPN-817",
       "summary": "Kodex - GCP migration to Azure",
@@ -94,48 +175,6 @@
       ]
     },
     {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "Infra",
-        "TR",
-        "TSA_EXIT",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
-        }
-      ]
-    },
-    {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2027-03-30",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
-        }
-      ]
-    },
-    {
       "key": "CPN-1420",
       "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
       "status": "Build & Test",
@@ -151,25 +190,6 @@
         {
           "type": "info",
           "text": "Jira space for Kodex team has been created based on the design  Kodex AI - Miro .  [ Closed ] George completed the set up a squad object and linked it to the space. [ Closed ] Claus to advise on the location & repos Kodex uses so that these can be integrated to Plandek. Meeting set up for 4th August to discuss the outstanding items required to complete the Atlassian/Plandek setup [ Closed ] Claus to review and sign off on the imported data before providing the latest export from Linear, which George can then import into the Jira space.[ Open ]"
-        }
-      ]
-    },
-    {
-      "key": "CPN-105",
-      "summary": "TR Employee Data migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-105",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Long terms solution implemented by TR has been tested and works for TR sub-domains no-reply@content.thomsonreuters.com donotreply.ari@regintel.thomsonreuters.com Awaiting the TR to apply the solution to remaining  no-reply@content-qa.thomsonreuters.com  sub-domain and DL. OneDrive migration kicked-off on  . Weekly sync runs every Friday. Next phase: Teams and SharePoint migration scheduled to be kicked off on    (On track) O365 migration plan:"
         }
       ]
     },
@@ -191,26 +211,6 @@
         {
           "type": "info",
           "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses - Licenses have been allocated to the users  [ Closed ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - The majority of the modules are now running on CUBE AI Foundry, with only a single module remaining on the 4CRisk OpenAI platform. The remaining module will need to remain on the 4CRisk OpenAI platform for an additional month, as the team has identified that its equivalent module in AI Foundry has been deprecated. The functionality dependent on this module, Global Search, is business-critical. Team is working towards fully migrating the Global Search functionality by the end of September. [ Open ] Adobe/SoftwareOne - The Acrobat Services (API) renewal agreement needs to be completed under the CUBE legal entity by 23 October. [ Open ] Separate initiative has been created to track 4CRisk Product AWS to Azure migration"
-        }
-      ]
-    },
-    {
-      "key": "CPN-949",
-      "summary": "4CRisk - Onboarding and O365 migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-08-07",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-949",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Legacy assets wipe & disposal process  [ Open ]  A quote has been received from Softcat ($2,000), and confirmation has been requested regarding the disposal process in the India region. Quote received from BitRaser (\u00a3150 for 20 devices). Souvik has identified a potential charity for consideration. Requested a decision from Neil on how to proceed. Note: If we go with BitRaser, the wiping would need to be handled in-house, meaning we'd need to assign someone to carry it out."
         }
       ]
     },
