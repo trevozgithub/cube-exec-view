@@ -1,7 +1,83 @@
 {
-  "updated": "2026-09-16T14:30:50.522755Z",
-  "total": 4114,
+  "updated": "2026-09-16T18:23:26.464399Z",
+  "total": 4049,
   "items": [
+    {
+      "key": "INC-17151",
+      "summary": "[critical] CUBEPROD1RDI04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-16",
+      "updated": "2026-09-16",
+      "url": "https://cube001.atlassian.net/browse/INC-17151"
+    },
+    {
+      "key": "INC-17150",
+      "summary": "[critical] CUBEPROD1RDI04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-16",
+      "updated": "2026-09-16",
+      "url": "https://cube001.atlassian.net/browse/INC-17150"
+    },
+    {
+      "key": "INC-17149",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-16",
+      "updated": "2026-09-16",
+      "url": "https://cube001.atlassian.net/browse/INC-17149"
+    },
+    {
+      "key": "INC-17148",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-16",
+      "updated": "2026-09-16",
+      "url": "https://cube001.atlassian.net/browse/INC-17148"
+    },
+    {
+      "key": "INC-17147",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001jp - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-16",
+      "updated": "2026-09-16",
+      "url": "https://cube001.atlassian.net/browse/INC-17147"
+    },
+    {
+      "key": "INC-17146",
+      "summary": "Intel/Oden API portal down in UAT",
+      "status": "In Progress",
+      "assignee": "Sandeep Multani",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-16",
+      "updated": "2026-09-16",
+      "url": "https://cube001.atlassian.net/browse/INC-17146"
+    },
     {
       "key": "INC-17145",
       "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
@@ -29,11 +105,13 @@
     {
       "key": "INC-17143",
       "summary": "[critical] aks-ctins02-16016004-vmss0001jp - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-17143"
@@ -485,11 +563,16 @@
     {
       "key": "INC-17106",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69544",
-      "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "RegInsight",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-17106"
@@ -905,11 +988,13 @@
     {
       "key": "INC-17073",
       "summary": "Patching Error - CR-27248 - VMware Tools Crashed",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-17073"
@@ -1017,11 +1102,13 @@
     {
       "key": "INC-17064",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11024",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-17064"
@@ -1029,11 +1116,16 @@
     {
       "key": "INC-17063",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Intel",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-17063"
@@ -1286,11 +1378,13 @@
     {
       "key": "INC-17042",
       "summary": "[critical] aks-ctins02-16016004-vmss0001fk - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-15",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-17042"
@@ -2055,7 +2149,7 @@
     {
       "key": "INC-16982",
       "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3557,11 +3651,16 @@
     {
       "key": "INC-16858",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69379",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-09-14",
       "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-16858"
@@ -3581,8 +3680,8 @@
     {
       "key": "INC-16856",
       "summary": "No new insight to UAT - more than an hour",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -6890,7 +6989,7 @@
         "24x7"
       ],
       "created": "2026-09-12",
-      "updated": "2026-09-12",
+      "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-16590"
     },
     {
@@ -7122,7 +7221,7 @@
         "24x7"
       ],
       "created": "2026-09-12",
-      "updated": "2026-09-12",
+      "updated": "2026-09-16",
       "url": "https://cube001.atlassian.net/browse/INC-16571"
     },
     {
@@ -49995,870 +50094,6 @@
       "created": "2026-08-17",
       "updated": "2026-08-17",
       "url": "https://cube001.atlassian.net/browse/INC-13095"
-    },
-    {
-      "key": "INC-13094",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13094"
-    },
-    {
-      "key": "INC-13093",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13093"
-    },
-    {
-      "key": "INC-13092",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13092"
-    },
-    {
-      "key": "INC-13091",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13091"
-    },
-    {
-      "key": "INC-13090",
-      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13090"
-    },
-    {
-      "key": "INC-13089",
-      "summary": "\u2705 RESOLVED | PROD | Service error-rate breach",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13089"
-    },
-    {
-      "key": "INC-13088",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13088"
-    },
-    {
-      "key": "INC-13087",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #64720",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13087"
-    },
-    {
-      "key": "INC-13086",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13086"
-    },
-    {
-      "key": "INC-13085",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13085"
-    },
-    {
-      "key": "INC-13084",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13084"
-    },
-    {
-      "key": "INC-13083",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13083"
-    },
-    {
-      "key": "INC-13082",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13082"
-    },
-    {
-      "key": "INC-13081",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13081"
-    },
-    {
-      "key": "INC-13080",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13080"
-    },
-    {
-      "key": "INC-13079",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13079"
-    },
-    {
-      "key": "INC-13078",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13078"
-    },
-    {
-      "key": "INC-13077",
-      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13077"
-    },
-    {
-      "key": "INC-13076",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13076"
-    },
-    {
-      "key": "INC-13075",
-      "summary": "\u2705 RESOLVED | PROD | [D6] Functions - Pod Unhealthy event",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13075"
-    },
-    {
-      "key": "INC-13074",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13074"
-    },
-    {
-      "key": "INC-13073",
-      "summary": "\u2705 RESOLVED | PROD | Service error-rate breach",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13073"
-    },
-    {
-      "key": "INC-13072",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13072"
-    },
-    {
-      "key": "INC-13071",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13071"
-    },
-    {
-      "key": "INC-13070",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13070"
-    },
-    {
-      "key": "INC-13069",
-      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13069"
-    },
-    {
-      "key": "INC-13068",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13068"
-    },
-    {
-      "key": "INC-13067",
-      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13067"
-    },
-    {
-      "key": "INC-13066",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13066"
-    },
-    {
-      "key": "INC-13065",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13065"
-    },
-    {
-      "key": "INC-13064",
-      "summary": "PROD RegPlatform Login Page Not Loading - Page Spinning",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-17",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-13064"
-    },
-    {
-      "key": "INC-13063",
-      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13063"
-    },
-    {
-      "key": "INC-13062",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13062"
-    },
-    {
-      "key": "INC-13061",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Dependency failures (SQL/ES/network)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13061"
-    },
-    {
-      "key": "INC-13060",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13060"
-    },
-    {
-      "key": "INC-13059",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13059"
-    },
-    {
-      "key": "INC-13058",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13058"
-    },
-    {
-      "key": "INC-13057",
-      "summary": "[critical] piuattranslate-be-0100000F - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13057"
-    },
-    {
-      "key": "INC-13056",
-      "summary": "[critical] piuattranslate-be-0100000E - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13056"
-    },
-    {
-      "key": "INC-13055",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13055"
-    },
-    {
-      "key": "INC-13054",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13054"
-    },
-    {
-      "key": "INC-13053",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bv - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13053"
-    },
-    {
-      "key": "INC-13052",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13052"
-    },
-    {
-      "key": "INC-13051",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Manish Shivanandhan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-08-17",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-13051"
-    },
-    {
-      "key": "INC-13050",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13050"
-    },
-    {
-      "key": "INC-13049",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13049"
-    },
-    {
-      "key": "INC-13048",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13048"
-    },
-    {
-      "key": "INC-13047",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13047"
-    },
-    {
-      "key": "INC-13046",
-      "summary": "\u2705 RESOLVED | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13046"
-    },
-    {
-      "key": "INC-13045",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Latency breach p95 (>2s)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13045"
-    },
-    {
-      "key": "INC-13044",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13044"
-    },
-    {
-      "key": "INC-13043",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ct - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13043"
-    },
-    {
-      "key": "INC-13042",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001cd - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13042"
-    },
-    {
-      "key": "INC-13041",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13041"
-    },
-    {
-      "key": "INC-13040",
-      "summary": "\u2705 RESOLVED | PROD | Service error-rate breach",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13040"
-    },
-    {
-      "key": "INC-13039",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13039"
-    },
-    {
-      "key": "INC-13038",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13038"
-    },
-    {
-      "key": "INC-13037",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ct - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13037"
-    },
-    {
-      "key": "INC-13036",
-      "summary": "[critical] CUBETEST1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13036"
-    },
-    {
-      "key": "INC-13035",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001cd - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13035"
-    },
-    {
-      "key": "INC-13034",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13034"
-    },
-    {
-      "key": "INC-13033",
-      "summary": "\u2705 RESOLVED | PROD | Dependency failures (SQL/ES/network)",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13033"
-    },
-    {
-      "key": "INC-13032",
-      "summary": "[critical] CUBETEST1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Niel Singo",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-17",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13032"
-    },
-    {
-      "key": "INC-13031",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13031"
-    },
-    {
-      "key": "INC-13030",
-      "summary": "PROBLEM: Cube Scheduler Service is CRITICAL on host CUBEPROD2APP01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13030"
-    },
-    {
-      "key": "INC-13029",
-      "summary": "[critical] CUBETEST1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13029"
-    },
-    {
-      "key": "INC-13028",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13028"
-    },
-    {
-      "key": "INC-13027",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13027"
-    },
-    {
-      "key": "INC-13026",
-      "summary": "[critical] CUBEPROD2FS01 - Storage Utilisation greater than 90% for more than 15 Minutes",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13026"
-    },
-    {
-      "key": "INC-13025",
-      "summary": "[critical] CUBEPROD2FS01 - Storage Utilisation greater than 90% for more than 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13025"
-    },
-    {
-      "key": "INC-13024",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-17",
-      "updated": "2026-08-17",
-      "url": "https://cube001.atlassian.net/browse/INC-13024"
     }
   ]
 }
