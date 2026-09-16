@@ -1,8 +1,118 @@
 {
-  "updated": "2026-09-16T05:02:11.521783Z",
+  "updated": "2026-09-16T09:51:49.649656Z",
   "total": 30,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1571",
+      "summary": "Platform - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-09-16",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1571",
+      "panels": []
+    },
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-09-16",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "14/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. Provisioning of SQL MI for Content was discussed 07/09. Dev and Test will be created first with the data being backed up and restored from on prem to Azure. Prod will use SQL MI Link and on prem servers need to be upgraded to have SQL compatible with MI Link. RM migrated to Azure 10/09."
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-09-16",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "14/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Migration of 4CRisk repos has been planned for 15/09. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Blocking of Critical security vulnerabilities is scheduled to be enabled 16/09."
+        }
+      ]
+    },
+    {
+      "key": "CPN-697",
+      "summary": "Database Rationalization",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-09-16",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-697",
+      "panels": [
+        {
+          "type": "info",
+          "text": "SQL Server IaaS Agent extension configuration on PREP :  Infra has successfully tested the startup process, with further validation ongoing before handover to the DBA team for the  tempdb  move. Engineering has removed the  IDX_UserBookRel_UserId  index definition from source control. The DBA team will manually remove the index from DEV, reclaiming approximately  239 GB  of space. Tickets to be raised for other environments  Removed on-prem nodes from RGP cluster voting on Production. Identified\u00a0UKSPRODSQL04 for removal from the Azure estate and raised a decommissioning ticket. Removed unused indexes from the RegInsight database on DRPSQLTEST02. Cut the TEST on-prem to SQL MI link and decommission the TEST on-prem servers. SQL MI provision for DRP DEV and TEST to commence     Kick off the build of DRP database servers in Azure. Remove on-prem nodes from RGP cluster voting across Production, UAT and PREP. Migrate CubeImport and CDC databases from Test on-prem to SQL MI Storage Reclaim / Data Cleanup Begin data deletion on identified larger tables. Review options for reclaiming SQL Server database storage. Align with Engineering on unused indexes identified for potential removal. Monitoring Roll out the New Relic SQL Server component across the new Azure VMs and test metrics collection in PREP. Test and configure SQL Server Agent long-running job monitoring in DEV and PREP.    PREP AG read-only routing has been configured and the required SPN registered. Following successful Intel testing, the change will be rolled out across all AGs. [ Done ] Configure backups before go-live this Saturday [ Done ] Set up monitoring for all SQL Server Azure VMs by this Friday [ Done ][ Needs reviewing ] RGP failed over to Azure and Live [ Done ] This week: Highlights Currently reviewing  Immutable SQL Server Backups on Azure Blob Storage   [ Currently ongoing ] Post Production Live migration support  [ Currently ongoing ] Revisit data deletion tasks: [ To Do ] [DM-15106] Delete data in [Customer].profileresult.InsightProfileResult and Customer].profileresult.CustomerInsightRel tables [DBOPS-430] Section citations missing in RGP    AG set up and database restores on new servers to be completed before end of the week. [ Done ] AG consolidation completed over the weekend under    [ Done ] Azure Ultra Disk testing has been successfully completed, validated, and the required configuration has now been rolled out across the SQL Server Azure VM estate. [ Done ] This week:  PREP AG read-only routing has been configured and the required SPN registered. Following successful Intel testing, the change will be rolled out across all AGs. [ Currently ongoing\\ Done ] Configure backups before go-live this Saturday [ Currently ongoing ] Set up monitoring for all SQL Server Azure VMs by this Friday [ Currently ongoing ]    New RGP prod servers built, SQL Server installed and added to the cluster [ Done ] Standalone SQL server provisioned and databases restored and ready for testing [ Done ] AG set up and database restores on new servers to be completed before end of the week. [ Currently ongoing ] Performance query optimisation. Meeting with engineering and assigned updates to the team for implementation [ Currently ongoing\\ Done ] Reviewing Immutable SQL Server Backups on Azure Blob Storage doc [ Done ] DataIDX disk will kick off testing today [ Currently ongoing ] Log-shipping set up on ODENSQLPROD01.  Blocker:  unable to access server raising ticket with ServiceDesk Migrate CDS and CubeImport from On-prem test to SQL MI this week [ To Do ]    Consolidated 13 existing AlwaysOn Availability Groups into a single Availability Group on PREP and UAT. Configured backups for the UAT SQL Azure VMs using the existing on-premises file server as a temporary solution until Azure Blob Storage is available. Completed creation and configuration of all required SQL maintenance jobs in the UAT environment and reviewed SQL Agent permissions. Revisit unused indexes across DRP databases (DEV and Production) and begin the planned cleanup. Kick off data cleanup in DEV for the InsightProfileResult and CustomerInsightRel tables.    CustomerProfileConceptRel data cleanup on the customer database on RPG in Production completed. Completed TEST SQL MI configuration and successfully failed over to Azure. Reinstalled SQL Server 2025 on the new DRP database server but need clarification if these are still required if the architecture design as changed regarding SQL MI. Configured the UAT Azure SQL VM and all databases restored as standalone ready for testing. Ongoing tasks to build out new UAT SQL Azure VMs for go-live migration Kick off data cleanup in RGP DEV for the InsightProfileResult and CustomerInsightRel tables after script deletion review.     No progress on the RGP Test SQL Managed Instance configuration setup last week due to other priorities; work planned to resume this week. Database Watch now configured on AZURE to help with ongoing performance issues on UAT. But the DBAs are unable to view some of the dashboards due to permission issues. Raised this with Paul and waiting for response.  Successfully rolled out Query Store across all DRP production databases.  Configuration setup for the RGP Test SQL Managed Instance was meant to commence on Friday but was off sick. Will start looking at this this week Continue reviewing database access across DRP environments and progress remediation activities. Add missing databases to the PROD1 AlwaysOn Availability Group. Completed  Kick off DRP remediation activities, including planning for the migration of databases to the new server estate. Ongoing and next phase to start this week   ===    [DBOPS-169] Upgrade PROD2 Windows/SQL Servers to v2022   PROD2 Database migration to the new set of production servers, completed over the course of the weekend (02th of May 2026) [DBOPS-54] AG & Replication Monitoring Always On Alerting Implementation: Completed and running on all prod and UAT environments on the on-prem environment Outstanding:- Documenting setup [DBOPS-92] Query Optimisation - Production Ongoing works with the Engineering team to implement recommended changes. Most of the tasks have now been allocated to an engineer who is working closely with the DBA team [DBOPS-288] Enterprise Dev team access to Azure SQL MI UAT database Failover to Azure Assisting with troubleshooting on DEV SQL MI"
+        }
+      ]
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-09-16",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Had a meeting on the    look in to using Azure migrate to move GoAnywhere due to the amount of work required to set the solution up and migrate users. Ravali is currently off sick, waiting on an update for this. The second Password State server is being built, this should be ready this week along with a deployment plan. Currently decommissioning the North Europe DC\u2019s. The further DC migration is blocked by the PROD/NonPROD connectivity. Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-09-16",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "14/09/26 Decision taken to revise architecture for Enterprise and run in UKS only with zonal resiliency. Infrastructure for NEU and SDC is being decommissioned. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. An initial working version was used to deploy to UAT during week of 07/09. SQL MI for Prep is being build Connectivity between Prod and non-prod subscriptions is being implemented."
+        }
+      ]
+    },
     {
       "key": "CPN-949",
       "summary": "4CRisk - Onboarding and O365 migration",
@@ -116,65 +226,6 @@
       "panels": []
     },
     {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Had a meeting on the    look in to using Azure migrate to move GoAnywhere due to the amount of work required to set the solution up and migrate users. Ravali is currently off sick, waiting on an update for this. The second Password State server is being built, this should be ready this week along with a deployment plan. Currently decommissioning the North Europe DC\u2019s. The further DC migration is blocked by the PROD/NonPROD connectivity. Enterprise in Cloud is the current priority and will continue to receive primary resource allocation. Work on DC Exit will progress as capacity becomes available. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "14/09/26 Decision taken to revise architecture for Enterprise and run in UKS only with zonal resiliency. Infrastructure for NEU and SDC is being decommissioned. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. An initial working version was used to deploy to UAT during week of 07/09. SQL MI for Prep is being build Connectivity between Prod and non-prod subscriptions is being implemented."
-        }
-      ]
-    },
-    {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "14/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. Provisioning of SQL MI for Content was discussed 07/09. Dev and Test will be created first with the data being backed up and restored from on prem to Azure. Prod will use SQL MI Link and on prem servers need to be upgraded to have SQL compatible with MI Link. RM migrated to Azure 10/09."
-        }
-      ]
-    },
-    {
       "key": "CPN-1420",
       "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
       "status": "Build & Test",
@@ -211,44 +262,6 @@
         {
           "type": "info",
           "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses - Licenses have been allocated to the users  [ Closed ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - The majority of the modules are now running on CUBE AI Foundry, with only a single module remaining on the 4CRisk OpenAI platform. The remaining module will need to remain on the 4CRisk OpenAI platform for an additional month, as the team has identified that its equivalent module in AI Foundry has been deprecated. The functionality dependent on this module, Global Search, is business-critical. Team is working towards fully migrating the Global Search functionality by the end of September. [ Open ] Adobe/SoftwareOne - The Acrobat Services (API) renewal agreement needs to be completed under the CUBE legal entity by 23 October. [ Open ] Separate initiative has been created to track 4CRisk Product AWS to Azure migration"
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "14/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Migration of 4CRisk repos has been planned for 15/09. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Blocking of Critical security vulnerabilities is scheduled to be enabled 16/09."
-        }
-      ]
-    },
-    {
-      "key": "CPN-697",
-      "summary": "Database Rationalization",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-697",
-      "panels": [
-        {
-          "type": "info",
-          "text": "SQL Server IaaS Agent extension configuration on PREP :  Infra has successfully tested the startup process, with further validation ongoing before handover to the DBA team for the  tempdb  move. Engineering has removed the  IDX_UserBookRel_UserId  index definition from source control. The DBA team will manually remove the index from DEV, reclaiming approximately  239 GB  of space. Tickets to be raised for other environments  Removed on-prem nodes from RGP cluster voting on Production. Identified\u00a0UKSPRODSQL04 for removal from the Azure estate and raised a decommissioning ticket. Removed unused indexes from the RegInsight database on DRPSQLTEST02. Cut the TEST on-prem to SQL MI link and decommission the TEST on-prem servers. SQL MI provision for DRP DEV and TEST to commence     Kick off the build of DRP database servers in Azure. Remove on-prem nodes from RGP cluster voting across Production, UAT and PREP. Migrate CubeImport and CDC databases from Test on-prem to SQL MI Storage Reclaim / Data Cleanup Begin data deletion on identified larger tables. Review options for reclaiming SQL Server database storage. Align with Engineering on unused indexes identified for potential removal. Monitoring Roll out the New Relic SQL Server component across the new Azure VMs and test metrics collection in PREP. Test and configure SQL Server Agent long-running job monitoring in DEV and PREP.    PREP AG read-only routing has been configured and the required SPN registered. Following successful Intel testing, the change will be rolled out across all AGs. [ Done ] Configure backups before go-live this Saturday [ Done ] Set up monitoring for all SQL Server Azure VMs by this Friday [ Done ][ Needs reviewing ] RGP failed over to Azure and Live [ Done ] This week: Highlights Currently reviewing  Immutable SQL Server Backups on Azure Blob Storage   [ Currently ongoing ] Post Production Live migration support  [ Currently ongoing ] Revisit data deletion tasks: [ To Do ] [DM-15106] Delete data in [Customer].profileresult.InsightProfileResult and Customer].profileresult.CustomerInsightRel tables [DBOPS-430] Section citations missing in RGP    AG set up and database restores on new servers to be completed before end of the week. [ Done ] AG consolidation completed over the weekend under    [ Done ] Azure Ultra Disk testing has been successfully completed, validated, and the required configuration has now been rolled out across the SQL Server Azure VM estate. [ Done ] This week:  PREP AG read-only routing has been configured and the required SPN registered. Following successful Intel testing, the change will be rolled out across all AGs. [ Currently ongoing\\ Done ] Configure backups before go-live this Saturday [ Currently ongoing ] Set up monitoring for all SQL Server Azure VMs by this Friday [ Currently ongoing ]    New RGP prod servers built, SQL Server installed and added to the cluster [ Done ] Standalone SQL server provisioned and databases restored and ready for testing [ Done ] AG set up and database restores on new servers to be completed before end of the week. [ Currently ongoing ] Performance query optimisation. Meeting with engineering and assigned updates to the team for implementation [ Currently ongoing\\ Done ] Reviewing Immutable SQL Server Backups on Azure Blob Storage doc [ Done ] DataIDX disk will kick off testing today [ Currently ongoing ] Log-shipping set up on ODENSQLPROD01.  Blocker:  unable to access server raising ticket with ServiceDesk Migrate CDS and CubeImport from On-prem test to SQL MI this week [ To Do ]    Consolidated 13 existing AlwaysOn Availability Groups into a single Availability Group on PREP and UAT. Configured backups for the UAT SQL Azure VMs using the existing on-premises file server as a temporary solution until Azure Blob Storage is available. Completed creation and configuration of all required SQL maintenance jobs in the UAT environment and reviewed SQL Agent permissions. Revisit unused indexes across DRP databases (DEV and Production) and begin the planned cleanup. Kick off data cleanup in DEV for the InsightProfileResult and CustomerInsightRel tables.    CustomerProfileConceptRel data cleanup on the customer database on RPG in Production completed. Completed TEST SQL MI configuration and successfully failed over to Azure. Reinstalled SQL Server 2025 on the new DRP database server but need clarification if these are still required if the architecture design as changed regarding SQL MI. Configured the UAT Azure SQL VM and all databases restored as standalone ready for testing. Ongoing tasks to build out new UAT SQL Azure VMs for go-live migration Kick off data cleanup in RGP DEV for the InsightProfileResult and CustomerInsightRel tables after script deletion review.     No progress on the RGP Test SQL Managed Instance configuration setup last week due to other priorities; work planned to resume this week. Database Watch now configured on AZURE to help with ongoing performance issues on UAT. But the DBAs are unable to view some of the dashboards due to permission issues. Raised this with Paul and waiting for response.  Successfully rolled out Query Store across all DRP production databases.  Configuration setup for the RGP Test SQL Managed Instance was meant to commence on Friday but was off sick. Will start looking at this this week Continue reviewing database access across DRP environments and progress remediation activities. Add missing databases to the PROD1 AlwaysOn Availability Group. Completed  Kick off DRP remediation activities, including planning for the migration of databases to the new server estate. Ongoing and next phase to start this week   ===    [DBOPS-169] Upgrade PROD2 Windows/SQL Servers to v2022   PROD2 Database migration to the new set of production servers, completed over the course of the weekend (02th of May 2026) [DBOPS-54] AG & Replication Monitoring Always On Alerting Implementation: Completed and running on all prod and UAT environments on the on-prem environment Outstanding:- Documenting setup [DBOPS-92] Query Optimisation - Production Ongoing works with the Engineering team to implement recommended changes. Most of the tasks have now been allocated to an engineer who is working closely with the DBA team [DBOPS-288] Enterprise Dev team access to Azure SQL MI UAT database Failover to Azure Assisting with troubleshooting on DEV SQL MI"
         }
       ]
     },
@@ -333,19 +346,6 @@
         "Infra"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2002",
-      "panels": []
-    },
-    {
-      "key": "CPN-1571",
-      "summary": "Platform - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-09-07",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1571",
       "panels": []
     },
     {
