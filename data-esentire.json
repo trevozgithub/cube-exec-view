@@ -1,11 +1,535 @@
 {
-  "updated": "2026-09-18T05:53:08.935561Z",
-  "total": 3811,
+  "updated": "2026-09-18T10:27:40.946795Z",
+  "total": 3824,
   "items": [
+    {
+      "key": "INC-17420",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17420"
+    },
+    {
+      "key": "INC-17419",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17419"
+    },
+    {
+      "key": "INC-17418",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17418"
+    },
+    {
+      "key": "INC-17417",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17417"
+    },
+    {
+      "key": "INC-17416",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17416"
+    },
+    {
+      "key": "INC-17415",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17415"
+    },
+    {
+      "key": "INC-17414",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17414"
+    },
+    {
+      "key": "INC-17413",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17413"
+    },
+    {
+      "key": "INC-17412",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17412"
+    },
+    {
+      "key": "INC-17411",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17411"
+    },
+    {
+      "key": "INC-17410",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17410"
+    },
+    {
+      "key": "INC-17409",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17409"
+    },
+    {
+      "key": "INC-17408",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17408"
+    },
+    {
+      "key": "INC-17407",
+      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17407"
+    },
+    {
+      "key": "INC-17406",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17406"
+    },
+    {
+      "key": "INC-17405",
+      "summary": "[critical] CUBEUATRDI01 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17405"
+    },
+    {
+      "key": "INC-17404",
+      "summary": "[critical] piprodtranslate-be-0100001M - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17404"
+    },
+    {
+      "key": "INC-17403",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17403"
+    },
+    {
+      "key": "INC-17402",
+      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17402"
+    },
+    {
+      "key": "INC-17401",
+      "summary": "[critical] CUBEUATRDI01 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17401"
+    },
+    {
+      "key": "INC-17400",
+      "summary": "[critical] CUBEPROD2APP01 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17400"
+    },
+    {
+      "key": "INC-17399",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17399"
+    },
+    {
+      "key": "INC-17398",
+      "summary": "[critical] CUBEPROD2APP01 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17398"
+    },
+    {
+      "key": "INC-17397",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17397"
+    },
+    {
+      "key": "INC-17396",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17396"
+    },
+    {
+      "key": "INC-17395",
+      "summary": "[critical] piprodtranslate-be-0100001H - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17395"
+    },
+    {
+      "key": "INC-17394",
+      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17394"
+    },
+    {
+      "key": "INC-17393",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17393"
+    },
+    {
+      "key": "INC-17392",
+      "summary": "CUBEPROD2APP01 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17392"
+    },
+    {
+      "key": "INC-17391",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17391"
+    },
+    {
+      "key": "INC-17390",
+      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17390"
+    },
+    {
+      "key": "INC-17389",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11077",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17389"
+    },
+    {
+      "key": "INC-17388",
+      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17388"
+    },
+    {
+      "key": "INC-17387",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17387"
+    },
+    {
+      "key": "INC-17386",
+      "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17386"
+    },
+    {
+      "key": "INC-17385",
+      "summary": "PROBLEM: RDI API live Proc2 is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17385"
+    },
+    {
+      "key": "INC-17384",
+      "summary": "PROBLEM: RDI API live Proc4 is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17384"
+    },
+    {
+      "key": "INC-17383",
+      "summary": "PROBLEM: RDI API live Proc3 is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17383"
+    },
+    {
+      "key": "INC-17382",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17382"
+    },
+    {
+      "key": "INC-17381",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17381"
+    },
+    {
+      "key": "INC-17380",
+      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17380"
+    },
     {
       "key": "INC-17379",
       "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Triage",
+      "status": "Actioned",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -19,7 +543,7 @@
     {
       "key": "INC-17378",
       "summary": "[critical] piprodtranslate-be-0100001J - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Triage",
+      "status": "Closed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
@@ -47,11 +571,13 @@
     {
       "key": "INC-17376",
       "summary": "Error with Ready to Publish Button in RM",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17376"
@@ -523,11 +1049,13 @@
     {
       "key": "INC-17341",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17341"
@@ -715,7 +1243,7 @@
         "opsview"
       ],
       "created": "2026-09-17",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17326"
     },
     {
@@ -2405,7 +2933,7 @@
         "UAT"
       ],
       "created": "2026-09-17",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17193"
     },
     {
@@ -2943,7 +3471,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17153"
     },
     {
@@ -3151,7 +3679,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17138"
     },
     {
@@ -3938,7 +4466,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-16",
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17079"
     },
     {
@@ -3952,7 +4480,7 @@
         "auto-triaged"
       ],
       "created": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17078"
     },
     {
@@ -5198,7 +5726,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-15",
-      "updated": "2026-09-15",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16981"
     },
     {
@@ -5428,7 +5956,7 @@
         "newrelic"
       ],
       "created": "2026-09-15",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16963"
     },
     {
@@ -6812,7 +7340,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-14",
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16849"
     },
     {
@@ -6838,7 +7366,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-09-14",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16847"
     },
     {
@@ -9080,7 +9608,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-12",
-      "updated": "2026-09-12",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16666"
     },
     {
@@ -11780,7 +12308,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-10",
-      "updated": "2026-09-10",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16448"
     },
     {
@@ -47101,348 +47629,6 @@
       "created": "2026-08-19",
       "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13590"
-    },
-    {
-      "key": "INC-13589",
-      "summary": "PROBLEM: Windows Service is CRITICAL on host CUBEPRODINX",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13589"
-    },
-    {
-      "key": "INC-13588",
-      "summary": "PROBLEM: Windows Service is CRITICAL on host CUBEPRODINX",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13588"
-    },
-    {
-      "key": "INC-13587",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13587"
-    },
-    {
-      "key": "INC-13586",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001cu - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13586"
-    },
-    {
-      "key": "INC-13585",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001df - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13585"
-    },
-    {
-      "key": "INC-13584",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001bw - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13584"
-    },
-    {
-      "key": "INC-13583",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13583"
-    },
-    {
-      "key": "INC-13582",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001c6 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13582"
-    },
-    {
-      "key": "INC-13581",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001df - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13581"
-    },
-    {
-      "key": "INC-13580",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001df - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13580"
-    },
-    {
-      "key": "INC-13579",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13579"
-    },
-    {
-      "key": "INC-13578",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13578"
-    },
-    {
-      "key": "INC-13577",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001df - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13577"
-    },
-    {
-      "key": "INC-13576",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13576"
-    },
-    {
-      "key": "INC-13575",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13575"
-    },
-    {
-      "key": "INC-13574",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ci - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13574"
-    },
-    {
-      "key": "INC-13573",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13573"
-    },
-    {
-      "key": "INC-13572",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ci - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13572"
-    },
-    {
-      "key": "INC-13571",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13571"
-    },
-    {
-      "key": "INC-13570",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13570"
-    },
-    {
-      "key": "INC-13569",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13569"
-    },
-    {
-      "key": "INC-13568",
-      "summary": "00015670 - Urgent: 504 timeout issue for Regbook API",
-      "status": "Completed",
-      "assignee": "Ser Jan Aldreach Perez",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "API",
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-09-02",
-      "url": "https://cube001.atlassian.net/browse/INC-13568"
-    },
-    {
-      "key": "INC-13567",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13567"
-    },
-    {
-      "key": "INC-13566",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13566"
-    },
-    {
-      "key": "INC-13565",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13565"
-    },
-    {
-      "key": "INC-13564",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13564"
-    },
-    {
-      "key": "INC-13563",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001cd - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13563"
-    },
-    {
-      "key": "INC-13562",
-      "summary": "[critical] CUBEDMIIS - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13562"
     }
   ]
 }
