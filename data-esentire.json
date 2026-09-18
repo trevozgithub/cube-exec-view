@@ -1,7 +1,67 @@
 {
-  "updated": "2026-09-18T20:18:20.628430Z",
-  "total": 3808,
+  "updated": "2026-09-18T22:40:35.219752Z",
+  "total": 3798,
   "items": [
+    {
+      "key": "INC-17510",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17510"
+    },
+    {
+      "key": "INC-17509",
+      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17509"
+    },
+    {
+      "key": "INC-17508",
+      "summary": "ATLAS NOTIFICATION: CS5031916 - MEDIUM - SUSPICIOUS - CUBE Content Governance Global Limited",
+      "status": "To Do",
+      "assignee": "Muhim Hussen",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17508"
+    },
+    {
+      "key": "INC-17507",
+      "summary": "LDAP reconnaissance of privileged groups from unmonitored server",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17507"
+    },
+    {
+      "key": "INC-17506",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17506"
+    },
     {
       "key": "INC-17505",
       "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
@@ -287,7 +347,7 @@
     {
       "key": "INC-17482",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2076,11 +2136,13 @@
     {
       "key": "INC-17344",
       "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17344"
@@ -2590,11 +2652,13 @@
     {
       "key": "INC-17304",
       "summary": "Insights Pipeline \u2014 Azure Migration",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17304"
@@ -7196,13 +7260,15 @@
     {
       "key": "INC-16950",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-15",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16950"
     },
     {
@@ -47297,194 +47363,6 @@
       "created": "2026-08-19",
       "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13706"
-    },
-    {
-      "key": "INC-13705",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13705"
-    },
-    {
-      "key": "INC-13704",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13704"
-    },
-    {
-      "key": "INC-13703",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13703"
-    },
-    {
-      "key": "INC-13702",
-      "summary": "UAT - Create individual client_Id and client_secret for Nasdaq API user",
-      "status": "Completed",
-      "assignee": "Scorch Escarcha",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "RegConnect"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-13702"
-    },
-    {
-      "key": "INC-13701",
-      "summary": "PROD - Create individual client_Id and client_secret for Nasdaq API user",
-      "status": "Completed",
-      "assignee": "Andrew Minor",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "RegConnect"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-13701"
-    },
-    {
-      "key": "INC-13700",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13700"
-    },
-    {
-      "key": "INC-13699",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13699"
-    },
-    {
-      "key": "INC-13698",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13698"
-    },
-    {
-      "key": "INC-13697",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13697"
-    },
-    {
-      "key": "INC-13696",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13696"
-    },
-    {
-      "key": "INC-13695",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13695"
-    },
-    {
-      "key": "INC-13694",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13694"
-    },
-    {
-      "key": "INC-13693",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13693"
-    },
-    {
-      "key": "INC-13692",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13692"
-    },
-    {
-      "key": "INC-13691",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13691"
     }
   ]
 }
