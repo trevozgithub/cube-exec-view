@@ -1,12 +1,466 @@
 {
-  "updated": "2026-09-18T14:37:00.671334Z",
-  "total": 3790,
+  "updated": "2026-09-18T17:52:52.977488Z",
+  "total": 3805,
   "items": [
+    {
+      "key": "INC-17486",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17486"
+    },
+    {
+      "key": "INC-17485",
+      "summary": "PROBLEM: Base - Uptime is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17485"
+    },
+    {
+      "key": "INC-17484",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17484"
+    },
+    {
+      "key": "INC-17483",
+      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17483"
+    },
+    {
+      "key": "INC-17482",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17482"
+    },
+    {
+      "key": "INC-17481",
+      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17481"
+    },
+    {
+      "key": "INC-17480",
+      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17480"
+    },
+    {
+      "key": "INC-17479",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17479"
+    },
+    {
+      "key": "INC-17478",
+      "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17478"
+    },
+    {
+      "key": "INC-17477",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17477"
+    },
+    {
+      "key": "INC-17476",
+      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17476"
+    },
+    {
+      "key": "INC-17475",
+      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17475"
+    },
+    {
+      "key": "INC-17474",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17474"
+    },
+    {
+      "key": "INC-17473",
+      "summary": "PROBLEM: Base - Uptime is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17473"
+    },
+    {
+      "key": "INC-17472",
+      "summary": "JPMC PROD 502 error on GET api/reginsight/0110212e-5b3e-4d85-a1da-e386d53802d7/pdf",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17472"
+    },
+    {
+      "key": "INC-17471",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17471"
+    },
+    {
+      "key": "INC-17470",
+      "summary": "[critical] ip-172-70-4-149.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17470"
+    },
+    {
+      "key": "INC-17469",
+      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17469"
+    },
+    {
+      "key": "INC-17468",
+      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17468"
+    },
+    {
+      "key": "INC-17467",
+      "summary": "[critical] ip-172-70-4-149.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17467"
+    },
+    {
+      "key": "INC-17466",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17466"
+    },
+    {
+      "key": "INC-17465",
+      "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17465"
+    },
+    {
+      "key": "INC-17464",
+      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17464"
+    },
+    {
+      "key": "INC-17463",
+      "summary": "[critical] aks-asynccomm-13276705-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17463"
+    },
+    {
+      "key": "INC-17462",
+      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17462"
+    },
+    {
+      "key": "INC-17461",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17461"
+    },
+    {
+      "key": "INC-17460",
+      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17460"
+    },
+    {
+      "key": "INC-17459",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17459"
+    },
+    {
+      "key": "INC-17458",
+      "summary": "RDI Mapping Service is down",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "Azure",
+        "RDI",
+        "alerts"
+      ],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17458"
+    },
+    {
+      "key": "INC-17457",
+      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17457"
+    },
+    {
+      "key": "INC-17456",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17456"
+    },
+    {
+      "key": "INC-17455",
+      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17455"
+    },
+    {
+      "key": "INC-17454",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17454"
+    },
+    {
+      "key": "INC-17453",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17453"
+    },
+    {
+      "key": "INC-17452",
+      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17452"
+    },
+    {
+      "key": "INC-17451",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17451"
+    },
+    {
+      "key": "INC-17450",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17450"
+    },
     {
       "key": "INC-17449",
       "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -54,7 +508,7 @@
       "key": "INC-17445",
       "summary": "Error on Connect API for customer",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -133,7 +587,11 @@
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17439"
@@ -1389,11 +1847,16 @@
     {
       "key": "INC-17343",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Intel",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17343"
@@ -1549,11 +2012,13 @@
     {
       "key": "INC-17330",
       "summary": "[critical] aks-ctins02-16016004-vmss0001g9 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-17",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17330"
@@ -1663,7 +2128,7 @@
     {
       "key": "INC-17321",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67267",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1674,7 +2139,7 @@
         "browserstack"
       ],
       "created": "2026-09-17",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17321"
     },
     {
@@ -4055,13 +4520,15 @@
     {
       "key": "INC-17137",
       "summary": "[critical] piprodtranslate-be-0100001L - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17137"
     },
     {
@@ -4379,13 +4846,15 @@
     {
       "key": "INC-17112",
       "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17112"
     },
     {
@@ -4431,11 +4900,13 @@
     {
       "key": "INC-17108",
       "summary": "[critical] piuattranslate-be-0100000F - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17108"
@@ -4964,11 +5435,15 @@
     {
       "key": "INC-17069",
       "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-09-16",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17069"
@@ -5506,7 +5981,7 @@
         "newrelic"
       ],
       "created": "2026-09-15",
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17027"
     },
     {
@@ -6315,7 +6790,7 @@
     {
       "key": "INC-16963",
       "summary": "[critical] CUBEUATRDI01 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -11548,7 +12023,7 @@
         "Veaam"
       ],
       "created": "2026-09-12",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-16539"
     },
     {
@@ -44195,7 +44670,7 @@
         "24x7"
       ],
       "created": "2026-08-21",
-      "updated": "2026-08-25",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-13900"
     },
     {
@@ -46963,278 +47438,6 @@
       "created": "2026-08-19",
       "updated": "2026-08-19",
       "url": "https://cube001.atlassian.net/browse/INC-13675"
-    },
-    {
-      "key": "INC-13674",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13674"
-    },
-    {
-      "key": "INC-13673",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13673"
-    },
-    {
-      "key": "INC-13672",
-      "summary": "[critical] CUBEPROD2SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13672"
-    },
-    {
-      "key": "INC-13671",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13671"
-    },
-    {
-      "key": "INC-13670",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13670"
-    },
-    {
-      "key": "INC-13669",
-      "summary": "[critical] CUBEPROD2SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13669"
-    },
-    {
-      "key": "INC-13668",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13668"
-    },
-    {
-      "key": "INC-13667",
-      "summary": "[critical] CUBEPROD2SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13667"
-    },
-    {
-      "key": "INC-13666",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13666"
-    },
-    {
-      "key": "INC-13665",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13665"
-    },
-    {
-      "key": "INC-13664",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13664"
-    },
-    {
-      "key": "INC-13663",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13663"
-    },
-    {
-      "key": "INC-13662",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13662"
-    },
-    {
-      "key": "INC-13661",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13661"
-    },
-    {
-      "key": "INC-13660",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13660"
-    },
-    {
-      "key": "INC-13659",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13659"
-    },
-    {
-      "key": "INC-13658",
-      "summary": "CUBEREGSBASE DOWN - for Decom",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13658"
-    },
-    {
-      "key": "INC-13657",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13657"
-    },
-    {
-      "key": "INC-13656",
-      "summary": "[critical] aks-functions-39094223-vmss00001d - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13656"
-    },
-    {
-      "key": "INC-13655",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13655"
-    },
-    {
-      "key": "INC-13654",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13654"
-    },
-    {
-      "key": "INC-13653",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13653"
     }
   ]
 }

@@ -1,28 +1,15 @@
 {
-  "updated": "2026-09-18T14:36:31.014929Z",
+  "updated": "2026-09-18T17:52:26.896184Z",
   "total": 14,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
-    {
-      "key": "CPN-1593",
-      "summary": "RegPlatform Content - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Antony Ball",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-09-18",
-      "labels": [
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1593",
-      "panels": []
-    },
     {
       "key": "CPN-196",
       "summary": "Content in Cloud",
       "status": "Build & Test",
       "assignee": "Alistair McPherson",
       "duedate": "2026-10-30",
-      "reviewed": "2026-09-16",
+      "reviewed": "2026-09-18",
       "labels": [
         "PlanningFlag",
         "azure_migration",
@@ -37,6 +24,19 @@
           "text": "14/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. Provisioning of SQL MI for Content was discussed 07/09. Dev and Test will be created first with the data being backed up and restored from on prem to Azure. Prod will use SQL MI Link and on prem servers need to be upgraded to have SQL compatible with MI Link. RM migrated to Azure 10/09."
         }
       ]
+    },
+    {
+      "key": "CPN-1593",
+      "summary": "RegPlatform Content - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Antony Ball",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-09-18",
+      "labels": [
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1593",
+      "panels": []
     },
     {
       "key": "CPN-610",
