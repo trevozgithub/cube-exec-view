@@ -1,7 +1,71 @@
 {
-  "updated": "2026-09-19T18:53:42.307390Z",
-  "total": 3767,
+  "updated": "2026-09-19T21:17:26.038293Z",
+  "total": 3762,
   "items": [
+    {
+      "key": "INC-17574",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69875",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17574"
+    },
+    {
+      "key": "INC-17573",
+      "summary": "No insight for UAT for almost 1hr",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17573"
+    },
+    {
+      "key": "INC-17572",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69875",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17572"
+    },
+    {
+      "key": "INC-17571",
+      "summary": "[critical] ip-172-70-4-18.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17571"
+    },
+    {
+      "key": "INC-17570",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17570"
+    },
     {
       "key": "INC-17569",
       "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
@@ -17,7 +81,7 @@
     {
       "key": "INC-17568",
       "summary": "[critical] ip-172-70-4-18.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -334,7 +398,7 @@
     {
       "key": "INC-17543",
       "summary": "[critical] ip-172-70-9-231.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1275,7 +1339,7 @@
     {
       "key": "INC-17470",
       "summary": "[critical] ip-172-70-4-149.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1285,7 +1349,7 @@
         "newrelic"
       ],
       "created": "2026-09-18",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-17470"
     },
     {
@@ -14405,7 +14469,7 @@
         "RegGroup"
       ],
       "created": "2026-09-10",
-      "updated": "2026-09-16",
+      "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-16436"
     },
     {
@@ -41071,7 +41135,7 @@
         "RegConnect"
       ],
       "created": "2026-08-25",
-      "updated": "2026-09-17",
+      "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-14284"
     },
     {
@@ -46928,126 +46992,6 @@
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13807"
-    },
-    {
-      "key": "INC-13806",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13806"
-    },
-    {
-      "key": "INC-13805",
-      "summary": "[critical] UKSPRODSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13805"
-    },
-    {
-      "key": "INC-13804",
-      "summary": "[critical] UKSPRODSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13804"
-    },
-    {
-      "key": "INC-13803",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13803"
-    },
-    {
-      "key": "INC-13802",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13802"
-    },
-    {
-      "key": "INC-13801",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13801"
-    },
-    {
-      "key": "INC-13800",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13800"
-    },
-    {
-      "key": "INC-13799",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13799"
-    },
-    {
-      "key": "INC-13798",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13798"
-    },
-    {
-      "key": "INC-13797",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13797"
     }
   ]
 }
