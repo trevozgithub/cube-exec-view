@@ -1,7 +1,105 @@
 {
-  "updated": "2026-09-18T22:40:35.219752Z",
-  "total": 3798,
+  "updated": "2026-09-19T00:39:43.449536Z",
+  "total": 3801,
   "items": [
+    {
+      "key": "INC-17518",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17518"
+    },
+    {
+      "key": "INC-17517",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17517"
+    },
+    {
+      "key": "INC-17516",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17516"
+    },
+    {
+      "key": "INC-17515",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17515"
+    },
+    {
+      "key": "INC-17514",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17514"
+    },
+    {
+      "key": "INC-17513",
+      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17513"
+    },
+    {
+      "key": "INC-17512",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17512"
+    },
+    {
+      "key": "INC-17511",
+      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-18",
+      "updated": "2026-09-18",
+      "url": "https://cube001.atlassian.net/browse/INC-17511"
+    },
     {
       "key": "INC-17510",
       "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
@@ -65,11 +163,13 @@
     {
       "key": "INC-17505",
       "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17505"
@@ -353,7 +453,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-18",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-17482"
     },
     {
@@ -841,11 +941,13 @@
     {
       "key": "INC-17442",
       "summary": "[critical] CUBEPROD2APP02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17442"
@@ -877,7 +979,7 @@
     {
       "key": "INC-17439",
       "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1986,11 +2088,13 @@
     {
       "key": "INC-17355",
       "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17355"
@@ -4955,7 +5059,7 @@
         "auto-triaged"
       ],
       "created": "2026-09-16",
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17128"
     },
     {
@@ -47303,66 +47407,6 @@
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "url": "https://cube001.atlassian.net/browse/INC-13711"
-    },
-    {
-      "key": "INC-13710",
-      "summary": "[critical] aks-default-13639162-vmss000001 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13710"
-    },
-    {
-      "key": "INC-13709",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13709"
-    },
-    {
-      "key": "INC-13708",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-20",
-      "updated": "2026-08-20",
-      "url": "https://cube001.atlassian.net/browse/INC-13708"
-    },
-    {
-      "key": "INC-13707",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13707"
-    },
-    {
-      "key": "INC-13706",
-      "summary": "[critical] aks-functions-39094223-vmss000002 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-19",
-      "updated": "2026-08-19",
-      "url": "https://cube001.atlassian.net/browse/INC-13706"
     }
   ]
 }
