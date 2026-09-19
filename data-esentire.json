@@ -1,7 +1,60 @@
 {
-  "updated": "2026-09-19T16:35:48.513502Z",
-  "total": 3763,
+  "updated": "2026-09-19T18:53:42.307390Z",
+  "total": 3767,
   "items": [
+    {
+      "key": "INC-17569",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17569"
+    },
+    {
+      "key": "INC-17568",
+      "summary": "[critical] ip-172-70-4-18.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "AWS",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17568"
+    },
+    {
+      "key": "INC-17567",
+      "summary": "[critical] ip-172-70-4-18.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17567"
+    },
+    {
+      "key": "INC-17566",
+      "summary": "[critical] ip-192-168-150-219.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-19",
+      "updated": "2026-09-19",
+      "url": "https://cube001.atlassian.net/browse/INC-17566"
+    },
     {
       "key": "INC-17565",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
@@ -241,7 +294,7 @@
     {
       "key": "INC-17546",
       "summary": "[critical] ip-192-168-150-219.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -628,11 +681,15 @@
     {
       "key": "INC-17518",
       "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-09-19",
       "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-17518"
@@ -5342,7 +5399,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-16",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-17153"
     },
     {
