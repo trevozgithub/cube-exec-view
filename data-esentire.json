@@ -1,7 +1,115 @@
 {
-  "updated": "2026-09-20T20:43:46.359849Z",
-  "total": 3668,
+  "updated": "2026-09-20T22:44:32.298376Z",
+  "total": 3671,
   "items": [
+    {
+      "key": "INC-17652",
+      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17652"
+    },
+    {
+      "key": "INC-17651",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11140",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17651"
+    },
+    {
+      "key": "INC-17650",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67547",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17650"
+    },
+    {
+      "key": "INC-17649",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67544",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17649"
+    },
+    {
+      "key": "INC-17648",
+      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17648"
+    },
+    {
+      "key": "INC-17647",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67544",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17647"
+    },
+    {
+      "key": "INC-17646",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11140",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17646"
+    },
+    {
+      "key": "INC-17645",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67542",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17645"
+    },
+    {
+      "key": "INC-17644",
+      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-20",
+      "updated": "2026-09-20",
+      "url": "https://cube001.atlassian.net/browse/INC-17644"
+    },
     {
       "key": "INC-17643",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67538",
@@ -45772,78 +45880,6 @@
       "created": "2026-08-22",
       "updated": "2026-08-22",
       "url": "https://cube001.atlassian.net/browse/INC-13975"
-    },
-    {
-      "key": "INC-13974",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-21",
-      "updated": "2026-08-21",
-      "url": "https://cube001.atlassian.net/browse/INC-13974"
-    },
-    {
-      "key": "INC-13973",
-      "summary": "CUBEPROD1RDI05 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-21",
-      "updated": "2026-08-21",
-      "url": "https://cube001.atlassian.net/browse/INC-13973"
-    },
-    {
-      "key": "INC-13972",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-21",
-      "updated": "2026-08-21",
-      "url": "https://cube001.atlassian.net/browse/INC-13972"
-    },
-    {
-      "key": "INC-13971",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-21",
-      "updated": "2026-08-21",
-      "url": "https://cube001.atlassian.net/browse/INC-13971"
-    },
-    {
-      "key": "INC-13970",
-      "summary": "[critical] CUBEPROD1RDI05 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-21",
-      "updated": "2026-08-21",
-      "url": "https://cube001.atlassian.net/browse/INC-13970"
-    },
-    {
-      "key": "INC-13969",
-      "summary": "CUBEPROD1RDI05 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-21",
-      "updated": "2026-08-21",
-      "url": "https://cube001.atlassian.net/browse/INC-13969"
     }
   ]
 }
