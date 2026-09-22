@@ -1,7 +1,224 @@
 {
-  "updated": "2026-09-22T18:05:04.942562Z",
-  "total": 3930,
+  "updated": "2026-09-22T21:15:00.087633Z",
+  "total": 3942,
   "items": [
+    {
+      "key": "INC-18015",
+      "summary": "warning - PRDSM - Insight Pipeline Translations below 200 for 1hr",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18015"
+    },
+    {
+      "key": "INC-18014",
+      "summary": "[critical] aks-rgbcv01-49049479-vmss00057d - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18014"
+    },
+    {
+      "key": "INC-18013",
+      "summary": "critical - PRDSM - Insight Pipeline Translations below 100 for 30mins",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Translation",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18013"
+    },
+    {
+      "key": "INC-18012",
+      "summary": "critical - PRDSM - Insight Pipeline Translations below 100 for 30mins",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18012"
+    },
+    {
+      "key": "INC-18011",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11187",
+      "status": "To Do",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18011"
+    },
+    {
+      "key": "INC-18010",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11187",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18010"
+    },
+    {
+      "key": "INC-18009",
+      "summary": "[critical] ip-192-168-150-206.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18009"
+    },
+    {
+      "key": "INC-18008",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67714",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18008"
+    },
+    {
+      "key": "INC-18007",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18007"
+    },
+    {
+      "key": "INC-18006",
+      "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18006"
+    },
+    {
+      "key": "INC-18005",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18005"
+    },
+    {
+      "key": "INC-18004",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11186",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18004"
+    },
+    {
+      "key": "INC-18003",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18003"
+    },
+    {
+      "key": "INC-18002",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18002"
+    },
+    {
+      "key": "INC-18001",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67710",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "alerts",
+        "browserstack"
+      ],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18001"
+    },
+    {
+      "key": "INC-18000",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67710",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-18000"
+    },
+    {
+      "key": "INC-17999",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11185",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-22",
+      "updated": "2026-09-22",
+      "url": "https://cube001.atlassian.net/browse/INC-17999"
+    },
     {
       "key": "INC-17998",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11184",
@@ -171,11 +388,13 @@
     {
       "key": "INC-17985",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67695",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-22",
       "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17985"
@@ -389,7 +608,7 @@
     {
       "key": "INC-17967",
       "summary": "Translation down for 3 hours",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mohamed Sharafath",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -558,8 +777,8 @@
     {
       "key": "INC-17954",
       "summary": "PDFs are missing in Enterprise",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Jaspreet Manghera",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
@@ -1772,7 +1991,7 @@
     {
       "key": "INC-17858",
       "summary": "Accessing Wells Fargo - 500 error in LIVE",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -1932,7 +2151,7 @@
         "24x7"
       ],
       "created": "2026-09-21",
-      "updated": "2026-09-21",
+      "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17846"
     },
     {
@@ -3157,7 +3376,7 @@
         "24x7"
       ],
       "created": "2026-09-21",
-      "updated": "2026-09-21",
+      "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17745"
     },
     {
@@ -3263,11 +3482,13 @@
     {
       "key": "INC-17736",
       "summary": "Enterprise SQL connectivity failure in PROD",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-21",
       "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17736"
@@ -3275,7 +3496,7 @@
     {
       "key": "INC-17735",
       "summary": "RegPlatform UAT : error pop ups",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -4166,13 +4387,15 @@
     {
       "key": "INC-17666",
       "summary": "INC \u2013 PROD-write Databases Inaccessible on RGPSQLPROD01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-20",
-      "updated": "2026-09-21",
+      "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17666"
     },
     {
@@ -6836,7 +7059,7 @@
         "alerts"
       ],
       "created": "2026-09-18",
-      "updated": "2026-09-21",
+      "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17458"
     },
     {
@@ -10255,7 +10478,7 @@
     {
       "key": "INC-17193",
       "summary": "Potential P1 - No New insight for LIVE PROD and UAT",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrej Skripic",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -10804,7 +11027,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-16",
-      "updated": "2026-09-19",
+      "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-17153"
     },
     {
@@ -10896,7 +11119,7 @@
     {
       "key": "INC-17146",
       "summary": "Intel/Oden API portal down in UAT",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Sandeep Multani",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -49126,66 +49349,6 @@
       "created": "2026-08-23",
       "updated": "2026-08-23",
       "url": "https://cube001.atlassian.net/browse/INC-14068"
-    },
-    {
-      "key": "INC-14067",
-      "summary": "[critical] CUBETEST1FS02 - Storage Utilisation greater than 90% for more than 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-23",
-      "updated": "2026-08-23",
-      "url": "https://cube001.atlassian.net/browse/INC-14067"
-    },
-    {
-      "key": "INC-14066",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-23",
-      "updated": "2026-08-23",
-      "url": "https://cube001.atlassian.net/browse/INC-14066"
-    },
-    {
-      "key": "INC-14065",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-23",
-      "updated": "2026-08-23",
-      "url": "https://cube001.atlassian.net/browse/INC-14065"
-    },
-    {
-      "key": "INC-14064",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-23",
-      "updated": "2026-08-23",
-      "url": "https://cube001.atlassian.net/browse/INC-14064"
-    },
-    {
-      "key": "INC-14063",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-23",
-      "updated": "2026-08-23",
-      "url": "https://cube001.atlassian.net/browse/INC-14063"
     }
   ]
 }
