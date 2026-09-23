@@ -1,11 +1,59 @@
 {
-  "updated": "2026-09-23T17:17:00.105234Z",
-  "total": 3900,
+  "updated": "2026-09-23T20:30:18.035594Z",
+  "total": 3892,
   "items": [
+    {
+      "key": "INC-18097",
+      "summary": "[critical] piprodtranslate-be-0100001G - Storage Utilisation > 80% for 30 Minutes",
+      "status": "In Triage",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18097"
+    },
+    {
+      "key": "INC-18096",
+      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18096"
+    },
+    {
+      "key": "INC-18095",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11209",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18095"
+    },
+    {
+      "key": "INC-18094",
+      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18094"
+    },
     {
       "key": "INC-18093",
       "summary": "[critical] CUBEPROD2APP01 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Closed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
@@ -470,11 +518,16 @@
     {
       "key": "INC-18056",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11199 (TimeoutError: locator.click:)",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "RM",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-09-23",
       "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-18056"
@@ -2152,7 +2205,7 @@
     {
       "key": "INC-17924",
       "summary": "High Parser Backlog",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2161,7 +2214,7 @@
         "Backlog"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17924"
     },
     {
@@ -48722,152 +48775,6 @@
       "created": "2026-08-24",
       "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14202"
-    },
-    {
-      "key": "INC-14201",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14201"
-    },
-    {
-      "key": "INC-14200",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14200"
-    },
-    {
-      "key": "INC-14199",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14199"
-    },
-    {
-      "key": "INC-14198",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14198"
-    },
-    {
-      "key": "INC-14197",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14197"
-    },
-    {
-      "key": "INC-14196",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 300_500ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14196"
-    },
-    {
-      "key": "INC-14195",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 250_400ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14195"
-    },
-    {
-      "key": "INC-14194",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14194"
-    },
-    {
-      "key": "INC-14193",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14193"
-    },
-    {
-      "key": "INC-14192",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14192"
-    },
-    {
-      "key": "INC-14191",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67377",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14191"
-    },
-    {
-      "key": "INC-14190",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #67377",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14190"
     }
   ]
 }
