@@ -1,12 +1,224 @@
 {
-  "updated": "2026-09-23T01:47:29.121042Z",
-  "total": 3945,
+  "updated": "2026-09-23T06:47:19.238176Z",
+  "total": 3942,
   "items": [
+    {
+      "key": "INC-18050",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "In Triage",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18050"
+    },
+    {
+      "key": "INC-18049",
+      "summary": "[critical] piprodtranslate-be-0100001G - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18049"
+    },
+    {
+      "key": "INC-18048",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "newrelic"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18048"
+    },
+    {
+      "key": "INC-18047",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18047"
+    },
+    {
+      "key": "INC-18046",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18046"
+    },
+    {
+      "key": "INC-18045",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18045"
+    },
+    {
+      "key": "INC-18044",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18044"
+    },
+    {
+      "key": "INC-18043",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18043"
+    },
+    {
+      "key": "INC-18042",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11195",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18042"
+    },
+    {
+      "key": "INC-18041",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18041"
+    },
+    {
+      "key": "INC-18040",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11194",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18040"
+    },
+    {
+      "key": "INC-18039",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67742",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18039"
+    },
+    {
+      "key": "INC-18038",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67742",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18038"
+    },
+    {
+      "key": "INC-18037",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18037"
+    },
+    {
+      "key": "INC-18036",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18036"
+    },
+    {
+      "key": "INC-18035",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11193",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18035"
+    },
     {
       "key": "INC-18034",
       "summary": "[critical] ip-172-18-90-71.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -223,13 +435,15 @@
     {
       "key": "INC-18016",
       "summary": "warning - PRDSM - Insight Pipeline Translations below 200 for 1hr",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-18016"
     },
     {
@@ -270,7 +484,7 @@
         "newrelic"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-18013"
     },
     {
@@ -320,7 +534,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-18009"
     },
     {
@@ -396,7 +610,7 @@
         "opsview"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-18003"
     },
     {
@@ -514,7 +728,7 @@
     {
       "key": "INC-17993",
       "summary": "RegConnect - PROD Citi RegInsight/search batch failing error 500 ",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P1",
       "issuetype": "Service Incident",
@@ -525,7 +739,7 @@
         "newrelic"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17993"
     },
     {
@@ -602,7 +816,7 @@
         "newrelic"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17987"
     },
     {
@@ -875,7 +1089,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17965"
     },
     {
@@ -1158,7 +1372,7 @@
         "browserstack"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17943"
     },
     {
@@ -1246,7 +1460,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17936"
     },
     {
@@ -4439,7 +4653,7 @@
     {
       "key": "INC-17680",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4449,7 +4663,7 @@
         "newrelic"
       ],
       "created": "2026-09-21",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17680"
     },
     {
@@ -5724,11 +5938,13 @@
     {
       "key": "INC-17579",
       "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Zaw Aung",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-19",
       "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17579"
@@ -6352,7 +6568,7 @@
     {
       "key": "INC-17531",
       "summary": "[critical] CUBEDMIIS - CPU Utilisation > 90% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6363,7 +6579,7 @@
         "newrelic"
       ],
       "created": "2026-09-19",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17531"
     },
     {
@@ -7573,7 +7789,7 @@
     {
       "key": "INC-17435",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -7583,7 +7799,7 @@
         "newrelic"
       ],
       "created": "2026-09-18",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17435"
     },
     {
@@ -18767,7 +18983,7 @@
         "24x7"
       ],
       "created": "2026-09-12",
-      "updated": "2026-09-13",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-16557"
     },
     {
@@ -24017,7 +24233,7 @@
         "health-check"
       ],
       "created": "2026-09-07",
-      "updated": "2026-09-20",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-16143"
     },
     {
@@ -49143,244 +49359,6 @@
       "created": "2026-08-24",
       "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14103"
-    },
-    {
-      "key": "INC-14102",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14102"
-    },
-    {
-      "key": "INC-14101",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10481",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14101"
-    },
-    {
-      "key": "INC-14100",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14100"
-    },
-    {
-      "key": "INC-14099",
-      "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14099"
-    },
-    {
-      "key": "INC-14098",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10480",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14098"
-    },
-    {
-      "key": "INC-14097",
-      "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-08-24",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14097"
-    },
-    {
-      "key": "INC-14096",
-      "summary": "[critical] CUBEPROD1SQL04 - CPU greater than 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14096"
-    },
-    {
-      "key": "INC-14095",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14095"
-    },
-    {
-      "key": "INC-14094",
-      "summary": "P2 - ProfilerQueue build up in PROD",
-      "status": "Completed",
-      "assignee": "Jeremy Noble",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-24",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14094"
-    },
-    {
-      "key": "INC-14093",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10478",
-      "status": "Completed",
-      "assignee": "Sivachidambaram Srinivasan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14093"
-    },
-    {
-      "key": "INC-14092",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14092"
-    },
-    {
-      "key": "INC-14091",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14091"
-    },
-    {
-      "key": "INC-14090",
-      "summary": "Test Reporting & Analytics build insights for run: RM-Health-Tests #10478",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14090"
-    },
-    {
-      "key": "INC-14089",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14089"
-    },
-    {
-      "key": "INC-14088",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14088"
-    },
-    {
-      "key": "INC-14087",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14087"
-    },
-    {
-      "key": "INC-14086",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14086"
-    },
-    {
-      "key": "INC-14085",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14085"
-    },
-    {
-      "key": "INC-14084",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14084"
     }
   ]
 }
