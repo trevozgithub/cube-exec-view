@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T12:19:17.457069Z",
+  "updated": "2026-09-23T17:16:25.372291Z",
   "total": 31,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
@@ -16,6 +16,26 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1618",
       "panels": []
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-09-23",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "14/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Migration of 4CRisk repos has been planned for 15/09. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Blocking of Critical security vulnerabilities is scheduled to be enabled 16/09."
+        }
+      ]
     },
     {
       "key": "CPN-1532",
@@ -48,26 +68,6 @@
         {
           "type": "info",
           "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-09-16",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "14/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Migration of 4CRisk repos has been planned for 15/09. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Blocking of Critical security vulnerabilities is scheduled to be enabled 16/09."
         }
       ]
     },
