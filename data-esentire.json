@@ -1,7 +1,105 @@
 {
-  "updated": "2026-09-22T23:37:33.029502Z",
+  "updated": "2026-09-23T01:47:29.121042Z",
   "total": 3945,
   "items": [
+    {
+      "key": "INC-18034",
+      "summary": "[critical] ip-172-18-90-71.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18034"
+    },
+    {
+      "key": "INC-18033",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11192",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18033"
+    },
+    {
+      "key": "INC-18032",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18032"
+    },
+    {
+      "key": "INC-18031",
+      "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18031"
+    },
+    {
+      "key": "INC-18030",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11191",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18030"
+    },
+    {
+      "key": "INC-18029",
+      "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18029"
+    },
+    {
+      "key": "INC-18028",
+      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18028"
+    },
+    {
+      "key": "INC-18027",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-23",
+      "updated": "2026-09-23",
+      "url": "https://cube001.atlassian.net/browse/INC-18027"
+    },
     {
       "key": "INC-18026",
       "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
@@ -17,8 +115,8 @@
     {
       "key": "INC-18025",
       "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +127,8 @@
     {
       "key": "INC-18024",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11190",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41,8 +139,8 @@
     {
       "key": "INC-18023",
       "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,8 +151,8 @@
     {
       "key": "INC-18022",
       "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -65,8 +163,8 @@
     {
       "key": "INC-18021",
       "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -77,8 +175,8 @@
     {
       "key": "INC-18020",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11189",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -316,7 +414,7 @@
     {
       "key": "INC-18001",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67710",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -326,7 +424,7 @@
         "browserstack"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-18001"
     },
     {
@@ -374,7 +472,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-22",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17997"
     },
     {
@@ -5156,7 +5254,7 @@
     {
       "key": "INC-17616",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5166,7 +5264,7 @@
         "newrelic"
       ],
       "created": "2026-09-20",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17616"
     },
     {
@@ -5565,7 +5663,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-20",
-      "updated": "2026-09-20",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17585"
     },
     {
@@ -5582,7 +5680,7 @@
         "newrelic"
       ],
       "created": "2026-09-20",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17583"
     },
     {
@@ -5632,7 +5730,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-19",
-      "updated": "2026-09-21",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17579"
     },
     {
@@ -7182,7 +7280,7 @@
       "key": "INC-17458",
       "summary": "RDI Mapping Service is down",
       "status": "In Progress",
-      "assignee": "Justin Andrei Magbuhat",
+      "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -7193,7 +7291,7 @@
         "alerts"
       ],
       "created": "2026-09-18",
-      "updated": "2026-09-22",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-17458"
     },
     {
@@ -18895,7 +18993,7 @@
         "Veaam"
       ],
       "created": "2026-09-12",
-      "updated": "2026-09-18",
+      "updated": "2026-09-23",
       "url": "https://cube001.atlassian.net/browse/INC-16539"
     },
     {
@@ -49283,108 +49381,6 @@
       "created": "2026-08-24",
       "updated": "2026-08-24",
       "url": "https://cube001.atlassian.net/browse/INC-14084"
-    },
-    {
-      "key": "INC-14083",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14083"
-    },
-    {
-      "key": "INC-14082",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14082"
-    },
-    {
-      "key": "INC-14081",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14081"
-    },
-    {
-      "key": "INC-14080",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14080"
-    },
-    {
-      "key": "INC-14079",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14079"
-    },
-    {
-      "key": "INC-14078",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14078"
-    },
-    {
-      "key": "INC-14077",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Intel",
-        "alerts"
-      ],
-      "created": "2026-08-23",
-      "updated": "2026-08-29",
-      "url": "https://cube001.atlassian.net/browse/INC-14077"
-    },
-    {
-      "key": "INC-14076",
-      "summary": "PROBLEM: RDI API live is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-23",
-      "updated": "2026-08-24",
-      "url": "https://cube001.atlassian.net/browse/INC-14076"
     }
   ]
 }
