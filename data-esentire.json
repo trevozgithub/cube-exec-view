@@ -1,12 +1,346 @@
 {
-  "updated": "2026-09-24T01:21:24.824403Z",
-  "total": 3882,
+  "updated": "2026-09-24T06:21:37.997862Z",
+  "total": 3877,
   "items": [
+    {
+      "key": "INC-18141",
+      "summary": "[critical] piprodtranslate-be-0100001J - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18141"
+    },
+    {
+      "key": "INC-18140",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "In Triage",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18140"
+    },
+    {
+      "key": "INC-18139",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18139"
+    },
+    {
+      "key": "INC-18138",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18138"
+    },
+    {
+      "key": "INC-18137",
+      "summary": "CUBEPROD2PBI01 query result is > 99.0 for 5 minutes on 'High Memory Usage for Infrastructure Hosts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18137"
+    },
+    {
+      "key": "INC-18136",
+      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18136"
+    },
+    {
+      "key": "INC-18135",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18135"
+    },
+    {
+      "key": "INC-18134",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18134"
+    },
+    {
+      "key": "INC-18133",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18133"
+    },
+    {
+      "key": "INC-18132",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18132"
+    },
+    {
+      "key": "INC-18131",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18131"
+    },
+    {
+      "key": "INC-18130",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18130"
+    },
+    {
+      "key": "INC-18129",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18129"
+    },
+    {
+      "key": "INC-18128",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18128"
+    },
+    {
+      "key": "INC-18127",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67836",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18127"
+    },
+    {
+      "key": "INC-18126",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18126"
+    },
+    {
+      "key": "INC-18125",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67835",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18125"
+    },
+    {
+      "key": "INC-18124",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67834",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18124"
+    },
+    {
+      "key": "INC-18123",
+      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18123"
+    },
+    {
+      "key": "INC-18122",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67832",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18122"
+    },
+    {
+      "key": "INC-18121",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67831",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18121"
+    },
+    {
+      "key": "INC-18120",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67830",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18120"
+    },
+    {
+      "key": "INC-18119",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67829",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18119"
+    },
+    {
+      "key": "INC-18118",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67828",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18118"
+    },
+    {
+      "key": "INC-18117",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67827",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-24",
+      "updated": "2026-09-24",
+      "url": "https://cube001.atlassian.net/browse/INC-18117"
+    },
     {
       "key": "INC-18116",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67826",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -19,7 +353,7 @@
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67822",
       "status": "To Do",
       "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-24",
@@ -449,7 +783,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-23",
-      "updated": "2026-09-23",
+      "updated": "2026-09-24",
       "url": "https://cube001.atlassian.net/browse/INC-18080"
     },
     {
@@ -1921,7 +2255,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-22",
-      "updated": "2026-09-23",
+      "updated": "2026-09-24",
       "url": "https://cube001.atlassian.net/browse/INC-17965"
     },
     {
@@ -20046,7 +20380,7 @@
         "Veaam"
       ],
       "created": "2026-09-12",
-      "updated": "2026-09-23",
+      "updated": "2026-09-24",
       "url": "https://cube001.atlassian.net/browse/INC-16539"
     },
     {
@@ -48277,371 +48611,6 @@
       "created": "2026-08-25",
       "updated": "2026-08-25",
       "url": "https://cube001.atlassian.net/browse/INC-14261"
-    },
-    {
-      "key": "INC-14260",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14260"
-    },
-    {
-      "key": "INC-14259",
-      "summary": "[critical] UKSPREPSQL01 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14259"
-    },
-    {
-      "key": "INC-14258",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14258"
-    },
-    {
-      "key": "INC-14257",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14257"
-    },
-    {
-      "key": "INC-14256",
-      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14256"
-    },
-    {
-      "key": "INC-14255",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14255"
-    },
-    {
-      "key": "INC-14254",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 400_600ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14254"
-    },
-    {
-      "key": "INC-14253",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14253"
-    },
-    {
-      "key": "INC-14252",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14252"
-    },
-    {
-      "key": "INC-14251",
-      "summary": "[critical] CUBEAZTST1RDI05 - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14251"
-    },
-    {
-      "key": "INC-14250",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14250"
-    },
-    {
-      "key": "INC-14249",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14249"
-    },
-    {
-      "key": "INC-14248",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14248"
-    },
-    {
-      "key": "INC-14247",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14247"
-    },
-    {
-      "key": "INC-14246",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14246"
-    },
-    {
-      "key": "INC-14245",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14245"
-    },
-    {
-      "key": "INC-14244",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 150_300ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14244"
-    },
-    {
-      "key": "INC-14243",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14243"
-    },
-    {
-      "key": "INC-14242",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14242"
-    },
-    {
-      "key": "INC-14241",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14241"
-    },
-    {
-      "key": "INC-14240",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14240"
-    },
-    {
-      "key": "INC-14239",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14239"
-    },
-    {
-      "key": "INC-14238",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14238"
-    },
-    {
-      "key": "INC-14237",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14237"
-    },
-    {
-      "key": "INC-14236",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14236"
-    },
-    {
-      "key": "INC-14235",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14235"
-    },
-    {
-      "key": "INC-14234",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14234"
-    },
-    {
-      "key": "INC-14233",
-      "summary": "[critical] aks-functions-39094223-vmss000000 - CPU greater than 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14233"
-    },
-    {
-      "key": "INC-14232",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM utilisation greater than 90% for 15 Minutes.",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14232"
-    },
-    {
-      "key": "INC-14231",
-      "summary": "[critical]  - PRDSM - INTEL Performance Monitoring 650_1000ms - CRITICAL",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-25",
-      "updated": "2026-08-25",
-      "url": "https://cube001.atlassian.net/browse/INC-14231"
     }
   ]
 }
