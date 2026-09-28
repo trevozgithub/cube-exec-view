@@ -1,8 +1,30 @@
 {
-  "updated": "2026-09-28T13:20:44.185822Z",
+  "updated": "2026-09-28T20:09:51.447860Z",
   "total": 13,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-09-28",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "28/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. RM was migrated 10/09 and RDI and Transform Server 28/09. SQL MI for Content Dev and Test have been provisioned. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster, a single new node has been created, number of further nodes to be confirmed."
+        }
+      ]
+    },
     {
       "key": "CPN-610",
       "summary": "GitHub Migration",
@@ -19,7 +41,7 @@
       "panels": [
         {
           "type": "info",
-          "text": "14/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. Migration of 4CRisk repos has been planned for 15/09. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Blocking of Critical security vulnerabilities is scheduled to be enabled 16/09."
+          "text": "28/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have been migrated, there were post migration issues which are being resolved. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Feedback on the Golden Pipeline/skills is being reviewed and changes/enhancements made if required and prioritised. Blocking of Critical security vulnerabilities was enabled 16/09 with some security exceptions required. Blocking of High security vulnerabilities is planned for 08/10."
         }
       ]
     },
@@ -35,28 +57,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1593",
       "panels": []
-    },
-    {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-09-18",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "14/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. Provisioning of SQL MI for Content was discussed 07/09. Dev and Test will be created first with the data being backed up and restored from on prem to Azure. Prod will use SQL MI Link and on prem servers need to be upgraded to have SQL compatible with MI Link. RM migrated to Azure 10/09."
-        }
-      ]
     },
     {
       "key": "CPN-1939",
