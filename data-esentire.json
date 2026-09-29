@@ -1,7 +1,127 @@
 {
-  "updated": "2026-09-28T20:10:18.222666Z",
-  "total": 4545,
+  "updated": "2026-09-29T00:22:50.256933Z",
+  "total": 4550,
   "items": [
+    {
+      "key": "INC-19511",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-29",
+      "updated": "2026-09-29",
+      "url": "https://cube001.atlassian.net/browse/INC-19511"
+    },
+    {
+      "key": "INC-19510",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #70741",
+      "status": "To Do",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19510"
+    },
+    {
+      "key": "INC-19509",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #70741",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19509"
+    },
+    {
+      "key": "INC-19508",
+      "summary": "[critical] ip-192-168-128-188.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19508"
+    },
+    {
+      "key": "INC-19507",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19507"
+    },
+    {
+      "key": "INC-19506",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19506"
+    },
+    {
+      "key": "INC-19505",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19505"
+    },
+    {
+      "key": "INC-19504",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19504"
+    },
+    {
+      "key": "INC-19503",
+      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19503"
+    },
+    {
+      "key": "INC-19502",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-09-28",
+      "updated": "2026-09-28",
+      "url": "https://cube001.atlassian.net/browse/INC-19502"
+    },
     {
       "key": "INC-19501",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
@@ -565,11 +685,13 @@
     {
       "key": "INC-19455",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #68217",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-28",
       "updated": "2026-09-28",
       "url": "https://cube001.atlassian.net/browse/INC-19455"
@@ -1470,7 +1592,7 @@
       "key": "INC-19381",
       "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
       "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -1529,7 +1651,7 @@
     {
       "key": "INC-19376",
       "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -12237,13 +12359,15 @@
     {
       "key": "INC-18508",
       "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-26",
-      "updated": "2026-09-26",
+      "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-18508"
     },
     {
@@ -14810,7 +14934,7 @@
       "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
       "status": "In Progress",
       "assignee": "Shravan Avula",
-      "priority": "P2",
+      "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7",
@@ -22260,7 +22384,7 @@
       "key": "INC-17717",
       "summary": "[critical] piprodtranslate-be-0100001J - Storage Utilisation > 80% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "assignee": "Kishan Gohil",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -22270,7 +22394,7 @@
         "alerts"
       ],
       "created": "2026-09-21",
-      "updated": "2026-09-25",
+      "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-17717"
     },
     {
@@ -23978,7 +24102,7 @@
         "newrelic"
       ],
       "created": "2026-09-20",
-      "updated": "2026-09-26",
+      "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-17583"
     },
     {
@@ -24971,7 +25095,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-18",
-      "updated": "2026-09-22",
+      "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-17508"
     },
     {
@@ -42314,7 +42438,7 @@
     {
       "key": "INC-16143",
       "summary": "API Connect Health Checks Errors - PROD and UAT",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Kaushalya Pathirana",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -42326,7 +42450,7 @@
         "health-check"
       ],
       "created": "2026-09-07",
-      "updated": "2026-09-26",
+      "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-16143"
     },
     {
@@ -55131,7 +55255,7 @@
         "Intel"
       ],
       "created": "2026-08-31",
-      "updated": "2026-09-22",
+      "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-15099"
     },
     {
@@ -56862,71 +56986,6 @@
       "created": "2026-08-30",
       "updated": "2026-08-30",
       "url": "https://cube001.atlassian.net/browse/INC-14959"
-    },
-    {
-      "key": "INC-14958",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Pipeline",
-        "RegInsight",
-        "SQL",
-        "alerts"
-      ],
-      "created": "2026-08-30",
-      "updated": "2026-08-30",
-      "url": "https://cube001.atlassian.net/browse/INC-14958"
-    },
-    {
-      "key": "INC-14957",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-30",
-      "updated": "2026-08-30",
-      "url": "https://cube001.atlassian.net/browse/INC-14957"
-    },
-    {
-      "key": "INC-14956",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-29",
-      "updated": "2026-08-30",
-      "url": "https://cube001.atlassian.net/browse/INC-14956"
-    },
-    {
-      "key": "INC-14955",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-29",
-      "updated": "2026-08-29",
-      "url": "https://cube001.atlassian.net/browse/INC-14955"
-    },
-    {
-      "key": "INC-14954",
-      "summary": "[critical] aks-transform02-21490253-vmss000006 - Storage Utilisation > 80% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-08-29",
-      "updated": "2026-08-29",
-      "url": "https://cube001.atlassian.net/browse/INC-14954"
     }
   ]
 }
