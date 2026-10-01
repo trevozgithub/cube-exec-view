@@ -1,7 +1,369 @@
 {
-  "updated": "2026-10-01T07:45:22.053780Z",
-  "total": 4510,
+  "updated": "2026-10-01T14:49:21.145574Z",
+  "total": 4504,
   "items": [
+    {
+      "key": "INC-19804",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19804"
+    },
+    {
+      "key": "INC-19803",
+      "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19803"
+    },
+    {
+      "key": "INC-19802",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19802"
+    },
+    {
+      "key": "INC-19800",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19800"
+    },
+    {
+      "key": "INC-19799",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19799"
+    },
+    {
+      "key": "INC-19798",
+      "summary": "critical - PROD - Error 500 in RegInsightsSearch",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19798"
+    },
+    {
+      "key": "INC-19797",
+      "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19797"
+    },
+    {
+      "key": "INC-19796",
+      "summary": "[critical] CUBEPROD1SQL03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19796"
+    },
+    {
+      "key": "INC-19795",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19795"
+    },
+    {
+      "key": "INC-19794",
+      "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19794"
+    },
+    {
+      "key": "INC-19793",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19793"
+    },
+    {
+      "key": "INC-19792",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19792"
+    },
+    {
+      "key": "INC-19791",
+      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19791"
+    },
+    {
+      "key": "INC-19790",
+      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19790"
+    },
+    {
+      "key": "INC-19789",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19789"
+    },
+    {
+      "key": "INC-19788",
+      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19788"
+    },
+    {
+      "key": "INC-19787",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19787"
+    },
+    {
+      "key": "INC-19786",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19786"
+    },
+    {
+      "key": "INC-19785",
+      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19785"
+    },
+    {
+      "key": "INC-19784",
+      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19784"
+    },
+    {
+      "key": "INC-19783",
+      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19783"
+    },
+    {
+      "key": "INC-19782",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19782"
+    },
+    {
+      "key": "INC-19781",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19781"
+    },
+    {
+      "key": "INC-19780",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19780"
+    },
+    {
+      "key": "INC-19779",
+      "summary": "P2 - ProfilerQueue build up in PROD",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19779"
+    },
+    {
+      "key": "INC-19778",
+      "summary": "[critical] ip-172-50-75-140.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19778"
+    },
+    {
+      "key": "INC-19777",
+      "summary": "[critical] ip-172-50-75-140.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19777"
+    },
+    {
+      "key": "INC-19776",
+      "summary": "[critical] ip-172-50-75-140.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19776"
+    },
+    {
+      "key": "INC-19775",
+      "summary": "[critical] ip-172-70-8-162.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19775"
+    },
+    {
+      "key": "INC-19774",
+      "summary": "[critical] ip-172-70-8-162.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19774"
+    },
     {
       "key": "INC-19773",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11388",
@@ -125,11 +487,13 @@
     {
       "key": "INC-19763",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #70949",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-01",
       "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19763"
@@ -521,7 +885,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19731"
     },
     {
@@ -551,13 +915,15 @@
     {
       "key": "INC-19728",
       "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19728"
     },
     {
@@ -817,13 +1183,15 @@
     {
       "key": "INC-19706",
       "summary": "[critical] CUBEPROD1SQL03 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Justin Andrei Magbuhat",
+      "status": "Completed",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19706"
     },
     {
@@ -954,7 +1322,7 @@
         "24x7"
       ],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19696"
     },
     {
@@ -1234,13 +1602,13 @@
     {
       "key": "INC-19672",
       "summary": "High Validator Backlog - SQL timeouts",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Dapo Afolabi",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19672"
     },
     {
@@ -2602,7 +2970,7 @@
         "Oden"
       ],
       "created": "2026-09-29",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19568"
     },
     {
@@ -3701,9 +4069,14 @@
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Storage",
+        "Utilization",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-09-28",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-19480"
     },
     {
@@ -14738,7 +15111,7 @@
     {
       "key": "INC-18576",
       "summary": "eSentire Integration \u2014 Flow Failure Detected",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -14748,7 +15121,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-09-26",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-18576"
     },
     {
@@ -17928,7 +18301,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-25",
-      "updated": "2026-09-30",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-18329"
     },
     {
@@ -33025,7 +33398,7 @@
     {
       "key": "INC-17153",
       "summary": "[critical] CUBEAZPRD1TRN02 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ravali Billakanti",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -36956,7 +37329,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-09-14",
-      "updated": "2026-09-29",
+      "updated": "2026-10-01",
       "url": "https://cube001.atlassian.net/browse/INC-16847"
     },
     {
@@ -56188,455 +56561,6 @@
       "created": "2026-09-01",
       "updated": "2026-09-01",
       "url": "https://cube001.atlassian.net/browse/INC-15296"
-    },
-    {
-      "key": "INC-15295",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15295"
-    },
-    {
-      "key": "INC-15294",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15294"
-    },
-    {
-      "key": "INC-15293",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15293"
-    },
-    {
-      "key": "INC-15292",
-      "summary": " CS5022706 - Successful sign-in from phishing infrastructure via Hide.ME VPN",
-      "status": "Completed",
-      "assignee": "Ser Jan Aldreach Perez",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-02",
-      "url": "https://cube001.atlassian.net/browse/INC-15292"
-    },
-    {
-      "key": "INC-15291",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15291"
-    },
-    {
-      "key": "INC-15290",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15290"
-    },
-    {
-      "key": "INC-15289",
-      "summary": "[critical] aks-intel01-11055639-vmss0002b1 - RAM Utilisation > 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15289"
-    },
-    {
-      "key": "INC-15288",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15288"
-    },
-    {
-      "key": "INC-15287",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001fg - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15287"
-    },
-    {
-      "key": "INC-15286",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15286"
-    },
-    {
-      "key": "INC-15285",
-      "summary": "[critical] aks-intel01-11055639-vmss0002b1 - RAM Utilisation > 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15285"
-    },
-    {
-      "key": "INC-15284",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15284"
-    },
-    {
-      "key": "INC-15283",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001fg - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-02",
-      "url": "https://cube001.atlassian.net/browse/INC-15283"
-    },
-    {
-      "key": "INC-15282",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001fg - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15282"
-    },
-    {
-      "key": "INC-15281",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15281"
-    },
-    {
-      "key": "INC-15280",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Completed",
-      "assignee": "Narayani Ramakrishnan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Intel",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-04",
-      "url": "https://cube001.atlassian.net/browse/INC-15280"
-    },
-    {
-      "key": "INC-15279",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ex - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-01",
-      "updated": "2026-09-02",
-      "url": "https://cube001.atlassian.net/browse/INC-15279"
-    },
-    {
-      "key": "INC-15278",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15278"
-    },
-    {
-      "key": "INC-15277",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15277"
-    },
-    {
-      "key": "INC-15276",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ex - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15276"
-    },
-    {
-      "key": "INC-15275",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15275"
-    },
-    {
-      "key": "INC-15274",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ex - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15274"
-    },
-    {
-      "key": "INC-15273",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15273"
-    },
-    {
-      "key": "INC-15272",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15272"
-    },
-    {
-      "key": "INC-15271",
-      "summary": "[critical] CUBEPROD1SQL04 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15271"
-    },
-    {
-      "key": "INC-15270",
-      "summary": "[critical] CUBEPROD1SQL04 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15270"
-    },
-    {
-      "key": "INC-15269",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15269"
-    },
-    {
-      "key": "INC-15268",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15268"
-    },
-    {
-      "key": "INC-15267",
-      "summary": "[critical] CUBEPROD1SQL04 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15267"
-    },
-    {
-      "key": "INC-15266",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15266"
-    },
-    {
-      "key": "INC-15265",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1IIS05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15265"
-    },
-    {
-      "key": "INC-15264",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15264"
-    },
-    {
-      "key": "INC-15263",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15263"
-    },
-    {
-      "key": "INC-15262",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15262"
-    },
-    {
-      "key": "INC-15261",
-      "summary": "PROBLEM: Base - C Drive is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15261"
-    },
-    {
-      "key": "INC-15260",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 15 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-01",
-      "updated": "2026-09-01",
-      "url": "https://cube001.atlassian.net/browse/INC-15260"
     }
   ]
 }
