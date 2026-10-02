@@ -1,12 +1,148 @@
 {
-  "updated": "2026-10-01T23:43:59.634718Z",
-  "total": 4456,
+  "updated": "2026-10-02T02:36:13.913991Z",
+  "total": 4464,
   "items": [
     {
-      "key": "INC-19827",
+      "key": "INC-19837",
+      "summary": "piprodtranslate-be-010001 G to L Storage Utilization > 80%",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19837"
+    },
+    {
+      "key": "INC-19836",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19836"
+    },
+    {
+      "key": "INC-19835",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19835"
+    },
+    {
+      "key": "INC-19834",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19834"
+    },
+    {
+      "key": "INC-19833",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19833"
+    },
+    {
+      "key": "INC-19832",
+      "summary": "[critical] CUBEPROD2APP02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19832"
+    },
+    {
+      "key": "INC-19831",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-02",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19831"
+    },
+    {
+      "key": "INC-19830",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71018",
+      "status": "Completed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-01",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19830"
+    },
+    {
+      "key": "INC-19829",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-01",
+      "updated": "2026-10-02",
+      "url": "https://cube001.atlassian.net/browse/INC-19829"
+    },
+    {
+      "key": "INC-19828",
       "summary": "[critical] CUBEPROD2APP02 - Storage Utilisation > 80% for 30 Minutes",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-01",
+      "updated": "2026-10-01",
+      "url": "https://cube001.atlassian.net/browse/INC-19828"
+    },
+    {
+      "key": "INC-19827",
+      "summary": "[critical] CUBEPROD2APP02 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +153,8 @@
     {
       "key": "INC-19826",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +165,8 @@
     {
       "key": "INC-19825",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71018",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -830,13 +966,15 @@
     {
       "key": "INC-19761",
       "summary": "[critical] piprodtranslate-be-0100001L - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-01",
-      "updated": "2026-10-01",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19761"
     },
     {
@@ -879,12 +1017,12 @@
       "key": "INC-19757",
       "summary": "Legiscan Payment Warning",
       "status": "To Do",
-      "assignee": "Barry Sage",
+      "assignee": "Praseeda Pandit",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-01",
-      "updated": "2026-10-01",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19757"
     },
     {
@@ -1070,7 +1208,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19742"
     },
     {
@@ -1815,7 +1953,7 @@
     {
       "key": "INC-19681",
       "summary": "[critical] piprodtranslate-be-0100001M - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1823,21 +1961,21 @@
         "24x7"
       ],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19681"
     },
     {
       "key": "INC-19680",
       "summary": "[critical] CUBEPROD2SQL04 - Storage Utilisation > 80% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-09-30",
-      "updated": "2026-09-30",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19680"
     },
     {
@@ -4390,7 +4528,7 @@
     {
       "key": "INC-19480",
       "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4401,7 +4539,7 @@
         "newrelic"
       ],
       "created": "2026-09-28",
-      "updated": "2026-10-01",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19480"
     },
     {
@@ -11857,13 +11995,15 @@
     {
       "key": "INC-18864",
       "summary": "[critical] piprodtranslate-be-0100001G - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
-      "assignee": "Michael Angelo Dorio",
+      "status": "Completed",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-26",
-      "updated": "2026-09-29",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-18864"
     },
     {
@@ -23485,7 +23625,7 @@
         "Support"
       ],
       "created": "2026-09-22",
-      "updated": "2026-09-29",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-17954"
     },
     {
@@ -26442,7 +26582,7 @@
         "alerts"
       ],
       "created": "2026-09-21",
-      "updated": "2026-09-30",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-17717"
     },
     {
@@ -55982,32 +56122,6 @@
       "created": "2026-09-02",
       "updated": "2026-09-02",
       "url": "https://cube001.atlassian.net/browse/INC-15369"
-    },
-    {
-      "key": "INC-15368",
-      "summary": "August-2026: DM-MGMT01 & DM Patching send notification to dm@cube.global",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-02",
-      "updated": "2026-09-11",
-      "url": "https://cube001.atlassian.net/browse/INC-15368"
-    },
-    {
-      "key": "INC-15367",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-02",
-      "updated": "2026-09-02",
-      "url": "https://cube001.atlassian.net/browse/INC-15367"
     }
   ]
 }
