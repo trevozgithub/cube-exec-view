@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T15:42:38.492068Z",
+  "updated": "2026-10-02T20:09:36.080663Z",
   "total": 43,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
@@ -16,6 +16,41 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1618",
       "panels": []
+    },
+    {
+      "key": "CPN-1532",
+      "summary": "RegPlatform - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Jaspreet Manghera",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-10-02",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1532",
+      "panels": []
+    },
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations",
+      "status": "Build & Test",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-10-02",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
     },
     {
       "key": "CPN-2197",
@@ -242,20 +277,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1532",
-      "summary": "RegPlatform - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Jaspreet Manghera",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1532",
-      "panels": []
-    },
-    {
       "key": "CPN-2196",
       "summary": "RegPlatform - Customer Enhancements Q4 2026",
       "status": "Build & Test",
@@ -384,27 +405,6 @@
         {
           "type": "info",
           "text": "Status 10/09:  Queued for PROD release next week"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations",
-      "status": "Build & Test",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-09-28",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
         }
       ]
     },
