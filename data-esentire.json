@@ -1,12 +1,60 @@
 {
-  "updated": "2026-10-02T23:47:02.746633Z",
-  "total": 4555,
+  "updated": "2026-10-03T02:23:29.734569Z",
+  "total": 4558,
   "items": [
+    {
+      "key": "INC-19977",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-03",
+      "updated": "2026-10-03",
+      "url": "https://cube001.atlassian.net/browse/INC-19977"
+    },
+    {
+      "key": "INC-19976",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-03",
+      "updated": "2026-10-03",
+      "url": "https://cube001.atlassian.net/browse/INC-19976"
+    },
+    {
+      "key": "INC-19975",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-03",
+      "updated": "2026-10-03",
+      "url": "https://cube001.atlassian.net/browse/INC-19975"
+    },
+    {
+      "key": "INC-19974",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-03",
+      "updated": "2026-10-03",
+      "url": "https://cube001.atlassian.net/browse/INC-19974"
+    },
     {
       "key": "INC-19973",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #68623",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +77,8 @@
     {
       "key": "INC-19971",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71114",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -242,11 +290,13 @@
     {
       "key": "INC-19954",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #68617",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-02",
       "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19954"
@@ -302,11 +352,13 @@
     {
       "key": "INC-19949",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71106",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-02",
       "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19949"
@@ -1895,7 +1947,7 @@
         "24x7"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-02",
+      "updated": "2026-10-03",
       "url": "https://cube001.atlassian.net/browse/INC-19829"
     },
     {
@@ -5592,13 +5644,15 @@
     {
       "key": "INC-19538",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-29",
-      "updated": "2026-09-30",
+      "updated": "2026-10-02",
       "url": "https://cube001.atlassian.net/browse/INC-19538"
     },
     {
@@ -57310,18 +57364,6 @@
       "created": "2026-09-03",
       "updated": "2026-09-03",
       "url": "https://cube001.atlassian.net/browse/INC-15415"
-    },
-    {
-      "key": "INC-15414",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-03",
-      "updated": "2026-09-03",
-      "url": "https://cube001.atlassian.net/browse/INC-15414"
     }
   ]
 }
