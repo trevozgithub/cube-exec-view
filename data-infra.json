@@ -1,15 +1,73 @@
 {
-  "updated": "2026-10-05T05:42:06.151262Z",
+  "updated": "2026-10-05T12:41:31.720045Z",
   "total": 37,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-2234",
+      "summary": "Platform - Platform Enhancements Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-10-05",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2234",
+      "panels": []
+    },
+    {
+      "key": "CPN-2230",
+      "summary": "Platform - Maintenance Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-10-05",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2230",
+      "panels": []
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-10-05",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "28/09/26 Decommissioning NEU is in progress, ACR and Log Analytics is pending. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. GitHub pipelines and Manifest based deployment are in place for code. Further work is required on database release pipelines.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Connectivity between Prod and non-prod has been implemented."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1571",
+      "summary": "Platform - Administrative Tasks Q3 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-10-05",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1571",
+      "panels": []
+    },
     {
       "key": "CPN-826",
       "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
       "status": "Planning",
       "assignee": "Agnieszka Gorniak",
       "duedate": "2027-03-30",
-      "reviewed": "2026-10-04",
+      "reviewed": "2026-10-05",
       "labels": [
         "infrastructure",
         "sjp",
@@ -24,12 +82,53 @@
       ]
     },
     {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations",
+      "status": "Build & Test",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-10-05",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-10-05",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "28/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have been migrated, there were post migration issues which are being resolved. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Feedback on the Golden Pipeline/skills is being reviewed and changes/enhancements made if required and prioritised. Blocking of Critical security vulnerabilities was enabled 16/09 with some security exceptions required. Blocking of High security vulnerabilities is planned for 08/10."
+        }
+      ]
+    },
+    {
       "key": "CPN-676",
       "summary": "CUBE Datacenter Exit",
       "status": "Build & Test",
       "assignee": "Dan Palmer",
       "duedate": "2026-12-31",
-      "reviewed": "2026-10-04",
+      "reviewed": "2026-10-05",
       "labels": [
         "infrastructure"
       ],
@@ -64,27 +163,6 @@
       ]
     },
     {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations",
-      "status": "Build & Test",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-10-02",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
-        }
-      ]
-    },
-    {
       "key": "CPN-930",
       "summary": "Cabot - Sunset of Documentum",
       "status": "Scoping",
@@ -113,38 +191,6 @@
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1576",
-      "panels": []
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-10-02",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26 Decommissioning NEU is in progress, ACR and Log Analytics is pending. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. GitHub pipelines and Manifest based deployment are in place for code. Further work is required on database release pipelines.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Connectivity between Prod and non-prod has been implemented."
-        }
-      ]
-    },
-    {
-      "key": "CPN-2234",
-      "summary": "Platform - Platform Enhancements Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2234",
       "panels": []
     },
     {
@@ -200,19 +246,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1571",
-      "summary": "Platform - Administrative Tasks Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1571",
-      "panels": []
-    },
-    {
       "key": "CPN-2231",
       "summary": "Platform  - Urgent Support Q4 2026",
       "status": "Build & Test",
@@ -223,19 +256,6 @@
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2231",
-      "panels": []
-    },
-    {
-      "key": "CPN-2230",
-      "summary": "Platform - Maintenance Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2230",
       "panels": []
     },
     {
@@ -376,26 +396,6 @@
         {
           "type": "info",
           "text": "28/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. RM was migrated 10/09 and RDI and Transform Server 28/09. SQL MI for Content Dev and Test have been provisioned. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster, a single new node has been created, number of further nodes to be confirmed."
-        }
-      ]
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-09-28",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have been migrated, there were post migration issues which are being resolved. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Feedback on the Golden Pipeline/skills is being reviewed and changes/enhancements made if required and prioritised. Blocking of Critical security vulnerabilities was enabled 16/09 with some security exceptions required. Blocking of High security vulnerabilities is planned for 08/10."
         }
       ]
     },
