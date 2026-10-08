@@ -1,8 +1,30 @@
 {
-  "updated": "2026-10-08T02:04:20.384949Z",
+  "updated": "2026-10-08T08:52:33.690891Z",
   "total": 18,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-10-08",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "28/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. RM was migrated 10/09 and RDI and Transform Server 28/09. SQL MI for Content Dev and Test have been provisioned. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster, a single new node has been created, number of further nodes to be confirmed."
+        }
+      ]
+    },
     {
       "key": "CPN-2212",
       "summary": "RegPlatform Content - Maintenance Q4 2026",
@@ -139,28 +161,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2201",
       "panels": []
-    },
-    {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-09-28",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. RM was migrated 10/09 and RDI and Transform Server 28/09. SQL MI for Content Dev and Test have been provisioned. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster, a single new node has been created, number of further nodes to be confirmed."
-        }
-      ]
     },
     {
       "key": "CPN-1939",

@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-08T02:04:49.636446Z",
-  "total": 4392,
+  "updated": "2026-10-08T08:52:58.292629Z",
+  "total": 4398,
   "items": [
     {
-      "key": "INC-20612",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71609",
+      "key": "INC-20653",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
       "status": "To Do",
       "assignee": "Unassigned",
       "priority": "P3",
@@ -12,16 +12,566 @@
       "labels": [],
       "created": "2026-10-08",
       "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20653"
+    },
+    {
+      "key": "INC-20652",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "To Do",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20652"
+    },
+    {
+      "key": "INC-20651",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20651"
+    },
+    {
+      "key": "INC-20650",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20650"
+    },
+    {
+      "key": "INC-20649",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71629",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20649"
+    },
+    {
+      "key": "INC-20648",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71628",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20648"
+    },
+    {
+      "key": "INC-20647",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20647"
+    },
+    {
+      "key": "INC-20646",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20646"
+    },
+    {
+      "key": "INC-20645",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71627",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20645"
+    },
+    {
+      "key": "INC-20644",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71626",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20644"
+    },
+    {
+      "key": "INC-20643",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20643"
+    },
+    {
+      "key": "INC-20642",
+      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20642"
+    },
+    {
+      "key": "INC-20641",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20641"
+    },
+    {
+      "key": "INC-20640",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20640"
+    },
+    {
+      "key": "INC-20639",
+      "summary": "PROBLEM: Base - CPU Queue length is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20639"
+    },
+    {
+      "key": "INC-20638",
+      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20638"
+    },
+    {
+      "key": "INC-20637",
+      "summary": "PROBLEM: Base - LAN status is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20637"
+    },
+    {
+      "key": "INC-20636",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71624",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20636"
+    },
+    {
+      "key": "INC-20635",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20635"
+    },
+    {
+      "key": "INC-20634",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20634"
+    },
+    {
+      "key": "INC-20633",
+      "summary": "PROBLEM: Base - LAN status is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20633"
+    },
+    {
+      "key": "INC-20632",
+      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20632"
+    },
+    {
+      "key": "INC-20631",
+      "summary": "PROBLEM: Base - CPU Queue length is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20631"
+    },
+    {
+      "key": "INC-20630",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71623",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20630"
+    },
+    {
+      "key": "INC-20629",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71622",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20629"
+    },
+    {
+      "key": "INC-20628",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20628"
+    },
+    {
+      "key": "INC-20627",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71621",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20627"
+    },
+    {
+      "key": "INC-20626",
+      "summary": "MFA Reset of don.buting@cube.global local user ",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20626"
+    },
+    {
+      "key": "INC-20625",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71620",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20625"
+    },
+    {
+      "key": "INC-20624",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71619",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20624"
+    },
+    {
+      "key": "INC-20623",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71618",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20623"
+    },
+    {
+      "key": "INC-20622",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71617",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20622"
+    },
+    {
+      "key": "INC-20621",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20621"
+    },
+    {
+      "key": "INC-20620",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20620"
+    },
+    {
+      "key": "INC-20619",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71616",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20619"
+    },
+    {
+      "key": "INC-20618",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71615",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20618"
+    },
+    {
+      "key": "INC-20617",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71614",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20617"
+    },
+    {
+      "key": "INC-20616",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71613",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20616"
+    },
+    {
+      "key": "INC-20615",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71612",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20615"
+    },
+    {
+      "key": "INC-20614",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71611",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20614"
+    },
+    {
+      "key": "INC-20613",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71610",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20613"
+    },
+    {
+      "key": "INC-20612",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71609",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20612"
     },
     {
       "key": "INC-20611",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71608",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
-      "labels": [],
+      "labels": [
+        "auto-triaged"
+      ],
       "created": "2026-10-08",
       "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20611"
@@ -221,13 +771,15 @@
     {
       "key": "INC-20594",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11542",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Ragul Ravisankar",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-07",
-      "updated": "2026-10-07",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20594"
     },
     {
@@ -569,7 +1121,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-07",
-      "updated": "2026-10-07",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20566"
     },
     {
@@ -1501,7 +2053,7 @@
         "24x7"
       ],
       "created": "2026-10-07",
-      "updated": "2026-10-07",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20490"
     },
     {
@@ -3029,15 +3581,15 @@
     {
       "key": "INC-20366",
       "summary": "User-reported training marketing email, payload unconfirmed",
-      "status": "To Do",
-      "assignee": "Glenn Ticong",
+      "status": "Completed",
+      "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "24x7"
       ],
       "created": "2026-10-06",
-      "updated": "2026-10-07",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20366"
     },
     {
@@ -3117,7 +3669,7 @@
     {
       "key": "INC-20359",
       "summary": "User-reported email with unrelated third-party links",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -3127,7 +3679,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-10-06",
-      "updated": "2026-10-07",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20359"
     },
     {
@@ -3344,13 +3896,15 @@
     {
       "key": "INC-20341",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-06",
-      "updated": "2026-10-06",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20341"
     },
     {
@@ -4302,7 +4856,7 @@
       "key": "INC-20263",
       "summary": "Dummy Titles reported in Enterprise",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -4312,7 +4866,7 @@
         "RegInsight"
       ],
       "created": "2026-10-05",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-20263"
     },
     {
@@ -9856,7 +10410,7 @@
         "24x7"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-19829"
     },
     {
@@ -10134,7 +10688,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-19808"
     },
     {
@@ -10148,7 +10702,7 @@
         "ODEN"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-19807"
     },
     {
@@ -10491,7 +11045,7 @@
         "RegBook"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-06",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-19779"
     },
     {
@@ -11835,7 +12389,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-30",
-      "updated": "2026-10-06",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-19672"
     },
     {
@@ -28217,7 +28771,7 @@
         "alerts"
       ],
       "created": "2026-09-25",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-18356"
     },
     {
@@ -33625,7 +34179,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-22",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-17936"
     },
     {
@@ -39056,7 +39610,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-09-18",
-      "updated": "2026-10-05",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-17508"
     },
     {
@@ -47573,7 +48127,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-09-14",
-      "updated": "2026-10-06",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-16847"
     },
     {
@@ -51387,7 +51941,7 @@
         "Veaam"
       ],
       "created": "2026-09-12",
-      "updated": "2026-10-07",
+      "updated": "2026-10-08",
       "url": "https://cube001.atlassian.net/browse/INC-16539"
     },
     {
@@ -55035,445 +55589,6 @@
       "created": "2026-09-08",
       "updated": "2026-09-08",
       "url": "https://cube001.atlassian.net/browse/INC-16250"
-    },
-    {
-      "key": "INC-16249",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16249"
-    },
-    {
-      "key": "INC-16248",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16248"
-    },
-    {
-      "key": "INC-16247",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66460",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16247"
-    },
-    {
-      "key": "INC-16246",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16246"
-    },
-    {
-      "key": "INC-16245",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16245"
-    },
-    {
-      "key": "INC-16244",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16244"
-    },
-    {
-      "key": "INC-16243",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66459",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16243"
-    },
-    {
-      "key": "INC-16242",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66458",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16242"
-    },
-    {
-      "key": "INC-16241",
-      "summary": "[critical] piuattranslate-be-0100000F - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16241"
-    },
-    {
-      "key": "INC-16240",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16240"
-    },
-    {
-      "key": "INC-16239",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66457",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16239"
-    },
-    {
-      "key": "INC-16238",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16238"
-    },
-    {
-      "key": "INC-16237",
-      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-11",
-      "url": "https://cube001.atlassian.net/browse/INC-16237"
-    },
-    {
-      "key": "INC-16236",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16236"
-    },
-    {
-      "key": "INC-16235",
-      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16235"
-    },
-    {
-      "key": "INC-16234",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66456",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16234"
-    },
-    {
-      "key": "INC-16233",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66455",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16233"
-    },
-    {
-      "key": "INC-16232",
-      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16232"
-    },
-    {
-      "key": "INC-16231",
-      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-11",
-      "url": "https://cube001.atlassian.net/browse/INC-16231"
-    },
-    {
-      "key": "INC-16230",
-      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16230"
-    },
-    {
-      "key": "INC-16229",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66454",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16229"
-    },
-    {
-      "key": "INC-16228",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66453",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16228"
-    },
-    {
-      "key": "INC-16227",
-      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16227"
-    },
-    {
-      "key": "INC-16226",
-      "summary": "Signal lost for 5 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16226"
-    },
-    {
-      "key": "INC-16225",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66452",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16225"
-    },
-    {
-      "key": "INC-16224",
-      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16224"
-    },
-    {
-      "key": "INC-16223",
-      "summary": "PROBLEM: Base - Memory usage is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16223"
-    },
-    {
-      "key": "INC-16222",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66451",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16222"
-    },
-    {
-      "key": "INC-16221",
-      "summary": "RegTrend Module \u2014 500 Error on Issuing Body Filter",
-      "status": "Completed",
-      "assignee": "Kalani Jayatissa",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "LIVE",
-        "browserstack"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-09",
-      "url": "https://cube001.atlassian.net/browse/INC-16221"
-    },
-    {
-      "key": "INC-16220",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66450",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16220"
-    },
-    {
-      "key": "INC-16219",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66446",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16219"
-    },
-    {
-      "key": "INC-16218",
-      "summary": "Test Reporting & Analytics build insights for run: PROD Consumer Application Monitoring #66446",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16218"
-    },
-    {
-      "key": "INC-16217",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68757",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16217"
-    },
-    {
-      "key": "INC-16216",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68756",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16216"
-    },
-    {
-      "key": "INC-16215",
-      "summary": "Test Reporting & Analytics build insights for run: UAT Consumer Application Monitoring #68756",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16215"
     }
   ]
 }
