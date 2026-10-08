@@ -1,8 +1,26 @@
 {
-  "updated": "2026-10-08T08:52:33.342485Z",
+  "updated": "2026-10-08T16:04:43.596830Z",
   "total": 33,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-930",
+      "summary": "Cabot - Sunset of Documentum",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "2027-03-01",
+      "reviewed": "2026-10-08",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "8/10/2026 CUBE and Cabot discussed how to migrate six years of documents and metadata (about 2.25 TB) off the CUBE-hosted Documentum system before the 31 March deadline. Cabot proposed pulling the data itself through its existing web-service integration, while CUBE recommended generating the export server-side and transferring it. Both agreed to test with a sample batch, have CUBE draft a light scope of work by the end of October, and meet again on Friday 16 October."
+        }
+      ]
+    },
     {
       "key": "CPN-676",
       "summary": "CUBE Datacenter Exit",
@@ -140,24 +158,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2256",
       "panels": []
-    },
-    {
-      "key": "CPN-930",
-      "summary": "Cabot - Sunset of Documentum",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "2027-03-01",
-      "reviewed": "2026-10-05",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930",
-      "panels": [
-        {
-          "type": "info",
-          "text": "5/10/2026 Meeting notes below. Think that last 6 years' documents will need to be exported but TBC. Call with technical team is on Thursday. Next call on the 12th Still need to confirm timelines and SOW"
-        }
-      ]
     },
     {
       "key": "CPN-2234",
