@@ -1,7 +1,137 @@
 {
-  "updated": "2026-10-08T21:16:39.275933Z",
-  "total": 4420,
+  "updated": "2026-10-09T01:16:41.167593Z",
+  "total": 4422,
   "items": [
+    {
+      "key": "INC-20715",
+      "summary": "[critical] CUBEAZUAT2SQL01 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "url": "https://cube001.atlassian.net/browse/INC-20715"
+    },
+    {
+      "key": "INC-20714",
+      "summary": "[critical] CUBEAZUAT2SQL01 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Yinka Shoge",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "url": "https://cube001.atlassian.net/browse/INC-20714"
+    },
+    {
+      "key": "INC-20713",
+      "summary": "[critical] CUBEAZUAT2SQL01 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "url": "https://cube001.atlassian.net/browse/INC-20713"
+    },
+    {
+      "key": "INC-20712",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "auto-triaged"
+      ],
+      "created": "2026-10-09",
+      "updated": "2026-10-09",
+      "url": "https://cube001.atlassian.net/browse/INC-20712"
+    },
+    {
+      "key": "INC-20711",
+      "summary": "[critical] CUBEUAT2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "Yinka Shoge",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-09",
+      "url": "https://cube001.atlassian.net/browse/INC-20711"
+    },
+    {
+      "key": "INC-20710",
+      "summary": "[critical] CUBEUAT2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20710"
+    },
+    {
+      "key": "INC-20709",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20709"
+    },
+    {
+      "key": "INC-20708",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20708"
+    },
+    {
+      "key": "INC-20707",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20707"
+    },
+    {
+      "key": "INC-20706",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-08",
+      "updated": "2026-10-08",
+      "url": "https://cube001.atlassian.net/browse/INC-20706"
+    },
     {
       "key": "INC-20705",
       "summary": "[critical] CUBEAZUAT2SQL01 - CPU Utilisation > 90% for 30 Minutes",
@@ -205,13 +335,15 @@
     {
       "key": "INC-20689",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71666",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-08",
-      "updated": "2026-10-08",
+      "updated": "2026-10-09",
       "url": "https://cube001.atlassian.net/browse/INC-20689"
     },
     {
@@ -7912,7 +8044,7 @@
         "24x7"
       ],
       "created": "2026-10-03",
-      "updated": "2026-10-06",
+      "updated": "2026-10-09",
       "url": "https://cube001.atlassian.net/browse/INC-20070"
     },
     {
@@ -11345,7 +11477,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-08",
+      "updated": "2026-10-09",
       "url": "https://cube001.atlassian.net/browse/INC-19808"
     },
     {
@@ -52598,7 +52730,7 @@
         "Veaam"
       ],
       "created": "2026-09-12",
-      "updated": "2026-10-08",
+      "updated": "2026-10-09",
       "url": "https://cube001.atlassian.net/browse/INC-16539"
     },
     {
@@ -55751,109 +55883,6 @@
       "created": "2026-09-09",
       "updated": "2026-09-09",
       "url": "https://cube001.atlassian.net/browse/INC-16289"
-    },
-    {
-      "key": "INC-16288",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-09",
-      "updated": "2026-09-09",
-      "url": "https://cube001.atlassian.net/browse/INC-16288"
-    },
-    {
-      "key": "INC-16287",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-09",
-      "updated": "2026-09-09",
-      "url": "https://cube001.atlassian.net/browse/INC-16287"
-    },
-    {
-      "key": "INC-16286",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16286"
-    },
-    {
-      "key": "INC-16285",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16285"
-    },
-    {
-      "key": "INC-16284",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #68832",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "UAT",
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-09",
-      "url": "https://cube001.atlassian.net/browse/INC-16284"
-    },
-    {
-      "key": "INC-16283",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #68832",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16283"
-    },
-    {
-      "key": "INC-16282",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #66510",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "browserstack"
-      ],
-      "created": "2026-09-08",
-      "updated": "2026-09-09",
-      "url": "https://cube001.atlassian.net/browse/INC-16282"
-    },
-    {
-      "key": "INC-16281",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #66510",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-08",
-      "updated": "2026-09-12",
-      "url": "https://cube001.atlassian.net/browse/INC-16281"
     }
   ]
 }
