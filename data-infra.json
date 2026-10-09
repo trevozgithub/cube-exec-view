@@ -1,8 +1,81 @@
 {
-  "updated": "2026-10-09T14:35:15.461945Z",
+  "updated": "2026-10-09T19:44:10.791038Z",
   "total": 33,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations",
+      "status": "Build & Test",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "28/09/26 Decommissioning NEU is in progress, ACR and Log Analytics is pending. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. GitHub pipelines and Manifest based deployment are in place for code. Further work is required on database release pipelines.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Connectivity between Prod and non-prod has been implemented."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2256",
+      "summary": " INTEL BCP ",
+      "status": "Scoping",
+      "assignee": "Helen O'Shea",
+      "duedate": "",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "InfoSec",
+        "infosec",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2256",
+      "panels": []
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
+        }
+      ]
+    },
     {
       "key": "CPN-2232",
       "summary": "Platform - Administrative Tasks Q4 2026",
@@ -28,24 +101,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2231",
       "panels": []
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
-        }
-      ]
     },
     {
       "key": "CPN-930",
@@ -80,25 +135,6 @@
         {
           "type": "info",
           "text": "Obligations Build: Configured CDC in RGP Test Rolled out blocking monitoring and alerting to UAT RGP. DRP DEV/TEST SQL MI migration: DEV SQL MI requires a rebuild. INF-22622 and INF-22619 raised for the TEST and additional Production server builds. Compression: DEV testing completed on the Customer database, covering both table and index compression. Next ProfileQueue and Regbook this to be completed by COB today or tomorrow.  DRP: Configure DEV SQL MI and install/configure SQL Server on TEST once available. RGP PREP SQL MI: Begin configuration and database restores to commence . PREP: Refresh prep databases and reconfigure AlwaysOn  Update \u2013 PREP SQL02 TempDB NVMe PoC:  DBA pre-checks identified that although  T:  is available in Windows with the correct SQL service permissions, SQL Server cannot currently see the volume, so Infra is investigating before the  tempdb  move proceeds. INF-22583  assigned to infra to provision VMs.  Implement and test regular cleanup of the DRP and RGP Section Citation delete tables in TEST and PREP. DEV implementation on DRP Dev successful and RGP scheduled for this coming weekend. Remove the IDX_UserBookRel_UserId index from DEV and raise/track removal activities for the remaining environments.     SQL Server IaaS Agent extension configuration on PREP :  Infra has successfully tested the startup process, with further validation ongoing before handover to the DBA team for the  tempdb  move. Engineering has removed the  IDX_UserBookRel_UserId  index definition from source control. The DBA team will manually remove the index from DEV, reclaiming approximately  239 GB  of space. Tickets to be raised for other environments  Removed on-prem nodes from RGP cluster voting on Production. Identified\u00a0UKSPRODSQL04 for removal from the Azure estate and raised a decommissioning ticket. Removed unused indexes from the RegInsight database on DRPSQLTEST02. Cut the TEST on-prem to SQL MI link and decommission the TEST on-prem servers. SQL MI provision for DRP DEV and TEST to commence     Kick off the build of DRP database servers in Azure. Remove on-prem nodes from RGP cluster voting across Production, UAT and PREP. Migrate CubeImport and CDC databases from Test on-prem to SQL MI Storage Reclaim / Data Cleanup Begin data deletion on identified larger tables. Review options for reclaiming SQL Server database storage. Align with Engineering on unused indexes identified for potential removal. Monitoring Roll out the New Relic SQL Server component across the new Azure VMs and test metrics collection in PREP. Test and configure SQL Server Agent long-running job monitoring in DEV and PREP.    PREP AG read-only routing has been configured and the required SPN registered. Following successful Intel testing, the change will be rolled out across all AGs. [ Done ] Configure backups before go-live this Saturday [ Done ] Set up monitoring for all SQL Server Azure VMs by this Friday [ Done ][ Needs reviewing ] RGP failed over to Azure and Live [ Done ] This week: Highlights Currently reviewing  Immutable SQL Server Backups on Azure Blob Storage   [ Currently ongoing ] Post Production Live migration support  [ Currently ongoing ] Revisit data deletion tasks: [ To Do ] [DM-15106] Delete data in [Customer].profileresult.InsightProfileResult and Customer].profileresult.CustomerInsightRel tables [DBOPS-430] Section citations missing in RGP    AG set up and database restores on new servers to be completed before end of the week. [ Done ] AG consolidation completed over the weekend under    [ Done ] Azure Ultra Disk testing has been successfully completed, validated, and the required configuration has now been rolled out across the SQL Server Azure VM estate. [ Done ] This week:  PREP AG read-only routing has been configured and the required SPN registered. Following successful Intel testing, the change will be rolled out across all AGs. [ Currently ongoing\\ Done ] Configure backups before go-live this Saturday [ Currently ongoing ] Set up monitoring for all SQL Server Azure VMs by this Friday [ Currently ongoing ]    New RGP prod servers built, SQL Server installed and added to the cluster [ Done ] Standalone SQL server provisioned and databases restored and ready for testing [ Done ] AG set up and database restores on new servers to be completed before end of the week. [ Currently ongoing ] Performance query optimisation. Meeting with engineering and assigned updates to the team for implementation [ Currently ongoing\\ Done ] Reviewing Immutable SQL Server Backups on Azure Blob Storage doc [ Done ] DataIDX disk will kick off testing today [ Currently ongoing ] Log-shipping set up on ODENSQLPROD01.  Blocker:  unable to access server raising ticket with ServiceDesk Migrate CDS and CubeImport from On-prem test to SQL MI this week [ To Do ]    Consolidated 13 existing AlwaysOn Availability Groups into a single Availability Group on PREP and UAT. Configured backups for the UAT SQL Azure VMs using the existing on-premises file server as a temporary solution until Azure Blob Storage is available. Completed creation and configuration of all required SQL maintenance jobs in the UAT environment and reviewed SQL Agent permissions. Revisit unused indexes across DRP databases (DEV and Production) and begin the planned cleanup. Kick off data cleanup in DEV for the InsightProfileResult and CustomerInsightRel tables.    CustomerProfileConceptRel data cleanup on the customer database on RPG in Production completed. Completed TEST SQL MI configuration and successfully failed over to Azure. Reinstalled SQL Server 2025 on the new DRP database server but need clarification if these are still required if the architecture design as changed regarding SQL MI. Configured the UAT Azure SQL VM and all databases restored as standalone ready for testing. Ongoing tasks to build out new UAT SQL Azure VMs for go-live migration Kick off data cleanup in RGP DEV for the InsightProfileResult and CustomerInsightRel tables after script deletion review."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-10-08",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26 Decommissioning NEU is in progress, ACR and Log Analytics is pending. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. GitHub pipelines and Manifest based deployment are in place for code. Further work is required on database release pipelines.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Connectivity between Prod and non-prod has been implemented."
         }
       ]
     },
@@ -171,21 +207,6 @@
       "panels": []
     },
     {
-      "key": "CPN-2256",
-      "summary": " INTEL BCP ",
-      "status": "Scoping",
-      "assignee": "Helen O'Shea",
-      "duedate": "",
-      "reviewed": "2026-10-06",
-      "labels": [
-        "InfoSec",
-        "infosec",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2256",
-      "panels": []
-    },
-    {
       "key": "CPN-2234",
       "summary": "Platform - Platform Enhancements Q4 2026",
       "status": "Build & Test",
@@ -228,27 +249,6 @@
         {
           "type": "info",
           "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations",
-      "status": "Build & Test",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-10-05",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
         }
       ]
     },
