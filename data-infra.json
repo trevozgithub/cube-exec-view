@@ -1,8 +1,52 @@
 {
-  "updated": "2026-10-09T07:28:40.968969Z",
+  "updated": "2026-10-09T14:35:15.461945Z",
   "total": 33,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-2232",
+      "summary": "Platform - Administrative Tasks Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2232",
+      "panels": []
+    },
+    {
+      "key": "CPN-2231",
+      "summary": "Platform  - Urgent Support Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2231",
+      "panels": []
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
+        }
+      ]
+    },
     {
       "key": "CPN-930",
       "summary": "Cabot - Sunset of Documentum",
@@ -18,24 +62,6 @@
         {
           "type": "info",
           "text": "8/10/2026 CUBE and Cabot discussed how to migrate six years of documents and metadata (about 2.25 TB) off the CUBE-hosted Documentum system before the 31 March deadline. Cabot proposed pulling the data itself through its existing web-service integration, while CUBE recommended generating the export server-side and transferring it. Both agreed to test with a sample batch, have CUBE draft a light scope of work by the end of October, and meet again on Friday 16 October."
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-08",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
         }
       ]
     },
@@ -279,32 +305,6 @@
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2233",
-      "panels": []
-    },
-    {
-      "key": "CPN-2232",
-      "summary": "Platform - Administrative Tasks Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2232",
-      "panels": []
-    },
-    {
-      "key": "CPN-2231",
-      "summary": "Platform  - Urgent Support Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2231",
       "panels": []
     },
     {
