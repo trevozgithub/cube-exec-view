@@ -1,8 +1,86 @@
 {
-  "updated": "2026-10-11T14:17:20.812670Z",
-  "total": 33,
+  "updated": "2026-10-11T19:00:12.254908Z",
+  "total": 32,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-11",
+      "labels": [
+        "Infra",
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
+        }
+      ]
+    },
+    {
+      "key": "CPN-930",
+      "summary": "Cabot - Sunset of Documentum",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "2027-03-01",
+      "reviewed": "2026-10-11",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "8/10/2026 CUBE and Cabot discussed how to migrate six years of documents and metadata (about 2.25 TB) off the CUBE-hosted Documentum system before the 31 March deadline. Cabot proposed pulling the data itself through its existing web-service integration, while CUBE recommended generating the export server-side and transferring it. Both agreed to test with a sample batch, have CUBE draft a light scope of work by the end of October, and meet again on Friday 16 October."
+        }
+      ]
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2027-03-30",
+      "reviewed": "2026-10-11",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
+        }
+      ]
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-11",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
+        }
+      ]
+    },
     {
       "key": "CPN-1124",
       "summary": "RegPlatform - Obligations",
@@ -59,24 +137,6 @@
       "panels": []
     },
     {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
-        }
-      ]
-    },
-    {
       "key": "CPN-2232",
       "summary": "Platform - Administrative Tasks Q4 2026",
       "status": "Build & Test",
@@ -101,24 +161,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2231",
       "panels": []
-    },
-    {
-      "key": "CPN-930",
-      "summary": "Cabot - Sunset of Documentum",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "2027-03-01",
-      "reviewed": "2026-10-08",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930",
-      "panels": [
-        {
-          "type": "info",
-          "text": "8/10/2026 CUBE and Cabot discussed how to migrate six years of documents and metadata (about 2.25 TB) off the CUBE-hosted Documentum system before the 31 March deadline. Cabot proposed pulling the data itself through its existing web-service integration, while CUBE recommended generating the export server-side and transferring it. Both agreed to test with a sample batch, have CUBE draft a light scope of work by the end of October, and meet again on Friday 16 October."
-        }
-      ]
     },
     {
       "key": "CPN-2010",
@@ -233,26 +275,6 @@
       "panels": []
     },
     {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2027-03-30",
-      "reviewed": "2026-10-05",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
-        }
-      ]
-    },
-    {
       "key": "CPN-610",
       "summary": "GitHub Migration",
       "status": "Build & Test",
@@ -269,28 +291,6 @@
         {
           "type": "info",
           "text": "28/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have been migrated, there were post migration issues which are being resolved. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Feedback on the Golden Pipeline/skills is being reviewed and changes/enhancements made if required and prioritised. Blocking of Critical security vulnerabilities was enabled 16/09 with some security exceptions required. Blocking of High security vulnerabilities is planned for 08/10."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-04",
-      "labels": [
-        "Infra",
-        "TR",
-        "TSA_EXIT",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
         }
       ]
     },
@@ -527,19 +527,6 @@
         "Infra"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2002",
-      "panels": []
-    },
-    {
-      "key": "CPN-1628",
-      "summary": "FSI Support Q3 2026",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "",
-      "reviewed": "2026-07-13",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1628",
       "panels": []
     },
     {
