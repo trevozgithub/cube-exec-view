@@ -1,8 +1,66 @@
 {
-  "updated": "2026-10-12T08:18:15.958549Z",
-  "total": 20,
+  "updated": "2026-10-12T18:03:00.021000Z",
+  "total": 19,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "12/10/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration is planned for 16/19, Test for 20/10 and Prod either 6 or 13 Nov. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "12/10/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2277",
+      "summary": "SMBC - Phase 1",
+      "status": "Scoping",
+      "assignee": "Shwetha Shantharam",
+      "duedate": "2026-11-03",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "Consumer",
+        "Content",
+        "consumer",
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2277",
+      "panels": []
+    },
     {
       "key": "CPN-50",
       "summary": "Translation optimisation - v10 and API",
@@ -21,20 +79,6 @@
           "text": "Systran 9 is back in place. Systran v10 and the Translation API are live since June 2. At the moment they are unused as Systran v10 doesn\u2019t support the production load.    The new design has been setup, but there\u2019s no clarity on devops capacity to do the deployments at this point."
         }
       ]
-    },
-    {
-      "key": "CPN-2277",
-      "summary": "SMBC - Phase 1",
-      "status": "Scoping",
-      "assignee": "Shwetha Shantharam",
-      "duedate": "2026-11-03",
-      "reviewed": "2026-10-09",
-      "labels": [
-        "Content",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2277",
-      "panels": []
     },
     {
       "key": "CPN-1593",
@@ -69,28 +113,6 @@
       "panels": []
     },
     {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-10-08",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. RM was migrated 10/09 and RDI and Transform Server 28/09. SQL MI for Content Dev and Test have been provisioned. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster, a single new node has been created, number of further nodes to be confirmed."
-        }
-      ]
-    },
-    {
       "key": "CPN-2212",
       "summary": "RegPlatform Content - Maintenance Q4 2026",
       "status": "Build & Test",
@@ -115,26 +137,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2229",
       "panels": []
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-10-05",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have been migrated, there were post migration issues which are being resolved. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Feedback on the Golden Pipeline/skills is being reviewed and changes/enhancements made if required and prioritised. Blocking of Critical security vulnerabilities was enabled 16/09 with some security exceptions required. Blocking of High security vulnerabilities is planned for 08/10."
-        }
-      ]
     },
     {
       "key": "CPN-2228",
@@ -239,28 +241,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1548",
       "panels": []
-    },
-    {
-      "key": "CPN-1012",
-      "summary": "Content Australia Handover prep",
-      "status": "Post Launch Review",
-      "assignee": "Antony Ball",
-      "duedate": "",
-      "reviewed": "2026-07-16",
-      "labels": [
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1012",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status: AI handover documentation complete. Insights: Documentation complete, handed over to Sharafath. Books handover: consolidating into Sri Lanka. Complete RDM/RDI insights: completed RDM/RDI books: completed"
-        },
-        {
-          "type": "warning",
-          "text": "Decision on forward direction of Cube data pipelines needed for migration tasks of RDM team. Java replacement seems improbable at this point."
-        }
-      ]
     },
     {
       "key": "CPN-554",

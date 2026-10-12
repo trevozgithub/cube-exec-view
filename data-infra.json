@@ -1,8 +1,142 @@
 {
-  "updated": "2026-10-12T08:18:15.582601Z",
-  "total": 32,
+  "updated": "2026-10-12T18:02:59.053242Z",
+  "total": 34,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-689",
+      "summary": "Developer Self Service",
+      "status": "Build & Test",
+      "assignee": "Kishan Gohil",
+      "duedate": "2026-12-11",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-689",
+      "panels": []
+    },
+    {
+      "key": "CPN-2250",
+      "summary": "Certificate Renewal",
+      "status": "Post Launch Review",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-10-08",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2250",
+      "panels": []
+    },
+    {
+      "key": "CPN-817",
+      "summary": "Kodex - GCP migration to Azure",
+      "status": "Build & Test",
+      "assignee": "Kishan Gohil",
+      "duedate": "",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-817",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1715",
+      "summary": "RDU Metrics v1",
+      "status": "Build & Test",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "D&AI",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1715",
+      "panels": []
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "12/10/26 GitHub pipelines and Manifest based deployment are in place for code, ADO is in the process of being disabled. Further work is required on database release pipelines, to validate all pipelines are working correctly.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Set up of MI Link and seeding of the database is expected to complete by 13/10. Planning for BCP/DR testing and execution of testing is to be completed by  16/10. Connectivity between Prod and non-prod has been implemented. Help has been migrated in Dev, Test and Prep. UAT and Prod migrations will take place during the week of 12/10."
+        }
+      ]
+    },
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "12/10/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration is planned for 16/19, Test for 20/10 and Prod either 6 or 13 Nov. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "12/10/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2156",
+      "summary": "Knowledge - MCP POC",
+      "status": "Build & Test",
+      "assignee": "Malcolm Brown",
+      "duedate": "",
+      "reviewed": "2026-10-12",
+      "labels": [
+        "Consumer",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2156",
+      "panels": []
+    },
     {
       "key": "CPN-1089",
       "summary": "TR - TSA Exit",
@@ -103,25 +237,6 @@
       ]
     },
     {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-10-09",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26 Decommissioning NEU is in progress, ACR and Log Analytics is pending. Enterprise release pipelines in GitHub are being developed to align with the GitHub Golden Pipeline and to improve the Enterprise Release process. GitHub pipelines and Manifest based deployment are in place for code. Further work is required on database release pipelines.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Connectivity between Prod and non-prod has been implemented."
-        }
-      ]
-    },
-    {
       "key": "CPN-2256",
       "summary": " INTEL BCP ",
       "status": "Scoping",
@@ -181,28 +296,6 @@
       ]
     },
     {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-10-08",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26    Dev and Test environments are provisioned and live in Azure. Prod is planned to be staged through September. RM was migrated 10/09 and RDI and Transform Server 28/09. SQL MI for Content Dev and Test have been provisioned. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster, a single new node has been created, number of further nodes to be confirmed."
-        }
-      ]
-    },
-    {
       "key": "CPN-1131",
       "summary": "Non-FSI Sunset Activities ",
       "status": "Scoping",
@@ -219,19 +312,6 @@
           "text": "11/06/2026 Spreadsheet now shows colour coding for date of action or date to be actioned Customers identified as Inform Now have been notified. A few more are due now but next batch aren\u2019t due until July"
         }
       ]
-    },
-    {
-      "key": "CPN-2250",
-      "summary": "Certificate Renewal",
-      "status": "Launch",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-10-08",
-      "reviewed": "2026-10-07",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2250",
-      "panels": []
     },
     {
       "key": "CPN-1722",
@@ -275,26 +355,6 @@
       "panels": []
     },
     {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-10-05",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "28/09/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. The majority of Acin repos have been migrated, 60 are outstanding, pipeline migration is to be completed. 4CRisk repos have been migrated, there were post migration issues which are being resolved. The Golden Pipeline and AI Skills have been created documented. Engineering Managers are being engaged to work on pipeline migration with support from the team. Feedback on the Golden Pipeline/skills is being reviewed and changes/enhancements made if required and prioritised. Blocking of Critical security vulnerabilities was enabled 16/09 with some security exceptions required. Blocking of High security vulnerabilities is planned for 08/10."
-        }
-      ]
-    },
-    {
       "key": "CPN-2233",
       "summary": "Platform - Customer Enhancements Q4 2026",
       "status": "Build & Test",
@@ -334,37 +394,6 @@
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1718",
-      "panels": []
-    },
-    {
-      "key": "CPN-817",
-      "summary": "Kodex - GCP migration to Azure",
-      "status": "Planning",
-      "assignee": "Kishan Gohil",
-      "duedate": "",
-      "reviewed": "2026-09-28",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-817",
-      "panels": [
-        {
-          "type": "info",
-          "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
-        }
-      ]
-    },
-    {
-      "key": "CPN-689",
-      "summary": "Developer Self Service",
-      "status": "Build & Test",
-      "assignee": "Kishan Gohil",
-      "duedate": "",
-      "reviewed": "2026-09-28",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-689",
       "panels": []
     },
     {
