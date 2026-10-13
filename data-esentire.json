@@ -1,12 +1,265 @@
 {
-  "updated": "2026-10-13T14:58:50.982726Z",
-  "total": 4504,
+  "updated": "2026-10-13T20:35:54.433516Z",
+  "total": 4509,
   "items": [
+    {
+      "key": "INC-21296",
+      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21296"
+    },
+    {
+      "key": "INC-21295",
+      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21295"
+    },
+    {
+      "key": "INC-21294",
+      "summary": "Amex reported PROD bug that causing their API to fail",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "API",
+        "Alerts-From-Staff"
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21294"
+    },
+    {
+      "key": "INC-21293",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21293"
+    },
+    {
+      "key": "INC-21292",
+      "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21292"
+    },
+    {
+      "key": "INC-21291",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Azure",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21291"
+    },
+    {
+      "key": "INC-21290",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21290"
+    },
+    {
+      "key": "INC-21289",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21289"
+    },
+    {
+      "key": "INC-21288",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21288"
+    },
+    {
+      "key": "INC-21287",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21287"
+    },
+    {
+      "key": "INC-21286",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11677",
+      "status": "Completed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "rm"
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21286"
+    },
+    {
+      "key": "INC-21285",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11677",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21285"
+    },
+    {
+      "key": "INC-21283",
+      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21283"
+    },
+    {
+      "key": "INC-21282",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21282"
+    },
+    {
+      "key": "INC-21281",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Completed",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21281"
+    },
+    {
+      "key": "INC-21280",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21280"
+    },
+    {
+      "key": "INC-21279",
+      "summary": "PROBLEM: Base - LAN status is CRITICAL on host CUBEPROD1TRN02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21279"
+    },
+    {
+      "key": "INC-21278",
+      "summary": "PROBLEM: Base - I/O counters is CRITICAL on host CUBEPROD1TRN02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21278"
+    },
+    {
+      "key": "INC-21277",
+      "summary": "PROBLEM: Base - Uptime is CRITICAL on host CUBEPROD1TRN02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21277"
+    },
+    {
+      "key": "INC-21276",
+      "summary": "PROBLEM: Base - CPU Queue length is CRITICAL on host CUBEPROD1TRN02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-13",
+      "updated": "2026-10-13",
+      "url": "https://cube001.atlassian.net/browse/INC-21276"
+    },
     {
       "key": "INC-21275",
       "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -42,7 +295,7 @@
       "key": "INC-21272",
       "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -77,11 +330,13 @@
     {
       "key": "INC-21269",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #72122",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-13",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21269"
@@ -113,11 +368,13 @@
     {
       "key": "INC-21266",
       "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-13",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21266"
@@ -154,6 +411,7 @@
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
+        "24x7",
         "uat"
       ],
       "created": "2026-10-13",
@@ -359,11 +617,15 @@
     {
       "key": "INC-21246",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "opsview"
+      ],
       "created": "2026-10-13",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21246"
@@ -607,11 +869,13 @@
     {
       "key": "INC-21227",
       "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-13",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21227"
@@ -1269,11 +1533,13 @@
     {
       "key": "INC-21172",
       "summary": "critical - PROD - Error 500 in RegInsightsSearch",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-12",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21172"
@@ -1355,11 +1621,13 @@
     {
       "key": "INC-21165",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #72037",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-12",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21165"
@@ -1527,7 +1795,7 @@
     {
       "key": "INC-21151",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1554,7 +1822,7 @@
         "newrelic"
       ],
       "created": "2026-10-12",
-      "updated": "2026-10-12",
+      "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21150"
     },
     {
@@ -1879,7 +2147,7 @@
     {
       "key": "INC-21123",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11644",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2261,7 +2529,7 @@
       "key": "INC-21094",
       "summary": "Access Request: SQL Server Access to RGPSQLPROD01,10001 & RGPSQLPROD02,10002",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Zaw Aung",
       "priority": "P4",
       "issuetype": "Service Incident",
       "labels": [
@@ -2619,13 +2887,15 @@
     {
       "key": "INC-21065",
       "summary": "warning - PRDSM - Insight Pipeline Text Translations below 200 for 1hr",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-11",
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21065"
     },
     {
@@ -2667,13 +2937,18 @@
     {
       "key": "INC-21061",
       "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Insights",
+        "SQL",
+        "alerts"
+      ],
       "created": "2026-10-11",
-      "updated": "2026-10-12",
+      "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-21061"
     },
     {
@@ -3613,7 +3888,7 @@
     {
       "key": "INC-20983",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5945,7 +6220,7 @@
     {
       "key": "INC-20798",
       "summary": "Mapper Service has 0 throughput - 7:10 PM UTC",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6553,11 +6828,14 @@
     {
       "key": "INC-20749",
       "summary": "Phishing link click redirecting to external SharePoint page",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "eSentire_Alert"
+      ],
       "created": "2026-10-09",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-20749"
@@ -9829,7 +10107,7 @@
         "24x7"
       ],
       "created": "2026-10-07",
-      "updated": "2026-10-12",
+      "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-20490"
     },
     {
@@ -11333,7 +11611,7 @@
         "ODEN"
       ],
       "created": "2026-10-06",
-      "updated": "2026-10-12",
+      "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-20369"
     },
     {
@@ -13611,7 +13889,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-04",
-      "updated": "2026-10-12",
+      "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-20185"
     },
     {
@@ -18071,7 +18349,7 @@
     {
       "key": "INC-19837",
       "summary": "piprodtranslate-be-010001 G to N Storage Utilization > 80%",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Manjunatha C B",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -18492,7 +18770,7 @@
     {
       "key": "INC-19806",
       "summary": "P3 - No API results from Prov1 since Friday ",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Abheeth Kotelawala",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -20167,11 +20445,13 @@
     {
       "key": "INC-19672",
       "summary": "High Validator Backlog - SQL timeouts",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-09-30",
       "updated": "2026-10-13",
       "url": "https://cube001.atlassian.net/browse/INC-19672"
@@ -56733,192 +57013,6 @@
       "created": "2026-09-13",
       "updated": "2026-09-13",
       "url": "https://cube001.atlassian.net/browse/INC-16781"
-    },
-    {
-      "key": "INC-16780",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16780"
-    },
-    {
-      "key": "INC-16779",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16779"
-    },
-    {
-      "key": "INC-16778",
-      "summary": "[critical] CUBEUATIIS03 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16778"
-    },
-    {
-      "key": "INC-16777",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16777"
-    },
-    {
-      "key": "INC-16776",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16776"
-    },
-    {
-      "key": "INC-16775",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16775"
-    },
-    {
-      "key": "INC-16774",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16774"
-    },
-    {
-      "key": "INC-16773",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10969",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "RM",
-        "alerts",
-        "browserstack",
-        "health-check"
-      ],
-      "created": "2026-09-13",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16773"
-    },
-    {
-      "key": "INC-16772",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16772"
-    },
-    {
-      "key": "INC-16771",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #10969",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16771"
-    },
-    {
-      "key": "INC-16770",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16770"
-    },
-    {
-      "key": "INC-16769",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16769"
-    },
-    {
-      "key": "INC-16768",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16768"
-    },
-    {
-      "key": "INC-16767",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16767"
-    },
-    {
-      "key": "INC-16766",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-13",
-      "url": "https://cube001.atlassian.net/browse/INC-16766"
     }
   ]
 }
