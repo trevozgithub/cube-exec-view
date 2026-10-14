@@ -1,7 +1,670 @@
 {
-  "updated": "2026-10-14T08:30:09.371882Z",
-  "total": 4478,
+  "updated": "2026-10-14T13:59:25.896432Z",
+  "total": 4520,
   "items": [
+    {
+      "key": "INC-21380",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21380"
+    },
+    {
+      "key": "INC-21379",
+      "summary": "warning - PRDSM - Insight Pipeline Validation Throughput below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21379"
+    },
+    {
+      "key": "INC-21378",
+      "summary": "warning - PRDSM - Insight Pipeline Text Translations below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21378"
+    },
+    {
+      "key": "INC-21377",
+      "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21377"
+    },
+    {
+      "key": "INC-21376",
+      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21376"
+    },
+    {
+      "key": "INC-21375",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateless - Pods not ready",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21375"
+    },
+    {
+      "key": "INC-21374",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21374"
+    },
+    {
+      "key": "INC-21373",
+      "summary": "critical - PRDSM - Insight Pipeline Parser Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21373"
+    },
+    {
+      "key": "INC-21372",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "To Do",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21372"
+    },
+    {
+      "key": "INC-21371",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21371"
+    },
+    {
+      "key": "INC-21370",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21370"
+    },
+    {
+      "key": "INC-21369",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "RegInsight",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21369"
+    },
+    {
+      "key": "INC-21368",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21368"
+    },
+    {
+      "key": "INC-21367",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21367"
+    },
+    {
+      "key": "INC-21366",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21366"
+    },
+    {
+      "key": "INC-21365",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21365"
+    },
+    {
+      "key": "INC-21364",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21364"
+    },
+    {
+      "key": "INC-21363",
+      "summary": "[critical] CUBEUAT2SQL07 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21363"
+    },
+    {
+      "key": "INC-21362",
+      "summary": "[critical] CUBEPROD2SQL03 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21362"
+    },
+    {
+      "key": "INC-21361",
+      "summary": "Incident request: CUBE Intel feed export fails with \u201cNo items in your selected date range\u201d for Alter Domus (Case #00016643). Possible link to SOL-4066",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Intel"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21361"
+    },
+    {
+      "key": "INC-21360",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21360"
+    },
+    {
+      "key": "INC-21359",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21359"
+    },
+    {
+      "key": "INC-21358",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21358"
+    },
+    {
+      "key": "INC-21357",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21357"
+    },
+    {
+      "key": "INC-21356",
+      "summary": "critical - PRDSM - Insight Pipeline Parser Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21356"
+    },
+    {
+      "key": "INC-21355",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21355"
+    },
+    {
+      "key": "INC-21354",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21354"
+    },
+    {
+      "key": "INC-21353",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21353"
+    },
+    {
+      "key": "INC-21352",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21352"
+    },
+    {
+      "key": "INC-21351",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21351"
+    },
+    {
+      "key": "INC-21350",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [C2] Debezium - Running pod count dropped",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21350"
+    },
+    {
+      "key": "INC-21349",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21349"
+    },
+    {
+      "key": "INC-21348",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21348"
+    },
+    {
+      "key": "INC-21347",
+      "summary": "\u2705 RESOLVED | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21347"
+    },
+    {
+      "key": "INC-21346",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21346"
+    },
+    {
+      "key": "INC-21345",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [LC1] Debezium - Task unrecoverable",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21345"
+    },
+    {
+      "key": "INC-21344",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [LC4] Debezium - WorkerSourceTask ERROR",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21344"
+    },
+    {
+      "key": "INC-21343",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [LC2] Debezium - Task being killed",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21343"
+    },
+    {
+      "key": "INC-21342",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [LC1] Debezium - Task unrecoverable",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21342"
+    },
+    {
+      "key": "INC-21341",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [LC4] Debezium - WorkerSourceTask ERROR",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21341"
+    },
+    {
+      "key": "INC-21340",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [LC2] Debezium - Task being killed",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21340"
+    },
+    {
+      "key": "INC-21339",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21339"
+    },
+    {
+      "key": "INC-21338",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21338"
+    },
+    {
+      "key": "INC-21337",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [C2] Debezium - Running pod count dropped",
+      "status": "To Do",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "PROD",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21337"
+    },
+    {
+      "key": "INC-21336",
+      "summary": "\u2705 RESOLVED | PROD | [A3] Stateful - Pods not ready",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21336"
+    },
+    {
+      "key": "INC-21335",
+      "summary": "\u2705 RESOLVED | PROD | [C2] Debezium - Running pod count dropped",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21335"
+    },
+    {
+      "key": "INC-21334",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [C2] Debezium - Running pod count dropped",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21334"
+    },
+    {
+      "key": "INC-21333",
+      "summary": "\u2705 RESOLVED | PROD | [C2] Debezium - Running pod count dropped",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21333"
+    },
+    {
+      "key": "INC-21332",
+      "summary": "\u2705 RESOLVED | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21332"
+    },
+    {
+      "key": "INC-21331",
+      "summary": "\u2705 RESOLVED | PROD | condition1",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21331"
+    },
+    {
+      "key": "INC-21330",
+      "summary": "\u2705 RESOLVED | PROD | condition1",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21330"
+    },
+    {
+      "key": "INC-21329",
+      "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21329"
+    },
+    {
+      "key": "INC-21328",
+      "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21328"
+    },
     {
       "key": "INC-21327",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
@@ -127,11 +790,17 @@
     {
       "key": "INC-21317",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #69679",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "RegInsight",
+        "alerts",
+        "browserstack",
+        "opsview"
+      ],
       "created": "2026-10-14",
       "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21317"
@@ -296,10 +965,13 @@
       "key": "INC-21303",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11683",
       "status": "To Do",
-      "assignee": "Ragul Ravisankar",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "browserstack"
+      ],
       "created": "2026-10-13",
       "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21303"
@@ -319,11 +991,16 @@
     {
       "key": "INC-21301",
       "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "RegInsight",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-13",
       "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21301"
@@ -404,7 +1081,7 @@
       "key": "INC-21294",
       "summary": "Amex reported PROD bug that causing their API to fail",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Ruwani Indrachapa",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -633,7 +1310,7 @@
       "key": "INC-21275",
       "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Manjunatha C B",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -669,7 +1346,7 @@
       "key": "INC-21272",
       "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
       "status": "To Do",
-      "assignee": "Unassigned",
+      "assignee": "Manjunatha C B",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -2186,7 +2863,7 @@
     {
       "key": "INC-21150",
       "summary": "[critical] CUBEUAT2SQL07 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2997,9 +3674,12 @@
       "assignee": "Vallalperuman Radhakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Alerts-From-Staff",
+        "github-enterprise"
+      ],
       "created": "2026-10-12",
-      "updated": "2026-10-12",
+      "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21087"
     },
     {
@@ -6794,7 +7474,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-09",
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-20783"
     },
     {
@@ -10475,7 +11155,7 @@
     {
       "key": "INC-20490",
       "summary": "[critical] CUBEPROD2SQL03 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -19132,7 +19812,7 @@
     {
       "key": "INC-19807",
       "summary": "Case 00016417 - CUBE ODEN UAT/Sandbox: \"Unauthorized\" (401) for Active User After Delete and Re-invite",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -19140,7 +19820,7 @@
         "ODEN"
       ],
       "created": "2026-10-01",
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-19807"
     },
     {
@@ -37201,7 +37881,7 @@
     {
       "key": "INC-18356",
       "summary": "L2 Escalation | CUBE ODEN \u2014 Admin Console User Import Failure | Crum & Forster",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -37211,7 +37891,7 @@
         "alerts"
       ],
       "created": "2026-09-25",
-      "updated": "2026-10-12",
+      "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-18356"
     },
     {
@@ -56482,150 +57162,6 @@
       "created": "2026-09-14",
       "updated": "2026-09-15",
       "url": "https://cube001.atlassian.net/browse/INC-16854"
-    },
-    {
-      "key": "INC-16853",
-      "summary": "[critical] ip-30-0-6-35.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-14",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16853"
-    },
-    {
-      "key": "INC-16852",
-      "summary": "[critical] CUBEPROD1RDI04 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16852"
-    },
-    {
-      "key": "INC-16851",
-      "summary": "[critical] ip-30-0-6-35.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16851"
-    },
-    {
-      "key": "INC-16850",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16850"
-    },
-    {
-      "key": "INC-16849",
-      "summary": "API Call Failure",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "API",
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-09-14",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-16849"
-    },
-    {
-      "key": "INC-16848",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16848"
-    },
-    {
-      "key": "INC-16847",
-      "summary": "Couldn't access the MGMT box(172.16.12.191 )",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-09-14",
-      "updated": "2026-10-08",
-      "url": "https://cube001.atlassian.net/browse/INC-16847"
-    },
-    {
-      "key": "INC-16846",
-      "summary": "Couldn't access the MGMT box(172.16.12.191 )",
-      "status": "Cancelled",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Escalation",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16846"
-    },
-    {
-      "key": "INC-16845",
-      "summary": "Signal lost for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-14",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-16845"
-    },
-    {
-      "key": "INC-16844",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16844"
-    },
-    {
-      "key": "INC-16843",
-      "summary": "Signal lost for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16843"
     }
   ]
 }
