@@ -1,15 +1,56 @@
 {
-  "updated": "2026-10-14T02:55:18.514135Z",
+  "updated": "2026-10-14T08:29:36.092642Z",
   "total": 29,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-2219",
+      "summary": "InfoSec - Maintenance Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-14",
+      "labels": [
+        "InfoSec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2219",
+      "panels": []
+    },
+    {
+      "key": "CPN-1820",
+      "summary": "Lack of continuous response capability",
+      "status": "Operational Readiness",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-10-14",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1820",
+      "panels": []
+    },
+    {
+      "key": "CPN-1808",
+      "summary": "Lack of DLP strategy",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-14",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1808",
+      "panels": []
+    },
     {
       "key": "CPN-1369",
       "summary": "SOC2 Audit",
       "status": "Build & Test",
       "assignee": "Helen O'Shea",
       "duedate": "2026-12-31",
-      "reviewed": "2026-10-13",
+      "reviewed": "2026-10-14",
       "labels": [
         "InfoSec",
         "cye-cyber-audit",
@@ -19,23 +60,55 @@
       "panels": [
         {
           "type": "info",
-          "text": "Bridging letter in hand  Working on geting framework to 88+% - trying to engage Cloud engineering / engineering etc. Opened tickets with the Service Desk to ensure audit readiness.  Further updates with the People Team required re: background screening for contractors and employees.  Report received from Ash and reviewed SOC 2 system description being written.   Request for PO from finance Held meetings with  Valal re: outstanding action  Infrastructure - dan  Cloud Engineering - kishan  Follow up meeting set up with People  meeting set up with Neil re: Tech ops / physical access etc.  Final session with SG from Ash Friday.  Meeting held with legal.  Followed up with Prescient - waiting response re: entities. Followed up with  Vallal re: Githib / Dipak / Security team to close out  Session in diary with EJ to discuss risks - people, physical security etc.  Meeting with Prescient 19/08/2026.   Waiting for further response from Prescient to confirm if one report will be possible due to the complex entity structure.  HOS creating one page slide for EXCO for further clarification / acceptance from Exco.  In addition requested call with CUBE legal re aboe  Working with Sarah at Ash to define the scope.  In parallel identifying risks / issues and addressing accordingly including    background screening for contractors  overall background screening across all CUBE - working with the people team to conduct audit of materials recorded in people\u2019s hi bob accouts  reviewing status with suppliers - terms and insurances etc.  followed up regarding physical access security with Neil Smith & Barry Sage"
+          "text": "Held meetings with: Valal re: outstanding action Infrastructure - dan Cloud Engineering - kishan People Neil re: Tech ops / physical access Final session with SG from Ash is scheduled for Friday. A meeting was held with legal. Followed up with Prescient and is waiting for a response re: entities. Followed up with Vallal re: Githib / Dipak / Security team to close out. Session is in the diary with EJ to discuss risks such as people and physical security. Meeting with Prescient was on 19/08/2026. Waiting for further response from Prescient to confirm if one report will be possible due to the complex entity structure. HOS is creating a one-page slide for EXCO for further clarification / acceptance from Exco. A call with CUBE legal was also requested. Request for PO from finance."
         }
       ]
     },
     {
-      "key": "CPN-1808",
-      "summary": "Lack of DLP strategy",
+      "key": "CPN-132",
+      "summary": "Security - SSO/MFA - All Applications",
       "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-12",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-10-14",
       "labels": [
         "InfoSec",
         "cye-cyber-audit"
       ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1808",
-      "panels": []
+      "url": "https://cube001.atlassian.net/browse/CPN-132",
+      "panels": [
+        {
+          "type": "info",
+          "text": "14/10/2026"
+        },
+        {
+          "type": "info",
+          "text": "Opened ticket with SD re: Temporal SCIM  No SCIM on Azure DevOps / Sentinel One - have asked Tech Ops to do.    Marketing applications now have SSO applied.  Tracy Mack advised pendo and airfocus to be completed  Vanta needs to be updated but do not have the bandwidth to do Received full audit breakdown from Michael Collinson re: the SSO.  Will liase with Neil to see if anyone can take this forward as currently do not have the bandwidth to do this.  Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
+        },
+        {
+          "type": "info",
+          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1884",
+      "summary": "Security - CYE Remediations",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-14",
+      "labels": [
+        "InfoSec",
+        "infosec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1884",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Update 02/09/2026- status summary."
+        }
+      ]
     },
     {
       "key": "CPN-1024",
@@ -65,52 +138,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2256",
       "panels": []
-    },
-    {
-      "key": "CPN-132",
-      "summary": "Security - SSO/MFA - All Applications",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-11-30",
-      "reviewed": "2026-10-08",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-132",
-      "panels": [
-        {
-          "type": "info",
-          "text": "08/10/2026"
-        },
-        {
-          "type": "info",
-          "text": "Opened ticket with SD re: Temporal SCIM   Marketing applications now have SSO applied.  Tracy Mack advised pendo and airfocus to be completed  Vanta needs to be updated but do not have the bandwidth to do Received full audit breakdown from Michael Collinson re: the SSO.  Will liase with Neil to see if anyone can take this forward as currently do not have the bandwidth to do this.  Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
-        },
-        {
-          "type": "info",
-          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1884",
-      "summary": "Security - CYE Remediations",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-07",
-      "labels": [
-        "InfoSec",
-        "infosec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1884",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Update 02/09/2026- status summary."
-        }
-      ]
     },
     {
       "key": "CPN-1807",
@@ -177,19 +204,6 @@
         "InfoSec"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2220",
-      "panels": []
-    },
-    {
-      "key": "CPN-2219",
-      "summary": "InfoSec - Maintenance Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "",
-      "reviewed": "2026-10-01",
-      "labels": [
-        "InfoSec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2219",
       "panels": []
     },
     {
@@ -320,20 +334,6 @@
         "cye-cyber-audit"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1821",
-      "panels": []
-    },
-    {
-      "key": "CPN-1820",
-      "summary": "Lack of continuous response capability",
-      "status": "Operational Readiness",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-09-07",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1820",
       "panels": []
     },
     {
