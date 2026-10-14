@@ -1,7 +1,55 @@
 {
-  "updated": "2026-10-13T23:51:47.590155Z",
-  "total": 4501,
+  "updated": "2026-10-14T02:55:52.371142Z",
+  "total": 4484,
   "items": [
+    {
+      "key": "INC-21312",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11687",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21312"
+    },
+    {
+      "key": "INC-21311",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21311"
+    },
+    {
+      "key": "INC-21310",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21310"
+    },
+    {
+      "key": "INC-21309",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-14",
+      "updated": "2026-10-14",
+      "url": "https://cube001.atlassian.net/browse/INC-21309"
+    },
     {
       "key": "INC-21308",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
@@ -897,13 +945,15 @@
     {
       "key": "INC-21236",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-13",
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21236"
     },
     {
@@ -56648,260 +56698,6 @@
       "created": "2026-09-14",
       "updated": "2026-09-14",
       "url": "https://cube001.atlassian.net/browse/INC-16822"
-    },
-    {
-      "key": "INC-16821",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16821"
-    },
-    {
-      "key": "INC-16820",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16820"
-    },
-    {
-      "key": "INC-16819",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16819"
-    },
-    {
-      "key": "INC-16818",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69320",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16818"
-    },
-    {
-      "key": "INC-16817",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16817"
-    },
-    {
-      "key": "INC-16816",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16816"
-    },
-    {
-      "key": "INC-16815",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16815"
-    },
-    {
-      "key": "INC-16814",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16814"
-    },
-    {
-      "key": "INC-16813",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16813"
-    },
-    {
-      "key": "INC-16812",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16812"
-    },
-    {
-      "key": "INC-16811",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16811"
-    },
-    {
-      "key": "INC-16810",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16810"
-    },
-    {
-      "key": "INC-16809",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16809"
-    },
-    {
-      "key": "INC-16808",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16808"
-    },
-    {
-      "key": "INC-16807",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16807"
-    },
-    {
-      "key": "INC-16806",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16806"
-    },
-    {
-      "key": "INC-16805",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16805"
-    },
-    {
-      "key": "INC-16804",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16804"
-    },
-    {
-      "key": "INC-16803",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16803"
-    },
-    {
-      "key": "INC-16802",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-14",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16802"
-    },
-    {
-      "key": "INC-16801",
-      "summary": "PROBLEM: Power Bi Gateway Check is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-13",
-      "updated": "2026-09-14",
-      "url": "https://cube001.atlassian.net/browse/INC-16801"
     }
   ]
 }
