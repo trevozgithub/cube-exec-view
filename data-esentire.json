@@ -1,7 +1,127 @@
 {
-  "updated": "2026-10-15T14:23:55.007195Z",
-  "total": 4451,
+  "updated": "2026-10-15T18:29:19.958662Z",
+  "total": 4413,
   "items": [
+    {
+      "key": "INC-21453",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21453"
+    },
+    {
+      "key": "INC-21452",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21452"
+    },
+    {
+      "key": "INC-21451",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21451"
+    },
+    {
+      "key": "INC-21450",
+      "summary": "critical - PROD - Error 500 in RegInsightsSearch",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21450"
+    },
+    {
+      "key": "INC-21449",
+      "summary": "critical - PROD - Error 500 in RegInsightsSearch",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21449"
+    },
+    {
+      "key": "INC-21448",
+      "summary": "critical - PROD - Error 500 in RegInsightsSearch",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21448"
+    },
+    {
+      "key": "INC-21447",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21447"
+    },
+    {
+      "key": "INC-21446",
+      "summary": "CS5050579 - LOW - SUSPICIOUS - CUBE Content Governance Global Limited",
+      "status": "To Do",
+      "assignee": "Muhim Hussen",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21446"
+    },
+    {
+      "key": "INC-21445",
+      "summary": "Shared service accounts signed in from employee home network",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P4",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21445"
+    },
+    {
+      "key": "INC-21444",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-15",
+      "updated": "2026-10-15",
+      "url": "https://cube001.atlassian.net/browse/INC-21444"
+    },
     {
       "key": "INC-21443",
       "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
@@ -224,11 +344,14 @@
     {
       "key": "INC-21426",
       "summary": "PROD RM Loss of Connectivity over the last 5min",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Abheeth Kotelawala",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "Alerts-From-Staff",
+        "RM"
+      ],
       "created": "2026-10-15",
       "updated": "2026-10-15",
       "url": "https://cube001.atlassian.net/browse/INC-21426"
@@ -332,11 +455,15 @@
     {
       "key": "INC-21417",
       "summary": "Time Tracker - Authentication Issue",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Stefan Kostiw",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Jira",
+        "alerts"
+      ],
       "created": "2026-10-15",
       "updated": "2026-10-15",
       "url": "https://cube001.atlassian.net/browse/INC-21417"
@@ -631,7 +758,7 @@
     {
       "key": "INC-21393",
       "summary": "CUST-PATCH01 Login request",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -707,11 +834,15 @@
     {
       "key": "INC-21387",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-14",
       "updated": "2026-10-15",
       "url": "https://cube001.atlassian.net/browse/INC-21387"
@@ -2931,7 +3062,7 @@
       "key": "INC-21209",
       "summary": "Multiple Alert in  CUBEPROD1TRN02",
       "status": "To Do",
-      "assignee": "Zyra Nicolas",
+      "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -3574,7 +3705,7 @@
     {
       "key": "INC-21156",
       "summary": "Reports of RegBooks loading slow - two big demos",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Masoom Miah",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -4469,7 +4600,7 @@
         "github-enterprise"
       ],
       "created": "2026-10-12",
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "url": "https://cube001.atlassian.net/browse/INC-21087"
     },
     {
@@ -8865,11 +8996,14 @@
     {
       "key": "INC-20734",
       "summary": "CWL11 - P3 - Moderate Incident Update INC0092291 - In Progress - (Site Operations - BMS - PLC)",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Barry Sage",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Vantage"
+      ],
       "created": "2026-10-09",
       "updated": "2026-10-15",
       "url": "https://cube001.atlassian.net/browse/INC-20734"
@@ -55703,614 +55837,6 @@
       "created": "2026-09-15",
       "updated": "2026-09-15",
       "url": "https://cube001.atlassian.net/browse/INC-17035"
-    },
-    {
-      "key": "INC-17034",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001if - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17034"
-    },
-    {
-      "key": "INC-17033",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jc - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17033"
-    },
-    {
-      "key": "INC-17032",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001if - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17032"
-    },
-    {
-      "key": "INC-17031",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001if - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17031"
-    },
-    {
-      "key": "INC-17030",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17030"
-    },
-    {
-      "key": "INC-17029",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jc - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17029"
-    },
-    {
-      "key": "INC-17028",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69477",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17028"
-    },
-    {
-      "key": "INC-17027",
-      "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Storage",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-21",
-      "url": "https://cube001.atlassian.net/browse/INC-17027"
-    },
-    {
-      "key": "INC-17026",
-      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17026"
-    },
-    {
-      "key": "INC-17025",
-      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17025"
-    },
-    {
-      "key": "INC-17024",
-      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17024"
-    },
-    {
-      "key": "INC-17023",
-      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17023"
-    },
-    {
-      "key": "INC-17022",
-      "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17022"
-    },
-    {
-      "key": "INC-17021",
-      "summary": "[critical] aks-asynccomm-13276705-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17021"
-    },
-    {
-      "key": "INC-17020",
-      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17020"
-    },
-    {
-      "key": "INC-17019",
-      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17019"
-    },
-    {
-      "key": "INC-17018",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17018"
-    },
-    {
-      "key": "INC-17017",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69476",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17017"
-    },
-    {
-      "key": "INC-17016",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69475",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17016"
-    },
-    {
-      "key": "INC-17015",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17015"
-    },
-    {
-      "key": "INC-17014",
-      "summary": "[critical] aks-audit-40926671-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17014"
-    },
-    {
-      "key": "INC-17013",
-      "summary": "[critical] aks-notification-11393277-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17013"
-    },
-    {
-      "key": "INC-17012",
-      "summary": "[critical] aks-transform02-50022806-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17012"
-    },
-    {
-      "key": "INC-17011",
-      "summary": "[critical] aks-asynccomm-13276705-vmss000000 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17011"
-    },
-    {
-      "key": "INC-17010",
-      "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17010"
-    },
-    {
-      "key": "INC-17009",
-      "summary": "[critical] aks-notification-11393277-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17009"
-    },
-    {
-      "key": "INC-17008",
-      "summary": "[critical] aks-asynccomm-13276705-vmss000002 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17008"
-    },
-    {
-      "key": "INC-17007",
-      "summary": "[critical] aks-notification-11393277-vmss000001 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17007"
-    },
-    {
-      "key": "INC-17006",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69474",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17006"
-    },
-    {
-      "key": "INC-17005",
-      "summary": "[critical] CUBEPROD1RDI04 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17005"
-    },
-    {
-      "key": "INC-17004",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69473",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17004"
-    },
-    {
-      "key": "INC-17003",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69472",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17003"
-    },
-    {
-      "key": "INC-17002",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17002"
-    },
-    {
-      "key": "INC-17001",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17001"
-    },
-    {
-      "key": "INC-17000",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-17000"
-    },
-    {
-      "key": "INC-16999",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69471",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16999"
-    },
-    {
-      "key": "INC-16998",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16998"
-    },
-    {
-      "key": "INC-16997",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16997"
-    },
-    {
-      "key": "INC-16996",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69470",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16996"
-    },
-    {
-      "key": "INC-16995",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69470",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16995"
-    },
-    {
-      "key": "INC-16994",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16994"
-    },
-    {
-      "key": "INC-16993",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jc - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-16993"
-    },
-    {
-      "key": "INC-16992",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jc - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16992"
-    },
-    {
-      "key": "INC-16991",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jf - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-16991"
-    },
-    {
-      "key": "INC-16990",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jf - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16990"
-    },
-    {
-      "key": "INC-16989",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16989"
-    },
-    {
-      "key": "INC-16988",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001j6 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-15",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-16988"
-    },
-    {
-      "key": "INC-16987",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001j6 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-15",
-      "updated": "2026-09-15",
-      "url": "https://cube001.atlassian.net/browse/INC-16987"
     }
   ]
 }
