@@ -1,7 +1,259 @@
 {
-  "updated": "2026-10-16T08:07:33.601499Z",
-  "total": 4434,
+  "updated": "2026-10-16T13:14:07.801740Z",
+  "total": 4407,
   "items": [
+    {
+      "key": "INC-21547",
+      "summary": "Very slow running Insights on Intel content pipeline",
+      "status": "To Do",
+      "assignee": "Faaris Ali",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21547"
+    },
+    {
+      "key": "INC-21546",
+      "summary": "PROD Regbooksync from 11am is still in progress",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21546"
+    },
+    {
+      "key": "INC-21545",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21545"
+    },
+    {
+      "key": "INC-21544",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21544"
+    },
+    {
+      "key": "INC-21543",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21543"
+    },
+    {
+      "key": "INC-21542",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21542"
+    },
+    {
+      "key": "INC-21541",
+      "summary": "SQL Server Alert System: 'Database Restoring' occurred on \\\\CUBEUAT2SQL08\\UAT2SQL08",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21541"
+    },
+    {
+      "key": "INC-21540",
+      "summary": "SQL Server Alert System: 'Database Restoring' occurred on \\\\CUBEUAT2SQL08\\UAT2SQL08",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21540"
+    },
+    {
+      "key": "INC-21539",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21539"
+    },
+    {
+      "key": "INC-21538",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21538"
+    },
+    {
+      "key": "INC-21537",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21537"
+    },
+    {
+      "key": "INC-21536",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21536"
+    },
+    {
+      "key": "INC-21535",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21535"
+    },
+    {
+      "key": "INC-21534",
+      "summary": "CUBEPROD1TRN02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21534"
+    },
+    {
+      "key": "INC-21533",
+      "summary": "CUBEPROD1TRN02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21533"
+    },
+    {
+      "key": "INC-21532",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21532"
+    },
+    {
+      "key": "INC-21531",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21531"
+    },
+    {
+      "key": "INC-21530",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21530"
+    },
+    {
+      "key": "INC-21529",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 50 for 30mins",
+      "status": "To Do",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21529"
+    },
+    {
+      "key": "INC-21528",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21528"
+    },
+    {
+      "key": "INC-21527",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 50 for 30mins",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-16",
+      "updated": "2026-10-16",
+      "url": "https://cube001.atlassian.net/browse/INC-21527"
+    },
     {
       "key": "INC-21526",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
@@ -691,7 +943,7 @@
         "auto-triaged"
       ],
       "created": "2026-10-15",
-      "updated": "2026-10-15",
+      "updated": "2026-10-16",
       "url": "https://cube001.atlassian.net/browse/INC-21475"
     },
     {
@@ -703,7 +955,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-10-15",
-      "updated": "2026-10-15",
+      "updated": "2026-10-16",
       "url": "https://cube001.atlassian.net/browse/INC-21474"
     },
     {
@@ -739,7 +991,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-10-15",
-      "updated": "2026-10-15",
+      "updated": "2026-10-16",
       "url": "https://cube001.atlassian.net/browse/INC-21471"
     },
     {
@@ -787,7 +1039,7 @@
       "issuetype": "Alert",
       "labels": [],
       "created": "2026-10-15",
-      "updated": "2026-10-15",
+      "updated": "2026-10-16",
       "url": "https://cube001.atlassian.net/browse/INC-21467"
     },
     {
@@ -879,11 +1131,13 @@
     {
       "key": "INC-21459",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-15",
       "updated": "2026-10-16",
       "url": "https://cube001.atlassian.net/browse/INC-21459"
@@ -1124,7 +1378,7 @@
     {
       "key": "INC-21439",
       "summary": "OneBrowser updater dropping second-stage payload on workstation",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -55471,651 +55725,6 @@
       "created": "2026-09-16",
       "updated": "2026-09-17",
       "url": "https://cube001.atlassian.net/browse/INC-17135"
-    },
-    {
-      "key": "INC-17134",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11035",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17134"
-    },
-    {
-      "key": "INC-17133",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11035",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17133"
-    },
-    {
-      "key": "INC-17132",
-      "summary": "PROBLEM: CUBEPROD2SQL02 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17132"
-    },
-    {
-      "key": "INC-17131",
-      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17131"
-    },
-    {
-      "key": "INC-17130",
-      "summary": "PROBLEM: CUBEPROD2SQL01 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17130"
-    },
-    {
-      "key": "INC-17129",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17129"
-    },
-    {
-      "key": "INC-17128",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17128"
-    },
-    {
-      "key": "INC-17127",
-      "summary": "Signal lost for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17127"
-    },
-    {
-      "key": "INC-17126",
-      "summary": "Signal lost for 5 minutes on 'Drive Space Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17126"
-    },
-    {
-      "key": "INC-17125",
-      "summary": "PROBLEM: CUBEPROD2SQL02 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17125"
-    },
-    {
-      "key": "INC-17124",
-      "summary": "PROBLEM: CUBEPROD2SQL01 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17124"
-    },
-    {
-      "key": "INC-17123",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17123"
-    },
-    {
-      "key": "INC-17122",
-      "summary": "PROBLEM: Cube INGESTOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17122"
-    },
-    {
-      "key": "INC-17121",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17121"
-    },
-    {
-      "key": "INC-17120",
-      "summary": "PROBLEM: Cube TRANSLATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17120"
-    },
-    {
-      "key": "INC-17119",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17119"
-    },
-    {
-      "key": "INC-17118",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17118"
-    },
-    {
-      "key": "INC-17117",
-      "summary": "PROBLEM: Cube PARSER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17117"
-    },
-    {
-      "key": "INC-17116",
-      "summary": "PROBLEM: Cube MAPPER Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17116"
-    },
-    {
-      "key": "INC-17115",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17115"
-    },
-    {
-      "key": "INC-17114",
-      "summary": "PROBLEM: Cube VALIDATOR Service is CRITICAL on host CUBEPROD1RDI04",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17114"
-    },
-    {
-      "key": "INC-17113",
-      "summary": "PROBLEM: CUBEPROD2SQL02 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17113"
-    },
-    {
-      "key": "INC-17112",
-      "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17112"
-    },
-    {
-      "key": "INC-17111",
-      "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17111"
-    },
-    {
-      "key": "INC-17110",
-      "summary": "PROBLEM: CUBEPROD2SQL01 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17110"
-    },
-    {
-      "key": "INC-17109",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69548",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17109"
-    },
-    {
-      "key": "INC-17108",
-      "summary": "[critical] piuattranslate-be-0100000F - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-17108"
-    },
-    {
-      "key": "INC-17107",
-      "summary": "[critical] piuattranslate-be-0100000F - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17107"
-    },
-    {
-      "key": "INC-17106",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69544",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "RegInsight",
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17106"
-    },
-    {
-      "key": "INC-17105",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69544",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17105"
-    },
-    {
-      "key": "INC-17104",
-      "summary": "PROBLEM: CUBEPROD2SQL02 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17104"
-    },
-    {
-      "key": "INC-17103",
-      "summary": "PROBLEM: CUBEPROD2SQL01 is DOWN",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17103"
-    },
-    {
-      "key": "INC-17102",
-      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-21",
-      "url": "https://cube001.atlassian.net/browse/INC-17102"
-    },
-    {
-      "key": "INC-17101",
-      "summary": "[critical] piuattranslate-be-0100000F - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17101"
-    },
-    {
-      "key": "INC-17100",
-      "summary": "[critical] piuattranslate-be-0100000E - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17100"
-    },
-    {
-      "key": "INC-17099",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17099"
-    },
-    {
-      "key": "INC-17098",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17098"
-    },
-    {
-      "key": "INC-17097",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17097"
-    },
-    {
-      "key": "INC-17096",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17096"
-    },
-    {
-      "key": "INC-17095",
-      "summary": "PROBLEM: CUBEPROD2SQL02 is DOWN",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17095"
-    },
-    {
-      "key": "INC-17094",
-      "summary": "PROBLEM: CUBEPROD2SQL02 is DOWN",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17094"
-    },
-    {
-      "key": "INC-17093",
-      "summary": "PROBLEM: CUBEPROD2SQL01 is DOWN",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17093"
-    },
-    {
-      "key": "INC-17092",
-      "summary": "PROBLEM: CUBEPROD2SQL01 is DOWN",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17092"
-    },
-    {
-      "key": "INC-17091",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17091"
-    },
-    {
-      "key": "INC-17090",
-      "summary": "Prod Table Not Updated?",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P4",
-      "issuetype": "Service Incident",
-      "labels": [
-        "alers"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-16",
-      "url": "https://cube001.atlassian.net/browse/INC-17090"
-    },
-    {
-      "key": "INC-17089",
-      "summary": "[critical] CUBEPREP2SQL07 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17089"
-    },
-    {
-      "key": "INC-17088",
-      "summary": "[critical] CUBEPREP2SQL08 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17088"
-    },
-    {
-      "key": "INC-17087",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-16",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17087"
     }
   ]
 }
