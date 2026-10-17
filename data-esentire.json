@@ -1,7 +1,43 @@
 {
-  "updated": "2026-10-17T18:37:49.069327Z",
-  "total": 4335,
+  "updated": "2026-10-17T20:58:19.270404Z",
+  "total": 4330,
   "items": [
+    {
+      "key": "INC-21662",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21662"
+    },
+    {
+      "key": "INC-21661",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "To Do",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21661"
+    },
+    {
+      "key": "INC-21660",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21660"
+    },
     {
       "key": "INC-21659",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
@@ -889,7 +925,7 @@
     {
       "key": "INC-21591",
       "summary": "No RegInsight for UAT and LIVE/PROD for the past hours.",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Unassigned",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -900,17 +936,22 @@
         "alerts"
       ],
       "created": "2026-10-16",
-      "updated": "2026-10-16",
+      "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21591"
     },
     {
       "key": "INC-21590",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #72443",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "RegInsight",
+        "alerts"
+      ],
       "created": "2026-10-16",
       "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21590"
@@ -3832,14 +3873,14 @@
       "key": "INC-21361",
       "summary": "Incident request: CUBE Intel feed export fails with \u201cNo items in your selected date range\u201d for Alter Domus (Case #00016643). Possible link to SOL-4066",
       "status": "To Do",
-      "assignee": "Masoom Miah",
+      "assignee": "Sandeep Multani",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "Intel"
       ],
       "created": "2026-10-14",
-      "updated": "2026-10-15",
+      "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21361"
     },
     {
@@ -3873,7 +3914,9 @@
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-14",
       "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21358"
@@ -54698,113 +54741,6 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "url": "https://cube001.atlassian.net/browse/INC-17327"
-    },
-    {
-      "key": "INC-17326",
-      "summary": "Multiple CRITICAL Warnings - DM-MGMT01",
-      "status": "Completed",
-      "assignee": "Dan Palmer",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-17326"
-    },
-    {
-      "key": "INC-17325",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17325"
-    },
-    {
-      "key": "INC-17324",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17324"
-    },
-    {
-      "key": "INC-17323",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17323"
-    },
-    {
-      "key": "INC-17322",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11067",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17322"
-    },
-    {
-      "key": "INC-17321",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67267",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "RegInsight",
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17321"
-    },
-    {
-      "key": "INC-17320",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67267",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17320"
-    },
-    {
-      "key": "INC-17319",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001fk - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17319"
     }
   ]
 }
