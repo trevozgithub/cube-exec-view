@@ -1,7 +1,31 @@
 {
-  "updated": "2026-10-17T13:03:13.142874Z",
-  "total": 4363,
+  "updated": "2026-10-17T16:20:43.224822Z",
+  "total": 4344,
   "items": [
+    {
+      "key": "INC-21659",
+      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21659"
+    },
+    {
+      "key": "INC-21658",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21658"
+    },
     {
       "key": "INC-21657",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
@@ -657,7 +681,11 @@
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-17",
       "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21606"
@@ -2890,7 +2918,7 @@
         "newrelic"
       ],
       "created": "2026-10-15",
-      "updated": "2026-10-15",
+      "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21433"
     },
     {
@@ -4690,7 +4718,7 @@
         "newrelic"
       ],
       "created": "2026-10-13",
-      "updated": "2026-10-16",
+      "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21291"
     },
     {
@@ -11033,7 +11061,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-09",
-      "updated": "2026-10-14",
+      "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-20783"
     },
     {
@@ -54871,266 +54899,6 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "url": "https://cube001.atlassian.net/browse/INC-17310"
-    },
-    {
-      "key": "INC-17309",
-      "summary": "[critical] piprodtranslate-be-0100001H - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17309"
-    },
-    {
-      "key": "INC-17308",
-      "summary": "[critical] piprodtranslate-be-0100001N - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17308"
-    },
-    {
-      "key": "INC-17307",
-      "summary": "[critical] piprodtranslate-be-0100001J - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17307"
-    },
-    {
-      "key": "INC-17306",
-      "summary": "[critical] piprodtranslate-be-0100001H - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17306"
-    },
-    {
-      "key": "INC-17305",
-      "summary": "OPSVIEW - DM-MGMT01 Base - C Drive CRITICAL",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17305"
-    },
-    {
-      "key": "INC-17304",
-      "summary": "Insights Pipeline \u2014 Azure Migration",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17304"
-    },
-    {
-      "key": "INC-17303",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jf - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17303"
-    },
-    {
-      "key": "INC-17302",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001fk - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17302"
-    },
-    {
-      "key": "INC-17301",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001g9 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17301"
-    },
-    {
-      "key": "INC-17300",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17300"
-    },
-    {
-      "key": "INC-17299",
-      "summary": "[critical] piuattranslate-be-0100000E - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17299"
-    },
-    {
-      "key": "INC-17298",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001j6 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17298"
-    },
-    {
-      "key": "INC-17297",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001if - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17297"
-    },
-    {
-      "key": "INC-17296",
-      "summary": "[critical] piuattranslate-be-0100000F - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17296"
-    },
-    {
-      "key": "INC-17295",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001ie - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17295"
-    },
-    {
-      "key": "INC-17294",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001jc - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17294"
-    },
-    {
-      "key": "INC-17293",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001hm - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17293"
-    },
-    {
-      "key": "INC-17292",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17292"
-    },
-    {
-      "key": "INC-17291",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17291"
-    },
-    {
-      "key": "INC-17290",
-      "summary": "[critical] aks-rgbcv01-49049479-vmss00057d - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17290"
-    },
-    {
-      "key": "INC-17289",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17289"
     }
   ]
 }
