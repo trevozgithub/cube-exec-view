@@ -1,7 +1,55 @@
 {
-  "updated": "2026-10-17T20:58:19.270404Z",
-  "total": 4330,
+  "updated": "2026-10-17T23:00:39.859506Z",
+  "total": 4325,
   "items": [
+    {
+      "key": "INC-21666",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #72538",
+      "status": "To Do",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21666"
+    },
+    {
+      "key": "INC-21665",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #72538",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21665"
+    },
+    {
+      "key": "INC-21664",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21664"
+    },
+    {
+      "key": "INC-21663",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-17",
+      "updated": "2026-10-17",
+      "url": "https://cube001.atlassian.net/browse/INC-21663"
+    },
     {
       "key": "INC-21662",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
@@ -17,11 +65,13 @@
     {
       "key": "INC-21661",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-17",
       "updated": "2026-10-17",
       "url": "https://cube001.atlassian.net/browse/INC-21661"
@@ -54629,118 +54679,6 @@
       "created": "2026-09-17",
       "updated": "2026-09-17",
       "url": "https://cube001.atlassian.net/browse/INC-17336"
-    },
-    {
-      "key": "INC-17335",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001if - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17335"
-    },
-    {
-      "key": "INC-17334",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69690",
-      "status": "Completed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17334"
-    },
-    {
-      "key": "INC-17333",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001g9 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17333"
-    },
-    {
-      "key": "INC-17332",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #69690",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17332"
-    },
-    {
-      "key": "INC-17331",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17331"
-    },
-    {
-      "key": "INC-17330",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001g9 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-17",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17330"
-    },
-    {
-      "key": "INC-17329",
-      "summary": "[critical] aks-ctins02-16016004-vmss0001g9 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17329"
-    },
-    {
-      "key": "INC-17328",
-      "summary": "[critical] piprodtranslate-be-0100001J - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17328"
-    },
-    {
-      "key": "INC-17327",
-      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "url": "https://cube001.atlassian.net/browse/INC-17327"
     }
   ]
 }
