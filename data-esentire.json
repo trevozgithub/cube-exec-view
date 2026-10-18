@@ -1,12 +1,96 @@
 {
-  "updated": "2026-10-18T21:34:47.805148Z",
-  "total": 4247,
+  "updated": "2026-10-18T23:37:58.248854Z",
+  "total": 4248,
   "items": [
     {
-      "key": "INC-21761",
+      "key": "INC-21768",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
       "status": "To Do",
       "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21768"
+    },
+    {
+      "key": "INC-21767",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11800",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21767"
+    },
+    {
+      "key": "INC-21766",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21766"
+    },
+    {
+      "key": "INC-21765",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11799",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21765"
+    },
+    {
+      "key": "INC-21764",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21764"
+    },
+    {
+      "key": "INC-21763",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21763"
+    },
+    {
+      "key": "INC-21762",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-18",
+      "updated": "2026-10-18",
+      "url": "https://cube001.atlassian.net/browse/INC-21762"
+    },
+    {
+      "key": "INC-21761",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +101,8 @@
     {
       "key": "INC-21760",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11798",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -293,11 +377,13 @@
     {
       "key": "INC-21737",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-18",
       "updated": "2026-10-18",
       "url": "https://cube001.atlassian.net/browse/INC-21737"
@@ -657,7 +743,7 @@
     {
       "key": "INC-21707",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -53514,82 +53600,6 @@
       "created": "2026-09-18",
       "updated": "2026-09-18",
       "url": "https://cube001.atlassian.net/browse/INC-17514"
-    },
-    {
-      "key": "INC-17513",
-      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-18",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17513"
-    },
-    {
-      "key": "INC-17512",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-18",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17512"
-    },
-    {
-      "key": "INC-17511",
-      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-18",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17511"
-    },
-    {
-      "key": "INC-17510",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-18",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17510"
-    },
-    {
-      "key": "INC-17509",
-      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-18",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17509"
-    },
-    {
-      "key": "INC-17508",
-      "summary": "ATLAS NOTIFICATION: CS5031916 - MEDIUM - SUSPICIOUS - CUBE Content Governance Global Limited",
-      "status": "To Do",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "SECURITY_INCIDENT",
-        "alerts",
-        "eSentire_Alert"
-      ],
-      "created": "2026-09-18",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-17508"
     }
   ]
 }
