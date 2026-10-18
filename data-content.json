@@ -1,8 +1,27 @@
 {
-  "updated": "2026-10-18T16:54:28.169779Z",
+  "updated": "2026-10-18T19:15:08.332423Z",
   "total": 16,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-50",
+      "summary": "Translation optimisation - v10 and API",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-10-18",
+      "labels": [
+        "PlanningFlag",
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-50",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 16 Oct:  The previous changes were rolled back dur to compatibility issues. New tranche of work start next week Systran 9 is back in place. Systran v10 and the Translation API are live since June 2. At the moment they are unused as Systran v10 doesn\u2019t support the production load.    The new design has been setup, but there\u2019s no clarity on devops capacity to do the deployments at this point."
+        }
+      ]
+    },
     {
       "key": "CPN-2301",
       "summary": "SMBC - Phase 2",
@@ -113,25 +132,6 @@
         {
           "type": "info",
           "text": "Status 16 Oct : This is considered complete  in-progress   Alert Register   Completed for RegBrain AI services as of      Insight and Book pipeline have key alerts in place.   Still to enhance RDM, book pipeline. Target end May 2026"
-        }
-      ]
-    },
-    {
-      "key": "CPN-50",
-      "summary": "Translation optimisation - v10 and API",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-11-30",
-      "reviewed": "2026-10-16",
-      "labels": [
-        "PlanningFlag",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-50",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 16 Oct:  The previous changes were rolled back dur to compatibility issues. New tranche of work start next week Systran 9 is back in place. Systran v10 and the Translation API are live since June 2. At the moment they are unused as Systran v10 doesn\u2019t support the production load.    The new design has been setup, but there\u2019s no clarity on devops capacity to do the deployments at this point."
         }
       ]
     },
