@@ -1,8 +1,108 @@
 {
-  "updated": "2026-10-19T06:54:47.667706Z",
-  "total": 33,
+  "updated": "2026-10-19T14:24:25.321930Z",
+  "total": 35,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-19",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2156",
+      "summary": "Knowledge - MCP POC",
+      "status": "Build & Test",
+      "assignee": "Malcolm Brown",
+      "duedate": "",
+      "reviewed": "2026-10-19",
+      "labels": [
+        "Consumer",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2156",
+      "panels": []
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-10-19",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "19/10/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-10-19",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "19/10/26 GitHub pipelines and Manifest based deployment are in place for code, ADO is in the process of being disabled. Further work is required on database release pipelines, to validate all pipelines are working correctly.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Issues that have during the initial sync for MI Link have been raised with Microsoft. Planning for BCP/DR testing and execution of testing is to be completed by 16/10. Connectivity between Prod and non-prod has been implemented. Help has been migrated for all environments."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1713",
+      "summary": "Knowledge Graph - Books & Insights",
+      "status": "Build & Test",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-10-19",
+      "labels": [
+        "D&AI",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1713",
+      "panels": []
+    },
+    {
+      "key": "CPN-1714",
+      "summary": "Knowledge - Global AI Search - Launch",
+      "status": "Planning",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-10-19",
+      "labels": [
+        "D&AI",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1714",
+      "panels": []
+    },
     {
       "key": "CPN-930",
       "summary": "Cabot - Sunset of Documentum",
@@ -18,24 +118,6 @@
         {
           "type": "info",
           "text": "Full scope still hasn\u2019t been confirmed so we are working on the full 6 year\u2019s of data. At present Cabot are planning to extract themselves Extract test took less than an hour, Aga confirmed that  their numbers are correct. Stakeholders need to confirm next steps   Backup disk can be delivered to Canon Street office, format yet to be decided"
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-18",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
         }
       ]
     },
@@ -103,45 +185,6 @@
       ]
     },
     {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-11-30",
-      "reviewed": "2026-10-14",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "12/10/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-10-14",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "12/10/26 GitHub pipelines and Manifest based deployment are in place for code, ADO is in the process of being disabled. Further work is required on database release pipelines, to validate all pipelines are working correctly.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. SQL MI for Prep has been completed. Set up of MI Link and seeding of the database is expected to complete by 13/10. Planning for BCP/DR testing and execution of testing is to be completed by  16/10. Connectivity between Prod and non-prod has been implemented. Help has been migrated in Dev, Test and Prep. UAT and Prod migrations will take place during the week of 12/10."
-        }
-      ]
-    },
-    {
       "key": "CPN-1715",
       "summary": "Knowledge - RDU Metrics v1",
       "status": "Build & Test",
@@ -185,21 +228,6 @@
           "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
         }
       ]
-    },
-    {
-      "key": "CPN-2156",
-      "summary": "Knowledge - MCP POC",
-      "status": "Build & Test",
-      "assignee": "Malcolm Brown",
-      "duedate": "",
-      "reviewed": "2026-10-12",
-      "labels": [
-        "Consumer",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2156",
-      "panels": []
     },
     {
       "key": "CPN-1089",
