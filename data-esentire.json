@@ -1,12 +1,110 @@
 {
-  "updated": "2026-10-18T23:37:58.248854Z",
-  "total": 4248,
+  "updated": "2026-10-19T01:43:08.068574Z",
+  "total": 4246,
   "items": [
+    {
+      "key": "INC-21776",
+      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21776"
+    },
+    {
+      "key": "INC-21775",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21775"
+    },
+    {
+      "key": "INC-21774",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21774"
+    },
+    {
+      "key": "INC-21773",
+      "summary": "[critical] DBMGMT - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21773"
+    },
+    {
+      "key": "INC-21772",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "In Progress",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21772"
+    },
+    {
+      "key": "INC-21771",
+      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21771"
+    },
+    {
+      "key": "INC-21770",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21770"
+    },
+    {
+      "key": "INC-21769",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [
+        "rovo-summary"
+      ],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21769"
+    },
     {
       "key": "INC-21768",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +115,8 @@
     {
       "key": "INC-21767",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11800",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -141,7 +239,9 @@
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "rovo-summary"
+      ],
       "created": "2026-10-18",
       "updated": "2026-10-18",
       "url": "https://cube001.atlassian.net/browse/INC-21757"
@@ -353,13 +453,15 @@
     {
       "key": "INC-21739",
       "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-18",
-      "updated": "2026-10-18",
+      "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-21739"
     },
     {
@@ -4704,7 +4806,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-14",
-      "updated": "2026-10-15",
+      "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-21397"
     },
     {
@@ -7067,13 +7169,15 @@
     {
       "key": "INC-21209",
       "summary": "Multiple Alert in  CUBEPROD1TRN02",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Completed",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-12",
-      "updated": "2026-10-16",
+      "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-21209"
     },
     {
@@ -12395,13 +12499,15 @@
     {
       "key": "INC-20783",
       "summary": "[critical] transform-uat-uksouth-systran-mongodb-primary-vm - Storage Utilisation > 80% for 30 Minutes",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Vallalperuman Radhakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-09",
-      "updated": "2026-10-18",
+      "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-20783"
     },
     {
@@ -18916,7 +19022,7 @@
         "RegInsight"
       ],
       "created": "2026-10-05",
-      "updated": "2026-10-15",
+      "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-20263"
     },
     {
@@ -53462,144 +53568,6 @@
       "created": "2026-09-19",
       "updated": "2026-09-19",
       "url": "https://cube001.atlassian.net/browse/INC-17524"
-    },
-    {
-      "key": "INC-17523",
-      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17523"
-    },
-    {
-      "key": "INC-17522",
-      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17522"
-    },
-    {
-      "key": "INC-17521",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17521"
-    },
-    {
-      "key": "INC-17520",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17520"
-    },
-    {
-      "key": "INC-17519",
-      "summary": "[critical] ip-30-0-6-65.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17519"
-    },
-    {
-      "key": "INC-17518",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17518"
-    },
-    {
-      "key": "INC-17517",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17517"
-    },
-    {
-      "key": "INC-17516",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17516"
-    },
-    {
-      "key": "INC-17515",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-19",
-      "updated": "2026-09-19",
-      "url": "https://cube001.atlassian.net/browse/INC-17515"
-    },
-    {
-      "key": "INC-17514",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-18",
-      "updated": "2026-09-18",
-      "url": "https://cube001.atlassian.net/browse/INC-17514"
     }
   ]
 }
