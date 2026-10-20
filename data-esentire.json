@@ -1,12 +1,146 @@
 {
-  "updated": "2026-10-19T23:35:40.873179Z",
-  "total": 4272,
+  "updated": "2026-10-20T02:04:01.351416Z",
+  "total": 4276,
   "items": [
+    {
+      "key": "INC-21868",
+      "summary": "[critical] SJP-CLIENT02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21868"
+    },
+    {
+      "key": "INC-21867",
+      "summary": "[critical] SJP-CLIENT02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21867"
+    },
+    {
+      "key": "INC-21866",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21866"
+    },
+    {
+      "key": "INC-21865",
+      "summary": "Access Request: SQL Server Access to RGPSQLUAT01.cubecloud.local,10001 and RGPSQLPROD01.cubecloud.local,10001",
+      "status": "To Do",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21865"
+    },
+    {
+      "key": "INC-21864",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21864"
+    },
+    {
+      "key": "INC-21863",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21863"
+    },
+    {
+      "key": "INC-21862",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21862"
+    },
+    {
+      "key": "INC-21861",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21861"
+    },
+    {
+      "key": "INC-21860",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21860"
+    },
+    {
+      "key": "INC-21859",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-20",
+      "updated": "2026-10-20",
+      "url": "https://cube001.atlassian.net/browse/INC-21859"
+    },
+    {
+      "key": "INC-21858",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11824",
+      "status": "In Progress",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-19",
+      "updated": "2026-10-19",
+      "url": "https://cube001.atlassian.net/browse/INC-21858"
+    },
     {
       "key": "INC-21857",
       "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -17,8 +151,8 @@
     {
       "key": "INC-21856",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,8 +163,8 @@
     {
       "key": "INC-21855",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11824",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Actioned",
+      "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -41,8 +175,8 @@
     {
       "key": "INC-21854",
       "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -53,8 +187,8 @@
     {
       "key": "INC-21853",
       "summary": "Northern Trust | Jurisdiction API returning HTTP 403 (Forbidden)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Mansi Chopra",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
@@ -65,8 +199,8 @@
     {
       "key": "INC-21852",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -5382,7 +5516,7 @@
         "newrelic"
       ],
       "created": "2026-10-15",
-      "updated": "2026-10-19",
+      "updated": "2026-10-20",
       "url": "https://cube001.atlassian.net/browse/INC-21433"
     },
     {
@@ -7184,7 +7318,7 @@
         "newrelic"
       ],
       "created": "2026-10-13",
-      "updated": "2026-10-19",
+      "updated": "2026-10-20",
       "url": "https://cube001.atlassian.net/browse/INC-21291"
     },
     {
@@ -9641,7 +9775,7 @@
       "key": "INC-21094",
       "summary": "Access Request: SQL Server Access to RGPSQLPROD01,10001 & RGPSQLPROD02,10002",
       "status": "In Progress",
-      "assignee": "Zaw Aung",
+      "assignee": "Dan Palmer",
       "priority": "P4",
       "issuetype": "Service Incident",
       "labels": [
@@ -9649,7 +9783,7 @@
         "sql-server"
       ],
       "created": "2026-10-12",
-      "updated": "2026-10-19",
+      "updated": "2026-10-20",
       "url": "https://cube001.atlassian.net/browse/INC-21094"
     },
     {
@@ -53770,101 +53904,6 @@
       "created": "2026-09-20",
       "updated": "2026-09-20",
       "url": "https://cube001.atlassian.net/browse/INC-17587"
-    },
-    {
-      "key": "INC-17586",
-      "summary": "[critical] aks-rgbcv01-49049479-vmss00057d - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-20",
-      "updated": "2026-09-20",
-      "url": "https://cube001.atlassian.net/browse/INC-17586"
-    },
-    {
-      "key": "INC-17585",
-      "summary": "Patching Error - August-2026: Evergreen patching CUBE-PROD",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-20",
-      "updated": "2026-09-25",
-      "url": "https://cube001.atlassian.net/browse/INC-17585"
-    },
-    {
-      "key": "INC-17583",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-20",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-17583"
-    },
-    {
-      "key": "INC-17582",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-20",
-      "updated": "2026-09-20",
-      "url": "https://cube001.atlassian.net/browse/INC-17582"
-    },
-    {
-      "key": "INC-17581",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-20",
-      "updated": "2026-09-20",
-      "url": "https://cube001.atlassian.net/browse/INC-17581"
-    },
-    {
-      "key": "INC-17580",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-20",
-      "updated": "2026-09-20",
-      "url": "https://cube001.atlassian.net/browse/INC-17580"
-    },
-    {
-      "key": "INC-17579",
-      "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Zaw Aung",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-19",
-      "updated": "2026-09-23",
-      "url": "https://cube001.atlassian.net/browse/INC-17579"
     }
   ]
 }
