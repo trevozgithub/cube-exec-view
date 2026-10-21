@@ -1,8 +1,88 @@
 {
-  "updated": "2026-10-21T07:30:05.699827Z",
-  "total": 29,
+  "updated": "2026-10-21T13:09:44.853561Z",
+  "total": 27,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-1821",
+      "summary": "Lack of CTI programme",
+      "status": "Operational Readiness",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-10-21",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1821",
+      "panels": []
+    },
+    {
+      "key": "CPN-925",
+      "summary": "Operationalise Security Aggregation and Asset Management",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-10-21",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-925",
+      "panels": [
+        {
+          "type": "info",
+          "text": "03/08/26 Formal project close down meeting to be scheduled by Ash. Remaining actions will be tracked on the regular Monday calls with Ash. Final training sessions are being held. 26/08/26  Final training sessions scheduled for admins and general users (w/c 31/08) Drop in session targeted for end of September"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1884",
+      "summary": "Security - CYE Remediations",
+      "status": "Build & Test",
+      "assignee": "Muhim Hussen",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-10-21",
+      "labels": [
+        "InfoSec",
+        "infosec"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1884",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Update 02/09/2026- status summary."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1809",
+      "summary": "Sensitive-data exposure via AI/GenAI",
+      "status": "Build & Test",
+      "assignee": "Shubham Kumar",
+      "duedate": "2027-03-31",
+      "reviewed": "2026-10-21",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1809",
+      "panels": []
+    },
+    {
+      "key": "CPN-1820",
+      "summary": "Lack of continuous monitoring capability (Vendors)",
+      "status": "Operational Readiness",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-08-31",
+      "reviewed": "2026-10-21",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1820",
+      "panels": []
+    },
     {
       "key": "CPN-1369",
       "summary": "SOC2 Audit",
@@ -20,25 +100,6 @@
         {
           "type": "info",
           "text": "Held meetings with: Valal re: outstanding action Infrastructure - dan Cloud Engineering - kishan People Neil re: Tech ops / physical access Final session with SG from Ash is scheduled for Friday. A meeting was held with legal. Followed up with Prescient and is waiting for a response re: entities. Followed up with Vallal re: Githib / Dipak / Security team to close out. Session is in the diary with EJ to discuss risks such as people and physical security. Meeting with Prescient was on 19/08/2026. Waiting for further response from Prescient to confirm if one report will be possible due to the complex entity structure. HOS is creating a one-page slide for EXCO for further clarification / acceptance from Exco. A call with CUBE legal was also requested. Request for PO from finance."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1884",
-      "summary": "Security - CYE Remediations",
-      "status": "Build & Test",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-20",
-      "labels": [
-        "InfoSec",
-        "infosec"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1884",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Update 02/09/2026- status summary."
         }
       ]
     },
@@ -67,20 +128,6 @@
         "InfoSec"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2219",
-      "panels": []
-    },
-    {
-      "key": "CPN-1820",
-      "summary": "Lack of continuous response capability",
-      "status": "Operational Readiness",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-10-14",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1820",
       "panels": []
     },
     {
@@ -234,20 +281,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1891",
-      "summary": "Technical information disclosure (\u00d72) \u00b7 DORA",
-      "status": "Post Launch Review",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1891",
-      "panels": []
-    },
-    {
       "key": "CPN-1890",
       "summary": "F-145 \u00b7 Missing container/K8s protection",
       "status": "Build & Test",
@@ -262,39 +295,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1889",
-      "summary": "F-128 \u00b7 Lack of continuous response capability",
-      "status": "Post Launch Review",
-      "assignee": "Muhim Hussen",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1889",
-      "panels": []
-    },
-    {
-      "key": "CPN-925",
-      "summary": "Operationalise Security Aggregation and Asset Management",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-09-11",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-925",
-      "panels": [
-        {
-          "type": "info",
-          "text": "03/08/26 Formal project close down meeting to be scheduled by Ash. Remaining actions will be tracked on the regular Monday calls with Ash. Final training sessions are being held. 26/08/26  Final training sessions scheduled for admins and general users (w/c 31/08) Drop in session targeted for end of September"
-        }
-      ]
-    },
-    {
       "key": "CPN-1845",
       "summary": "SSDLC: SAST on pull requests",
       "status": "Build & Test",
@@ -306,34 +306,6 @@
         "cye-cyber-audit"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1845",
-      "panels": []
-    },
-    {
-      "key": "CPN-1809",
-      "summary": "Sensitive-data exposure via AI/GenAI",
-      "status": "Build & Test",
-      "assignee": "Shubham Kumar",
-      "duedate": "",
-      "reviewed": "2026-09-11",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1809",
-      "panels": []
-    },
-    {
-      "key": "CPN-1821",
-      "summary": "Lack of CTI programme",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-08-31",
-      "reviewed": "2026-09-11",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1821",
       "panels": []
     },
     {
