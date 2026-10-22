@@ -1,7 +1,408 @@
 {
-  "updated": "2026-10-22T14:43:18.826399Z",
-  "total": 4438,
+  "updated": "2026-10-22T18:53:15.512744Z",
+  "total": 4451,
   "items": [
+    {
+      "key": "INC-22456",
+      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "In Progress",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "RegInsight",
+        "alerts",
+        "newrelic"
+      ],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22456"
+    },
+    {
+      "key": "INC-22455",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22455"
+    },
+    {
+      "key": "INC-22454",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22454"
+    },
+    {
+      "key": "INC-22453",
+      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22453"
+    },
+    {
+      "key": "INC-22452",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22452"
+    },
+    {
+      "key": "INC-22451",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22451"
+    },
+    {
+      "key": "INC-22450",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22450"
+    },
+    {
+      "key": "INC-22449",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22449"
+    },
+    {
+      "key": "INC-22448",
+      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22448"
+    },
+    {
+      "key": "INC-22447",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22447"
+    },
+    {
+      "key": "INC-22446",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22446"
+    },
+    {
+      "key": "INC-22445",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22445"
+    },
+    {
+      "key": "INC-22444",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22444"
+    },
+    {
+      "key": "INC-22443",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22443"
+    },
+    {
+      "key": "INC-22442",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22442"
+    },
+    {
+      "key": "INC-22441",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22441"
+    },
+    {
+      "key": "INC-22440",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22440"
+    },
+    {
+      "key": "INC-22439",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22439"
+    },
+    {
+      "key": "INC-22438",
+      "summary": "[critical] CUBEPROD2APP02 - CPU Utilisation > 90% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22438"
+    },
+    {
+      "key": "INC-22437",
+      "summary": "Outlook Web sign-in from Myanmar reusing VPN-started session",
+      "status": "To Do",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22437"
+    },
+    {
+      "key": "INC-22436",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22436"
+    },
+    {
+      "key": "INC-22435",
+      "summary": "Outlook Web sign-in from Myanmar reusing VPN-started session",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22435"
+    },
+    {
+      "key": "INC-22434",
+      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22434"
+    },
+    {
+      "key": "INC-22433",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22433"
+    },
+    {
+      "key": "INC-22432",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22432"
+    },
+    {
+      "key": "INC-22431",
+      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22431"
+    },
+    {
+      "key": "INC-22430",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22430"
+    },
+    {
+      "key": "INC-22429",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22429"
+    },
+    {
+      "key": "INC-22428",
+      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22428"
+    },
+    {
+      "key": "INC-22427",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22427"
+    },
+    {
+      "key": "INC-22426",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22426"
+    },
+    {
+      "key": "INC-22425",
+      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22425"
+    },
+    {
+      "key": "INC-22424",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-22",
+      "updated": "2026-10-22",
+      "url": "https://cube001.atlassian.net/browse/INC-22424"
+    },
     {
       "key": "INC-22423",
       "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
@@ -65,7 +466,7 @@
     {
       "key": "INC-22418",
       "summary": "PROBLEM: Microsoft SQL - Active transactions: hangfire_compliance_prod is CRITICAL on host CUBEPRODSQL",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -2198,11 +2599,16 @@
     {
       "key": "INC-22242",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Intel",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-22",
       "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-22242"
@@ -4246,11 +4652,15 @@
     {
       "key": "INC-22073",
       "summary": "Intel not Loading",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "Intel"
+      ],
       "created": "2026-10-21",
       "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-22073"
@@ -6175,7 +6585,7 @@
     {
       "key": "INC-21919",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11836",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -6353,7 +6763,7 @@
         "Google"
       ],
       "created": "2026-10-20",
-      "updated": "2026-10-21",
+      "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-21906"
     },
     {
@@ -7374,13 +7784,17 @@
     {
       "key": "INC-21824",
       "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-19",
-      "updated": "2026-10-19",
+      "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-21824"
     },
     {
@@ -7410,13 +7824,18 @@
     {
       "key": "INC-21821",
       "summary": "CUBEUAT2APP01 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "UAT",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-19",
-      "updated": "2026-10-19",
+      "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-21821"
     },
     {
@@ -9614,9 +10033,13 @@
       "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "alerts",
+        "browserstack"
+      ],
       "created": "2026-10-17",
-      "updated": "2026-10-21",
+      "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-21643"
     },
     {
@@ -25269,7 +25692,7 @@
     {
       "key": "INC-20403",
       "summary": "CUBE ODEN, Two Issues Reported for the Jackson Sumner Account (Incorrect Mailing Dates and Excessive Confirmation Prompts) - ServiceCloud Case: 00016514",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -55537,265 +55960,6 @@
       "created": "2026-09-22",
       "updated": "2026-09-22",
       "url": "https://cube001.atlassian.net/browse/INC-18000"
-    },
-    {
-      "key": "INC-17999",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11185",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17999"
-    },
-    {
-      "key": "INC-17998",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11184",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17998"
-    },
-    {
-      "key": "INC-17997",
-      "summary": "Issues with RegProfile Loading in PROD",
-      "status": "Completed",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "RegProfile"
-      ],
-      "created": "2026-09-22",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-17997"
-    },
-    {
-      "key": "INC-17996",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17996"
-    },
-    {
-      "key": "INC-17995",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67702",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17995"
-    },
-    {
-      "key": "INC-17994",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11183",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17994"
-    },
-    {
-      "key": "INC-17993",
-      "summary": "RegConnect - PROD Citi RegInsight/search batch failing error 500 ",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P1",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-22",
-      "updated": "2026-10-01",
-      "url": "https://cube001.atlassian.net/browse/INC-17993"
-    },
-    {
-      "key": "INC-17992",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #70146",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17992"
-    },
-    {
-      "key": "INC-17991",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-22",
-      "updated": "2026-09-23",
-      "url": "https://cube001.atlassian.net/browse/INC-17991"
-    },
-    {
-      "key": "INC-17990",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17990"
-    },
-    {
-      "key": "INC-17989",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17989"
-    },
-    {
-      "key": "INC-17988",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17988"
-    },
-    {
-      "key": "INC-17987",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "UAT",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-22",
-      "updated": "2026-09-25",
-      "url": "https://cube001.atlassian.net/browse/INC-17987"
-    },
-    {
-      "key": "INC-17986",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11182",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17986"
-    },
-    {
-      "key": "INC-17985",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67695",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17985"
-    },
-    {
-      "key": "INC-17984",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67695",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17984"
-    },
-    {
-      "key": "INC-17983",
-      "summary": "CUBEUAT2APP01 - Cube Scheduler Service CRITICAL",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17983"
-    },
-    {
-      "key": "INC-17982",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17982"
-    },
-    {
-      "key": "INC-17981",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67694",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17981"
-    },
-    {
-      "key": "INC-17980",
-      "summary": "[critical] piuattranslate-be-0100000F - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-22",
-      "updated": "2026-09-22",
-      "url": "https://cube001.atlassian.net/browse/INC-17980"
     }
   ]
 }
