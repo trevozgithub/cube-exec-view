@@ -1,15 +1,33 @@
 {
-  "updated": "2026-10-23T10:17:15.576747Z",
-  "total": 37,
+  "updated": "2026-10-23T15:12:28.452169Z",
+  "total": 36,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-817",
+      "summary": "Kodex - GCP migration to Azure",
+      "status": "Build & Test",
+      "assignee": "Kishan Gohil",
+      "duedate": "",
+      "reviewed": "2026-10-23",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-817",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
+        }
+      ]
+    },
     {
       "key": "CPN-826",
       "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
       "status": "Planning",
       "assignee": "Agnieszka Gorniak",
       "duedate": "2027-03-30",
-      "reviewed": "2026-10-22",
+      "reviewed": "2026-10-23",
       "labels": [
         "infrastructure",
         "sjp",
@@ -22,6 +40,53 @@
           "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
         }
       ]
+    },
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations MVP",
+      "status": "Build & Test",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-10-23",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
+    {
+      "key": "CPN-2231",
+      "summary": "Platform  - Urgent Support Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-10-23",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2231",
+      "panels": []
+    },
+    {
+      "key": "CPN-2232",
+      "summary": "Platform - Administrative Tasks Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-10-23",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2232",
+      "panels": []
     },
     {
       "key": "CPN-676",
@@ -77,27 +142,6 @@
         {
           "type": "info",
           "text": "27/04/26 Handover completed from Tomasz to Giuseppe. 7 services are approaching the point of being deployed to Azure 2rec2vec, 3 related insight graph, related insight API and ce-onboarding. This is approx 50% of the work."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations MVP",
-      "status": "Build & Test",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-10-22",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
         }
       ]
     },
@@ -275,24 +319,6 @@
       "panels": []
     },
     {
-      "key": "CPN-817",
-      "summary": "Kodex - GCP migration to Azure",
-      "status": "Build & Test",
-      "assignee": "Kishan Gohil",
-      "duedate": "",
-      "reviewed": "2026-10-12",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-817",
-      "panels": [
-        {
-          "type": "info",
-          "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
-        }
-      ]
-    },
-    {
       "key": "CPN-1089",
       "summary": "TR - TSA Exit",
       "status": "Build & Test",
@@ -327,32 +353,6 @@
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2256",
-      "panels": []
-    },
-    {
-      "key": "CPN-2232",
-      "summary": "Platform - Administrative Tasks Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2232",
-      "panels": []
-    },
-    {
-      "key": "CPN-2231",
-      "summary": "Platform  - Urgent Support Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2231",
       "panels": []
     },
     {
@@ -620,25 +620,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2002",
       "panels": []
-    },
-    {
-      "key": "CPN-533",
-      "summary": "SQL Server Upgrade to SQL 2022",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-01-20",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-533",
-      "panels": [
-        {
-          "type": "info",
-          "text": "20/01/26 Dev and Test databases upgraded to SQL 2022. UAT to be upgraded in January and Prod in February."
-        }
-      ]
     }
   ]
 }
