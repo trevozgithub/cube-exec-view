@@ -1,26 +1,8 @@
 {
-  "updated": "2026-10-23T15:12:28.452169Z",
+  "updated": "2026-10-23T19:18:26.995885Z",
   "total": 36,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
-    {
-      "key": "CPN-817",
-      "summary": "Kodex - GCP migration to Azure",
-      "status": "Build & Test",
-      "assignee": "Kishan Gohil",
-      "duedate": "",
-      "reviewed": "2026-10-23",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-817",
-      "panels": [
-        {
-          "type": "info",
-          "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
-        }
-      ]
-    },
     {
       "key": "CPN-826",
       "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
@@ -38,6 +20,24 @@
         {
           "type": "info",
           "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
+        }
+      ]
+    },
+    {
+      "key": "CPN-817",
+      "summary": "Kodex - GCP migration to Azure",
+      "status": "Build & Test",
+      "assignee": "Kishan Gohil",
+      "duedate": "",
+      "reviewed": "2026-10-23",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-817",
+      "panels": [
+        {
+          "type": "info",
+          "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
         }
       ]
     },
