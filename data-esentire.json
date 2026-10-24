@@ -1,12 +1,60 @@
 {
-  "updated": "2026-10-23T22:23:29.401885Z",
-  "total": 4500,
+  "updated": "2026-10-24T00:55:04.385015Z",
+  "total": 4493,
   "items": [
+    {
+      "key": "INC-22614",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-24",
+      "updated": "2026-10-24",
+      "url": "https://cube001.atlassian.net/browse/INC-22614"
+    },
+    {
+      "key": "INC-22613",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-24",
+      "updated": "2026-10-24",
+      "url": "https://cube001.atlassian.net/browse/INC-22613"
+    },
+    {
+      "key": "INC-22612",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-23",
+      "updated": "2026-10-23",
+      "url": "https://cube001.atlassian.net/browse/INC-22612"
+    },
+    {
+      "key": "INC-22611",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-23",
+      "updated": "2026-10-23",
+      "url": "https://cube001.atlassian.net/browse/INC-22611"
+    },
     {
       "key": "INC-22610",
       "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -15136,12 +15184,12 @@
       "key": "INC-21397",
       "summary": "Lots of network related errors in PROD logs",
       "status": "In Progress",
-      "assignee": "Masoom Miah",
+      "assignee": "Deepak Karkera",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-14",
-      "updated": "2026-10-21",
+      "updated": "2026-10-23",
       "url": "https://cube001.atlassian.net/browse/INC-21397"
     },
     {
@@ -19049,7 +19097,7 @@
         "github-enterprise"
       ],
       "created": "2026-10-12",
-      "updated": "2026-10-19",
+      "updated": "2026-10-23",
       "url": "https://cube001.atlassian.net/browse/INC-21087"
     },
     {
@@ -56379,142 +56427,6 @@
       "created": "2026-09-24",
       "updated": "2026-09-24",
       "url": "https://cube001.atlassian.net/browse/INC-18116"
-    },
-    {
-      "key": "INC-18115",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67822",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P2",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-24",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-18115"
-    },
-    {
-      "key": "INC-18114",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67824",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-24",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-18114"
-    },
-    {
-      "key": "INC-18113",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67823",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-24",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-18113"
-    },
-    {
-      "key": "INC-18112",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-24",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-18112"
-    },
-    {
-      "key": "INC-18111",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-24",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-18111"
-    },
-    {
-      "key": "INC-18110",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #67822",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-24",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-18110"
-    },
-    {
-      "key": "INC-18109",
-      "summary": "critical - PRDSM - Insight Pipeline Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-23",
-      "updated": "2026-09-23",
-      "url": "https://cube001.atlassian.net/browse/INC-18109"
-    },
-    {
-      "key": "INC-18108",
-      "summary": "[critical] aks-intel01-11055639-vmss0002dc - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-23",
-      "updated": "2026-09-23",
-      "url": "https://cube001.atlassian.net/browse/INC-18108"
-    },
-    {
-      "key": "INC-18107",
-      "summary": "critical - PRDSM - Insight Pipeline Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-23",
-      "updated": "2026-09-23",
-      "url": "https://cube001.atlassian.net/browse/INC-18107"
-    },
-    {
-      "key": "INC-18106",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-23",
-      "updated": "2026-09-24",
-      "url": "https://cube001.atlassian.net/browse/INC-18106"
-    },
-    {
-      "key": "INC-18105",
-      "summary": "[critical] piprodtranslate-be-0100001G - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-23",
-      "updated": "2026-09-23",
-      "url": "https://cube001.atlassian.net/browse/INC-18105"
     }
   ]
 }
