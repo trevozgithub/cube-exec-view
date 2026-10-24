@@ -1,8 +1,29 @@
 {
-  "updated": "2026-10-24T13:38:19.394605Z",
+  "updated": "2026-10-24T16:58:57.943678Z",
   "total": 36,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations MVP",
+      "status": "Launch",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-10-24",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
     {
       "key": "CPN-826",
       "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
@@ -38,27 +59,6 @@
         {
           "type": "info",
           "text": "20/04/26 The Kodex team are currently prioritising FE and auth integration."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations MVP",
-      "status": "Build & Test",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-10-23",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
         }
       ]
     },
