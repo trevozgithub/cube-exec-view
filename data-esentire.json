@@ -1,7 +1,187 @@
 {
-  "updated": "2026-10-26T04:29:11.257736Z",
-  "total": 4276,
+  "updated": "2026-10-26T10:26:15.081821Z",
+  "total": 4200,
   "items": [
+    {
+      "key": "INC-22859",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22859"
+    },
+    {
+      "key": "INC-22858",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22858"
+    },
+    {
+      "key": "INC-22857",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22857"
+    },
+    {
+      "key": "INC-22856",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [C2] Debezium - Running pod count dropped",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22856"
+    },
+    {
+      "key": "INC-22855",
+      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22855"
+    },
+    {
+      "key": "INC-22854",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22854"
+    },
+    {
+      "key": "INC-22853",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22853"
+    },
+    {
+      "key": "INC-22852",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22852"
+    },
+    {
+      "key": "INC-22851",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22851"
+    },
+    {
+      "key": "INC-22850",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22850"
+    },
+    {
+      "key": "INC-22849",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22849"
+    },
+    {
+      "key": "INC-22848",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22848"
+    },
+    {
+      "key": "INC-22847",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22847"
+    },
+    {
+      "key": "INC-22846",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22846"
+    },
+    {
+      "key": "INC-22845",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-26",
+      "updated": "2026-10-26",
+      "url": "https://cube001.atlassian.net/browse/INC-22845"
+    },
     {
       "key": "INC-22844",
       "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
@@ -248,7 +428,7 @@
     },
     {
       "key": "INC-22824",
-      "summary": "Macquarie | HTTP 500 Error: users unable to access CUBE platform",
+      "summary": "P2 - RGP - UAT - Macquarie | HTTP 500 Error: users unable to access CUBE platform",
       "status": "In Progress",
       "assignee": "Michael Angelo Dorio",
       "priority": "P2",
@@ -256,7 +436,9 @@
       "labels": [
         "24x7",
         "Macquarie",
-        "SSO"
+        "RGP",
+        "SSO",
+        "UAT"
       ],
       "created": "2026-10-26",
       "updated": "2026-10-26",
@@ -439,13 +621,15 @@
     {
       "key": "INC-22809",
       "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-25",
-      "updated": "2026-10-25",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22809"
     },
     {
@@ -891,13 +1075,15 @@
     {
       "key": "INC-22772",
       "summary": "CUBEPROD1TRN02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "In Progress",
-      "assignee": "Johnmar Carlos Wabe",
+      "status": "Completed",
+      "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-25",
-      "updated": "2026-10-25",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22772"
     },
     {
@@ -1269,7 +1455,7 @@
     {
       "key": "INC-22741",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Glenn Ticong",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1277,7 +1463,7 @@
         "24x7"
       ],
       "created": "2026-10-25",
-      "updated": "2026-10-25",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22741"
     },
     {
@@ -2722,7 +2908,7 @@
         "newrelic"
       ],
       "created": "2026-10-24",
-      "updated": "2026-10-24",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22622"
     },
     {
@@ -3382,7 +3568,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-23",
-      "updated": "2026-10-25",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22569"
     },
     {
@@ -3693,7 +3879,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-23",
-      "updated": "2026-10-24",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22544"
     },
     {
@@ -9548,7 +9734,7 @@
         "newrelic"
       ],
       "created": "2026-10-21",
-      "updated": "2026-10-22",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-22063"
     },
     {
@@ -12372,13 +12558,17 @@
     {
       "key": "INC-21838",
       "summary": "\ud83d\udea8 CRITICAL | PROD | Messaging / consumer failures",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "alerts",
+        "newrelic"
+      ],
       "created": "2026-10-19",
-      "updated": "2026-10-19",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-21838"
     },
     {
@@ -12835,7 +13025,7 @@
         "newrelic"
       ],
       "created": "2026-10-19",
-      "updated": "2026-10-25",
+      "updated": "2026-10-26",
       "url": "https://cube001.atlassian.net/browse/INC-21802"
     },
     {
@@ -52258,1213 +52448,6 @@
       "created": "2026-09-26",
       "updated": "2026-09-26",
       "url": "https://cube001.atlassian.net/browse/INC-18654"
-    },
-    {
-      "key": "INC-18653",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18653"
-    },
-    {
-      "key": "INC-18652",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11273",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18652"
-    },
-    {
-      "key": "INC-18651",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18651"
-    },
-    {
-      "key": "INC-18650",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18650"
-    },
-    {
-      "key": "INC-18649",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18649"
-    },
-    {
-      "key": "INC-18648",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18648"
-    },
-    {
-      "key": "INC-18647",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18647"
-    },
-    {
-      "key": "INC-18646",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18646"
-    },
-    {
-      "key": "INC-18645",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18645"
-    },
-    {
-      "key": "INC-18644",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18644"
-    },
-    {
-      "key": "INC-18643",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18643"
-    },
-    {
-      "key": "INC-18642",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18642"
-    },
-    {
-      "key": "INC-18641",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18641"
-    },
-    {
-      "key": "INC-18640",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18640"
-    },
-    {
-      "key": "INC-18639",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18639"
-    },
-    {
-      "key": "INC-18638",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18638"
-    },
-    {
-      "key": "INC-18637",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18637"
-    },
-    {
-      "key": "INC-18636",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18636"
-    },
-    {
-      "key": "INC-18635",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18635"
-    },
-    {
-      "key": "INC-18634",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18634"
-    },
-    {
-      "key": "INC-18633",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18633"
-    },
-    {
-      "key": "INC-18632",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18632"
-    },
-    {
-      "key": "INC-18631",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18631"
-    },
-    {
-      "key": "INC-18630",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18630"
-    },
-    {
-      "key": "INC-18629",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18629"
-    },
-    {
-      "key": "INC-18628",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18628"
-    },
-    {
-      "key": "INC-18627",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18627"
-    },
-    {
-      "key": "INC-18626",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11271",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18626"
-    },
-    {
-      "key": "INC-18625",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-28",
-      "url": "https://cube001.atlassian.net/browse/INC-18625"
-    },
-    {
-      "key": "INC-18624",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Completed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18624"
-    },
-    {
-      "key": "INC-18623",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18623"
-    },
-    {
-      "key": "INC-18622",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18622"
-    },
-    {
-      "key": "INC-18621",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18621"
-    },
-    {
-      "key": "INC-18620",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11271",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18620"
-    },
-    {
-      "key": "INC-18619",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "Actioned",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18619"
-    },
-    {
-      "key": "INC-18618",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18618"
-    },
-    {
-      "key": "INC-18617",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18617"
-    },
-    {
-      "key": "INC-18616",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18616"
-    },
-    {
-      "key": "INC-18615",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18615"
-    },
-    {
-      "key": "INC-18614",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Silver Dangeros",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18614"
-    },
-    {
-      "key": "INC-18613",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18613"
-    },
-    {
-      "key": "INC-18612",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18612"
-    },
-    {
-      "key": "INC-18611",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18611"
-    },
-    {
-      "key": "INC-18610",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18610"
-    },
-    {
-      "key": "INC-18609",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18609"
-    },
-    {
-      "key": "INC-18608",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18608"
-    },
-    {
-      "key": "INC-18607",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18607"
-    },
-    {
-      "key": "INC-18606",
-      "summary": "[critical] ip-192-168-128-188.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "AWS",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18606"
-    },
-    {
-      "key": "INC-18605",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18605"
-    },
-    {
-      "key": "INC-18604",
-      "summary": "[critical] ip-192-168-128-188.ec2.internal - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18604"
-    },
-    {
-      "key": "INC-18603",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18603"
-    },
-    {
-      "key": "INC-18602",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18602"
-    },
-    {
-      "key": "INC-18601",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18601"
-    },
-    {
-      "key": "INC-18600",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18600"
-    },
-    {
-      "key": "INC-18599",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18599"
-    },
-    {
-      "key": "INC-18598",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18598"
-    },
-    {
-      "key": "INC-18597",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18597"
-    },
-    {
-      "key": "INC-18596",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18596"
-    },
-    {
-      "key": "INC-18595",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18595"
-    },
-    {
-      "key": "INC-18594",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18594"
-    },
-    {
-      "key": "INC-18593",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18593"
-    },
-    {
-      "key": "INC-18592",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18592"
-    },
-    {
-      "key": "INC-18591",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18591"
-    },
-    {
-      "key": "INC-18590",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18590"
-    },
-    {
-      "key": "INC-18589",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18589"
-    },
-    {
-      "key": "INC-18588",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-27",
-      "url": "https://cube001.atlassian.net/browse/INC-18588"
-    },
-    {
-      "key": "INC-18587",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'cai-prod-ocr-engine'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18587"
-    },
-    {
-      "key": "INC-18586",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18586"
-    },
-    {
-      "key": "INC-18585",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18585"
-    },
-    {
-      "key": "INC-18584",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-18584"
-    },
-    {
-      "key": "INC-18583",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18583"
-    },
-    {
-      "key": "INC-18582",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18582"
-    },
-    {
-      "key": "INC-18581",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18581"
-    },
-    {
-      "key": "INC-18580",
-      "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18580"
-    },
-    {
-      "key": "INC-18579",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18579"
-    },
-    {
-      "key": "INC-18578",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18578"
-    },
-    {
-      "key": "INC-18577",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18577"
-    },
-    {
-      "key": "INC-18576",
-      "summary": "eSentire Integration \u2014 Flow Failure Detected",
-      "status": "Completed",
-      "assignee": "Muhim Hussen",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "eSentire_Alert"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-10-01",
-      "url": "https://cube001.atlassian.net/browse/INC-18576"
-    },
-    {
-      "key": "INC-18575",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18575"
-    },
-    {
-      "key": "INC-18574",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18574"
-    },
-    {
-      "key": "INC-18573",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18573"
-    },
-    {
-      "key": "INC-18572",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18572"
-    },
-    {
-      "key": "INC-18571",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18571"
-    },
-    {
-      "key": "INC-18570",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18570"
-    },
-    {
-      "key": "INC-18569",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18569"
-    },
-    {
-      "key": "INC-18568",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18568"
-    },
-    {
-      "key": "INC-18567",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18567"
-    },
-    {
-      "key": "INC-18566",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18566"
-    },
-    {
-      "key": "INC-18565",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18565"
-    },
-    {
-      "key": "INC-18564",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18564"
-    },
-    {
-      "key": "INC-18563",
-      "summary": "ClickFix social engineering PowerShell execution prevented on endpoint",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "auto-triaged"
-      ],
-      "created": "2026-09-26",
-      "updated": "2026-09-26",
-      "url": "https://cube001.atlassian.net/browse/INC-18563"
     }
   ]
 }
