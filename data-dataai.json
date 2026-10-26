@@ -1,15 +1,142 @@
 {
-  "updated": "2026-10-26T10:25:44.603281Z",
-  "total": 12,
+  "updated": "2026-10-26T16:53:11.081545Z",
+  "total": 14,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2831",
   "items": [
+    {
+      "key": "CPN-460",
+      "summary": "RegBooks - AI-assisted Section matching",
+      "status": "Build & Test",
+      "assignee": "Sugandha Pasricha",
+      "duedate": "2026-03-31",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "D&AI",
+        "PlanningFlag"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-460",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 22/10:  This is a dead initiative by all accounts. It may have been superseded by other work. No owner, no pathway, and no commitment. Closing"
+        },
+        {
+          "type": "error",
+          "text": "No deployment plan or clarity on how this moves forward. Need input from GraemeW."
+        },
+        {
+          "type": "info",
+          "text": "Status :    Currently in Test deployment. Planned for Q1 subject to Pipeline delivery timelines expected by     New Roadmap scheduled shared with DM team  AI Assisted Matching Plan - Miro **NLP capacity potentially impacted by  [CPEAI-1264] Security Vulnerabilities 2026 - JIRA Cube"
+        }
+      ]
+    },
+    {
+      "key": "CPN-2314",
+      "summary": "RegBrain - RegOntology classification for RegInsights",
+      "status": "Build & Test",
+      "assignee": "Dany Majard",
+      "duedate": "",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "D&AI"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2314",
+      "panels": []
+    },
+    {
+      "key": "CPN-2362",
+      "summary": "RegMapping Pipeline Launch",
+      "status": "Build & Test",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "D&AI"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2362",
+      "panels": []
+    },
+    {
+      "key": "CPN-31",
+      "summary": "RegBrain -  GCP Migration to Azure",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-06-30",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "D&AI",
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-31",
+      "panels": [
+        {
+          "type": "info",
+          "text": "27/04/26 Handover completed from Tomasz to Giuseppe. 7 services are approaching the point of being deployed to Azure 2rec2vec, 3 related insight graph, related insight API and ce-onboarding. This is approx 50% of the work."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2156",
+      "summary": "Knowledge - MCP v1",
+      "status": "Build & Test",
+      "assignee": "Malcolm Brown",
+      "duedate": "",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2156",
+      "panels": []
+    },
+    {
+      "key": "CPN-1713",
+      "summary": "Knowledge - Graph for CUBE Regulatory Content",
+      "status": "Build & Test",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "D&AI",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1713",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 22/10:  Not yet clear why unrelated scope is attached. For    which is relevant to this initiative is currently 20% complete"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1715",
+      "summary": "Knowledge - RDU Metrics v1 & v2",
+      "status": "Build & Test",
+      "assignee": "Unassigned",
+      "duedate": "",
+      "reviewed": "2026-10-26",
+      "labels": [
+        "D&AI",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1715",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 22/10:  Infrastructure work 25% complete. Need to establish timeline as looks unlikely to land in Q4.    has no description or scope"
+        }
+      ]
+    },
     {
       "key": "CPN-1124",
       "summary": "RegPlatform - Obligations MVP",
       "status": "Launch",
       "assignee": "Julien Temim",
       "duedate": "",
-      "reviewed": "2026-10-24",
+      "reviewed": "2026-10-26",
       "labels": [
         "Consumer",
         "D&AI",
@@ -38,85 +165,6 @@
       "panels": []
     },
     {
-      "key": "CPN-31",
-      "summary": "RegBrain -  GCP Migration to Azure",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-10-22",
-      "labels": [
-        "D&AI",
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-31",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/04/26 Handover completed from Tomasz to Giuseppe. 7 services are approaching the point of being deployed to Azure 2rec2vec, 3 related insight graph, related insight API and ce-onboarding. This is approx 50% of the work."
-        }
-      ]
-    },
-    {
-      "key": "CPN-2314",
-      "summary": "RegBrain - RegOntology classification for RegInsights",
-      "status": "Build & Test",
-      "assignee": "Dany Majard",
-      "duedate": "",
-      "reviewed": "2026-10-22",
-      "labels": [
-        "D&AI"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2314",
-      "panels": []
-    },
-    {
-      "key": "CPN-460",
-      "summary": "RegBooks - AI-assisted Section matching",
-      "status": "Build & Test",
-      "assignee": "Sugandha Pasricha",
-      "duedate": "2026-03-31",
-      "reviewed": "2026-10-22",
-      "labels": [
-        "D&AI",
-        "PlanningFlag"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-460",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 22/10:  This is a dead initiative by all accounts. It may have been superseded by other work. No owner, no pathway, and no commitment. Closing"
-        },
-        {
-          "type": "error",
-          "text": "No deployment plan or clarity on how this moves forward. Need input from GraemeW."
-        },
-        {
-          "type": "info",
-          "text": "Status :    Currently in Test deployment. Planned for Q1 subject to Pipeline delivery timelines expected by     New Roadmap scheduled shared with DM team  AI Assisted Matching Plan - Miro **NLP capacity potentially impacted by  [CPEAI-1264] Security Vulnerabilities 2026 - JIRA Cube"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1713",
-      "summary": "Knowledge - Graph - Books & Insights",
-      "status": "Build & Test",
-      "assignee": "Unassigned",
-      "duedate": "",
-      "reviewed": "2026-10-22",
-      "labels": [
-        "D&AI",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1713",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 22/10:  Not yet clear why unrelated scope is attached. For    which is relevant to this initiative is currently 20% complete"
-        }
-      ]
-    },
-    {
       "key": "CPN-1714",
       "summary": "Knowledge - Global AI Search - Launch",
       "status": "Build & Test",
@@ -132,25 +180,6 @@
         {
           "type": "info",
           "text": "Status 22/10:  This is still early in development. Need to establish timeline as unlikely to land in Q4"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1715",
-      "summary": "Knowledge - RDU Metrics v1",
-      "status": "Build & Test",
-      "assignee": "Unassigned",
-      "duedate": "",
-      "reviewed": "2026-10-22",
-      "labels": [
-        "D&AI",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1715",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 22/10:  Infrastructure work 25% complete. Need to establish timeline as looks unlikely to land in Q4.    has no description or scope"
         }
       ]
     },
