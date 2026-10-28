@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28T05:40:18.986326Z",
-  "total": 14,
+  "updated": "2026-10-28T11:39:41.296937Z",
+  "total": 13,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=2831",
   "items": [
     {
@@ -9,7 +9,7 @@
       "status": "Build & Test",
       "assignee": "Sugandha Pasricha",
       "duedate": "2026-03-31",
-      "reviewed": "2026-10-26",
+      "reviewed": "2026-10-28",
       "labels": [
         "D&AI",
         "PlanningFlag"
@@ -32,15 +32,28 @@
     },
     {
       "key": "CPN-2314",
-      "summary": "RegBrain - RegOntology classification for RegInsights",
+      "summary": "Behavioural - RegOntology classification for RegInsights",
       "status": "Build & Test",
       "assignee": "Dany Majard",
       "duedate": "",
-      "reviewed": "2026-10-26",
+      "reviewed": "2026-10-28",
       "labels": [
         "D&AI"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2314",
+      "panels": []
+    },
+    {
+      "key": "CPN-2226",
+      "summary": "Data & AI - Administrative Tasks Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Dan Sutton",
+      "duedate": "",
+      "reviewed": "2026-10-28",
+      "labels": [
+        "D&AI"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2226",
       "panels": []
     },
     {
@@ -55,26 +68,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2362",
       "panels": []
-    },
-    {
-      "key": "CPN-31",
-      "summary": "RegBrain -  GCP Migration to Azure",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-06-30",
-      "reviewed": "2026-10-26",
-      "labels": [
-        "D&AI",
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-31",
-      "panels": [
-        {
-          "type": "info",
-          "text": "27/04/26 Handover completed from Tomasz to Giuseppe. 7 services are approaching the point of being deployed to Azure 2rec2vec, 3 related insight graph, related insight API and ce-onboarding. This is approx 50% of the work."
-        }
-      ]
     },
     {
       "key": "CPN-2156",
@@ -150,19 +143,6 @@
           "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
         }
       ]
-    },
-    {
-      "key": "CPN-2226",
-      "summary": "Data & AI - Administrative Tasks Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Dan Sutton",
-      "duedate": "",
-      "reviewed": "2026-10-23",
-      "labels": [
-        "D&AI"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2226",
-      "panels": []
     },
     {
       "key": "CPN-1714",
