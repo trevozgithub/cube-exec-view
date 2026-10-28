@@ -1,8 +1,22 @@
 {
-  "updated": "2026-10-28T11:39:38.897346Z",
+  "updated": "2026-10-28T17:24:08.764004Z",
   "total": 32,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-2216",
+      "summary": "OpRisk - Maintenance Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Jeremy Noble",
+      "duedate": "",
+      "reviewed": "2026-10-28",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2216",
+      "panels": []
+    },
     {
       "key": "CPN-2215",
       "summary": "OpRisk - Administrative Tasks Q4 2026",
@@ -15,6 +29,22 @@
         "consumer"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2215",
+      "panels": []
+    },
+    {
+      "key": "CPN-2301",
+      "summary": "SMBC - Phase 2",
+      "status": "Planning",
+      "assignee": "Shwetha Shantharam",
+      "duedate": "",
+      "reviewed": "2026-10-28",
+      "labels": [
+        "Consumer",
+        "Content",
+        "consumer",
+        "content"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2301",
       "panels": []
     },
     {
@@ -87,36 +117,6 @@
           "text": "19/10/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
         }
       ]
-    },
-    {
-      "key": "CPN-2301",
-      "summary": "SMBC - Phase 2",
-      "status": "Planning",
-      "assignee": "Shwetha Shantharam",
-      "duedate": "",
-      "reviewed": "2026-10-26",
-      "labels": [
-        "Consumer",
-        "Content",
-        "consumer",
-        "content"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2301",
-      "panels": []
-    },
-    {
-      "key": "CPN-2216",
-      "summary": "OpRisk - Maintenance Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Jeremy Noble",
-      "duedate": "",
-      "reviewed": "2026-10-23",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2216",
-      "panels": []
     },
     {
       "key": "CPN-692",
