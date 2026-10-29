@@ -1,7 +1,55 @@
 {
-  "updated": "2026-10-29T14:28:19.144938Z",
-  "total": 3716,
+  "updated": "2026-10-29T19:48:04.451391Z",
+  "total": 3702,
   "items": [
+    {
+      "key": "INC-23293",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23293"
+    },
+    {
+      "key": "INC-23292",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23292"
+    },
+    {
+      "key": "INC-23291",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23291"
+    },
+    {
+      "key": "INC-23290",
+      "summary": "Veeam SJP Daily Offsite - SJPPROD-CS5 - Backup Failed",
+      "status": "To Do",
+      "assignee": "Niel Singo",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23290"
+    },
     {
       "key": "INC-23289",
       "summary": "P3 - RM - CUBE RM throws error when trying to save changes to a RegBook",
@@ -103,7 +151,7 @@
     {
       "key": "INC-23281",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [A3] Stateful - Pods not ready",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -369,7 +417,7 @@
     {
       "key": "INC-23259",
       "summary": "PROBLEM: Windows - CPU Utilisation is CRITICAL on host CUBEPROD1SQL04",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -16685,7 +16733,7 @@
         "24x7"
       ],
       "created": "2026-10-20",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-21930"
     },
     {
@@ -23304,7 +23352,7 @@
         "Daily-Checks"
       ],
       "created": "2026-10-15",
-      "updated": "2026-10-22",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-21411"
     },
     {
@@ -46360,238 +46408,6 @@
       "created": "2026-09-29",
       "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-19586"
-    },
-    {
-      "key": "INC-19585",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19585"
-    },
-    {
-      "key": "INC-19584",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19584"
-    },
-    {
-      "key": "INC-19583",
-      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-30",
-      "url": "https://cube001.atlassian.net/browse/INC-19583"
-    },
-    {
-      "key": "INC-19582",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19582"
-    },
-    {
-      "key": "INC-19581",
-      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19581"
-    },
-    {
-      "key": "INC-19580",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19580"
-    },
-    {
-      "key": "INC-19579",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19579"
-    },
-    {
-      "key": "INC-19578",
-      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19578"
-    },
-    {
-      "key": "INC-19577",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19577"
-    },
-    {
-      "key": "INC-19576",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19576"
-    },
-    {
-      "key": "INC-19575",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19575"
-    },
-    {
-      "key": "INC-19574",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19574"
-    },
-    {
-      "key": "INC-19573",
-      "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-30",
-      "url": "https://cube001.atlassian.net/browse/INC-19573"
-    },
-    {
-      "key": "INC-19572",
-      "summary": "[critical] CUBEPROD2IIS01 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19572"
-    },
-    {
-      "key": "INC-19571",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19571"
-    },
-    {
-      "key": "INC-19570",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19570"
-    },
-    {
-      "key": "INC-19569",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19569"
-    },
-    {
-      "key": "INC-19568",
-      "summary": "Insurity API Connection failure",
-      "status": "In Progress",
-      "assignee": "Dadabasha Shaik",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff",
-        "Oden"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-10-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19568"
     }
   ]
 }
