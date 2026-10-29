@@ -1,7 +1,108 @@
 {
-  "updated": "2026-10-29T19:48:04.451391Z",
-  "total": 3702,
+  "updated": "2026-10-29T23:39:19.871564Z",
+  "total": 3693,
   "items": [
+    {
+      "key": "INC-23301",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23301"
+    },
+    {
+      "key": "INC-23300",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23300"
+    },
+    {
+      "key": "INC-23299",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23299"
+    },
+    {
+      "key": "INC-23298",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D3] Functions - Pod not ready",
+      "status": "In Progress",
+      "assignee": "Gokulakrishnan Palanisamy",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "newrelic"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23298"
+    },
+    {
+      "key": "INC-23297",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D3] Functions - Pod not ready",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23297"
+    },
+    {
+      "key": "INC-23296",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #73678",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23296"
+    },
+    {
+      "key": "INC-23295",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23295"
+    },
+    {
+      "key": "INC-23294",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #73678",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-10-29",
+      "updated": "2026-10-29",
+      "url": "https://cube001.atlassian.net/browse/INC-23294"
+    },
     {
       "key": "INC-23293",
       "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
@@ -41,7 +142,7 @@
     {
       "key": "INC-23290",
       "summary": "Veeam SJP Daily Offsite - SJPPROD-CS5 - Backup Failed",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -199,11 +300,13 @@
     {
       "key": "INC-23277",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-29",
       "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-23277"
@@ -1579,11 +1682,13 @@
     {
       "key": "INC-23163",
       "summary": "Text-only unsolicited Gmail message reported by user",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Muhim Hussen",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-28",
       "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-23163"
@@ -1747,11 +1852,13 @@
     {
       "key": "INC-23149",
       "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-28",
       "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-23149"
@@ -3746,7 +3853,7 @@
         "PROD"
       ],
       "created": "2026-10-27",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-22985"
     },
     {
@@ -5104,7 +5211,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-10-26",
-      "updated": "2026-10-27",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-22876"
     },
     {
@@ -5209,7 +5316,7 @@
         "newrelic"
       ],
       "created": "2026-10-26",
-      "updated": "2026-10-27",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-22868"
     },
     {
@@ -16506,7 +16613,7 @@
     {
       "key": "INC-21947",
       "summary": "ESCALATION \u2014 Lost Intel Subscription access for a single user  | Skyro | Case #00016760",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Sandeep Multani",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -16516,7 +16623,7 @@
         "alerts"
       ],
       "created": "2026-10-20",
-      "updated": "2026-10-27",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-21947"
     },
     {
@@ -16719,7 +16826,7 @@
         "alerts"
       ],
       "created": "2026-10-20",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-21931"
     },
     {
@@ -16769,7 +16876,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-10-20",
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-21927"
     },
     {
@@ -18344,7 +18451,7 @@
     {
       "key": "INC-21802",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -23975,7 +24082,7 @@
         "Intel"
       ],
       "created": "2026-10-14",
-      "updated": "2026-10-27",
+      "updated": "2026-10-29",
       "url": "https://cube001.atlassian.net/browse/INC-21361"
     },
     {
@@ -46193,221 +46300,6 @@
       "created": "2026-09-29",
       "updated": "2026-09-29",
       "url": "https://cube001.atlassian.net/browse/INC-19603"
-    },
-    {
-      "key": "INC-19602",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11356",
-      "status": "Completed",
-      "assignee": "Sivachidambaram Srinivasan",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "RM",
-        "alerts",
-        "browserstack"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-10-01",
-      "url": "https://cube001.atlassian.net/browse/INC-19602"
-    },
-    {
-      "key": "INC-19601",
-      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-30",
-      "url": "https://cube001.atlassian.net/browse/INC-19601"
-    },
-    {
-      "key": "INC-19600",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11356",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19600"
-    },
-    {
-      "key": "INC-19599",
-      "summary": "[critical] piprodtranslate-be-0100001G - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19599"
-    },
-    {
-      "key": "INC-19598",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19598"
-    },
-    {
-      "key": "INC-19597",
-      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19597"
-    },
-    {
-      "key": "INC-19596",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19596"
-    },
-    {
-      "key": "INC-19595",
-      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19595"
-    },
-    {
-      "key": "INC-19594",
-      "summary": "[critical] ip-172-18-116-169.ec2.internal - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19594"
-    },
-    {
-      "key": "INC-19593",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-30",
-      "url": "https://cube001.atlassian.net/browse/INC-19593"
-    },
-    {
-      "key": "INC-19592",
-      "summary": "[critical] ODENDEVSQL02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19592"
-    },
-    {
-      "key": "INC-19591",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19591"
-    },
-    {
-      "key": "INC-19590",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-09-29",
-      "updated": "2026-09-30",
-      "url": "https://cube001.atlassian.net/browse/INC-19590"
-    },
-    {
-      "key": "INC-19589",
-      "summary": "[critical] aks-ctinsmqz1-40827246-vmss000000 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-30",
-      "url": "https://cube001.atlassian.net/browse/INC-19589"
-    },
-    {
-      "key": "INC-19588",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19588"
-    },
-    {
-      "key": "INC-19587",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19587"
-    },
-    {
-      "key": "INC-19586",
-      "summary": "critical - PRDSM - Insight Pipeline Text Translations below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-09-29",
-      "updated": "2026-09-29",
-      "url": "https://cube001.atlassian.net/browse/INC-19586"
     }
   ]
 }
