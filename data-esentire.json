@@ -1,7 +1,139 @@
 {
-  "updated": "2026-11-03T23:38:18.345730Z",
-  "total": 3652,
+  "updated": "2026-11-04T03:17:21.586709Z",
+  "total": 3651,
   "items": [
+    {
+      "key": "INC-23851",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23851"
+    },
+    {
+      "key": "INC-23850",
+      "summary": "RegFlow - Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74187",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23850"
+    },
+    {
+      "key": "INC-23849",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74187",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23849"
+    },
+    {
+      "key": "INC-23848",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23848"
+    },
+    {
+      "key": "INC-23847",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74183",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23847"
+    },
+    {
+      "key": "INC-23846",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23846"
+    },
+    {
+      "key": "INC-23845",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23845"
+    },
+    {
+      "key": "INC-23844",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23844"
+    },
+    {
+      "key": "INC-23843",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74182",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23843"
+    },
+    {
+      "key": "INC-23842",
+      "summary": "[critical] CUBEDMIIS - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23842"
+    },
+    {
+      "key": "INC-23841",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23841"
+    },
     {
       "key": "INC-23840",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
@@ -201,13 +333,13 @@
     {
       "key": "INC-23824",
       "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-03",
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "url": "https://cube001.atlassian.net/browse/INC-23824"
     },
     {
@@ -453,7 +585,7 @@
     {
       "key": "INC-23803",
       "summary": "API Connect Health Checks Errors - UAT",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Kaushalya Pathirana",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -462,7 +594,7 @@
         "Daily-Checks"
       ],
       "created": "2026-11-03",
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "url": "https://cube001.atlassian.net/browse/INC-23803"
     },
     {
@@ -516,13 +648,13 @@
     {
       "key": "INC-23798",
       "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-03",
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "url": "https://cube001.atlassian.net/browse/INC-23798"
     },
     {
@@ -1131,7 +1263,7 @@
         "24x7"
       ],
       "created": "2026-11-02",
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "url": "https://cube001.atlassian.net/browse/INC-23748"
     },
     {
@@ -8202,13 +8334,15 @@
     {
       "key": "INC-23171",
       "summary": "P3 - RGP - SSO Login issues in UAT - Barclays, Citi and Citco say that they can't access UAT. All use SSO.",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-10-28",
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "url": "https://cube001.atlassian.net/browse/INC-23171"
     },
     {
@@ -45299,163 +45433,6 @@
       "created": "2026-10-05",
       "updated": "2026-10-05",
       "url": "https://cube001.atlassian.net/browse/INC-20196"
-    },
-    {
-      "key": "INC-20195",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20195"
-    },
-    {
-      "key": "INC-20194",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-05",
-      "updated": "2026-10-27",
-      "url": "https://cube001.atlassian.net/browse/INC-20194"
-    },
-    {
-      "key": "INC-20193",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20193"
-    },
-    {
-      "key": "INC-20192",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11476",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20192"
-    },
-    {
-      "key": "INC-20191",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20191"
-    },
-    {
-      "key": "INC-20190",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20190"
-    },
-    {
-      "key": "INC-20189",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-05",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-20189"
-    },
-    {
-      "key": "INC-20188",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "Utilization",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-05",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-20188"
-    },
-    {
-      "key": "INC-20187",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P2",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20187"
-    },
-    {
-      "key": "INC-20186",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-05",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20186"
-    },
-    {
-      "key": "INC-20185",
-      "summary": "Failure of Live Insight ingestion for Intel",
-      "status": "Completed",
-      "assignee": "Pradeep Yamujala",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Alerts-From-Staff",
-        "alerts"
-      ],
-      "created": "2026-10-04",
-      "updated": "2026-10-27",
-      "url": "https://cube001.atlassian.net/browse/INC-20185"
-    },
-    {
-      "key": "INC-20184",
-      "summary": "[critical] aks-intel01-55088272-vmss00000j - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-04",
-      "updated": "2026-10-05",
-      "url": "https://cube001.atlassian.net/browse/INC-20184"
     }
   ]
 }
