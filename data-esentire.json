@@ -1,7 +1,789 @@
 {
-  "updated": "2026-11-04T23:56:17.402912Z",
-  "total": 3614,
+  "updated": "2026-11-05T05:54:53.738067Z",
+  "total": 3668,
   "items": [
+    {
+      "key": "INC-24017",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74294",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24017"
+    },
+    {
+      "key": "INC-24016",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71785",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24016"
+    },
+    {
+      "key": "INC-24015",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24015"
+    },
+    {
+      "key": "INC-24014",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12202",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24014"
+    },
+    {
+      "key": "INC-24013",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74293",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24013"
+    },
+    {
+      "key": "INC-24012",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71783",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24012"
+    },
+    {
+      "key": "INC-24011",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71784",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24011"
+    },
+    {
+      "key": "INC-24010",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74292",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24010"
+    },
+    {
+      "key": "INC-24009",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24009"
+    },
+    {
+      "key": "INC-24008",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is OK.",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24008"
+    },
+    {
+      "key": "INC-24007",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12202",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24007"
+    },
+    {
+      "key": "INC-24006",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71782",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24006"
+    },
+    {
+      "key": "INC-24005",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is not working properly.",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24005"
+    },
+    {
+      "key": "INC-24004",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71781",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24004"
+    },
+    {
+      "key": "INC-24003",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is OK.",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24003"
+    },
+    {
+      "key": "INC-24002",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24002"
+    },
+    {
+      "key": "INC-24001",
+      "summary": "PROBLEM: OctopusDeploy Tentacle is CRITICAL on host CUBEPRODINX",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24001"
+    },
+    {
+      "key": "INC-24000",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-24000"
+    },
+    {
+      "key": "INC-23999",
+      "summary": "PROBLEM: OctopusDeploy Tentacle is CRITICAL on host CUBEPRODINX",
+      "status": "Actioned",
+      "assignee": "Johnmar Carlos Wabe",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23999"
+    },
+    {
+      "key": "INC-23998",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71780",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23998"
+    },
+    {
+      "key": "INC-23997",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is not working properly.",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23997"
+    },
+    {
+      "key": "INC-23996",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71779",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23996"
+    },
+    {
+      "key": "INC-23995",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23995"
+    },
+    {
+      "key": "INC-23994",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23994"
+    },
+    {
+      "key": "INC-23993",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71778",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23993"
+    },
+    {
+      "key": "INC-23992",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23992"
+    },
+    {
+      "key": "INC-23991",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D3] Functions - Pod not ready",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23991"
+    },
+    {
+      "key": "INC-23990",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71777",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23990"
+    },
+    {
+      "key": "INC-23989",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23989"
+    },
+    {
+      "key": "INC-23988",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23988"
+    },
+    {
+      "key": "INC-23987",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is OK.",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23987"
+    },
+    {
+      "key": "INC-23986",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23986"
+    },
+    {
+      "key": "INC-23985",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | Service error-rate breach",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23985"
+    },
+    {
+      "key": "INC-23984",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is not working properly.",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P2",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23984"
+    },
+    {
+      "key": "INC-23983",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71776",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23983"
+    },
+    {
+      "key": "INC-23982",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71775",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23982"
+    },
+    {
+      "key": "INC-23981",
+      "summary": "Uptrends Alert! Monitor: \"live.gocube.global - Browser check\" is not working properly.",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23981"
+    },
+    {
+      "key": "INC-23980",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71775",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23980"
+    },
+    {
+      "key": "INC-23979",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23979"
+    },
+    {
+      "key": "INC-23978",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23978"
+    },
+    {
+      "key": "INC-23977",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74283",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23977"
+    },
+    {
+      "key": "INC-23976",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23976"
+    },
+    {
+      "key": "INC-23975",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74282",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23975"
+    },
+    {
+      "key": "INC-23974",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71773",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23974"
+    },
+    {
+      "key": "INC-23973",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23973"
+    },
+    {
+      "key": "INC-23972",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74280",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23972"
+    },
+    {
+      "key": "INC-23971",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71771",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23971"
+    },
+    {
+      "key": "INC-23970",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23970"
+    },
+    {
+      "key": "INC-23969",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23969"
+    },
+    {
+      "key": "INC-23968",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74279",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23968"
+    },
+    {
+      "key": "INC-23967",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23967"
+    },
+    {
+      "key": "INC-23966",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23966"
+    },
+    {
+      "key": "INC-23965",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23965"
+    },
+    {
+      "key": "INC-23964",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74278",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23964"
+    },
+    {
+      "key": "INC-23963",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74277",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23963"
+    },
+    {
+      "key": "INC-23962",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23962"
+    },
+    {
+      "key": "INC-23961",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23961"
+    },
+    {
+      "key": "INC-23960",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #74276",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23960"
+    },
+    {
+      "key": "INC-23959",
+      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23959"
+    },
+    {
+      "key": "INC-23958",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Completed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23958"
+    },
+    {
+      "key": "INC-23957",
+      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23957"
+    },
+    {
+      "key": "INC-23956",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23956"
+    },
+    {
+      "key": "INC-23955",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23955"
+    },
+    {
+      "key": "INC-23954",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-05",
+      "updated": "2026-11-05",
+      "url": "https://cube001.atlassian.net/browse/INC-23954"
+    },
+    {
+      "key": "INC-23953",
+      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-04",
+      "updated": "2026-11-04",
+      "url": "https://cube001.atlassian.net/browse/INC-23953"
+    },
     {
       "key": "INC-23952",
       "summary": "Uptrends Alert! Monitor: \"Reg-Track.com\" is OK.",
@@ -77,8 +859,8 @@
     {
       "key": "INC-23946",
       "summary": "JPMC reported empty 'content' and 'nativeContent' on GET api/reginsight/{sourceiD} UAT only",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -88,7 +870,7 @@
         "RegInsight"
       ],
       "created": "2026-11-04",
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23946"
     },
     {
@@ -230,7 +1012,7 @@
     {
       "key": "INC-23934",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #71745",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -241,7 +1023,7 @@
         "RegInsight"
       ],
       "created": "2026-11-04",
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23934"
     },
     {
@@ -419,7 +1201,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-11-04",
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23920"
     },
     {
@@ -1136,7 +1918,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-04",
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23861"
     },
     {
@@ -1849,7 +2631,7 @@
         "Daily-Checks"
       ],
       "created": "2026-11-03",
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23803"
     },
     {
@@ -2507,7 +3289,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-02",
-      "updated": "2026-11-03",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23750"
     },
     {
@@ -2533,7 +3315,7 @@
         "24x7"
       ],
       "created": "2026-11-02",
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23748"
     },
     {
@@ -8045,7 +8827,7 @@
         "newrelic"
       ],
       "created": "2026-10-29",
-      "updated": "2026-11-03",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-23298"
     },
     {
@@ -18643,7 +19425,7 @@
         "24x7"
       ],
       "created": "2026-10-22",
-      "updated": "2026-11-03",
+      "updated": "2026-11-05",
       "url": "https://cube001.atlassian.net/browse/INC-22437"
     },
     {
@@ -44869,146 +45651,6 @@
       "created": "2026-10-06",
       "updated": "2026-10-06",
       "url": "https://cube001.atlassian.net/browse/INC-20345"
-    },
-    {
-      "key": "INC-20344",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20344"
-    },
-    {
-      "key": "INC-20343",
-      "summary": "PROBLEM: Windows Service is CRITICAL on host CUBEPRODINX",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-06",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-20343"
-    },
-    {
-      "key": "INC-20342",
-      "summary": "PROBLEM: Windows Service is CRITICAL on host CUBEPRODINX",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20342"
-    },
-    {
-      "key": "INC-20341",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-06",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-20341"
-    },
-    {
-      "key": "INC-20340",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20340"
-    },
-    {
-      "key": "INC-20339",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-06",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-20339"
-    },
-    {
-      "key": "INC-20338",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20338"
-    },
-    {
-      "key": "INC-20337",
-      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
-      "status": "Completed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-06",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-20337"
-    },
-    {
-      "key": "INC-20336",
-      "summary": "warning - PRDSM - Insight Pipeline Mapper Throughput below 200 for 1hr",
-      "status": "Actioned",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20336"
-    },
-    {
-      "key": "INC-20335",
-      "summary": "CLONE - [critical] CUBEPROD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20335"
-    },
-    {
-      "key": "INC-20333",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-06",
-      "updated": "2026-10-06",
-      "url": "https://cube001.atlassian.net/browse/INC-20333"
     }
   ]
 }
