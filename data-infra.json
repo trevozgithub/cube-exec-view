@@ -1,8 +1,108 @@
 {
-  "updated": "2026-11-06T08:27:08.623984Z",
+  "updated": "2026-11-06T16:09:46.550097Z",
   "total": 34,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2027-06-30",
+      "reviewed": "2026-11-06",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1721",
+      "summary": "Migrate CUBE Domain Services",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-11-06",
+      "labels": [
+        "active-directory",
+        "dc-exit",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1721",
+      "panels": []
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2027-03-30",
+      "reviewed": "2026-11-06",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2231",
+      "summary": "Platform  - Urgent Support Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-11-06",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2231",
+      "panels": []
+    },
+    {
+      "key": "CPN-2232",
+      "summary": "Platform - Administrative Tasks Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Erin Jones",
+      "duedate": "",
+      "reviewed": "2026-11-06",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2232",
+      "panels": []
+    },
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations MVP",
+      "status": "Launch",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-11-06",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
     {
       "key": "CPN-1719",
       "summary": "Migrate CUBEFSCD01",
@@ -30,24 +130,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2156",
       "panels": []
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2027-06-30",
-      "reviewed": "2026-11-04",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
-        }
-      ]
     },
     {
       "key": "CPN-2256",
@@ -136,27 +218,6 @@
       ]
     },
     {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations MVP",
-      "status": "Launch",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-11-02",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
-        }
-      ]
-    },
-    {
       "key": "CPN-1317",
       "summary": "Enterprise in the cloud - Phase 3",
       "status": "Build & Test",
@@ -190,26 +251,6 @@
         {
           "type": "info",
           "text": "02/11/26 Work on migration taking place now to be completed for the end of the year with migration due to complete by the end of January."
-        }
-      ]
-    },
-    {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2027-03-30",
-      "reviewed": "2026-11-02",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
         }
       ]
     },
@@ -252,32 +293,6 @@
       ]
     },
     {
-      "key": "CPN-2231",
-      "summary": "Platform  - Urgent Support Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-23",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2231",
-      "panels": []
-    },
-    {
-      "key": "CPN-2232",
-      "summary": "Platform - Administrative Tasks Q4 2026",
-      "status": "Build & Test",
-      "assignee": "Erin Jones",
-      "duedate": "",
-      "reviewed": "2026-10-23",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2232",
-      "panels": []
-    },
-    {
       "key": "CPN-1714",
       "summary": "Knowledge - Global AI Search - Launch",
       "status": "Build & Test",
@@ -295,21 +310,6 @@
           "text": "Status 22/10:  This is still early in development. Need to establish timeline as unlikely to land in Q4"
         }
       ]
-    },
-    {
-      "key": "CPN-1721",
-      "summary": "Migrate CUBE Domain Services",
-      "status": "Scoping",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-10-21",
-      "labels": [
-        "active-directory",
-        "dc-exit",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1721",
-      "panels": []
     },
     {
       "key": "CPN-2258",
