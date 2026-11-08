@@ -1,8 +1,28 @@
 {
-  "updated": "2026-11-08T14:49:44.141726Z",
+  "updated": "2026-11-08T19:12:54.812019Z",
   "total": 30,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-11-08",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "02/11/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
+        }
+      ]
+    },
     {
       "key": "CPN-2215",
       "summary": "OpRisk - Administrative Tasks Q4 2026",
@@ -192,26 +212,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2301",
       "panels": []
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-11-30",
-      "reviewed": "2026-11-02",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "02/11/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
-        }
-      ]
     },
     {
       "key": "CPN-1519",
