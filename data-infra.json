@@ -1,8 +1,304 @@
 {
-  "updated": "2026-11-09T10:12:47.416137Z",
-  "total": 34,
+  "updated": "2026-11-09T20:48:31.859852Z",
+  "total": 36,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-1124",
+      "summary": "RegPlatform - Obligations MVP",
+      "status": "Launch",
+      "assignee": "Julien Temim",
+      "duedate": "",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "Consumer",
+        "D&AI",
+        "consumer",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1124",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1369",
+      "summary": "SOC2 Audit",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit",
+        "infrastructure",
+        "intelcpn"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1369",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Held meetings with: Valal re: outstanding action Infrastructure - dan Cloud Engineering - kishan People Neil re: Tech ops / physical access Final session with SG from Ash is scheduled for Friday. A meeting was held with legal. Followed up with Prescient and is waiting for a response re: entities. Followed up with Vallal re: Githib / Dipak / Security team to close out. Session is in the diary with EJ to discuss risks such as people and physical security. Meeting with Prescient was on 19/08/2026. Waiting for further response from Prescient to confirm if one report will be possible due to the complex entity structure. HOS is creating a one-page slide for EXCO for further clarification / acceptance from Exco. A call with CUBE legal was also requested. Request for PO from finance."
+        }
+      ]
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2027-03-30",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "A series of workshops has been completed with OT and SJP. Additional requested information covering xPression, Transform, and Documentum has also been provided. As an outcome of these workshops, OT delivered the design documentation last Thursday, which is scheduled to be reviewed with SJP this week."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2003",
+      "summary": "Database Rationalisation Q4 2026",
+      "status": "Planning",
+      "assignee": "Yinka Shoge",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2003",
+      "panels": [
+        {
+          "type": "info",
+          "text": "DRP Migration Update  DEV : Fully migrated to SQL MI  TEST : All databases migrated to new set of Servers and hosted on SQL SERVER 2022 Blocker : TEST SQL MI set up blocked by Network/firewall access needed for MI Link to reach on-prem servers over specific ports.  [CPDEVO-5536] Allow Ports 5022 & 11000-11999 on drp-test-uks-sqlmi Subnet PRODUCTION : Physical servers: CUBEPROD1SQL10, CUBEPROD1SQL11, CUBEAZPRD1SQL02 and CUBEPROD1SQL12 SQL SERVER 2022 installed  New set of physical servers added to the existing Windows failover cluster and in the AlwaysOn Availability Group but no databases are hosted yet Outstanding Items  Production:  Databases yet to be restored to new database servers  SQL MI yet to be provisioned  TEST: Blocked because the required firewall and NSG rules are not yet in place to allow communication between the on-premises SQL Servers and Azure SQL Managed Instance. outbound 5022 to your on-prem range inbound 5022 and 11000-11999 from it RGP SQL MI:  Create Jira tickets for cloud engineering to provision   SQL MI configuration for UAT\\PROD builds Data Compression : Customer production database compress. From 2.8 TB space now 750 GB including TLogs     DRP PROD:  Begin SQL Server installations on the new Production servers. Blocking Monitoring:  Extend rollout to other servers and explore integration with New Relic. CDC:  Continue reviewing the RGP CDC configuration guide to standardise scripts and processes, with Obligations to follow. Compression:  RGP Production data and index compression on 7\u20138 November. SQL MI Security : Working  with IDAM team to agree database permissions and establish the post-deployment security and access management process for new SQL Managed Instances.  Q4 planning to be carried out. New tasks to be added and existing tasks moved from other database rationalisation initiatives."
+        }
+      ]
+    },
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "09/11/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration has been completed with all necessary config and access changes completed. Further planning is required for Test and Production migrations. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
+        }
+      ]
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2027-06-30",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The GoAnywhere VM has been migrated to Azure and connectivity is being configured. It will be brought up with a different name to the live on prem VM in order to test connectivity. New DNS entries and IP addresses are required. Communications will need to be sent to clients to inform them of the new details. The DR Password State VM is due to be switched to Azure 09/11. Migration of the TeamCity build servers commenced 06/11. Legacy Enterprise and Content infrastructure is being shut down. The Ontology database was migrated to Azure and the backup solution for this is now in place. New VMs for Domain Controllers have been created, these are being set up with required software and firewalls rules created. Non-Prod jump boxes have been created ready for software to be installed. The target to have them available for use is 13/11. Scoping and design work for Cloudflare connectors is progressing. Dataedo solution may be moved to a SaaS solution in Jan '27. Need to confirm with Sean Taylor. Azure hybrid extractor solution is being built, this will replace the CUBEPOCSCR cluster."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "09/11/26 Database pipelines have been completed in GitHub and tested in environments up to Test. Minor changes are required following the most recent UAT release. Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Compression has been implemented in UAT and Production. Failover between SQL VMs and SQL MI has been tested with Book issues resolved. The failover process has been documented ready for UAT and Production failovers. Planning for BCP/DR testing and execution of testing is to be completed by 13/11."
+        }
+      ]
+    },
+    {
+      "key": "CPN-689",
+      "summary": "Developer Self Service",
+      "status": "Build & Test",
+      "assignee": "Kishan Gohil",
+      "duedate": "2026-12-11",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-689",
+      "panels": [
+        {
+          "type": "info",
+          "text": "09/11/26 Non-prod and Prod available for use. Available to cube.global IDs, users automatically get access if access granted to GitHub. node.js, .net and Terraform repos available. Teams channel established for support and requests."
+        }
+      ]
+    },
+    {
+      "key": "CPN-817",
+      "summary": "Kodex - GCP migration to Azure",
+      "status": "Build & Test",
+      "assignee": "Kishan Gohil",
+      "duedate": "2027-01-29",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-817",
+      "panels": [
+        {
+          "type": "info",
+          "text": "09/11/26 Work on migration taking place now to be completed for the end of the year with migration due to complete by the end of January."
+        }
+      ]
+    },
+    {
+      "key": "CPN-989",
+      "summary": "Acin migration to CUBE Azure",
+      "status": "Planning",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "Infra",
+        "Infratbd",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-989",
+      "panels": [
+        {
+          "type": "info",
+          "text": "02/03/26     Discussed with Graeme and Giuseppe. The billing for the CSP that Acin use can be switched over to Cube. Migrating Acin from the CSP to a Cube subscription and MACC would be dependent on having ISO compliance as Acin is already ISO compliant. Migration would therefor likely be H2 2026 or in 2027."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1089",
+      "summary": "TR - TSA Exit",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "Infra",
+        "TR",
+        "TSA_EXIT",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1089",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1420",
+      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-10-29",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "Kodex",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1420",
+      "panels": [
+        {
+          "type": "info",
+          "text": "ON HOLD Jira space for Kodex team has been created based on the design  Kodex AI - Miro .  [ Closed ] George completed the set up a squad object and linked it to the space. [ Closed ] Claus to advise on the location & repos Kodex uses so that these can be integrated to Plandek. Meeting set up for 4th August to discuss the outstanding items required to complete the Atlassian/Plandek setup [ Closed ] Claus to review and sign off on the imported data before providing the latest export from Linear, which George can then import into the Jira space.[ Open ]"
+        }
+      ]
+    },
+    {
+      "key": "CPN-105",
+      "summary": "TR Employee Data migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-105",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Migration of the mailboxes has been fully completed. OneDrive migration kicked-off on  . Weekly sync runs every Friday. Teams and SharePoint migrations kicked off on    Weekly sync runs every Friday. O365 migration plan:"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1214",
+      "summary": "4CRisk - Systems migration and consolidation",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "TechOps",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1214",
+      "panels": [
+        {
+          "type": "info",
+          "text": "List of the business systems under review     [ Open ] 4CRisk OpenAI platform migration to CUBE AI Foundry [ Closed ] Adobe/SoftwareOne - The Acrobat Services (API) renewal agreement needs to be completed under the CUBE legal entity by 23 October. [ Closed ] Separate initiative has been created to track 4CRisk Product AWS to Azure migration"
+        }
+      ]
+    },
+    {
+      "key": "CPN-949",
+      "summary": "4CRisk - Onboarding and O365 migration",
+      "status": "Build & Test",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2026-08-07",
+      "reviewed": "2026-11-09",
+      "labels": [
+        "4CRisk",
+        "Infra",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-949",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Legacy assets wipe & disposal process  [ Open ]  Decision was made to wipe the devices using ShredOS.  Call scheduled for tomorrow with Stefan to define the next steps"
+        }
+      ]
+    },
     {
       "key": "CPN-2258",
       "summary": "BCP/DR Testing",
@@ -32,66 +328,6 @@
       "panels": []
     },
     {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2027-03-30",
-      "reviewed": "2026-11-09",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "The draft SoW has been created and is currently with Barry for review before submission to SJP. xPression / Transform dependencies discussed on the call with SJP and OpenText this week.  SJP needs to agree on the promotional model for the Documentum stack with OpenText. OpenText have requested details on the network protocols.  AWS Snowball device(s) will be used to handle the file storage transfer."
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2027-06-30",
-      "reviewed": "2026-11-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "CUBE-Transfer has been upgraded to RedHat 8.10, this can be migrated using Azure Migrate. However Ravali is currently blocked to to IDAM access. The second Password State server is being built, this should be ready this week along with a deployment plan. North Europe DC\u2019s are decommissioned. Mayur is currently building an additional DC for PROD as there is shortage. The further DC migration is blocked by the PROD/NonPROD connectivity. Have asked if the on Prem Content machines can be powered off if they\u2019re no longer in use. Additional PROD1SQL node has been built to allow for the SQL MI migration. Established solutions that need to be migrated and those that will go with the datacentre. I've sent an email to the Cloudteam regarding input on the location of the replacement solutions. Started decommissioning/shutting down servers that are no longer required or suspected that they're no longer in use."
-        }
-      ]
-    },
-    {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-11-08",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "12/10/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration is planned for 16/19, Test for 20/10 and Prod either 6 or 13 Nov. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
-        }
-      ]
-    },
-    {
       "key": "CPN-610",
       "summary": "GitHub Migration",
       "status": "Build & Test",
@@ -108,25 +344,6 @@
         {
           "type": "info",
           "text": "02/11/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-11-08",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "26/10/26 GitHub pipelines and Manifest based deployment are in place for code, ADO is in the process of being disabled. Further work is required on database release pipelines, to validate all pipelines are working correctly.  Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Performance testing comparing pre and post compression have shown an overall positive impact on performance. Compression has been implemented in UAT and Production is planned for the weekend of 7/8 November. SQL MI for Link issues in Prep have been resolved and the switch from SQL VMs to SQL MI completed. There are issues with Books processing and no updates are showing, there is a backlog of Books in the database. Planning for BCP/DR testing and execution of testing is to be completed by 16/10. Connectivity between Prod and non-prod has been implemented. Help has been migrated for all environments."
         }
       ]
     },
@@ -172,27 +389,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1124",
-      "summary": "RegPlatform - Obligations MVP",
-      "status": "Launch",
-      "assignee": "Julien Temim",
-      "duedate": "",
-      "reviewed": "2026-11-06",
-      "labels": [
-        "Consumer",
-        "D&AI",
-        "consumer",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1124",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 10/09:  Progressing well, but variable scope means it will take longer to be developed and signed-off"
-        }
-      ]
-    },
-    {
       "key": "CPN-1719",
       "summary": "Migrate CUBEFSCD01",
       "status": "Build & Test",
@@ -219,24 +415,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2156",
       "panels": []
-    },
-    {
-      "key": "CPN-2003",
-      "summary": "Database Rationalisation Q4 2026",
-      "status": "Planning",
-      "assignee": "Yinka Shoge",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-11-04",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2003",
-      "panels": [
-        {
-          "type": "info",
-          "text": "DRP PROD:  Begin SQL Server installations on the new Production servers. Blocking Monitoring:  Extend rollout to other servers and explore integration with New Relic. CDC:  Continue reviewing the RGP CDC configuration guide to standardise scripts and processes, with Obligations to follow. Compression:  RGP Production data and index compression on 7\u20138 November. SQL MI Security : Working  with IDAM team to agree database permissions and establish the post-deployment security and access management process for new SQL Managed Instances.  Q4 planning to be carried out. New tasks to be added and existing tasks moved from other database rationalisation initiatives."
-        }
-      ]
     },
     {
       "key": "CPN-1722",
@@ -268,24 +446,6 @@
         {
           "type": "info",
           "text": "Full scope still hasn\u2019t been confirmed so we are working on the full 6 year\u2019s of data. At present Cabot are planning to extract themselves Extract test took less than an hour, Aga confirmed that  their numbers are correct. Stakeholders need to confirm next steps   Backup disk can be delivered to Canon Street office, format yet to be decided Sean to create SOW"
-        }
-      ]
-    },
-    {
-      "key": "CPN-817",
-      "summary": "Kodex - GCP migration to Azure",
-      "status": "Build & Test",
-      "assignee": "Kishan Gohil",
-      "duedate": "2027-01-29",
-      "reviewed": "2026-11-02",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-817",
-      "panels": [
-        {
-          "type": "info",
-          "text": "02/11/26 Work on migration taking place now to be completed for the end of the year with migration due to complete by the end of January."
         }
       ]
     },
@@ -343,41 +503,6 @@
         {
           "type": "info",
           "text": "Status 22/10:  This is still early in development. Need to establish timeline as unlikely to land in Q4"
-        }
-      ]
-    },
-    {
-      "key": "CPN-689",
-      "summary": "Developer Self Service",
-      "status": "Build & Test",
-      "assignee": "Kishan Gohil",
-      "duedate": "2026-12-11",
-      "reviewed": "2026-10-12",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-689",
-      "panels": []
-    },
-    {
-      "key": "CPN-1089",
-      "summary": "TR - TSA Exit",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-10-11",
-      "labels": [
-        "Infra",
-        "TR",
-        "TSA_EXIT",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1089",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Generate and distribute a weekly report of ex-TR leavers to the TR team. This recurring task should be completed each week until the end of the TSA period."
         }
       ]
     },
@@ -483,85 +608,6 @@
         {
           "type": "info",
           "text": "09/03/26 Initial planning call held 11/02. Currently on hold to be implemented alongside or after EIC is live for Dev/UAT."
-        }
-      ]
-    },
-    {
-      "key": "CPN-1214",
-      "summary": "4CRisk - Systems migration and consolidation",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-09-18",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1214",
-      "panels": [
-        {
-          "type": "info",
-          "text": "List of the business systems under review     [ Open ] PyCharm licenses - Approved by Naveen, purchased and allocated [ Closed ] Figma licenses - Purchased and allocated [ Closed ] Postman licenses - Licenses have been allocated to the users  [ Closed ] 4CRisk space - Created [ Closed ] DNS migration - 1st part completed, 2nd part completed [ Closed ] Replace the existing 4CRisk OpenAI account and Gemini API integrations - The majority of the modules are now running on CUBE AI Foundry, with only a single module remaining on the 4CRisk OpenAI platform. The remaining module will need to remain on the 4CRisk OpenAI platform for an additional month, as the team has identified that its equivalent module in AI Foundry has been deprecated. The functionality dependent on this module, Global Search, is business-critical. Team is working towards fully migrating the Global Search functionality by the end of September. [ Open ] Adobe/SoftwareOne - The Acrobat Services (API) renewal agreement needs to be completed under the CUBE legal entity by 23 October. [ Open ] Separate initiative has been created to track 4CRisk Product AWS to Azure migration"
-        }
-      ]
-    },
-    {
-      "key": "CPN-949",
-      "summary": "4CRisk - Onboarding and O365 migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-08-07",
-      "reviewed": "2026-09-15",
-      "labels": [
-        "4CRisk",
-        "Infra",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-949",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Legacy assets wipe & disposal process  [ Open ]  A quote has been received from Softcat ($2,000), and confirmation has been requested regarding the disposal process in the India region. Quote received from BitRaser (\u00a3150 for 20 devices). Souvik has identified a potential charity for consideration. Requested a decision from Neil on how to proceed. Note: If we go with BitRaser, the wiping would need to be handled in-house, meaning we'd need to assign someone to carry it out."
-        }
-      ]
-    },
-    {
-      "key": "CPN-105",
-      "summary": "TR Employee Data migration",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-09-15",
-      "labels": [
-        "TechOps",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-105",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Migration of the mailboxes has been fully completed. Issues with the email forwarding is being addresses. Long terms solution implemented by TR has been tested and works for TR sub-domains no-reply@content.thomsonreuters.com donotreply.ari@regintel.thomsonreuters.com Awaiting the TR to apply the solution to remaining  no-reply@content-qa.thomsonreuters.com  sub-domain and DL. OneDrive migration kicked-off on  . Weekly sync runs every Friday. Next phase: Teams and SharePoint migration scheduled to be kicked off on    (On track) O365 migration plan:"
-        }
-      ]
-    },
-    {
-      "key": "CPN-1420",
-      "summary": "Kodex - Coordinate creation of Jira space for Kodex AI team",
-      "status": "Build & Test",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2026-10-29",
-      "reviewed": "2026-09-14",
-      "labels": [
-        "Kodex",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1420",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Jira space for Kodex team has been created based on the design  Kodex AI - Miro .  [ Closed ] George completed the set up a squad object and linked it to the space. [ Closed ] Claus to advise on the location & repos Kodex uses so that these can be integrated to Plandek. Meeting set up for 4th August to discuss the outstanding items required to complete the Atlassian/Plandek setup [ Closed ] Claus to review and sign off on the imported data before providing the latest export from Linear, which George can then import into the Jira space.[ Open ]"
         }
       ]
     },
