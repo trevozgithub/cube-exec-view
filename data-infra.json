@@ -1,8 +1,59 @@
 {
-  "updated": "2026-11-10T10:59:03.929086Z",
+  "updated": "2026-11-10T18:36:43.203785Z",
   "total": 36,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-930",
+      "summary": "Cabot - Sunset of Documentum",
+      "status": "Scoping",
+      "assignee": "Sean Kelaart",
+      "duedate": "2027-03-01",
+      "reviewed": "2026-11-10",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-930",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Full scope still hasn\u2019t been confirmed so we are working on the full 6 year\u2019s of data. At present Cabot are planning to extract themselves Extract test took less than an hour, Aga confirmed that  their numbers are correct. Stakeholders need to confirm next steps   Backup disk can be delivered to Canon Street office, format yet to be decided Sean to create SOW"
+        }
+      ]
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2027-06-30",
+      "reviewed": "2026-11-10",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The GoAnywhere VM has been migrated to Azure and connectivity is being configured. It will be brought up with a different name to the live on prem VM in order to test connectivity. New DNS entries and IP addresses are required. Communications will need to be sent to clients to inform them of the new details. The DR Password State VM is due to be switched to Azure 09/11. Migration of the TeamCity build servers commenced 06/11. Legacy Enterprise and Content infrastructure is being shut down. The Ontology database was migrated to Azure and the backup solution for this is now in place. New VMs for Domain Controllers have been created, these are being set up with required software and firewalls rules created. Non-Prod jump boxes have been created ready for software to be installed. The target to have them available for use is 13/11. Scoping and design work for Cloudflare connectors is progressing. Dataedo solution may be moved to a SaaS solution in Jan '27. Need to confirm with Sean Taylor. Azure hybrid extractor solution is being built, this will replace the CUBEPOCSCR cluster."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1722",
+      "summary": "Migrate CUBEDM Cluster",
+      "status": "Scoping",
+      "assignee": "Dan Palmer",
+      "duedate": "2026-11-13",
+      "reviewed": "2026-11-10",
+      "labels": [
+        "data-management",
+        "dc-exit",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1722",
+      "panels": []
+    },
     {
       "key": "CPN-2231",
       "summary": "Platform  - Urgent Support Q4 2026",
@@ -142,24 +193,6 @@
         {
           "type": "info",
           "text": "09/11/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration has been completed with all necessary config and access changes completed. Further planning is required for Test and Production migrations. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
-        }
-      ]
-    },
-    {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2027-06-30",
-      "reviewed": "2026-11-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "The GoAnywhere VM has been migrated to Azure and connectivity is being configured. It will be brought up with a different name to the live on prem VM in order to test connectivity. New DNS entries and IP addresses are required. Communications will need to be sent to clients to inform them of the new details. The DR Password State VM is due to be switched to Azure 09/11. Migration of the TeamCity build servers commenced 06/11. Legacy Enterprise and Content infrastructure is being shut down. The Ontology database was migrated to Azure and the backup solution for this is now in place. New VMs for Domain Controllers have been created, these are being set up with required software and firewalls rules created. Non-Prod jump boxes have been created ready for software to be installed. The target to have them available for use is 13/11. Scoping and design work for Cloudflare connectors is progressing. Dataedo solution may be moved to a SaaS solution in Jan '27. Need to confirm with Sean Taylor. Azure hybrid extractor solution is being built, this will replace the CUBEPOCSCR cluster."
         }
       ]
     },
@@ -429,39 +462,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2156",
       "panels": []
-    },
-    {
-      "key": "CPN-1722",
-      "summary": "Migrate CUBEDM Cluster",
-      "status": "Scoping",
-      "assignee": "Dan Palmer",
-      "duedate": "2026-11-13",
-      "reviewed": "2026-11-04",
-      "labels": [
-        "data-management",
-        "dc-exit",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1722",
-      "panels": []
-    },
-    {
-      "key": "CPN-930",
-      "summary": "Cabot - Sunset of Documentum",
-      "status": "Scoping",
-      "assignee": "Sean Kelaart",
-      "duedate": "2027-03-01",
-      "reviewed": "2026-11-03",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-930",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Full scope still hasn\u2019t been confirmed so we are working on the full 6 year\u2019s of data. At present Cabot are planning to extract themselves Extract test took less than an hour, Aga confirmed that  their numbers are correct. Stakeholders need to confirm next steps   Backup disk can be delivered to Canon Street office, format yet to be decided Sean to create SOW"
-        }
-      ]
     },
     {
       "key": "CPN-1713",
