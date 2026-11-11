@@ -1,7 +1,117 @@
 {
-  "updated": "2026-11-10T23:43:26.947618Z",
+  "updated": "2026-11-11T03:07:10.829412Z",
   "total": 3809,
   "items": [
+    {
+      "key": "INC-24897",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12337",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24897"
+    },
+    {
+      "key": "INC-24896",
+      "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24896"
+    },
+    {
+      "key": "INC-24895",
+      "summary": "CRITICAL - SSO - PROD - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24895"
+    },
+    {
+      "key": "INC-24894",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12336",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24894"
+    },
+    {
+      "key": "INC-24893",
+      "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "To Do",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24893"
+    },
+    {
+      "key": "INC-24892",
+      "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "Actioned",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24892"
+    },
+    {
+      "key": "INC-24891",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12335",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24891"
+    },
+    {
+      "key": "INC-24890",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24890"
+    },
+    {
+      "key": "INC-24889",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Glenn Ticong",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-11",
+      "updated": "2026-11-11",
+      "url": "https://cube001.atlassian.net/browse/INC-24889"
+    },
     {
       "key": "INC-24888",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12334",
@@ -17,13 +127,13 @@
     {
       "key": "INC-24887",
       "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24887"
     },
     {
@@ -1178,7 +1288,7 @@
         "RM"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24795"
     },
     {
@@ -1208,13 +1318,15 @@
     {
       "key": "INC-24792",
       "summary": "[NR] editorial-tools-api-test query result is > 3.0 for 5 minutes on 'API latency p95 (s)'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24792"
     },
     {
@@ -1268,13 +1380,15 @@
     {
       "key": "INC-24787",
       "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24787"
     },
     {
@@ -1306,11 +1420,11 @@
       "summary": "P3 - RGP - RegGroup not loading",
       "status": "In Progress",
       "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
+      "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24784"
     },
     {
@@ -1328,7 +1442,7 @@
         "RegBook"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24783"
     },
     {
@@ -1385,13 +1499,15 @@
     {
       "key": "INC-24778",
       "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Zyra Nicolas",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24778"
     },
     {
@@ -2198,7 +2314,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-09",
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-24714"
     },
     {
@@ -13743,7 +13859,7 @@
     {
       "key": "INC-23779",
       "summary": "P3-PROD - RGP | Dummy Title appearing again in PROD",
-      "status": "Completed",
+      "status": "In Progress",
       "assignee": "Manish Shivanandhan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -13754,7 +13870,7 @@
         "RegInsight"
       ],
       "created": "2026-11-03",
-      "updated": "2026-11-09",
+      "updated": "2026-11-11",
       "url": "https://cube001.atlassian.net/browse/INC-23779"
     },
     {
@@ -47224,118 +47340,6 @@
       "created": "2026-10-12",
       "updated": "2026-10-12",
       "url": "https://cube001.atlassian.net/browse/INC-21085"
-    },
-    {
-      "key": "INC-21084",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71984",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21084"
-    },
-    {
-      "key": "INC-21083",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71983",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21083"
-    },
-    {
-      "key": "INC-21082",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71982",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21082"
-    },
-    {
-      "key": "INC-21081",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11638",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21081"
-    },
-    {
-      "key": "INC-21080",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71981",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21080"
-    },
-    {
-      "key": "INC-21079",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21079"
-    },
-    {
-      "key": "INC-21078",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71976",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-12",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21078"
-    },
-    {
-      "key": "INC-21077",
-      "summary": "MasterData database is not working on the UAT Read connection",
-      "status": "Completed",
-      "assignee": "Prabhu Basnet",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Alerts-From-Staff",
-        "UAT",
-        "database"
-      ],
-      "created": "2026-10-12",
-      "updated": "2026-10-20",
-      "url": "https://cube001.atlassian.net/browse/INC-21077"
-    },
-    {
-      "key": "INC-21076",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #71975",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-11",
-      "updated": "2026-10-12",
-      "url": "https://cube001.atlassian.net/browse/INC-21076"
     }
   ]
 }
