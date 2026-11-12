@@ -1,12 +1,138 @@
 {
-  "updated": "2026-11-12T16:21:22.756462Z",
-  "total": 3985,
+  "updated": "2026-11-12T22:20:48.503194Z",
+  "total": 3979,
   "items": [
+    {
+      "key": "INC-25283",
+      "summary": "Exchange Server Down",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Alerts-From-Staff"
+      ],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25283"
+    },
+    {
+      "key": "INC-25282",
+      "summary": "Account added itself to Domain Admins on domain controller",
+      "status": "Completed",
+      "assignee": "ServiceDesk",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "SECURITY_INCIDENT",
+        "alerts",
+        "eSentire_Alert"
+      ],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25282"
+    },
+    {
+      "key": "INC-25281",
+      "summary": "Account added itself to Domain Admins on domain controller",
+      "status": "Actioned",
+      "assignee": "ServiceDesk",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25281"
+    },
+    {
+      "key": "INC-25280",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75009",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25280"
+    },
+    {
+      "key": "INC-25279",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75008",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25279"
+    },
+    {
+      "key": "INC-25278",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75007",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25278"
+    },
+    {
+      "key": "INC-25277",
+      "summary": "CRITICAL - CLOUD - PROD - k8s:shared-prod-uksouth-aks:node:aks-ctinsmqz1-40827246-vmss000000 query result is > 90.0 for 5 minutes on 'Node allocatable cpu utilization is high'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25277"
+    },
+    {
+      "key": "INC-25276",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75006",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25276"
+    },
+    {
+      "key": "INC-25275",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75005",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25275"
+    },
+    {
+      "key": "INC-25274",
+      "summary": "[NR] editorial-tools-api-uat query result is > 5.0 for 5 minutes on 'API error rate %'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-12",
+      "updated": "2026-11-12",
+      "url": "https://cube001.atlassian.net/browse/INC-25274"
+    },
     {
       "key": "INC-25273",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #72494",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -154,11 +280,13 @@
     {
       "key": "INC-25261",
       "summary": "CRITICAL - CLOUD - PROD - k8s:shared-prod-uksouth-aks:node:aks-transform03-31435348-vmss00035d query result is > 90.0 for 5 minutes on 'Node allocatable cpu utilization is high'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Earl Francisco",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-12",
       "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-25261"
@@ -279,7 +407,7 @@
     {
       "key": "INC-25251",
       "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1330,7 +1458,7 @@
     {
       "key": "INC-25169",
       "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'insight-analysis-update-queue'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1395,7 +1523,7 @@
     {
       "key": "INC-25164",
       "summary": "CRITICAL - ENTERPRISE - PROD - k8s:shared-prod-uks-statelessaks-01:content-p4:horizontalpodautoscaler:pdf-conversion-service query result is > 3.0 for 2 minutes on '[A7] Stateless - K8s Warning events'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1413,7 +1541,7 @@
     {
       "key": "INC-25163",
       "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "LJ Rendal",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1475,7 +1603,12 @@
       "assignee": "Faaris Ali",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Alerts",
+        "SJP",
+        "Veeam"
+      ],
       "created": "2026-11-11",
       "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-25159"
@@ -1814,7 +1947,7 @@
     {
       "key": "INC-25133",
       "summary": "P3-PROD - RM | Slow response times in Prod RM",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1825,7 +1958,7 @@
         "RM"
       ],
       "created": "2026-11-11",
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-25133"
     },
     {
@@ -5195,7 +5328,7 @@
         "PROD"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-24859"
     },
     {
@@ -6124,11 +6257,14 @@
     {
       "key": "INC-24784",
       "summary": "P2 - RGP - RegGroup not loading",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P2",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "PROD",
+        "UAT"
+      ],
       "created": "2026-11-10",
       "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-24784"
@@ -6754,7 +6890,7 @@
       "issuetype": "Escalation",
       "labels": [],
       "created": "2026-11-09",
-      "updated": "2026-11-09",
+      "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-24735"
     },
     {
@@ -14771,7 +14907,7 @@
         "ODEN"
       ],
       "created": "2026-11-05",
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-24087"
     },
     {
@@ -14811,7 +14947,7 @@
         "ODEN"
       ],
       "created": "2026-11-05",
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "url": "https://cube001.atlassian.net/browse/INC-24084"
     },
     {
@@ -49326,216 +49462,6 @@
       "created": "2026-10-13",
       "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21302"
-    },
-    {
-      "key": "INC-21301",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "Completed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "RegInsight",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21301"
-    },
-    {
-      "key": "INC-21300",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21300"
-    },
-    {
-      "key": "INC-21299",
-      "summary": "warning - PRDSM - Insight Pipeline Validation Throughput below 200 for 1hr",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21299"
-    },
-    {
-      "key": "INC-21298",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21298"
-    },
-    {
-      "key": "INC-21297",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21297"
-    },
-    {
-      "key": "INC-21296",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21296"
-    },
-    {
-      "key": "INC-21295",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21295"
-    },
-    {
-      "key": "INC-21294",
-      "summary": "Amex reported PROD bug that causing their API to fail",
-      "status": "Completed",
-      "assignee": "Ruwani Indrachapa",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "API",
-        "Alerts-From-Staff"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-21294"
-    },
-    {
-      "key": "INC-21293",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21293"
-    },
-    {
-      "key": "INC-21292",
-      "summary": "warning - PRDSM - Insight Pipeline Parser Throughput below 200 for 1hr",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21292"
-    },
-    {
-      "key": "INC-21291",
-      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Niel Singo",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Azure",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-11-06",
-      "url": "https://cube001.atlassian.net/browse/INC-21291"
-    },
-    {
-      "key": "INC-21290",
-      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21290"
-    },
-    {
-      "key": "INC-21289",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21289"
-    },
-    {
-      "key": "INC-21288",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21288"
-    },
-    {
-      "key": "INC-21287",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 100 for 30mins",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21287"
-    },
-    {
-      "key": "INC-21286",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11677",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "rm"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21286"
     }
   ]
 }
