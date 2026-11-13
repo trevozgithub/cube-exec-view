@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T02:43:15.005311Z",
+  "updated": "2026-11-13T10:03:35.536956Z",
   "total": 36,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
@@ -9,7 +9,7 @@
       "status": "Scoping",
       "assignee": "Sean Kelaart",
       "duedate": "2027-03-01",
-      "reviewed": "2026-11-12",
+      "reviewed": "2026-11-13",
       "labels": [
         "infrastructure"
       ],
@@ -17,7 +17,27 @@
       "panels": [
         {
           "type": "info",
-          "text": "Full scope still hasn\u2019t been confirmed so we are working on the full 6 year\u2019s of data. At present Cabot are planning to extract themselves Extract test took less than an hour, Aga confirmed that  their numbers are correct. Stakeholders need to confirm next steps   Backup disk can be delivered to Canon Street office, format yet to be decided Sean to create SOW"
+          "text": "SOW being written 6 years of data Backup to be transferred by SFTP, in monthly batches, rather than on a drive"
+        }
+      ]
+    },
+    {
+      "key": "CPN-826",
+      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
+      "status": "Planning",
+      "assignee": "Agnieszka Gorniak",
+      "duedate": "2027-03-30",
+      "reviewed": "2026-11-13",
+      "labels": [
+        "infrastructure",
+        "sjp",
+        "sjp_exit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-826",
+      "panels": [
+        {
+          "type": "info",
+          "text": "A series of workshops has been completed with OT and SJP. Additional requested information covering xPression, Transform, and Documentum has also been provided. As an outcome of these workshops, OT delivered the design documentation last Thursday, which is scheduled to be reviewed with SJP this week."
         }
       ]
     },
@@ -78,26 +98,6 @@
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-1719",
       "panels": []
-    },
-    {
-      "key": "CPN-826",
-      "summary": "SJP - Sunset of Documentum, xPression & Transform stack",
-      "status": "Planning",
-      "assignee": "Agnieszka Gorniak",
-      "duedate": "2027-03-30",
-      "reviewed": "2026-11-12",
-      "labels": [
-        "infrastructure",
-        "sjp",
-        "sjp_exit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-826",
-      "panels": [
-        {
-          "type": "info",
-          "text": "A series of workshops has been completed with OT and SJP. Additional requested information covering xPression, Transform, and Documentum has also been provided. As an outcome of these workshops, OT delivered the design documentation last Thursday, which is scheduled to be reviewed with SJP this week."
-        }
-      ]
     },
     {
       "key": "CPN-1722",
