@@ -1,7 +1,35 @@
 {
-  "updated": "2026-11-12T22:20:48.503194Z",
-  "total": 3979,
+  "updated": "2026-11-13T02:43:46.212414Z",
+  "total": 3970,
   "items": [
+    {
+      "key": "INC-25285",
+      "summary": "Patching Error - CR-27660 - CUBEDEV1SQL03 \u2013 MSSQLSERVER service stopped (9+ days)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "sql-server"
+      ],
+      "created": "2026-11-12",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25285"
+    },
+    {
+      "key": "INC-25284",
+      "summary": "Patching Error - CR-27660 -New Relic / Download blocked by firewall",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "Azure"
+      ],
+      "created": "2026-11-12",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25284"
+    },
     {
       "key": "INC-25283",
       "summary": "Exchange Server Down",
@@ -13,7 +41,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-11-12",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "url": "https://cube001.atlassian.net/browse/INC-25283"
     },
     {
@@ -49325,143 +49353,6 @@
       "created": "2026-10-14",
       "updated": "2026-10-14",
       "url": "https://cube001.atlassian.net/browse/INC-21313"
-    },
-    {
-      "key": "INC-21312",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11687",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21312"
-    },
-    {
-      "key": "INC-21311",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21311"
-    },
-    {
-      "key": "INC-21310",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21310"
-    },
-    {
-      "key": "INC-21309",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21309"
-    },
-    {
-      "key": "INC-21308",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21308"
-    },
-    {
-      "key": "INC-21307",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11684",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21307"
-    },
-    {
-      "key": "INC-21306",
-      "summary": "[critical] piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21306"
-    },
-    {
-      "key": "INC-21305",
-      "summary": "[critical] piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21305"
-    },
-    {
-      "key": "INC-21304",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-13",
-      "url": "https://cube001.atlassian.net/browse/INC-21304"
-    },
-    {
-      "key": "INC-21303",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11683",
-      "status": "Completed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "browserstack"
-      ],
-      "created": "2026-10-13",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21303"
-    },
-    {
-      "key": "INC-21302",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11683",
-      "status": "Actioned",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-13",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21302"
     }
   ]
 }
