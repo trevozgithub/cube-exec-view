@@ -1,12 +1,448 @@
 {
-  "updated": "2026-11-13T22:54:19.964917Z",
-  "total": 4101,
+  "updated": "2026-11-14T02:54:53.557418Z",
+  "total": 4127,
   "items": [
+    {
+      "key": "INC-25546",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75142",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25546"
+    },
+    {
+      "key": "INC-25545",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #72631",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25545"
+    },
+    {
+      "key": "INC-25544",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25544"
+    },
+    {
+      "key": "INC-25543",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #72631",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25543"
+    },
+    {
+      "key": "INC-25542",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75141",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25542"
+    },
+    {
+      "key": "INC-25541",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75140",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25541"
+    },
+    {
+      "key": "INC-25540",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25540"
+    },
+    {
+      "key": "INC-25539",
+      "summary": "[ALERT - Critical] cf-insight2bq-management reports no new insights on Azure for 40 minutes",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25539"
+    },
+    {
+      "key": "INC-25538",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75139",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25538"
+    },
+    {
+      "key": "INC-25537",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75138",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25537"
+    },
+    {
+      "key": "INC-25536",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25536"
+    },
+    {
+      "key": "INC-25535",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25535"
+    },
+    {
+      "key": "INC-25534",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25534"
+    },
+    {
+      "key": "INC-25533",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75137",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25533"
+    },
+    {
+      "key": "INC-25532",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25532"
+    },
+    {
+      "key": "INC-25531",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75136",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25531"
+    },
+    {
+      "key": "INC-25530",
+      "summary": "CRITICAL - SSO - PROD - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25530"
+    },
+    {
+      "key": "INC-25529",
+      "summary": "CRITICAL - SSO - PROD - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25529"
+    },
+    {
+      "key": "INC-25528",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25528"
+    },
+    {
+      "key": "INC-25527",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75135",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25527"
+    },
+    {
+      "key": "INC-25526",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75134",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25526"
+    },
+    {
+      "key": "INC-25525",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75133",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25525"
+    },
+    {
+      "key": "INC-25524",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75132",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25524"
+    },
+    {
+      "key": "INC-25523",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25523"
+    },
+    {
+      "key": "INC-25522",
+      "summary": "[ALERT - Critical] cf-insight2bq-management reports no new insights on Azure for 40 minutes",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25522"
+    },
+    {
+      "key": "INC-25521",
+      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25521"
+    },
+    {
+      "key": "INC-25520",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75131",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-14",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25520"
+    },
+    {
+      "key": "INC-25519",
+      "summary": "[ALERT - Critical] cf-insight2bq-management reports no new insights on Azure for 40 minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25519"
+    },
+    {
+      "key": "INC-25518",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-14",
+      "url": "https://cube001.atlassian.net/browse/INC-25518"
+    },
+    {
+      "key": "INC-25517",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75130",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25517"
+    },
+    {
+      "key": "INC-25516",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25516"
+    },
+    {
+      "key": "INC-25515",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75129",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25515"
+    },
+    {
+      "key": "INC-25514",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75128",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25514"
+    },
+    {
+      "key": "INC-25513",
+      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD1RDI05",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25513"
+    },
+    {
+      "key": "INC-25512",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75127",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25512"
+    },
+    {
+      "key": "INC-25511",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "url": "https://cube001.atlassian.net/browse/INC-25511"
+    },
     {
       "key": "INC-25510",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75126",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Alert",
       "labels": [],
@@ -29,13 +465,15 @@
     {
       "key": "INC-25508",
       "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Raemon Dela Pena",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "url": "https://cube001.atlassian.net/browse/INC-25508"
     },
     {
@@ -89,13 +527,13 @@
     {
       "key": "INC-25503",
       "summary": "L2 Escalation | CUBE ODEN (Production) Octave Ventures (Beat Capital) Case# 00017390",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Nazir Ahmed",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "url": "https://cube001.atlassian.net/browse/INC-25503"
     },
     {
@@ -315,7 +753,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "url": "https://cube001.atlassian.net/browse/INC-25485"
     },
     {
@@ -605,7 +1043,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "url": "https://cube001.atlassian.net/browse/INC-25461"
     },
     {
@@ -962,7 +1400,7 @@
         "RegInsight"
       ],
       "created": "2026-11-13",
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "url": "https://cube001.atlassian.net/browse/INC-25433"
     },
     {
@@ -3255,7 +3693,7 @@
         "RegControl"
       ],
       "created": "2026-11-12",
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "url": "https://cube001.atlassian.net/browse/INC-25246"
     },
     {
@@ -50783,133 +51221,6 @@
       "created": "2026-10-15",
       "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-21417"
-    },
-    {
-      "key": "INC-21416",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11711",
-      "status": "Closed",
-      "assignee": "Andrei Item",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-15",
-      "updated": "2026-10-15",
-      "url": "https://cube001.atlassian.net/browse/INC-21416"
-    },
-    {
-      "key": "INC-21415",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D3] Functions - Pod not ready",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-15",
-      "updated": "2026-10-15",
-      "url": "https://cube001.atlassian.net/browse/INC-21415"
-    },
-    {
-      "key": "INC-21414",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-15",
-      "updated": "2026-10-27",
-      "url": "https://cube001.atlassian.net/browse/INC-21414"
-    },
-    {
-      "key": "INC-21413",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-15",
-      "updated": "2026-10-15",
-      "url": "https://cube001.atlassian.net/browse/INC-21413"
-    },
-    {
-      "key": "INC-21412",
-      "summary": "October-2026: Install latest patches on CUBE-PATCH02 - CONTINUATION",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "Evergreen_Template"
-      ],
-      "created": "2026-10-15",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21412"
-    },
-    {
-      "key": "INC-21411",
-      "summary": "Veeam SJP Daily Offsite - SJPPROD-CS5",
-      "status": "Completed",
-      "assignee": "Mayur Patel",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "Daily-Checks"
-      ],
-      "created": "2026-10-15",
-      "updated": "2026-10-29",
-      "url": "https://cube001.atlassian.net/browse/INC-21411"
-    },
-    {
-      "key": "INC-21410",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Closed",
-      "assignee": "Raemon Dela Pena",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-15",
-      "updated": "2026-10-15",
-      "url": "https://cube001.atlassian.net/browse/INC-21410"
-    },
-    {
-      "key": "INC-21409",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21409"
-    },
-    {
-      "key": "INC-21408",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21408"
-    },
-    {
-      "key": "INC-21407",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-14",
-      "updated": "2026-10-14",
-      "url": "https://cube001.atlassian.net/browse/INC-21407"
     }
   ]
 }
