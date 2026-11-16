@@ -1,8 +1,156 @@
 {
-  "updated": "2026-11-16T13:34:13.616366Z",
-  "total": 36,
+  "updated": "2026-11-16T23:00:14.810865Z",
+  "total": 37,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=315",
   "items": [
+    {
+      "key": "CPN-2003",
+      "summary": "Database Rationalisation Q4 2026",
+      "status": "Build & Test",
+      "assignee": "Yinka Shoge",
+      "duedate": "2026-12-31",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2003",
+      "panels": [
+        {
+          "type": "info",
+          "text": "DRP Migration Update  DEV : Fully migrated to SQL MI  TEST : All databases migrated to new set of Servers and hosted on SQL SERVER 2022 Blocker : TEST SQL MI set up blocked by Network/firewall access needed for MI Link to reach on-prem servers over specific ports.  [CPDEVO-5536] Allow Ports 5022 & 11000-11999 on drp-test-uks-sqlmi Subnet PRODUCTION : Physical servers: CUBEPROD1SQL10, CUBEPROD1SQL11, CUBEAZPRD1SQL02 and CUBEPROD1SQL12 SQL SERVER 2022 installed  New set of physical servers added to the existing Windows failover cluster and in the AlwaysOn Availability Group but no databases are hosted yet Outstanding Items  Production:  Databases yet to be restored to new database servers  SQL MI yet to be provisioned  TEST: Blocked because the required firewall and NSG rules are not yet in place to allow communication between the on-premises SQL Servers and Azure SQL Managed Instance. outbound 5022 to your on-prem range inbound 5022 and 11000-11999 from it RGP SQL MI:  Create Jira tickets for cloud engineering to provision   SQL MI configuration for UAT\\PROD builds Data Compression : Customer production database compress. From 2.8 TB space now 750 GB including TLogs     DRP PROD:  Begin SQL Server installations on the new Production servers. Blocking Monitoring:  Extend rollout to other servers and explore integration with New Relic. CDC:  Continue reviewing the RGP CDC configuration guide to standardise scripts and processes, with Obligations to follow. Compression:  RGP Production data and index compression on 7\u20138 November. SQL MI Security : Working  with IDAM team to agree database permissions and establish the post-deployment security and access management process for new SQL Managed Instances.  Q4 planning to be carried out. New tasks to be added and existing tasks moved from other database rationalisation initiatives."
+        }
+      ]
+    },
+    {
+      "key": "CPN-2156",
+      "summary": "Knowledge - MCP v1",
+      "status": "Build & Test",
+      "assignee": "Mohammad Mirzapour",
+      "duedate": "",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "D&AI",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2156",
+      "panels": []
+    },
+    {
+      "key": "CPN-2277",
+      "summary": "SMBC - Phase 1",
+      "status": "Build & Test",
+      "assignee": "Shwetha Shantharam",
+      "duedate": "2026-11-03",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "Consumer",
+        "Content",
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-2277",
+      "panels": []
+    },
+    {
+      "key": "CPN-676",
+      "summary": "CUBE Datacenter Exit",
+      "status": "Build & Test",
+      "assignee": "Dan Palmer",
+      "duedate": "2027-06-30",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-676",
+      "panels": [
+        {
+          "type": "info",
+          "text": "The GoAnywhere VM has been migrated to Azure and connectivity is being configured. It will be brought up with a different name to the live on prem VM in order to test connectivity. New DNS entries and IP addresses are required. Communications will need to be sent to clients to inform them of the new details. The DR Password State VM has been switched to Azure and a failover test is to be carried out. Migration of the TeamCity build servers commenced 06/11. Legacy Enterprise and Content infrastructure has being shut down. The Ontology database was migrated to Azure and the backup solution for this is now in place, testing of restore is in progress. New VMs for Domain Controllers have been created, these are being set up with required software and firewalls rules created. Non-Prod jump boxes have been recreated and required software can be installed. The revised target to have them available for use is 20/11. Scoping and design work for Cloudflare connectors is progressing. Dataedo solution may be moved to a SaaS solution in Jan '27. Need to confirm with Sean Taylor. Azure hybrid extractor solution is being built, this will replace the CUBEPOCSCR cluster."
+        }
+      ]
+    },
+    {
+      "key": "CPN-1317",
+      "summary": "Enterprise in the cloud - Phase 3",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "cloud",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1317",
+      "panels": [
+        {
+          "type": "info",
+          "text": "16/11/26 Database pipelines have been completed in GitHub and tested in all environments. Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Compression has been implemented in UAT and Production. Failover between SQL VMs and SQL MI has been tested with Book issues resolved. The failover process has been documented ready for UAT and Production failovers. Compression and data deletion need to be completed in Prep. SQL MI is being set up for UAT with UAT migration planned for either 21 or 28 Nov and Prod 5 or 12 Dec. Initial BCP/DR testing has been carried out and a format DR test is planned to take place by 20/11."
+        }
+      ]
+    },
+    {
+      "key": "CPN-196",
+      "summary": "Content in Cloud",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-10-30",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "PlanningFlag",
+        "azure_migration",
+        "cloud",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-196",
+      "panels": [
+        {
+          "type": "info",
+          "text": "16/11/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration has been completed and all config changes completed. Entra authentication is in use. Test migration is planned to take place 24/11, further planning is required for Production migration. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
+        }
+      ]
+    },
+    {
+      "key": "CPN-610",
+      "summary": "GitHub Migration",
+      "status": "Build & Test",
+      "assignee": "Alistair McPherson",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "consumer",
+        "content",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-610",
+      "panels": [
+        {
+          "type": "info",
+          "text": "16/11/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex and 4CRisk migrations have been completed. Remaining Acin repos need pre migration work to be completed so they can be migrated sucesfully. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical, High and Medium security vulnerabilities has been enabled. Blocking of Low is scheduled for 25/11."
+        }
+      ]
+    },
+    {
+      "key": "CPN-989",
+      "summary": "Acin migration to CUBE Azure",
+      "status": "Planning",
+      "assignee": "Alistair McPherson",
+      "duedate": "",
+      "reviewed": "2026-11-16",
+      "labels": [
+        "Infra",
+        "Infratbd",
+        "infrastructure"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-989",
+      "panels": [
+        {
+          "type": "info",
+          "text": "16/11/26     Review of documentation and scoping being carried out."
+        }
+      ]
+    },
     {
       "key": "CPN-1722",
       "summary": "Migrate CUBEDM Cluster",
@@ -96,24 +244,6 @@
       ]
     },
     {
-      "key": "CPN-676",
-      "summary": "CUBE Datacenter Exit",
-      "status": "Build & Test",
-      "assignee": "Dan Palmer",
-      "duedate": "2027-06-30",
-      "reviewed": "2026-11-15",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-676",
-      "panels": [
-        {
-          "type": "info",
-          "text": "The GoAnywhere VM has been migrated to Azure and connectivity is being configured. It will be brought up with a different name to the live on prem VM in order to test connectivity. New DNS entries and IP addresses are required. Communications will need to be sent to clients to inform them of the new details. The DR Password State VM is due to be switched to Azure 09/11. Migration of the TeamCity build servers commenced 06/11. Legacy Enterprise and Content infrastructure is being shut down. The Ontology database was migrated to Azure and the backup solution for this is now in place. New VMs for Domain Controllers have been created, these are being set up with required software and firewalls rules created. Non-Prod jump boxes have been created ready for software to be installed. The target to have them available for use is 13/11. Scoping and design work for Cloudflare connectors is progressing. Dataedo solution may be moved to a SaaS solution in Jan '27. Need to confirm with Sean Taylor. Azure hybrid extractor solution is being built, this will replace the CUBEPOCSCR cluster."
-        }
-      ]
-    },
-    {
       "key": "CPN-930",
       "summary": "Cabot - Sunset of Documentum",
       "status": "Scoping",
@@ -166,25 +296,6 @@
       "panels": []
     },
     {
-      "key": "CPN-1317",
-      "summary": "Enterprise in the cloud - Phase 3",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-11-13",
-      "labels": [
-        "cloud",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1317",
-      "panels": [
-        {
-          "type": "info",
-          "text": "09/11/26 Database pipelines have been completed in GitHub and tested in environments up to Test. Minor changes are required following the most recent UAT release. Compression of the large tables in Enterprise has reduced data volumes and data files have been compressed. Compression has been implemented in UAT and Production. Failover between SQL VMs and SQL MI has been tested with Book issues resolved. The failover process has been documented ready for UAT and Production failovers. Planning for BCP/DR testing and execution of testing is to be completed by 13/11."
-        }
-      ]
-    },
-    {
       "key": "CPN-2231",
       "summary": "Platform  - Urgent Support Q4 2026",
       "status": "Build & Test",
@@ -227,46 +338,6 @@
       "panels": []
     },
     {
-      "key": "CPN-2003",
-      "summary": "Database Rationalisation Q4 2026",
-      "status": "Planning",
-      "assignee": "Yinka Shoge",
-      "duedate": "2026-12-31",
-      "reviewed": "2026-11-09",
-      "labels": [
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2003",
-      "panels": [
-        {
-          "type": "info",
-          "text": "DRP Migration Update  DEV : Fully migrated to SQL MI  TEST : All databases migrated to new set of Servers and hosted on SQL SERVER 2022 Blocker : TEST SQL MI set up blocked by Network/firewall access needed for MI Link to reach on-prem servers over specific ports.  [CPDEVO-5536] Allow Ports 5022 & 11000-11999 on drp-test-uks-sqlmi Subnet PRODUCTION : Physical servers: CUBEPROD1SQL10, CUBEPROD1SQL11, CUBEAZPRD1SQL02 and CUBEPROD1SQL12 SQL SERVER 2022 installed  New set of physical servers added to the existing Windows failover cluster and in the AlwaysOn Availability Group but no databases are hosted yet Outstanding Items  Production:  Databases yet to be restored to new database servers  SQL MI yet to be provisioned  TEST: Blocked because the required firewall and NSG rules are not yet in place to allow communication between the on-premises SQL Servers and Azure SQL Managed Instance. outbound 5022 to your on-prem range inbound 5022 and 11000-11999 from it RGP SQL MI:  Create Jira tickets for cloud engineering to provision   SQL MI configuration for UAT\\PROD builds Data Compression : Customer production database compress. From 2.8 TB space now 750 GB including TLogs     DRP PROD:  Begin SQL Server installations on the new Production servers. Blocking Monitoring:  Extend rollout to other servers and explore integration with New Relic. CDC:  Continue reviewing the RGP CDC configuration guide to standardise scripts and processes, with Obligations to follow. Compression:  RGP Production data and index compression on 7\u20138 November. SQL MI Security : Working  with IDAM team to agree database permissions and establish the post-deployment security and access management process for new SQL Managed Instances.  Q4 planning to be carried out. New tasks to be added and existing tasks moved from other database rationalisation initiatives."
-        }
-      ]
-    },
-    {
-      "key": "CPN-196",
-      "summary": "Content in Cloud",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-10-30",
-      "reviewed": "2026-11-09",
-      "labels": [
-        "PlanningFlag",
-        "azure_migration",
-        "cloud",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-196",
-      "panels": [
-        {
-          "type": "info",
-          "text": "09/11/26    Dev, Test and Prod environments are provisioned and live in Azure. SQL MI for Content Dev and Test have been provisioned. Dev SQL migration has been completed with all necessary config and access changes completed. Further planning is required for Test and Production migrations. On prem Prod1 SQL servers need to be upgraded to be compatible with SQL MI Link. New nodes to be created and added to cluster. A new Azure SQL database is also required to be compatible with running SQL MI Link in Production."
-        }
-      ]
-    },
-    {
       "key": "CPN-689",
       "summary": "Developer Self Service",
       "status": "Build & Test",
@@ -299,26 +370,6 @@
         {
           "type": "info",
           "text": "09/11/26 Work on migration taking place now to be completed for the end of the year with migration due to complete by the end of January."
-        }
-      ]
-    },
-    {
-      "key": "CPN-989",
-      "summary": "Acin migration to CUBE Azure",
-      "status": "Planning",
-      "assignee": "Alistair McPherson",
-      "duedate": "",
-      "reviewed": "2026-11-09",
-      "labels": [
-        "Infra",
-        "Infratbd",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-989",
-      "panels": [
-        {
-          "type": "info",
-          "text": "02/03/26     Discussed with Graeme and Giuseppe. The billing for the CSP that Acin use can be switched over to Cube. Migrating Acin from the CSP to a Cube subscription and MACC would be dependent on having ISO compliance as Acin is already ISO compliant. Migration would therefor likely be H2 2026 or in 2027."
         }
       ]
     },
@@ -427,40 +478,6 @@
         "infrastructure"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2256",
-      "panels": []
-    },
-    {
-      "key": "CPN-610",
-      "summary": "GitHub Migration",
-      "status": "Build & Test",
-      "assignee": "Alistair McPherson",
-      "duedate": "2026-11-30",
-      "reviewed": "2026-11-08",
-      "labels": [
-        "consumer",
-        "content",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-610",
-      "panels": [
-        {
-          "type": "info",
-          "text": "02/11/26 All CUBE repos have been migrated to GHE and pipelines relinked to use GHE. Kodex migration has been completed. Remaining Acin repos need to be classified into migrate or archive for migration to take place. 4CRisk repos have been migrated and post migration issues resolved. SearchPortal is a large repo requiring direction from 4CRisk. The Golden Pipeline and AI Skills have been created and documented. Self migration model has been adopted with the engineering teams to migrate pipelines themselves with support from the team. Blocking of Critical and High security vulnerabilities has been enabled. Blocking of Medium is scheduled for 28/10 and Low for 25/11."
-        }
-      ]
-    },
-    {
-      "key": "CPN-2156",
-      "summary": "Knowledge - MCP v1",
-      "status": "Build & Test",
-      "assignee": "Malcolm Brown",
-      "duedate": "",
-      "reviewed": "2026-11-05",
-      "labels": [
-        "D&AI",
-        "infrastructure"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-2156",
       "panels": []
     },
     {
