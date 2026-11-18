@@ -1,7 +1,31 @@
 {
-  "updated": "2026-11-17T22:29:37.655211Z",
-  "total": 4318,
+  "updated": "2026-11-18T03:49:26.665534Z",
+  "total": 4301,
   "items": [
+    {
+      "key": "INC-26088",
+      "summary": "Patching Error - CR-27662 - Ivanti Secure Access Client (22.8R7) (Manual Upload Required)",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26088"
+    },
+    {
+      "key": "INC-26087",
+      "summary": "CUBEPRODSQL SQL Agent Status Checking Report - FAILED ",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-17",
+      "updated": "2026-11-17",
+      "url": "https://cube001.atlassian.net/browse/INC-26087"
+    },
     {
       "key": "INC-26086",
       "summary": "CUBE ODEN - ARA INSURANCE SERVICES | Product: Prod Oden | Library Error: 500 Internal Server Error",
@@ -6308,13 +6332,15 @@
     {
       "key": "INC-25578",
       "summary": "CRITICAL - SSO - PROD -  CUBEDMIIS - Storage Utilisation > 80% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-14",
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-25578"
     },
     {
@@ -50672,14 +50698,14 @@
       "key": "INC-21987",
       "summary": " Patching Error - CR-27438 - Failed to patch OPS-KMP",
       "status": "In Progress",
-      "assignee": "Faaris Ali",
+      "assignee": "Niel Singo",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "patching"
       ],
       "created": "2026-10-21",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-21987"
     },
     {
@@ -53237,245 +53263,6 @@
       "created": "2026-10-19",
       "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-21785"
-    },
-    {
-      "key": "INC-21784",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21784"
-    },
-    {
-      "key": "INC-21783",
-      "summary": "critical - PRDSM - Insight Pipeline Parser Throughput below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21783"
-    },
-    {
-      "key": "INC-21782",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11803",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21782"
-    },
-    {
-      "key": "INC-21781",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21781"
-    },
-    {
-      "key": "INC-21780",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21780"
-    },
-    {
-      "key": "INC-21779",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21779"
-    },
-    {
-      "key": "INC-21778",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "Cancelled",
-      "assignee": "Unassigned",
-      "priority": "P3",
-      "issuetype": "Escalation",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21778"
-    },
-    {
-      "key": "INC-21777",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "RegInsight",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21777"
-    },
-    {
-      "key": "INC-21776",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21776"
-    },
-    {
-      "key": "INC-21775",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21775"
-    },
-    {
-      "key": "INC-21774",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21774"
-    },
-    {
-      "key": "INC-21773",
-      "summary": "[critical] DBMGMT - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21773"
-    },
-    {
-      "key": "INC-21772",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21772"
-    },
-    {
-      "key": "INC-21771",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21771"
-    },
-    {
-      "key": "INC-21770",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21770"
-    },
-    {
-      "key": "INC-21769",
-      "summary": "SQL Server Alert System: 'RegInsight Pipeline Monitoring' occurred on \\\\CUBEPROD1SQL04",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [
-        "rovo-summary"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21769"
-    },
-    {
-      "key": "INC-21768",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-18",
-      "updated": "2026-10-18",
-      "url": "https://cube001.atlassian.net/browse/INC-21768"
-    },
-    {
-      "key": "INC-21767",
-      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #11800",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-18",
-      "updated": "2026-10-18",
-      "url": "https://cube001.atlassian.net/browse/INC-21767"
-    },
-    {
-      "key": "INC-21766",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-18",
-      "updated": "2026-10-18",
-      "url": "https://cube001.atlassian.net/browse/INC-21766"
     }
   ]
 }
