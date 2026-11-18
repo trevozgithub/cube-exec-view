@@ -1,7 +1,550 @@
 {
-  "updated": "2026-11-18T03:49:26.665534Z",
-  "total": 4301,
+  "updated": "2026-11-18T12:20:56.882558Z",
+  "total": 4317,
   "items": [
+    {
+      "key": "INC-26132",
+      "summary": "CRITICAL - Enterprise - UAT - RegBook Migration sync failed (1 hour)",
+      "status": "To Do",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26132"
+    },
+    {
+      "key": "INC-26131",
+      "summary": "CRITICAL - Enterprise - UAT - RegBook Migration sync failed (1 hour)",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26131"
+    },
+    {
+      "key": "INC-26130",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26130"
+    },
+    {
+      "key": "INC-26129",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "In Progress",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26129"
+    },
+    {
+      "key": "INC-26128",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26128"
+    },
+    {
+      "key": "INC-26127",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "In Progress",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26127"
+    },
+    {
+      "key": "INC-26126",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26126"
+    },
+    {
+      "key": "INC-26125",
+      "summary": "[NR] editorial-tools-api-uat query result is > 3.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26125"
+    },
+    {
+      "key": "INC-26124",
+      "summary": "[NR] editorial-tools-api-uat query result is > 3.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Completed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26124"
+    },
+    {
+      "key": "INC-26123",
+      "summary": "[NR] editorial-tools-api-uat query result is > 3.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26123"
+    },
+    {
+      "key": "INC-26122",
+      "summary": "CRITICAL - Enterprise - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26122"
+    },
+    {
+      "key": "INC-26121",
+      "summary": "CRITICAL - Enterprise - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26121"
+    },
+    {
+      "key": "INC-26120",
+      "summary": "CRITICAL - Enterprise - critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "In Progress",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26120"
+    },
+    {
+      "key": "INC-26119",
+      "summary": "CRITICAL - Enterprise - critical - UAT - Error 500 in RegInsightsSearch",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26119"
+    },
+    {
+      "key": "INC-26118",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26118"
+    },
+    {
+      "key": "INC-26117",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26117"
+    },
+    {
+      "key": "INC-26116",
+      "summary": "CRITICAL - Enterprise - PROD - RegBook Migration sync failed (1 hour)",
+      "status": "In Progress",
+      "assignee": "Asanka Abeysiriwardena",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26116"
+    },
+    {
+      "key": "INC-26115",
+      "summary": "CRITICAL - Enterprise - PROD - RegBook Migration sync failed (1 hour)",
+      "status": "Actioned",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26115"
+    },
+    {
+      "key": "INC-26114",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26114"
+    },
+    {
+      "key": "INC-26113",
+      "summary": "CRITICAL - CLOUD - PROD - k8s:shared-prod-uksouth-aks:node:aks-intel01-55088272-vmss00006z query result is > 90.0 for 5 minutes on 'Node allocatable cpu utilization is high'",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26113"
+    },
+    {
+      "key": "INC-26112",
+      "summary": "CRITICAL - CLOUD - PROD - k8s:shared-prod-uksouth-aks:node:aks-intel01-55088272-vmss00006z query result is > 90.0 for 5 minutes on 'Node allocatable cpu utilization is high'",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26112"
+    },
+    {
+      "key": "INC-26111",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26111"
+    },
+    {
+      "key": "INC-26110",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26110"
+    },
+    {
+      "key": "INC-26109",
+      "summary": "CRITICAL - regconnect-prod-worker-29806320 query result is > 0.0 for 2 minutes on 'RegConnect-Prod - Worker CronJob failed pods'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26109"
+    },
+    {
+      "key": "INC-26108",
+      "summary": "CRITICAL - Debezium connector task failed on PROD stateful AKS",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26108"
+    },
+    {
+      "key": "INC-26107",
+      "summary": "CRITICAL - regconnect-prod-worker-29806320 query result is > 0.0 for 2 minutes on 'RegConnect-Prod - Worker CronJob failed pods'",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26107"
+    },
+    {
+      "key": "INC-26106",
+      "summary": "P3-TEST - RDI | TEST SUMMARY",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26106"
+    },
+    {
+      "key": "INC-26105",
+      "summary": "CRITICAL - [TEST] Memory Used % is more than 90 for at least 2 minutes on 'Some-Entity'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26105"
+    },
+    {
+      "key": "INC-26104",
+      "summary": "[TEST] Memory Used % is more than 90 for at least 2 minutes on 'Some-Entity'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26104"
+    },
+    {
+      "key": "INC-26103",
+      "summary": "CRITICAL - [TEST] regconnect-prod-worker-29806320 query result is > 0.0 for 2 minutes on 'RegConnect-Prod - Worker CronJob failed pods'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26103"
+    },
+    {
+      "key": "INC-26102",
+      "summary": "CRITICAL - [TEST] Memory Used % is more than 90 for at least 2 minutes on 'Some-Entity'",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26102"
+    },
+    {
+      "key": "INC-26101",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26101"
+    },
+    {
+      "key": "INC-26100",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Michael Angelo Dorio",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26100"
+    },
+    {
+      "key": "INC-26099",
+      "summary": "CRITICAL - Enterprise -  CUBEPROD1SQL04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26099"
+    },
+    {
+      "key": "INC-26098",
+      "summary": "CRITICAL - Enterprise -  CUBEPROD1SQL04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26098"
+    },
+    {
+      "key": "INC-26097",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Completed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26097"
+    },
+    {
+      "key": "INC-26096",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26096"
+    },
+    {
+      "key": "INC-26095",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26095"
+    },
+    {
+      "key": "INC-26094",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26094"
+    },
+    {
+      "key": "INC-26093",
+      "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26093"
+    },
+    {
+      "key": "INC-26092",
+      "summary": "No backlog data showing in 30/60-minute views \u2014 for validation",
+      "status": "In Progress",
+      "assignee": "Manish Shivanandhan",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26092"
+    },
+    {
+      "key": "INC-26091",
+      "summary": "Jira alerts not creating",
+      "status": "Completed",
+      "assignee": "Stefan Kostiw",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts-From-Staff",
+        "PROD",
+        "alerts"
+      ],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26091"
+    },
+    {
+      "key": "INC-26090",
+      "summary": "Patching Error - CR-27671 - The wait operation timed out.",
+      "status": "In Progress",
+      "assignee": "Mayur Patel",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26090"
+    },
+    {
+      "key": "INC-26089",
+      "summary": "RM Export Function Taking Too Long and Failing to Download Excel",
+      "status": "In Progress",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-18",
+      "updated": "2026-11-18",
+      "url": "https://cube001.atlassian.net/browse/INC-26089"
+    },
     {
       "key": "INC-26088",
       "summary": "Patching Error - CR-27662 - Ivanti Secure Access Client (22.8R7) (Manual Upload Required)",
@@ -17,13 +560,13 @@
     {
       "key": "INC-26087",
       "summary": "CUBEPRODSQL SQL Agent Status Checking Report - FAILED ",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Yinka Shoge",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-17",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-26087"
     },
     {
@@ -595,7 +1138,7 @@
     },
     {
       "key": "INC-26043",
-      "summary": "CRITICAL - SSO - PROD -  CUBEPROD1SQL05 - Storage Utilisation > 80% for 30 Minutes",
+      "summary": "CRITICAL - PROD -  CUBEPROD1SQL05 - Storage Utilisation > 80% for 30 Minutes",
       "status": "In Progress",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
@@ -606,12 +1149,12 @@
         "SSO"
       ],
       "created": "2026-11-17",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-26043"
     },
     {
       "key": "INC-26042",
-      "summary": "CRITICAL - SSO - PROD -  CUBEPROD1SQL03 - Storage Utilisation > 80% for 30 Minutes",
+      "summary": "CRITICAL -  PROD -  CUBEPROD1SQL03 - Storage Utilisation > 80% for 30 Minutes",
       "status": "In Progress",
       "assignee": "Nicole Tan-Flores",
       "priority": "P3",
@@ -622,7 +1165,7 @@
         "SSO"
       ],
       "created": "2026-11-17",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-26042"
     },
     {
@@ -1400,7 +1943,7 @@
         "PROD"
       ],
       "created": "2026-11-16",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-25980"
     },
     {
@@ -1552,7 +2095,7 @@
         "PROD"
       ],
       "created": "2026-11-16",
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-25968"
     },
     {
@@ -1859,12 +2402,12 @@
       "key": "INC-25944",
       "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12463",
       "status": "In Progress",
-      "assignee": "Nicole Tan-Flores",
+      "assignee": "Sivachidambaram Srinivasan",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-16",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-25944"
     },
     {
@@ -9926,7 +10469,7 @@
         "sql-server"
       ],
       "created": "2026-11-12",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-25285"
     },
     {
@@ -11572,7 +12115,7 @@
         "Veeam"
       ],
       "created": "2026-11-11",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-25159"
     },
     {
@@ -15284,7 +15827,7 @@
       "key": "INC-24859",
       "summary": "P2 ESCALATION | CUBE ODEN (Production) | GEICO: 502 Error When Creating a Notice | Case: 00017303",
       "status": "In Progress",
-      "assignee": "Nazir Ahmed",
+      "assignee": "Dadabasha Shaik",
       "priority": "P2",
       "issuetype": "Service Incident",
       "labels": [
@@ -15292,7 +15835,7 @@
         "PROD"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-24859"
     },
     {
@@ -15928,7 +16471,7 @@
         "ODEN"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "url": "https://cube001.atlassian.net/browse/INC-24808"
     },
     {
@@ -52913,356 +53456,6 @@
       "created": "2026-10-19",
       "updated": "2026-10-19",
       "url": "https://cube001.atlassian.net/browse/INC-21813"
-    },
-    {
-      "key": "INC-21812",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21812"
-    },
-    {
-      "key": "INC-21811",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21811"
-    },
-    {
-      "key": "INC-21810",
-      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21810"
-    },
-    {
-      "key": "INC-21809",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21809"
-    },
-    {
-      "key": "INC-21808",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21808"
-    },
-    {
-      "key": "INC-21807",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "AKS",
-        "PROD",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-21807"
-    },
-    {
-      "key": "INC-21806",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D5] Functions - Container restart spike",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21806"
-    },
-    {
-      "key": "INC-21805",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21805"
-    },
-    {
-      "key": "INC-21804",
-      "summary": "[critical] CUBEUAT2APP01 - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21804"
-    },
-    {
-      "key": "INC-21803",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21803"
-    },
-    {
-      "key": "INC-21802",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Completed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "PROD",
-        "RegInsight",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-31",
-      "url": "https://cube001.atlassian.net/browse/INC-21802"
-    },
-    {
-      "key": "INC-21801",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Actioned",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21801"
-    },
-    {
-      "key": "INC-21800",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21800"
-    },
-    {
-      "key": "INC-21799",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21799"
-    },
-    {
-      "key": "INC-21798",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21798"
-    },
-    {
-      "key": "INC-21797",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21797"
-    },
-    {
-      "key": "INC-21796",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #72670",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21796"
-    },
-    {
-      "key": "INC-21795",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21795"
-    },
-    {
-      "key": "INC-21794",
-      "summary": "[critical] DBMGMT - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21794"
-    },
-    {
-      "key": "INC-21793",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21793"
-    },
-    {
-      "key": "INC-21792",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21792"
-    },
-    {
-      "key": "INC-21791",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21791"
-    },
-    {
-      "key": "INC-21790",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21790"
-    },
-    {
-      "key": "INC-21789",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21789"
-    },
-    {
-      "key": "INC-21788",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Completed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-19",
-      "updated": "2026-10-27",
-      "url": "https://cube001.atlassian.net/browse/INC-21788"
-    },
-    {
-      "key": "INC-21787",
-      "summary": "Intel Prod Content Ingestion Service logging errors",
-      "status": "Actioned",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21787"
-    },
-    {
-      "key": "INC-21786",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21786"
-    },
-    {
-      "key": "INC-21785",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-19",
-      "updated": "2026-10-19",
-      "url": "https://cube001.atlassian.net/browse/INC-21785"
     }
   ]
 }
