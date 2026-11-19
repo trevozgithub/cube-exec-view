@@ -1,8 +1,27 @@
 {
-  "updated": "2026-11-19T02:03:19.190705Z",
+  "updated": "2026-11-19T10:12:53.098277Z",
   "total": 32,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=183",
   "items": [
+    {
+      "key": "CPN-692",
+      "summary": "RegPlatform - Records Management Module",
+      "status": "Build & Test",
+      "assignee": "Beth Denham",
+      "duedate": "2026-11-13",
+      "reviewed": "2026-11-19",
+      "labels": [
+        "Consumer",
+        "consumer"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-692",
+      "panels": [
+        {
+          "type": "info",
+          "text": "Status 05/11:  This is scheduled to hit UAT on 26th of November - extended from the 13th because of data migration support needed from other teams"
+        }
+      ]
+    },
     {
       "key": "CPN-2301",
       "summary": "SMBC - Phase 2",
@@ -220,25 +239,6 @@
         {
           "type": "info",
           "text": "Status 05/11:  There is a single developer on this. Currently targeting year end"
-        }
-      ]
-    },
-    {
-      "key": "CPN-692",
-      "summary": "RegPlatform - Records Management Module",
-      "status": "Build & Test",
-      "assignee": "Beth Denham",
-      "duedate": "2026-11-13",
-      "reviewed": "2026-11-06",
-      "labels": [
-        "Consumer",
-        "consumer"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-692",
-      "panels": [
-        {
-          "type": "info",
-          "text": "Status 05/11:  This is scheduled to hit UAT on 13 Nov"
         }
       ]
     },
