@@ -1,7 +1,547 @@
 {
-  "updated": "2026-11-21T12:28:02.963937Z",
-  "total": 4136,
+  "updated": "2026-11-21T19:42:16.174488Z",
+  "total": 4123,
   "items": [
+    {
+      "key": "INC-26590",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26590"
+    },
+    {
+      "key": "INC-26589",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26589"
+    },
+    {
+      "key": "INC-26588",
+      "summary": "CRITICAL - Enterprise - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26588"
+    },
+    {
+      "key": "INC-26587",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26587"
+    },
+    {
+      "key": "INC-26586",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26586"
+    },
+    {
+      "key": "INC-26585",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26585"
+    },
+    {
+      "key": "INC-26584",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26584"
+    },
+    {
+      "key": "INC-26583",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26583"
+    },
+    {
+      "key": "INC-26582",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26582"
+    },
+    {
+      "key": "INC-26581",
+      "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 5.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts",
+        "Editorial-Tools",
+        "NewRelic"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26581"
+    },
+    {
+      "key": "INC-26580",
+      "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 5.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26580"
+    },
+    {
+      "key": "INC-26579",
+      "summary": "N/A -  { issueTitle }}",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26579"
+    },
+    {
+      "key": "INC-26578",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #73355",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26578"
+    },
+    {
+      "key": "INC-26577",
+      "summary": "Validator Service: No Insights Were Published in Last 60 Minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26577"
+    },
+    {
+      "key": "INC-26576",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75864",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26576"
+    },
+    {
+      "key": "INC-26575",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #73353",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26575"
+    },
+    {
+      "key": "INC-26574",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75863",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26574"
+    },
+    {
+      "key": "INC-26573",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Raemon Dela Pena",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26573"
+    },
+    {
+      "key": "INC-26572",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75862",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26572"
+    },
+    {
+      "key": "INC-26571",
+      "summary": "[ALERT - Critical] cf-insight2bq-management reports no new insights on Azure for 45 minutes",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26571"
+    },
+    {
+      "key": "INC-26570",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75861",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26570"
+    },
+    {
+      "key": "INC-26569",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #73351",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26569"
+    },
+    {
+      "key": "INC-26568",
+      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #73351",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26568"
+    },
+    {
+      "key": "INC-26567",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26567"
+    },
+    {
+      "key": "INC-26566",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75860",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26566"
+    },
+    {
+      "key": "INC-26565",
+      "summary": "Signal lost for 30 minutes on 'RegInsight Extractor-Prod - Loss of Signal'",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26565"
+    },
+    {
+      "key": "INC-26564",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26564"
+    },
+    {
+      "key": "INC-26563",
+      "summary": "Signal lost for 30 minutes on 'RegInsight Extractor-Prod - Loss of Signal'",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26563"
+    },
+    {
+      "key": "INC-26562",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26562"
+    },
+    {
+      "key": "INC-26561",
+      "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26561"
+    },
+    {
+      "key": "INC-26560",
+      "summary": "No New insight for UAT & PROD for 1 hr.",
+      "status": "Completed",
+      "assignee": "Manish Shivanandhan",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts",
+        "PROD",
+        "RegInsight",
+        "UAT"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26560"
+    },
+    {
+      "key": "INC-26559",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75859",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26559"
+    },
+    {
+      "key": "INC-26558",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75858",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts",
+        "BrowserStack",
+        "RegInsight"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26558"
+    },
+    {
+      "key": "INC-26557",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Completed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts",
+        "Intel",
+        "NewRelic"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26557"
+    },
+    {
+      "key": "INC-26556",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75858",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26556"
+    },
+    {
+      "key": "INC-26555",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26555"
+    },
+    {
+      "key": "INC-26554",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26554"
+    },
+    {
+      "key": "INC-26553",
+      "summary": "[NR] editorial-tools-api-uat query result is > 10.0 for 10 minutes on 'UI API call failure %'",
+      "status": "In Progress",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts",
+        "Editorial-Tools",
+        "NewRelic"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26553"
+    },
+    {
+      "key": "INC-26552",
+      "summary": "[NR] editorial-tools-api-uat query result is > 10.0 for 10 minutes on 'UI API call failure %'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26552"
+    },
+    {
+      "key": "INC-26551",
+      "summary": "OPSVIEW - DR-VEEAMPRX03 Base - Additional Drives: E",
+      "status": "In Progress",
+      "assignee": "Dan Palmer",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7",
+        "Alerts",
+        "Opsview"
+      ],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26551"
+    },
+    {
+      "key": "INC-26550",
+      "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 5.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26550"
+    },
+    {
+      "key": "INC-26549",
+      "summary": "N/A -  { issueTitle }}",
+      "status": "Closed",
+      "assignee": "LJ Rendal",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-21",
+      "updated": "2026-11-21",
+      "url": "https://cube001.atlassian.net/browse/INC-26549"
+    },
     {
       "key": "INC-26548",
       "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
@@ -91,11 +631,13 @@
     {
       "key": "INC-26541",
       "summary": "CRITICAL - ENTERPRISE - UAT - Signal lost for 15 minutes on 'EiC UAT: Insight publish stopped (CustomerInsightRelEventFunction)'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-21",
       "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26541"
@@ -139,11 +681,13 @@
     {
       "key": "INC-26537",
       "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #75846",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-21",
       "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26537"
@@ -199,11 +743,13 @@
     {
       "key": "INC-26532",
       "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-21",
       "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26532"
@@ -223,11 +769,13 @@
     {
       "key": "INC-26530",
       "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 5.0 for 5 minutes on 'API latency p95 (s)'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-21",
       "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26530"
@@ -259,11 +807,13 @@
     {
       "key": "INC-26527",
       "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 2.0 for 5 minutes on 'UI API call failure %'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Andrei Item",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-21",
       "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26527"
@@ -331,11 +881,13 @@
     {
       "key": "INC-26521",
       "summary": "CRITICAL - ENTERPRISE - PROD - elasticinsightupdater-function-bdd49bbfb-shbmq query result is > 0.0 for 2 minutes on '[D3] Functions - Pod not ready'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Justin Andrei Magbuhat",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-21",
       "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26521"
@@ -1151,13 +1703,13 @@
     {
       "key": "INC-26456",
       "summary": "P3 - ODEN - PROD - NATL AMERICAN INSURANCE CO: Policy creation relevant record doesn't come up immediately | Case# 00017567",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Nazir Ahmed",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26456"
     },
     {
@@ -1950,13 +2502,15 @@
     {
       "key": "INC-26393",
       "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26393"
     },
     {
@@ -2741,7 +3295,7 @@
         "Editorial-Tools"
       ],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26330"
     },
     {
@@ -4356,7 +4910,7 @@
     {
       "key": "INC-26200",
       "summary": "CRITICAL - INTEL - PROD - [critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Narayani Ramakrishnan",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -5400,13 +5954,15 @@
     {
       "key": "INC-26120",
       "summary": "CRITICAL - Enterprise - critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-18",
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26120"
     },
     {
@@ -5817,13 +6373,16 @@
     {
       "key": "INC-26088",
       "summary": "Patching Error - CR-27662 - Ivanti Secure Access Client (22.8R7) (Manual Upload Required)",
-      "status": "To Do",
+      "status": "In Progress",
       "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7",
+        "Patching"
+      ],
       "created": "2026-11-18",
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-26088"
     },
     {
@@ -15737,29 +16296,30 @@
     {
       "key": "INC-25285",
       "summary": "Patching Error - CR-27660 - CUBEDEV1SQL03 \u2013 MSSQLSERVER service stopped (9+ days)",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
+        "Patching",
         "sql-server"
       ],
       "created": "2026-11-12",
-      "updated": "2026-11-18",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-25285"
     },
     {
       "key": "INC-25284",
       "summary": "Patching Error - CR-27660 -New Relic / Download blocked by firewall",
-      "status": "To Do",
-      "assignee": "Unassigned",
+      "status": "In Progress",
+      "assignee": "Mayur Patel",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
         "Azure"
       ],
       "created": "2026-11-12",
-      "updated": "2026-11-17",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-25284"
     },
     {
@@ -26157,7 +26717,7 @@
         "Veaam"
       ],
       "created": "2026-11-07",
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "url": "https://cube001.atlassian.net/browse/INC-24453"
     },
     {
@@ -50680,687 +51240,6 @@
       "created": "2026-10-22",
       "updated": "2026-10-22",
       "url": "https://cube001.atlassian.net/browse/INC-22465"
-    },
-    {
-      "key": "INC-22464",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22464"
-    },
-    {
-      "key": "INC-22463",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22463"
-    },
-    {
-      "key": "INC-22462",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #70496",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-10-23",
-      "url": "https://cube001.atlassian.net/browse/INC-22462"
-    },
-    {
-      "key": "INC-22461",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22461"
-    },
-    {
-      "key": "INC-22460",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #70496",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22460"
-    },
-    {
-      "key": "INC-22459",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'relationship-notifications'",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22459"
-    },
-    {
-      "key": "INC-22458",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22458"
-    },
-    {
-      "key": "INC-22457",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22457"
-    },
-    {
-      "key": "INC-22456",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "RegInsight",
-        "alerts",
-        "newrelic"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22456"
-    },
-    {
-      "key": "INC-22455",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22455"
-    },
-    {
-      "key": "INC-22454",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22454"
-    },
-    {
-      "key": "INC-22453",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22453"
-    },
-    {
-      "key": "INC-22452",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22452"
-    },
-    {
-      "key": "INC-22451",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22451"
-    },
-    {
-      "key": "INC-22450",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22450"
-    },
-    {
-      "key": "INC-22449",
-      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22449"
-    },
-    {
-      "key": "INC-22448",
-      "summary": "[critical] CUBEAZPRD1RDI05 - Storage Utilisation > 80% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22448"
-    },
-    {
-      "key": "INC-22447",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22447"
-    },
-    {
-      "key": "INC-22446",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22446"
-    },
-    {
-      "key": "INC-22445",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-28",
-      "url": "https://cube001.atlassian.net/browse/INC-22445"
-    },
-    {
-      "key": "INC-22444",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22444"
-    },
-    {
-      "key": "INC-22443",
-      "summary": "critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22443"
-    },
-    {
-      "key": "INC-22442",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22442"
-    },
-    {
-      "key": "INC-22441",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22441"
-    },
-    {
-      "key": "INC-22440",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22440"
-    },
-    {
-      "key": "INC-22439",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22439"
-    },
-    {
-      "key": "INC-22438",
-      "summary": "[critical] CUBEPROD2APP02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22438"
-    },
-    {
-      "key": "INC-22437",
-      "summary": "Outlook Web sign-in from Myanmar reusing VPN-started session",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-11-08",
-      "url": "https://cube001.atlassian.net/browse/INC-22437"
-    },
-    {
-      "key": "INC-22436",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-10-23",
-      "url": "https://cube001.atlassian.net/browse/INC-22436"
-    },
-    {
-      "key": "INC-22435",
-      "summary": "Outlook Web sign-in from Myanmar reusing VPN-started session",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22435"
-    },
-    {
-      "key": "INC-22434",
-      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22434"
-    },
-    {
-      "key": "INC-22433",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Completed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-10-23",
-      "url": "https://cube001.atlassian.net/browse/INC-22433"
-    },
-    {
-      "key": "INC-22432",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2APP02",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22432"
-    },
-    {
-      "key": "INC-22431",
-      "summary": "PROBLEM: Windows - Check Second NIC is CRITICAL on host CUBEPROD2APP02",
-      "status": "Actioned",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22431"
-    },
-    {
-      "key": "INC-22430",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22430"
-    },
-    {
-      "key": "INC-22429",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22429"
-    },
-    {
-      "key": "INC-22428",
-      "summary": "critical - UAT - Error 500 in RegInsightsSearch",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22428"
-    },
-    {
-      "key": "INC-22427",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22427"
-    },
-    {
-      "key": "INC-22426",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22426"
-    },
-    {
-      "key": "INC-22425",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22425"
-    },
-    {
-      "key": "INC-22424",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22424"
-    },
-    {
-      "key": "INC-22423",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22423"
-    },
-    {
-      "key": "INC-22422",
-      "summary": "CUBEUAT2APP01 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22422"
-    },
-    {
-      "key": "INC-22421",
-      "summary": "critical - PROD - Error 500 in RegInsightsSearch",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22421"
-    },
-    {
-      "key": "INC-22420",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22420"
-    },
-    {
-      "key": "INC-22419",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22419"
-    },
-    {
-      "key": "INC-22418",
-      "summary": "PROBLEM: Microsoft SQL - Active transactions: hangfire_compliance_prod is CRITICAL on host CUBEPRODSQL",
-      "status": "Completed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-10-23",
-      "url": "https://cube001.atlassian.net/browse/INC-22418"
-    },
-    {
-      "key": "INC-22417",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22417"
-    },
-    {
-      "key": "INC-22416",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPRODINX",
-      "status": "Completed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7",
-        "alerts",
-        "opsview"
-      ],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22416"
-    },
-    {
-      "key": "INC-22415",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22415"
-    },
-    {
-      "key": "INC-22414",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPRODINX",
-      "status": "Actioned",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22414"
-    },
-    {
-      "key": "INC-22413",
-      "summary": "PROBLEM: Microsoft SQL - Active transactions: hangfire_compliance_prod is CRITICAL on host CUBEPRODSQL",
-      "status": "Actioned",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22413"
-    },
-    {
-      "key": "INC-22412",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "LJ Rendal",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22412"
-    },
-    {
-      "key": "INC-22411",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Justin Andrei Magbuhat",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-28",
-      "url": "https://cube001.atlassian.net/browse/INC-22411"
-    },
-    {
-      "key": "INC-22410",
-      "summary": "PROBLEM: Base - Additional Drives: K is CRITICAL on host CUBEAZPRD1SQL01",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-22",
-      "updated": "2026-10-22",
-      "url": "https://cube001.atlassian.net/browse/INC-22410"
     }
   ]
 }
