@@ -1,15 +1,52 @@
 {
-  "updated": "2026-11-23T09:11:37.836364Z",
+  "updated": "2026-11-23T21:28:09.221194Z",
   "total": 28,
   "jiraUrl": "https://cube001.atlassian.net/jira/plans/7/scenarios/7/timeline?vid=313",
   "items": [
+    {
+      "key": "CPN-132",
+      "summary": "Security - SSO/MFA - All Applications",
+      "status": "Build & Test",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-11-30",
+      "reviewed": "2026-11-23",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-132",
+      "panels": [
+        {
+          "type": "info",
+          "text": "23/11/2026"
+        },
+        {
+          "type": "info",
+          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
+        }
+      ]
+    },
+    {
+      "key": "CPN-1810",
+      "summary": "Board not involved in cyber",
+      "status": "Post Launch Review",
+      "assignee": "Helen O'Shea",
+      "duedate": "2026-09-30",
+      "reviewed": "2026-11-23",
+      "labels": [
+        "InfoSec",
+        "cye-cyber-audit"
+      ],
+      "url": "https://cube001.atlassian.net/browse/CPN-1810",
+      "panels": []
+    },
     {
       "key": "CPN-1808",
       "summary": "Lack of DLP strategy",
       "status": "Build & Test",
       "assignee": "Muhim Hussen",
       "duedate": "2026-12-31",
-      "reviewed": "2026-11-18",
+      "reviewed": "2026-11-23",
       "labels": [
         "InfoSec",
         "cye-cyber-audit"
@@ -23,7 +60,7 @@
       "status": "Build & Test",
       "assignee": "Helen O'Shea",
       "duedate": "2026-12-31",
-      "reviewed": "2026-11-18",
+      "reviewed": "2026-11-23",
       "labels": [
         "InfoSec",
         "cye-cyber-audit",
@@ -188,33 +225,6 @@
       "panels": []
     },
     {
-      "key": "CPN-132",
-      "summary": "Security - SSO/MFA - All Applications",
-      "status": "Build & Test",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-11-30",
-      "reviewed": "2026-10-14",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-132",
-      "panels": [
-        {
-          "type": "info",
-          "text": "14/10/2026"
-        },
-        {
-          "type": "info",
-          "text": "Opened ticket with SD re: Temporal SCIM  No SCIM on Azure DevOps / Sentinel One - have asked Tech Ops to do.    Marketing applications now have SSO applied.  Tracy Mack advised pendo and airfocus to be completed  Vanta needs to be updated but do not have the bandwidth to do Received full audit breakdown from Michael Collinson re: the SSO.  Will liase with Neil to see if anyone can take this forward as currently do not have the bandwidth to do this.  Summary Complete an audit of business systems to confirm if SSO and/or SCIM is enabled. Context This work supports  CPN-132 .     The team is reviewing business apps and platforms against a spreadsheet list to check whether SSO is enabled and whether SCIM has been provisioned.     Vanta is being used as the single source of truth for all applications. Acceptance criteria Identify all applications. Prioritise critical apps for SSO implementation. Assign app/system owners. Ensure SSO and MFA are applied as required. Keep Vanta updated as the single point of truth for all applications. Review the critical and high apps listed for SSO status. Update the list in Vanta. Work with Kyle in Australia to update Vanta and plan updates at a rate of 2 per week. Other information"
-        },
-        {
-          "type": "info",
-          "text": "02/06/2026 List updated in Vanta - eSentire / Zinq / DocuSign /  added Refreshed list sent to Mike and team Mike & team working on Sendgrid and Datadog MC working through the list   Veracode now on SSO - 25/03/2026   TS-41835 Updating Vanta as the single point of truth for all applications.  Working with Kyle (Australia) to update Vanta and work out plan to update 2 per week https://app.eu.vanta.com/c/cube.global/vendors/managed?vendorState=ACTIVE&quickView=ACTIVE Action this week: Identify all applications - still WIP Prioritise Critical Apps for SSO implementation  - critical Apps identified Assign App/System owners. - done Ensure SSO / MFA applied as required w/c 16/02 - SUMO Logic SEIM is now SSO enabled"
-        }
-      ]
-    },
-    {
       "key": "CPN-1807",
       "summary": "Insufficient SSDLC",
       "status": "Build & Test",
@@ -279,20 +289,6 @@
         "InfoSec"
       ],
       "url": "https://cube001.atlassian.net/browse/CPN-2220",
-      "panels": []
-    },
-    {
-      "key": "CPN-1810",
-      "summary": "Board not involved in cyber",
-      "status": "Post Launch Review",
-      "assignee": "Helen O'Shea",
-      "duedate": "2026-09-30",
-      "reviewed": "2026-09-18",
-      "labels": [
-        "InfoSec",
-        "cye-cyber-audit"
-      ],
-      "url": "https://cube001.atlassian.net/browse/CPN-1810",
       "panels": []
     },
     {
