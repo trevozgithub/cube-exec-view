@@ -1,7 +1,845 @@
 {
-  "updated": "2026-11-24T05:28:54.342837Z",
-  "total": 4189,
+  "updated": "2026-11-24T16:14:54.655660Z",
+  "total": 4214,
   "items": [
+    {
+      "key": "INC-26995",
+      "summary": "Device-code sign-in and new device registration from HostPapa IPs",
+      "status": "To Do",
+      "assignee": "ServiceDesk",
+      "priority": "P1",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26995"
+    },
+    {
+      "key": "INC-26994",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "To Do",
+      "assignee": "Unassigned",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26994"
+    },
+    {
+      "key": "INC-26993",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26993"
+    },
+    {
+      "key": "INC-26992",
+      "summary": "Valid AWS access key exposed in GitHub repository",
+      "status": "In Progress",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "SECURITY_INCIDENT",
+        "alerts",
+        "eSentire_Alert"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26992"
+    },
+    {
+      "key": "INC-26991",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/Follow/GetLibraryUpdates/{query}' > 4000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26991"
+    },
+    {
+      "key": "INC-26990",
+      "summary": "Valid AWS access key exposed in GitHub repository",
+      "status": "Actioned",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26990"
+    },
+    {
+      "key": "INC-26989",
+      "summary": "CRITICAL - Enterprise - UAT - RegBook Migration syncs are failing (2 hours+)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26989"
+    },
+    {
+      "key": "INC-26988",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26988"
+    },
+    {
+      "key": "INC-26987",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26987"
+    },
+    {
+      "key": "INC-26986",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #76151",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26986"
+    },
+    {
+      "key": "INC-26985",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26985"
+    },
+    {
+      "key": "INC-26984",
+      "summary": "CRITICAL - CONTENT PIPELINE - PROD - Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26984"
+    },
+    {
+      "key": "INC-26983",
+      "summary": "CRITICAL - Enterprise - UAT - RegBook Migration sync failed (1 hour)",
+      "status": "Closed",
+      "assignee": "Earl Francisco",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26983"
+    },
+    {
+      "key": "INC-26982",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26982"
+    },
+    {
+      "key": "INC-26981",
+      "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 10.0 for 5 minutes on 'UI API call failure %'",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26981"
+    },
+    {
+      "key": "INC-26980",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #76143",
+      "status": "In Progress",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26980"
+    },
+    {
+      "key": "INC-26979",
+      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #76143",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26979"
+    },
+    {
+      "key": "INC-26978",
+      "summary": "CRITICAL - Editorial Tools - PROD - editorial-tools-api-prod query result is > 10.0 for 5 minutes on 'UI API call failure %'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26978"
+    },
+    {
+      "key": "INC-26977",
+      "summary": "N/A -  { issueTitle }}",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26977"
+    },
+    {
+      "key": "INC-26976",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26976"
+    },
+    {
+      "key": "INC-26975",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26975"
+    },
+    {
+      "key": "INC-26974",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26974"
+    },
+    {
+      "key": "INC-26973",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26973"
+    },
+    {
+      "key": "INC-26972",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26972"
+    },
+    {
+      "key": "INC-26971",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26971"
+    },
+    {
+      "key": "INC-26970",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26970"
+    },
+    {
+      "key": "INC-26969",
+      "summary": "AWS IAM admin user identity checks from EKS egress",
+      "status": "Completed",
+      "assignee": "Muhim Hussen",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26969"
+    },
+    {
+      "key": "INC-26968",
+      "summary": "AWS IAM admin user identity checks from EKS egress",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26968"
+    },
+    {
+      "key": "INC-26967",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26967"
+    },
+    {
+      "key": "INC-26966",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "In Progress",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26966"
+    },
+    {
+      "key": "INC-26965",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26965"
+    },
+    {
+      "key": "INC-26964",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26964"
+    },
+    {
+      "key": "INC-26963",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26963"
+    },
+    {
+      "key": "INC-26962",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/Content/Get/{id}/{customerId}/{documentType},{keywords}' > 1000ms",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26962"
+    },
+    {
+      "key": "INC-26961",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "In Progress",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26961"
+    },
+    {
+      "key": "INC-26960",
+      "summary": "Intel Prod Content Ingestion Service logging errors",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26960"
+    },
+    {
+      "key": "INC-26959",
+      "summary": "CRITICAL - CLOUD - PROD - k8s:shared-prod-uksouth-aks:node:aks-intel01tmp-17713213-vmss000007 query result is > 90.0 for 5 minutes on 'Node allocatable cpu utilization is high'",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26959"
+    },
+    {
+      "key": "INC-26958",
+      "summary": "CRITICAL - CLOUD - PROD - k8s:shared-prod-uksouth-aks:node:aks-intel01tmp-17713213-vmss000007 query result is > 90.0 for 5 minutes on 'Node allocatable cpu utilization is high'",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26958"
+    },
+    {
+      "key": "INC-26957",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26957"
+    },
+    {
+      "key": "INC-26956",
+      "summary": "[Preview] [Alert] Health check status changed for origin-abcd",
+      "status": "Closed",
+      "assignee": "Scorch Escarcha",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26956"
+    },
+    {
+      "key": "INC-26955",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12653",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26955"
+    },
+    {
+      "key": "INC-26954",
+      "summary": "CRITICAL - Enterprise -  CUBEPROD1SQL04 - Storage Utilisation > 80% for 30 Minutes",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26954"
+    },
+    {
+      "key": "INC-26953",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26953"
+    },
+    {
+      "key": "INC-26952",
+      "summary": "CRITICAL - Enterprise - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26952"
+    },
+    {
+      "key": "INC-26951",
+      "summary": "CRITICAL - Enterprise - critical - PRDSM - Insight Pipeline Validation Throughput below 50 for 30mins",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26951"
+    },
+    {
+      "key": "INC-26950",
+      "summary": "CRITICAL - Enterprise - piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Completed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26950"
+    },
+    {
+      "key": "INC-26949",
+      "summary": "CRITICAL - Enterprise - piuattranslate-be-0100000E - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26949"
+    },
+    {
+      "key": "INC-26948",
+      "summary": "CRITICAL - Enterprise - UAT - RegBook Migration syncs are failing (2 hours+)",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26948"
+    },
+    {
+      "key": "INC-26947",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26947"
+    },
+    {
+      "key": "INC-26946",
+      "summary": "CRITICAL - PRDSM - EiC: Enterprise (Cloud) PROD - ElasticInsightIngester Elasticsearch - enterprise-prod-elasticinsightingester-uks",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26946"
+    },
+    {
+      "key": "INC-26945",
+      "summary": "CRITICAL - Enterprise - PROD - RegBook Migration syncs are failing (2 hours+)",
+      "status": "Closed",
+      "assignee": "Nicole Tan-Flores",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26945"
+    },
+    {
+      "key": "INC-26944",
+      "summary": "Your daily Uptrends report: Account overview",
+      "status": "Closed",
+      "assignee": "Silver Dangeros",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26944"
+    },
+    {
+      "key": "INC-26943",
+      "summary": "CRITICAL - ENTERPRISE - PROD - gcp-pubsub-kafkaconnect-connect query result is > 3.0 for 2 minutes on '[C4] Debezium - gcp-pubsub restarts'",
+      "status": "In Progress",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26943"
+    },
+    {
+      "key": "INC-26942",
+      "summary": "CRITICAL - ENTERPRISE - PROD - gcp-pubsub-kafkaconnect-connect query result is > 3.0 for 2 minutes on '[C4] Debezium - gcp-pubsub restarts'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26942"
+    },
+    {
+      "key": "INC-26941",
+      "summary": "CRITICAL - Enterprise - UAT - RegBook Migration sync failed (1 hour)",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26941"
+    },
+    {
+      "key": "INC-26940",
+      "summary": "CRITICAL - Enterprise - PROD - RegBook Migration sync failed (1 hour)",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26940"
+    },
+    {
+      "key": "INC-26939",
+      "summary": "CRITICAL - ENTERPRISE - PROD - elasticbookupdater-function query result is > 0.0 for 2 minutes on '[D4] Functions - Deployment unavailable'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26939"
+    },
+    {
+      "key": "INC-26938",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12650",
+      "status": "In Progress",
+      "assignee": "Sivachidambaram Srinivasan",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26938"
+    },
+    {
+      "key": "INC-26937",
+      "summary": "[NR] editorial-tools-api-test query result is > 8.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26937"
+    },
+    {
+      "key": "INC-26936",
+      "summary": "Test Reporting & Analytics run insights for run: RM-Health-Tests #12650",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26936"
+    },
+    {
+      "key": "INC-26935",
+      "summary": "[NR] editorial-tools-api-test query result is > 8.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Completed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26935"
+    },
+    {
+      "key": "INC-26934",
+      "summary": "[NR] editorial-tools-api-test query result is > 8.0 for 5 minutes on 'API latency p95 (s)'",
+      "status": "Actioned",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26934"
+    },
+    {
+      "key": "INC-26933",
+      "summary": "CRITICAL - INTEL - PROD - 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26933"
+    },
+    {
+      "key": "INC-26932",
+      "summary": "[NR] editorial-tools-api-dev query result is > 10.0 for 10 minutes on 'UI API call failure %'",
+      "status": "Closed",
+      "assignee": "Andrei Item",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26932"
+    },
+    {
+      "key": "INC-26931",
+      "summary": "CRITICAL - Enterprise - piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
+      "status": "In Progress",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26931"
+    },
+    {
+      "key": "INC-26930",
+      "summary": "CRITICAL - Enterprise - piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
+      "status": "Actioned",
+      "assignee": "Justin Andrei Magbuhat",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26930"
+    },
+    {
+      "key": "INC-26929",
+      "summary": "[NR] editorial-tools-api-dev query result is > 10.0 for 10 minutes on 'UI API call failure %'",
+      "status": "Completed",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Service Incident",
+      "labels": [
+        "24x7"
+      ],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26929"
+    },
+    {
+      "key": "INC-26928",
+      "summary": "[NR] editorial-tools-api-dev query result is > 10.0 for 10 minutes on 'UI API call failure %'",
+      "status": "Actioned",
+      "assignee": "Zyra Nicolas",
+      "priority": "P3",
+      "issuetype": "Alert",
+      "labels": [],
+      "created": "2026-11-24",
+      "updated": "2026-11-24",
+      "url": "https://cube001.atlassian.net/browse/INC-26928"
+    },
     {
       "key": "INC-26927",
       "summary": "[NR] editorial-tools-api-uat query result is > 0.0 on 'FetchRegInsightsJob errors'",
@@ -17,11 +855,13 @@
     {
       "key": "INC-26926",
       "summary": "[NR] editorial-tools-api-test query result is > 0.0 on 'FetchRegInsightsJob errors'",
-      "status": "To Do",
+      "status": "Completed",
       "assignee": "Silver Dangeros",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-24",
       "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26926"
@@ -497,13 +1337,15 @@
     {
       "key": "INC-26887",
       "summary": "P3 - ODEN - PROD - Granwest Insurance Company | Case# 00017612",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-23",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26887"
     },
     {
@@ -605,11 +1447,13 @@
     {
       "key": "INC-26878",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #73570",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Ser Jan Aldreach Perez",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-23",
       "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26878"
@@ -1073,13 +1917,15 @@
     {
       "key": "INC-26840",
       "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #73536",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-23",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26840"
     },
     {
@@ -1106,7 +1952,7 @@
         "Alerts-From-Staff"
       ],
       "created": "2026-11-23",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26838"
     },
     {
@@ -1240,7 +2086,7 @@
     {
       "key": "INC-26827",
       "summary": "[NR] editorial-tools-api-test query result is > 10.0 for 10 minutes on 'UI API call failure %'",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Michael Angelo Dorio",
       "priority": "P3",
       "issuetype": "Service Incident",
@@ -1250,7 +2096,7 @@
         "alerts"
       ],
       "created": "2026-11-23",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26827"
     },
     {
@@ -1286,7 +2132,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-23",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26824"
     },
     {
@@ -1563,7 +2409,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-23",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26802"
     },
     {
@@ -1743,11 +2589,13 @@
     {
       "key": "INC-26787",
       "summary": "CRITICAL - Enterprise - piuattranslate-be-0100000F - RAM Utilisation > 90% for 30 Minutes",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Johnmar Carlos Wabe",
       "priority": "P3",
       "issuetype": "Service Incident",
-      "labels": [],
+      "labels": [
+        "24x7"
+      ],
       "created": "2026-11-23",
       "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26787"
@@ -2818,7 +3666,7 @@
         "newrelic"
       ],
       "created": "2026-11-22",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26701"
     },
     {
@@ -4571,7 +5419,7 @@
         "UAT"
       ],
       "created": "2026-11-21",
-      "updated": "2026-11-22",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26560"
     },
     {
@@ -5744,7 +6592,7 @@
         "ODEN"
       ],
       "created": "2026-11-20",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26467"
     },
     {
@@ -6109,7 +6957,7 @@
         "ODEN"
       ],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26438"
     },
     {
@@ -6195,7 +7043,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26431"
     },
     {
@@ -6211,7 +7059,7 @@
         "ODEN"
       ],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26430"
     },
     {
@@ -6289,7 +7137,7 @@
         "ODEN"
       ],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26424"
     },
     {
@@ -6774,7 +7622,7 @@
         "24x7"
       ],
       "created": "2026-11-20",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26386"
     },
     {
@@ -9516,7 +10364,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-18",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26167"
     },
     {
@@ -9658,7 +10506,7 @@
         "ODEN"
       ],
       "created": "2026-11-18",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26156"
     },
     {
@@ -9831,7 +10679,7 @@
         "eSentire_Alert"
       ],
       "created": "2026-11-18",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26143"
     },
     {
@@ -10588,7 +11436,7 @@
         "ODEN"
       ],
       "created": "2026-11-17",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26086"
     },
     {
@@ -10603,7 +11451,7 @@
         "PROD"
       ],
       "created": "2026-11-17",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-26085"
     },
     {
@@ -11840,7 +12688,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-16",
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-25989"
     },
     {
@@ -12103,7 +12951,7 @@
         "PROD"
       ],
       "created": "2026-11-16",
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-25968"
     },
     {
@@ -18266,7 +19114,7 @@
         "24x7"
       ],
       "created": "2026-11-13",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-25466"
     },
     {
@@ -21882,7 +22730,7 @@
         "PROD"
       ],
       "created": "2026-11-11",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-25176"
     },
     {
@@ -25844,7 +26692,7 @@
     {
       "key": "INC-24859",
       "summary": "P2 - ODEN - PROD - GEICO: 502 Error When Creating a Notice | Case# 00017303",
-      "status": "In Progress",
+      "status": "Completed",
       "assignee": "Dadabasha Shaik",
       "priority": "P2",
       "issuetype": "Service Incident",
@@ -25853,7 +26701,7 @@
         "PROD"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-24859"
     },
     {
@@ -26350,7 +27198,7 @@
         "PROD"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-24819"
     },
     {
@@ -26489,7 +27337,7 @@
         "ODEN"
       ],
       "created": "2026-11-10",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-24808"
     },
     {
@@ -27061,7 +27909,7 @@
       "issuetype": "Service Incident",
       "labels": [],
       "created": "2026-11-09",
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-24763"
     },
     {
@@ -28156,7 +29004,7 @@
       "key": "INC-24677",
       "summary": "P3 - Enterprise - PROD - DQ Framework process stuck",
       "status": "In Progress",
-      "assignee": "Yinka Shoge",
+      "assignee": "Yuriy Kryzhanovskyy",
       "priority": "P3",
       "issuetype": "Service Incident",
       "labels": [
@@ -28165,7 +29013,7 @@
         "Database"
       ],
       "created": "2026-11-09",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-24677"
     },
     {
@@ -35438,7 +36286,7 @@
         "ODEN"
       ],
       "created": "2026-11-05",
-      "updated": "2026-11-20",
+      "updated": "2026-11-24",
       "url": "https://cube001.atlassian.net/browse/INC-24087"
     },
     {
@@ -51574,534 +52422,6 @@
       "created": "2026-10-25",
       "updated": "2026-10-25",
       "url": "https://cube001.atlassian.net/browse/INC-22778"
-    },
-    {
-      "key": "INC-22777",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22777"
-    },
-    {
-      "key": "INC-22776",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22776"
-    },
-    {
-      "key": "INC-22775",
-      "summary": "[critical] CUBEPROD1TRN02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22775"
-    },
-    {
-      "key": "INC-22774",
-      "summary": "[critical] CUBEPROD1TRN02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22774"
-    },
-    {
-      "key": "INC-22773",
-      "summary": "CUBEPROD1TRN02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22773"
-    },
-    {
-      "key": "INC-22772",
-      "summary": "CUBEPROD1TRN02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-25",
-      "updated": "2026-10-26",
-      "url": "https://cube001.atlassian.net/browse/INC-22772"
-    },
-    {
-      "key": "INC-22771",
-      "summary": "[critical] CUBEPROD1TRN02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22771"
-    },
-    {
-      "key": "INC-22770",
-      "summary": "CUBEPROD1TRN02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22770"
-    },
-    {
-      "key": "INC-22769",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Zyra Nicolas",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22769"
-    },
-    {
-      "key": "INC-22768",
-      "summary": "[critical] CUBEPROD2APP02 - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22768"
-    },
-    {
-      "key": "INC-22767",
-      "summary": "[critical] CUBEPROD2APP02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22767"
-    },
-    {
-      "key": "INC-22766",
-      "summary": "[critical] CUBEPROD2APP02 - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22766"
-    },
-    {
-      "key": "INC-22765",
-      "summary": "[critical] CUBEPROD2APP02 - CPU Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Johnmar Carlos Wabe",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22765"
-    },
-    {
-      "key": "INC-22764",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22764"
-    },
-    {
-      "key": "INC-22763",
-      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22763"
-    },
-    {
-      "key": "INC-22762",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22762"
-    },
-    {
-      "key": "INC-22761",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22761"
-    },
-    {
-      "key": "INC-22760",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22760"
-    },
-    {
-      "key": "INC-22759",
-      "summary": "[critical] CUBEPROD2APP02 - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22759"
-    },
-    {
-      "key": "INC-22758",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/Content,RelatedContent,AssetsContentHeadlines,User' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22758"
-    },
-    {
-      "key": "INC-22757",
-      "summary": "CUBEPROD2APP02 query result is > 90.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22757"
-    },
-    {
-      "key": "INC-22756",
-      "summary": "CUBEPROD2APP02 query result is > 95.0 for 10 minutes on 'High CPU Usage for Infrastructure Hosts'",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22756"
-    },
-    {
-      "key": "INC-22755",
-      "summary": "[critical] CUBEPROD2APP02 - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22755"
-    },
-    {
-      "key": "INC-22754",
-      "summary": "[critical] CUBEPROD2APP02 - RAM Utilisation > 90% for 30 Minutes",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22754"
-    },
-    {
-      "key": "INC-22753",
-      "summary": "Active Messages . Average > 2000.0 for at least 60 minutes on 'regflow-creation-events'",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22753"
-    },
-    {
-      "key": "INC-22752",
-      "summary": "critical - PRDSM - Insight Pipeline Mapper Throughput below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22752"
-    },
-    {
-      "key": "INC-22751",
-      "summary": "critical - PRDSM - Insight Pipeline Parser Throughput below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22751"
-    },
-    {
-      "key": "INC-22750",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22750"
-    },
-    {
-      "key": "INC-22749",
-      "summary": "critical - PRDSM - Insight Pipeline Ingested Insights below 50 for 30mins",
-      "status": "Closed",
-      "assignee": "Earl Francisco",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22749"
-    },
-    {
-      "key": "INC-22748",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22748"
-    },
-    {
-      "key": "INC-22747",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22747"
-    },
-    {
-      "key": "INC-22746",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22746"
-    },
-    {
-      "key": "INC-22745",
-      "summary": "Your daily Uptrends report: Account overview",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22745"
-    },
-    {
-      "key": "INC-22744",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22744"
-    },
-    {
-      "key": "INC-22743",
-      "summary": "[critical]  - INTEL 'WebTransaction/MVC/ContentQuery/GetAll/{queryParameters}/{pagination}' > 1000ms",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22743"
-    },
-    {
-      "key": "INC-22742",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #70736",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22742"
-    },
-    {
-      "key": "INC-22741",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Completed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Service Incident",
-      "labels": [
-        "24x7"
-      ],
-      "created": "2026-10-25",
-      "updated": "2026-10-26",
-      "url": "https://cube001.atlassian.net/browse/INC-22741"
-    },
-    {
-      "key": "INC-22740",
-      "summary": "PROBLEM: Base - CPU is CRITICAL on host CUBEPROD2PBI01",
-      "status": "Actioned",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22740"
-    },
-    {
-      "key": "INC-22739",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #73241",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22739"
-    },
-    {
-      "key": "INC-22738",
-      "summary": "\ud83d\udea8 CRITICAL | PROD | [D4] Functions - Deployment unavailable",
-      "status": "Closed",
-      "assignee": "Glenn Ticong",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22738"
-    },
-    {
-      "key": "INC-22737",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #73240",
-      "status": "Closed",
-      "assignee": "Michael Angelo Dorio",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22737"
-    },
-    {
-      "key": "INC-22736",
-      "summary": "Test Reporting & Analytics run insights for run: PROD Consumer Application Monitoring #70729",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22736"
-    },
-    {
-      "key": "INC-22735",
-      "summary": "Test Reporting & Analytics run insights for run: UAT Consumer Application Monitoring #73239",
-      "status": "Closed",
-      "assignee": "Nicole Tan-Flores",
-      "priority": "P3",
-      "issuetype": "Alert",
-      "labels": [],
-      "created": "2026-10-25",
-      "updated": "2026-10-25",
-      "url": "https://cube001.atlassian.net/browse/INC-22735"
     }
   ]
 }
